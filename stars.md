@@ -1,6 +1,6 @@
 # ⭐ GitHub Stars Index
 
-> Updated: 2026-02-25 16:56 UTC · Total: 46
+> Updated: 2026-02-25 19:25 UTC · Total: 788
 
 ---
 
@@ -51,6 +51,748 @@
 - [[#github/spec-kit|github/spec-kit]]
 - [[#Scipline/Image_matting|Scipline/Image_matting]]
 - [[#VoltAgent/awesome-claude-code-subagents|VoltAgent/awesome-claude-code-subagents]]
+- [[#UfoMiao/zcf|UfoMiao/zcf]]
+- [[#MapleShaw/auto-claude-writing-agent-pub|MapleShaw/auto-claude-writing-agent-pub]]
+- [[#google-gemini/gemini-cli|google-gemini/gemini-cli]]
+- [[#xunbu/docutranslate|xunbu/docutranslate]]
+- [[#dataease/SQLBot|dataease/SQLBot]]
+- [[#ckanner/jta|ckanner/jta]]
+- [[#zensical/zensical|zensical/zensical]]
+- [[#666ghj/BettaFish|666ghj/BettaFish]]
+- [[#liujuntao123/smart-excalidraw-next|liujuntao123/smart-excalidraw-next]]
+- [[#mayswind/ezbookkeeping|mayswind/ezbookkeeping]]
+- [[#vaspike/agtok|vaspike/agtok]]
+- [[#iflow-ai/iflow-cli|iflow-ai/iflow-cli]]
+- [[#mouday/stock-open-api|mouday/stock-open-api]]
+- [[#phiresky/isbn-visualization|phiresky/isbn-visualization]]
+- [[#glink25/Cent|glink25/Cent]]
+- [[#wuqi-y/auto-cursor-releases|wuqi-y/auto-cursor-releases]]
+- [[#slopus/happy|slopus/happy]]
+- [[#bytebot-ai/bytebot|bytebot-ai/bytebot]]
+- [[#Zie619/n8n-workflows|Zie619/n8n-workflows]]
+- [[#Tencent/WeKnora|Tencent/WeKnora]]
+- [[#CapSoftware/Cap|CapSoftware/Cap]]
+- [[#MagicMirrorOrg/MagicMirror|MagicMirrorOrg/MagicMirror]]
+- [[#yan5xu/ququ|yan5xu/ququ]]
+- [[#AmeNetwork/aser|AmeNetwork/aser]]
+- [[#ChromeDevTools/chrome-devtools-mcp|ChromeDevTools/chrome-devtools-mcp]]
+- [[#i18n-pro/core|i18n-pro/core]]
+- [[#shareAI-lab/Kode-cli|shareAI-lab/Kode-cli]]
+- [[#cfrs2005/claude-init|cfrs2005/claude-init]]
+- [[#bestK/vscode-internal-command-mcp-server|bestK/vscode-internal-command-mcp-server]]
+- [[#MatrixSeven/file-transfer-go|MatrixSeven/file-transfer-go]]
+- [[#virgoone/next-money|virgoone/next-money]]
+- [[#ItusiAI/Open-Aiartools|ItusiAI/Open-Aiartools]]
+- [[#tbphp/gpt-load|tbphp/gpt-load]]
+- [[#iOfficeAI/AionUi|iOfficeAI/AionUi]]
+- [[#monkeyWie/typix|monkeyWie/typix]]
+- [[#musistudio/claude-code-router|musistudio/claude-code-router]]
+- [[#glidea/claude-worker-proxy|glidea/claude-worker-proxy]]
+- [[#xpzouying/xiaohongshu-mcp|xpzouying/xiaohongshu-mcp]]
+- [[#aoguai/LiYing|aoguai/LiYing]]
+- [[#chaitin/MonkeyCode|chaitin/MonkeyCode]]
+- [[#90le/Excel-Plugin-Template|90le/Excel-Plugin-Template]]
+- [[#rememberber/WePush|rememberber/WePush]]
+- [[#MoonCakeTV/MoonCakeTV|MoonCakeTV/MoonCakeTV]]
+- [[#wzdnzd/aggregator|wzdnzd/aggregator]]
+- [[#winfunc/opcode|winfunc/opcode]]
+- [[#microsoft/OmniParser|microsoft/OmniParser]]
+- [[#sansan0/TrendRadar|sansan0/TrendRadar]]
+- [[#rdev/liquid-glass-react|rdev/liquid-glass-react]]
+- [[#johnson7788/MultiAgentPPT|johnson7788/MultiAgentPPT]]
+- [[#justlovemaki/AIClient-2-API|justlovemaki/AIClient-2-API]]
+- [[#dreamhunter2333/cloudflare_temp_email|dreamhunter2333/cloudflare_temp_email]]
+- [[#linqiu919/augment2api|linqiu919/augment2api]]
+- [[#LKbaba/Claude-code-ChatInWindows|LKbaba/Claude-code-ChatInWindows]]
+- [[#OpenCut-app/OpenCut|OpenCut-app/OpenCut]]
+- [[#xiao-zaiyi/illa-helper|xiao-zaiyi/illa-helper]]
+- [[#yuaotian/go-augment-cleaner|yuaotian/go-augment-cleaner]]
+- [[#algerkong/AlgerMusicPlayer|algerkong/AlgerMusicPlayer]]
+- [[#jaypyles/Scraperr|jaypyles/Scraperr]]
+- [[#tingxifa/claude_proxy|tingxifa/claude_proxy]]
+- [[#mindsdb/mindsdb|mindsdb/mindsdb]]
+- [[#TryGhost/Ghost|TryGhost/Ghost]]
+- [[#Afilmory/afilmory|Afilmory/afilmory]]
+- [[#kanshurichard/enableAppleAI|kanshurichard/enableAppleAI]]
+- [[#punkpeye/awesome-mcp-servers|punkpeye/awesome-mcp-servers]]
+- [[#vancur2021/ProxyFilter|vancur2021/ProxyFilter]]
+- [[#input-leap/input-leap|input-leap/input-leap]]
+- [[#1chooo/portfolio|1chooo/portfolio]]
+- [[#hangwin/mcp-chrome|hangwin/mcp-chrome]]
+- [[#RVC-Boss/GPT-SoVITS|RVC-Boss/GPT-SoVITS]]
+- [[#Minidoracat/mcp-feedback-enhanced|Minidoracat/mcp-feedback-enhanced]]
+- [[#google-ai-edge/gallery|google-ai-edge/gallery]]
+- [[#google-gemini/gemini-fullstack-langgraph-quickstart|google-gemini/gemini-fullstack-langgraph-quickstart]]
+- [[#u14app/deep-research|u14app/deep-research]]
+- [[#MikeWang000000/FakeHTTP|MikeWang000000/FakeHTTP]]
+- [[#sanshao85/mcp-feedback-collector|sanshao85/mcp-feedback-collector]]
+- [[#hpcaitech/Open-Sora|hpcaitech/Open-Sora]]
+- [[#WindChimeEcho/read-bridge|WindChimeEcho/read-bridge]]
+- [[#jing332/tts-server-android|jing332/tts-server-android]]
+- [[#chatanywhere/GPT_API_free|chatanywhere/GPT_API_free]]
+- [[#liujuntao123/smart-mermaid|liujuntao123/smart-mermaid]]
+- [[#thusvill/LiveWallpaperMacOS|thusvill/LiveWallpaperMacOS]]
+- [[#xyTom/snippai|xyTom/snippai]]
+- [[#superzhang21/ghostwriter|superzhang21/ghostwriter]]
+- [[#ascoders/weekly|ascoders/weekly]]
+- [[#ruanyf/weekly|ruanyf/weekly]]
+- [[#chengazhen/cursor-auto-free|chengazhen/cursor-auto-free]]
+- [[#24mlight/A_Share_investment_Agent|24mlight/A_Share_investment_Agent]]
+- [[#TapXWorld/ChinaTextbook|TapXWorld/ChinaTextbook]]
+- [[#ayangweb/BongoCat|ayangweb/BongoCat]]
+- [[#voideditor/void|voideditor/void]]
+- [[#LLM-Red-Team/minimax-free-api|LLM-Red-Team/minimax-free-api]]
+- [[#HappyDongD/magic_image|HappyDongD/magic_image]]
+- [[#someone1128/WeChatReaderEnhancer|someone1128/WeChatReaderEnhancer]]
+- [[#X1a0He/Adobe-Downloader|X1a0He/Adobe-Downloader]]
+- [[#ripienaar/free-for-dev|ripienaar/free-for-dev]]
+- [[#harry0703/MoneyPrinterTurbo|harry0703/MoneyPrinterTurbo]]
+- [[#fmhy/edit|fmhy/edit]]
+- [[#maotoumao/MusicFreeDesktop|maotoumao/MusicFreeDesktop]]
+- [[#maotoumao/MusicFree|maotoumao/MusicFree]]
+- [[#QL-Win/QuickLook|QL-Win/QuickLook]]
+- [[#gedoor/gedoor.github.io|gedoor/gedoor.github.io]]
+- [[#modelcontextprotocol/servers|modelcontextprotocol/servers]]
+- [[#J3n5en/bye|J3n5en/bye]]
+- [[#x1xhlol/system-prompts-and-models-of-ai-tools|x1xhlol/system-prompts-and-models-of-ai-tools]]
+- [[#remotion-dev/remotion|remotion-dev/remotion]]
+- [[#ahmedkhaleel2004/gitdiagram|ahmedkhaleel2004/gitdiagram]]
+- [[#PrefectHQ/fastmcp|PrefectHQ/fastmcp]]
+- [[#microsoft/markitdown|microsoft/markitdown]]
+- [[#EBOLABOY/GridBNB-USDT|EBOLABOY/GridBNB-USDT]]
+- [[#richards199999/Thinking-Claude|richards199999/Thinking-Claude]]
+- [[#ihmily/StreamCap|ihmily/StreamCap]]
+- [[#hiroi-sora/Umi-OCR|hiroi-sora/Umi-OCR]]
+- [[#droidrun/droidrun|droidrun/droidrun]]
+- [[#snailyp/gemini-balance|snailyp/gemini-balance]]
+- [[#LLM-Red-Team/jimeng-free-api|LLM-Red-Team/jimeng-free-api]]
+- [[#RooCodeInc/Roo-Code|RooCodeInc/Roo-Code]]
+- [[#JefferyHcool/BiliNote|JefferyHcool/BiliNote]]
+- [[#casibase/casibase|casibase/casibase]]
+- [[#LibreSpark/LibreTTS|LibreSpark/LibreTTS]]
+- [[#dbccccccc/ttsfm|dbccccccc/ttsfm]]
+- [[#d2l-ai/d2l-zh|d2l-ai/d2l-zh]]
+- [[#browser-use/desktop|browser-use/desktop]]
+- [[#n8n-io/n8n|n8n-io/n8n]]
+- [[#cline/cline|cline/cline]]
+- [[#bestK/tv|bestK/tv]]
+- [[#p0deje/Maccy|p0deje/Maccy]]
+- [[#xiaoxiunique/xhs|xiaoxiunique/xhs]]
+- [[#Loyalsoldier/clash-rules|Loyalsoldier/clash-rules]]
+- [[#sparrow-js/an-codeAI|sparrow-js/an-codeAI]]
+- [[#golangboy/wxocr|golangboy/wxocr]]
+- [[#sjzar/chatlog|sjzar/chatlog]]
+- [[#SparkAudio/Spark-TTS|SparkAudio/Spark-TTS]]
+- [[#punkpeye/awesome-mcp-clients|punkpeye/awesome-mcp-clients]]
+- [[#jerrylususu/bookmark-summary|jerrylususu/bookmark-summary]]
+- [[#goxofy/web_clipper|goxofy/web_clipper]]
+- [[#binary-husky/gpt_academic|binary-husky/gpt_academic]]
+- [[#subframe7536/maple-font|subframe7536/maple-font]]
+- [[#daodao97/chatmcp|daodao97/chatmcp]]
+- [[#x-haose/py-iztro|x-haose/py-iztro]]
+- [[#SylarLong/iztro|SylarLong/iztro]]
+- [[#Angels-Ray/fake-cursor|Angels-Ray/fake-cursor]]
+- [[#pot-app/pot-desktop|pot-app/pot-desktop]]
+- [[#STranslate/STranslate|STranslate/STranslate]]
+- [[#easychen/checkchan-dist|easychen/checkchan-dist]]
+- [[#browser-use/browser-use|browser-use/browser-use]]
+- [[#labring/FastGPT|labring/FastGPT]]
+- [[#pollinations/pollinations|pollinations/pollinations]]
+- [[#beilunyang/moepush|beilunyang/moepush]]
+- [[#ThinkInAIXYZ/deepchat|ThinkInAIXYZ/deepchat]]
+- [[#xxlllq/system_architect|xxlllq/system_architect]]
+- [[#LLM-Red-Team/deepseek-free-api|LLM-Red-Team/deepseek-free-api]]
+- [[#miantiao-me/hacker-podcast|miantiao-me/hacker-podcast]]
+- [[#massgravel/Microsoft-Activation-Scripts|massgravel/Microsoft-Activation-Scripts]]
+- [[#Anxcye/anx-reader|Anxcye/anx-reader]]
+- [[#infiniflow/ragflow|infiniflow/ragflow]]
+- [[#uxiaohan/HanAnalytics|uxiaohan/HanAnalytics]]
+- [[#onlook-dev/onlook|onlook-dev/onlook]]
+- [[#zanjie1999/meDisplay|zanjie1999/meDisplay]]
+- [[#Mintplex-Labs/anything-llm|Mintplex-Labs/anything-llm]]
+- [[#rag-web-ui/rag-web-ui|rag-web-ui/rag-web-ui]]
+- [[#fmz200/wool_scripts|fmz200/wool_scripts]]
+- [[#trueai-org/midjourney-proxy|trueai-org/midjourney-proxy]]
+- [[#yuaotian/go-cursor-help|yuaotian/go-cursor-help]]
+- [[#neetigyachahar/GenQL|neetigyachahar/GenQL]]
+- [[#stark81/VutronMusic|stark81/VutronMusic]]
+- [[#jeffvli/feishin|jeffvli/feishin]]
+- [[#get-artab/artab|get-artab/artab]]
+- [[#beilunyang/moemail|beilunyang/moemail]]
+- [[#whotto/Video_note_generator|whotto/Video_note_generator]]
+- [[#kingparks/cursor-vip|kingparks/cursor-vip]]
+- [[#bestK/cursor-fake-machine|bestK/cursor-fake-machine]]
+- [[#acmesh-official/acme.sh|acmesh-official/acme.sh]]
+- [[#ErwannMillon/Color-diffusion|ErwannMillon/Color-diffusion]]
+- [[#kamranahmedse/developer-roadmap|kamranahmedse/developer-roadmap]]
+- [[#microsoft/playwright-python|microsoft/playwright-python]]
+- [[#microsoft/playwright|microsoft/playwright]]
+- [[#mistweaverco/bananas|mistweaverco/bananas]]
+- [[#Genymobile/scrcpy|Genymobile/scrcpy]]
+- [[#didi/xiaoju-survey|didi/xiaoju-survey]]
+- [[#AntonOsika/gpt-engineer|AntonOsika/gpt-engineer]]
+- [[#timlrx/tailwind-nextjs-starter-blog|timlrx/tailwind-nextjs-starter-blog]]
+- [[#caol64/wenyan|caol64/wenyan]]
+- [[#ngc660sec/NGCBot|ngc660sec/NGCBot]]
+- [[#WangRongsheng/awesome-LLM-resources|WangRongsheng/awesome-LLM-resources]]
+- [[#JingMatrix/LSPosed|JingMatrix/LSPosed]]
+- [[#mihomo-party-org/clash-party|mihomo-party-org/clash-party]]
+- [[#docling-project/docling|docling-project/docling]]
+- [[#nuance-dev/figura|nuance-dev/figura]]
+- [[#getmaxun/maxun|getmaxun/maxun]]
+- [[#opendatalab/MinerU|opendatalab/MinerU]]
+- [[#JohannesKaufmann/html-to-markdown|JohannesKaufmann/html-to-markdown]]
+- [[#CatchTheTornado/text-extract-api|CatchTheTornado/text-extract-api]]
+- [[#memfreeme/memfree|memfreeme/memfree]]
+- [[#shallowdream204/DreamClear|shallowdream204/DreamClear]]
+- [[#ltaoo/wx_channels_download|ltaoo/wx_channels_download]]
+- [[#WEIFENG2333/AsrTools|WEIFENG2333/AsrTools]]
+- [[#cs-lazy-tools/ChatGPT-On-CS|cs-lazy-tools/ChatGPT-On-CS]]
+- [[#14790897/paper-ai|14790897/paper-ai]]
+- [[#MetaCubeX/mihomo|MetaCubeX/mihomo]]
+- [[#libnyanpasu/clash-nyanpasu|libnyanpasu/clash-nyanpasu]]
+- [[#clash-verge-rev/clash-verge-rev|clash-verge-rev/clash-verge-rev]]
+- [[#jxlpzqc/TMSpeech|jxlpzqc/TMSpeech]]
+- [[#ChinaGodMan/UserScripts|ChinaGodMan/UserScripts]]
+- [[#hiddify/hiddify-app|hiddify/hiddify-app]]
+- [[#chen08209/FlClash|chen08209/FlClash]]
+- [[#unclecode/crawl4ai|unclecode/crawl4ai]]
+- [[#coder-hxl/x-crawl|coder-hxl/x-crawl]]
+- [[#open-webui/open-webui|open-webui/open-webui]]
+- [[#LLM-Red-Team/kimi-free-api|LLM-Red-Team/kimi-free-api]]
+- [[#lewkamtao/lew-ui|lewkamtao/lew-ui]]
+- [[#langgenius/dify|langgenius/dify]]
+- [[#Huanshere/VideoLingo|Huanshere/VideoLingo]]
+- [[#kuangdd2024/auto-video-generateor|kuangdd2024/auto-video-generateor]]
+- [[#pure-admin/vue-pure-admin|pure-admin/vue-pure-admin]]
+- [[#doocs/md|doocs/md]]
+- [[#CoderWanFeng/python-office|CoderWanFeng/python-office]]
+- [[#HiddenStrawberry/Crawler_Illegal_Cases_In_China|HiddenStrawberry/Crawler_Illegal_Cases_In_China]]
+- [[#someu/aigotools|someu/aigotools]]
+- [[#xkdvSrPD/blog-next-view|xkdvSrPD/blog-next-view]]
+- [[#joye61/pic-smaller|joye61/pic-smaller]]
+- [[#drawdb-io/drawdb|drawdb-io/drawdb]]
+- [[#jianchang512/ChatTTS-ui|jianchang512/ChatTTS-ui]]
+- [[#lihaoyun6/QuickRecorder|lihaoyun6/QuickRecorder]]
+- [[#TonyJiangWJ/Auto.js|TonyJiangWJ/Auto.js]]
+- [[#modelscope/FunClip|modelscope/FunClip]]
+- [[#1c7/chinese-independent-developer|1c7/chinese-independent-developer]]
+- [[#firecrawl/firecrawl|firecrawl/firecrawl]]
+- [[#EmbraceAGI/Awesome-AI-GPTs|EmbraceAGI/Awesome-AI-GPTs]]
+- [[#cluic/wxauto|cluic/wxauto]]
+- [[#NanmiCoder/MediaCrawler|NanmiCoder/MediaCrawler]]
+- [[#pwh-pwh/aiwechat-vercel|pwh-pwh/aiwechat-vercel]]
+- [[#abi/screenshot-to-code|abi/screenshot-to-code]]
+- [[#lss233/kirara-ai|lss233/kirara-ai]]
+- [[#aleksey-hoffman/sigma-file-manager|aleksey-hoffman/sigma-file-manager]]
+- [[#JoeanAmier/XHS-Downloader|JoeanAmier/XHS-Downloader]]
+- [[#sun0225SUN/Awesome-Love-Code|sun0225SUN/Awesome-Love-Code]]
+- [[#linexjlin/GPTs|linexjlin/GPTs]]
+- [[#JoeanAmier/TikTokDownloader|JoeanAmier/TikTokDownloader]]
+- [[#bleedline/aimoneyhunter|bleedline/aimoneyhunter]]
+- [[#ffay/lanproxy|ffay/lanproxy]]
+- [[#LC044/WeChatMsg|LC044/WeChatMsg]]
+- [[#robotframework/robotframework|robotframework/robotframework]]
+- [[#tebelorg/RPA-Python|tebelorg/RPA-Python]]
+- [[#NaiboWang/EasySpider|NaiboWang/EasySpider]]
+- [[#lxgw/LxgwWenKai|lxgw/LxgwWenKai]]
+- [[#favourhong/Awesome-Marp|favourhong/Awesome-Marp]]
+- [[#public-apis/public-apis|public-apis/public-apis]]
+- [[#ryanhanwu/How-To-Ask-Questions-The-Smart-Way|ryanhanwu/How-To-Ask-Questions-The-Smart-Way]]
+- [[#1Remote/1Remote|1Remote/1Remote]]
+- [[#sytpb/chatgpt-wework-robot|sytpb/chatgpt-wework-robot]]
+- [[#sytpb/chatgpt-dingtalk-robot|sytpb/chatgpt-dingtalk-robot]]
+- [[#langgptai/LangGPT|langgptai/LangGPT]]
+- [[#mli/autocut|mli/autocut]]
+- [[#s0md3v/roop|s0md3v/roop]]
+- [[#jesselau76/GPT-Prompts|jesselau76/GPT-Prompts]]
+- [[#eli64s/readme-ai|eli64s/readme-ai]]
+- [[#reorx/awesome-chatgpt-api|reorx/awesome-chatgpt-api]]
+- [[#apicat/apicat|apicat/apicat]]
+- [[#Postcatlab/postcat|Postcatlab/postcat]]
+- [[#yanqiangmiffy/Chinese-LangChain|yanqiangmiffy/Chinese-LangChain]]
+- [[#eosphoros-ai/DB-GPT|eosphoros-ai/DB-GPT]]
+- [[#GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese|GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese]]
+- [[#phodal/understand-prompt|phodal/understand-prompt]]
+- [[#cypress-io/cypress|cypress-io/cypress]]
+- [[#Stability-AI/StableStudio|Stability-AI/StableStudio]]
+- [[#ConnectAI-E/feishu-openai|ConnectAI-E/feishu-openai]]
+- [[#shawshany/ChatGPT_Project|shawshany/ChatGPT_Project]]
+- [[#AprilNEA/AChat|AprilNEA/AChat]]
+- [[#zhayujie/chatgpt-on-wechat|zhayujie/chatgpt-on-wechat]]
+- [[#chatboxai/chatbox|chatboxai/chatbox]]
+- [[#SCIR-HI/Huatuo-Llama-Med-Chinese|SCIR-HI/Huatuo-Llama-Med-Chinese]]
+- [[#X-D-Lab/LangChain-ChatGLM-Webui|X-D-Lab/LangChain-ChatGLM-Webui]]
+- [[#langchain-ai/langchain|langchain-ai/langchain]]
+- [[#chatchat-space/Langchain-Chatchat|chatchat-space/Langchain-Chatchat]]
+- [[#liaokongVFX/LangChain-Chinese-Getting-Started-Guide|liaokongVFX/LangChain-Chinese-Getting-Started-Guide]]
+- [[#getsurfboard/surfboard|getsurfboard/surfboard]]
+- [[#datawhalechina/llm-cookbook|datawhalechina/llm-cookbook]]
+- [[#ChatGPTNextWeb/NextChat|ChatGPTNextWeb/NextChat]]
+- [[#Comfy-Org/ComfyUI|Comfy-Org/ComfyUI]]
+- [[#chenfei-wu/TaskMatrix|chenfei-wu/TaskMatrix]]
+- [[#run-llama/llama_index|run-llama/llama_index]]
+- [[#eryajf/chatgpt-dingtalk|eryajf/chatgpt-dingtalk]]
+- [[#PlexPt/awesome-chatgpt-prompts-zh|PlexPt/awesome-chatgpt-prompts-zh]]
+- [[#521xueweihan/HelloGitHub|521xueweihan/HelloGitHub]]
+- [[#wechaty/wechaty|wechaty/wechaty]]
+- [[#LAION-AI/Open-Assistant|LAION-AI/Open-Assistant]]
+- [[#easychen/howto-make-more-money|easychen/howto-make-more-money]]
+- [[#team-ide/teamide|team-ide/teamide]]
+- [[#ZhongFuCheng3y/austin|ZhongFuCheng3y/austin]]
+- [[#dianping/cat|dianping/cat]]
+- [[#GrowingGit/GitHub-Chinese-Top-Charts|GrowingGit/GitHub-Chinese-Top-Charts]]
+- [[#zaiyunduan123/Java-Summarize|zaiyunduan123/Java-Summarize]]
+- [[#CyC2018/CS-Notes|CyC2018/CS-Notes]]
+- [[#anuraghazra/github-readme-stats|anuraghazra/github-readme-stats]]
+- [[#MustangYM/WeChatExtension-ForMac|MustangYM/WeChatExtension-ForMac]]
+- [[#ant-design/ant-design|ant-design/ant-design]]
+- [[#coder2gwy/coder2gwy|coder2gwy/coder2gwy]]
+- [[#iswbm/magic-python|iswbm/magic-python]]
+- [[#SuperMonster003/Ant-Forest|SuperMonster003/Ant-Forest]]
+- [[#serhii-londar/open-source-mac-os-apps|serhii-londar/open-source-mac-os-apps]]
+- [[#alin23/Lunar|alin23/Lunar]]
+- [[#topjohnwu/Magisk|topjohnwu/Magisk]]
+- [[#xiyaowong/spiders|xiyaowong/spiders]]
+- [[#SimonAKing/scrcpy-gui|SimonAKing/scrcpy-gui]]
+- [[#claudiodangelis/qrcp|claudiodangelis/qrcp]]
+- [[#squidfunk/mkdocs-material|squidfunk/mkdocs-material]]
+- [[#Snailclimb/JavaGuide|Snailclimb/JavaGuide]]
+- [[#star7th/showdoc|star7th/showdoc]]
+- [[#yechaoa/wanandroid_flutter|yechaoa/wanandroid_flutter]]
+- [[#alibaba/easyexcel|alibaba/easyexcel]]
+- [[#zendesk/cross-storage|zendesk/cross-storage]]
+- [[#leisurelicht/wtfpython-cn|leisurelicht/wtfpython-cn]]
+- [[#getgridea/gridea|getgridea/gridea]]
+- [[#wenyan-lang/wenyan|wenyan-lang/wenyan]]
+- [[#ReactiveX/RxPY|ReactiveX/RxPY]]
+- [[#greatghoul/remote-working|greatghoul/remote-working]]
+- [[#clearw5/Auto.js|clearw5/Auto.js]]
+- [[#ydataai/ydata-profiling|ydataai/ydata-profiling]]
+- [[#psf/black|psf/black]]
+- [[#qiurunze123/miaosha|qiurunze123/miaosha]]
+- [[#xiaolai/regular-investing-in-box|xiaolai/regular-investing-in-box]]
+- [[#cfug/dio|cfug/dio]]
+- [[#flutterchina/flukit|flutterchina/flukit]]
+- [[#datawhalechina/leedl-tutorial|datawhalechina/leedl-tutorial]]
+- [[#lightningminers/flutter-book|lightningminers/flutter-book]]
+- [[#2d-inc/HistoryOfEverything|2d-inc/HistoryOfEverything]]
+- [[#alibaba/flutter-go|alibaba/flutter-go]]
+- [[#alexazhou/VeryNginx|alexazhou/VeryNginx]]
+- [[#ppwwyyxx/OpenPano|ppwwyyxx/OpenPano]]
+- [[#GoogleChromeLabs/squoosh|GoogleChromeLabs/squoosh]]
+- [[#FEMessage/el-data-table|FEMessage/el-data-table]]
+- [[#Solido/awesome-flutter|Solido/awesome-flutter]]
+- [[#jhao104/proxy_pool|jhao104/proxy_pool]]
+- [[#florinpop17/app-ideas|florinpop17/app-ideas]]
+- [[#YMFE/yapi|YMFE/yapi]]
+- [[#996icu/996.ICU|996icu/996.ICU]]
+- [[#skywind3000/awesome-cheatsheets|skywind3000/awesome-cheatsheets]]
+- [[#Sorosliu1029/Jike-Metro|Sorosliu1029/Jike-Metro]]
+- [[#mritd/mmh|mritd/mmh]]
+- [[#klaudiosinani/ao|klaudiosinani/ao]]
+- [[#macrozheng/mall|macrozheng/mall]]
+- [[#algorithm-visualizer/algorithm-visualizer|algorithm-visualizer/algorithm-visualizer]]
+- [[#sixu05202004/flaskblog|sixu05202004/flaskblog]]
+- [[#luhuisicnu/The-Flask-Mega-Tutorial-zh|luhuisicnu/The-Flask-Mega-Tutorial-zh]]
+- [[#ElemeFE/mint-ui|ElemeFE/mint-ui]]
+- [[#tonsky/FiraCode|tonsky/FiraCode]]
+- [[#google/dopamine|google/dopamine]]
+- [[#EbookFoundation/free-programming-books|EbookFoundation/free-programming-books]]
+- [[#lxerxa/actionview|lxerxa/actionview]]
+- [[#shadowsocks/shadowsocks-android|shadowsocks/shadowsocks-android]]
+- [[#nonoroazoro/vscode-syncing|nonoroazoro/vscode-syncing]]
+- [[#zsh-users/zsh-autosuggestions|zsh-users/zsh-autosuggestions]]
+- [[#spaceship-prompt/spaceship-prompt|spaceship-prompt/spaceship-prompt]]
+- [[#pod4g/hiper|pod4g/hiper]]
+- [[#inferjay/AndroidDevTools|inferjay/AndroidDevTools]]
+- [[#zenorocha/alfred-workflows|zenorocha/alfred-workflows]]
+- [[#ivarptr/yu-writer.site|ivarptr/yu-writer.site]]
+- [[#proxyee-down-org/proxyee-down|proxyee-down-org/proxyee-down]]
+- [[#itgoyo/Aria2|itgoyo/Aria2]]
+- [[#shadowsocksrr/shadowsocks-rss|shadowsocksrr/shadowsocks-rss]]
+- [[#theme-next/hexo-theme-next|theme-next/hexo-theme-next]]
+- [[#shadowsocksr-backup/ShadowsocksX-NG|shadowsocksr-backup/ShadowsocksX-NG]]
+- [[#shadowsocksr-backup/shadowsocksr-csharp|shadowsocksr-backup/shadowsocksr-csharp]]
+- [[#android-hacker/VirtualXposed|android-hacker/VirtualXposed]]
+- [[#aymericdamien/TensorFlow-Examples|aymericdamien/TensorFlow-Examples]]
+- [[#mrwill84/DOClever|mrwill84/DOClever]]
+- [[#szzhiyang/PerfectWindows|szzhiyang/PerfectWindows]]
+- [[#astaxie/go-best-practice|astaxie/go-best-practice]]
+- [[#wuYin/blog|wuYin/blog]]
+- [[#Meituan-Dianping/SQLAdvisor|Meituan-Dianping/SQLAdvisor]]
+- [[#buo/homebrew-cask-upgrade|buo/homebrew-cask-upgrade]]
+- [[#brahma-dev/synergy-stable-builds|brahma-dev/synergy-stable-builds]]
+- [[#vanshg/MacAssistant|vanshg/MacAssistant]]
+- [[#jaywcjlove/awesome-mac|jaywcjlove/awesome-mac]]
+- [[#Tencent/tmt-workflow|Tencent/tmt-workflow]]
+- [[#sunnyyoung/WeChatTweak|sunnyyoung/WeChatTweak]]
+- [[#TKkk-iOSer/WeChatPlugin-MacOS|TKkk-iOSer/WeChatPlugin-MacOS]]
+- [[#JohnCoates/Aerial|JohnCoates/Aerial]]
+- [[#easy-mock/easy-mock|easy-mock/easy-mock]]
+- [[#shadowsocks/ShadowsocksX-NG|shadowsocks/ShadowsocksX-NG]]
+- [[#dpkp/kafka-python|dpkp/kafka-python]]
+- [[#wangshub/wechat_jump_game|wangshub/wechat_jump_game]]
+- [[#soimort/you-get|soimort/you-get]]
+- [[#lemon-lang/lemon|lemon-lang/lemon]]
+- [[#getsentry/sentry|getsentry/sentry]]
+- [[#Binaryify/NeteaseCloudMusicApi|Binaryify/NeteaseCloudMusicApi]]
+- [[#trazyn/weweChat|trazyn/weweChat]]
+- [[#apache/mxnet|apache/mxnet]]
+- [[#maptalks/maptalks.js|maptalks/maptalks.js]]
+- [[#trazyn/ieaseMusic|trazyn/ieaseMusic]]
+- [[#byoungd/Resume-template-for-Coder|byoungd/Resume-template-for-Coder]]
+- [[#byoungd/English-level-up-tips|byoungd/English-level-up-tips]]
+- [[#ohroy/blog|ohroy/blog]]
+- [[#nicktogo/coeditor|nicktogo/coeditor]]
+- [[#52cik/github-hans|52cik/github-hans]]
+- [[#justjavac/Flarum|justjavac/Flarum]]
+- [[#pyecharts/pyecharts|pyecharts/pyecharts]]
+- [[#jumpserver/jumpserver|jumpserver/jumpserver]]
+- [[#MeCKodo/vue-tutorial|MeCKodo/vue-tutorial]]
+- [[#BoostIO/BoostNote-Legacy|BoostIO/BoostNote-Legacy]]
+- [[#greatghoul/sibi|greatghoul/sibi]]
+- [[#python/cpython|python/cpython]]
+- [[#wklken/py-patterns|wklken/py-patterns]]
+- [[#barseghyanartur/django-bleach|barseghyanartur/django-bleach]]
+- [[#ee0703/python-style-guide|ee0703/python-style-guide]]
+- [[#humiaozuzu/wechat-explorer|humiaozuzu/wechat-explorer]]
+- [[#wzpan/dingdang-robot|wzpan/dingdang-robot]]
+- [[#jazzband/django-auditlog|jazzband/django-auditlog]]
+- [[#PanJiaChen/vue-element-admin|PanJiaChen/vue-element-admin]]
+- [[#TonnyL/Awesome_APIs|TonnyL/Awesome_APIs]]
+- [[#darkerk/v2ex|darkerk/v2ex]]
+- [[#programthink/opensource|programthink/opensource]]
+- [[#docsifyjs/docsify-cli|docsifyjs/docsify-cli]]
+- [[#docsifyjs/docsify|docsifyjs/docsify]]
+- [[#vira-themes/vira-theme-support|vira-themes/vira-theme-support]]
+- [[#django-nonrel/djangotoolbox|django-nonrel/djangotoolbox]]
+- [[#dbcli/mycli|dbcli/mycli]]
+- [[#fancymax/12306ForMac|fancymax/12306ForMac]]
+- [[#viewflow/django-fsm|viewflow/django-fsm]]
+- [[#hzlzh/Best-App|hzlzh/Best-App]]
+- [[#flarum/framework|flarum/framework]]
+- [[#dfunckt/django-rules|dfunckt/django-rules]]
+- [[#youfou/wxpy|youfou/wxpy]]
+- [[#seatgeek/fuzzywuzzy|seatgeek/fuzzywuzzy]]
+- [[#yudai/gotty|yudai/gotty]]
+- [[#jobbole/awesome-python-cn|jobbole/awesome-python-cn]]
+- [[#ecmadao/hacknical|ecmadao/hacknical]]
+- [[#soulteary/tenant-point|soulteary/tenant-point]]
+- [[#jwhitlock/drf-cached-instances|jwhitlock/drf-cached-instances]]
+- [[#chibisov/drf-extensions|chibisov/drf-extensions]]
+- [[#awolfly9/IPProxyTool|awolfly9/IPProxyTool]]
+- [[#yscoder/hexo-generator-restful|yscoder/hexo-generator-restful]]
+- [[#zythum/mama2|zythum/mama2]]
+- [[#typcn/bilibili-mac-client|typcn/bilibili-mac-client]]
+- [[#google/grumpy|google/grumpy]]
+- [[#zhangjikai/online-markdown-reader|zhangjikai/online-markdown-reader]]
+- [[#kakuilan/china_area_mysql|kakuilan/china_area_mysql]]
+- [[#Jolly23/wx_pay_python|Jolly23/wx_pay_python]]
+- [[#Ajian-studio/GADownloading|Ajian-studio/GADownloading]]
+- [[#amfe/article|amfe/article]]
+- [[#iview/iview|iview/iview]]
+- [[#algolia/algoliasearch-django|algolia/algoliasearch-django]]
+- [[#powerline/fonts|powerline/fonts]]
+- [[#DiyCodes/code_news|DiyCodes/code_news]]
+- [[#rofl0r/proxychains-ng|rofl0r/proxychains-ng]]
+- [[#kalwalkden/django-materializecss-form|kalwalkden/django-materializecss-form]]
+- [[#viewflow/django-material|viewflow/django-material]]
+- [[#reorx/httpstat|reorx/httpstat]]
+- [[#jobbole/awesome-programming-books|jobbole/awesome-programming-books]]
+- [[#zhangfisher/DjangoUeditor|zhangfisher/DjangoUeditor]]
+- [[#FIRHQ/flow.ci|FIRHQ/flow.ci]]
+- [[#qiyeboy/IPProxyPool|qiyeboy/IPProxyPool]]
+- [[#AlloyTeam/AlloyFinger|AlloyTeam/AlloyFinger]]
+- [[#liuchengxu/git-commit-emoji-cn|liuchengxu/git-commit-emoji-cn]]
+- [[#WLDragon/SMValidator|WLDragon/SMValidator]]
+- [[#ruanyf/jstraining|ruanyf/jstraining]]
+- [[#JackGit/material-ui-vue|JackGit/material-ui-vue]]
+- [[#iblh/hexo-theme-material|iblh/hexo-theme-material]]
+- [[#vuejs/vue|vuejs/vue]]
+- [[#vuejs/awesome-vue|vuejs/awesome-vue]]
+- [[#bigskysoftware/intercooler-js|bigskysoftware/intercooler-js]]
+- [[#peunzhang/pageResponse|peunzhang/pageResponse]]
+- [[#una/CSSgram|una/CSSgram]]
+- [[#odoo/odoo|odoo/odoo]]
+- [[#FE-Driver/vue-beauty|FE-Driver/vue-beauty]]
+- [[#myronliu347/vue-carbon|myronliu347/vue-carbon]]
+- [[#JosephusPaye/Keen-UI|JosephusPaye/Keen-UI]]
+- [[#ElemeFE/element|ElemeFE/element]]
+- [[#yuche/vue-strap|yuche/vue-strap]]
+- [[#airyland/vux|airyland/vux]]
+- [[#adamchainz/django-cors-headers|adamchainz/django-cors-headers]]
+- [[#tabulapdf/tabula|tabulapdf/tabula]]
+- [[#Fechin/hexo-theme-diaspora|Fechin/hexo-theme-diaspora]]
+- [[#glenhoooo/hexo-theme-Daily|glenhoooo/hexo-theme-Daily]]
+- [[#jrainlau/markcook|jrainlau/markcook]]
+- [[#manateelazycat/deepin-terminal|manateelazycat/deepin-terminal]]
+- [[#jobbole/awesome-python-books|jobbole/awesome-python-books]]
+- [[#kaku2015/ColorfulNews|kaku2015/ColorfulNews]]
+- [[#amsul/pickadate.js|amsul/pickadate.js]]
+- [[#mobi-css/mobi.css|mobi-css/mobi.css]]
+- [[#ant-design/ant-design-mobile|ant-design/ant-design-mobile]]
+- [[#sliptree/bootstrap-tokenfield|sliptree/bootstrap-tokenfield]]
+- [[#mumuy/data_location|mumuy/data_location]]
+- [[#jazzband/django-redis|jazzband/django-redis]]
+- [[#teddziuba/django-sslserver|teddziuba/django-sslserver]]
+- [[#vczero/toilet|vczero/toilet]]
+- [[#cn/GB2260|cn/GB2260]]
+- [[#geeeeeeeeek/electronic-wechat|geeeeeeeeek/electronic-wechat]]
+- [[#fatedier/frp|fatedier/frp]]
+- [[#nihgwu/react-native-sudoku|nihgwu/react-native-sudoku]]
+- [[#anishathalye/lumen|anishathalye/lumen]]
+- [[#fangwei716/30-days-of-react-native|fangwei716/30-days-of-react-native]]
+- [[#reactnativecn/react-native-guide|reactnativecn/react-native-guide]]
+- [[#clarkduvall/serpy|clarkduvall/serpy]]
+- [[#wq/html-json-forms|wq/html-json-forms]]
+- [[#ptomasroos/react-native-tab-navigator|ptomasroos/react-native-tab-navigator]]
+- [[#HelloZeroNet/ZeroNet|HelloZeroNet/ZeroNet]]
+- [[#iWoz/file_sync|iWoz/file_sync]]
+- [[#livid/v2ex-gae|livid/v2ex-gae]]
+- [[#unbug/codelf|unbug/codelf]]
+- [[#slowsay/ReactNativeTestApp|slowsay/ReactNativeTestApp]]
+- [[#vczero/React-Dou|vczero/React-Dou]]
+- [[#vczero/React-Native-App|vczero/React-Native-App]]
+- [[#sigurdga/django-jquery-file-upload|sigurdga/django-jquery-file-upload]]
+- [[#nathanborror/django-basic-apps|nathanborror/django-basic-apps]]
+- [[#vczero/react-native-lesson|vczero/react-native-lesson]]
+- [[#BelinChung/react-native-hiapp|BelinChung/react-native-hiapp]]
+- [[#GavinFoo/elasticsearch-definitive-guide|GavinFoo/elasticsearch-definitive-guide]]
+- [[#looly/elasticsearch-definitive-guide-cn|looly/elasticsearch-definitive-guide-cn]]
+- [[#itorr/imouto|itorr/imouto]]
+- [[#litten/hexo-theme-yilia|litten/hexo-theme-yilia]]
+- [[#breakwa11/gfw_whitelist|breakwa11/gfw_whitelist]]
+- [[#barszczmm/django-wpadmin|barszczmm/django-wpadmin]]
+- [[#docopt/docopt|docopt/docopt]]
+- [[#vgist/RimeFiles|vgist/RimeFiles]]
+- [[#littlecodersh/MyPlatform|littlecodersh/MyPlatform]]
+- [[#littlecodersh/ItChat|littlecodersh/ItChat]]
+- [[#django-request/django-request|django-request/django-request]]
+- [[#ColorfulCat/AndroidGuide|ColorfulCat/AndroidGuide]]
+- [[#geekan/one-python|geekan/one-python]]
+- [[#boylegu/celery-task-tigger|boylegu/celery-task-tigger]]
+- [[#eduosi/district|eduosi/district]]
+- [[#ohmyzsh/ohmyzsh|ohmyzsh/ohmyzsh]]
+- [[#vinta/awesome-python|vinta/awesome-python]]
+- [[#boycy815/PinchImageView|boycy815/PinchImageView]]
+- [[#taizilongxu/interview_python|taizilongxu/interview_python]]
+- [[#mfenniak/pyPdf|mfenniak/pyPdf]]
+- [[#euske/pdfminer|euske/pdfminer]]
+- [[#coolwanglu/pdf2htmlEX|coolwanglu/pdf2htmlEX]]
+- [[#django-notifications/django-notifications|django-notifications/django-notifications]]
+- [[#ptmt/react-native-macos|ptmt/react-native-macos]]
+- [[#Wox-launcher/Wox|Wox-launcher/Wox]]
+- [[#ericflo/django-newcache|ericflo/django-newcache]]
+- [[#lincolnloop/django-ft-cache|lincolnloop/django-ft-cache]]
+- [[#dcramer/django-devserver|dcramer/django-devserver]]
+- [[#recamshak/django-debug-panel|recamshak/django-debug-panel]]
+- [[#django-cms/django-filer|django-cms/django-filer]]
+- [[#debnet/django-rest-framework-docs|debnet/django-rest-framework-docs]]
+- [[#manosim/django-rest-framework-docs|manosim/django-rest-framework-docs]]
+- [[#ciaoca/cxSelect|ciaoca/cxSelect]]
+- [[#zhzenghui/zh_mysite|zhzenghui/zh_mysite]]
+- [[#lincolnloop/django-layout|lincolnloop/django-layout]]
+- [[#django-import-export/django-import-export|django-import-export/django-import-export]]
+- [[#CodeByZach/pace|CodeByZach/pace]]
+- [[#django-commons/django-debug-toolbar|django-commons/django-debug-toolbar]]
+- [[#ZTfer/weui-sketch|ZTfer/weui-sketch]]
+- [[#adcentury/vue-weui|adcentury/vue-weui]]
+- [[#aidenZou/vue-weui|aidenZou/vue-weui]]
+- [[#weui/react-weui|weui/react-weui]]
+- [[#Tencent/weui|Tencent/weui]]
+- [[#ruanyf/react-demos|ruanyf/react-demos]]
+- [[#jpadilla/django-rest-framework-jwt|jpadilla/django-rest-framework-jwt]]
+- [[#vvangelovski/django-audit-log|vvangelovski/django-audit-log]]
+- [[#django-extensions/django-extensions|django-extensions/django-extensions]]
+- [[#DaoCloud/python-django-sample|DaoCloud/python-django-sample]]
+- [[#honzakral/django-threadedcomments|honzakral/django-threadedcomments]]
+- [[#cundi/Django-Design-Patterns-and-Best-Practices|cundi/Django-Design-Patterns-and-Best-Practices]]
+- [[#glasslion/django-qiniu-storage|glasslion/django-qiniu-storage]]
+- [[#piglei/django-qiniu|piglei/django-qiniu]]
+- [[#carltongibson/django-filter|carltongibson/django-filter]]
+- [[#kraiz/django-crontab|kraiz/django-crontab]]
+- [[#ChenYilong/iOSInterviewQuestions|ChenYilong/iOSInterviewQuestions]]
+- [[#0x5e/wechat-deleted-friends|0x5e/wechat-deleted-friends]]
+- [[#angular-ui/bootstrap|angular-ui/bootstrap]]
+- [[#richardbarran/django-photologue|richardbarran/django-photologue]]
+- [[#Gazler/githug|Gazler/githug]]
+- [[#Python-Markdown/markdown|Python-Markdown/markdown]]
+- [[#trentm/django-markdown-deux|trentm/django-markdown-deux]]
+- [[#darklow/django-suit|darklow/django-suit]]
+- [[#rstacruz/nprogress|rstacruz/nprogress]]
+- [[#atom/atom|atom/atom]]
+- [[#whzhyh/blog|whzhyh/blog]]
+- [[#omab/python-social-auth|omab/python-social-auth]]
+- [[#omab/django-social-auth|omab/django-social-auth]]
+- [[#marcgibbons/django-rest-swagger|marcgibbons/django-rest-swagger]]
+- [[#MrKiven/PyZh|MrKiven/PyZh]]
+- [[#scrapy-plugins/scrapy-djangoitem|scrapy-plugins/scrapy-djangoitem]]
+- [[#chukong/quick-cocos2d-x|chukong/quick-cocos2d-x]]
+- [[#GhostFlying/LocationReportEnabler|GhostFlying/LocationReportEnabler]]
+- [[#scrapy/scrapy|scrapy/scrapy]]
+- [[#eventials/django-pjax|eventials/django-pjax]]
+- [[#richleland/pygments-css|richleland/pygments-css]]
+- [[#FSX/misaka|FSX/misaka]]
+- [[#trentm/python-markdown2|trentm/python-markdown2]]
+- [[#klen/django_markdown|klen/django_markdown]]
+- [[#un33k/django-uuslug|un33k/django-uuslug]]
+- [[#cmderdev/cmder|cmderdev/cmder]]
+- [[#josephschmitt/Clamp.js|josephschmitt/Clamp.js]]
+- [[#clintecker/django-chunks|clintecker/django-chunks]]
+- [[#telegram-zhCN/Telegram-cn-l10n-bot|telegram-zhCN/Telegram-cn-l10n-bot]]
+- [[#samluescher/django-persistent-messages|samluescher/django-persistent-messages]]
+- [[#maraujop/django-persistent-messages|maraujop/django-persistent-messages]]
+- [[#mpasternak/django-monitio|mpasternak/django-monitio]]
+- [[#peduarte/wallop|peduarte/wallop]]
+- [[#djyde/PureSlider|djyde/PureSlider]]
+- [[#KagayamaKaede/ShadowsocksRDroid|KagayamaKaede/ShadowsocksRDroid]]
+- [[#Voidly/Parallel-Programming-with-Python|Voidly/Parallel-Programming-with-Python]]
+- [[#winauth/winauth|winauth/winauth]]
+- [[#zh-google-styleguide/zh-google-styleguide|zh-google-styleguide/zh-google-styleguide]]
+- [[#baijunjie/PhotoClip.js|baijunjie/PhotoClip.js]]
+- [[#Long-live-shadowsocks/shadowsocks|Long-live-shadowsocks/shadowsocks]]
+- [[#angular/material|angular/material]]
+- [[#zensh/AngularjsTutorial_cn|zensh/AngularjsTutorial_cn]]
+- [[#fex-team/webuploader|fex-team/webuploader]]
+- [[#RubyLouvre/avalon|RubyLouvre/avalon]]
+- [[#RubyLouvre/avalon.oniui|RubyLouvre/avalon.oniui]]
+- [[#rainyear/javascript-in-one-pic|rainyear/javascript-in-one-pic]]
+- [[#rainyear/python3-in-one-pic|rainyear/python3-in-one-pic]]
+- [[#faisalman/ua-parser-js|faisalman/ua-parser-js]]
+- [[#bbrik/django-pjax-middleware|bbrik/django-pjax-middleware]]
+- [[#iekadou/django-pjaxr|iekadou/django-pjaxr]]
+- [[#nigma/django-easy-pjax|nigma/django-easy-pjax]]
+- [[#lincanbin/Carbon-Forum|lincanbin/Carbon-Forum]]
+- [[#lincanbin/Carbon-Forum-API-Documentation|lincanbin/Carbon-Forum-API-Documentation]]
+- [[#lincanbin/Android-Carbon-Forum|lincanbin/Android-Carbon-Forum]]
+- [[#django-admin-bootstrapped/django-admin-bootstrapped|django-admin-bootstrapped/django-admin-bootstrapped]]
+- [[#yingDev/WGestures|yingDev/WGestures]]
+- [[#nt1m/material-framework|nt1m/material-framework]]
+- [[#smartfile/django-mysqlpool|smartfile/django-mysqlpool]]
+- [[#XX-net/XX-Net|XX-net/XX-Net]]
+- [[#zhuinfo/Django-ERP|zhuinfo/Django-ERP]]
+- [[#iissnan/hexo-theme-next|iissnan/hexo-theme-next]]
+- [[#1sters/material_design_zh_2|1sters/material_design_zh_2]]
+- [[#1sters/material_design_zh|1sters/material_design_zh]]
+- [[#lightSky/Awesome-MaterialDesign|lightSky/Awesome-MaterialDesign]]
+- [[#SohuTech/essay|SohuTech/essay]]
+- [[#android-cn/android-dev-com|android-cn/android-dev-com]]
+- [[#android-cn/android-dev-cn|android-cn/android-dev-cn]]
+- [[#JeremyHeleine/Photo-Sphere-Viewer|JeremyHeleine/Photo-Sphere-Viewer]]
+- [[#fouber/blog|fouber/blog]]
+- [[#binux/qiandao|binux/qiandao]]
+- [[#acgotaku/GetCookies|acgotaku/GetCookies]]
+- [[#hexojs/hexo|hexojs/hexo]]
+- [[#django/django|django/django]]
+- [[#WuXianglong/GeekBlog|WuXianglong/GeekBlog]]
+- [[#django-guardian/django-guardian|django-guardian/django-guardian]]
+- [[#flyhigher139/mayblog|flyhigher139/mayblog]]
+- [[#ericflo/django-pagination|ericflo/django-pagination]]
+- [[#jmcclell/django-bootstrap-pagination|jmcclell/django-bootstrap-pagination]]
+- [[#TencentYouTu/python_sdk|TencentYouTu/python_sdk]]
+- [[#stephenmcd/django-socketio|stephenmcd/django-socketio]]
+- [[#DroidPluginTeam/DroidPlugin|DroidPluginTeam/DroidPlugin]]
+- [[#iberryful/weixin_sogou|iberryful/weixin_sogou]]
+- [[#leanote/leanote|leanote/leanote]]
+- [[#hugapi/hug|hugapi/hug]]
+- [[#limodou/uliweb|limodou/uliweb]]
+- [[#cobrateam/splinter|cobrateam/splinter]]
+- [[#markyun/markyun|markyun/markyun]]
+- [[#rmax/scrapy-redis|rmax/scrapy-redis]]
+- [[#dcloudio/casecode|dcloudio/casecode]]
+- [[#vicalloy/django-simple-avatar|vicalloy/django-simple-avatar]]
+- [[#ericflo/django-avatar|ericflo/django-avatar]]
+- [[#bread-and-pepper/django-userena|bread-and-pepper/django-userena]]
+- [[#Dogfalo/materialize|Dogfalo/materialize]]
+- [[#muicss/mui|muicss/mui]]
+- [[#yidao620c/python3-cookbook|yidao620c/python3-cookbook]]
+- [[#anru/rsted|anru/rsted]]
+- [[#celery/django-celery|celery/django-celery]]
+- [[#nuuneoi/Lab-Android-DesignLibrary|nuuneoi/Lab-Android-DesignLibrary]]
+- [[#ipader/SwiftGuide|ipader/SwiftGuide]]
+- [[#apache/echarts|apache/echarts]]
+- [[#gmcquillan/django-brake|gmcquillan/django-brake]]
+- [[#jsocol/django-ratelimit|jsocol/django-ratelimit]]
+- [[#sofish/typo.css|sofish/typo.css]]
+- [[#tiimgreen/github-cheat-sheet|tiimgreen/github-cheat-sheet]]
+- [[#geekcompany/DeerResume|geekcompany/DeerResume]]
+- [[#geekcompany/ResumeSample|geekcompany/ResumeSample]]
+- [[#justjavac/free-programming-books-zh_CN|justjavac/free-programming-books-zh_CN]]
+- [[#ququplay/jquery-mobile-flat-ui-theme|ququplay/jquery-mobile-flat-ui-theme]]
+- [[#GTBrowser/Jndroid.js|GTBrowser/Jndroid.js]]
+- [[#stowball/jQuery-rwdImageMaps|stowball/jQuery-rwdImageMaps]]
+- [[#gollum/gollum|gollum/gollum]]
+- [[#fxsjy/jieba|fxsjy/jieba]]
+- [[#lincolnloop/python-qrcode|lincolnloop/python-qrcode]]
+- [[#cyfdecyf/cow|cyfdecyf/cow]]
+- [[#PhilJay/MPAndroidChart|PhilJay/MPAndroidChart]]
+- [[#kartik-v/bootstrap-star-rating|kartik-v/bootstrap-star-rating]]
+- [[#greatyao/v2ex-android|greatyao/v2ex-android]]
+- [[#romannurik/AndroidAssetStudio|romannurik/AndroidAssetStudio]]
+- [[#shinux/PyTime|shinux/PyTime]]
+- [[#layui/layer|layui/layer]]
+- [[#dsphper/lUpload|dsphper/lUpload]]
+- [[#nkunihiko/django-bootstrap3-datetimepicker|nkunihiko/django-bootstrap3-datetimepicker]]
+- [[#jazzband/django-taggit|jazzband/django-taggit]]
+- [[#selwin/python-user-agents|selwin/python-user-agents]]
+- [[#bydmm/Startup-Game|bydmm/Startup-Game]]
+- [[#zsxsoft/useragent.js|zsxsoft/useragent.js]]
+- [[#sshwsfc/xadmin|sshwsfc/xadmin]]
+- [[#the5fire/django_selfblog|the5fire/django_selfblog]]
+- [[#messense/wechat-bot|messense/wechat-bot]]
+- [[#offu/WeRoBot|offu/WeRoBot]]
+- [[#zdhxiong/v2ex-material-theme|zdhxiong/v2ex-material-theme]]
+- [[#gregmuellegger/django-mobile|gregmuellegger/django-mobile]]
+- [[#wenzhixin/bootstrap-table|wenzhixin/bootstrap-table]]
+- [[#gaqzi/django-emoji|gaqzi/django-emoji]]
+- [[#markpluslabs/react-markplus|markpluslabs/react-markplus]]
+- [[#manyunkai/dannysite.com|manyunkai/dannysite.com]]
+- [[#kokdemo/v2ex.k|kokdemo/v2ex.k]]
+- [[#gyk001/hexo-qiniu-sync|gyk001/hexo-qiniu-sync]]
+- [[#kyze8439690/v2ex-daily-android|kyze8439690/v2ex-daily-android]]
+- [[#GitbookIO/gitbook|GitbookIO/gitbook]]
+- [[#Trinea/android-open-project|Trinea/android-open-project]]
+- [[#kesenhoo/android-training-course-in-chinese|kesenhoo/android-training-course-in-chinese]]
+- [[#furious-luke/django-address|furious-luke/django-address]]
+- [[#watsy0007/djangoBaidusitemap|watsy0007/djangoBaidusitemap]]
+- [[#node-webot/wechat|node-webot/wechat]]
+- [[#foundation/foundation-sites|foundation/foundation-sites]]
+- [[#weareoutman/clockpicker|weareoutman/clockpicker]]
+- [[#onokumus/metismenu|onokumus/metismenu]]
+- [[#zgs225/easy-tree|zgs225/easy-tree]]
+- [[#sorich87/bootstrap-tour|sorich87/bootstrap-tour]]
+- [[#dangrossman/daterangepicker|dangrossman/daterangepicker]]
+- [[#bootboxjs/bootbox|bootboxjs/bootbox]]
+- [[#ReactiveRaven/jqBootstrapValidation|ReactiveRaven/jqBootstrapValidation]]
+- [[#aozora/bootmetro|aozora/bootmetro]]
+- [[#jquery-ui-bootstrap/jquery-ui-bootstrap|jquery-ui-bootstrap/jquery-ui-bootstrap]]
+- [[#goodybag/bootstrap-notify|goodybag/bootstrap-notify]]
+- [[#eldarion/eldarion-ajax|eldarion/eldarion-ajax]]
+- [[#clu3/bootstro.js|clu3/bootstro.js]]
+- [[#maxwells/bootstrap-tags|maxwells/bootstrap-tags]]
+- [[#buberdds/angular-bootstrap-colorpicker|buberdds/angular-bootstrap-colorpicker]]
+- [[#itsjavi/bootstrap-colorpicker|itsjavi/bootstrap-colorpicker]]
+- [[#Semantic-Org/Semantic-UI|Semantic-Org/Semantic-UI]]
+- [[#welefen/pjax|welefen/pjax]]
+- [[#defunkt/jquery-pjax|defunkt/jquery-pjax]]
+- [[#yangyangwithgnu/hardseed|yangyangwithgnu/hardseed]]
+- [[#zostera/django-bootstrap3|zostera/django-bootstrap3]]
+- [[#tapir-dream/berserkJS|tapir-dream/berserkJS]]
+- [[#ushuz/weixin-simulator|ushuz/weixin-simulator]]
+- [[#xixilive/wecheat|xixilive/wecheat]]
+- [[#node-webot/webot-cli|node-webot/webot-cli]]
+- [[#kinglio8520/weixin_pay|kinglio8520/weixin_pay]]
+- [[#wechatpy/wechatpy|wechatpy/wechatpy]]
+- [[#doraemonext/wechat-python-sdk|doraemonext/wechat-python-sdk]]
+- [[#binsee/hexo-qiniu-sync|binsee/hexo-qiniu-sync]]
+- [[#mui/material-ui|mui/material-ui]]
+- [[#mdbootstrap/mdb-ui-kit|mdbootstrap/mdb-ui-kit]]
+- [[#thomaspark/bootswatch|thomaspark/bootswatch]]
+- [[#TalksLab/metro-bootstrap|TalksLab/metro-bootstrap]]
+- [[#qhw/DjangoVerifyCode|qhw/DjangoVerifyCode]]
+- [[#mrlong/bootstrap3-validation.js|mrlong/bootstrap3-validation.js]]
+- [[#dcloudio/mui|dcloudio/mui]]
 
 ---
 
@@ -68,7 +810,7 @@
 ## HKUDS/nanobot
 
 > [!info]
-> ⭐ 25,049 · Python · 2026-02-25  
+> ⭐ 25,072 · Python · 2026-02-25  
 > [GitHub](https://github.com/HKUDS/nanobot)  
 > `#AI助手` `#轻量级` `#多平台支持` `#MCP协议` `#Python` `#开源` `#智能代理` `#模块化设计` >
 > nanobot 是一款超轻量级个人 AI 助手，仅约 4000 行代码，功能完整且高度模块化。支持多平台通信（Slack、Discord、飞书等）、MCP 协议、多模态输入与记忆系统，适用于构建高效、可扩展的智能代理应用。
@@ -79,7 +821,7 @@
 ## NevaMind-AI/memU
 
 > [!info]
-> ⭐ 10,663 · Python · 2026-02-24  
+> ⭐ 10,699 · Python · 2026-02-24  
 > [GitHub](https://github.com/NevaMind-AI/memU) · [Website](https://memu.pro)  
 > `#AI 代理` `#长期记忆` `#用户意图识别` `#成本优化` `#文件系统式记忆` `#主动式智能` `#LLM 效率` `#知识图谱` `#agent-memory` `#agentic-workflow` `#claude` `#claude-skills` `#clawdbot` `#clawdbot-skill` `#mcp` `#memory` `#proactive` `#proactive-ai` `#sandbox` `#skills` >
 > memU 是一个专为 24/7 主动式 AI 代理设计的记忆框架，通过类文件系统的结构化记忆管理，持续捕捉用户意图并降低 LLM 调用成本，支持长期运行、跨会话记忆与主动决策。
@@ -90,7 +832,7 @@
 ## linshenkx/prompt-optimizer
 
 > [!info]
-> ⭐ 22,069 · TypeScript · 2026-02-10  
+> ⭐ 22,073 · TypeScript · 2026-02-10  
 > [GitHub](https://github.com/linshenkx/prompt-optimizer) · [Website](https://prompt.always200.com)  
 > `#提示词优化` `#AI工具` `#多模型支持` `#图像生成` `#MCP协议` `#Chrome插件` `#Vercel部署` `#开源` `#llm` `#prompt` `#prompt-engineering` `#prompt-optimization` `#prompt-toolkit` `#prompt-tuning` >
 > Prompt Optimizer 是一款专业的AI提示词优化工具，支持多模型集成与多端部署（Web/桌面/Chrome插件/Docker），提供智能优化、双模式编辑、对比测试、图像生成及MCP协议支持，助力提升AI输出质量与生产效率。
@@ -112,7 +854,7 @@
 ## farion1231/cc-switch
 
 > [!info]
-> ⭐ 20,085 · TypeScript · 2026-02-25  
+> ⭐ 20,100 · TypeScript · 2026-02-25  
 > [GitHub](https://github.com/farion1231/cc-switch) · [Website](https://github.com/farion1231/cc-switch)  
 > `#AI 编程助手` `#跨平台桌面应用` `#Claude Code` `#Codex` `#Gemini CLI` `#Tauri` `#API 中继` `#开发者工具` `#ai-tools` `#claude-code` `#codex` `#desktop-app` `#kimi-k2-thiking` `#mcp` `#minimax` `#open-source` `#opencode` `#provider-management` `#rust` `#skills` `#skills-management` `#tauri` `#typescript` `#wsl-support` >
 > 一款跨平台桌面全能助手工具，集成 Claude Code、Codex、OpenCode 和 Gemini CLI，支持多模型切换与高效开发协作，基于 Tauri 2 构建，提供稳定、低成本的 AI 编程服务接入。
@@ -123,7 +865,7 @@
 ## affaan-m/everything-claude-code
 
 > [!info]
-> ⭐ 51,938 · JavaScript · 2026-02-25  
+> ⭐ 52,030 · JavaScript · 2026-02-25  
 > [GitHub](https://github.com/affaan-m/everything-claude-code)  
 > `#Claude Code` `#AI代理配置` `#MCP` `#多语言支持` `#PM2编排` `#记忆持久化` `#令牌优化` `#生产就绪` `#ai-agents` `#anthropic` `#claude` `#claude-code` `#developer-tools` `#llm` `#mcp` `#productivity` >
 > 由Anthropic黑客马拉松获胜者整理的完整Claude Code配置库，包含生产级代理、技能、钩子、命令、规则和MCP配置，支持多语言开发，提供交互式安装向导与PM2多服务编排，优化令牌使用与持久化记忆。
@@ -134,7 +876,7 @@
 ## HisMax/RedInk
 
 > [!info]
-> ⭐ 4,895 · Python · 2025-12-29  
+> ⭐ 4,896 · Python · 2025-12-29  
 > [GitHub](https://github.com/HisMax/RedInk) · [Website](https://redink.top)  
 > `#小红书生成器` `#AI图文生成` `#Nano Banana Pro` `#Flask` `#Vue 3` `#Gemini` `#Docker部署` `#内容创作工具` >
 > 红墨（RedInk）是一款基于 Nano Banana Pro 的小红书图文生成器，支持‘一句话生成一张图’，通过 AI 自动生成封面与内容页，提供智能大纲编辑、批量图片生成及风格统一输出，适用于高效内容创作。
@@ -145,7 +887,7 @@
 ## lukilabs/beautiful-mermaid
 
 > [!info]
-> ⭐ 7,720 · TypeScript · 2026-02-25  
+> ⭐ 7,727 · TypeScript · 2026-02-25  
 > [GitHub](https://github.com/lukilabs/beautiful-mermaid)  
 > `#Mermaid` `#SVG 渲染` `#ASCII 图表` `#主题定制` `#同步渲染` `#TypeScript` `#AI 编程助手` `#零 DOM 依赖` >
 > beautiful-mermaid 是一款专为 AI 编程时代设计的高性能 Mermaid 图表渲染工具，支持将流程图、状态图等 5 类图表同步渲染为美观 SVG 或终端 ASCII 艺术图，具备零 DOM 依赖、15 种内置主题、Shiki 兼容及实时主题切换等特性，适用于 CLI、React 及富 UI 场景。
@@ -154,7 +896,7 @@
 ## bmad-code-org/BMAD-METHOD
 
 > [!info]
-> ⭐ 37,833 · JavaScript · 2026-02-25  
+> ⭐ 37,849 · JavaScript · 2026-02-25  
 > [GitHub](https://github.com/bmad-code-org/BMAD-METHOD)  
 > `#AI驱动开发` `#敏捷开发` `#开源框架` `#多代理协作` `#全生命周期` `#Node.js` `#自动化工作流` `#规模自适应` >
 > BMad Method 是一个开源的 AI 驱动敏捷开发框架，提供结构化工作流、多领域专家代理（如架构师、开发者）和自适应规模智能，支持从需求分析到部署的全生命周期开发，适用于个人至企业级项目。
@@ -165,7 +907,7 @@
 ## lbjlaq/Antigravity-Manager
 
 > [!info]
-> ⭐ 24,284 · Rust · 2026-02-25  
+> ⭐ 24,292 · Rust · 2026-02-25  
 > [GitHub](https://github.com/lbjlaq/Antigravity-Manager) · [Website](https://lbjlaq.github.io/Antigravity-Manager/)  
 > `#AI 账号管理` `#协议代理` `#Tauri` `#Rust` `#React` `#模型路由` `#多模态支持` `#API 中转` `#account-manager` `#antigravity` >
 > Antigravity Manager 是一款基于 Tauri v2 和 React（Rust 后端）构建的专业级 AI 账号管理与协议代理系统，支持多平台账号（如 Gemini、Claude）的一键无缝切换、智能配额监控、协议转换（OpenAI/Anthropic/Gemini 格式兼容），并提供模型路由、自动重试、静默降级等企业级功能，打造高性能本地 AI 调度网关。
@@ -209,7 +951,7 @@
 ## antvis/Infographic
 
 > [!info]
-> ⭐ 4,490 · TypeScript · 2026-02-25  
+> ⭐ 4,491 · TypeScript · 2026-02-25  
 > [GitHub](https://github.com/antvis/Infographic) · [Website](https://infographic.antv.vision)  
 > `#信息图生成` `#数据可视化` `#AI驱动` `#SVG渲染` `#声明式语法` `#主题定制` `#内置编辑器` `#AntV` `#ai` `#antv` `#infographic` `#llm` `#visualization` >
 > AntV Infographic 是一款声明式信息图生成与渲染框架，支持通过简洁语法快速构建高质量信息图，内置200+模板、主题系统和编辑器，兼容AI生成与流式输出，默认SVG渲染保障视觉精度，适用于数据叙事与高效信息展示。
@@ -253,7 +995,7 @@
 ## DayuanJiang/next-ai-draw-io
 
 > [!info]
-> ⭐ 21,823 · TypeScript · 2026-02-25  
+> ⭐ 21,828 · TypeScript · 2026-02-25  
 > [GitHub](https://github.com/DayuanJiang/next-ai-draw-io) · [Website](https://next-ai-drawio.jiang.jp/)  
 > `#Next.js` `#AI 绘图` `#draw.io` `#自然语言处理` `#架构图生成` `#多模型支持` `#可视化工具` `#Web 应用` `#ai` `#diagrams` `#productivity` >
 > 基于 Next.js 的 AI 驱动绘图工具，集成 draw.io 实现自然语言生成与编辑图表，支持多平台部署和多种 AI 模型（如豆包 K2），适用于架构图、流程图等可视化场景。
@@ -264,7 +1006,7 @@
 ## ZeframLou/call-me
 
 > [!info]
-> ⭐ 2,321 · TypeScript · 2026-01-09  
+> ⭐ 2,322 · TypeScript · 2026-01-09  
 > [GitHub](https://github.com/ZeframLou/call-me)  
 > `#Claude Code 插件` `#电话通知` `#语音交互` `#Telnyx` `#Twilio` `#ngrok` `#实时通信` `#AI 助手扩展` >
 > CallMe 是一个极简插件，允许 Claude Code 在任务完成、卡住或需要决策时通过电话呼叫用户。支持多轮对话、语音交互，兼容智能手机/手表/座机，并可与工具调用（如网页搜索）组合使用。需配合 Telnyx 或 Twilio 及 ngrok 实现。
@@ -286,7 +1028,7 @@
 ## Tosencen/XMSLEEP
 
 > [!info]
-> ⭐ 1,113 · Kotlin · 2026-02-04  
+> ⭐ 1,114 · Kotlin · 2026-02-04  
 > [GitHub](https://github.com/Tosencen/XMSLEEP)  
 > `#白噪音` `#助眠应用` `#Jetpack Compose` `#Material Design 3` `#音频播放` `#Android` `#Kotlin` `#自然音效` >
 > XMSLEEP 是一款专注于白噪音播放的 Android 应用，提供雨声、篝火、鸟鸣等自然音效，支持无缝循环、音量调节、倒计时、预设场景及动态主题。采用 Jetpack Compose 与 Material Design 3 构建，兼容 Android 8.0+，助力用户放松、专注与助眠。
@@ -297,7 +1039,7 @@
 ## cjpais/Handy
 
 > [!info]
-> ⭐ 16,073 · Rust · 2026-02-25  
+> ⭐ 16,086 · Rust · 2026-02-25  
 > [GitHub](https://github.com/cjpais/Handy) · [Website](https://handy.computer)  
 > `#语音识别` `#离线转录` `#开源工具` `#隐私保护` `#跨平台` `#Whisper` `#Tauri` `#Rust` `#accessibility` `#cross-platform` `#speech-to-text` `#tauri-v2` >
 > Handy 是一款免费、开源且可扩展的离线语音转文本桌面应用，支持跨平台使用。通过快捷键录音，利用本地 Whisper 或 Parakeet 模型进行语音识别，并将转录文本直接输入到任意文本框，全程无需上传数据，保障隐私。
@@ -308,7 +1050,7 @@
 ## nextlevelbuilder/ui-ux-pro-max-skill
 
 > [!info]
-> ⭐ 34,588 · Python · 2026-02-12  
+> ⭐ 34,620 · Python · 2026-02-12  
 > [GitHub](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · [Website](https://www.uupm.cc/)  
 > `#ai-skills` `#antigravity` `#claude` `#claude-code` `#codex` `#command-line` `#copilot` `#cursor-ai` `#html5` `#kiro` `#landing-page` `#mobile-ui` `#qoder` `#react` `#tailwindcss` `#trae` `#ui-design` `#uikit` `#windsurf-ai` >
 > 
@@ -319,7 +1061,7 @@
 ## BloopAI/vibe-kanban
 
 > [!info]
-> ⭐ 21,871 · Rust · 2026-02-25  
+> ⭐ 21,883 · Rust · 2026-02-25  
 > [GitHub](https://github.com/BloopAI/vibe-kanban) · [Website](https://www.vibekanban.com/)  
 > `#AI 编程代理` `#任务编排` `#Kanban 看板` `#MCP 配置` `#远程开发` `#VSCode 集成` `#自托管` `#多代理协同` `#agent` `#ai-agents` `#kanban` `#management` `#task-manager` >
 > Vibe Kanban 是一款专为 AI 编程代理（如 Claude Code、Codex、Gemini CLI）设计的任务编排与管理工具，支持多代理并行/串行执行、任务状态跟踪、MCP 配置集中管理及远程 SSH 项目打开，显著提升工程师在 AI 辅助开发中的协作效率。
@@ -385,7 +1127,7 @@
 ## browserwing/browserwing
 
 > [!info]
-> ⭐ 834 · TypeScript · 2026-02-25  
+> ⭐ 838 · TypeScript · 2026-02-25  
 > [GitHub](https://github.com/browserwing/browserwing) · [Website](https://www.browserwing.com)  
 > `#浏览器自动化` `#AI 集成` `#MCP 协议` `#Claude Skill` `#可视化脚本` `#LLM 支持` `#HTTP API` `#会话管理` `#aibrowser` `#golang` `#llm` `#react` >
 > BrowserWing 是一款集成 AI 的原生浏览器自动化平台，支持通过 MCP 协议或 Claude Skill 将浏览器操作转化为 AI 可调用指令。提供 26+ API 接口、可视化脚本录制、多 LLM 支持及会话管理，实现高效、稳定的 AI 驱动浏览器自动化，适用于数据采集、RPA 和智能代理场景。
@@ -407,7 +1149,7 @@
 ## oraios/serena
 
 > [!info]
-> ⭐ 20,647 · Python · 2026-02-25  
+> ⭐ 20,649 · Python · 2026-02-25  
 > [GitHub](https://github.com/oraios/serena) · [Website](https://oraios.github.io/serena)  
 > `#编码代理` `#语义检索` `#MCP 服务器` `#LLM 集成` `#JetBrains 插件` `#多语言支持` `#代码编辑` `#开源工具` `#agent` `#ai` `#ai-coding` `#claude` `#claude-code` `#language-server` `#llms` `#mcp-server` `#programming` `#vibe-coding` >
 > Serena 是一款强大的开源编码代理工具包，通过语义级代码检索与编辑能力（如符号查找、引用分析、精准插入），将 LLM 转化为可直接操作代码库的智能代理。支持 MCP 协议集成 Claude、VSCode、JetBrains 等主流环境，兼容 30+ 语言，提供 LSP 与 JetBrains 插件双后端，显著提升大项目中的编码效率与准确性。
@@ -440,7 +1182,7 @@
 ## siddharthvaddem/openscreen
 
 > [!info]
-> ⭐ 7,436 · TypeScript · 2026-02-23  
+> ⭐ 7,442 · TypeScript · 2026-02-23  
 > [GitHub](https://github.com/siddharthvaddem/openscreen) · [Website](https://openscreen.vercel.app)  
 > `#屏幕录制` `#开源` `#免费商用` `#Electron` `#React` `#视频编辑` `#产品演示` `#无水印` `#electron` `#open-source` `#pixijs` `#screen-capture` `#screen-recorder` >
 > OpenScreen 是一款免费开源的屏幕录制工具，专为创建美观的产品演示和教程设计。支持全屏或应用录制、手动缩放、背景自定义、标注添加及视频裁剪，无订阅、无水印，可商用。基于 Electron 和 React 构建，是 Screen Studio 的轻量替代方案。
@@ -484,7 +1226,7 @@
 ## millylee/anyrouter-check-in
 
 > [!info]
-> ⭐ 705 · Python · 2026-02-25  
+> ⭐ 707 · Python · 2026-02-25  
 > [GitHub](https://github.com/millylee/anyrouter-check-in) · [Website](https://anyrouter.top/register?aff=gSsN)  
 > `#自动签到` `#多账号管理` `#NewAPI` `#OneAPI` `#AnyRouter` `#AgentRouter` `#WAF绕过` `#GitHub Actions` `#agentrouter` `#anyrouter` `#check-in` `#claude-code` `#claudecode` `#codex` `#newapi` `#oneapi` >
 > 支持 AnyRouter、AgentRouter 等多平台多账号自动签到，兼容基于 NewAPI/OneAPI 的服务，内置 WAF 绕过、多种通知方式及自定义 Provider 配置，适用于 Claude Code 中转站等场景。
@@ -495,7 +1237,7 @@
 ## tw93/Mole
 
 > [!info]
-> ⭐ 37,000 · Shell · 2026-02-25  
+> ⭐ 37,010 · Shell · 2026-02-25  
 > [GitHub](https://github.com/tw93/Mole) · [Website](https://x.com/HiTw93/status/2025424790467871149)  
 > `#macOS` `#系统清理` `#磁盘优化` `#应用卸载` `#实时监控` `#命令行工具` `#Homebrew` `#性能监控` `#analyzer` `#appcleaner` `#clean` `#cleaner` `#cleaner-cli` `#cleaner-script` `#command-line` `#daisydisk` `#istat` `#mac` `#macos` `#optimize` `#sensei` `#shell` `#uninstall` >
 > Mole 是一款专为 macOS 设计的全能系统优化工具，集深度清理、智能卸载、磁盘分析、实时状态监控于一体，可一键释放数十GB空间，支持缓存重建、服务刷新及项目构建产物清理，提供交互式菜单与命令行操作，安全可靠且高效。
@@ -506,7 +1248,7 @@
 ## anthropics/skills
 
 > [!info]
-> ⭐ 75,635 · Python · 2026-02-25  
+> ⭐ 75,669 · Python · 2026-02-25  
 > [GitHub](https://github.com/anthropics/skills)  
 > `#Claude` `#Agent Skills` `#AI 技能` `#文档处理` `#企业自动化` `#开源示例` `#技能模板` `#Anthropic` `#agent-skills` >
 > Anthropic 官方技能库，提供 Claude 可动态加载的专用任务技能，涵盖创意设计、技术开发、企业流程及文档处理等场景。包含开源示例、生产级文档技能（如 PDF/DOCX 处理）及技能创建模板，支持在 Claude Code、Claude.ai 和 API 中使用。
@@ -528,7 +1270,7 @@
 ## github/spec-kit
 
 > [!info]
-> ⭐ 71,966 · Python · 2026-02-25  
+> ⭐ 71,987 · Python · 2026-02-25  
 > [GitHub](https://github.com/github/spec-kit) · [Website](https://github.github.com/spec-kit/)  
 > `#规范驱动开发` `#AI 编程助手` `#CLI 工具` `#代码生成` `#开源` `#软件开发流程` `#GitHub` `#自动化` `#ai` `#copilot` `#development` `#engineering` `#prd` `#spec` `#spec-driven` >
 > Spec Kit 是一个开源工具包，支持规范驱动开发（Spec-Driven Development），通过可执行的规范直接生成高质量代码实现。它集成多种 AI 编程助手（如 Claude Code、GitHub Copilot 等），提供 CLI 工具链帮助开发者聚焦产品场景与预期结果，提升开发效率与一致性。
@@ -550,11 +1292,8129 @@
 ## VoltAgent/awesome-claude-code-subagents
 
 > [!info]
-> ⭐ 11,397 · Shell · 2026-02-21  
+> ⭐ 11,408 · Shell · 2026-02-21  
 > [GitHub](https://github.com/VoltAgent/awesome-claude-code-subagents) · [Website](https://github.com/VoltAgent/voltagent)  
 > `#Claude Code` `#AI编程助手` `#子代理集合` `#开发工具` `#插件化` `#多语言支持` `#DevOps` `#开源` `#ai-agent-framework` `#ai-agent-tools` `#ai-agents` `#awesome` `#awesome-list` `#claude` `#claude-ai` `#claude-code-subagents` `#claude-subagents` `#subagents` >
 > VoltAgent/awesome-claude-code-subagents 是一个包含127+个专用Claude Code子代理的开源集合，覆盖核心开发、语言专家、基础设施、数据科学等九大类别，支持插件化安装与交互式部署，旨在为开发者提供针对特定任务的AI编程助手。
 
 > <sub>A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases</sub>
+
+---
+## UfoMiao/zcf
+
+> [!info]
+> ⭐ 5,529 · TypeScript · 2026-02-05  
+> [GitHub](https://github.com/UfoMiao/zcf) · [Website](http://zcf.ufomiao.com/)  
+> `#agent` `#ai` `#ai-agent` `#bmad-method` `#ccr` `#claude` `#claude-4` `#claude-ai` `#claude-code` `#cli` `#gpt` `#gpt-5` `#llm` `#llm-code` `#nodejs` `#openai` `#prompt` `#typescript` `#workflow` `#zcf` >
+> 生成失败
+
+> <sub>Zero-Config Code Flow for Claude code & Codex</sub>
+
+---
+## MapleShaw/auto-claude-writing-agent-pub
+
+> [!info]
+> ⭐ 358 · N/A · 2025-11-29  
+> [GitHub](https://github.com/MapleShaw/auto-claude-writing-agent-pub)  
+> >
+> 生成失败
+
+---
+## google-gemini/gemini-cli
+
+> [!info]
+> ⭐ 95,663 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/google-gemini/gemini-cli) · [Website](https://geminicli.com)  
+> `#ai` `#ai-agents` `#cli` `#gemini` `#gemini-api` `#mcp-client` `#mcp-server` >
+> 生成失败
+
+> <sub>An open-source AI agent that brings the power of Gemini directly into your terminal.</sub>
+
+---
+## xunbu/docutranslate
+
+> [!info]
+> ⭐ 788 · Python · 2026-02-25  
+> [GitHub](https://github.com/xunbu/docutranslate)  
+> `#file-transla` `#llm` `#pdf-converter` `#pdf-translator` `#translate` >
+> 生成失败
+
+> <sub>文档（小说、论文、字幕）翻译工具（支持 pdf/word/excel/json/epub/srt...）Document (Novel, Thesis, Subtitle) Translation Tool (Supports pdf/word/excel/json/epub/srt...)</sub>
+
+---
+## dataease/SQLBot
+
+> [!info]
+> ⭐ 5,557 · JavaScript · 2026-02-24  
+> [GitHub](https://github.com/dataease/SQLBot) · [Website](https://sqlbot.org/)  
+> `#chatbi` `#deepseek` `#llm` `#nl2sql` `#rag` `#sqlbot` `#text-to-sql` `#text2sql` >
+> 生成失败
+
+> <sub>🔥 基于大模型和 RAG 的智能问数系统，对话式数据分析神器。Text-to-SQL Generation via LLMs using RAG.</sub>
+
+---
+## ckanner/jta
+
+> [!info]
+> ⭐ 126 · Go · 2025-11-12  
+> [GitHub](https://github.com/ckanner/jta)  
+> `#AI翻译` `#JSON国际化` `#代理式自省` `#多AI提供商` `#术语管理` `#格式保护` `#增量翻译` `#命令行工具` `#agentic-ai` `#ai` `#anthropic` `#cli` `#gemini` `#golang` `#i18n` `#json` `#llm` `#localization` `#openai` `#reflection` `#terminology` `#translation` `#translation-tool` >
+> Jta 是一款基于 AI 的 JSON 国际化文件翻译工具，支持 OpenAI、Anthropic 和 Gemini 多平台 API。其核心亮点为代理式自省机制：AI 先翻译，再自我评估并优化结果，显著提升准确性与一致性。支持术语自动识别、格式保护（占位符、HTML、Markdown）、增量翻译及 RTL 语言处理，适用于生产级多语言项目。
+
+> <sub>AI-powered JSON translation tool with agentic reflection using OpenAI, Anthropic, and Gemini APIs</sub>
+
+---
+## zensical/zensical
+
+> [!info]
+> ⭐ 3,180 · Rust · 2026-02-24  
+> [GitHub](https://github.com/zensical/zensical) · [Website](https://zensical.org/docs/)  
+> `#静态网站生成器` `#Markdown` `#Material for MkDocs` `#Python` `#文档生成` `#多语言支持` `#现代化UI` `#Zensical Spark` `#documentation` `#static-site-generator` >
+> Zensical 是由 Material for MkDocs 团队开发的现代化静态网站生成器，支持 Markdown 编写文档，快速构建专业、可搜索、多语言且跨设备的静态网站，适用于开源或商业项目。
+
+> <sub>A modern static site generator by the Material for MkDocs team</sub>
+
+---
+## 666ghj/BettaFish
+
+> [!info]
+> ⭐ 35,766 · Python · 2026-02-11  
+> [GitHub](https://github.com/666ghj/BettaFish) · [Website](https://deepwiki.com/666ghj/BettaFish)  
+> `#舆情分析` `#多智能体` `#多模态` `#数据预测` `#开源框架` `#Python` `#Agent协作` `#信息茧房` `#agent-framework` `#data-analysis` `#deep-research` `#deep-search` `#llms` `#multi-agent-system` `#nlp` `#public-opinion-analysis` `#python3` `#sentiment-analysis` >
+> 微舆（BettaFish）是一个从零构建的多智能体舆情分析系统，支持全自动采集国内外30+社媒平台数据，融合多模态解析与Agent协作机制，实现舆情还原、趋势预测与决策辅助。具备轻量化部署、公私域数据融合及高扩展性，目标成为通用数据分析引擎。
+
+> <sub>微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。</sub>
+
+---
+## liujuntao123/smart-excalidraw-next
+
+> [!info]
+> ⭐ 2,896 · JavaScript · 2026-01-22  
+> [GitHub](https://github.com/liujuntao123/smart-excalidraw-next) · [Website](https://ai-draw-nexus.aizhi.site)  
+> `#AI绘图` `#自然语言生成` `#Excalidraw` `#流程图` `#架构图` `#LLM集成` `#可视化工具` `#Next.js` `#ai` `#chart` `#excalidraw` >
+> Smart Excalidraw 是一款基于 Excalidraw 的智能绘图工具，支持通过自然语言生成流程图、架构图、ER 图等 20+ 专业图表。集成 Claude 等 LLM，具备独创连接算法与本地隐私保护，提供开箱即用的 AI 绘图体验。
+
+> <sub>A smart, powerful, and beautiful excalidraw drawing tool.Draw Professional Charts with Natural Language</sub>
+
+---
+## mayswind/ezbookkeeping
+
+> [!info]
+> ⭐ 4,326 · Go · 2026-02-25  
+> [GitHub](https://github.com/mayswind/ezbookkeeping) · [Website](https://ezbookkeeping.mayswind.net)  
+> `#个人财务` `#自托管` `#轻量级` `#Docker` `#多语言支持` `#AI收据识别` `#数据可视化` `#PWA` `#accounting` `#app` `#bookkeeping` `#docker` `#expense-manager` `#expense-tracker` `#expenses` `#finance` `#finance-management` `#finances` `#financial` `#golang` `#homelab` `#mobile` `#money` `#money-manager` `#personal-finance` `#self-hosted` `#typescript` `#vue` >
+> ezBookkeeping 是一款轻量级、自托管的个人财务管理应用，支持多平台部署（Docker、二进制、源码），具备交易记录、数据导入导出、可视化分析、AI收据识别、多语言/多币种、双因素认证等功能，界面友好且适配移动端与桌面端，适合在树莓派等资源受限设备上运行。
+
+> <sub>A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.</sub>
+
+---
+## vaspike/agtok
+
+> [!info]
+> ⭐ 16 · Go · 2025-12-30  
+> [GitHub](https://github.com/vaspike/agtok)  
+> `#CLI工具` `#TUI界面` `#AI代理管理` `#Token切换` `#配置管理` `#跨平台` `#预设系统` `#原子写入` >
+> agtok 是一款用于集中管理和快速切换 Claude、Gemini 和 Codex 等 AI 代理的 API Token 与 Base URL 的 CLI/TUI 工具，支持预设分组、原子化配置写入、版本检测及跨平台操作，提升开发环境切换效率。
+
+> <sub>A CLI/TUI tool to manage and switch tokens & base URLs for AI agents like Claude, Gemini, and Codex.</sub>
+
+---
+## iflow-ai/iflow-cli
+
+> [!info]
+> ⭐ 4,677 · Shell · 2026-01-05  
+> [GitHub](https://github.com/iflow-ai/iflow-cli) · [Website](https://cli.iflow.cn/?)  
+> `#AI助手` `#命令行工具` `#代码分析` `#工作流自动化` `#多模态交互` `#免费AI模型` `#终端集成` `#开放平台` >
+> iFlow CLI 是一款终端嵌入式AI助手，支持多语言交互，可分析代码库、执行开发任务、自动化工作流，并集成免费AI模型（如Kimi K2、DeepSeek v3）。提供计划模式、子代理、上下文压缩、多模态输入及开放市场扩展，显著提升开发效率。
+
+> <sub>iFlow cli is a comprehensive command-line intelligence that embeds in your terminal, analyzes your repositories, does coding tasks, interprets your needs across contexts, and boosts efficiency by performing tasks from simple file operations to complex workflow automation.</sub>
+
+---
+## mouday/stock-open-api
+
+> [!info]
+> ⭐ 132 · Python · 2024-07-19  
+> [GitHub](https://github.com/mouday/stock-open-api) · [Website](https://mouday.github.io/stock-open-api/)  
+> `#股票数据` `#Python API` `#金融数据接口` `#量化研究` `#公开数据` `#A股` `#港股` `#财务数据` `#api` `#stock` >
+> stock-open-api 是一个基于 Python 的开源股票数据接口库，聚合了上海证券交易所、东方财富、犀牛之星、雪球等公开数据源，提供 A 股、港股、科创板、新三板等市场的公司概况、财务数据、行情信息等结构化接口，适用于量化研究、数据分析与学习交流。
+
+> <sub>股票数据接口</sub>
+
+---
+## phiresky/isbn-visualization
+
+> [!info]
+> ⭐ 502 · TypeScript · 2025-03-07  
+> [GitHub](https://github.com/phiresky/isbn-visualization)  
+> `#ISBN可视化` `#WebGL` `#数据可视化` `#图书元数据` `#瓦片地图` `#Rust处理` `#TypeScript` `#交互式浏览` >
+> 该项目通过可视化方式展示全球ISBN空间中的图书分布，支持多维度数据（如出版社、出版年份、稀有度等）的瓦片地图渲染。基于WebGL实现交互式缩放浏览，数据预处理使用Rust和TypeScript高效处理海量元数据，适用于图书研究、出版分析与数据探索。
+
+---
+## glink25/Cent
+
+> [!info]
+> ⭐ 896 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/glink25/Cent) · [Website](https://cent.linkai.work/)  
+> `#记账应用` `#多人协作` `#GitHub 同步` `#AI 助手` `#PWA` `#开源免费` `#多币种` `#数据自持` `#accounting` `#pwa` >
+> Cent 是一款完全免费、开源的多人协作记账 Web App，基于 GitHub 实现数据同步与版本控制，支持语音记账、AI 助手、多币种管理、地图可视化及周期记账等功能，无需服务器即可跨平台实时同步，数据完全自持。
+
+> <sub>完全免费、开源的多人协作记账 Web App | Completely free, open-source, collaborative accounting Web App</sub>
+
+---
+## wuqi-y/auto-cursor-releases
+
+> [!info]
+> ⭐ 549 · N/A · 2026-01-24  
+> [GitHub](https://github.com/wuqi-y/auto-cursor-releases) · [Website](https://github.com/wuqi-y/auto-cursor)  
+> `#Cursor IDE` `#账户管理` `#无感换号` `#自动轮换` `#对话备份` `#机器ID管理` `#跨平台` `#本地工具` >
+> Auto Cursor 是一款专业的 Cursor IDE 管理工具，支持账户、订阅及使用量的一键管理。核心功能包括对话记录备份、无感换号（无需重启）、自动轮换账户及到期自动切换，实现无缝使用体验。适用于 macOS 和 Windows 平台，操作安全且全程本地化处理。
+
+> <sub>源代码(开源版本到0.8)，后续版本会继续更新但不会开源</sub>
+
+---
+## slopus/happy
+
+> [!info]
+> ⭐ 13,470 · TypeScript · 2026-02-14  
+> [GitHub](https://github.com/slopus/happy) · [Website](https://happy.engineering)  
+> `#AI编程助手` `#移动端客户端` `#端到端加密` `#跨设备同步` `#开源` `#Claude Code` `#Codex` `#推送通知` `#claude-code` `#claude-desktop` `#claude-mobile` `#codex` `#codex-cli` `#hacktoberfest` >
+> Happy Coder 是一款支持移动端与网页端的 Claude Code 和 Codex 客户端，提供端到端加密、实时语音、跨设备即时切换及推送通知功能，开源无追踪，专为远程监控 AI 编程助手而设计。
+
+> <sub>Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured</sub>
+
+---
+## bytebot-ai/bytebot
+
+> [!info]
+> ⭐ 10,456 · TypeScript · 2025-09-12  
+> [GitHub](https://github.com/bytebot-ai/bytebot) · [Website](https://www.bytebot.ai/)  
+> `#AI 桌面代理` `#自动化` `#自然语言处理` `#容器化部署` `#多应用集成` `#文档处理` `#API 控制` `#自托管` `#agent` `#agentic-ai` `#agents` `#ai` `#ai-agents` `#ai-tools` `#anthropic` `#automation` `#bytebot` `#computer-use` `#computer-use-agent` `#cua` `#desktop` `#desktop-automation` `#docker` `#gemini` `#llm` `#mcp` `#openai` >
+> Bytebot 是一款开源的自托管 AI 桌面代理，运行于容器化 Linux 桌面环境，可通过自然语言指令自动化完成跨应用的复杂任务，如文档处理、多系统数据同步和网页操作，支持实时桌面监控与程序化控制。
+
+> <sub>Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.</sub>
+
+---
+## Zie619/n8n-workflows
+
+> [!info]
+> ⭐ 52,136 · Python · 2026-02-11  
+> [GitHub](https://github.com/Zie619/n8n-workflows)  
+> `#n8n` `#工作流自动化` `#AI安全扫描` `#API集成` `#开源工具` `#FastAPI` `#SQLite` `#Docker` >
+> 该仓库汇集了4,343个n8n自动化工作流，涵盖365+集成，提供分类浏览、全文搜索和在线预览功能。支持本地部署与Docker运行，并集成AI-BOM工具扫描工作流中的AI安全风险（如硬编码密钥、未认证代理等），助力合规与安全防护。
+
+> <sub>all of the workflows of n8n i could find (also from the site itself)</sub>
+
+---
+## Tencent/WeKnora
+
+> [!info]
+> ⭐ 13,111 · Go · 2026-02-25  
+> [GitHub](https://github.com/Tencent/WeKnora) · [Website](https://weknora.weixin.qq.com)  
+> `#RAG` `#文档理解` `#语义检索` `#大模型` `#知识库` `#智能代理` `#MCP工具` `#混合检索` `#agent` `#agentic` `#ai` `#chatbot` `#chatbots` `#embeddings` `#evaluation` `#generative-ai` `#golang` `#knowledge-base` `#llm` `#multi-tenant` `#multimodel` `#ollama` `#openai` `#question-answering` `#rag` `#reranking` `#semantic-search` `#vector-search` >
+> WeKnora 是腾讯推出的基于大模型的文档理解与检索框架，采用 RAG 范式，支持多模态文档解析、语义检索和上下文感知问答。核心功能包括智能代理（ReACT Agent）、多类型知识库管理、MCP 工具集成、Web 搜索及混合检索策略，适用于企业知识管理、学术研究和技术支持等场景，具备高扩展性与安全可控特性。
+
+> <sub>LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.</sub>
+
+---
+## CapSoftware/Cap
+
+> [!info]
+> ⭐ 17,116 · TypeScript · 2026-02-24  
+> [GitHub](https://github.com/CapSoftware/Cap) · [Website](https://cap.so)  
+> `#屏幕录制` `#视频分享` `#开源` `#自托管` `#Tauri` `#Next.js` `#AGPLv3` `#Loom 替代` `#app` `#cap` `#coss` `#loom` `#mac` `#nextjs` `#nextjs15` `#open-source` `#oss` `#react` `#record` `#rust` `#screen-capture` `#screen-recorder` `#screenshot` `#solidjs` `#tauri` `#tauri-app` `#typescript` `#vite` >
+> Cap 是一款开源的视频消息工具，作为 Loom 的替代方案，支持快速录制、编辑和分享屏幕视频。提供桌面端（Tauri + SolidStart）和 Web 端（Next.js），支持自托管部署（Docker Compose、Railway 等），采用 AGPLv3 与 MIT 双许可。
+
+> <sub>Open source Loom alternative. Beautiful, shareable screen recordings.</sub>
+
+---
+## MagicMirrorOrg/MagicMirror
+
+> [!info]
+> ⭐ 23,324 · JavaScript · 2026-02-25  
+> [GitHub](https://github.com/MagicMirrorOrg/MagicMirror) · [Website](https://magicmirror.builders)  
+> `#智能镜子` `#开源` `#模块化` `#Electron` `#个人助理` `#物联网` `#DIY` `#插件系统` `#domotics` `#javascript` `#magicmirror` `#mirror` `#raspberry-pi` `#smarthome` >
+> MagicMirror² 是一个开源模块化智能镜子平台，支持安装多种插件，可将普通镜子变为个人助手。基于 Electron 构建，无需额外配置服务器或浏览器，适用于家庭、浴室或走廊场景。
+
+> <sub>MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant.</sub>
+
+---
+## yan5xu/ququ
+
+> [!info]
+> ⭐ 1,991 · JavaScript · 2025-10-08  
+> [GitHub](https://github.com/yan5xu/ququ)  
+> `#语音识别` `#中文优化` `#本地处理` `#开源免费` `#FunASR` `#大语言模型` `#桌面应用` `#Electron` `#ai-text-processing` `#chinese-speech-recognition` `#electron-app` `#funasr` `#local-processing` `#open-source` `#privacy-first` `#speech-to-text` `#voice-dictation` `#wispr-flow-alternative` >
+> 蛐蛐（QuQu）是一款开源免费的中文桌面语音工作流工具，作为 Wispr Flow 的替代方案，集成 FunASR 本地语音识别模型与可配置大语言模型，支持实时转录、智能纠错、格式优化及上下文感知输出，注重隐私保护，专为中文用户和开发者优化。
+
+> <sub>开源免费的 Wispr Flow 替代方案 | 集成FunASR本地模型和可配置大语言模型的下一代中文桌面语音工作流</sub>
+
+---
+## AmeNetwork/aser
+
+> [!info]
+> ⭐ 469 · Python · 2025-10-11  
+> [GitHub](https://github.com/AmeNetwork/aser) · [Website](https://ame.network/)  
+> `#AI Agent` `#框架` `#模块化` `#多智能体` `#工具调用` `#记忆` `#知识检索` `#开源` `#a2a-protocol` `#agent` `#agents` `#ai` `#ai-agent` `#ai-memory` `#aser` `#erc8004` `#llm` `#mcp` `#multi-agent` `#onchain-ai` `#rag` `#self-evolving-ai` `#text2sql` `#web3` `#workflow` >
+> Aser 是一个轻量级、模块化且多功能的 AI 智能体框架，支持快速构建具备工具调用、记忆、知识检索、多智能体协作等能力的 AI 代理，适用于从基础对话到复杂工作流的多样化场景。
+
+> <sub>Aser is a lightweight, self-assembling AI Agent frame.</sub>
+
+---
+## ChromeDevTools/chrome-devtools-mcp
+
+> [!info]
+> ⭐ 26,685 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/ChromeDevTools/chrome-devtools-mcp) · [Website](https://npmjs.org/package/chrome-devtools-mcp)  
+> `#Chrome DevTools` `#MCP 服务器` `#AI 编码助手` `#浏览器自动化` `#性能分析` `#Puppeteer` `#调试工具` `#CrUX API` `#browser` `#chrome` `#chrome-devtools` `#debugging` `#devtools` `#mcp` `#mcp-server` `#puppeteer` >
+> Chrome DevTools MCP 是一个基于 Model Context Protocol (MCP) 的服务端工具，允许 AI 编码助手（如 Claude、Gemini、Cursor 等）通过 Puppeteer 控制真实 Chrome 浏览器，实现性能分析、网络调试、控制台日志检查及自动化操作，支持 CrUX 数据集成与用法统计，适用于深度调试与可靠自动化场景。
+
+> <sub>Chrome DevTools for coding agents</sub>
+
+---
+## i18n-pro/core
+
+> [!info]
+> ⭐ 48 · TypeScript · 2026-01-22  
+> [GitHub](https://github.com/i18n-pro/core)  
+> `#i18n` `#国际化` `#自动翻译` `#轻量级` `#JavaScript` `#CLI工具` `#多平台支持` `#text-as-key` `#auto-translation` `#automatic-translation` `#i18n` `#javascript` `#machine-translation` `#react-i18n` `#react-intl` `#solid-i18n` `#svelte-i18n` `#translator` `#vue-i18n` >
+> i18n-pro/core 是一款开箱即用的轻量级 JavaScript 国际化自动翻译解决方案，支持文本即键值（text-as-key）、变量插值、类型标签与多平台自动翻译，提供 CLI 工具与 API 接口，实现一键提取文本、增量翻译及语言包生成，适用于各类前端项目。
+
+> <sub>An out-of-the-box, lightweight JavaScript i18n auto-translation solution</sub>
+
+---
+## shareAI-lab/Kode-cli
+
+> [!info]
+> ⭐ 4,381 · TypeScript · 2026-01-23  
+> [GitHub](https://github.com/shareAI-lab/Kode-cli)  
+> `#AI编程助手` `#终端工具` `#多模型协作` `#AGENTS.md标准` `#子代理系统` `#代码编辑` `#工作流自动化` `#跨平台CLI` >
+> Kode CLI 是一款终端 AI 编程助手，支持多模型协作与子代理系统，专为后人类工作流设计。它可理解代码库、编辑文件、执行命令并自动化复杂开发任务，原生支持 AGENTS.md 标准，兼容 .claude 配置，提供智能补全、跨平台运行及安全可控的 YOLO/安全模式切换。
+
+> <sub>Kode CLI — Design for post-human workflows. One unit agent for every human & computer task.</sub>
+
+---
+## cfrs2005/claude-init
+
+> [!info]
+> ⭐ 1,071 · Shell · 2026-01-22  
+> [GitHub](https://github.com/cfrs2005/claude-init)  
+> `#AI编程` `#Claude Code` `#中文本地化` `#MCP服务器` `#智能上下文管理` `#安全扫描` `#开发工具集成` `#零门槛部署` >
+> 为中国开发者定制的 Claude Code 中文开发套件，提供零门槛 AI 编程环境。集成 MCP 服务器、智能上下文管理、安全扫描及免翻墙访问，支持中文化指令、文档和错误提示。内置黑客松冠军配置，含 9 个专用智能体、10 个快捷指令和 8 项强制规则，提升开发效率与代码质量。
+
+> <sub>Claude Code 中文开发套件 - 为中国开发者定制的零门槛 AI 编程环境。一键安装完整中文化体验，集成 MCP 服务器、智能上下文管理、安全扫描，支持免翻墙访问。让 AI 编程更简单。</sub>
+
+---
+## bestK/vscode-internal-command-mcp-server
+
+> [!info]
+> ⭐ 59 · TypeScript · 2025-09-19  
+> [GitHub](https://github.com/bestK/vscode-internal-command-mcp-server)  
+> `#VSCode 扩展` `#MCP 协议` `#FastMCP` `#HTTP Streaming` `#远程命令执行` `#异步任务队列` `#AI 编程助手集成` `#安全白名单` >
+> 该 VSCode 扩展基于 FastMCP 框架，将 VSCode 转换为兼容 MCP 协议的服务器，支持通过 HTTP Streaming/SSE 远程执行内部命令、查询工作区信息，并提供异步执行、命令白名单、延时控制等安全机制，适用于 AI 编程助手（如 Cursor）与编辑器的深度集成。
+
+---
+## MatrixSeven/file-transfer-go
+
+> [!info]
+> ⭐ 4,668 · TypeScript · 2025-12-01  
+> [GitHub](https://github.com/MatrixSeven/file-transfer-go) · [Website](https://transfer.52python.cn)  
+> `#WebRTC` `#P2P传输` `#文件共享` `#端到端加密` `#Go` `#React` `#Next.js` `#Docker` >
+> 基于 Go 和 React 开发的端到端 P2P 文件/文字/桌面共享工具，采用 WebRTC 实现安全直连传输，数据不经过服务器，支持多平台部署与 Docker 一键启动。
+
+> <sub>Go/React开发的端到端webrtc的文件传输/文字传输/桌面共享，安全，隐私，数据不经过服务器。</sub>
+
+---
+## virgoone/next-money
+
+> [!info]
+> ⭐ 397 · TypeScript · 2026-01-21  
+> [GitHub](https://github.com/virgoone/next-money) · [Website](https://fluxaipro.art)  
+> `#Next.js` `#SaaS 模板` `#Stripe 支付` `#Clerk 认证` `#Supabase` `#Prisma` `#Shadcn/ui` `#AI 图像生成` >
+> 基于 Next.js 14 的 SaaS 全栈启动模板，集成 Clerk 认证、Stripe 支付、Supabase 数据库、Prisma ORM 及 Shadcn/ui 组件库，支持快速构建 Flux AI 图像生成类应用，包含邮件系统、动画交互与生产级代码规范。
+
+> <sub>Flux AI Image generator</sub>
+
+---
+## ItusiAI/Open-Aiartools
+
+> [!info]
+> ⭐ 307 · TypeScript · 2025-06-28  
+> [GitHub](https://github.com/ItusiAI/Open-Aiartools)  
+> `#AI图像编辑` `#Next.js` `#FLUX.1` `#Stripe支付` `#多语言支持` `#响应式设计` `#开源` `#图像背景移除` >
+> 基于 Next.js 15 构建的现代化 AI 图像编辑 Web 应用，集成 FLUX.1 Kontext [pro] 模型，支持智能编辑、背景移除、多纵横比输出及多格式处理。提供用户认证、积分系统、Stripe 支付与多语言支持，代码完全开源，具备响应式设计与企业级安全机制。
+
+> <sub>AI 图像编辑 Web 应用，使用 **FLUX.1 Kontext [pro]** 前沿模型提供强大的图像编辑功能，支持Stripe支付，注册登录，积分系统等，代码100%开源。</sub>
+
+---
+## tbphp/gpt-load
+
+> [!info]
+> ⭐ 5,929 · Go · 2026-02-24  
+> [GitHub](https://github.com/tbphp/gpt-load) · [Website](https://www.gpt-load.com)  
+> `#AI代理` `#透明代理` `#密钥轮询` `#负载均衡` `#Go语言` `#企业级` `#多模型支持` `#高可用架构` `#anthropic` `#claude` `#gemini` `#gin` `#go` `#golang` `#openai` >
+> GPT-Load 是一款企业级高性能 AI API 透明代理服务，支持 OpenAI、Gemini、Claude 等多渠道 AI 服务。具备智能密钥轮询、负载均衡、故障自动恢复、热重载配置及分布式集群部署能力，提供 Vue 3 管理界面与实时监控，适用于高并发生产环境。
+
+> <sub>Multi-channel AI proxy with intelligent key rotation. 智能密钥轮询的多渠道 AI 代理。</sub>
+
+---
+## iOfficeAI/AionUi
+
+> [!info]
+> ⭐ 17,077 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/iOfficeAI/AionUi) · [Website](https://www.aionui.com)  
+> `#AI协作` `#智能体平台` `#多模型支持` `#零配置部署` `#跨平台应用` `#开源免费` `#自动化办公` `#CLI集成` `#acp` `#ai` `#ai-agent` `#chat` `#chatbot` `#claude-code` `#clawd` `#clawdbot` `#codex` `#cowork` `#gemini` `#gemini-cli` `#llm` `#nano-banana` `#office` `#openclaw` `#opencode` `#skills` `#webui` >
+> AionUi 是一款免费开源的跨平台 AI 协作应用，内置智能体引擎，支持零配置启动。可无缝集成 Claude Code、Codex、Qwen Code 等 12+ 种 CLI 智能体，提供文件操作、多步任务执行、24/7 自动化及远程访问能力。支持 20+ AI 平台 API，配备 11+ 专业助手，实现真正的人机协作办公。
+
+> <sub>Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!</sub>
+
+---
+## monkeyWie/typix
+
+> [!info]
+> ⭐ 89 · TypeScript · 2026-02-06  
+> [GitHub](https://github.com/monkeyWie/typix) · [Website](https://typix.art/home)  
+> `#ai` `#cloudflare-workers` `#flux` `#gpt-image-1` `#image-generation` `#nanobanana` `#qwen` >
+> 生成失败
+
+> <sub>开源AI生图工具，免登录畅玩 FLUX2、SDXL，支持 cloudflare workers 一键部署自托管，并集成各大主流AI提供商，提供一站式的创作体验。</sub>
+
+---
+## musistudio/claude-code-router
+
+> [!info]
+> ⭐ 28,383 · TypeScript · 2026-01-10  
+> [GitHub](https://github.com/musistudio/claude-code-router) · [Website](https://musistudio.github.io/claude-code-router/)  
+> >
+> 生成失败
+
+> <sub>Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.</sub>
+
+---
+## glidea/claude-worker-proxy
+
+> [!info]
+> ⭐ 256 · TypeScript · 2025-11-22  
+> [GitHub](https://github.com/glidea/claude-worker-proxy)  
+> `#claude` `#claude-code` `#cloudflare-worker` `#proxy` >
+> 生成失败
+
+> <sub>Cloudflare Worker; Claude Code; Proxy; Easy to deploy; Claude Code Router; claude-code-router; ccr; alternate</sub>
+
+---
+## xpzouying/xiaohongshu-mcp
+
+> [!info]
+> ⭐ 9,211 · Go · 2026-02-25  
+> [GitHub](https://github.com/xpzouying/xiaohongshu-mcp) · [Website](https://www.haha.ai/xiaohongshu-mcp)  
+> `#小红书` `#MCP` `#自动化运营` `#内容发布` `#爬虫` `#Docker` `#图文视频` `#API` `#mcp` `#mcp-server` `#xiaohongshu-mcp` >
+> 小红书 MCP 工具，支持登录、发布图文/视频、搜索内容、获取推荐与帖子详情、发表评论及用户主页抓取，适用于自动化运营和内容管理，提供 Docker 与二进制快速部署方案。
+
+> <sub>MCP for xiaohongshu.com</sub>
+
+---
+## aoguai/LiYing
+
+> [!info]
+> ⭐ 3,142 · Python · 2026-02-24  
+> [GitHub](https://github.com/aoguai/LiYing)  
+> `#证件照处理` `#图像识别` `#背景替换` `#自动排版` `#离线运行` `#ONNX模型` `#Gradio WebUI` `#批量处理` `#background-replacement` `#image-compression` `#image-cropping` `#photo-layout` `#photo-processing` `#portrait-recognition` >
+> LiYing 是一款专为照相馆设计的证件照自动化处理程序，支持人脸与人体识别、角度矫正、背景替换、多尺寸自动裁切及排版，完全离线运行，保障数据隐私，适用于高效批量处理证件照。
+
+> <sub>LiYing is an automated photo processing program designed for automating the post-processing workflow of ID photos in general photo studios. | LiYing 是一套适用于自动化 完成一般照相馆后期证件照处理流程的照片自动处理的程序。</sub>
+
+---
+## chaitin/MonkeyCode
+
+> [!info]
+> ⭐ 2,201 · TypeScript · 2025-12-08  
+> [GitHub](https://github.com/chaitin/MonkeyCode) · [Website](https://monkeycode-ai.com/)  
+> `#AI编程助手` `#研发协作` `#私有化部署` `#代码安全扫描` `#Git机器人` `#IDE插件` `#企业级管控` `#离线使用` `#ai` `#ai-coding` `#ai-security` `#aicodeassistant` `#aicoding` `#coding` `#vscode-extension` >
+> MonkeyCode 是一款企业级 AI 编程助手，专为研发协作与管理设计，支持 IDE 对话编程、智能补全与安全扫描，集成 Git 机器人实现 PR 审查、Issue 拆解与自动编码，提供私有化部署、离线使用及企业级审计管控面板，保障代码安全与团队协作效率。
+
+> <sub>企业级 AI 编程助手，专为 研发协作 和 研发管理 场景而设计。</sub>
+
+---
+## 90le/Excel-Plugin-Template
+
+> [!info]
+> ⭐ 27 · C# · 2025-06-30  
+> [GitHub](https://github.com/90le/Excel-Plugin-Template) · [Website](https://www.90le.cn)  
+> `#Excel插件` `#VSTO` `#C#` `#.NET Framework` `#WPF` `#MVVM` `#Office自动化` `#热重载` `#com-add-in` `#excel-add-in` `#excel-plugin` `#vsto` >
+> BasePlugin 是一个基于 C# .NET 的 Excel 插件开发模板，支持 VSTO 和 COM 插件架构。提供热重载、自动更新、WPF/WinForms UI、MVVM 模式及 COM 安全机制，适用于 Excel/WPS 自动化和 Office 扩展开发，内置完整示例与多语言文档。
+
+> <sub>⚡ Excel Plugin Framework | Excel插件框架 - C# .NET hot-reload template for VSTO add-ins. Features: WPF/WinForms UI, auto-update, COM safety, MVVM pattern. Perfect for Office automation & Excel/WPS plugins</sub>
+
+---
+## rememberber/WePush
+
+> [!info]
+> ⭐ 4,641 · Java · 2024-11-28  
+> [GitHub](https://github.com/rememberber/WePush) · [Website](https://rememberber.github.io/WePush/)  
+> `#批量推送` `#消息通知` `#微信生态` `#短信集成` `#桌面应用` `#Java Swing` `#多平台支持` `#定时任务` `#gui` `#java` `#mail` `#message` `#push` `#send` `#sender` `#sms` `#swing` `#wechat` `#weixin` >
+> WePush 是一款专注于多平台批量消息推送的轻量级桌面工具，支持微信生态（公众号、小程序、企业微信）、短信（阿里云、腾讯云等十余家）、邮件、钉钉及HTTP请求等多种消息类型，具备变量消息、定时推送、用户导入、失败重试及可视化界面等核心功能，适用于营销通知、系统告警等场景。
+
+> <sub>专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息、微信企业号/企业微信消息、阿里云短信、阿里大于模板短信 、腾讯云短信、云片网短信、E-Mail、HTTP请求、钉钉、华为云短信、百度云短信、又拍云短信、七牛云短信</sub>
+
+---
+## MoonCakeTV/MoonCakeTV
+
+> [!info]
+> ⭐ 305 · TypeScript · 2025-12-07  
+> [GitHub](https://github.com/MoonCakeTV/MoonCakeTV) · [Website](https://MoonCakeTV.com)  
+> `#影视聚合` `#Next.js` `#Docker` `#HLS.js` `#苹果CMS` `#NAS部署` `#TypeScript` `#无数据库` >
+> MoonCakeTV 是一个基于 Next.js 和 TypeScript 的轻量级影视聚合搜索平台，支持多源（苹果CMS v10协议）视频检索与在线播放（HLS.js），具备收藏、观看历史、自定义源、深色模式及密码保护功能，采用文件存储无需数据库，支持一键部署与 NAS 内网运行。
+
+> <sub>月饼TV</sub>
+
+---
+## wzdnzd/aggregator
+
+> [!info]
+> ⭐ 6,175 · Python · 2026-02-24  
+> [GitHub](https://github.com/wzdnzd/aggregator) · [Website](https://github.com/wzdnzd/aggregator)  
+> `#代理池` `#爬虫` `#订阅聚合` `#Clash` `#V2Ray` `#SingBox` `#多源采集` `#格式转换` `#proxypool` >
+> Aggregator 是一款一站式免费代理池构建工具，支持从 Telegram、GitHub、Google 等多平台爬取代理资源，自动验证活性并转换为 Clash、V2Ray、SingBox 等主流格式，提供灵活存储（如 Gist）和插件化架构，适用于个人或自动化部署场景。
+
+> <sub>One-stop Proxies Crawling and Aggregation Platform</sub>
+
+---
+## winfunc/opcode
+
+> [!info]
+> ⭐ 20,675 · TypeScript · 2025-10-16  
+> [GitHub](https://github.com/winfunc/opcode) · [Website](https://opcode.sh)  
+> `#Claude Code` `#GUI 工具` `#AI 代理` `#Tauri` `#项目管理` `#MCP 协议` `#用量分析` `#桌面应用` `#anthropic` `#anthropic-claude` `#claude` `#claude-4` `#claude-4-opus` `#claude-4-sonnet` `#claude-ai` `#claude-code` `#claude-code-sdk` `#cursor` `#ide` `#llm` `#llm-code` `#rust` `#tauri` >
+> opcode 是一款基于 Tauri 2 构建的桌面 GUI 工具，专为增强 Claude Code 使用体验而设计。它提供项目管理、自定义 AI 代理创建、会话时间线回溯、MCP 服务器管理、CLAUDE.md 编辑及实时用量分析等功能，将命令行工具转化为直观高效的可视化开发控制台。
+
+> <sub>A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.</sub>
+
+---
+## microsoft/OmniParser
+
+> [!info]
+> ⭐ 24,401 · Jupyter Notebook · 2025-09-12  
+> [GitHub](https://github.com/microsoft/OmniParser)  
+> `#屏幕解析` `#GUI 智能体` `#计算机视觉` `#界面自动化` `#大模型集成` `#目标检测` `#图标识别` `#微软开源` >
+> OmniParser 是一款用于解析用户界面截图的轻量级工具，支持将屏幕元素结构化，提升纯视觉 GUI 智能体（如 GPT-4V）的操作精准度。其 V2 版本在 Screen Spot Pro 基准测试中达到 39.5% 的 SOTA 成绩，并支持与多种大模型（OpenAI、DeepSeek、Qwen 等）集成，实现 Windows 环境下的自动化控制。
+
+> <sub>A simple screen parsing tool towards pure vision based GUI agent</sub>
+
+---
+## sansan0/TrendRadar
+
+> [!info]
+> ⭐ 47,252 · Python · 2026-02-09  
+> [GitHub](https://github.com/sansan0/TrendRadar) · [Website](https://sansan0.github.io/TrendRadar/)  
+> `#舆情监控` `#AI分析` `#RSS聚合` `#智能推送` `#多平台集成` `#Docker部署` `#趋势预测` `#MCP支持` `#ai` `#bark` `#data-analysis` `#docker` `#hot-news` `#llm` `#mail` `#mcp` `#mcp-server` `#news` `#ntfy` `#python` `#rss` `#trending-topics` `#wechat` `#wework` >
+> TrendRadar 是一款 AI 驱动的舆情监控与热点筛选工具，支持多平台热点聚合、RSS 订阅、关键词过滤及智能推送。集成 AI 翻译与分析简报功能，支持 MCP 架构赋能自然语言处理与趋势预测，兼容微信/飞书/钉钉/Telegram/邮件等十余种通知渠道，提供 Docker 部署与本地/云端数据存储。
+
+> <sub>⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。</sub>
+
+---
+## rdev/liquid-glass-react
+
+> [!info]
+> ⭐ 4,500 · TypeScript · 2025-06-13  
+> [GitHub](https://github.com/rdev/liquid-glass-react)  
+> `#React` `#UI 效果` `#液态玻璃` `#折射动画` `#CSS 滤镜` `#交互组件` `#Apple 设计` `#前端特效` >
+> Liquid Glass React 是一个实现苹果液态玻璃效果的 React 组件库，支持动态折射、色散、弹性形变和磨砂质感，适用于按钮、卡片等 UI 元素，提供多种可配置参数以模拟真实玻璃交互体验。
+
+> <sub>Apple's Liquid Glass effect for React</sub>
+
+---
+## johnson7788/MultiAgentPPT
+
+> [!info]
+> ⭐ 1,488 · Python · 2025-09-22  
+> [GitHub](https://github.com/johnson7788/MultiAgentPPT)  
+> `#多智能体系统` `#PPT生成` `#流式处理` `#A2A架构` `#MCP协议` `#ADK开发框架` `#自动化演示文稿` `#智能内容生成` >
+> MultiAgentPPT 是一个基于 A2A、MCP 和 ADK 架构的多智能体系统，支持流式并发生成高质量可在线编辑的 PPT。系统通过大纲生成、主题拆分、并行调研与内容汇总等智能体协作流程，实现从主题输入到完整演示文稿的自动化生成，具备实时流式返回、质量检查与可扩展性等亮点。
+
+> <sub>MultiAgentPPT 是一个集成了 A2A（Agent2Agent）+ MCP（Model Context Protocol）+ ADK（Agent Development Kit） 架构的智能化演示文稿生成系统，支持通过多智能体协作和流式并发机制</sub>
+
+---
+## justlovemaki/AIClient-2-API
+
+> [!info]
+> ⭐ 4,358 · JavaScript · 2026-02-22  
+> [GitHub](https://github.com/justlovemaki/AIClient-2-API) · [Website](https://aiproxy.justlikemaki.vip)  
+> `#API 代理` `#OpenAI 兼容` `#多模型统一接口` `#账户池管理` `#Web UI 控制台` `#Docker 部署` `#协议转换` `#高可用性` `#aicoding` `#free` >
+> AIClient-2-API 是一个强大的 API 代理服务，将仅限客户端使用的免费大模型（如 Gemini、Antigravity、Qwen Code、Kiro）转换为标准 OpenAI 兼容接口，支持多协议智能转换、账户池调度、高可用部署，并提供 Web UI 管理控制台，显著提升 AI 开发效率与模型访问灵活性。
+
+> <sub>Simulates Gemini CLI, Antigravity, Qwen Code, and Kiro client requests, compatible with the OpenAI API. It supports thousands of Gemini model requests per day and offers free use of the built-in Claude model in Kiro. Easily connect to any client via the API, making AI development more efficient!</sub>
+
+---
+## dreamhunter2333/cloudflare_temp_email
+
+> [!info]
+> ⭐ 6,158 · Vue · 2026-02-25  
+> [GitHub](https://github.com/dreamhunter2333/cloudflare_temp_email) · [Website](https://mail.awsl.uk)  
+> `#临时邮箱` `#Cloudflare` `#Rust WASM` `#IMAP/SMTP` `#Telegram Bot` `#AI 识别` `#免费服务` `#隐私保护` `#cloudflare-email` `#cloudflare-pages` `#cloudflare-workers` `#email` `#free` >
+> 基于 Cloudflare 免费服务构建的临时邮箱系统，支持免费收发邮件、附件处理、IMAP/SMTP 协议、Telegram Bot 集成及 AI 验证码识别。采用 Rust WASM 实现高性能邮件解析，提供现代化响应式界面与多语言支持，适用于隐私保护和临时通信场景。
+
+> <sub>CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot</sub>
+
+---
+## linqiu919/augment2api
+
+> [!info]
+> ⭐ 193 · Go · 2025-08-12  
+> [GitHub](https://github.com/linqiu919/augment2api)  
+> `#API 中间件` `#OpenAI 兼容` `#Claude 模型` `#Token 管理` `#Redis 存储` `#流式输出` `#批量检测` `#账户风控` >
+> Augment2Api 是一个中间件服务，提供与 Augment API 的连接，兼容 OpenAI 接口，支持 Claude 3.7 和 Claude 4 模型调用。具备多 Token 管理、Redis 存储、流式输出、批量检测与自动屏蔽失效账户等功能，适用于需要稳定调用 Claude 模型的开发场景。
+
+---
+## LKbaba/Claude-code-ChatInWindows
+
+> [!info]
+> ⭐ 202 · TypeScript · 2026-02-20  
+> [GitHub](https://github.com/LKbaba/Claude-code-ChatInWindows)  
+> `#Claude Code` `#Windows` `#VS Code 扩展` `#AI 编程助手` `#第三方 API` `#原生界面` `#Cursor 兼容` `#MIT 许可证` >
+> 为 Windows 系统打造的 Claude Code 原生聊天界面扩展，无需 WSL 即可在 VS Code/Cursor 中直接使用。支持官方账户与第三方 API 切换、自定义端点配置，提供文件编辑、智能对话等能力，显著提升本地开发体验。
+
+---
+## OpenCut-app/OpenCut
+
+> [!info]
+> ⭐ 46,042 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/OpenCut-app/OpenCut) · [Website](https://opencut.app)  
+> `#视频编辑` `#开源` `#隐私保护` `#无水印` `#多平台` `#时间轴` `#React` `#Next.js` `#editor` `#oss` `#videoeditor` >
+> OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，主打隐私保护（本地处理）、无水印、无订阅，提供时间轴编辑、多轨道支持和实时预览等核心功能，是 CapCut 的开源替代方案。
+
+> <sub>The open-source CapCut alternative</sub>
+
+---
+## xiao-zaiyi/illa-helper
+
+> [!info]
+> ⭐ 2,773 · TypeScript · 2026-02-11  
+> [GitHub](https://github.com/xiao-zaiyi/illa-helper) · [Website](https://illa.xlike.cc)  
+> `#语言学习` `#浏览器扩展` `#智能翻译` `#TTS发音` `#AI辅助` `#沉浸式学习` `#多语言支持` `#可理解性输入` >
+> 基于‘可理解性输入’理论的浏览器语言学习插件，支持智能翻译、多语言TTS发音、AI释义及沉浸式学习模式，将网页内容转化为个性化语言学习材料。
+
+> <sub>浸入式学语言助手 (Immersive Language Learning Assistant)</sub>
+
+---
+## yuaotian/go-augment-cleaner
+
+> [!info]
+> ⭐ 1,015 · N/A · 2025-11-18  
+> [GitHub](https://github.com/yuaotian/go-augment-cleaner)  
+> `#Augment插件清理` `#IDE插件管理` `#hosts优化` `#域名测速` `#跨平台工具` `#Go语言` `#登录问题修复` `#缓存清理` >
+> 一款专为 Augment 插件设计的跨平台清理与优化工具，支持彻底清除 JetBrains、VSCode、Cursor 等 IDE 中的插件缓存与配置，并智能测速 d1-d20.api.augmentcode.com 域名，自动优化 hosts 文件以解决登录失败问题。提供交互式菜单与命令行双模式，支持代理配置与安全预览。
+
+> <sub>清理Augment缓存和生成设备SessionId/解决 VSCode、Cursor、JetBrains 系列 IDE 中 Augment 插件无法登录的问题（Sign in failed. If you have a firewall, please add）/将所有 d1-d20.api.augmentcode.com 域名统一指向延迟最低的服务器IP</sub>
+
+---
+## algerkong/AlgerMusicPlayer
+
+> [!info]
+> ⭐ 14,329 · Vue · 2026-01-21  
+> [GitHub](https://github.com/algerkong/AlgerMusicPlayer) · [Website](http://music.alger.fun)  
+> `#音乐播放器` `#网易云音乐` `#桌面歌词` `#音乐下载` `#本地服务` `#远程控制` `#跨平台` `#开源` `#alger` `#music` `#music-player` >
+> Alger Music Player 是一款功能丰富的第三方音乐播放器，支持网易云账号登录、本地服务、桌面歌词、音乐下载与远程控制。提供沉浸式歌词、多主题切换、EQ均衡器、高品质音源解析等功能，基于 netease-cloud-music-api 实现本地化服务，适配桌面与移动端。
+
+> <sub>一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、远程控制</sub>
+
+---
+## jaypyles/Scraperr
+
+> [!info]
+> ⭐ 4,866 · TypeScript · 2025-10-12  
+> [GitHub](https://github.com/jaypyles/Scraperr) · [Website](https://scraperr-docs.pages.dev/)  
+> `#网页抓取` `#无代码` `#自托管` `#XPath` `#FastAPI` `#Next.js` `#MongoDB` `#Docker` `#docker` `#helm` `#kubernetes` `#opensource` `#playwright` `#python` `#scraping` `#self-hosted` `#web-scraper` `#web-scrapers` `#web-scraping` `#webscraper` `#webscraping` >
+> Scraperr 是一款自托管的无代码网页抓取工具，支持基于 XPath 的精准数据提取、队列管理、域名爬取、媒体下载及结果可视化，提供 CSV/Markdown 导出和通知功能，适用于合法合规的数据采集场景。
+
+> <sub>Self-hosted webscraper.</sub>
+
+---
+## tingxifa/claude_proxy
+
+> [!info]
+> ⭐ 208 · TypeScript · 2025-11-27  
+> [GitHub](https://github.com/tingxifa/claude_proxy)  
+> `#API 代理` `#Cloudflare Workers` `#TypeScript` `#Claude API` `#OpenAI 兼容` `#动态路由` `#函数调用转换` `#一键部署` >
+> 该项目是一个基于 Cloudflare Workers 的 TypeScript 代理，实现 Claude API 到 OpenAI API 格式的无缝转换，支持动态路由、流式响应、函数调用兼容及多后端（如 Gemini、Groq、Ollama）对接，提供一键配置脚本与便捷部署能力。
+
+> <sub>这是一个部署在 Cloudflare Workers 上的 TypeScript 项目，它充当一个代理服务器，能够将 Claude API 格式的请求无缝转换为 OpenAI API 格式。这使得任何与 Claude API 兼容的客户端（例如官方的 @anthropic-ai/claude-code CLI）都能够与任何支持 OpenAI API 格式的服务进行通信，如 Google Gemini, Groq, Ollama 等。</sub>
+
+---
+## mindsdb/mindsdb
+
+> [!info]
+> ⭐ 38,582 · Python · 2026-02-25  
+> [GitHub](https://github.com/mindsdb/mindsdb) · [Website](https://mindsdb.com)  
+> `#联邦查询` `#AI 数据引擎` `#MCP 协议` `#知识库` `#智能体` `#数据集成` `#SQL 接口` `#开源` `#agents` `#ai` `#analytics` `#artificial-inteligence` `#bigquery` `#business-intelligence` `#databases` `#hacktoberfest` `#llms` `#mcp` `#mssql` `#mysql` `#postgresql` `#rag` >
+> MindsDB 是一个开源联邦查询引擎，专为 AI 应用设计，支持连接数百种数据源并统一处理结构化与非结构化数据。通过内置 MCP 服务器、知识库、视图和智能体（Agents），实现跨数据库、数据仓库和 SaaS 的高效问答与自动化响应，适用于构建智能数据驱动型 AI 应用。
+
+> <sub>Federated Query Engine for AI - The only MCP Server you'll ever need</sub>
+
+---
+## TryGhost/Ghost
+
+> [!info]
+> ⭐ 51,909 · JavaScript · 2026-02-25  
+> [GitHub](https://github.com/TryGhost/Ghost) · [Website](https://ghost.org)  
+> `#Node.js` `#CMS` `#开源` `#内容管理` `#会员系统` `#新闻通讯` `#无头架构` `#Ghost(Pro)` `#blogging` `#cms` `#ghost` `#javascript` `#journalism` `#nodejs` `#publishing` `#web-application` >
+> Ghost 是一个基于 Node.js 的开源无头 CMS，专为现代出版、会员订阅和新闻通讯设计，支持独立部署或托管服务 Ghost(Pro)，提供简洁高效的内容管理与 API 集成能力。
+
+> <sub>Independent technology for modern publishing, memberships, subscriptions and newsletters.</sub>
+
+---
+## Afilmory/afilmory
+
+> [!info]
+> ⭐ 2,433 · TypeScript · 2026-02-23  
+> [GitHub](https://github.com/Afilmory/afilmory) · [Website](https://afilmory.art)  
+> `#照片图库` `#WebGL 渲染` `#EXIF 元数据` `#S3 同步` `#GitHub 存储` `#响应式设计` `#摄影师工具` `#自托管` >
+> Afilmory 是一款面向摄影师的现代高性能图库平台，支持 S3/GitHub 等多源自动同步、WebGL 图像渲染、完整 EXIF 元数据展示、地理地图可视化及 HDR/富士胶片模拟等专业功能，提供 SaaS 与自托管两种部署方式。
+
+> <sub>Modern photo gallery for photographers, with S3/GitHub sync, EXIF details, maps, and a WebGL viewer.</sub>
+
+---
+## kanshurichard/enableAppleAI
+
+> [!info]
+> ⭐ 3,424 · Shell · 2025-12-14  
+> [GitHub](https://github.com/kanshurichard/enableAppleAI)  
+> `#Apple Intelligence` `#macOS破解` `#SIP绕过` `#区域解锁` `#系统修改` `#ChatGPT集成` `#eligibilityd` `#countryd` >
+> 该工具用于在中国销售的Mac设备上永久启用Apple Intelligence，支持macOS 15.4+及26+系统，无需长期禁用SIP或运行后台服务。通过修改系统eligibility.plist及countryd缓存文件，绕过区域限制，解锁Siri整合ChatGPT、Apple News等功能。提供两种方法，支持文件锁定防重置，并可选择性强制设为美国地区以解锁更多服务。
+
+> <sub>Enable Apple Intelligence on Macs sold in Mainland China with SIP enabled, tested on MacOS 15.4.1+ and 26+</sub>
+
+---
+## punkpeye/awesome-mcp-servers
+
+> [!info]
+> ⭐ 81,573 · N/A · 2026-02-24  
+> [GitHub](https://github.com/punkpeye/awesome-mcp-servers) · [Website](https://glama.ai/mcp/servers)  
+> `#MCP` `#AI工具集成` `#服务器集合` `#开源协议` `#多语言支持` `#本地与云端服务` `#开发者资源` `#AI代理` `#ai` `#mcp` >
+> 这是一个精选的 Model Context Protocol (MCP) 服务器集合，涵盖文件访问、数据库连接、API集成等功能，支持多语言、多平台，提供生产级与实验性实现，助力AI模型安全调用本地与远程资源。
+
+> <sub>A collection of MCP servers.</sub>
+
+---
+## vancur2021/ProxyFilter
+
+> [!info]
+> ⭐ 161 · JavaScript · 2026-01-20  
+> [GitHub](https://github.com/vancur2021/ProxyFilter)  
+> `#Clash` `#代理过滤` `#Cloudflare Workers` `#多协议支持` `#节点去重` `#YAML处理` `#API工具` `#订阅合并` >
+> ProxyFilter 是一款基于 Cloudflare Workers 的 Clash 代理配置过滤工具，支持多格式输入（YAML、Base64、URI 列表），可按节点名称、类型智能过滤，兼容 VMess、Trojan、VLESS 等主流协议，具备去重、重命名、多源合并及代理组自动更新功能，适用于动态定制代理节点。
+
+> <sub>节点过滤器</sub>
+
+---
+## input-leap/input-leap
+
+> [!info]
+> ⭐ 7,449 · C++ · 2025-12-01  
+> [GitHub](https://github.com/input-leap/input-leap)  
+> `#KVM` `#输入共享` `#跨平台` `#开源` `#Barrier 分支` `#剪贴板同步` `#多系统控制` `#鼠标穿越` >
+> Input Leap 是一款开源 KVM 软件，通过软件方式实现单套键鼠控制多台计算机，支持跨 Windows、macOS、Linux 和 BSD 系统。用户可通过鼠标移至屏幕边缘或快捷键切换控制目标，支持剪贴板共享（Linux/Wayland 除外）。项目注重简洁性、跨平台兼容性与社区透明开发，是 Barrier 的分支，由原维护团队持续更新。
+
+> <sub>Open-source KVM software</sub>
+
+---
+## 1chooo/portfolio
+
+> [!info]
+> ⭐ 320 · TypeScript · 2026-02-05  
+> [GitHub](https://github.com/1chooo/portfolio) · [Website](https://1chooo.com)  
+> `#1chooo` `#1chooo-com` `#blog` `#chun-ho` `#chun-ho-lin` `#chunho` `#chunholin` `#hugo` `#hugolin` `#personal-website` `#portfolio` >
+> 生成失败
+
+---
+## hangwin/mcp-chrome
+
+> [!info]
+> ⭐ 10,491 · TypeScript · 2026-01-06  
+> [GitHub](https://github.com/hangwin/mcp-chrome)  
+> >
+> 生成失败
+
+> <sub>Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, content analysis, and semantic search.</sub>
+
+---
+## RVC-Boss/GPT-SoVITS
+
+> [!info]
+> ⭐ 55,290 · Python · 2026-02-09  
+> [GitHub](https://github.com/RVC-Boss/GPT-SoVITS)  
+> `#text-to-speech` `#tts` `#vits` `#voice-clone` `#voice-cloneai` `#voice-cloning` >
+> 生成失败
+
+> <sub>1 min voice data can also be used to train a good TTS model! (few shot voice cloning)</sub>
+
+---
+## Minidoracat/mcp-feedback-enhanced
+
+> [!info]
+> ⭐ 3,575 · JavaScript · 2025-06-29  
+> [GitHub](https://github.com/Minidoracat/mcp-feedback-enhanced)  
+> >
+> 生成失败
+
+> <sub>Enhanced MCP server for interactive user feedback and command execution in AI-assisted development, featuring dual interface support (Web UI and Desktop Application) with intelligent environment detection and cross-platform compatibility.</sub>
+
+---
+## google-ai-edge/gallery
+
+> [!info]
+> ⭐ 15,188 · Kotlin · 2026-02-25  
+> [GitHub](https://github.com/google-ai-edge/gallery)  
+> >
+> 生成失败
+
+> <sub>A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.</sub>
+
+---
+## google-gemini/gemini-fullstack-langgraph-quickstart
+
+> [!info]
+> ⭐ 17,900 · Jupyter Notebook · 2026-01-08  
+> [GitHub](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart) · [Website](https://ai.google.dev/gemini-api/docs/google-search)  
+> `#gemini` `#gemini-api` >
+> 生成失败
+
+> <sub>Get started with building Fullstack Agents using Gemini 2.5 and LangGraph</sub>
+
+---
+## u14app/deep-research
+
+> [!info]
+> ⭐ 4,444 · JavaScript · 2026-02-10  
+> [GitHub](https://github.com/u14app/deep-research) · [Website](https://research.u14.app)  
+> `#anthropic` `#deep-research` `#deep-research-api` `#deepresearch` `#deepseek` `#gemini` `#grok` `#mcp-server` `#ollama` `#openai` >
+> 生成失败
+
+> <sub>Use any LLMs (Large Language Models) for Deep Research. Support SSE API and MCP server.</sub>
+
+---
+## MikeWang000000/FakeHTTP
+
+> [!info]
+> ⭐ 1,332 · C · 2025-07-06  
+> [GitHub](https://github.com/MikeWang000000/FakeHTTP)  
+> `#iptables` `#netfilter-queue` `#nfqueue` `#obfuscation` >
+> 生成失败
+
+> <sub>Obfuscate all your TCP connections into HTTP protocol.</sub>
+
+---
+## sanshao85/mcp-feedback-collector
+
+> [!info]
+> ⭐ 242 · Python · 2025-06-02  
+> [GitHub](https://github.com/sanshao85/mcp-feedback-collector)  
+> >
+> 生成失败
+
+> <sub>一个现代化的 Model Context Protocol (MCP) 服务器，为AI助手提供交互式用户反馈收集功能。</sub>
+
+---
+## hpcaitech/Open-Sora
+
+> [!info]
+> ⭐ 28,615 · Python · 2025-04-30  
+> [GitHub](https://github.com/hpcaitech/Open-Sora) · [Website](https://hpcaitech.github.io/Open-Sora/)  
+> >
+> 生成失败
+
+> <sub>Open-Sora: Democratizing Efficient Video Production for All</sub>
+
+---
+## WindChimeEcho/read-bridge
+
+> [!info]
+> ⭐ 326 · TypeScript · 2025-09-10  
+> [GitHub](https://github.com/WindChimeEcho/read-bridge) · [Website](https://readbridge.cc)  
+> `#语言学习` `#AI 辅助阅读` `#可理解输入` `#沉浸式学习` `#跨平台应用` `#Next.js` `#Tauri` `#词汇习得` >
+> ReadBridge 是一款基于 n+1 可理解输入理论的 AI 增强阅读工具，支持 Web 与桌面端（Tauri），通过目标语言沉浸式阅读提升语言学习效率，提供上下文词汇解释、进度追踪与个性化难度配置，助力自然习得。
+
+> <sub>AI-enhanced reading tool for immersive language learning using the n+1 method. Learn languages by staying in the target language ecosystem, with a flow-state focused interface.</sub>
+
+---
+## jing332/tts-server-android
+
+> [!info]
+> ⭐ 4,302 · Kotlin · 2025-08-26  
+> [GitHub](https://github.com/jing332/tts-server-android)  
+> `#TTS` `#Android` `#语音合成` `#微软接口` `#自定义引擎` `#对话识别` `#自动重试` `#开源` `#android` `#compose-ui` `#golang` `#jetpack-compose` `#kotlin` `#legado` `#microsoft` `#tts` >
+> 一款功能强大的Android TTS应用，支持微软演示接口、自定义HTTP请求、导入本地TTS引擎，具备中文对话识别、自动重试、备用配置及文本替换等高级功能，适用于朗读与语音交互场景。
+
+> <sub>这是一个Android系统TTS应用，内置微软演示接口，可自定义HTTP请求，可导入其他本地TTS引擎，以及根据中文双引号的简单旁白/对话识别朗读 ，还有自动重试，备用配置，文本替换等更多功能。</sub>
+
+---
+## chatanywhere/GPT_API_free
+
+> [!info]
+> ⭐ 36,191 · Python · 2026-01-10  
+> [GitHub](https://github.com/chatanywhere/GPT_API_free) · [Website](https://api.chatanywhere.tech)  
+> `#免费API` `#大模型接口` `#OpenAI兼容` `#国内直连` `#多模型支持` `#流式响应` `#非商业使用` `#API转发` `#api` `#chatgpt` `#claude` `#deepseek` `#gemini` `#gpt` `#grok` >
+> 提供免费ChatGPT与DeepSeek API服务，支持gpt、deepseek、claude、gemini、grok等主流大模型，国内直连无需代理，兼容OpenAI标准协议，支持流式响应与多模型统一接入，适用于个人非商业用途。
+
+> <sub>Free ChatGPT&DeepSeek API Key，免费ChatGPT&DeepSeek API。免费接入DeepSeek API和GPT4 API，支持 gpt | deepseek | claude | gemini | grok 等排名靠前的常用大模型。</sub>
+
+---
+## liujuntao123/smart-mermaid
+
+> [!info]
+> ⭐ 1,114 · JavaScript · 2025-11-03  
+> [GitHub](https://github.com/liujuntao123/smart-mermaid) · [Website](https://smart-mermaid.aizhi.site)  
+> `#AI 文本转图表` `#Mermaid 渲染` `#可视化工具` `#流程图生成` `#手绘风格图表` `#Next.js` `#OpenAI 兼容接口` `#本地历史记录` >
+> Smart Mermaid 是一款 AI 驱动的 Web 工具，支持将自然语言文本智能转换为 Mermaid 代码并渲染为流程图、序列图等可视化图表，提供标准与手绘风双渲染模式，具备代码修复、优化建议、文件导入及本地历史记录功能，适用于文档可视化与快速原型设计。
+
+> <sub>一款基于 AI 技术的 Web 应用程序，可将文本内容智能转换为 Mermaid 格式的代码，并将其渲染成可视化图表。</sub>
+
+---
+## thusvill/LiveWallpaperMacOS
+
+> [!info]
+> ⭐ 659 · Objective-C++ · 2026-02-23  
+> [GitHub](https://github.com/thusvill/LiveWallpaperMacOS) · [Website](https://thusvill.github.io/LiveWallpaperMacOS/)  
+> `#macOS` `#动态壁纸` `#SwiftUI` `#开源` `#视频壁纸` `#多显示器` `#Gatekeeper` `#Objective-C++` `#livewallpaper` `#livewallpaper-macos` `#macos` >
+> 一款开源的 macOS 动态壁纸应用，支持 .mp4 和 .mov 格式视频壁纸，具备多显示器支持与性能优化。采用 SwiftUI 重构界面，保留 C++ 守护进程，需手动绕过 Gatekeeper 安装。
+
+> <sub>This is a Opensource Live wallpaper solution for MacOS</sub>
+
+---
+## xyTom/snippai
+
+> [!info]
+> ⭐ 1,476 · TypeScript · 2025-12-03  
+> [GitHub](https://github.com/xyTom/snippai) · [Website](https://snippai.de/)  
+> `#AI 截图工具` `#公式识别` `#OCR 文本提取` `#图像分析` `#多语言翻译` `#代码理解` `#表格转换` `#颜色检测` >
+> Snippai 是一款基于先进 AI 算法的智能截图工具，支持公式识别（LaTeX 转换）、文本提取、表格转 Markdown、图像分析、问题求解、代码理解、颜色检测及多语言实时翻译等功能，显著提升截图处理效率与智能化水平。
+
+> <sub>Snip Anything Solve Everything​</sub>
+
+---
+## superzhang21/ghostwriter
+
+> [!info]
+> ⭐ 260 · N/A · 2025-06-23  
+> [GitHub](https://github.com/superzhang21/ghostwriter)  
+> `#语言特征提取` `#JSON数据集` `#文本风格建模` `#大模型应用` `#非商业研究` `#人物语言分析` `#开源数据` `#CC BY-NC-ND 4.0` >
+> ghostwriter（影子作家）是一个开源项目，提供从各类文本来源（如小说、影视剧、社交媒体等）提取的人物语言与思维特征数据，以结构化JSON格式存储。适用于结合长上下文大模型进行风格化文本生成，支持非商业研究用途，采用CC BY-NC-ND 4.0许可。
+
+> <sub>影子作家（ghostwriter），一些人的写作或语言特征。</sub>
+
+---
+## ascoders/weekly
+
+> [!info]
+> ⭐ 30,866 · JavaScript · 2024-09-09  
+> [GitHub](https://github.com/ascoders/weekly)  
+> `#前端技术` `#技术周刊` `#源码解读` `#架构设计` `#JavaScript` `#React` `#性能优化` `#工程实践` `#awesome` `#frontend` `#weekly` >
+> 《前端精读周刊》是每周更新的技术精选，聚焦前端前沿技术、源码解析、架构设计与工程实践，结合大厂经验深度解读 JavaScript、React、V8、Web 性能等核心话题，助力开发者掌握实用且前沿的技术洞察。
+
+> <sub>前端精读周刊。帮你理解最前沿、实用的技术。</sub>
+
+---
+## ruanyf/weekly
+
+> [!info]
+> ⭐ 84,621 · N/A · 2026-02-12  
+> [GitHub](https://github.com/ruanyf/weekly)  
+> `#科技资讯` `#周刊` `#人工智能` `#软件开发` `#互联网趋势` `#技术评论` `#开源社区` `#程序员招聘` >
+> 《科技爱好者周刊》是阮一峰维护的每周科技资讯精选，涵盖人工智能、软件开发、互联网趋势、硬件创新等领域，每周五发布，提供深度分析与优质资源推荐，设有投稿通道和程序员招聘专区。
+
+> <sub>科技爱好者周刊，每周五发布</sub>
+
+---
+## chengazhen/cursor-auto-free
+
+> [!info]
+> ⭐ 9,849 · Python · 2025-10-14  
+> [GitHub](https://github.com/chengazhen/cursor-auto-free) · [Website](https://cursor-auto-free-doc.vercel.app)  
+> `#自动化` `#Cursor Pro` `#注册工具` `#开源` `#非商业` `#学习交流` `#许可证` `#文档` >
+> cursor-auto-free 是一款用于自动注册 Cursor Pro 的工具，支持非商业用途的学习交流。项目提供在线文档与公众号支持，采用 CC BY-NC-ND 4.0 许可，强调合法合规使用。
+
+> <sub>auto sign cursor</sub>
+
+---
+## 24mlight/A_Share_investment_Agent
+
+> [!info]
+> ⭐ 2,315 · Python · 2025-07-25  
+> [GitHub](https://github.com/24mlight/A_Share_investment_Agent)  
+> `#AI投资` `#多智能体系统` `#LLM决策` `#A股市场` `#自动化分析` `#辩论室机制` `#新闻情感分析` `#回测系统` >
+> 基于多智能体与LLM的AI投资决策系统，通过多头/空头研究员协同分析、辩论室机制及第三方LLM评估，提供A股市场多维度自动化决策支持，支持新闻智能抓取、回测与API服务。
+
+---
+## TapXWorld/ChinaTextbook
+
+> [!info]
+> ⭐ 65,339 · Roff · 2025-10-18  
+> [GitHub](https://github.com/TapXWorld/ChinaTextbook)  
+> `#教育公平` `#PDF教材` `#开源资源` `#数学教材` `#义务教育` `#海外华人教育` `#文件合并工具` `#GitHub仓库` >
+> 该项目开源整理中国小初高及大学阶段的PDF教材资源，涵盖数学等学科，旨在打破教育资源垄断，促进教育公平，尤其助力海外华人子女学习国内课程。提供大文件合并工具解决GitHub上传限制问题。
+
+> <sub>所有小初高、大学PDF教材。</sub>
+
+---
+## ayangweb/BongoCat
+
+> [!info]
+> ⭐ 18,744 · TypeScript · 2026-01-22  
+> [GitHub](https://github.com/ayangweb/BongoCat) · [Website](https://github.com/ayangweb/Awesome-BongoCat)  
+> `#桌面宠物` `#跨平台` `#互动应用` `#开源` `#Tauri` `#自定义模型` `#键盘监听` `#隐私保护` `#bongo-cat` `#bongocat` `#cross-platform` `#desktop-app` `#desktop-pet` `#linux` `#macos` `#pet` `#pet-project` `#rust` `#tauri` `#tauri-app` `#windows` >
+> BongoCat 是一款跨平台桌面互动宠物应用，支持 Windows、macOS 和 Linux(x11)。它通过监听键盘、鼠标或手柄输入，实时驱动猫咪角色做出相应动作，增添桌面趣味性。支持自定义模型导入，完全开源、离线运行，注重用户隐私。
+
+> <sub>🐱 跨平台互动桌宠 BongoCat，为桌面增添乐趣！</sub>
+
+---
+## voideditor/void
+
+> [!info]
+> ⭐ 28,249 · TypeScript · 2026-01-12  
+> [GitHub](https://github.com/voideditor/void) · [Website](https://voideditor.com)  
+> `#IDE` `#AI编程助手` `#开源` `#VS Code分叉` `#本地模型支持` `#代码可视化` `#数据隐私` `#暂停维护` `#chatgpt` `#claude` `#copilot` `#cursor` `#developer-tools` `#editor` `#llm` `#open-source` `#openai` `#visual-studio-code` `#vscode` `#vscode-extension` >
+> Void 是一款开源的 Cursor 替代 IDE，支持在代码库中使用 AI 代理、检查点记录与变更可视化，并可集成任意模型或本地部署。项目基于 VS Code 分叉开发，强调数据隐私（不保留用户数据），目前暂停维护以探索创新方向。
+
+---
+## LLM-Red-Team/minimax-free-api
+
+> [!info]
+> ⭐ 461 · TypeScript · 2025-01-25  
+> [GitHub](https://github.com/LLM-Red-Team/minimax-free-api) · [Website](https://platform.minimaxi.com)  
+> `#MiniMax` `#海螺AI` `#语音合成` `#图像解析` `#流式输出` `#多轮对话` `#逆向API` `#OpenAI兼容` `#chat-api` `#chatbot` `#chatgpt-api` `#hailuoai` `#hailuoai-api` `#llm` `#minimax` `#minimax-text-01` `#minimax-vl-01` >
+> MiniMax-Free-API 是一个逆向封装的海螺AI（MiniMax）免费服务，支持 Text-01 和 VL-01 模型，提供流式对话、语音合成/识别、图像解析、联网搜索、长文档解读及多轮对话功能。兼容 OpenAI 接口，支持多Token轮询、零配置部署与会话自动清理，适用于测试与研究。
+
+> <sub>🚀 MiniMax大模型海螺AI逆向API【特长：超自然语音】，支持MiniMax Text-01、MiniMax-VL-01模型，支持高速流式输出、语音合成、联网搜索、长文档解读、图像解析、多轮对话，零配置部署，多路token支持，自动清理会话痕迹，仅供测试，如需商用请前往官方开放平台。</sub>
+
+---
+## HappyDongD/magic_image
+
+> [!info]
+> ⭐ 195 · TypeScript · 2025-12-04  
+> [GitHub](https://github.com/HappyDongD/magic_image) · [Website](https://image-front-eight.vercel.app)  
+> `#AI绘画` `#Next.js` `#TypeScript` `#文生图` `#图生图` `#多模型支持` `#本地存储` `#Tauri桌面应用` >
+> 基于 Next.js 的 AI 绘画应用，支持文生图、图生图及多模型切换（如 DALL-E、GPT、GEMINI 等），提供本地数据存储、自定义模型、区域编辑和跨平台桌面打包功能，注重隐私与用户体验。
+
+---
+## someone1128/WeChatReaderEnhancer
+
+> [!info]
+> ⭐ 69 · TypeScript · 2025-11-22  
+> [GitHub](https://github.com/someone1128/WeChatReaderEnhancer)  
+> `#Chrome扩展` `#微信公众号` `#阅读增强` `#目录导航` `#图片预览` `#链接识别` `#用户体验优化` `#前端工具` >
+> 一款专为微信公众号文章设计的 Chrome 浏览器扩展，提供结构化目录导航、图片放大查看、链接自动识别与跳转、阅读位置追踪等功能，显著提升长文阅读效率与体验。
+
+> <sub>公众号阅读增强插件是一款 Chrome 浏览器扩展，旨在提升用户阅读微信公众号文章的体验。通过自动生成文章的结构化目录，让您轻松了解文章结构、快速导航到感兴趣的部分，并在阅读长文时保持位置感知。</sub>
+
+---
+## X1a0He/Adobe-Downloader
+
+> [!info]
+> ⭐ 2,846 · Swift · 2025-12-26  
+> [GitHub](https://github.com/X1a0He/Adobe-Downloader)  
+> `#macOS` `#Adobe Creative Cloud` `#应用下载` `#安装工具` `#系统清理` `#Helper 机制` `#官方原版` `#GPLv3` >
+> Adobe Downloader 是一款专为 macOS 13.0+ 设计的工具，支持从 Adobe 官方渠道下载并安装 Creative Cloud 应用（如 Acrobat Pro 等），具备自动处理 Setup 组件、多任务下载、安装与深度清理功能，无需破解且保障系统安全。
+
+> <sub>macOS Adobe apps download & installer</sub>
+
+---
+## ripienaar/free-for-dev
+
+> [!info]
+> ⭐ 118,169 · HTML · 2026-02-25  
+> [GitHub](https://github.com/ripienaar/free-for-dev) · [Website](https://free-for.dev/)  
+> `#免费服务` `#DevOps` `#云资源` `#SaaS` `#PaaS` `#IaaS` `#开发者工具` `#基础设施` `#awesome-list` `#free-for-developers` >
+> free-for.dev 是一个精选的免费 SaaS、PaaS 和 IaaS 服务清单，专为开发者和 DevOps 工程师设计，涵盖云服务商、CI/CD、监控、数据库、安全等基础设施相关工具，所有服务均提供长期免费层级（非试用），助力开发者低成本构建和运维应用。
+
+> <sub>A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev</sub>
+
+---
+## harry0703/MoneyPrinterTurbo
+
+> [!info]
+> ⭐ 49,653 · Python · 2025-12-14  
+> [GitHub](https://github.com/harry0703/MoneyPrinterTurbo)  
+> `#AI视频生成` `#自动化剪辑` `#大模型应用` `#短视频制作` `#多模态AI` `#Web界面` `#API服务` `#无版权素材` `#ai` `#automation` `#chatgpt` `#moviepy` `#python` `#shortvideo` `#tiktok` >
+> MoneyPrinterTurbo 是一款基于 AI 大模型的自动化短视频生成工具，支持一键生成高清横竖屏视频。用户仅需输入主题或关键词，即可自动生成文案、素材、字幕、配音及背景音乐，并完成视频合成。支持多模型接入（如 DeepSeek、通义千问等）、批量生成、自定义样式，提供 Web 界面与 API 服务，适合内容创作者快速产出无版权短视频。
+
+> <sub>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</sub>
+
+---
+## fmhy/edit
+
+> [!info]
+> ⭐ 8,199 · JavaScript · 2026-02-25  
+> [GitHub](https://github.com/fmhy/edit) · [Website](https://fmhy.net/)  
+> `#免费资源` `#维基` `#社区驱动` `#资源索引` `#开源协作` `#API` `#Discord` `#备份` `#fmhy` `#freemediaheckyeah` >
+> FMHY 是一个汇集互联网免费资源的超大型维基项目，提供网站索引、社区推荐与第三方资源链接，支持通过 GitHub、Discord 提交贡献，并定期更新备份与 API 数据。
+
+> <sub>Make changes to FMHY</sub>
+
+---
+## maotoumao/MusicFreeDesktop
+
+> [!info]
+> ⭐ 7,936 · TypeScript · 2026-02-13  
+> [GitHub](https://github.com/maotoumao/MusicFreeDesktop) · [Website](https://musicfree.catcat.work)  
+> `#音乐播放器` `#插件化` `#开源` `#跨平台` `#主题定制` `#无广告` `#隐私保护` `#AGPL-3.0` `#electron` `#free` `#music` `#music-player` `#react` `#typescript` >
+> MusicFree 桌面版是一款基于插件架构的免费音乐播放器，支持 Windows、macOS 和 Linux。其核心特性包括插件化音源扩展、深度界面定制（支持主题包与 CSS 变量）、完全无广告及本地数据存储保障隐私。用户可通过第三方插件接入任意在线音乐平台，并利用丰富的主题包实现个性化外观。
+
+> <sub>插件化、定制化、无广告的免费音乐播放器</sub>
+
+---
+## maotoumao/MusicFree
+
+> [!info]
+> ⭐ 23,403 · TypeScript · 2026-01-06  
+> [GitHub](https://github.com/maotoumao/MusicFree) · [Website](https://musicfree.catcat.work)  
+> `#音乐播放器` `#插件化` `#开源` `#无广告` `#Android` `#HarmonyOS` `#定制化` `#隐私保护` `#free` `#music-player` `#musicfree` `#plugin` `#react` `#react-native` `#typescript` >
+> MusicFree 是一款基于插件架构的免费、无广告音乐播放器，支持 Android 与 Harmony OS。其核心功能依赖第三方插件实现音源搜索、播放、歌单导入等，用户可高度自定义主题与背景，注重隐私保护，所有数据本地存储。项目遵循 AGPL 3.0 开源协议，强调合法合规使用。
+
+> <sub>插件化、定制化、无广告的免费音乐播放器</sub>
+
+---
+## QL-Win/QuickLook
+
+> [!info]
+> ⭐ 22,499 · C# · 2026-02-25  
+> [GitHub](https://github.com/QL-Win/QuickLook)  
+> `#文件预览` `#Windows 工具` `#Quick Look` `#效率工具` `#Fluent Design` `#多格式支持` `#开源` `#系统增强` `#quicklook` >
+> QuickLook 是一款为 Windows 系统打造的轻量级文件预览工具，完美复刻 macOS 的“空格快速预览”体验。支持 100+ 文件格式（图片、视频、文档、代码、3D 模型等），集成 Fluent Design，提供即点即看的流畅操作，显著提升文件浏览效率。
+
+> <sub>Bring macOS “Quick Look” feature to Windows</sub>
+
+---
+## gedoor/gedoor.github.io
+
+> [!info]
+> ⭐ 564 · JavaScript · 2024-07-04  
+> [GitHub](https://github.com/gedoor/gedoor.github.io) · [Website](https://gedoor.github.io)  
+> `#静态网站` `#Docusaurus` `#开源阅读` `#文档网站` `#Markdown` `#Node.js` `#官网` `#博客` >
+> 该仓库是开源阅读APP的官网，基于 Docusaurus 2 静态网站生成器构建，提供文档、博客和下载页面。支持通过 Markdown 文件贡献内容，便于社区协作维护。
+
+> <sub>网站</sub>
+
+---
+## modelcontextprotocol/servers
+
+> [!info]
+> ⭐ 79,384 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/modelcontextprotocol/servers) · [Website](https://modelcontextprotocol.io)  
+> `#MCP` `#参考实现` `#LLM工具集成` `#多语言SDK` `#模型上下文协议` `#AI代理` `#服务器示例` `#安全访问` >
+> Model Context Protocol (MCP) 参考服务器集合，提供多种语言SDK实现示例，涵盖文件操作、Git、内存管理、时间处理等功能，用于演示MCP协议如何为LLM提供安全可控的工具与数据访问能力。
+
+> <sub>Model Context Protocol Servers</sub>
+
+---
+## J3n5en/bye
+
+> [!info]
+> ⭐ 1,077 · N/A · 2025-08-07  
+> [GitHub](https://github.com/J3n5en/bye)  
+> `#告别` `#命令行工具` `#退出脚本` `#自动化` `#简洁` `#交互` `#终端` `#轻量` >
+> 一个简洁的告别工具或脚本，可能用于快速退出程序、关闭服务或表达结束交互的友好提示，适用于命令行或自动化场景。
+
+---
+## x1xhlol/system-prompts-and-models-of-ai-tools
+
+> [!info]
+> ⭐ 123,966 · N/A · 2026-02-17  
+> [GitHub](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)  
+> `#AI系统提示词` `#编程助手` `#模型逆向` `#开发工具` `#安全审计` `#开源情报` `#AI工程` `#提示词工程` `#ai` `#bolt` `#cluely` `#copilot` `#cursor` `#cursorai` `#devin` `#github-copilot` `#lovable` `#open-source` `#perplexity` `#replit` `#system-prompts` `#trae` `#trae-ai` `#trae-ide` `#v0` `#vscode` `#windsurf` `#windsurf-ai` >
+> 该仓库收集了包括Claude Code、Cursor、Devin AI、Windsurf等在内的30+主流AI编程工具的系统提示词、内部工具与模型信息，提供超3万行结构化分析，助力开发者理解AI代理行为机制与安全实践。
+
+> <sub>FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models</sub>
+
+---
+## remotion-dev/remotion
+
+> [!info]
+> ⭐ 37,904 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/remotion-dev/remotion) · [Website](https://remotion.dev)  
+> `#React` `#视频生成` `#程序化创作` `#Web技术` `#动态内容` `#前端框架` `#多媒体` `#开源` `#javascript` `#react` `#video` >
+> Remotion 是一个基于 React 的编程式视频生成框架，允许开发者使用 CSS、Canvas、SVG、WebGL 等 Web 技术，结合变量、函数和算法，以组件化方式高效创建动态视频内容。
+
+> <sub>🎥      Make videos programmatically with React</sub>
+
+---
+## ahmedkhaleel2004/gitdiagram
+
+> [!info]
+> ⭐ 15,195 · TypeScript · 2026-02-19  
+> [GitHub](https://github.com/ahmedkhaleel2004/gitdiagram) · [Website](https://gitdiagram.com)  
+> `#GitHub 可视化` `#Mermaid 图表` `#OpenAI GPT` `#交互式架构图` `#FastAPI` `#Next.js` `#代码分析` `#自托管` `#ai` `#code` `#github` `#system-design` >
+> GitDiagram 是一款免费、快速、交互式的 GitHub 仓库可视化工具，可将任意仓库结构实时转换为 Mermaid 架构图。支持点击跳转源码、导出 PNG/Mermaid 代码，并集成 OpenAI GPT-5.2 实现智能解析，适用于开源贡献、代码理解与系统设计展示。
+
+> <sub>Free, simple, fast interactive diagrams for any GitHub repository</sub>
+
+---
+## PrefectHQ/fastmcp
+
+> [!info]
+> ⭐ 23,146 · Python · 2026-02-25  
+> [GitHub](https://github.com/PrefectHQ/fastmcp) · [Website](https://gofastmcp.com)  
+> `#MCP` `#Python` `#LLM工具` `#API框架` `#模型上下文协议` `#FastAPI风格` `#自动化Schema` `#Prefect` `#agents` `#fastmcp` `#llms` `#mcp` `#mcp-clients` `#mcp-servers` `#mcp-tools` `#model-context-protocol` `#python` >
+> FastMCP 是一个快速、Pythonic 的 MCP（Model Context Protocol）框架，用于构建服务器、客户端和交互式应用。它自动处理协议细节、模式生成与验证，支持从原型到生产的高效开发，已成为 MCP 生态的主流标准。
+
+> <sub>🚀 The fast, Pythonic way to build MCP servers and clients.</sub>
+
+---
+## microsoft/markitdown
+
+> [!info]
+> ⭐ 87,657 · Python · 2026-02-20  
+> [GitHub](https://github.com/microsoft/markitdown)  
+> `#autogen` `#autogen-extension` `#langchain` `#markdown` `#microsoft-office` `#openai` `#pdf` >
+> 生成失败
+
+> <sub>Python tool for converting files and office documents to Markdown.</sub>
+
+---
+## EBOLABOY/GridBNB-USDT
+
+> [!info]
+> ⭐ 747 · Python · 2026-01-15  
+> [GitHub](https://github.com/EBOLABOY/GridBNB-USDT)  
+> >
+> 生成失败
+
+> <sub>这是一个基于AI的自动化交易程序，专为数字货币市场（BNB/USDT）设计。该程序旨在实现全自动化交易，通过AI算法帮助用户在数字货币市场中做出更智能的交易决策。</sub>
+
+---
+## richards199999/Thinking-Claude
+
+> [!info]
+> ⭐ 16,829 · TypeScript · 2025-11-04  
+> [GitHub](https://github.com/richards199999/Thinking-Claude)  
+> >
+> 生成失败
+
+> <sub>Let your Claude able to think</sub>
+
+---
+## ihmily/StreamCap
+
+> [!info]
+> ⭐ 3,288 · Python · 2026-01-01  
+> [GitHub](https://github.com/ihmily/StreamCap)  
+> `#bilibili` `#cross-platform` `#douyin` `#douyu` `#ffmpeg` `#huya` `#live-streaming` `#recording` `#stream-capture` `#tiktok` `#twitch` `#video-downloader` `#video-recording` `#youtube` >
+> 生成失败
+
+> <sub>Multi-Platform Live Stream Automatic Recording Tool | 多平台直播流自动录制客户端 · 基于FFmpeg · 支持监控/定时/转码</sub>
+
+---
+## hiroi-sora/Umi-OCR
+
+> [!info]
+> ⭐ 42,210 · Python · 2025-11-20  
+> [GitHub](https://github.com/hiroi-sora/Umi-OCR)  
+> `#ocr` `#ocr-python` `#paddleocr` `#qml` `#qt` `#screenshot` `#umi-ocr` >
+> 生成失败
+
+> <sub>OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。</sub>
+
+---
+## droidrun/droidrun
+
+> [!info]
+> ⭐ 7,756 · Python · 2026-02-20  
+> [GitHub](https://github.com/droidrun/droidrun) · [Website](https://droidrun.ai)  
+> `#ai-agents` `#android` `#android-automation` `#hacktoberfest` `#mobile-automation` >
+> 生成失败
+
+> <sub>Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖</sub>
+
+---
+## snailyp/gemini-balance
+
+> [!info]
+> ⭐ 5,835 · Python · 2025-09-30  
+> [GitHub](https://github.com/snailyp/gemini-balance) · [Website](https://gb-docs.snaily.top)  
+> `#gemini` `#gemini-api` `#googlesearch` `#imagen-3` `#load-balancer` `#openai-api` >
+> 生成失败
+
+> <sub>Gemini polling proxy service （gemini轮询代理服务）</sub>
+
+---
+## LLM-Red-Team/jimeng-free-api
+
+> [!info]
+> ⭐ 1,039 · TypeScript · 2025-04-09  
+> [GitHub](https://github.com/LLM-Red-Team/jimeng-free-api)  
+> `#bytedance` `#chatbot` `#chatgpt-api` `#image-generation` `#image-generation-ai` `#jimeng` `#llm` >
+> 生成失败
+
+> <sub>🚀 即梦3.0逆向API【特长：图像生成顶流】，零配置部署，多路token支持，仅供测试，如需商用请前往官方开放平台。</sub>
+
+---
+## RooCodeInc/Roo-Code
+
+> [!info]
+> ⭐ 22,384 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/RooCodeInc/Roo-Code) · [Website](https://roocode.com)  
+> >
+> 生成失败
+
+> <sub>Roo Code gives you a whole dev team of AI agents in your code editor.</sub>
+
+---
+## JefferyHcool/BiliNote
+
+> [!info]
+> ⭐ 5,129 · Python · 2026-02-05  
+> [GitHub](https://github.com/JefferyHcool/BiliNote)  
+> >
+> 生成失败
+
+> <sub>AI 视频笔记生成工具 让 AI 为你的视频做笔记</sub>
+
+---
+## casibase/casibase
+
+> [!info]
+> ⭐ 4,447 · Go · 2026-02-20  
+> [GitHub](https://github.com/casibase/casibase) · [Website](https://casibase.org)  
+> `#AI 知识库` `#MCP 协议` `#A2A 通信` `#多模型支持` `#企业级管理` `#单点登录` `#开源平台` `#智能对话` `#a2a` `#agent` `#agi` `#casibase` `#chatbot` `#chatgpt` `#claude` `#gemini` `#gpt` `#huggingface` `#knowledge-base` `#langchain` `#llama` `#llm` `#manus` `#mcp` `#model-context-protocol` `#multi-agent` `#openai` `#rag` >
+> Casibase 是一款开源的企业级 AI 云平台操作系统，提供 AI 知识库与 MCP/A2A 协议管理功能，支持 ChatGPT、Claude、Llama、Ollama、HuggingFace 等主流模型，集成管理后台、用户系统与单点登录（SSO），适用于构建智能对话与多智能体协作应用。
+
+> <sub>⚡️AI Cloud OS: Open-source enterprise-level AI knowledge base and MCP (model-context-protocol)/A2A (agent-to-agent) management platform with admin UI, user management and Single-Sign-On⚡️, supports ChatGPT, Claude, Llama, Ollama, HuggingFace, etc., chat bot demo: https://ai.casibase.com, admin UI demo: https://ai-admin.casibase.com</sub>
+
+---
+## LibreSpark/LibreTTS
+
+> [!info]
+> ⭐ 343 · JavaScript · 2025-06-17  
+> [GitHub](https://github.com/LibreSpark/LibreTTS) · [Website](https://LibreTTS.is-an.org)  
+> `#文本转语音` `#TTS` `#OpenAI API` `#Edge TTS` `#多语言支持` `#自定义API` `#在线工具` `#响应式设计` `#ai` `#tts` `#tts-api` `#tts-web` >
+> LibreTTS 是一款免费在线文本转语音工具，支持300+种语言与声音，兼容 OpenAI 和 Edge TTS 接口，提供实时试听、语速语调调节、长文本分段、音频下载及自定义 API 扩展功能，支持 Vercel 和 Cloudflare 一键部署。
+
+> <sub>TTS-文本转语音/文本转语音前端，兼容OpenAI、EdgeTTS等接口</sub>
+
+---
+## dbccccccc/ttsfm
+
+> [!info]
+> ⭐ 711 · Python · 2025-12-18  
+> [GitHub](https://github.com/dbccccccc/ttsfm) · [Website](https://ttsapi.site)  
+> `#文本转语音` `#TTS` `#OpenAI兼容` `#多语音支持` `#Docker部署` `#Python SDK` `#REST API` `#音频格式转换` `#ai` `#api` `#openai` `#openai-api` `#python` `#reverse-proxy` `#self-hosted` >
+> TTSFM 是一个免费、兼容 OpenAI 的文本转语音（TTS）API 服务，基于 openai.fm 后端实现，支持 11 种声音、6 种音频格式、语速调节、长文本自动分段与流式生成。提供 Python SDK、REST API、Web 界面及 Docker 镜像（全量/精简双版本），适用于教育与研究场景。
+
+> <sub>TTSFM mirrors OpenAI's TTS service, providing a compatible interface for text-to-speech conversion with multiple voice options for free.</sub>
+
+---
+## d2l-ai/d2l-zh
+
+> [!info]
+> ⭐ 75,824 · Python · 2024-07-30  
+> [GitHub](https://github.com/d2l-ai/d2l-zh) · [Website](http://zh.d2l.ai)  
+> `#深度学习` `#开源教材` `#可运行代码` `#中文资源` `#教学工具` `#理论与实践结合` `#社区驱动` `#人工智能教育` `#book` `#chinese` `#computer-vision` `#deep-learning` `#machine-learning` `#natural-language-processing` `#notebook` `#python` >
+> 《动手学深度学习》是一本面向中文读者的开源教材，融合理论、数学与可运行代码，强调‘学以致用’。内容涵盖深度学习核心概念与实践，支持在线免费访问，被全球500多所高校采用，提供中英文版本及社区讨论支持。
+
+> <sub>《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。</sub>
+
+---
+## browser-use/desktop
+
+> [!info]
+> ⭐ 347 · TypeScript · 2025-05-19  
+> [GitHub](https://github.com/browser-use/desktop)  
+> `#AI 代理` `#浏览器自动化` `#Electron` `#大语言模型` `#Chrome 控制` `#桌面应用` `#自动化测试` `#会话复用` >
+> Browser-Use Desktop 是一款基于 Electron 和 Gradio 的桌面应用，支持通过多种大语言模型（如 OpenAI、Google、Anthropic 等）控制本地 Chrome 浏览器，实现 AI 自动化操作。其亮点在于复用用户现有浏览器会话，避免重复登录，并支持高清录屏，适用于自动化测试、智能助手等场景。
+
+> <sub>Browser-Use Desktop app, control your local Chrome browser with AI agents!</sub>
+
+---
+## n8n-io/n8n
+
+> [!info]
+> ⭐ 176,335 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/n8n-io/n8n) · [Website](https://n8n.io)  
+> `#工作流自动化` `#AI 集成` `#低代码` `#自托管` `#LangChain` `#企业级` `#开源` `#可视化编程` `#ai` `#apis` `#automation` `#cli` `#data-flow` `#development` `#integration-framework` `#integrations` `#ipaas` `#low-code` `#low-code-platform` `#mcp` `#mcp-client` `#mcp-server` `#n8n` `#no-code` `#self-hosted` `#typescript` `#workflow` `#workflow-automation` >
+> n8n 是一款面向技术团队的公平代码工作流自动化平台，支持可视化搭建与自定义代码（JavaScript/Python），内置 AI 能力并集成 LangChain，提供 400+ 连接器。支持本地部署或云端使用，具备企业级权限管理与 SSO，保障数据控制权。
+
+> <sub>Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</sub>
+
+---
+## cline/cline
+
+> [!info]
+> ⭐ 58,373 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/cline/cline) · [Website](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev)  
+> `#AI 编程助手` `#VS Code 扩展` `#自主代理` `#终端集成` `#浏览器自动化` `#Model Context Protocol` `#多模型支持` `#人机协作` >
+> Cline 是一款集成在 IDE 中的自主编码 AI 助手，支持创建/编辑文件、执行终端命令、使用浏览器及调用外部工具，全程需用户授权。基于 Claude Sonnet 的代理能力，结合人类监督机制，实现安全高效的复杂开发任务自动化。
+
+> <sub>Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.</sub>
+
+---
+## bestK/tv
+
+> [!info]
+> ⭐ 348 · JavaScript · 2025-07-09  
+> [GitHub](https://github.com/bestK/tv)  
+> `#直播` `#电视` `#Web应用` `#EdgeOne` `#流媒体` `#前端` `#响应式设计` `#腾讯云` >
+> tv 是一个基于 EdgeOne Pages 部署的轻量级电视直播 Web 应用，支持多源直播流播放与频道切换，界面简洁，适配多种设备，适合家庭娱乐或公共展示场景。
+
+---
+## p0deje/Maccy
+
+> [!info]
+> ⭐ 18,696 · Swift · 2026-02-10  
+> [GitHub](https://github.com/p0deje/Maccy) · [Website](https://maccy.app)  
+> `#剪贴板管理` `#macOS` `#开源` `#键盘操作` `#轻量级` `#隐私保护` `#Swift` `#免费` `#clipboard-manager` `#maccy` `#macos` >
+> Maccy 是一款轻量级 macOS 剪贴板管理器，支持历史记录导航、搜索与快速粘贴，具备键盘优先操作、原生 UI、隐私安全及开源免费等特性，适用于 Sonoma 14 及以上系统。
+
+> <sub>Lightweight clipboard manager for macOS</sub>
+
+---
+## xiaoxiunique/xhs
+
+> [!info]
+> ⭐ 232 · Vue · 2025-07-09  
+> [GitHub](https://github.com/xiaoxiunique/xhs) · [Website](https://xhs-xi.vercel.app/)  
+> `#小红书工具` `#Nuxt 3` `#视频下载` `#代理轮换` `#数据导出` `#Playwright` `#Shadcn UI` `#内容采集` >
+> 基于 Nuxt.js 3 开发的小红书工具网站，支持图文、视频及评论的浏览与导出，集成多代理轮换、本地数据持久化及现代化 UI，采用 Playwright 实现浏览器自动化，适用于内容采集与分析场景。
+
+> <sub>一个基于 Nuxt.js 3 开发的小红书工具网站，提供图文，视频，评论 浏览与导出</sub>
+
+---
+## Loyalsoldier/clash-rules
+
+> [!info]
+> ⭐ 24,509 · N/A · 2026-02-24  
+> [GitHub](https://github.com/Loyalsoldier/clash-rules)  
+> `#Clash` `#规则集` `#代理` `#GFWList` `#域名规则` `#广告拦截` `#流量分流` `#自动更新` `#adblock` `#adguard` `#anticensorship` `#chinalist` `#clash` `#dnsmasq` `#easylist` `#geosite` `#gfw` `#gfwlist` `#proxy` `#routing` `#shadowsocks` `#ss` `#ssr` `#surge` `#v2ray` >
+> 本项目为 Clash Premium 内核提供高质量规则集（RULE-SET），涵盖直连、代理、广告拦截等分类，支持主流 GUI 客户端。规则每日自动更新，数据源自 v2ray-rules-dat 等权威项目，适用于精细化流量管理与科学上网场景。
+
+> <sub>🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 等基于 Clash Premium 内核的客户端。</sub>
+
+---
+## sparrow-js/an-codeAI
+
+> [!info]
+> ⭐ 733 · TypeScript · 2025-10-15  
+> [GitHub](https://github.com/sparrow-js/an-codeAI) · [Website](https://www.needware.dev)  
+> `#AI 代码生成` `#全栈开发` `#浏览器内开发` `#多模型支持` `#实时预览` `#Supabase 集成` `#LangGraph 代理` `#WebContainer` `#edit` `#generate-code` `#nextjs` `#openai` `#react` `#screenshottocode` >
+> needware.dev 是一个开源的 AI 驱动全栈开发平台，支持在浏览器中通过自然语言、截图或 URL 自动生成、预览并部署 Web 应用。集成多 AI 模型与智能代理系统，提供实时沙箱预览、Supabase 数据库支持及一键部署功能，革新了 Web 开发流程。
+
+> <sub>AI generate code</sub>
+
+---
+## golangboy/wxocr
+
+> [!info]
+> ⭐ 907 · N/A · 2025-03-25  
+> [GitHub](https://github.com/golangboy/wxocr)  
+> `#OCR` `#微信` `#Go` `#golangboy` `#未文档化` >
+> 该仓库为 golangboy/wxocr，目前无详细描述与 README 内容，推测可能与微信 OCR 功能相关，具体实现与应用场景尚不明确。
+
+> <sub>nothing</sub>
+
+---
+## sjzar/chatlog
+
+> [!info]
+> ⭐ 9,189 · N/A · 2025-10-20  
+> [GitHub](https://github.com/sjzar/chatlog)  
+> `#聊天记录工具` `#合规风险` `#项目终止` `#微信` `#开源社区` `#数据隐私` `#代码移除` `#法律合规` `#chat` `#chatlog` `#database` `#key` `#redteam` `#wechat` >
+> 该项目因微信官方合规要求已被彻底移除，原功能为基于个人聊天数据的日志工具，现不再提供代码、支持或更新，用户需自行承担保留副本的风险。
+
+> <sub>chat log tool, easily use your own chat data. 聊天记录工具，轻松使用自己的聊天数据</sub>
+
+---
+## SparkAudio/Spark-TTS
+
+> [!info]
+> ⭐ 10,943 · Python · 2025-04-09  
+> [GitHub](https://github.com/SparkAudio/Spark-TTS)  
+> `#文本转语音` `#语音克隆` `#大语言模型` `#零样本学习` `#中英双语` `#语音合成` `#PyTorch` `#Triton 推理` >
+> Spark-TTS 是一款基于 Qwen2.5 大语言模型的高效文本转语音系统，支持中英文双语及零样本语音克隆，具备可控语音生成能力。其单流解耦语音令牌设计简化了推理流程，提升效率，适用于研究与生产环境，并提供 Web UI 与 Triton 部署支持。
+
+> <sub>Spark-TTS Inference Code</sub>
+
+---
+## punkpeye/awesome-mcp-clients
+
+> [!info]
+> ⭐ 6,300 · N/A · 2026-01-23  
+> [GitHub](https://github.com/punkpeye/awesome-mcp-clients) · [Website](https://glama.ai/mcp/clients)  
+> `#MCP` `#AI 客户端` `#Model Context Protocol` `#开源工具` `#跨平台` `#AI 集成` `#开发框架` `#社区资源` `#clients` `#mcp` >
+> 该仓库是一个精选的 Model Context Protocol (MCP) 客户端列表，涵盖桌面应用、Web 应用、CLI 工具等多种类型，支持跨平台使用。MCP 协议使 AI 模型能安全访问本地与远程资源，扩展文件操作、数据库连接、API 集成等能力。项目包含丰富的客户端实现，如 Claude Desktop、Cursor、Windsurf、Cline 等主流工具，并提供社区链接便于交流与协作。
+
+> <sub>A collection of MCP clients.</sub>
+
+---
+## jerrylususu/bookmark-summary
+
+> [!info]
+> ⭐ 95 · Python · 2026-02-25  
+> [GitHub](https://github.com/jerrylususu/bookmark-summary)  
+> `#LLM` `#书签管理` `#自动化` `#Jina Reader` `#知识归档` `#GitHub Action` `#文本摘要` `#个人知识库` >
+> 该仓库利用 Jina Reader 提取书签网页内容，并通过 LLM 自动生成摘要，实现个人书签的智能整理与知识归档。结合 GitHub Action 自动化流程，支持持续更新和分类管理，适用于构建个人数字知识库。
+
+> <sub>用 LLM 和 jina reader 生成的总结</sub>
+
+---
+## goxofy/web_clipper
+
+> [!info]
+> ⭐ 87 · Python · 2025-12-13  
+> [GitHub](https://github.com/goxofy/web_clipper)  
+> `#网页剪藏` `#GitHub Pages` `#Notion 集成` `#Telegram 通知` `#AI 摘要` `#自动化同步` `#Docker 部署` `#API 服务` >
+> 一个集成 GitHub Pages、Notion 数据库、DeepSeek AI 和 Telegram 的网页剪藏后端服务，支持上传 HTML 文件、自动生成摘要与标签，并同步存储及推送通知，适用于知识管理与内容归档场景。
+
+> <sub>singleFile + gh pages + deepseek api + notion db + tg bot = web clipper and notify</sub>
+
+---
+## binary-husky/gpt_academic
+
+> [!info]
+> ⭐ 70,120 · Python · 2026-01-25  
+> [GitHub](https://github.com/binary-husky/gpt_academic) · [Website](https://github.com/binary-husky/gpt_academic/wiki/online)  
+> `#大语言模型` `#论文翻译` `#学术写作` `#多模型支持` `#插件化架构` `#LaTeX处理` `#代码分析` `#语音交互` `#academic` `#chatglm-6b` `#chatgpt` `#gpt-4` `#large-language-models` >
+> GPT Academic 是一个专为学术研究优化的大语言模型交互平台，支持多模型并行调用（如通义千问、GLM、DeepSeek等），提供论文翻译、润色、解读、LaTeX/PDF处理、代码分析及自定义插件等功能，模块化设计，支持语音输入、Mermaid图表渲染和暗色主题，显著提升科研效率。
+
+> <sub>为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。</sub>
+
+---
+## subframe7536/maple-font
+
+> [!info]
+> ⭐ 24,077 · Python · 2026-02-25  
+> [GitHub](https://github.com/subframe7536/maple-font) · [Website](https://font.subf.dev)  
+> `#等宽字体` `#编程字体` `#连字` `#Nerd-Font` `#中文支持` `#圆角设计` `#开源` `#终端美化` `#coding-font` `#font` `#ligatures` `#monospace` `#monospace-font` `#opentype` `#programming-font` `#programming-ligatures` `#typeface` `#typography` `#variable-font` >
+> Maple Mono 是一款开源等宽字体，专为提升编程体验设计，具备圆角风格、智能连字、Nerd-Font 图标支持及细粒度自定义功能。其中文版本基于 Resource Han Rounded，实现中英文 2:1 完美对齐，适用于 IDE 与终端，提供多格式（TTF/OTF/WOFF2）与多语言支持。
+
+> <sub>Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项</sub>
+
+---
+## daodao97/chatmcp
+
+> [!info]
+> ⭐ 2,175 · Dart · 2025-09-15  
+> [GitHub](https://github.com/daodao97/chatmcp) · [Website](https://daodao97.github.io/chatmcp/)  
+> `#AI 聊天` `#Model Context Protocol` `#跨平台应用` `#Flutter` `#MCP 客户端` `#多模态交互` `#本地数据同步` `#开源` `#ai` `#chat` `#client` `#mcp` `#mcp-client` >
+> ChatMCP 是一款跨平台 AI 聊天客户端，基于 Model Context Protocol (MCP) 实现，支持 macOS、Windows、Linux、iOS、Android 和 Web 端。提供多模态交互能力（如 LaTeX、Mermaid 图表、HTML 预览），支持本地局域网数据同步，并可通过 stdio/SSE 方式集成 MCP 服务。采用 Flutter 开发，遵循各平台数据存储规范。
+
+> <sub>ChatMCP is an AI chat client implementing the Model Context Protocol (MCP).</sub>
+
+---
+## x-haose/py-iztro
+
+> [!info]
+> ⭐ 103 · Python · 2025-08-01  
+> [GitHub](https://github.com/x-haose/py-iztro)  
+> `#紫微斗数` `#排盘工具` `#Python` `#iztro` `#命理分析` `#pydantic` `#API` `#传统文化` >
+> py-iztro 是著名紫微斗数排盘工具 iztro 的 Python 实现，完全兼容原版 API 与逻辑，基于 pydantic 提供类型注解，支持阳历排盘并输出详细命盘信息，适用于命理分析与开发集成。
+
+> <sub>著名紫薇排盘工具iztro的python版本，用法和原版完全一致</sub>
+
+---
+## SylarLong/iztro
+
+> [!info]
+> ⭐ 3,400 · TypeScript · 2026-02-13  
+> [GitHub](https://github.com/SylarLong/iztro) · [Website](https://iztro.com)  
+> `#紫微斗数` `#JavaScript` `#开源库` `#命理分析` `#多语言` `#链式调用` `#星盘排盘` `#四化飞星` `#astrolabe` `#astrology` `#chinese-astrology` `#horoscope` `#javascript` `#natal-chart` `#npm` `#typescript` `#ziweidoushu` >
+> iztro 是一款轻量级 JavaScript 开源库，用于生成紫微斗数星盘，支持阳历/农历输入、多语言输出（中、英、日、韩、越等），提供排盘、星耀分析、四化判断、运限推算等功能，并支持链式调用与插件扩展，适用于命理分析与个性化应用开发。
+
+> <sub>⭐This is a lightweight kit for generating astrolabes for Zi Wei Dou Shu (The Purple Star Astrology), an ancient Chinese astrology. It allows you to obtain your horoscope and personality analysis. 支持多语言轻量级获取紫微斗数排盘信息的javascript开源库。</sub>
+
+---
+## Angels-Ray/fake-cursor
+
+> [!info]
+> ⭐ 345 · JavaScript · 2025-04-11  
+> [GitHub](https://github.com/Angels-Ray/fake-cursor)  
+> `#Cursor 扩展` `#设备 ID 重置` `#机器码修补` `#Access Token 管理` `#使用量监控` `#多账号支持` `#试用绕过` `#跨平台工具` >
+> Fake Cursor 是一款 Cursor 编辑器扩展，支持重新生成设备 ID、修补机器码获取逻辑、管理 Access Token 及监控使用情况，适用于多账号切换与试用限制绕过，兼容 Windows/macOS/Linux，需配合 0.45.x-0.46.x 版本使用。
+
+> <sub>一个用于重新生成 Cursor 设备 ID 和设置 Access Token 的 Cursor 扩展</sub>
+
+---
+## pot-app/pot-desktop
+
+> [!info]
+> ⭐ 17,161 · JavaScript · 2026-01-21  
+> [GitHub](https://github.com/pot-app/pot-desktop) · [Website](https://pot-app.com)  
+> `#划词翻译` `#OCR 文字识别` `#跨平台桌面应用` `#Tauri` `#插件系统` `#多接口翻译` `#截图翻译` `#生词本导出` `#linux` `#macos` `#ocr` `#pot` `#pot-app` `#recognize` `#tauri` `#translate` `#translation` `#tts` `#windows` >
+> Pot 是一款基于 Tauri 框架开发的跨平台划词翻译与 OCR 软件，支持 Windows、macOS 和 Linux。提供多接口并行翻译、截图 OCR、语音合成、生词本导出等功能，并内置插件系统扩展服务。支持 Wayland 及多语言，兼容主流 AI 和在线翻译引擎。
+
+> <sub>🌈一个跨平台的划词翻译和OCR软件 | A cross-platform software for text translation and recognition.</sub>
+
+---
+## STranslate/STranslate
+
+> [!info]
+> ⭐ 5,653 · C# · 2026-02-25  
+> [GitHub](https://github.com/STranslate/STranslate) · [Website](https://stranslate.zggsong.com)  
+> `#WPF` `#OCR` `#翻译工具` `#桌面应用` `#多语言支持` `#截图识别` `#开源` `#即用即走` `#ocr` `#plugin` `#stranslate` `#translate` `#wpf` >
+> STranslate 是一款基于 WPF 开发的即用型翻译与 OCR 工具，支持快速截图识别文字并翻译，适用于多语言场景，具备轻量、开箱即用、跨平台访问（GitHub/Gitee）等特点，提供详细文档与用户交流社区。
+
+> <sub>A ready-to-go translation ocr tool developed with WPF/WPF 开发的一款即用即走的翻译、OCR工具</sub>
+
+---
+## easychen/checkchan-dist
+
+> [!info]
+> ⭐ 2,304 · JavaScript · 2024-10-11  
+> [GitHub](https://github.com/easychen/checkchan-dist) · [Website](https://ckc.ftqq.com)  
+> `#网页监控` `#内容变化检测` `#微信通知` `#浏览器插件` `#Docker` `#Server酱` `#RSS监测` `#自动化监控` `#monitoring-server` `#monitoring-tool` `#wechat` >
+> Check酱是一款网页内容监控工具，支持监测网页内容、HTTP状态、JSON和RSS变化，并通过Server酱推送异动到微信。提供浏览器插件与自架云端服务，支持可视化选择器、登录态保持、定时任务同步及远程桌面管理，适合长期无人值守监控。
+
+> <sub>Check酱：监测网页内容变化，并发送异动到微信。亦支持http status、json和rss监测。配合自架云端，关电脑后也能运行。</sub>
+
+---
+## browser-use/browser-use
+
+> [!info]
+> ⭐ 78,964 · Python · 2026-02-25  
+> [GitHub](https://github.com/browser-use/browser-use) · [Website](https://browser-use.com)  
+> `#AI代理` `#浏览器自动化` `#LLM集成` `#网页交互` `#任务自动化` `#开源` `#云端服务` `#CLI工具` `#ai-agents` `#ai-tools` `#browser-automation` `#browser-use` `#llm` `#playwright` `#python` >
+> Browser-Use 是一个开源工具，使 AI 智能体能够像人类一样操作网页，支持自动化填写表单、购物、信息检索等任务。提供本地与云端浏览器控制，兼容多种 LLM，并集成 CLI 和自定义工具扩展能力。
+
+> <sub>🌐 Make websites accessible for AI agents. Automate tasks online with ease.</sub>
+
+---
+## labring/FastGPT
+
+> [!info]
+> ⭐ 27,171 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/labring/FastGPT) · [Website](https://fastgpt.io)  
+> `#AI Agent` `#大语言模型` `#RAG` `#工作流编排` `#知识库` `#可视化` `#Docker 部署` `#OpenAPI` `#agent` `#claude` `#deepseek` `#llm` `#mcp` `#nextjs` `#openai` `#qwen` `#rag` `#workflow` >
+> FastGPT 是一个基于大语言模型（LLM）的 AI Agent 构建平台，提供数据处理、RAG 检索、可视化工作流编排等开箱即用能力，支持快速开发和部署复杂问答系统，无需繁琐配置。
+
+> <sub>FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.</sub>
+
+---
+## pollinations/pollinations
+
+> [!info]
+> ⭐ 4,045 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/pollinations/pollinations) · [Website](https://pollinations.ai)  
+> `#生成式AI` `#开源平台` `#多模态API` `#图像生成` `#文本生成` `#视频生成` `#社区驱动` `#统一端点` `#colaboratory` `#colaboratory-notebook` `#diffusion` `#gan` `#generative` `#gsoc` `#hacktoberfest-accepted` `#hacktoberfest2025` `#javascript` `#machinelearning` `#nodejs` `#python` `#typescript` >
+> Pollinations 是一个开源生成式 AI 平台，提供文本、图像、音频和视频的统一生成 API。支持 Flux、Claude、GPT 等主流模型，采用按量付费的 Pollen 积分系统，拥有 500+ 社区项目生态，致力于让 AI 创作对所有人开放可及。
+
+> <sub>Your Friendly Open-Source Gen-AI Platform</sub>
+
+---
+## beilunyang/moepush
+
+> [!info]
+> ⭐ 1,306 · TypeScript · 2025-05-10  
+> [GitHub](https://github.com/beilunyang/moepush) · [Website](https://moepush.app)  
+> `#消息推送` `#Next.js` `#Cloudflare` `#多平台支持` `#开源免费` `#TypeScript` `#Drizzle ORM` `#shadcn/ui` >
+> MoePush 是一个基于 Next.js 和 Cloudflare 技术栈构建的开源消息推送服务，支持钉钉、企业微信、Telegram 等 8 种推送渠道，提供精美 UI 和接口组功能，可快速部署于 Cloudflare Pages，适合个人或团队集成使用。
+
+> <sub>一个基于 NextJS + Cloudflare 技术栈构建的可爱消息推送服务, 支持多种消息推送渠道✨</sub>
+
+---
+## ThinkInAIXYZ/deepchat
+
+> [!info]
+> ⭐ 5,523 · TypeScript · 2026-02-24  
+> [GitHub](https://github.com/ThinkInAIXYZ/deepchat) · [Website](https://deepchat.thinkinai.xyz/)  
+> `#AI 代理` `#多模型支持` `#MCP 协议` `#ACP 集成` `#本地模型` `#开源` `#桌面应用` `#搜索增强` `#agent` `#agent-skills` `#agentic` `#agentic-ai` `#ai` `#ai-assistant` `#ai-chat` `#chatbot` `#chatgpt` `#claude` `#cross-platform` `#deepseek` `#electron` `#gemini` `#llm-client` `#mcp` `#mcp-client` `#openai-client` `#tool-calling` >
+> DeepChat 是一款功能强大的开源 AI 代理平台，支持多模型聊天、MCP 工具调用和 ACP 代理集成。它统一管理云端与本地模型（如 Ollama），提供多窗口对话、Markdown 渲染、搜索增强及隐私保护，适用于个人与商业场景，打造高效智能助手体验。
+
+> <sub>🐬DeepChat - A smart assistant that connects powerful AI to your personal world</sub>
+
+---
+## xxlllq/system_architect
+
+> [!info]
+> ⭐ 8,235 · HTML · 2026-01-27  
+> [GitHub](https://github.com/xxlllq/system_architect) · [Website](https://fchxxn.com/exam)  
+> `#软考高级` `#系统架构设计师` `#备考资料` `#历年真题` `#视频课程` `#模拟考试` `#论文指导` `#刷题软件` `#examination` `#ruankao` >
+> 本仓库提供2026年系统架构设计师（软考高级）全套备考资料，涵盖历年真题、精讲视频、模拟卷、论文范文及官方教材，支持多平台刷题工具。自2018年起持续更新，助力考生高效通关，部分内容需付费获取。
+
+> <sub>:100: 2026年系统架构设计师（软考高级）备考资料。</sub>
+
+---
+## LLM-Red-Team/deepseek-free-api
+
+> [!info]
+> ⭐ 2,797 · TypeScript · 2025-11-27  
+> [GitHub](https://github.com/LLM-Red-Team/deepseek-free-api) · [Website](https://platform.deepseek.com)  
+> `#DeepSeek` `#大模型API` `#逆向工程` `#流式输出` `#多轮对话` `#联网搜索` `#R1深度思考` `#零配置部署` `#chat-api` `#chatbot` `#chatgpt-api` `#deepseek` `#deepseek-api` `#deepseek-chat` `#deepseek-r1` `#deepseek-v3` `#llm` >
+> DeepSeek-V3 & R1大模型逆向API，支持流式输出、多轮对话、联网搜索及R1深度思考，提供零配置部署与多路token支持，兼容ChatGPT接口，仅限测试用途。
+
+> <sub>🚀 DeepSeek-V3 & R1大模型逆向API【特长：良心厂商】（官方贼便宜，建议直接走官方），支持高速流式输出、多轮对话，联网搜索，R1深度思考，零配置部署，多路token支持，仅供测试，如需商用请前往官方开放平台。</sub>
+
+---
+## miantiao-me/hacker-podcast
+
+> [!info]
+> ⭐ 2,449 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/miantiao-me/hacker-podcast) · [Website](https://hacker-podcast.agi.li)  
+> `#AI 播客` `#Hacker News` `#自动摘要` `#TTS 语音合成` `#Cloudflare Workers` `#RSS 订阅` `#中文内容` `#每日更新` `#ai` `#ai-agent` `#ai-workflow` `#cloudflare` `#cloudflare-workers` `#cloudflare-workflows` `#hacker-news` `#nextjs` >
+> 基于 AI 的 Hacker News 中文播客项目，每日自动抓取热门文章，通过 OpenAI 生成中文摘要并利用 TTS 转换为音频，支持多平台订阅与网页访问，部署于 Cloudflare Workers 和 R2 存储。
+
+> <sub>一个基于 AI 的 Hacker News 中文播客项目，每天自动抓取 Hacker News 热门文章，通过 AI 生成中文总结并转换为播客内容。</sub>
+
+---
+## massgravel/Microsoft-Activation-Scripts
+
+> [!info]
+> ⭐ 166,954 · Batchfile · 2026-02-22  
+> [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts) · [Website](https://massgrave.dev)  
+> `#Windows激活` `#Office激活` `#开源工具` `#HWID` `#KMS` `#TSforge` `#Ohook` `#系统工具` `#activator` `#hwid` `#kms` `#kms38` `#massgrave` `#massgravel` `#microsoft` `#microsoft365` `#office` `#office365` `#ohook` `#powershell` `#tsforge` `#windows` `#windows-10` `#windows-11` >
+> MAS 是一款开源的 Windows 和 Office 激活工具，支持 HWID、Ohook、TSforge 和在线 KMS 等多种激活方式，并提供高级故障排查功能，适用于 Windows 8.1 及以上系统及 Office 套件。
+
+> <sub>Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.</sub>
+
+---
+## Anxcye/anx-reader
+
+> [!info]
+> ⭐ 7,660 · Dart · 2026-02-20  
+> [GitHub](https://github.com/Anxcye/anx-reader) · [Website](https://anx.anxcye.com)  
+> `#电子书阅读器` `#AI 辅助` `#跨平台同步` `#多格式支持` `#笔记管理` `#阅读统计` `#TTS 朗读` `#Flutter 开发` `#dart` `#ebook-reader` `#flutter` >
+> Anx Reader 是一款支持多平台的智能电子书阅读器，兼容 EPUB、PDF、MOBI 等主流格式，集成 AI 助手提供翻译、摘要、思维导图等功能，支持跨设备同步、个性化阅读设置与阅读数据统计，致力于提升专注度与阅读体验。
+
+> <sub>Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused.</sub>
+
+---
+## infiniflow/ragflow
+
+> [!info]
+> ⭐ 73,705 · Python · 2026-02-25  
+> [GitHub](https://github.com/infiniflow/ragflow) · [Website](https://ragflow.io)  
+> `#agent` `#agentic` `#agentic-ai` `#agentic-workflow` `#ai` `#ai-search` `#context-engineering` `#context-retrieval` `#deep-research` `#deepseek` `#deepseek-r1` `#document-parser` `#document-understanding` `#graphrag` `#llm` `#mcp` `#ollama` `#openai` `#rag` `#retrieval-augmented-generation` >
+> 生成失败
+
+> <sub>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs</sub>
+
+---
+## uxiaohan/HanAnalytics
+
+> [!info]
+> ⭐ 267 · Less · 2025-03-19  
+> [GitHub](https://github.com/uxiaohan/HanAnalytics) · [Website](https://analytics.vvhan.com)  
+> >
+> 生成失败
+
+> <sub>一个简单的网络分析跟踪器和仪表板，在 Cloudflare Pages 上即可快速部署的网站分析仪表板,无成本稳定运行</sub>
+
+---
+## onlook-dev/onlook
+
+> [!info]
+> ⭐ 24,746 · TypeScript · 2026-01-21  
+> [GitHub](https://github.com/onlook-dev/onlook) · [Website](https://onlook.com)  
+> `#ai` `#cursor` `#cursor-ai` `#design` `#design-to-code` `#drizzle` `#editor` `#figma` `#frontend` `#ide` `#low-code` `#nextjs` `#react` `#supabase` `#tailwindcss` `#typescript` `#ui` `#vibe-coding` `#vibecoding` >
+> 生成失败
+
+> <sub>The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI</sub>
+
+---
+## zanjie1999/meDisplay
+
+> [!info]
+> ⭐ 374 · Python · 2025-06-09  
+> [GitHub](https://github.com/zanjie1999/meDisplay) · [Website](https://www.bilibili.com/video/BV1Qf25YQEj4/)  
+> `#display` `#ffmpeg` `#http-server` `#linux` `#macos` `#streaming` `#windows` >
+> 生成失败
+
+> <sub>使用任何设备(浏览器)作为mac的副屏(随航) 将Android平板用作Mac的第二台显示器 还能在Win和Linux镜像屏幕</sub>
+
+---
+## Mintplex-Labs/anything-llm
+
+> [!info]
+> ⭐ 55,016 · JavaScript · 2026-02-25  
+> [GitHub](https://github.com/Mintplex-Labs/anything-llm) · [Website](https://anythingllm.com)  
+> `#ai-agents` `#custom-ai-agents` `#deepseek` `#kimi` `#llama3` `#llm` `#lmstudio` `#local-llm` `#localai` `#mcp` `#mcp-servers` `#moonshot` `#multimodal` `#no-code` `#ollama` `#qwen3` `#rag` `#vector-database` `#web-scraping` >
+> 生成失败
+
+> <sub>The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.</sub>
+
+---
+## rag-web-ui/rag-web-ui
+
+> [!info]
+> ⭐ 2,787 · TypeScript · 2025-12-08  
+> [GitHub](https://github.com/rag-web-ui/rag-web-ui)  
+> `#ai` `#deepseek` `#langchain` `#ollama` `#rag` >
+> 生成失败
+
+> <sub>RAG Web UI is an intelligent dialogue system based on RAG (Retrieval-Augmented Generation) technology.</sub>
+
+---
+## fmz200/wool_scripts
+
+> [!info]
+> ⭐ 4,651 · Vim Snippet · 2026-02-17  
+> [GitHub](https://github.com/fmz200/wool_scripts)  
+> >
+> 生成失败
+
+> <sub>收集一些Loon、Surge、QuantumultX、ShadowRocket、Egern的配置与去广告规则。</sub>
+
+---
+## trueai-org/midjourney-proxy
+
+> [!info]
+> ⭐ 754 · C# · 2026-02-08  
+> [GitHub](https://github.com/trueai-org/midjourney-proxy) · [Website](https://ai.trueai.org)  
+> `#chatgpt` `#face-swap` `#gemini` `#insightface` `#midjourney` `#midjourney-api` `#midjourney-api-bot` `#midjourney-bot` `#midjourney-proxy` `#midjourney-proxy-plus` `#moltbot` `#nijiourney` `#openclaw` `#video-face-swap` `#youchuan` >
+> 生成失败
+
+> <sub>🦄 The world's largest Midjourney drawing API, generating over 1 million drawings daily, supporting Discord Youchuan Midjourney 🐂！</sub>
+
+---
+## yuaotian/go-cursor-help
+
+> [!info]
+> ⭐ 25,986 · Shell · 2026-02-09  
+> [GitHub](https://github.com/yuaotian/go-cursor-help)  
+> `#cursor` `#error` >
+> 生成失败
+
+> <sub>解决Cursor在免费订阅期间出现以下提示的问题:  Your request has been blocked as our system has detected suspicious activity / You've reached your trial request limit.  /  Too many free trial accounts used on this machine.</sub>
+
+---
+## neetigyachahar/GenQL
+
+> [!info]
+> ⭐ 2 · TypeScript · 2025-05-04  
+> [GitHub](https://github.com/neetigyachahar/GenQL) · [Website](https://genql.neetigya.me/)  
+> `#ai` `#database` >
+> 生成失败
+
+> <sub>Generate SQL query from natural language.</sub>
+
+---
+## stark81/VutronMusic
+
+> [!info]
+> ⭐ 1,298 · Vue · 2026-02-25  
+> [GitHub](https://github.com/stark81/VutronMusic)  
+> `#网易云音乐` `#Electron` `#Vue3` `#流媒体播放` `#本地音乐` `#逐字歌词` `#桌面歌词` `#跨平台` >
+> VutronMusic 是一款高颜值的第三方网易云音乐播放器，基于 Electron 开发，支持 Windows/macOS/Linux。集成流媒体服务（Navidrome/Jellyfin/Emby）、本地音乐播放、逐字歌词、桌面歌词及多平台状态栏歌词显示，提供变调变速、自定义主题等高级功能，界面美观且功能丰富。
+
+> <sub>高颜值的第三方网易云播放器；支持流媒体音乐，如navidrome、jellyfin、emby；支持本地音乐播放、离线歌单、逐字歌词、桌面歌词、Touch Bar歌词、Mac状态栏歌词显示、Linux-gnome与Linux-kde桌面状态栏歌词显示；支持降调降速，支持自定义主题等。支持 Windows / macOS / Linux :electron:</sub>
+
+---
+## jeffvli/feishin
+
+> [!info]
+> ⭐ 7,240 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/jeffvli/feishin) · [Website](https://feishin.vercel.app)  
+> `#音乐播放器` `#自托管` `#MPV` `#Navidrome` `#Jellyfin` `#Subsonic` `#Docker` `#Electron` `#jellyfin` `#music-player` `#navidrome` `#self-hosted` `#subsonic` >
+> Feishin 是一款现代化的自托管音乐播放器，支持 MPV 和 Web 播放后端，提供美观的 UI、智能播放列表编辑、歌词同步及播放记录同步功能。支持 Jellyfin、Navidrome 和 Subsonic 协议，提供桌面、Web 和 Docker 多种部署方式。
+
+> <sub>A modern self-hosted music player.</sub>
+
+---
+## get-artab/artab
+
+> [!info]
+> ⭐ 231 · TypeScript · 2025-06-16  
+> [GitHub](https://github.com/get-artab/artab) · [Website](https://artab.owenyoung.com/)  
+> `#浏览器扩展` `#新标签页` `#艺术作品` `#Chrome` `#Firefox` `#Edge` `#灵感` `#开源` `#arts` `#chrome` `#edge` `#extension` `#firefox` >
+> Artab 是一款浏览器新标签页扩展，每次打开新标签时展示世界顶级艺术作品，支持 Chrome、Edge 和 Firefox。提供沉浸式艺术体验，激发灵感，支持本地开发与自定义设置。
+
+> <sub>Get Inspired by the World's Greatest Artworks Every Time You Open a New Tab. Extension Available for Chrome, Edge, and Firefox.</sub>
+
+---
+## beilunyang/moemail
+
+> [!info]
+> ⭐ 2,007 · TypeScript · 2026-02-13  
+> [GitHub](https://github.com/beilunyang/moemail) · [Website](https://moemail.app)  
+> `#临时邮箱` `#Next.js` `#Cloudflare` `#隐私保护` `#自托管` `#PWA` `#OpenAPI` `#TypeScript` `#cloudflare` `#cloudflare-workers` `#email` `#temp-email` >
+> MoeMail 是一个基于 Next.js 和 Cloudflare 技术栈构建的可爱临时邮箱服务，支持隐私保护、实时收件、多语言、主题切换、PWA、邮件发送、Webhook 通知、权限系统与 OpenAPI，可完全免费自托管。
+
+> <sub>A cute temporary email service built with NextJS + Cloudflare technology stack 🎉 | 一个基于 NextJS + Cloudflare 技术栈构建的可爱临时邮箱服务🎉</sub>
+
+---
+## whotto/Video_note_generator
+
+> [!info]
+> ⭐ 1,702 · Python · 2025-10-30  
+> [GitHub](https://github.com/whotto/Video_note_generator)  
+> `#视频转笔记` `#小红书生成` `#AI内容优化` `#FastAPI` `#批量处理` `#Whisper转录` `#自动化运营` `#内容创作` >
+> 一键将视频转换为高质量小红书笔记，支持自动转录、AI内容优化、配图生成与爆款标题创作，V2.0 提供 FastAPI Web 界面，支持批量处理、长视频、智能重试与历史记录管理。
+
+> <sub>一键将视频转换为优质小红书笔记，自动优化内容和配图</sub>
+
+---
+## kingparks/cursor-vip
+
+> [!info]
+> ⭐ 4,713 · Go · 2025-07-11  
+> [GitHub](https://github.com/kingparks/cursor-vip) · [Website](https://cursor.jeter.eu.org)  
+> `#Cursor IDE` `#VIP 共享` `#代码编辑器` `#代理模式` `#多语言支持` `#脚本安装` `#模型集成` `#开源工具` `#cursor` `#cursor-pro` >
+> cursor-vip 是一款为 Cursor IDE 提供共享 VIP 权限的工具，支持多平台安装与代理模式，通过脚本或手动方式激活，解锁代码提示与聊天功能。项目强调非官方但成本分摊更经济，未来计划与官方合作。
+
+> <sub>cursor IDE enjoy VIP</sub>
+
+---
+## bestK/cursor-fake-machine
+
+> [!info]
+> ⭐ 2,751 · JavaScript · 2025-01-13  
+> [GitHub](https://github.com/bestK/cursor-fake-machine)  
+> `#Cursor` `#机器ID` `#插件` `#VSIX` `#设备伪装` `#开发工具` `#重置` `#多平台` >
+> Cursor Fake Machine 是一款用于修改 Cursor 编辑器机器标识（machine ID）的插件，帮助用户重置或伪装设备信息，适用于需要绕过使用限制的场景。支持快捷键操作，安装简单，兼容多平台。
+
+---
+## acmesh-official/acme.sh
+
+> [!info]
+> ⭐ 45,791 · Shell · 2026-02-23  
+> [GitHub](https://github.com/acmesh-official/acme.sh) · [Website](https://acme.sh)  
+> `#ACME` `#SSL/TLS` `#Shell脚本` `#证书自动化` `#Let's Encrypt` `#跨平台` `#无依赖` `#Docker` `#acme` `#acme-challenge` `#acme-protocol` `#acme-v2` `#ash` `#bash` `#buypass` `#certbot` `#lets-encrypt` `#posix` `#posix-sh` `#shell` `#ssl` `#ssl-certificate` `#ssl-certificates` `#tls` `#tls-certificate` `#zerossl` >
+> acme.sh 是一个纯 Unix Shell 编写的 ACME 协议客户端，用于自动化申请、续期和部署 SSL/TLS 证书。支持 ECDSA、通配符证书、多平台（Linux/BSD/macOS/Windows等），无需 root 权限，兼容 Bash/dash/sh，无 Python 依赖，适合 Docker 和 IPv6 环境。
+
+> <sub>A pure Unix shell script ACME client for SSL / TLS certificate automation</sub>
+
+---
+## ErwannMillon/Color-diffusion
+
+> [!info]
+> ⭐ 781 · Python · 2023-08-08  
+> [GitHub](https://github.com/ErwannMillon/Color-diffusion)  
+> `#扩散模型` `#图像上色` `#LAB色彩空间` `#UNet` `#条件生成` `#深度学习` `#计算机视觉` `#Gradio` >
+> 该项目利用扩散模型对黑白图像进行自动上色，采用LAB色彩空间分离亮度与颜色信息，仅对AB通道加噪训练UNet预测颜色噪声，结合灰度图特征条件化生成自然色彩。支持命令行与Gradio界面推理，为图像着色任务提供了简洁有效的扩散模型实现。
+
+> <sub>A diffusion model to colorize black and white images</sub>
+
+---
+## kamranahmedse/developer-roadmap
+
+> [!info]
+> ⭐ 349,762 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/kamranahmedse/developer-roadmap) · [Website](https://roadmap.sh)  
+> `#开发者路线图` `#技术学习路径` `#交互式学习` `#职业成长` `#最佳实践` `#知识测评` `#全栈开发` `#AI工程师` `#angular-roadmap` `#backend-roadmap` `#blockchain-roadmap` `#computer-science` `#dba-roadmap` `#developer-roadmap` `#devops-roadmap` `#frontend-roadmap` `#go-roadmap` `#java-roadmap` `#javascript-roadmap` `#nodejs-roadmap` `#python-roadmap` `#qa-roadmap` `#react-roadmap` `#roadmap` `#software-architect-roadmap` `#vue-roadmap` >
+> developer-roadmap 是一个社区驱动的开发者成长平台，提供交互式技术路线图、最佳实践指南和知识测评题库，涵盖前端、后端、DevOps、AI、系统设计等数十个技术领域，帮助开发者规划职业路径并提升技能。
+
+> <sub>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</sub>
+
+---
+## microsoft/playwright-python
+
+> [!info]
+> ⭐ 14,292 · Python · 2026-02-11  
+> [GitHub](https://github.com/microsoft/playwright-python) · [Website](https://playwright.dev/python/)  
+> `#浏览器自动化` `#Web 测试` `#爬虫` `#Python` `#跨浏览器` `#同步/异步` `#Playwright` `#端到端测试` `#chromium` `#firefox` `#playwright` `#webkit` >
+> Playwright Python 是一个用于自动化 Chromium、Firefox 和 WebKit 浏览器的库，支持同步与异步 API，具备跨浏览器、高可靠性和快速执行特性，适用于 Web 测试与爬虫场景。
+
+> <sub>Python version of the Playwright testing and automation library.</sub>
+
+---
+## microsoft/playwright
+
+> [!info]
+> ⭐ 83,051 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/microsoft/playwright) · [Website](https://playwright.dev)  
+> `#Web 测试` `#自动化` `#跨浏览器` `#端到端测试` `#Playwright` `#TypeScript` `#JavaScript` `#无头浏览器` `#automation` `#chrome` `#chromium` `#e2e-testing` `#electron` `#end-to-end-testing` `#firefox` `#javascript` `#playwright` `#test` `#test-automation` `#testing` `#testing-tools` `#web` `#webkit` >
+> Playwright 是一个跨浏览器 Web 测试与自动化框架，支持 Chromium、Firefox 和 WebKit，提供统一 API。具备自动等待、可靠断言、无痕上下文、多用户/多标签测试、网络拦截、设备模拟及强大调试工具（如 Codegen、Inspector、Trace Viewer），实现高效、稳定、无 flaky 的测试。
+
+> <sub>Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.</sub>
+
+---
+## mistweaverco/bananas
+
+> [!info]
+> ⭐ 6,089 · Svelte · 2025-11-24  
+> [GitHub](https://github.com/mistweaverco/bananas) · [Website](https://getbananas.net)  
+> `#屏幕共享` `#跨平台` `#点对点` `#无账户` `#开源` `#实时传输` `#WebRTC` `#桌面应用` `#cross-platform` `#multi-cursor` `#p2p` `#pair-programming` `#pairing` `#peer-to-peer` `#screensharing` >
+> Bananas 是一款跨平台屏幕共享工具，支持 Mac、Windows 和 Linux，采用点对点连接，无需账户或服务器即可实现快速共享，仅需 STUN/TURN 和信令服务器建立初始连接。
+
+> <sub>Bananas🍌, Cross-Platform screen 🖥️ sharing 📡 made simple ⚡.</sub>
+
+---
+## Genymobile/scrcpy
+
+> [!info]
+> ⭐ 136,137 · C · 2026-02-24  
+> [GitHub](https://github.com/Genymobile/scrcpy)  
+> `#Android 镜像` `#屏幕投射` `#远程控制` `#音频转发` `#录屏` `#HID 模拟` `#跨平台` `#低延迟` `#android` `#c` `#ffmpeg` `#libav` `#mirroring` `#recording` `#screen` `#sdl2` >
+> scrcpy 是一款轻量级、高性能的开源工具，用于通过 USB 或 Wi-Fi 将 Android 设备屏幕镜像到电脑，并支持键盘鼠标控制。无需 root 或安装应用，支持音频转发、录屏、虚拟显示、摄像头镜像、HID 输入模拟等功能，跨平台支持 Linux、Windows 和 macOS，延迟低至 35~70ms。
+
+> <sub>Display and control your Android device</sub>
+
+---
+## didi/xiaoju-survey
+
+> [!info]
+> ⭐ 3,711 · TypeScript · 2026-02-02  
+> [GitHub](https://github.com/didi/xiaoju-survey) · [Website](https://xiaojusurvey.didi.cn)  
+> `#问卷系统` `#表单构建` `#数据分析` `#AI生成` `#企业级` `#Vue3` `#NestJS` `#MongoDB` `#ai` `#dynamic-form-builder` `#enterprises` `#form` `#form-builder` `#java` `#llm` `#nodejs` `#question` `#quiz` `#react-native` `#survey` `#vue3` >
+> XIAOJUSURVEY 是滴滴开源的企业级表单构建与数据分析平台，支持创建问卷、考试、测评等多样化调研场景，具备40+题型、AI生成、逻辑编排、多端嵌入及上亿级数据处理能力，提供标准化协议、模块化设计与Docker快速部署。
+
+> <sub>XIAOJUSURVEY is an enterprises form builder and analytics platform that allows users to create questionnaires, exams, polls, quizzes, and analyze data online.</sub>
+
+---
+## AntonOsika/gpt-engineer
+
+> [!info]
+> ⭐ 55,207 · Python · 2025-05-14  
+> [GitHub](https://github.com/AntonOsika/gpt-engineer)  
+> `#代码生成` `#AI编程` `#自然语言转代码` `#CLI工具` `#开源模型` `#基准测试` `#多模态输入` `#开发者工具` `#ai` `#autonomous-agent` `#code-generation` `#codebase-generation` `#codegen` `#coding-assistant` `#gpt-4` `#gpt-engineer` `#openai` `#python` >
+> gpt-engineer 是一个开源的代码生成实验平台，支持通过自然语言描述生成和执行代码，并可对现有项目进行改进。支持 OpenAI、Anthropic 及本地模型，提供 CLI 工具、自定义提示、视觉输入和基准测试功能，是构建编码代理的核心工具。
+
+> <sub>CLI platform to experiment with codegen. Precursor to: https://lovable.dev</sub>
+
+---
+## timlrx/tailwind-nextjs-starter-blog
+
+> [!info]
+> ⭐ 10,391 · TypeScript · 2026-02-08  
+> [GitHub](https://github.com/timlrx/tailwind-nextjs-starter-blog) · [Website](https://tailwind-nextjs-starter-blog.vercel.app/)  
+> `#Next.js` `#Tailwind CSS` `#博客模板` `#Markdown` `#Contentlayer` `#React Server Components` `#Vercel 部署` `#静态网站生成` `#blogging` `#demo-blog` `#mdx` `#nextjs` `#publishing` `#reactjs` `#tailwind-css` >
+> 这是一个基于 Next.js 和 Tailwind CSS 的博客启动模板，支持 React Server Components 和 Contentlayer 管理 Markdown 内容，提供丰富的功能与高度可定制性，适合替代 Jekyll 或 Hugo 等静态博客系统，快速搭建现代化技术博客。
+
+> <sub>This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.</sub>
+
+---
+## caol64/wenyan
+
+> [!info]
+> ⭐ 918 · Swift · 2026-02-14  
+> [GitHub](https://github.com/caol64/wenyan) · [Website](https://wenyan.yuzhi.tech)  
+> `#Markdown` `#排版工具` `#多平台发布` `#微信公众号` `#知乎` `#自定义主题` `#图片上传` `#代码高亮` `#swiftui` `#wenyan` >
+> 文颜是一款多平台Markdown排版与发布工具，支持一键转换并发布至微信公众号、知乎、今日头条等平台，内置多款精美主题，具备图片上传、数学公式、代码高亮、自定义样式及导出长图等功能，助力创作者专注内容创作。
+
+> <sub>文颜- Markdown文章排版美化工具，支持微信公众号、今日头条、知乎等平台。</sub>
+
+---
+## ngc660sec/NGCBot
+
+> [!info]
+> ⭐ 3,331 · N/A · 2025-05-25  
+> [GitHub](https://github.com/ngc660sec/NGCBot)  
+> `#微信机器人` `#HOOK机制` `#安全资讯` `#AI集成` `#自动化` `#威胁情报` `#生活工具` `#开源项目` `#bot` `#crawler` `#security` `#wei-xin` `#weixin` `#wxbot` >
+> 基于HOOK机制的微信机器人，集成安全资讯推送、AI回复、威胁情报查询、生活工具及自动化功能，支持主流AI平台，自定义程度高，适合小白用户快速部署。
+
+> <sub>一个基于✨HOOK机制的微信机器人，支持🌱安全新闻定时推送【FreeBuf，先知，安全客，奇安信攻防社区】，👯Kfc文案，⚡漏洞查询，⚡手机号归属地查询，⚡知识库查询，🎉星座查询，⚡天气查询，🌱摸鱼日历，⚡微步威胁情报查询， 🐛视频，⚡图片，👯帮助菜单。📫 支持积分功能，⚡支持自动拉人，，🌱自动群发，👯Ai回复（国内主流AI模型，扣子，FastGpt，Dify全面支持！），⚡视频号解析，😄自定义程度丰富，小白也可轻松上手！</sub>
+
+---
+## WangRongsheng/awesome-LLM-resources
+
+> [!info]
+> ⭐ 7,571 · N/A · 2026-02-15  
+> [GitHub](https://github.com/WangRongsheng/awesome-LLM-resources)  
+> `#大语言模型` `#多模态` `#智能体` `#数据处理` `#模型训练` `#RAG` `#MCP` `#开源资源` `#awesome-list` `#book` `#course` `#large-language-models` `#llama` `#llm` `#mistral` `#openai` `#qwen` `#rag` `#retrieval-augmented-generation` `#webui` >
+> 该仓库是全面的大语言模型（LLM）资源汇总，涵盖多模态生成、智能体（Agent）、辅助编程、数据处理、模型训练与推理、RAG、MCP、小模型及o1等前沿方向，提供从数据工具到研究论文的一站式导航，持续更新，助力开发者与研究者高效获取优质LLM资源。
+
+> <sub>🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources.</sub>
+
+---
+## JingMatrix/LSPosed
+
+> [!info]
+> ⭐ 9,719 · Java · 2026-02-16  
+> [GitHub](https://github.com/JingMatrix/LSPosed) · [Website](https://modules.lsposed.org/)  
+> `#Xposed` `#Zygisk` `#ART Hook` `#Android` `#Magisk` `#LSPlant` `#模块开发` `#系统修改` `#android` `#arthook` `#lsposed` `#xposed` `#zygisk` >
+> LSPosed 是一个基于 Zygisk 的 ART 钩子框架，兼容原版 Xposed API，支持 Android 8.1 至 16。它利用 LSPlant 实现高效方法钩取，无需修改 APK 即可动态修改系统和应用行为，适用于模块开发与安全研究。
+
+> <sub>LSPosed Framework resuscitated</sub>
+
+---
+## mihomo-party-org/clash-party
+
+> [!info]
+> ⭐ 21,049 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/mihomo-party-org/clash-party) · [Website](https://clashparty.org)  
+> `#Mihomo` `#Clash Meta` `#代理工具` `#Electron` `#GUI` `#科学上网` `#订阅管理` `#智能节点` `#clash` `#clash-meta` `#electron` `#mihomo` >
+> Clash Party 是一款基于 Electron 的 Mihomo（Clash Meta）图形界面客户端，提供开箱即用的代理管理体验。支持智能内核、AI 节点选择、多主题 UI、WebDAV 配置备份及 Sub-Store 订阅集成，适用于高效稳定的科学上网场景。
+
+> <sub>:electron: Another Mihomo GUI.</sub>
+
+---
+## docling-project/docling
+
+> [!info]
+> ⭐ 54,125 · Python · 2026-02-25  
+> [GitHub](https://github.com/docling-project/docling) · [Website](https://docling-project.github.io/docling)  
+> `#文档解析` `#PDF 处理` `#OCR` `#生成式AI` `#多模态` `#LangChain` `#DoclingDocument` `#MCP 服务` `#ai` `#convert` `#document-parser` `#document-parsing` `#documents` `#docx` `#html` `#markdown` `#pdf` `#pdf-converter` `#pdf-to-json` `#pdf-to-text` `#pptx` `#tables` `#xlsx` >
+> Docling 是一款强大的文档处理工具，支持 PDF、DOCX、PPTX、图像、音频等多种格式的解析与结构化提取，具备先进的 PDF 布局理解、OCR、语音识别及视觉语言模型集成能力。提供统一输出格式（如 Markdown、JSON）和与 LangChain、LlamaIndex 等主流 AI 框架的无缝集成，适用于生成式 AI 应用的数据准备。
+
+> <sub>Get your documents ready for gen AI</sub>
+
+---
+## nuance-dev/figura
+
+> [!info]
+> ⭐ 100 · Swift · 2024-11-28  
+> [GitHub](https://github.com/nuance-dev/figura)  
+> `#macOS` `#背景移除` `#图像处理` `#SwiftUI` `#Vision框架` `#本地处理` `#免费工具` `#原生应用` >
+> Figura 是一款免费的 macOS 原生应用，利用系统 Vision 框架实现本地一键去除图片背景，支持拖放、粘贴等多种输入方式，界面简洁现代，兼容深色/浅色模式，需 macOS 14+。
+
+> <sub>A free macOS native app to remove image backgrounds locally</sub>
+
+---
+## getmaxun/maxun
+
+> [!info]
+> ⭐ 15,135 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/getmaxun/maxun) · [Website](https://www.maxun.dev)  
+> `#web-scraping` `#no-code` `#AI-extraction` `#crawling` `#data-automation` `#open-source` `#self-hosted` `#API-generation` `#agents` `#api` `#automation` `#browser-automation` `#crawler` `#crawling` `#data-extraction` `#no-code` `#nocode` `#playwright` `#robotic-process-automation` `#rpa` `#scraper` `#self-hosted` `#web-scraper` `#web-scraping` `#web-search` `#webscraping` >
+> Maxun 是一个开源的无代码平台，用于网页抓取、爬取、搜索和 AI 数据提取，支持将任意网站快速转换为结构化 API。提供录制模式、AI 自然语言提取、自动化调度和 SDK 工具链，适用于市场研究、线索生成等场景，支持自托管。
+
+> <sub>✨ The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes ✨</sub>
+
+---
+## opendatalab/MinerU
+
+> [!info]
+> ⭐ 54,992 · Python · 2026-02-24  
+> [GitHub](https://github.com/opendatalab/MinerU) · [Website](https://opendatalab.github.io/MinerU/)  
+> `#PDF解析` `#文档转换` `#Markdown生成` `#JSON输出` `#LLM预处理` `#智能体工作流` `#开源工具` `#结构化提取` `#ai4science` `#document-analysis` `#extract-data` `#layout-analysis` `#ocr` `#parser` `#pdf` `#pdf-converter` `#pdf-extractor-llm` `#pdf-extractor-pretrain` `#pdf-extractor-rag` `#pdf-parser` `#python` >
+> MinerU 是一款开源文档解析工具，能够将 PDF 等复杂文档精准转换为 LLM 友好的 Markdown 和 JSON 格式，支持表格、公式、图片等结构化提取，适用于智能体工作流中的知识构建与数据处理。
+
+> <sub>Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows.</sub>
+
+---
+## JohannesKaufmann/html-to-markdown
+
+> [!info]
+> ⭐ 3,440 · Go · 2026-02-16  
+> [GitHub](https://github.com/JohannesKaufmann/html-to-markdown) · [Website](https://html-to-markdown.com)  
+> `#HTML转Markdown` `#Go语言` `#CLI工具` `#插件系统` `#文档转换` `#REST API` `#CommonMark` `#表格支持` `#cli` `#converter` `#go` `#golang` `#html` `#html-to-markdown` `#markdown` >
+> 一个功能强大的 HTML 转 Markdown 工具，支持整站转换，提供 Go 语言库、CLI、在线演示和 REST API。具备智能转义、嵌套元素处理、插件扩展等特性，适用于内容迁移、文档生成等场景。
+
+> <sub>⚙️ Convert HTML to Markdown. Even works with entire websites and can be extended through rules.</sub>
+
+---
+## CatchTheTornado/text-extract-api
+
+> [!info]
+> ⭐ 2,981 · Python · 2025-12-08  
+> [GitHub](https://github.com/CatchTheTornado/text-extract-api) · [Website](https://demo.doctractor.com)  
+> `#OCR` `#文档解析` `#FastAPI` `#Ollama` `#PII匿名化` `#JSON转换` `#Markdown生成` `#Celery` `#anonymization` `#api` `#extract` `#json` `#llm` `#ocr` `#ocr-python` `#pdf` `#pii` >
+> text-extract-api 是一个基于 FastAPI 和 Celery 的文档提取与解析 API，支持 PDF、Word、PPTX 等文件及图像的高精度 OCR 识别，结合 EasyOCR、MiniCPM-V、Llama 3.2 Vision 等模型，实现文档转 Markdown 或结构化 JSON，具备 PII 匿名化、OCR 缓存、分布式任务处理和多种存储策略，完全本地化运行，无外部依赖。
+
+> <sub>Document (PDF, Word, PPTX ...) extraction and parse API using state of the art modern OCRs + Ollama supported models. Anonymize documents. Remove PII. Convert any document or picture to structured JSON or Markdown</sub>
+
+---
+## memfreeme/memfree
+
+> [!info]
+> ⭐ 1,489 · TypeScript · 2025-08-08  
+> [GitHub](https://github.com/memfreeme/memfree) · [Website](https://www.memfree.me?ref=github.com)  
+> `#AI 搜索` `#混合搜索` `#AI 页面生成` `#React` `#Tailwind CSS` `#多模态输入` `#知识管理` `#一键部署` `#ai` `#ai-search` `#ai-search-engine` `#devfast` `#generate-ui` `#hacktoberfest` `#hacktoberfest-accepted` `#hybrid-ai-search` `#page-generator` `#react` `#search-engine` `#serverless-vector` `#shadcn-ui` `#vector-search` >
+> MemFree 是一款混合 AI 搜索引擎与 AI 页面生成器，支持多模型（ChatGPT、Claude、Gemini）、多搜索引擎（Google、Exa、Vector）及多格式输入（文本、图像、文件），可快速生成生产级 React + Tailwind UI 页面，并提供跨设备同步、多语言支持与一键部署功能，显著提升知识管理与开发效率。
+
+> <sub>MemFree - Hybrid AI Search Engine & AI Page Generator</sub>
+
+---
+## shallowdream204/DreamClear
+
+> [!info]
+> ⭐ 1,190 · Python · 2025-03-21  
+> [GitHub](https://github.com/shallowdream204/DreamClear)  
+> `#图像恢复` `#扩散模型` `#隐私安全` `#真实世界` `#NeurIPS 2024` `#PixArt` `#LLaVA` `#超分辨率` `#diffusion-transformer` `#pixelart` `#restoration` `#super-resolution` >
+> DreamClear 是一种高容量真实世界图像恢复方法，结合隐私安全的数据集构建策略，基于扩散模型实现高质量图像复原。支持文本引导恢复，并集成 LLaVA 与 T5 实现语义理解，适用于去模糊、超分等任务。
+
+> <sub>[NeurIPS 2024] DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe Dataset Curation</sub>
+
+---
+## ltaoo/wx_channels_download
+
+> [!info]
+> ⭐ 4,688 · Go · 2026-02-24  
+> [GitHub](https://github.com/ltaoo/wx_channels_download) · [Website](https://ltaoo.github.io/wx_channels_download/)  
+> `#微信视频号` `#视频下载` `#代理抓包` `#多平台支持` `#Go语言` `#证书安装` `#清晰度选择` `#开源工具` >
+> 微信视频号下载器，支持 macOS 和 Windows，通过本地代理自动注入下载按钮，可获取多清晰度视频（如 xWT111、xWT98），体积小且操作简单，需管理员权限运行并安装证书。
+
+> <sub>微信视频号下载器</sub>
+
+---
+## WEIFENG2333/AsrTools
+
+> [!info]
+> ⭐ 3,085 · Python · 2025-11-25  
+> [GitHub](https://github.com/WEIFENG2333/AsrTools)  
+> `#语音识别` `#字幕生成` `#批量处理` `#PyQt5` `#无需GPU` `#SRT` `#TXT` `#视频转音频` >
+> AsrTools 是一款无需 GPU、开箱即用的智能语音转文字工具，支持批量处理音频/视频文件，提供美观的 PyQt5 界面，可输出 SRT、TXT、ASS 等字幕格式，适合快速生成高质量文本内容。
+
+> <sub>✨ AsrTools: Smart Voice-to-Text Tool | Efficient Batch Processing | User-Friendly Interface | No GPU Required | Supports SRT/TXT Output | Turn your audio into accurate text in an instant!</sub>
+
+---
+## cs-lazy-tools/ChatGPT-On-CS
+
+> [!info]
+> ⭐ 3,688 · TypeScript · 2025-08-25  
+> [GitHub](https://github.com/cs-lazy-tools/ChatGPT-On-CS) · [Website](https://xingsuancn.com/)  
+> `#智能客服` `#电商SaaS` `#大语言模型` `#多平台接入` `#AI对话` `#知识库定制` `#插件生态` `#数据分析` `#ai` `#autohotkey` `#automation` `#bilibili` `#bot` `#chatgpt` `#chatgpt4` `#customer` `#dify` `#douyin` `#fastai` `#llm` `#pinduoduo` `#qianniu` `#wechat` `#wechat-bot` `#weibo` `#xiaohongshu` `#zhihu` >
+> 基于大语言模型的电商智能客服SaaS平台，支持微信、抖音、千牛、小红书等主流平台接入，集成GPT3.5/4.0、通义千问等模型，具备文本/语音/图片处理能力，支持知识库定制与插件扩展，提供多平台统一管理、智能问答及数据分析功能。
+
+> <sub>基于大模型的智能对话客服工具，支持微信、拼多多、千牛、哔哩哔哩、抖音企业号、抖音、抖店、微博聊天、小红书专业号运营、小红书、知乎等平台接入，可选择 GPT3.5/GPT4.0/ 懒人百宝箱 （后续会支持更多平台），能处理文本、语音和图片，通过插件访问操作系统和互联网等外部资源，支持基于自有知识库定制企业 AI 应用。</sub>
+
+---
+## 14790897/paper-ai
+
+> [!info]
+> ⭐ 1,584 · TypeScript · 2026-01-23  
+> [GitHub](https://github.com/14790897/paper-ai) · [Website](https://paperai.sixiangjia.de)  
+> `#AI论文写作` `#文献检索` `#Semantic Scholar` `#PubMed` `#arXiv` `#学术工具` `#Next.js` `#Vercel部署` `#ai` `#paper` >
+> paper-ai 是一款基于人工智能的论文写作工具，支持通过关键词在 Semantic Scholar、arXiv 和 PubMed 中检索真实文献，并自动生成带引用的学术内容。提供 AI 写作建议、在线编辑及多平台部署方案，显著提升学术写作效率。
+
+> <sub>搜索真实文献并生成引用对应文献的AI论文</sub>
+
+---
+## MetaCubeX/mihomo
+
+> [!info]
+> ⭐ 27,142 · Python · 2026-02-25  
+> [GitHub](https://github.com/MetaCubeX/mihomo) · [Website](https://wiki.metacubex.one)  
+> `#Python` `#Pydantic` `#API 客户端` `#崩坏星穹铁道` `#数据解析` `#类型提示` `#异步请求` `#数据持久化` `#honkai-star-rail` `#mihomo` `#python` `#star-rail-api` >
+> mihomo 是一个基于 Pydantic 的 Python 库，用于解析《崩坏：星穹铁道》的 Mihomo API 数据，支持 V1 和 V2 两种数据格式，提供类型提示与自动补全，包含角色信息获取、图标 URL 替换、数据去重与合并等实用工具。
+
+> <sub>A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.</sub>
+
+---
+## libnyanpasu/clash-nyanpasu
+
+> [!info]
+> ⭐ 12,802 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/libnyanpasu/clash-nyanpasu) · [Website](https://nyanpasu.elaina.moe)  
+> `#clash` `#clash-meta` `#clash-nyanpasu` `#clash-rs` `#material-you` `#mihomo` `#react` `#rust` `#tauri` `#tauri-app` >
+> 生成失败
+
+> <sub>Clash Nyanpasu～(∠・ω< )⌒☆​</sub>
+
+---
+## clash-verge-rev/clash-verge-rev
+
+> [!info]
+> ⭐ 98,738 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/clash-verge-rev/clash-verge-rev) · [Website](https://www.clashverge.dev)  
+> `#clash` `#clash-meta` `#clash-verge` `#linux` `#mac` `#mihomo` `#tauri-app` `#windows` >
+> 生成失败
+
+> <sub>A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience</sub>
+
+---
+## jxlpzqc/TMSpeech
+
+> [!info]
+> ⭐ 1,214 · C# · 2025-12-21  
+> [GitHub](https://github.com/jxlpzqc/TMSpeech)  
+> >
+> 生成失败
+
+> <sub>腾讯会议摸鱼工具</sub>
+
+---
+## ChinaGodMan/UserScripts
+
+> [!info]
+> ⭐ 1,548 · JavaScript · 2026-02-23  
+> [GitHub](https://github.com/ChinaGodMan/UserScripts) · [Website](https://greasyfork.org/scripts?by=1169082)  
+> `#chatgpt` `#chinese-translation` `#csdn` `#github` `#google` `#greasyfork` `#greasyfork-org` `#greasyfork-script` `#greasymonkey` `#hightlight` `#missav-downloader` `#popup-window` `#scrollbar` `#tampermonkey` `#translation` `#userjs` `#userscripts` `#violentmonkey` `#webpage` >
+> 生成失败
+
+> <sub>🐒一些修改自网络的油猴脚本 Some Tampermonkey scripts modified from the internet</sub>
+
+---
+## hiddify/hiddify-app
+
+> [!info]
+> ⭐ 26,708 · Dart · 2026-02-22  
+> [GitHub](https://github.com/hiddify/hiddify-app) · [Website](https://hiddify.com)  
+> `#clash` `#clashmeta` `#ech` `#hysteria` `#hysteria2` `#proxy` `#reality` `#shadowsocks` `#shadowtls` `#sing-box` `#singbox` `#ssh` `#tuic` `#v2ray` `#vless` `#vmess` `#wireguard` `#xray` >
+> 生成失败
+
+> <sub>Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.</sub>
+
+---
+## chen08209/FlClash
+
+> [!info]
+> ⭐ 32,118 · Dart · 2026-02-14  
+> [GitHub](https://github.com/chen08209/FlClash)  
+> `#clash` `#clash-meta` `#flutter` `#hysteria` `#multi-platform` `#proxy` `#v2ray` `#vless` `#vpn` >
+> 生成失败
+
+> <sub>A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.</sub>
+
+---
+## unclecode/crawl4ai
+
+> [!info]
+> ⭐ 60,992 · Python · 2026-02-25  
+> [GitHub](https://github.com/unclecode/crawl4ai) · [Website](https://crawl4ai.com)  
+> >
+> 生成失败
+
+> <sub>🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN</sub>
+
+---
+## coder-hxl/x-crawl
+
+> [!info]
+> ⭐ 1,765 · TypeScript · 2026-02-24  
+> [GitHub](https://github.com/coder-hxl/x-crawl) · [Website](https://coder-hxl.github.io/x-crawl/)  
+> `#ai` `#ai-crawl` `#chromium` `#crawl` `#crawler` `#fingerprint` `#flexible` `#javascript` `#multifunction` `#nodejs` `#puppeteer` `#spider` `#typescript` >
+> 生成失败
+
+> <sub>Flexible Node.js AI-assisted crawler library</sub>
+
+---
+## open-webui/open-webui
+
+> [!info]
+> ⭐ 124,908 · Python · 2026-02-25  
+> [GitHub](https://github.com/open-webui/open-webui) · [Website](https://openwebui.com)  
+> `#ai` `#llm` `#llm-ui` `#llm-webui` `#llms` `#mcp` `#ollama` `#ollama-webui` `#open-webui` `#openai` `#openapi` `#rag` `#self-hosted` `#ui` `#webui` >
+> 生成失败
+
+> <sub>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</sub>
+
+---
+## LLM-Red-Team/kimi-free-api
+
+> [!info]
+> ⭐ 4,754 · TypeScript · 2025-11-27  
+> [GitHub](https://github.com/LLM-Red-Team/kimi-free-api) · [Website](https://platform.moonshot.cn)  
+> `#KIMI AI` `#逆向API` `#长文本处理` `#多轮对话` `#图像解析` `#联网搜索` `#OpenAI兼容` `#零配置部署` `#chat-api` `#chatbot` `#chatgpt-api` `#kimi-ai` `#kimi-api` `#llm` `#moonshot` >
+> KIMI AI 逆向 API 封装服务，支持长文本解读、多轮对话、联网搜索、图像解析及智能体调用，兼容 OpenAI 接口，提供流式输出、零配置部署和多 Token 轮询机制，适用于测试与研究场景。
+
+> <sub>🚀 KIMI AI 长文本大模型逆向API【特长：长文本解读整理】，支持高速流式输出、智能体对话、联网搜索、探索版、K1思考模型、长文档解读、图像解析、多轮对话，零配置部署，多路token支持，自动清理会话痕迹，仅供测试，如需商用请前往官方开放平台。</sub>
+
+---
+## lewkamtao/lew-ui
+
+> [!info]
+> ⭐ 1,512 · Vue · 2026-02-03  
+> [GitHub](https://github.com/lewkamtao/lew-ui) · [Website](https://app.tngeek.com/web/lew_ui)  
+> `#Vue3` `#组件库` `#TypeScript` `#UI 框架` `#Tippy.js` `#Lucide` `#VueUse` `#MIT 开源` `#component-library` `#typescipt` `#ui-components` `#ui-library` `#vue` `#vue3` `#vue3-components` >
+> Lew UI 是一款基于 Vue3 的现代化组件库，提供美观易用的 UI 组件，支持 TypeScript。集成 Tippy.js、Lucide 图标、VueUse 等开源库，具备工具提示、虚拟列表、表单验证等功能，适用于快速构建高质量前端应用。
+
+> <sub>A beautiful component library based on vue3</sub>
+
+---
+## langgenius/dify
+
+> [!info]
+> ⭐ 130,335 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/langgenius/dify) · [Website](https://dify.ai)  
+> `#AI 工作流` `#RAG` `#大模型应用` `#智能体开发` `#LLMOps` `#后端即服务` `#开源平台` `#多模型支持` `#agent` `#agentic-ai` `#agentic-framework` `#agentic-workflow` `#ai` `#automation` `#gemini` `#genai` `#gpt` `#gpt-4` `#llm` `#low-code` `#mcp` `#nextjs` `#no-code` `#openai` `#orchestration` `#python` `#rag` `#workflow` >
+> Dify 是一个开源的 LLM 应用开发平台，提供可视化工作流编排、RAG 管道、智能体能力、模型管理、可观测性及后端即服务等功能，支持快速从原型到生产部署，集成数百种主流大模型与工具。
+
+> <sub>Production-ready platform for agentic workflow development.</sub>
+
+---
+## Huanshere/VideoLingo
+
+> [!info]
+> ⭐ 16,030 · Python · 2025-05-18  
+> [GitHub](https://github.com/Huanshere/VideoLingo) · [Website](https://docs.videolingo.io)  
+> `#视频字幕生成` `#AI翻译` `#自动配音` `#WhisperX` `#Netflix级字幕` `#多语言支持` `#Streamlit应用` `#语音克隆` `#ai-translation` `#dubbing` `#localization` `#video-translation` `#voice-cloning` >
+> VideoLingo 是一款全自动 AI 视频字幕处理工具，支持 YouTube 视频下载、WhisperX 词级字幕识别、NLP 智能分段、高质量翻译（三步优化）、单行 Netflix 级字幕输出，以及多引擎配音（GPT-SoVITS、Azure 等），实现一键式跨语言视频本地化。
+
+> <sub>Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组</sub>
+
+---
+## kuangdd2024/auto-video-generateor
+
+> [!info]
+> ⭐ 853 · Python · 2025-10-15  
+> [GitHub](https://github.com/kuangdd2024/auto-video-generateor)  
+> `#自动视频生成` `#大语言模型` `#语音合成` `#文生图` `#Gradio` `#PPT转视频` `#PDF解说` `#资源校对` >
+> auto-video-generateor 是一款全自动解说视频生成工具，支持输入主题、PPT 或 PDF，调用大模型生成解说文本，结合语音合成与文生图技术生成配图与音频，最终合成完整视频。支持资源校对、免费方案及千帆等平台集成，提供 Gradio 交互界面，适用于知识科普、教育讲解等场景。
+
+> <sub>自动视频生成器，给定主题，自动生成解说视频。用户输入主题文字，系统调用大语言模型生成故事或解说的文字，然后进一步调用语音合成接口生成解说的语音，调用文生图接口生成契合文字内容的配图，最后融合语音和配图生成解说视频。</sub>
+
+---
+## pure-admin/vue-pure-admin
+
+> [!info]
+> ⭐ 19,798 · Vue · 2026-02-25  
+> [GitHub](https://github.com/pure-admin/vue-pure-admin) · [Website](https://pure-admin.github.io/vue-pure-admin)  
+> `#Vue3` `#TypeScript` `#Element-Plus` `#Vite` `#ESM` `#后台管理系统` `#移动端适配` `#开源模板` `#admin` `#element-plus` `#esm` `#pinia` `#tailwindcss` `#typescript` `#vite` `#vue3` >
+> vue-pure-admin 是一款基于 Vue3、Vite、TypeScript 和 Element-Plus 构建的开源中后台管理系统模板，全面采用 ESM 规范，支持移动端适配。提供精简版（<2.3MB）与国际化选项，集成 Pinia、Tailwind CSS，支持 Tauri/Electron 跨平台部署，具备暗色主题、Docker 部署及完整文档与视频教程。
+
+> <sub>全面ESM+Vue3+Vite+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）</sub>
+
+---
+## doocs/md
+
+> [!info]
+> ⭐ 11,822 · Vue · 2026-02-24  
+> [GitHub](https://github.com/doocs/md) · [Website](https://md.doocs.org)  
+> `#Markdown编辑器` `#微信排版` `#图床集成` `#AI助手` `#主题定制` `#Mermaid` `#PlantUML` `#实时渲染` `#ai-bot` `#doocs` `#editor` `#llm` `#markdown` `#markdown-editor` `#tailwindcss` `#vite` `#vue` `#vue3` `#wechat` `#weixin` >
+> 一款专为微信设计的简洁 Markdown 编辑器，支持完整语法、数学公式、Mermaid/PlantUML 图表、多图床集成及主流 AI 助手，提供实时渲染、主题定制与内容管理功能，显著提升图文排版效率。
+
+> <sub>✍ WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性</sub>
+
+---
+## CoderWanFeng/python-office
+
+> [!info]
+> ⭐ 1,272 · Python · 2026-01-11  
+> [GitHub](https://github.com/CoderWanFeng/python-office) · [Website](https://www.python-office.com)  
+> `#自动化办公` `#Python库` `#Excel处理` `#PDF处理` `#邮件发送` `#AI工具` `#文件管理` `#极简编程` `#office` `#pip` `#pypi` `#python` `#weixin` >
+> Python-office 是一个专为自动化办公设计的 Python 第三方库，支持一行代码实现 Excel、Word、PDF、邮件、图片、AI 工具等常见办公任务，无需编程基础，开箱即用，显著提升工作效率。
+
+> <sub>pip install python-office 自动化办公专用库</sub>
+
+---
+## HiddenStrawberry/Crawler_Illegal_Cases_In_China
+
+> [!info]
+> ⭐ 4,524 · HTML · 2025-03-24  
+> [GitHub](https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China) · [Website](http://novagrid.ai)  
+> `#网络爬虫` `#数据合规` `#法律案例` `#隐私保护` `#计算机犯罪` `#网络安全法` `#侵犯公民个人信息罪` `#企业风控` `#china` `#crawler` `#law` >
+> 本项目系统整理中国大陆爬虫开发者涉诉与违规案例，涵盖隐私数据抓取、商业数据侵权、系统破坏等五大禁区，并汇总《刑法》《网络安全法》等相关法律法规及专业律师观点，旨在提升从业者数据合规意识，防范法律风险。
+
+> <sub>Collection of China illegal cases about web crawler 本项目用来整理所有中国大陆爬虫开发者涉诉与违规相关的新闻、资料与法律法规。致力于帮助在中国大陆工作的爬虫行业从业者了解我国相关法律，避免触碰数据合规红线。 [AD]企业租显卡算力部署AI请选Novagrid</sub>
+
+---
+## someu/aigotools
+
+> [!info]
+> ⭐ 652 · TypeScript · 2025-08-01  
+> [GitHub](https://github.com/someu/aigotools) · [Website](https://www.aigotools.com)  
+> `#网站目录` `#自动爬取` `#国际化` `#SEO优化` `#图片存储` `#导航站点` `#Docker部署` `#开源` `#ai` `#aigotools` `#directory` `#nestjs` `#nextjs` `#openai` `#tools` >
+> AigoTools 是一款快速构建和管理网站目录的开源工具，支持自动爬取站点信息、多语言国际化、SEO 优化及多种图片存储方案（如 MinIO、AWS S3、腾讯云 COS），用户可轻松部署专属导航站点。
+
+> <sub>AigoTools can help users quickly create and manage website directory, with built-in site auto-crawling features, and also provides internationalization, SEO, image storage, and other functions. It allows users to quickly deploy their own directory site online.</sub>
+
+---
+## xkdvSrPD/blog-next-view
+
+> [!info]
+> ⭐ 75 · Vue · 2025-02-07  
+> [GitHub](https://github.com/xkdvSrPD/blog-next-view)  
+> `#Nuxt` `#全栈博客` `#MongoDB` `#Cloudflare R2` `#Markdown 编辑` `#SEO 优化` `#容器化部署` `#在线管理` `#blog` `#nuxt` >
+> 基于 Nuxt 的全栈博客系统，集成 MongoDB 存储、Cloudflare R2 图片托管与 Giscus 评论，支持全文搜索、在线 Markdown 编辑、友链截图及后台管理。采用容器化部署于 Zeabur 平台，优化 SEO 与成本，实现前后端一体化高效运行。
+
+> <sub>Nuxt full-stack blog.</sub>
+
+---
+## joye61/pic-smaller
+
+> [!info]
+> ⭐ 2,682 · JavaScript · 2025-09-11  
+> [GitHub](https://github.com/joye61/pic-smaller) · [Website](https://picsmaller.com)  
+> `#图片压缩` `#前端工具` `#WebAssembly` `#React` `#Vite` `#本地处理` `#多格式支持` `#开源` `#compress-images` `#offscreencanvas` `#safe-compression` `#webassembly` >
+> Pic Smaller 是一款纯前端在线图片压缩工具，支持 JPEG、PNG、WEBP、AVIF、SVG 和 GIF 格式的智能压缩。具备本地处理、无服务器逻辑、安全隐私、可视化对比及自定义输出配置等特性，适用于网页与移动端，技术栈基于 Vite + React，并利用 WebAssembly 与 Web Worker 实现高效压缩。
+
+> <sub>Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently</sub>
+
+---
+## drawdb-io/drawdb
+
+> [!info]
+> ⭐ 36,716 · JavaScript · 2026-02-20  
+> [GitHub](https://github.com/drawdb-io/drawdb) · [Website](https://drawdb.app)  
+> `#数据库设计` `#ER图` `#SQL生成` `#在线工具` `#可视化建模` `#前端应用` `#开源` `#无账户使用` `#database-schema` `#diagram-editor` `#editor` `#erd` `#erdiagram` `#indexeddb` `#javascript` `#mariadb` `#oracle-database` `#oracle-db` `#postgresql` `#react` `#sql` `#sql-server` `#sqlite` `#svg` `#tailwindcss` >
+> drawDB 是一款免费、简洁且直观的在线数据库关系图编辑器，支持可视化设计数据库结构并自动生成 SQL 脚本，无需注册即可使用，适用于数据库建模与团队协作。
+
+> <sub>Free, simple, and intuitive online database diagram editor and SQL generator.</sub>
+
+---
+## jianchang512/ChatTTS-ui
+
+> [!info]
+> ⭐ 7,519 · Python · 2025-12-05  
+> [GitHub](https://github.com/jianchang512/ChatTTS-ui) · [Website](https://pyvideotrans.com)  
+> `#语音合成` `#ChatTTS` `#文本转语音` `#本地部署` `#API接口` `#GPU加速` `#跨平台` `#音色控制` `#chattts` `#tts` >
+> ChatTTS-UI 是一个基于 ChatTTS 的本地语音合成工具，提供网页界面与 API 接口，支持中英文及数字混合文本转语音，兼容 GPU 加速（NVIDIA/AMD）和跨平台部署（Windows/Linux/macOS），内置音色管理与模型自动下载功能。
+
+> <sub>一个简单的本地网页界面，使用ChatTTS将文字合成为语音，同时支持对外提供API接口。A simple native web interface that uses ChatTTS to synthesize text into speech, along with support for external API interfaces.</sub>
+
+---
+## lihaoyun6/QuickRecorder
+
+> [!info]
+> ⭐ 7,977 · Swift · 2025-06-11  
+> [GitHub](https://github.com/lihaoyun6/QuickRecorder) · [Website](https://lihaoyun6.github.io/quickrecorder/)  
+> `#macOS` `#录屏工具` `#ScreenCapture Kit` `#HEVC` `#Alpha通道` `#音频回环` `#Presenter Overlay` `#轻量级` >
+> QuickRecorder 是一款基于 macOS ScreenCapture Kit 的轻量级高性能录屏工具，支持屏幕、窗口、应用及移动设备录制，具备无驱动音频回环、鼠标高亮、屏幕放大镜等功能，兼容 macOS 14 的 Presenter Overlay 实时摄像头叠加，并可输出含 Alpha 通道的 HEVC 视频。
+
+> <sub>A lightweight screen recorder based on ScreenCapture Kit for macOS / 基于 ScreenCapture Kit 的轻量化多功能 macOS 录屏工具</sub>
+
+---
+## TonyJiangWJ/Auto.js
+
+> [!info]
+> ⭐ 331 · Java · 2025-08-22  
+> [GitHub](https://github.com/TonyJiangWJ/Auto.js)  
+> `#Android自动化` `#JavaScript IDE` `#无障碍服务` `#图像识别` `#YOLOv8` `#PaddleOCR` `#ONNX推理` `#脚本开发` >
+> Auto.js 是一个基于无障碍服务的 Android 平台 JavaScript 自动化开发工具，支持脚本录制、控件操作、图像识别（OpenCV、YOLOv8、PaddleOCR）及本地模型推理（ONNXRuntime、PaddleLite、ncnn）。本修改版重点优化了内存泄漏、Android 12 兼容性及多脚本权限共享，适用于自动化任务如蚂蚁森林等，但非商业用途。
+
+---
+## modelscope/FunClip
+
+> [!info]
+> ⭐ 5,358 · Python · 2025-07-11  
+> [GitHub](https://github.com/modelscope/FunClip)  
+> `#视频剪辑` `#语音识别` `#ASR` `#大语言模型` `#FunASR` `#说话人识别` `#开源工具` `#Gradio` `#gradio` `#gradio-python-llm` `#llm` `#speech-recognition` `#speech-to-text` `#subtitles-generator` `#video-clip` `#video-subtitles` >
+> FunClip 是一款开源、精准且易用的视频语音识别与剪辑工具，基于阿里云通义语音实验室的 FunASR 模型实现高精度语音识别，支持多语言（含中英文）、说话人分离、热词增强及 LLM 智能剪辑功能。用户可通过 Gradio 界面或命令行快速提取目标片段，并生成 SRT 字幕，适用于内容创作、会议记录等场景。
+
+> <sub>Open-source, accurate and easy-to-use video speech recognition & clipping tool, LLM based AI clipping intergrated.</sub>
+
+---
+## 1c7/chinese-independent-developer
+
+> [!info]
+> ⭐ 46,732 · N/A · 2026-02-25  
+> [GitHub](https://github.com/1c7/chinese-independent-developer)  
+> `#独立开发者` `#项目聚合` `#AI工具` `#浏览器扩展` `#音视频处理` `#格式转换` `#开源社区` `#中文项目` `#china` `#indie` `#indie-developer` >
+> 该仓库聚合了中国独立开发者的各类项目，涵盖AI工具、浏览器扩展、音视频处理、格式转换等实用产品，支持在线即用。项目按开发状态分类，鼓励开发者提交Pull Request分享作品，促进技术交流与灵感启发。
+
+> <sub>👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么</sub>
+
+---
+## firecrawl/firecrawl
+
+> [!info]
+> ⭐ 85,663 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/firecrawl/firecrawl) · [Website](https://firecrawl.dev)  
+> `#网页抓取` `#数据提取` `#AI 数据源` `#结构化数据` `#Markdown 转换` `#API 服务` `#动态内容处理` `#智能代理` `#ai` `#ai-agents` `#ai-crawler` `#ai-scraping` `#ai-search` `#crawler` `#data-extraction` `#html-to-markdown` `#llm` `#markdown` `#scraper` `#scraping` `#web-crawler` `#web-data` `#web-data-extraction` `#web-scraper` `#web-scraping` `#web-search` `#webscraping` >
+> Firecrawl 是一款专为 AI 设计的网页数据 API，能够将任意网站转换为 LLM 友好的 Markdown 或结构化 JSON 数据。支持爬取、搜索、智能代理、批量处理和动态交互（如点击、输入），具备高可靠性（>80% 基准覆盖率）、JavaScript 渲染、媒体解析及品牌信息提取等能力，适用于 AI 应用实时获取网络上下文。
+
+> <sub>🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data</sub>
+
+---
+## EmbraceAGI/Awesome-AI-GPTs
+
+> [!info]
+> ⭐ 1,178 · N/A · 2024-06-27  
+> [GitHub](https://github.com/EmbraceAGI/Awesome-AI-GPTs)  
+> `#GPTs` `#提示词工程` `#OpenAI` `#AI工具集` `#插件开发` `#安全防护` `#开源目录` `#AI应用` `#aigpts` `#bots` `#chatbot` `#gpt-3` `#gpt-4` `#gpts` `#openai` `#prompts` >
+> 本项目为 OpenAI GPTs 开源资源目录，收录热门 GPTs 应用、提示词工程工具、安全防护技术及插件开发指南，涵盖写作、编程、翻译、学术等场景，助力用户高效探索与定制 AI 助手。
+
+> <sub>Awesome AI GPTs, OpenAI GPTs, GPT-4, ChatGPT, GPTs, Prompts, plugins, Prompts leaking</sub>
+
+---
+## cluic/wxauto
+
+> [!info]
+> ⭐ 6,724 · N/A · 2026-02-05  
+> [GitHub](https://github.com/cluic/wxauto)  
+> `#微信自动化` `#Windows` `#Python` `#机器人` `#UIAutomation` `#消息发送` `#消息接收` `#非网页版` `#automatic` `#python` `#rpa` `#wechat` `#weixin` >
+> wxauto 是一个基于 Windows 微信客户端的自动化工具，支持发送与接收消息，实现简易微信机器人功能。适用于 Windows 10/11 及 Server 2016+ 系统，兼容微信 3.9.X 版本，使用 Python 3.9+ 开发。项目已于2025年停止维护，仅供技术交流学习。
+
+> <sub>Windows版本微信客户端（非网页版）自动化，可实现简单的发送、接收微信消息，简单微信机器人</sub>
+
+---
+## NanmiCoder/MediaCrawler
+
+> [!info]
+> ⭐ 44,291 · Python · 2026-02-13  
+> [GitHub](https://github.com/NanmiCoder/MediaCrawler) · [Website](https://nanmicoder.github.io/MediaCrawler/)  
+> `#爬虫` `#自媒体` `#多平台` `#Playwright` `#数据采集` `#评论分析` `#Python` `#开源` >
+> MediaCrawler 是一款基于 Playwright 的多平台自媒体数据采集工具，支持小红书、抖音、快手、B站、微博、贴吧、知乎等平台的帖子与评论爬取，具备登录态缓存、代理池、词云生成等功能，技术门槛低，适合学习与研究。
+
+> <sub>小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫</sub>
+
+---
+## pwh-pwh/aiwechat-vercel
+
+> [!info]
+> ⭐ 810 · Go · 2025-09-12  
+> [GitHub](https://github.com/pwh-pwh/aiwechat-vercel) · [Website](https://aiwechat-vercel.vercel.app)  
+> `#Vercel` `#微信公众号` `#AI 聊天机器人` `#多模型支持` `#Serverless` `#Redis 对话记忆` `#指令系统` `#零成本部署` `#ai` `#bot` `#gpt` `#vercel-serverless` `#wechat` >
+> 该项目基于 Vercel Functions 实现微信公众号 AI 功能集成，支持 GPT、星火、通义千问、Gemini 等多模型接入，提供连续对话、指令控制、关键词回复、图床等能力，无需服务器，配置简单，成本低廉。
+
+> <sub>使用vercel的functions，将ai功能加入微信公众号</sub>
+
+---
+## abi/screenshot-to-code
+
+> [!info]
+> ⭐ 71,738 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/abi/screenshot-to-code) · [Website](https://screenshottocode.com)  
+> `#AI代码生成` `#前端开发` `#截图转代码` `#Tailwind CSS` `#React` `#Vue` `#设计稿转代码` `#多模型支持` >
+> 一款基于AI的工具，可将截图、设计稿或Figma文件快速转换为高质量的前端代码，支持HTML/Tailwind、React、Vue等多种技术栈，集成Gemini、Claude、GPT等主流模型，并提供视频录屏转原型等实验功能。
+
+> <sub>Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)</sub>
+
+---
+## lss233/kirara-ai
+
+> [!info]
+> ⭐ 18,399 · Python · 2025-06-28  
+> [GitHub](https://github.com/lss233/kirara-ai) · [Website](https://kirara-docs.app.lss233.com/)  
+> `#多模态AI` `#聊天机器人` `#大模型集成` `#跨平台支持` `#工作流系统` `#AI绘图` `#语音对话` `#插件机制` `#bard` `#bot` `#chatglm-6b` `#chatgpt` `#deepseek` `#discord` `#ernie` `#go-cqhttp` `#grok` `#mirai` `#new-bing` `#ollama` `#openai` `#poe` `#qq` `#qqbot` `#sydney` `#telegram` `#wechat` `#xinghuo` >
+> Kirara AI 是一款可 DIY 的多模态聊天机器人框架，支持微信、QQ、Telegram 等主流平台，集成 DeepSeek、Claude、Gemini 等主流大模型，提供工作流、AI 绘图、语音对话、人设调教等功能，并配备 Web 管理后台与插件系统，支持 HTTP API 和 Frpc 内网穿透。
+
+> <sub>🤖 可 DIY 的 多模态 AI 聊天机器人 | 🚀 快速接入 微信、 QQ、Telegram、等聊天平台 | 🦈支持DeepSeek、Grok、Claude、Ollama、Gemini、OpenAI | 工作流系统、网页搜索、AI画图、人设调教、虚拟女仆、语音对话 |</sub>
+
+---
+## aleksey-hoffman/sigma-file-manager
+
+> [!info]
+> ⭐ 5,230 · Vue · 2026-02-25  
+> [GitHub](https://github.com/aleksey-hoffman/sigma-file-manager) · [Website](https://sigma-file-manager.vercel.app)  
+> `#文件管理器` `#开源` `#跨平台` `#Windows` `#Linux` `#现代UI` `#Beta版本` `#社区驱动` `#app` `#electron` `#electron-app` `#electronjs` `#file-manager` `#filemanager` `#modern-applications` `#vue` >
+> Sigma File Manager 是一款免费开源的现代文件管理器，支持 Windows 和 Linux 系统，提供类资源管理器功能。项目正快速迭代，v2 已升级至 Beta 阶段，具备现代化界面与活跃社区支持。
+
+> <sub>"Sigma File Manager" is a free, open-source, quickly evolving, modern file manager (explorer / browser) app for Windows and Linux.</sub>
+
+---
+## JoeanAmier/XHS-Downloader
+
+> [!info]
+> ⭐ 10,164 · Python · 2026-02-11  
+> [GitHub](https://github.com/JoeanAmier/XHS-Downloader) · [Website](https://discord.com/invite/ZYtmgKud9Y)  
+> `#小红书下载` `#内容采集` `#链接提取` `#作品下载` `#Python工具` `#API接口` `#Docker支持` `#UserScript` `#api` `#docker` `#download` `#fastapi` `#httpx` `#javascript` `#json` `#linux` `#macos` `#mcp-server` `#pyinstaller` `#python` `#rednote` `#server` `#sqlite` `#tampermonkey` `#textual` `#userscript` `#windows` `#xiaohongshu` >
+> XHS-Downloader 是一款功能强大的小红书（XiaoHongShu/RedNote）内容采集与下载工具，支持提取账号发布、收藏、点赞、专辑及搜索结果中的作品和用户链接，可采集作品信息并下载图文、视频及 livePhoto 文件，具备断点续传、剪贴板监听、API/MCP 调用等高级特性。
+
+> <sub>小红书（XiaoHongShu、RedNote）链接提取/作品采集工具：提取账号发布、收藏、点赞、专辑作品链接；提取搜索结果作品、用户链接；采集小红书作品信息；提取小红书作品下载地址；下载小红书作品文件</sub>
+
+---
+## sun0225SUN/Awesome-Love-Code
+
+> [!info]
+> ⭐ 3,618 · JavaScript · 2025-02-26  
+> [GitHub](https://github.com/sun0225SUN/Awesome-Love-Code) · [Website](https://sun0225sun.github.io/Awesome-Love-Code)  
+> `#表白代码` `#前端特效` `#浪漫创意` `#HTML/CSS/JS` `#开源项目` `#程序员浪漫` `#网页动画` `#GitHub项目` >
+> 一个专为程序员设计的浪漫代码收藏库，汇集26+精美网页表白特效，涵盖动画、交互与视觉创意，帮助开发者用代码表达爱意，打破‘程序猿不懂浪漫’的刻板印象。
+
+> <sub>表白代码收藏馆~谁说程序猿不懂浪漫❤️</sub>
+
+---
+## linexjlin/GPTs
+
+> [!info]
+> ⭐ 31,962 · N/A · 2024-09-27  
+> [GitHub](https://github.com/linexjlin/GPTs)  
+> `#GPT提示词` `#AI提示工程` `#泄露数据` `#ChatGPT扩展` `#角色扮演` `#多语言支持` `#开源收集` `#AI应用案例` >
+> 该仓库收集了大量泄露的GPT提示词（prompts），涵盖开发、翻译、教育、娱乐、AI角色扮演等多个场景，来源包括社交媒体、用户提交及逆向分析，展示了GPT定制化应用的丰富可能性。
+
+> <sub>leaked prompts of GPTs</sub>
+
+---
+## JoeanAmier/TikTokDownloader
+
+> [!info]
+> ⭐ 13,240 · Python · 2026-01-31  
+> [GitHub](https://github.com/JoeanAmier/TikTokDownloader) · [Website](https://discord.com/invite/ZYtmgKud9Y)  
+> `#抖音下载` `#TikTok下载` `#数据采集` `#无水印视频` `#直播录制` `#批量下载` `#Python` `#HTTPX` `#abogus` `#api` `#csv` `#docker` `#douyin` `#downloader` `#ffmpeg` `#httpx` `#linux` `#macos` `#mstoken` `#pyinstaller` `#python` `#rich` `#server` `#sqlite` `#tiktok` `#ttwid` `#windows` `#xlsx` >
+> DouK-Downloader 是一款基于 Python 和 HTTPX 的开源工具，支持批量下载抖音和 TikTok 的视频、图集、直播、音乐等内容，并提供数据采集、无水印下载、评论抓取、热榜分析等功能，支持终端、Web UI 和 API 多种模式。
+
+> <sub>TikTok 发布/喜欢/合辑/直播/视频/图集/音乐；抖音发布/喜欢/收藏/收藏夹/视频/图集/实况/直播/音乐/合集/评论/账号/搜索/热榜数据采集工具/下载工具</sub>
+
+---
+## bleedline/aimoneyhunter
+
+> [!info]
+> ⭐ 15,908 · N/A · 2025-10-20  
+> [GitHub](https://github.com/bleedline/aimoneyhunter)  
+> `#AI副业` `#内容变现` `#自媒体运营` `#AIGC工具` `#流量获取` `#技术创业` `#副业指南` `#AI应用` >
+> 本仓库为AI副业赚钱项目聚合指南，涵盖AI生成内容、自媒体变现、技术开发等多元路径，提供从工具使用到流量运营的全套实战方案，助力用户在AI时代高效创收。
+
+> <sub>ai副业赚钱大集合，教你如何利用ai做一些副业项目，赚取更多额外收益。The Ultimate Guide to Making Money with AI Side Hustles: Learn how to leverage AI for some cool side gigs and rake in some extra cash. Check out the English version for more insights.</sub>
+
+---
+## ffay/lanproxy
+
+> [!info]
+> ⭐ 5,855 · Java · 2025-11-01  
+> [GitHub](https://github.com/ffay/lanproxy) · [Website](https://nat.nioee.com)  
+> `#内网穿透` `#TCP转发` `#反向代理` `#远程访问` `#自定义域名` `#SSL证书` `#多用户支持` `#跨平台客户端` `#firewall` `#frp` `#java` `#lanproxy` `#nat` `#ngrok` `#proxy` `#reverse-proxy` `#tunnel` >
+> lanproxy是一款高性能内网穿透工具，支持TCP流量转发及多种上层协议（如HTTP/HTTPS/Socks5/SSH等），可将局域网服务暴露至公网。提供开源免费版与功能增强的运营版，支持自定义域名、SSL证书自动续期、多用户管理及跨平台客户端，适用于远程办公、接口调试等场景。
+
+> <sub>lanproxy是一个将局域网个人电脑、服务器代理到公网的内网穿透工具，支持tcp流量转发，可支持任何tcp上层协议（访问内网网站、本地支付接口调试、ssh访问、远程桌面、http代理、https代理、socks5代理...）。技术交流QQ群 736294209</sub>
+
+---
+## LC044/WeChatMsg
+
+> [!info]
+> ⭐ 40,569 · N/A · 2025-12-30  
+> [GitHub](https://github.com/LC044/WeChatMsg)  
+> `#微信数据` `#年度报告` `#数据主权` `#AI相册` `#个人AI` `#记忆留存` `#开源项目` `#情感计算` `#chatgpt` `#llms` `#pyqt` `#wechat` >
+> 《留痕》是一个致力于帮助用户掌控个人微信数据、生成年度回忆报告的开源项目，强调数据主权与情感价值，支持生成个人或双人年度报告，未来计划结合AI相册实现更丰富的记忆留存功能。
+
+---
+## robotframework/robotframework
+
+> [!info]
+> ⭐ 11,435 · Python · 2026-02-25  
+> [GitHub](https://github.com/robotframework/robotframework) · [Website](http://robotframework.org)  
+> `#attd` `#automation` `#bdd` `#python` `#robotframework` `#rpa` `#testautomation` `#testing` >
+> 生成失败
+
+> <sub>Generic automation framework for acceptance testing and RPA</sub>
+
+---
+## tebelorg/RPA-Python
+
+> [!info]
+> ⭐ 5,454 · Python · 2025-09-11  
+> [GitHub](https://github.com/tebelorg/RPA-Python)  
+> `#cross-platform` `#opencv` `#python` `#rpa` `#sikuli` `#tagui` `#tesseract` >
+> 生成失败
+
+> <sub>Python package for doing RPA</sub>
+
+---
+## NaiboWang/EasySpider
+
+> [!info]
+> ⭐ 44,115 · JavaScript · 2026-02-25  
+> [GitHub](https://github.com/NaiboWang/EasySpider) · [Website](https://www.easyspider.net)  
+> `#batch-processing` `#batch-script` `#code-free` `#crawler` `#data-collection` `#frontend` `#gui` `#html` `#input-parameters` `#layman` `#parameters` `#robotics` `#rpa` `#scraper` `#spider` `#visual` `#visualization` `#visualprogramming` `#web` `#www` >
+> 生成失败
+
+> <sub>A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。</sub>
+
+---
+## lxgw/LxgwWenKai
+
+> [!info]
+> ⭐ 23,256 · Shell · 2026-02-07  
+> [GitHub](https://github.com/lxgw/LxgwWenKai) · [Website](https://lxgw.github.io/2021/01/28/Klee-Simpchin/)  
+> `#cjk` `#font` `#typeface` >
+> 生成失败
+
+> <sub>An unprofessional open-source Chinese font derived from Fontworks' Klee One. 一款非专业的开源中文字体，基于 FONTWORKS 出品字体 Klee One 衍生。</sub>
+
+---
+## favourhong/Awesome-Marp
+
+> [!info]
+> ⭐ 940 · HTML · 2024-05-29  
+> [GitHub](https://github.com/favourhong/Awesome-Marp)  
+> `#css` `#education` `#markdown` `#markdown-template` `#marp` `#marp-template` `#marp-themes` `#slides` `#themes` >
+> 生成失败
+
+> <sub>🤙 Easy replacement for LaTeX Beamer! 🥂 custom Marp templates with a selection of over a dozen themes</sub>
+
+---
+## public-apis/public-apis
+
+> [!info]
+> ⭐ 400,236 · Python · 2026-02-19  
+> [GitHub](https://github.com/public-apis/public-apis) · [Website](https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo)  
+> `#api` `#apis` `#dataset` `#development` `#free` `#list` `#lists` `#open-source` `#public` `#public-api` `#public-apis` `#resources` `#software` >
+> 生成失败
+
+> <sub>A collective list of free APIs</sub>
+
+---
+## ryanhanwu/How-To-Ask-Questions-The-Smart-Way
+
+> [!info]
+> ⭐ 34,616 · JavaScript · 2025-01-01  
+> [GitHub](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)  
+> `#rtfm` `#stfw` `#translation` >
+> 生成失败
+
+> <sub>本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案。</sub>
+
+---
+## 1Remote/1Remote
+
+> [!info]
+> ⭐ 5,811 · C# · 2026-02-11  
+> [GitHub](https://github.com/1Remote/1Remote) · [Website](https://1remote.github.io/)  
+> `#rdp` `#remote-control` `#remote-desktop` `#sftp` `#ssh` `#vnc` `#windows` `#windows-app` `#wpf-application` >
+> 生成失败
+
+> <sub>One Remote Access Manager to Rule Them All</sub>
+
+---
+## sytpb/chatgpt-wework-robot
+
+> [!info]
+> ⭐ 379 · JavaScript · 2023-08-30  
+> [GitHub](https://github.com/sytpb/chatgpt-wework-robot)  
+> `#automatic` `#chatbot` `#chatgpt` `#cloudfunction` `#node-js` `#nodejs` `#one-click-deploy` `#wechat-bot` `#wecom` `#wecom-bot` `#weixin` `#wework` `#wexinbot` >
+> 生成失败
+
+> <sub>零代码、一键部署chatgpt到企业微信，无须VPN，速度快</sub>
+
+---
+## sytpb/chatgpt-dingtalk-robot
+
+> [!info]
+> ⭐ 91 · JavaScript · 2023-08-30  
+> [GitHub](https://github.com/sytpb/chatgpt-dingtalk-robot)  
+> `#chat-bot` `#chatapp` `#chatbot` `#chatgpt` `#dingding` `#enterprise` `#openai` `#openai-chatgpt` `#robot` >
+> 生成失败
+
+> <sub>零代码、一键部署chatgpt到钉钉，无须VPN</sub>
+
+---
+## langgptai/LangGPT
+
+> [!info]
+> ⭐ 11,643 · Jupyter Notebook · 2026-01-30  
+> [GitHub](https://github.com/langgptai/LangGPT) · [Website](https://github.com/langgptai)  
+> `#chatgpt` `#claude` `#deeplearning` `#doubao` `#framework` `#gemini` `#gpt-4` `#gpt3-prompts` `#langgpt` `#meta-prompting` `#prompt` `#prompt-engineering` `#qwen` `#structured-prompts` >
+> 生成失败
+
+> <sub>LangGPT: Empowering everyone to become a prompt expert! 🚀  📌 结构化提示词（Structured Prompt）提出者 📌 元提示词（Meta-Prompt）发起者   📌 最流行的提示词落地范式 | Language of GPT  The pioneering framework for structured & meta-prompt design 10,000+ ⭐ | Battle-tested by thousands of users worldwide  Created by 云中江树</sub>
+
+---
+## mli/autocut
+
+> [!info]
+> ⭐ 7,580 · Python · 2024-10-05  
+> [GitHub](https://github.com/mli/autocut)  
+> >
+> 生成失败
+
+> <sub>用文本编辑器剪视频</sub>
+
+---
+## s0md3v/roop
+
+> [!info]
+> ⭐ 30,536 · Python · 2024-08-19  
+> [GitHub](https://github.com/s0md3v/roop)  
+> `#ai` `#face-swap` >
+> 生成失败
+
+> <sub>one-click face swap</sub>
+
+---
+## jesselau76/GPT-Prompts
+
+> [!info]
+> ⭐ 819 · N/A · 2025-04-02  
+> [GitHub](https://github.com/jesselau76/GPT-Prompts) · [Website](https://jesselau.com)  
+> `#generator` `#gpt` `#gpt-4` `#midjourney` `#prompt` `#prompt-engineering` >
+> 生成失败
+
+> <sub>Useful GPT Prompts</sub>
+
+---
+## eli64s/readme-ai
+
+> [!info]
+> ⭐ 2,871 · Python · 2026-02-05  
+> [GitHub](https://github.com/eli64s/readme-ai) · [Website](https://eli64s.github.io/readme-ai/)  
+> `#agents` `#ai` `#ai-agents` `#ai-documentation` `#anthropic` `#badge-generator` `#cli` `#developer-tools` `#devtools` `#documentation` `#documentation-generator` `#gemini` `#gpt` `#markdown` `#markdown-generator` `#python` `#readme` `#readme-generator` `#readme-md-generator` `#readme-template` >
+> 生成失败
+
+> <sub>README file generator, powered by AI.</sub>
+
+---
+## reorx/awesome-chatgpt-api
+
+> [!info]
+> ⭐ 6,325 · Python · 2024-09-26  
+> [GitHub](https://github.com/reorx/awesome-chatgpt-api)  
+> `#awesome` `#awesome-list` `#chatgpt` `#chatgpt-api` >
+> 生成失败
+
+> <sub>Curated list of apps and tools that not only use the new ChatGPT API, but also allow users to configure their own API keys, enabling free and on-demand usage of their own quota.</sub>
+
+---
+## apicat/apicat
+
+> [!info]
+> ⭐ 290 · Go · 2024-11-18  
+> [GitHub](https://github.com/apicat/apicat) · [Website](https://apicat.ai)  
+> `#api` `#api-documentation` `#api-generation` `#apicat` `#documentation-tool` `#gpt` `#llm` `#openapi` `#swagger` >
+> 生成失败
+
+> <sub>An efficient API documentation management tool that fully adheres to the OpenAPI specification and incorporates advanced LLM technology. This tool can automate the generation of API documentation, data models, and test cases, greatly enhancing development efficiency and documentation quality.</sub>
+
+---
+## Postcatlab/postcat
+
+> [!info]
+> ⭐ 5,567 · JavaScript · 2026-01-26  
+> [GitHub](https://github.com/Postcatlab/postcat) · [Website](https://www.postcat.com)  
+> `#angular` `#api` `#electron` `#nodejs` `#typescirpt` `#vue` >
+> 生成失败
+
+> <sub>Postcat 是一个可扩展的 API 工具平台。集合基础的 API 管理和测试功能，并且可以通过插件简化你的 API 开发工作，让你可以更快更好地创建 API。An extensible API tool.</sub>
+
+---
+## yanqiangmiffy/Chinese-LangChain
+
+> [!info]
+> ⭐ 2,831 · Python · 2023-06-20  
+> [GitHub](https://github.com/yanqiangmiffy/Chinese-LangChain)  
+> >
+> 生成失败
+
+> <sub>中文langchain项目|小必应，Q.Talk，强聊，QiangTalk</sub>
+
+---
+## eosphoros-ai/DB-GPT
+
+> [!info]
+> ⭐ 18,155 · Python · 2026-02-25  
+> [GitHub](https://github.com/eosphoros-ai/DB-GPT) · [Website](http://docs.dbgpt.cn)  
+> `#agents` `#bgi` `#database` `#deepseek` `#gpt` `#gpt-4` `#hacktoberfest` `#llm` `#private` `#rag` `#security` `#vicuna` >
+> 生成失败
+
+> <sub>AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents</sub>
+
+---
+## GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese
+
+> [!info]
+> ⭐ 2,070 · Jupyter Notebook · 2023-05-08  
+> [GitHub](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese) · [Website](https://www.bilibili.com/video/BV1s24y1F7eq/)  
+> `#chatgpt` `#chinese-translation` `#prompt-engineering` `#prompt-learning` `#subtitles` >
+> 生成失败
+
+> <sub>《面向开发者的 ChatGPT 提示词工程》非官方版中英双语字幕 Unofficial subtitles of "ChatGPT Prompt Engineering for Developers"</sub>
+
+---
+## phodal/understand-prompt
+
+> [!info]
+> ⭐ 5,169 · Jupyter Notebook · 2023-03-11  
+> [GitHub](https://github.com/phodal/understand-prompt)  
+> `#ai` `#aigc` `#chatgpt` `#github-copilot` `#stable-diffusion` >
+> 生成失败
+
+> <sub>【🔞🔞🔞 内含不适合未成年人阅读的图片】基于我擅长的编程、绘画、写作展开的 AI 探索和总结：StableDiffusion 是一种强大的图像生成模型，能够通过对一张图片进行演化来生成新的图片。ChatGPT 是一个基于 Transformer 的语言生成模型，它能够自动为输入的主题生成合适的文章。而 Github Copilot 是一个智能编程助手，能够加速日常编程活动。</sub>
+
+---
+## cypress-io/cypress
+
+> [!info]
+> ⭐ 49,577 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/cypress-io/cypress) · [Website](https://cypress.io)  
+> `#angular-testing-library` `#component-testing` `#cypress` `#cypress-cloud` `#cypress-schematic` `#end-to-end-testing` `#react-testing-library` `#svelte-testing-library` `#test-replay` `#testing-framework` `#testing-library` `#testing-tool` `#vue-testing-library` >
+> 生成失败
+
+> <sub>Fast, easy and reliable testing for anything that runs in a browser.</sub>
+
+---
+## Stability-AI/StableStudio
+
+> [!info]
+> ⭐ 9,055 · TypeScript · 2024-04-30  
+> [GitHub](https://github.com/Stability-AI/StableStudio)  
+> `#frontend` `#ml` `#stability-ai` `#stable-diffusion` >
+> 生成失败
+
+> <sub>Community interface for generative AI</sub>
+
+---
+## ConnectAI-E/feishu-openai
+
+> [!info]
+> ⭐ 5,625 · Go · 2025-07-08  
+> [GitHub](https://github.com/ConnectAI-E/feishu-openai) · [Website](https://feishu.market)  
+> `#chatgpt` `#chatgpt-api` `#chatgpt-bot` `#connect-ai` `#feishu-bot` `#go` `#golang` `#openai` >
+> 生成失败
+
+> <sub>🎒 飞书  ×（GPT-4 + GPT-4V + DALL·E-3 + Whisper）=  飞一般的工作体验  🚀 语音对话、角色扮演、多话题讨论、图片创作、表格分析、文档导出 🚀</sub>
+
+---
+## shawshany/ChatGPT_Project
+
+> [!info]
+> ⭐ 315 · N/A · 2023-06-07  
+> [GitHub](https://github.com/shawshany/ChatGPT_Project)  
+> >
+> 生成失败
+
+> <sub>ChatGPT&AIGC资料汇总，包含前沿资讯、应用案例、技术教程、开源项目和商业变现等</sub>
+
+---
+## AprilNEA/AChat
+
+> [!info]
+> ⭐ 3,260 · TypeScript · 2025-07-17  
+> [GitHub](https://github.com/AprilNEA/AChat) · [Website](https://achat.dev)  
+> `#agent` `#ai` `#chat` `#chatbot` `#claude` `#deepseek` `#enterprise-solutions` `#gemini` `#llm-client` `#openai` `#self-hosted` >
+> 生成失败
+
+> <sub>🌊 AChat - An open-source/self-hosted/local-first AI platform, designed for enterprises and teams, perfectly combining powerful local processing capabilities with seamless remote synchronization.</sub>
+
+---
+## zhayujie/chatgpt-on-wechat
+
+> [!info]
+> ⭐ 41,472 · Python · 2026-02-25  
+> [GitHub](https://github.com/zhayujie/chatgpt-on-wechat) · [Website](https://link-ai.tech)  
+> `#ai` `#ai-agent` `#chatgpt` `#claude` `#deepseek` `#dingtalk` `#feishu-bot` `#gemini` `#kimi` `#linkai` `#llm` `#mcp` `#multi-agent` `#openai` `#openclaw` `#python3` `#qwen` `#skills` `#wechat` >
+> 生成失败
+
+> <sub>CowAgent是基于大模型的超级AI助理，能主动思考和任务规划、访问操作系统和外部资源、创造和执行Skills、拥有长期记忆并不断成长。同时支持飞书、钉钉、企业微信应用、微信公众号、网页等接入，可选择OpenAI/Claude/Gemini/DeepSeek/ Qwen/GLM/Kimi/LinkAI，能处理文本、语音、图片和文件，可快速搭建个人AI助手和企业数字员工。</sub>
+
+---
+## chatboxai/chatbox
+
+> [!info]
+> ⭐ 38,635 · TypeScript · 2026-02-13  
+> [GitHub](https://github.com/chatboxai/chatbox) · [Website](https://chatboxai.app?utm_medium=github)  
+> `#assistant` `#chatbot` `#chatgpt` `#claude` `#copilot` `#deepseek` `#gemini` `#gpt` `#gpt-5` `#ollama` `#openai` >
+> 生成失败
+
+> <sub>Powerful AI Client</sub>
+
+---
+## SCIR-HI/Huatuo-Llama-Med-Chinese
+
+> [!info]
+> ⭐ 4,935 · Python · 2025-02-21  
+> [GitHub](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)  
+> `#aidoctor` `#bloom` `#chinese` `#huozi` `#llama` `#llm` `#medgpt` `#medical` `#medqa` `#nlp` >
+> 生成失败
+
+> <sub>Repo for BenTsao [original name: HuaTuo (华驼)], Instruction-tuning Large Language Models with Chinese Medical Knowledge. 本草（原名：华驼）模型仓库，基于中文医学知识的大语言模型指令微调</sub>
+
+---
+## X-D-Lab/LangChain-ChatGLM-Webui
+
+> [!info]
+> ⭐ 3,307 · Python · 2024-04-15  
+> [GitHub](https://github.com/X-D-Lab/LangChain-ChatGLM-Webui)  
+> `#belle` `#bilibili` `#chatglm-6b` `#chatglm-webui` `#jina` `#langchain` `#langchain-serve` `#llama` `#llm` `#minimax` `#modelscope` >
+> 生成失败
+
+> <sub>基于LangChain和ChatGLM-6B等系列LLM的针对本地知识库的自动问答</sub>
+
+---
+## langchain-ai/langchain
+
+> [!info]
+> ⭐ 127,429 · Python · 2026-02-25  
+> [GitHub](https://github.com/langchain-ai/langchain) · [Website](https://docs.langchain.com/oss/python/langchain/)  
+> `#agents` `#ai` `#ai-agents` `#anthropic` `#chatgpt` `#deepagents` `#enterprise` `#framework` `#gemini` `#generative-ai` `#langchain` `#langgraph` `#llm` `#multiagent` `#open-source` `#openai` `#pydantic` `#python` `#rag` >
+> 生成失败
+
+> <sub>🦜🔗 The platform for reliable agents.</sub>
+
+---
+## chatchat-space/Langchain-Chatchat
+
+> [!info]
+> ⭐ 37,321 · Python · 2025-11-10  
+> [GitHub](https://github.com/chatchat-space/Langchain-Chatchat)  
+> `#chatbot` `#chatchat` `#chatglm` `#chatgpt` `#embedding` `#faiss` `#fastchat` `#gpt` `#knowledge-base` `#langchain` `#langchain-chatglm` `#llama` `#llm` `#milvus` `#ollama` `#qwen` `#rag` `#retrieval-augmented-generation` `#streamlit` `#xinference` >
+> 生成失败
+
+> <sub>Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain</sub>
+
+---
+## liaokongVFX/LangChain-Chinese-Getting-Started-Guide
+
+> [!info]
+> ⭐ 8,820 · N/A · 2025-04-19  
+> [GitHub](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide)  
+> `#aigc` `#chatgpt` `#langchain` `#openai` `#openai-api` >
+> 生成失败
+
+> <sub>LangChain 的中文入门教程</sub>
+
+---
+## getsurfboard/surfboard
+
+> [!info]
+> ⭐ 7,862 · N/A · 2026-02-25  
+> [GitHub](https://github.com/getsurfboard/surfboard)  
+> >
+> 生成失败
+
+> <sub>https://getsurfboard.com</sub>
+
+---
+## datawhalechina/llm-cookbook
+
+> [!info]
+> ⭐ 23,326 · Jupyter Notebook · 2025-06-12  
+> [GitHub](https://github.com/datawhalechina/llm-cookbook) · [Website](https://datawhalechina.github.io/llm-cookbook/)  
+> `#cookbook` `#llm` >
+> 生成失败
+
+> <sub>面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版</sub>
+
+---
+## ChatGPTNextWeb/NextChat
+
+> [!info]
+> ⭐ 87,378 · TypeScript · 2025-12-02  
+> [GitHub](https://github.com/ChatGPTNextWeb/NextChat) · [Website](https://nextchat.club)  
+> `#calclaude` `#chatgpt` `#claude` `#cross-platform` `#desktop` `#fe` `#gemini` `#gemini-pro` `#gemini-server` `#gemini-ultra` `#gpt-4o` `#groq` `#nextjs` `#ollama` `#react` `#tauri` `#tauri-app` `#vercel` `#webui` >
+> 生成失败
+
+> <sub>✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows</sub>
+
+---
+## Comfy-Org/ComfyUI
+
+> [!info]
+> ⭐ 104,180 · Python · 2026-02-25  
+> [GitHub](https://github.com/Comfy-Org/ComfyUI) · [Website](https://www.comfy.org/)  
+> `#ai` `#comfy` `#comfyui` `#python` `#pytorch` `#stable-diffusion` >
+> 生成失败
+
+> <sub>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</sub>
+
+---
+## chenfei-wu/TaskMatrix
+
+> [!info]
+> ⭐ 34,253 · Python · 2024-01-06  
+> [GitHub](https://github.com/chenfei-wu/TaskMatrix)  
+> >
+> 生成失败
+
+---
+## run-llama/llama_index
+
+> [!info]
+> ⭐ 47,194 · Python · 2026-02-25  
+> [GitHub](https://github.com/run-llama/llama_index) · [Website](https://developers.llamaindex.ai)  
+> `#agents` `#application` `#data` `#fine-tuning` `#framework` `#llamaindex` `#llm` `#multi-agents` `#rag` `#vector-database` >
+> 生成失败
+
+> <sub>LlamaIndex is the leading document agent and OCR platform</sub>
+
+---
+## eryajf/chatgpt-dingtalk
+
+> [!info]
+> ⭐ 2,123 · Go · 2025-12-11  
+> [GitHub](https://github.com/eryajf/chatgpt-dingtalk) · [Website](https://wiki.eryajf.net)  
+> `#chatgpt` `#chatgpt-api` `#connect-ai` `#dingtalk` `#dingtalk-robot` `#go` `#go-gpt` `#golang` `#openai` >
+> 生成失败
+
+> <sub>🎒 钉钉 & 🤖 GPT-3.5 让你的工作效率直接起飞 🚀 私聊群聊方式、单聊串聊模式、角色扮演、图片创作 🚀</sub>
+
+---
+## PlexPt/awesome-chatgpt-prompts-zh
+
+> [!info]
+> ⭐ 58,426 · N/A · 2025-01-01  
+> [GitHub](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) · [Website](https://chat.aimakex.com/)  
+> `#chat-gpt` `#chatgpt` `#chatgpt3` `#chatgpt4` `#gpt` >
+> 生成失败
+
+> <sub>ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。</sub>
+
+---
+## 521xueweihan/HelloGitHub
+
+> [!info]
+> ⭐ 143,844 · Python · 2026-01-28  
+> [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
+> `#awesome` `#github` `#hellogithub` `#python` >
+> 生成失败
+
+> <sub>:octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.</sub>
+
+---
+## wechaty/wechaty
+
+> [!info]
+> ⭐ 22,502 · TypeScript · 2025-12-21  
+> [GitHub](https://github.com/wechaty/wechaty) · [Website](https://wechaty.js.org)  
+> `#bot` `#chatbot` `#conversational-ai` `#framework` `#qq` `#robotics` `#wechat` `#wechaty` `#whatsapp` >
+> 生成失败
+
+> <sub>Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt</sub>
+
+---
+## LAION-AI/Open-Assistant
+
+> [!info]
+> ⭐ 37,448 · Python · 2024-08-17  
+> [GitHub](https://github.com/LAION-AI/Open-Assistant) · [Website](https://open-assistant.io)  
+> `#ai` `#assistant` `#chatgpt` `#discord-bot` `#language-model` `#machine-learning` `#nextjs` `#python` `#rlhf` >
+> 生成失败
+
+> <sub>OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.</sub>
+
+---
+## easychen/howto-make-more-money
+
+> [!info]
+> ⭐ 18,323 · PHP · 2024-03-28  
+> [GitHub](https://github.com/easychen/howto-make-more-money) · [Website](https://howto-make-more-money.easychen.vercel.app/)  
+> >
+> 生成失败
+
+> <sub>程序员如何优雅的挣零花钱，2.0版，升级为小书了。Most of this not work outside China , so no English translate</sub>
+
+---
+## team-ide/teamide
+
+> [!info]
+> ⭐ 772 · Go · 2025-09-26  
+> [GitHub](https://github.com/team-ide/teamide)  
+> `#database` `#elasticsearch` `#file-manager` `#kafka` `#mongodb` `#redis` `#ssh` `#terminal` `#tools` `#zookeeper` >
+> 生成失败
+
+> <sub>Team IDE 集成MySql、Oracle、金仓、达梦、神通等数据库、SSH、FTP、Redis、Zookeeper、Kafka、Elasticsearch、Mongodb、小工具等管理工具</sub>
+
+---
+## ZhongFuCheng3y/austin
+
+> [!info]
+> ⭐ 6,030 · Java · 2025-11-10  
+> [GitHub](https://github.com/ZhongFuCheng3y/austin) · [Website](http://106.75.176.183:3001)  
+> >
+> 生成失败
+
+> <sub>消息推送平台🔥 推送下发【邮件】【短信】【微信服务号】【微信小程序】【企业微信】【钉钉】等消息类型。</sub>
+
+---
+## dianping/cat
+
+> [!info]
+> ⭐ 18,976 · Java · 2025-01-04  
+> [GitHub](https://github.com/dianping/cat)  
+> `#apm` `#distributed` `#java` `#metrics` `#monitoring` `#realtime` `#tracing` >
+> 生成失败
+
+> <sub>CAT 作为服务端项目基础组件，提供了 Java, C/C++, Node.js, Python, Go 等多语言客户端，已经在美团点评的基础架构中间件框架（MVC框架，RPC框架，数据库框架，缓存框架等，消息队列，配置系统等）深度集成，为美团点评各业务线提供系统丰富的性能指标、健康状况、实时告警等。</sub>
+
+---
+## GrowingGit/GitHub-Chinese-Top-Charts
+
+> [!info]
+> ⭐ 106,336 · Java · 2024-10-12  
+> [GitHub](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts)  
+> >
+> 生成失败
+
+> <sub>:cn: GitHub中文排行榜，各语言分设「软件 | 资料」榜单，精准定位中文好项目。各取所需，高效学习。</sub>
+
+---
+## zaiyunduan123/Java-Summarize
+
+> [!info]
+> ⭐ 1,383 · Java · 2020-06-20  
+> [GitHub](https://github.com/zaiyunduan123/Java-Summarize)  
+> >
+> 生成失败
+
+> <sub>:books:Java核心知识点整理（包括Java基础、JVM、数据库、计算机网络、算法、操作系统、设计模式、系统设计、框架原理）</sub>
+
+---
+## CyC2018/CS-Notes
+
+> [!info]
+> ⭐ 183,713 · N/A · 2024-08-21  
+> [GitHub](https://github.com/CyC2018/CS-Notes) · [Website](http://cyc2018.xyz)  
+> `#algorithm` `#computer-science` `#cpp` `#interview` `#java` `#leetcode` `#python` `#system-design` >
+> 生成失败
+
+> <sub>:books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计</sub>
+
+---
+## anuraghazra/github-readme-stats
+
+> [!info]
+> ⭐ 78,527 · JavaScript · 2026-02-14  
+> [GitHub](https://github.com/anuraghazra/github-readme-stats) · [Website](https://github-readme-stats.vercel.app)  
+> `#dynamic` `#profile-readme` `#readme-generator` `#readme-stats` `#serverless` >
+> 生成失败
+
+> <sub>:zap: Dynamically generated stats for your github readmes</sub>
+
+---
+## MustangYM/WeChatExtension-ForMac
+
+> [!info]
+> ⭐ 22,679 · Objective-C · 2025-02-13  
+> [GitHub](https://github.com/MustangYM/WeChatExtension-ForMac)  
+> `#alfred` `#macos` `#wechat` `#wechat-macos` `#wechat-plugin` `#weixin-plugin` >
+> 生成失败
+
+> <sub>A plugin for Mac WeChat</sub>
+
+---
+## ant-design/ant-design
+
+> [!info]
+> ⭐ 97,660 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/ant-design/ant-design) · [Website](https://ant.design)  
+> `#ant-design` `#antd` `#design-systems` `#react` `#typescript` `#ui-kit` `#ui-library` >
+> 生成失败
+
+> <sub>An enterprise-class UI design language and React UI library</sub>
+
+---
+## coder2gwy/coder2gwy
+
+> [!info]
+> ⭐ 27,584 · N/A · 2022-02-11  
+> [GitHub](https://github.com/coder2gwy/coder2gwy)  
+> >
+> 生成失败
+
+> <sub>互联网首份程序员考公指南，由3位已经进入体制内的前大厂程序员联合献上。</sub>
+
+---
+## iswbm/magic-python
+
+> [!info]
+> ⭐ 3,396 · Python · 2026-01-26  
+> [GitHub](https://github.com/iswbm/magic-python) · [Website](http://magic.iswbm.com/)  
+> >
+> 生成失败
+
+> <sub>Python 黑魔法手册</sub>
+
+---
+## SuperMonster003/Ant-Forest
+
+> [!info]
+> ⭐ 2,866 · JavaScript · 2023-01-21  
+> [GitHub](https://github.com/SuperMonster003/Ant-Forest)  
+> `#alipay` `#autojs` `#autojs6` `#automation` `#javascript` `#script` >
+> 生成失败
+
+> <sub>AutoJs6-based ant forest energy auto-collect script (基于 AutoJs6 的蚂蚁森林能量自动收取脚本)</sub>
+
+---
+## serhii-londar/open-source-mac-os-apps
+
+> [!info]
+> ⭐ 47,628 · N/A · 2026-02-23  
+> [GitHub](https://github.com/serhii-londar/open-source-mac-os-apps)  
+> `#applications` `#apps` `#awesome` `#awesome-list` `#c` `#c-plus-plus` `#hacktoberfest` `#javascript` `#mac` `#macos` `#macos-application` `#macosx` `#objective-c` `#open-source` `#opensource` `#python` `#ruby` `#swift` >
+> 生成失败
+
+> <sub>🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps</sub>
+
+---
+## alin23/Lunar
+
+> [!info]
+> ⭐ 5,449 · Swift · 2026-02-22  
+> [GitHub](https://github.com/alin23/Lunar) · [Website](https://lunar.fyi)  
+> `#adaptive-brightness` `#brightness` `#brightness-control` `#contrast` `#ddc` `#ddc-ci` `#display` `#macbook` `#macos` `#monitor` `#swift` `#swiftui` `#volume-control` `#xdr` >
+> 生成失败
+
+> <sub>Intelligent adaptive brightness for your external monitors</sub>
+
+---
+## topjohnwu/Magisk
+
+> [!info]
+> ⭐ 58,893 · Rust · 2026-02-23  
+> [GitHub](https://github.com/topjohnwu/Magisk)  
+> >
+> 生成失败
+
+> <sub>The Magic Mask for Android</sub>
+
+---
+## xiyaowong/spiders
+
+> [!info]
+> ⭐ 648 · Python · 2021-07-28  
+> [GitHub](https://github.com/xiyaowong/spiders)  
+> `#163music` `#douyin` `#downloader` `#kuaishou` `#lizhifm` `#music` `#python` `#qqmusic` `#spider` `#tudou` `#video` `#zhihu` `#zuiyou` >
+> 生成失败
+
+> <sub>Python爬虫，返回一定格式的信息，下载，使用flask提供简易api。抖音无水印、皮皮虾、快手、网易云音乐、qq音乐、咪咕音乐、荔枝FM音频、知乎视频、最右语音、视频、微博......</sub>
+
+---
+## SimonAKing/scrcpy-gui
+
+> [!info]
+> ⭐ 3,827 · JavaScript · 2025-07-20  
+> [GitHub](https://github.com/SimonAKing/scrcpy-gui) · [Website](http://simonaking.com/scrcpy-gui/)  
+> `#adb` `#android` `#electron` `#gui` `#mirroring` `#recording` `#scrcpy` `#vuejs` >
+> 生成失败
+
+> <sub>👻 A simple & beautiful GUI application for scrcpy.</sub>
+
+---
+## claudiodangelis/qrcp
+
+> [!info]
+> ⭐ 10,414 · Go · 2025-12-04  
+> [GitHub](https://github.com/claudiodangelis/qrcp) · [Website](https://qrcp.sh)  
+> `#cli` `#command-line` `#golang` `#qrcode` `#utility` >
+> 生成失败
+
+> <sub>:zap: Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.</sub>
+
+---
+## squidfunk/mkdocs-material
+
+> [!info]
+> ⭐ 26,115 · Python · 2026-02-24  
+> [GitHub](https://github.com/squidfunk/mkdocs-material) · [Website](https://squidfunk.github.io/mkdocs-material/)  
+> `#documentation` `#framework` `#material-design` `#mkdocs` `#plugins` `#theme` >
+> 生成失败
+
+> <sub>Documentation that simply works</sub>
+
+---
+## Snailclimb/JavaGuide
+
+> [!info]
+> ⭐ 153,878 · Java · 2026-02-23  
+> [GitHub](https://github.com/Snailclimb/JavaGuide) · [Website](https://javaguide.cn)  
+> `#algorithms` `#distributed-systems` `#interview` `#java` `#jvm` `#mysql` `#redis` `#redisson` `#spring` `#system` `#system-design` `#zookeeper` >
+> 生成失败
+
+> <sub>Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发与系统设计。准备后端技术面试，首选 JavaGuide！</sub>
+
+---
+## star7th/showdoc
+
+> [!info]
+> ⭐ 12,784 · PHP · 2026-02-25  
+> [GitHub](https://github.com/star7th/showdoc) · [Website](https://www.showdoc.com.cn)  
+> `#api` `#document` `#documentation-tool` `#showdoc` >
+> 生成失败
+
+> <sub>ShowDoc is a tool greatly applicable for an IT team to share documents online一个非常适合IT团队的在线API文档、技术文档工具</sub>
+
+---
+## yechaoa/wanandroid_flutter
+
+> [!info]
+> ⭐ 918 · Dart · 2023-04-02  
+> [GitHub](https://github.com/yechaoa/wanandroid_flutter)  
+> `#dio` `#flutter` `#flutter-apps` `#flutter-examples` `#flutter-widget` `#fluttertoast` `#wanandroid` >
+> 生成失败
+
+> <sub>:collision::collision::collision:【Flutter版】玩安卓，非常适合学习，代码不多、注释多。</sub>
+
+---
+## alibaba/easyexcel
+
+> [!info]
+> ⭐ 33,759 · Java · 2024-10-29  
+> [GitHub](https://github.com/alibaba/easyexcel) · [Website](https://easyexcel.opensource.alibaba.com)  
+> `#excel` `#java` `#jxl` `#oom` `#poi` `#xls` `#xlsx` >
+> 生成失败
+
+> <sub>快速、简洁、解决大文件内存溢出的java处理Excel工具</sub>
+
+---
+## zendesk/cross-storage
+
+> [!info]
+> ⭐ 2,220 · JavaScript · 2025-12-10  
+> [GitHub](https://github.com/zendesk/cross-storage)  
+> >
+> 生成失败
+
+> <sub>Cross domain local storage, with permissions</sub>
+
+---
+## leisurelicht/wtfpython-cn
+
+> [!info]
+> ⭐ 12,751 · Jupyter Notebook · 2024-11-29  
+> [GitHub](https://github.com/leisurelicht/wtfpython-cn) · [Website](https://leisurelicht.github.io/wtfpython-cn/)  
+> >
+> 生成失败
+
+> <sub>wtfpython的中文翻译/持续🚧.../ 能力有限，欢迎帮我改进翻译</sub>
+
+---
+## getgridea/gridea
+
+> [!info]
+> ⭐ 10,263 · TypeScript · 2023-07-26  
+> [GitHub](https://github.com/getgridea/gridea) · [Website](https://open.gridea.dev)  
+> `#blog` `#blog-engine` `#blog-platform` `#cms` `#electron` `#electronjs` `#gridea` `#jamstack` `#macos` `#static-blog` `#static-site` `#static-site-cms` `#static-site-generator` `#typescript` `#vue` `#vue2` `#windows` >
+> 生成失败
+
+> <sub>✍️ A static blog writing client (一个静态博客写作客户端)</sub>
+
+---
+## wenyan-lang/wenyan
+
+> [!info]
+> ⭐ 20,198 · TypeScript · 2023-10-20  
+> [GitHub](https://github.com/wenyan-lang/wenyan) · [Website](https://wy-lang.org/)  
+> `#classical-chinese` `#esoteric-language` `#programming-language` `#wenyan-lang` >
+> 生成失败
+
+> <sub>文言文編程語言 A programming language for the ancient Chinese.</sub>
+
+---
+## ReactiveX/RxPY
+
+> [!info]
+> ⭐ 5,012 · Python · 2025-11-12  
+> [GitHub](https://github.com/ReactiveX/RxPY) · [Website](https://rxpy.rtfd.io)  
+> `#python` `#reactive` `#reactive-extensions` `#reactivex` `#rxpy` >
+> 生成失败
+
+> <sub>ReactiveX for Python</sub>
+
+---
+## greatghoul/remote-working
+
+> [!info]
+> ⭐ 11,436 · Ruby · 2026-02-13  
+> [GitHub](https://github.com/greatghoul/remote-working) · [Website](https://remote-china.com/)  
+> `#china` `#freelancer` `#remote-work` `#remote-workers` `#soho` `#telecommunications` `#work-from-home` >
+> 生成失败
+
+> <sub>收集整理远程工作相关的资料</sub>
+
+---
+## clearw5/Auto.js
+
+> [!info]
+> ⭐ 12,859 · N/A · 2023-02-11  
+> [GitHub](https://github.com/clearw5/Auto.js) · [Website](https://pro.autojs.org)  
+> `#android` `#autojs` `#automation` `#javascript` `#javascript-ide` `#nodejs` `#tasker` `#uiautomator` `#workflow` >
+> 生成失败
+
+> <sub>Automation&Workflow JavaScript IDE on Android(安卓平台上的JavaScript编程IDE)</sub>
+
+---
+## ydataai/ydata-profiling
+
+> [!info]
+> ⭐ 13,394 · Python · 2026-02-02  
+> [GitHub](https://github.com/ydataai/ydata-profiling) · [Website](https://docs.sdk.ydata.ai)  
+> `#big-data-analytics` `#data-analysis` `#data-exploration` `#data-profiling` `#data-quality` `#data-science` `#deep-learning` `#eda` `#exploration` `#exploratory-data-analysis` `#hacktoberfest` `#html-report` `#jupyter` `#jupyter-notebook` `#machine-learning` `#pandas` `#pandas-dataframe` `#pandas-profiling` `#python` `#statistics` >
+> 生成失败
+
+> <sub>1 Line of code data quality profiling & exploratory data analysis for Pandas and Spark DataFrames.</sub>
+
+---
+## psf/black
+
+> [!info]
+> ⭐ 41,401 · Python · 2026-02-24  
+> [GitHub](https://github.com/psf/black) · [Website](https://black.readthedocs.io/en/stable/)  
+> `#autopep8` `#code` `#codeformatter` `#formatter` `#gofmt` `#hacktoberfest` `#pre-commit-hook` `#python` `#yapf` >
+> 生成失败
+
+> <sub>The uncompromising Python code formatter</sub>
+
+---
+## qiurunze123/miaosha
+
+> [!info]
+> ⭐ 26,598 · Java · 2025-04-18  
+> [GitHub](https://github.com/qiurunze123/miaosha)  
+> >
+> 生成失败
+
+> <sub>⭐⭐⭐⭐秒杀系统设计与实现.互联网工程师进阶与分析🙋🐓</sub>
+
+---
+## xiaolai/regular-investing-in-box
+
+> [!info]
+> ⭐ 6,009 · Python · 2026-02-25  
+> [GitHub](https://github.com/xiaolai/regular-investing-in-box) · [Website](https://ri.firesbox.com)  
+> >
+> 生成失败
+
+> <sub>定投改变命运 —— 让时间陪你慢慢变富 https://onregularinvesting.com</sub>
+
+---
+## cfug/dio
+
+> [!info]
+> ⭐ 12,803 · Dart · 2026-02-23  
+> [GitHub](https://github.com/cfug/dio) · [Website](https://dio.pub)  
+> `#adapter` `#cancellable` `#dart` `#dio` `#flutter` `#http` `#interceptor` `#middleware` `#network` `#timeout` `#transformer` >
+> 生成失败
+
+> <sub>A powerful HTTP client for Dart and Flutter, which supports global settings, Interceptors, FormData, aborting and canceling a request, files uploading and downloading, requests timeout, custom adapters, etc.</sub>
+
+---
+## flutterchina/flukit
+
+> [!info]
+> ⭐ 5,941 · Dart · 2024-05-20  
+> [GitHub](https://github.com/flutterchina/flukit)  
+> `#flutter` >
+> 生成失败
+
+> <sub>A Flutter UI Kit（一个 Flutter UI组件库），包含 ScaleView, Swiper, PullRefresh, WaterMark, GradientCircularProgressIndicator...</sub>
+
+---
+## datawhalechina/leedl-tutorial
+
+> [!info]
+> ⭐ 16,343 · Jupyter Notebook · 2025-11-23  
+> [GitHub](https://github.com/datawhalechina/leedl-tutorial)  
+> `#bert` `#chatgpt` `#cnn` `#deep-learning` `#diffusion` `#gan` `#leedl-tutorial` `#machine-learning` `#network-compression` `#pruning` `#reinforcement-learning` `#rnn` `#self-attention` `#transfer-learning` `#transformer` `#tutorial` >
+> 生成失败
+
+> <sub>《李宏毅深度学习教程》（李宏毅老师推荐👍，苹果书🍎），PDF下载地址：https://github.com/datawhalechina/leedl-tutorial/releases</sub>
+
+---
+## lightningminers/flutter-book
+
+> [!info]
+> ⭐ 300 · Dart · 2019-02-20  
+> [GitHub](https://github.com/lightningminers/flutter-book)  
+> >
+> 生成失败
+
+> <sub>📚《Flutter 入门指南》</sub>
+
+---
+## 2d-inc/HistoryOfEverything
+
+> [!info]
+> ⭐ 6,587 · Dart · 2021-09-22  
+> [GitHub](https://github.com/2d-inc/HistoryOfEverything) · [Website](https://medium.com/2dimensions/the-history-of-everything-981d989e1b45)  
+> >
+> 生成失败
+
+> <sub>Flutter Launch Timeline Demo</sub>
+
+---
+## alibaba/flutter-go
+
+> [!info]
+> ⭐ 23,735 · Dart · 2023-12-11  
+> [GitHub](https://github.com/alibaba/flutter-go) · [Website](https://flutter-go.pub/website/)  
+> `#dart` `#flutter` `#flutter-demo` `#flutter-doc` >
+> 生成失败
+
+> <sub>flutter 开发者帮助 APP，包含 flutter 常用 140+ 组件的demo 演示与中文文档</sub>
+
+---
+## alexazhou/VeryNginx
+
+> [!info]
+> ⭐ 5,998 · Lua · 2020-06-30  
+> [GitHub](https://github.com/alexazhou/VeryNginx)  
+> >
+> 生成失败
+
+> <sub>A very powerful and friendly  nginx base on lua-nginx-module( openresty ) which provide WAF, Control Panel, and Dashboards.</sub>
+
+---
+## ppwwyyxx/OpenPano
+
+> [!info]
+> ⭐ 2,021 · C++ · 2023-10-06  
+> [GitHub](https://github.com/ppwwyyxx/OpenPano)  
+> `#bundle-adjustment` `#panorama` `#sift` >
+> 生成失败
+
+> <sub>Automatic Panorama Stitching From Scratch</sub>
+
+---
+## GoogleChromeLabs/squoosh
+
+> [!info]
+> ⭐ 24,804 · TypeScript · 2026-02-05  
+> [GitHub](https://github.com/GoogleChromeLabs/squoosh) · [Website](https://squoosh.app)  
+> >
+> 生成失败
+
+> <sub>Make images smaller using best-in-class codecs, right in the browser.</sub>
+
+---
+## FEMessage/el-data-table
+
+> [!info]
+> ⭐ 482 · Vue · 2022-07-26  
+> [GitHub](https://github.com/FEMessage/el-data-table) · [Website](https://femessage.github.io/el-data-table/)  
+> `#crud` `#element-ui` `#restapi` `#table` >
+> 生成失败
+
+> <sub>🥘Base on element-ui, makes crud easily</sub>
+
+---
+## Solido/awesome-flutter
+
+> [!info]
+> ⭐ 59,106 · Dart · 2026-02-11  
+> [GitHub](https://github.com/Solido/awesome-flutter)  
+> `#android` `#awesome` `#awesome-list` `#collections` `#cross-platform` `#dartlang` `#flutter` `#flutter-apps` `#flutter-examples` `#flutter-plugin` `#flutter-plugins` `#ios` `#material-design` `#mobile` `#mobile-app` `#mobile-development` `#reactive-programming` `#resources` >
+> 生成失败
+
+> <sub>An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.</sub>
+
+---
+## jhao104/proxy_pool
+
+> [!info]
+> ⭐ 23,165 · Python · 2025-11-20  
+> [GitHub](https://github.com/jhao104/proxy_pool) · [Website](https://jhao104.github.io/proxy_pool/)  
+> `#crawler` `#http` `#proxy` `#redis` `#spider` >
+> 生成失败
+
+> <sub>Python ProxyPool for web spider</sub>
+
+---
+## florinpop17/app-ideas
+
+> [!info]
+> ⭐ 90,726 · N/A · 2025-10-11  
+> [GitHub](https://github.com/florinpop17/app-ideas) · [Website](https://CodeRabbit.ai/?ref=app-ideas)  
+> `#applications` `#coding` `#codingchallenges` `#css` `#hacktoberfest` `#html` `#ideas` `#javascript` `#practice` >
+> 生成失败
+
+> <sub>A Collection of application ideas which can be used to improve your coding skills.</sub>
+
+---
+## YMFE/yapi
+
+> [!info]
+> ⭐ 27,755 · JavaScript · 2024-08-12  
+> [GitHub](https://github.com/YMFE/yapi) · [Website](http://yapi.smart-xwork.cn/)  
+> `#api` `#api-management` `#api-manager` `#api-test` >
+> 生成失败
+
+> <sub>YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台</sub>
+
+---
+## 996icu/996.ICU
+
+> [!info]
+> ⭐ 275,550 · N/A · 2025-08-22  
+> [GitHub](https://github.com/996icu/996.ICU) · [Website](https://996.icu)  
+> >
+> 生成失败
+
+> <sub>Repo for counting stars and contributing. Press F to pay respect to glorious developers.</sub>
+
+---
+## skywind3000/awesome-cheatsheets
+
+> [!info]
+> ⭐ 12,406 · Shell · 2025-11-12  
+> [GitHub](https://github.com/skywind3000/awesome-cheatsheets)  
+> `#adb` `#awesome` `#bash` `#cheatsheet` `#gdb` `#go` `#linux` `#nano` `#vim` >
+> 生成失败
+
+> <sub>超级速查表 - 编程语言、框架和开发工具的速查表，单个文件包含一切你需要知道的东西 :zap:</sub>
+
+---
+## Sorosliu1029/Jike-Metro
+
+> [!info]
+> ⭐ 212 · Python · 2021-01-06  
+> [GitHub](https://github.com/Sorosliu1029/Jike-Metro) · [Website](https://jike-metro.sorosliu.xyz)  
+> `#jike` `#python-sdk` `#requests` >
+> 生成失败
+
+> <sub>:metro: 即刻 Ⓙ SDK</sub>
+
+---
+## mritd/mmh
+
+> [!info]
+> ⭐ 325 · Go · 2023-05-09  
+> [GitHub](https://github.com/mritd/mmh) · [Website](https://mmh.mritd.me)  
+> >
+> 生成失败
+
+> <sub>Nothing, just a simple ssh tool.</sub>
+
+---
+## klaudiosinani/ao
+
+> [!info]
+> ⭐ 2,180 · JavaScript · 2025-11-03  
+> [GitHub](https://github.com/klaudiosinani/ao) · [Website](https://klaudiosinani.com/ao)  
+> `#app` `#desktop` `#microsoft` `#todo` `#wunderlist` >
+> 生成失败
+
+> <sub>Elegant Microsoft To-Do desktop app</sub>
+
+---
+## macrozheng/mall
+
+> [!info]
+> ⭐ 82,961 · Java · 2026-02-02  
+> [GitHub](https://github.com/macrozheng/mall) · [Website](https://www.macrozheng.com/admin/)  
+> `#docker` `#elasticsearch` `#elk` `#java` `#mongodb` `#mybatis` `#mysql` `#rabbitmq` `#redis` `#spring` `#spring-boot` `#spring-cloud` `#spring-security` `#springboot` `#springcloud` `#swagger-ui` >
+> 生成失败
+
+> <sub>mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。</sub>
+
+---
+## algorithm-visualizer/algorithm-visualizer
+
+> [!info]
+> ⭐ 48,366 · JavaScript · 2024-06-09  
+> [GitHub](https://github.com/algorithm-visualizer/algorithm-visualizer) · [Website](https://algorithm-visualizer.org/)  
+> `#algorithm` `#animation` `#data-structure` `#visualization` >
+> 生成失败
+
+> <sub>:fireworks:Interactive Online Platform that Visualizes Algorithms from Code</sub>
+
+---
+## sixu05202004/flaskblog
+
+> [!info]
+> ⭐ 223 · JavaScript · 2016-04-04  
+> [GitHub](https://github.com/sixu05202004/flaskblog)  
+> >
+> 生成失败
+
+> <sub>person blog powered by flask</sub>
+
+---
+## luhuisicnu/The-Flask-Mega-Tutorial-zh
+
+> [!info]
+> ⭐ 3,311 · N/A · 2020-10-28  
+> [GitHub](https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh)  
+> >
+> 生成失败
+
+> <sub>翻译自Miguel Grinberg的blog https://blog.miguelgrinberg.com 的2017年新版The Flask Mega-Tutorial教程</sub>
+
+---
+## ElemeFE/mint-ui
+
+> [!info]
+> ⭐ 16,477 · Vue · 2022-02-28  
+> [GitHub](https://github.com/ElemeFE/mint-ui) · [Website](http://mint-ui.github.io/#!/en)  
+> `#component` `#mobile` `#ui-kit` `#vue` `#vue-components` >
+> 生成失败
+
+> <sub>Mobile UI elements for Vue.js</sub>
+
+---
+## tonsky/FiraCode
+
+> [!info]
+> ⭐ 81,212 · Clojure · 2026-01-28  
+> [GitHub](https://github.com/tonsky/FiraCode)  
+> `#font` `#ligatures` `#programming-ligatures` >
+> 生成失败
+
+> <sub>Free monospaced font with programming ligatures</sub>
+
+---
+## google/dopamine
+
+> [!info]
+> ⭐ 10,844 · Jupyter Notebook · 2024-11-04  
+> [GitHub](https://github.com/google/dopamine) · [Website](https://github.com/google/dopamine)  
+> `#ai` `#google` `#ml` `#rl` `#tensorflow` >
+> 生成失败
+
+> <sub>Dopamine is a research framework for fast prototyping of reinforcement learning algorithms.</sub>
+
+---
+## EbookFoundation/free-programming-books
+
+> [!info]
+> ⭐ 383,085 · Python · 2026-02-23  
+> [GitHub](https://github.com/EbookFoundation/free-programming-books) · [Website](https://ebookfoundation.github.io/free-programming-books/)  
+> `#books` `#education` `#hacktoberfest` `#list` `#resource` >
+> 生成失败
+
+> <sub>:books: Freely available programming books</sub>
+
+---
+## lxerxa/actionview
+
+> [!info]
+> ⭐ 1,815 · PHP · 2023-09-03  
+> [GitHub](https://github.com/lxerxa/actionview) · [Website](https://actionview.cn)  
+> `#board` `#gantt` `#issue-tracker` `#jira` `#kanban` `#project-management` `#scrum-board` `#task-manager` `#workflow` >
+> 生成失败
+
+> <sub>An issue tracking tool based on laravel+reactjs for small and medium-sized enterprises, open-source and free, similar to Jira.</sub>
+
+---
+## shadowsocks/shadowsocks-android
+
+> [!info]
+> ⭐ 36,695 · Kotlin · 2026-02-18  
+> [GitHub](https://github.com/shadowsocks/shadowsocks-android)  
+> `#android` `#shadowsocks` >
+> 生成失败
+
+> <sub>A shadowsocks client for Android</sub>
+
+---
+## nonoroazoro/vscode-syncing
+
+> [!info]
+> ⭐ 509 · TypeScript · 2026-01-13  
+> [GitHub](https://github.com/nonoroazoro/vscode-syncing) · [Website](https://marketplace.visualstudio.com/items?itemName=nonoroazoro.syncing)  
+> `#gist` `#sync` `#vscode` `#vscode-extension` `#vscode-settings` `#vscode-sync` `#vscode-syncing` >
+> 生成失败
+
+> <sub>:zap: Sync all of your VSCode settings across multiple devices, supports any VSCode variant.</sub>
+
+---
+## zsh-users/zsh-autosuggestions
+
+> [!info]
+> ⭐ 34,907 · Shell · 2025-06-24  
+> [GitHub](https://github.com/zsh-users/zsh-autosuggestions)  
+> `#autocomplete` `#autosuggest` `#fish` `#shell` `#zsh` `#zsh-autosuggestions` >
+> 生成失败
+
+> <sub>Fish-like autosuggestions for zsh</sub>
+
+---
+## spaceship-prompt/spaceship-prompt
+
+> [!info]
+> ⭐ 20,403 · Shell · 2025-12-24  
+> [GitHub](https://github.com/spaceship-prompt/spaceship-prompt) · [Website](https://spaceship-prompt.sh)  
+> `#oh-my-zsh` `#prompt` `#shell` `#shell-prompt` `#shell-theme` `#spaceship` `#terminal` `#zsh` `#zsh-theme` `#zsh-users` >
+> 生成失败
+
+> <sub>🚀✨ Minimalistic, powerful and extremely customizable Zsh prompt</sub>
+
+---
+## pod4g/hiper
+
+> [!info]
+> ⭐ 2,806 · JavaScript · 2020-07-20  
+> [GitHub](https://github.com/pod4g/hiper)  
+> `#analysis` `#audits` `#broswer` `#cli` `#frontend` `#headless` `#network` `#pages` `#pagespeed` `#performance` `#statistical` `#testing` `#tool` `#web` `#webpages` `#websites` >
+> 生成失败
+
+> <sub>🚀 A statistical analysis tool for performance testing</sub>
+
+---
+## inferjay/AndroidDevTools
+
+> [!info]
+> ⭐ 8,031 · N/A · 2026-02-14  
+> [GitHub](https://github.com/inferjay/AndroidDevTools) · [Website](https://www.androiddevtools.cn)  
+> `#adt` `#android-development` `#android-sdk` `#android-studio` `#gradle` `#ndk` `#sdk-manager` >
+> 生成失败
+
+> <sub>收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。</sub>
+
+---
+## zenorocha/alfred-workflows
+
+> [!info]
+> ⭐ 12,293 · N/A · 2021-02-27  
+> [GitHub](https://github.com/zenorocha/alfred-workflows)  
+> >
+> 生成失败
+
+> <sub>:metal: A collection of Alfred 3 and 4 workflows that will rock your world</sub>
+
+---
+## ivarptr/yu-writer.site
+
+> [!info]
+> ⭐ 1,190 · N/A · 2022-12-07  
+> [GitHub](https://github.com/ivarptr/yu-writer.site)  
+> `#editor` `#markdown` `#text-editor` >
+> 生成失败
+
+> <sub>A feature-rich, efficient text editor - Web Site</sub>
+
+---
+## proxyee-down-org/proxyee-down
+
+> [!info]
+> ⭐ 24,808 · Java · 2024-07-16  
+> [GitHub](https://github.com/proxyee-down-org/proxyee-down)  
+> >
+> 生成失败
+
+> <sub>http下载工具，基于http代理，支持多连接分块下载</sub>
+
+---
+## itgoyo/Aria2
+
+> [!info]
+> ⭐ 2,103 · JavaScript · 2023-02-27  
+> [GitHub](https://github.com/itgoyo/Aria2) · [Website](https://itgoyo.github.io)  
+> `#aria` `#aria2` `#aria2-chrome` `#aria2-gui` `#baiduyun` `#binux-yaaw` `#xunlei` >
+> 生成失败
+
+> <sub>突破百度云限速合集，另外附带Baidu-Go、Tampermonkey、Proxyee-down教程。从此云端女友从不断线，有了这个它，忘掉那个她!</sub>
+
+---
+## shadowsocksrr/shadowsocks-rss
+
+> [!info]
+> ⭐ 4,215 · N/A · 2017-09-03  
+> [GitHub](https://github.com/shadowsocksrr/shadowsocks-rss) · [Website](https://twitter.com/breakwa11)  
+> >
+> 生成失败
+
+> <sub>ShadowsocksR update rss, SSR organization https://github.com/shadowsocksr</sub>
+
+---
+## theme-next/hexo-theme-next
+
+> [!info]
+> ⭐ 8,378 · Stylus · 2024-06-27  
+> [GitHub](https://github.com/theme-next/hexo-theme-next) · [Website](https://theme-next.org)  
+> `#hexo` `#hexo-theme` `#theme-next` >
+> 生成失败
+
+> <sub>Elegant and powerful theme for Hexo.</sub>
+
+---
+## shadowsocksr-backup/ShadowsocksX-NG
+
+> [!info]
+> ⭐ 802 · N/A · 2017-07-25  
+> [GitHub](https://github.com/shadowsocksr-backup/ShadowsocksX-NG)  
+> >
+> 生成失败
+
+> <sub>Next Generation of ShadowsocksX https://github.com/shadowsocks/shadowsocks-iOS</sub>
+
+---
+## shadowsocksr-backup/shadowsocksr-csharp
+
+> [!info]
+> ⭐ 4,524 · C# · 2019-04-10  
+> [GitHub](https://github.com/shadowsocksr-backup/shadowsocksr-csharp)  
+> >
+> 生成失败
+
+---
+## android-hacker/VirtualXposed
+
+> [!info]
+> ⭐ 15,966 · Java · 2024-03-08  
+> [GitHub](https://github.com/android-hacker/VirtualXposed) · [Website](https://vxp.app)  
+> `#android` `#aop` `#hook` `#non-root` `#xposed` >
+> 生成失败
+
+> <sub>A simple app to use Xposed without root, unlock the bootloader or modify system image, etc.</sub>
+
+---
+## aymericdamien/TensorFlow-Examples
+
+> [!info]
+> ⭐ 43,801 · Jupyter Notebook · 2024-07-26  
+> [GitHub](https://github.com/aymericdamien/TensorFlow-Examples)  
+> `#deep-learning` `#examples` `#machine-learning` `#python` `#tensorflow` `#tutorial` >
+> 生成失败
+
+> <sub>TensorFlow Tutorial and Examples for Beginners (support TF v1 & v2)</sub>
+
+---
+## mrwill84/DOClever
+
+> [!info]
+> ⭐ 2,908 · JavaScript · 2025-12-27  
+> [GitHub](https://github.com/mrwill84/DOClever) · [Website](http://doclever.cn)  
+> `#api` `#element` `#element-ui` `#express` `#javascript` `#mongodb` `#nodejs` `#vue` `#web` `#webpack` >
+> 生成失败
+
+> <sub>做最好的接口管理平台</sub>
+
+---
+## szzhiyang/PerfectWindows
+
+> [!info]
+> ⭐ 1,320 · N/A · 2024-03-21  
+> [GitHub](https://github.com/szzhiyang/PerfectWindows)  
+> >
+> 生成失败
+
+> <sub>Power Keys - 解放 Windows 和 macOS 使用效率</sub>
+
+---
+## astaxie/go-best-practice
+
+> [!info]
+> ⭐ 3,442 · Go · 2016-10-19  
+> [GitHub](https://github.com/astaxie/go-best-practice)  
+> >
+> 生成失败
+
+> <sub>Trying to complete over 100 projects in various categories in golang.</sub>
+
+---
+## wuYin/blog
+
+> [!info]
+> ⭐ 893 · Go · 2020-12-18  
+> [GitHub](https://github.com/wuYin/blog) · [Website](https://yinzige.com)  
+> >
+> 生成失败
+
+> <sub>个人博客</sub>
+
+---
+## Meituan-Dianping/SQLAdvisor
+
+> [!info]
+> ⭐ 5,642 · C · 2023-10-08  
+> [GitHub](https://github.com/Meituan-Dianping/SQLAdvisor)  
+> >
+> 生成失败
+
+> <sub>输入SQL，输出索引优化建议</sub>
+
+---
+## buo/homebrew-cask-upgrade
+
+> [!info]
+> ⭐ 2,653 · Ruby · 2026-01-27  
+> [GitHub](https://github.com/buo/homebrew-cask-upgrade)  
+> `#homebrew-cask` >
+> 生成失败
+
+> <sub>A command line tool for upgrading every outdated app installed by Homebrew Cask</sub>
+
+---
+## brahma-dev/synergy-stable-builds
+
+> [!info]
+> ⭐ 743 · CSS · 2017-05-29  
+> [GitHub](https://github.com/brahma-dev/synergy-stable-builds)  
+> >
+> 生成失败
+
+> <sub>Downloads : https://brahma-dev.github.io/synergy-stable-builds/</sub>
+
+---
+## vanshg/MacAssistant
+
+> [!info]
+> ⭐ 1,609 · Swift · 2023-03-05  
+> [GitHub](https://github.com/vanshg/MacAssistant)  
+> `#assistant` `#cocoa` `#google` `#google-assistant` `#google-assistant-sdk` `#macos` `#osx` `#swift` >
+> 生成失败
+
+> <sub>Google Assistant for macOS!</sub>
+
+---
+## jaywcjlove/awesome-mac
+
+> [!info]
+> ⭐ 99,313 · JavaScript · 2026-02-25  
+> [GitHub](https://github.com/jaywcjlove/awesome-mac) · [Website](https://git.io/macx)  
+> `#app` `#apple` `#application` `#apps` `#awesome` `#awesome-list` `#awesome-lists` `#awesome-mac` `#desktop-app` `#desktop-application` `#desktop-apps` `#list` `#mac` `#mac-osx` `#macos` `#macos-app` `#macos-apps` `#macosx` `#software` >
+> 生成失败
+
+> <sub> Now we have become very big, Different from the original idea. Collect premium software in various categories.</sub>
+
+---
+## Tencent/tmt-workflow
+
+> [!info]
+> ⭐ 2,163 · CSS · 2020-07-30  
+> [GitHub](https://github.com/Tencent/tmt-workflow) · [Website](https://github.com/Tencent/feflow)  
+> `#gulp` `#javascript` `#workflow` >
+> 生成失败
+
+> <sub>A web developer workflow used by WeChat team based on Gulp, with cross-platform supported and solutions prepared.</sub>
+
+---
+## sunnyyoung/WeChatTweak
+
+> [!info]
+> ⭐ 13,409 · Swift · 2026-02-08  
+> [GitHub](https://github.com/sunnyyoung/WeChatTweak) · [Website](https://www.tweaks.app)  
+> `#alfred` `#alfred-workflow` `#macos` `#no-revoke` `#norevoke` `#raycast-extension` `#revoke` `#tweak` `#wechat` `#wechat-macos` `#wechat-plugin` `#wechat-plugin-macos` `#wechat-raycast` `#wechat-tweak` `#wechathook` `#wechattweak` `#wechattweak-macos` `#weixin` `#weixin-plugin` `#weixin-tweak` >
+> 生成失败
+
+> <sub>A command-line tool for tweaking WeChat - 首款微信 macOS 客户端撤回拦截与多开 🔨</sub>
+
+---
+## TKkk-iOSer/WeChatPlugin-MacOS
+
+> [!info]
+> ⭐ 14,297 · Objective-C · 2024-06-09  
+> [GitHub](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS)  
+> `#alfred-workflow` `#macos` `#plugin` `#tweak` `#wechat` `#weixin` >
+> 生成失败
+
+> <sub>微信小助手</sub>
+
+---
+## JohnCoates/Aerial
+
+> [!info]
+> ⭐ 20,947 · Swift · 2025-08-12  
+> [GitHub](https://github.com/JohnCoates/Aerial)  
+> >
+> 生成失败
+
+> <sub>Apple TV Aerial Screensaver for Mac</sub>
+
+---
+## easy-mock/easy-mock
+
+> [!info]
+> ⭐ 9,026 · JavaScript · 2023-01-09  
+> [GitHub](https://github.com/easy-mock/easy-mock) · [Website](https://easy-mock.com)  
+> `#data-generator` `#easy-mock` `#javascript` `#mock` `#swagger` `#vue` >
+> 生成失败
+
+> <sub>A persistent service that generates mock data quickly and provids visualization view.</sub>
+
+---
+## shadowsocks/ShadowsocksX-NG
+
+> [!info]
+> ⭐ 32,902 · Swift · 2024-10-29  
+> [GitHub](https://github.com/shadowsocks/ShadowsocksX-NG)  
+> `#kcptun` `#macos` `#shadowsocks` `#shadowsocksx-ng` `#swift` `#v2ray-plugin` >
+> 生成失败
+
+> <sub>Next Generation of ShadowsocksX</sub>
+
+---
+## dpkp/kafka-python
+
+> [!info]
+> ⭐ 5,888 · Python · 2026-02-25  
+> [GitHub](https://github.com/dpkp/kafka-python) · [Website](http://kafka-python.readthedocs.io/)  
+> `#kafka` `#python` >
+> 生成失败
+
+> <sub>Python client for Apache Kafka</sub>
+
+---
+## wangshub/wechat_jump_game
+
+> [!info]
+> ⭐ 13,861 · Python · 2022-11-22  
+> [GitHub](https://github.com/wangshub/wechat_jump_game) · [Website](https://zhuanlan.zhihu.com/p/32452473)  
+> `#adb` `#python` `#wechat-app` >
+> 生成失败
+
+> <sub>微信《跳一跳》Python 辅助</sub>
+
+---
+## soimort/you-get
+
+> [!info]
+> ⭐ 56,745 · Python · 2025-04-27  
+> [GitHub](https://github.com/soimort/you-get) · [Website](https://you-get.org/)  
+> >
+> 生成失败
+
+> <sub>:arrow_double_down: Dumb downloader that scrapes the web</sub>
+
+---
+## lemon-lang/lemon
+
+> [!info]
+> ⭐ 502 · C · 2023-10-29  
+> [GitHub](https://github.com/lemon-lang/lemon)  
+> >
+> 生成失败
+
+> <sub>Lemon is open source, embeddable, lightweight programming language http://www.lemon-lang.org</sub>
+
+---
+## getsentry/sentry
+
+> [!info]
+> ⭐ 43,212 · Python · 2026-02-25  
+> [GitHub](https://github.com/getsentry/sentry) · [Website](https://sentry.io)  
+> `#apm` `#crash-reporting` `#crash-reports` `#csp-report` `#devops` `#django` `#error-logging` `#error-monitoring` `#fair-source` `#hacktoberfest` `#monitor` `#monitoring` `#python` `#sentry` `#tag-production` >
+> 生成失败
+
+> <sub>Developer-first error tracking and performance monitoring</sub>
+
+---
+## Binaryify/NeteaseCloudMusicApi
+
+> [!info]
+> ⭐ 30,288 · N/A · 2024-02-28  
+> [GitHub](https://github.com/Binaryify/NeteaseCloudMusicApi) · [Website](https://gitlab.com/Binaryify/neteasecloudmusicapi)  
+> `#api` `#apis` `#cloudmusic` `#javascript` `#neteasecloud` `#nodejs` >
+> 生成失败
+
+> <sub>网易云音乐 Node.js API service</sub>
+
+---
+## trazyn/weweChat
+
+> [!info]
+> ⭐ 5,729 · JavaScript · 2021-04-22  
+> [GitHub](https://github.com/trazyn/weweChat)  
+> `#chat` `#client` `#desktop` `#electron` `#mobx` `#react` `#wechat` >
+> 生成失败
+
+> <sub>💬 Unofficial WeChat client built with React, MobX and Electron.</sub>
+
+---
+## apache/mxnet
+
+> [!info]
+> ⭐ 20,830 · C++ · 2023-10-25  
+> [GitHub](https://github.com/apache/mxnet) · [Website](https://mxnet.apache.org)  
+> `#mxnet` >
+> 生成失败
+
+> <sub>Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more</sub>
+
+---
+## maptalks/maptalks.js
+
+> [!info]
+> ⭐ 4,500 · HTML · 2026-02-25  
+> [GitHub](https://github.com/maptalks/maptalks.js) · [Website](https://maptalks.org)  
+> `#gis` `#javascript` `#map` `#maps` `#maptalks` >
+> 生成失败
+
+> <sub>A light and plugable JavaScript library for integrated 2D/3D maps.</sub>
+
+---
+## trazyn/ieaseMusic
+
+> [!info]
+> ⭐ 8,776 · JavaScript · 2023-02-16  
+> [GitHub](https://github.com/trazyn/ieaseMusic)  
+> `#electron` `#electron-app` `#highquality-music` `#jss` `#mobx` `#music` `#music-player` `#netease-cloud-music` `#netease-cloudmusic` `#netease-music` `#player` `#react` `#unblocker` `#wang-yi` >
+> 生成失败
+
+> <sub>网易云音乐第三方</sub>
+
+---
+## byoungd/Resume-template-for-Coder
+
+> [!info]
+> ⭐ 522 · N/A · 2022-02-22  
+> [GitHub](https://github.com/byoungd/Resume-template-for-Coder)  
+> `#resume-template` >
+> 生成失败
+
+> <sub>Resume template for Coder 适合程序员的简历模板 🎉</sub>
+
+---
+## byoungd/English-level-up-tips
+
+> [!info]
+> ⭐ 41,532 · N/A · 2025-12-26  
+> [GitHub](https://github.com/byoungd/English-level-up-tips) · [Website](https://byoungd.github.io/English-level-up-tips/)  
+> `#chinese` `#english-learning` `#tutorial` >
+> 生成失败
+
+> <sub>An advanced guide to learn English which might benefit you a lot 🎉 .  离谱的英语学习指南/英语学习教程/英语学习/学英语</sub>
+
+---
+## ohroy/blog
+
+> [!info]
+> ⭐ 147 · JavaScript · 2023-10-08  
+> [GitHub](https://github.com/ohroy/blog) · [Website](https://blog.6h.work)  
+> `#blog-lite` `#typescript` `#vue` `#vuejs` >
+> 生成失败
+
+> <sub>A super blog lite -- just one page. use vue with github api !</sub>
+
+---
+## nicktogo/coeditor
+
+> [!info]
+> ⭐ 32 · JavaScript · 2017-09-01  
+> [GitHub](https://github.com/nicktogo/coeditor)  
+> `#atom` `#atom-package` `#collaborative-awareness` `#collaborative-editing` `#operational-transformation` `#pair-programming` `#realtime-collaboration` >
+> 生成失败
+
+> <sub>Yet Another Pair Programming Package for Atom.</sub>
+
+---
+## 52cik/github-hans
+
+> [!info]
+> ⭐ 1,853 · JavaScript · 2022-05-05  
+> [GitHub](https://github.com/52cik/github-hans)  
+> >
+> 生成失败
+
+> <sub>[废弃] {官方中文马上就来了} GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)</sub>
+
+---
+## justjavac/Flarum
+
+> [!info]
+> ⭐ 1,563 · JavaScript · 2020-07-15  
+> [GitHub](https://github.com/justjavac/Flarum) · [Website](http://flarum.org.cn)  
+> `#flarum` `#forum` `#laravel` `#php` >
+> 生成失败
+
+> <sub>Flarum - 优雅自由的 PHP 轻社区</sub>
+
+---
+## pyecharts/pyecharts
+
+> [!info]
+> ⭐ 15,724 · Python · 2026-02-10  
+> [GitHub](https://github.com/pyecharts/pyecharts) · [Website](https://pyecharts.org)  
+> `#echarts` `#python` >
+> 生成失败
+
+> <sub>🎨 Python Echarts Plotting Library</sub>
+
+---
+## jumpserver/jumpserver
+
+> [!info]
+> ⭐ 29,937 · Python · 2026-02-25  
+> [GitHub](https://github.com/jumpserver/jumpserver) · [Website](https://jumpserver.com)  
+> `#bastion-host` `#cyberark` `#django` `#jumpserver` `#pam` `#python` `#ssh-server` `#teleport` `#terminal` >
+> 生成失败
+
+> <sub>JumpServer is an open-source Privileged Access Management (PAM) platform that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a web browser.</sub>
+
+---
+## MeCKodo/vue-tutorial
+
+> [!info]
+> ⭐ 1,135 · JavaScript · 2017-03-11  
+> [GitHub](https://github.com/MeCKodo/vue-tutorial)  
+> `#vue-router` `#vue2` `#vuex2` >
+> 生成失败
+
+> <sub>vue2.0-tutorial</sub>
+
+---
+## BoostIO/BoostNote-Legacy
+
+> [!info]
+> ⭐ 16,973 · JavaScript · 2023-04-19  
+> [GitHub](https://github.com/BoostIO/BoostNote-Legacy)  
+> `#electron` `#linux` `#macos` `#open-source` `#react` `#stylus` `#windows` >
+> 生成失败
+
+> <sub>This repository is outdated and new Boost Note app is available! We've launched a new Boost Note app which supports real-time collaborative writing. https://github.com/BoostIO/BoostNote-App</sub>
+
+---
+## greatghoul/sibi
+
+> [!info]
+> ⭐ 1,307 · HTML · 2019-02-27  
+> [GitHub](https://github.com/greatghoul/sibi) · [Website](https://v2ex.com/t/211400)  
+> `#shit-list` >
+> 生成失败
+
+> <sub>V2EX 撕逼大战</sub>
+
+---
+## python/cpython
+
+> [!info]
+> ⭐ 71,709 · Python · 2026-02-25  
+> [GitHub](https://github.com/python/cpython) · [Website](https://www.python.org)  
+> >
+> 生成失败
+
+> <sub>The Python programming language</sub>
+
+---
+## wklken/py-patterns
+
+> [!info]
+> ⭐ 417 · Python · 2023-03-13  
+> [GitHub](https://github.com/wklken/py-patterns)  
+> >
+> 生成失败
+
+> <sub>设计模式的python实现</sub>
+
+---
+## barseghyanartur/django-bleach
+
+> [!info]
+> ⭐ 8 · Python · 2017-03-23  
+> [GitHub](https://github.com/barseghyanartur/django-bleach)  
+> `#bleach` `#django` `#sanitize` `#sanitize-html` >
+> 生成失败
+
+> <sub>Integrate awesome Bleach library into Django</sub>
+
+---
+## ee0703/python-style-guide
+
+> [!info]
+> ⭐ 120 · N/A · 2015-12-11  
+> [GitHub](https://github.com/ee0703/python-style-guide) · [Website](https://www.gitbook.com/book/python-guide/python-style-guide/)  
+> >
+> 生成失败
+
+> <sub>python code style guide book / python 代码、单元测试和项目规范</sub>
+
+---
+## humiaozuzu/wechat-explorer
+
+> [!info]
+> ⭐ 525 · Python · 2016-01-05  
+> [GitHub](https://github.com/humiaozuzu/wechat-explorer)  
+> >
+> 生成失败
+
+> <sub>微信聊天记录导出、分析工具</sub>
+
+---
+## wzpan/dingdang-robot
+
+> [!info]
+> ⭐ 1,882 · Python · 2018-04-13  
+> [GitHub](https://github.com/wzpan/dingdang-robot) · [Website](http://dingdang.hahack.com)  
+> `#amazon-echo` `#cortana` `#dingdang-robot` `#google-home` `#raspberry-pi` `#robot` `#speaker` >
+> 生成失败
+
+> <sub>🤖 叮当是一款可以工作在 Raspberry Pi 上的中文语音对话机器人/智能音箱项目。</sub>
+
+---
+## jazzband/django-auditlog
+
+> [!info]
+> ⭐ 1,346 · Python · 2026-02-24  
+> [GitHub](https://github.com/jazzband/django-auditlog)  
+> `#auditing` `#django` `#python` >
+> 生成失败
+
+> <sub>A Django app that keeps a log of changes made to an object.</sub>
+
+---
+## PanJiaChen/vue-element-admin
+
+> [!info]
+> ⭐ 90,285 · Vue · 2024-10-24  
+> [GitHub](https://github.com/PanJiaChen/vue-element-admin)  
+> `#admin` `#admin-dashboard` `#admin-template` `#axios` `#dashboard` `#desktop` `#element` `#element-ui` `#i18n` `#management-system` `#mock` `#tinymce` `#vue` `#vue-admin` `#vue-cli` `#vuex` `#webpack` `#webpack4` `#xlsx` >
+> 生成失败
+
+> <sub>:tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin</sub>
+
+---
+## TonnyL/Awesome_APIs
+
+> [!info]
+> ⭐ 12,822 · N/A · 2020-02-29  
+> [GitHub](https://github.com/TonnyL/Awesome_APIs)  
+> `#android` `#api` `#awesome` `#ios` `#web` `#windows` >
+> 生成失败
+
+> <sub>:octocat: A collection of APIs</sub>
+
+---
+## darkerk/v2ex
+
+> [!info]
+> ⭐ 581 · Swift · 2019-03-28  
+> [GitHub](https://github.com/darkerk/v2ex)  
+> `#ios` `#swift` `#v2ex` >
+> 生成失败
+
+> <sub>The unofficial V2EX app for iOS</sub>
+
+---
+## programthink/opensource
+
+> [!info]
+> ⭐ 5,084 · N/A · 2024-08-14  
+> [GitHub](https://github.com/programthink/opensource)  
+> >
+> 生成失败
+
+> <sub>【编程随想】收藏的开源项目清单</sub>
+
+---
+## docsifyjs/docsify-cli
+
+> [!info]
+> ⭐ 769 · JavaScript · 2026-02-21  
+> [GitHub](https://github.com/docsifyjs/docsify-cli) · [Website](https://cli.docsifyjs.org)  
+> `#docsify` `#docsify-cli` `#javascript` `#nodejs` >
+> 生成失败
+
+> <sub>🖌 docsify cli tool - A magical documentation generator.</sub>
+
+---
+## docsifyjs/docsify
+
+> [!info]
+> ⭐ 31,006 · JavaScript · 2026-02-18  
+> [GitHub](https://github.com/docsifyjs/docsify) · [Website](https://docsify.js.org)  
+> `#doc` `#docs` `#docsify` `#documentation` `#documentation-tool` `#github-pages` `#markdown` `#vue` >
+> 生成失败
+
+> <sub>🃏 A magical documentation site generator.</sub>
+
+---
+## vira-themes/vira-theme-support
+
+> [!info]
+> ⭐ 11,337 · N/A · 2025-11-20  
+> [GitHub](https://github.com/vira-themes/vira-theme-support) · [Website](https://vira.featurebase.app)  
+> `#epic` `#hacktoberfest` `#material-theme` `#theme` `#visual-studio-code` `#visual-studio-extension` >
+> 生成失败
+
+> <sub>Vira Theme is the official successor of the popular Material Theme. This premium version is actively maintained, includes hand-curated icons and more features</sub>
+
+---
+## django-nonrel/djangotoolbox
+
+> [!info]
+> ⭐ 197 · Python · 2017-12-04  
+> [GitHub](https://github.com/django-nonrel/djangotoolbox)  
+> >
+> 生成失败
+
+> <sub>Django tools for building nonrel backends</sub>
+
+---
+## dbcli/mycli
+
+> [!info]
+> ⭐ 11,877 · Python · 2026-02-25  
+> [GitHub](https://github.com/dbcli/mycli) · [Website](http://mycli.net)  
+> `#auto-completion` `#database` `#mycli` `#mysql` `#python` `#syntax-highlighting` >
+> 生成失败
+
+> <sub>A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting.</sub>
+
+---
+## fancymax/12306ForMac
+
+> [!info]
+> ⭐ 2,891 · Swift · 2019-01-19  
+> [GitHub](https://github.com/fancymax/12306ForMac)  
+> `#12306` `#osx` `#swift` `#ticket` `#train` >
+> 生成失败
+
+> <sub>An unofficial 12306 Client for Mac</sub>
+
+---
+## viewflow/django-fsm
+
+> [!info]
+> ⭐ 2,350 · Python · 2025-10-07  
+> [GitHub](https://github.com/viewflow/django-fsm)  
+> `#django` `#finite-state-machine` `#fsm` `#python` `#state-machine` `#state-machine-diagram` >
+> 生成失败
+
+> <sub>Django friendly finite state machine support</sub>
+
+---
+## hzlzh/Best-App
+
+> [!info]
+> ⭐ 17,490 · N/A · 2024-10-15  
+> [GitHub](https://github.com/hzlzh/Best-App)  
+> `#app` `#mac` `#macos` >
+> 生成失败
+
+> <sub>收集&推荐优秀的 Apps/硬件/技巧/周边等</sub>
+
+---
+## flarum/framework
+
+> [!info]
+> ⭐ 6,691 · PHP · 2026-02-25  
+> [GitHub](https://github.com/flarum/framework) · [Website](http://flarum.org/)  
+> `#community` `#flarum` `#forum` `#hacktoberfest` `#javascript` `#laravel` `#php` >
+> 生成失败
+
+> <sub>Simple forum software for building great communities.</sub>
+
+---
+## dfunckt/django-rules
+
+> [!info]
+> ⭐ 1,970 · Python · 2025-10-11  
+> [GitHub](https://github.com/dfunckt/django-rules)  
+> `#authorization` `#django` `#permissions` `#predicates` `#python` `#rules` >
+> 生成失败
+
+> <sub>Awesome Django authorization, without the database</sub>
+
+---
+## youfou/wxpy
+
+> [!info]
+> ⭐ 14,293 · Python · 2019-07-14  
+> [GitHub](https://github.com/youfou/wxpy) · [Website](http://wxpy.readthedocs.io)  
+> `#api` `#wechat` `#weixin` >
+> 生成失败
+
+> <sub>微信机器人 / 可能是最优雅的微信个人号 API ✨✨</sub>
+
+---
+## seatgeek/fuzzywuzzy
+
+> [!info]
+> ⭐ 9,271 · Python · 2023-02-24  
+> [GitHub](https://github.com/seatgeek/fuzzywuzzy) · [Website](http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/)  
+> >
+> 生成失败
+
+> <sub>Fuzzy String Matching in Python</sub>
+
+---
+## yudai/gotty
+
+> [!info]
+> ⭐ 19,414 · Go · 2024-08-01  
+> [GitHub](https://github.com/yudai/gotty)  
+> `#browser` `#go` `#javascript` `#terminal` `#tty` `#typescript` `#web` `#websocket` >
+> 生成失败
+
+> <sub>Share your terminal as a web application</sub>
+
+---
+## jobbole/awesome-python-cn
+
+> [!info]
+> ⭐ 30,227 · Makefile · 2022-08-29  
+> [GitHub](https://github.com/jobbole/awesome-python-cn) · [Website](http://jobbole.github.io/awesome-python-cn/)  
+> `#python` >
+> 生成失败
+
+> <sub>Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等，由「开源前哨」和「Python开发者」微信公号团队维护更新。</sub>
+
+---
+## ecmadao/hacknical
+
+> [!info]
+> ⭐ 1,546 · JavaScript · 2025-08-15  
+> [GitHub](https://github.com/ecmadao/hacknical) · [Website](https://hacknical.com)  
+> `#contribute-languages` `#contributions` `#data-analysis` `#github` `#github-analysis` `#github-commits` `#github-contributions` `#reac` `#react` `#resume` `#resume-template` >
+> 生成失败
+
+> <sub>Hacknical, hacker & technical. A website for GitHub user to make a better resume.</sub>
+
+---
+## soulteary/tenant-point
+
+> [!info]
+> ⭐ 1,645 · N/A · 2019-10-08  
+> [GitHub](https://github.com/soulteary/tenant-point) · [Website](https://www.v2ex.com/t/154514)  
+> >
+> 生成失败
+
+> <sub>租房要点，适用于北上广深杭，欢迎补充。</sub>
+
+---
+## jwhitlock/drf-cached-instances
+
+> [!info]
+> ⭐ 73 · Python · 2025-03-24  
+> [GitHub](https://github.com/jwhitlock/drf-cached-instances)  
+> >
+> 生成失败
+
+> <sub>Cached instances for Django REST Framework</sub>
+
+---
+## chibisov/drf-extensions
+
+> [!info]
+> ⭐ 1,552 · Python · 2025-12-05  
+> [GitHub](https://github.com/chibisov/drf-extensions) · [Website](http://chibisov.github.io/drf-extensions/docs)  
+> >
+> 生成失败
+
+> <sub>DRF-extensions is a collection of custom extensions for Django REST Framework</sub>
+
+---
+## awolfly9/IPProxyTool
+
+> [!info]
+> ⭐ 2,003 · Python · 2022-12-08  
+> [GitHub](https://github.com/awolfly9/IPProxyTool)  
+> `#ipproxy` `#proxy` `#python` >
+> 生成失败
+
+> <sub>python ip proxy tool  scrapy crawl. 抓取大量免费代理 ip，提取有效 ip 使用</sub>
+
+---
+## yscoder/hexo-generator-restful
+
+> [!info]
+> ⭐ 97 · JavaScript · 2021-12-04  
+> [GitHub](https://github.com/yscoder/hexo-generator-restful)  
+> `#generator` `#hexo-plugin` `#restful` >
+> 生成失败
+
+> <sub>Generate RESTful json data for Hexo plugins.</sub>
+
+---
+## zythum/mama2
+
+> [!info]
+> ⭐ 2,044 · JavaScript · 2019-05-06  
+> [GitHub](https://github.com/zythum/mama2) · [Website](https://zythum.github.io/mama2)  
+> >
+> 生成失败
+
+> <sub>妈妈计划-众人拾柴火焰高</sub>
+
+---
+## typcn/bilibili-mac-client
+
+> [!info]
+> ⭐ 3,878 · Objective-C · 2018-09-30  
+> [GitHub](https://github.com/typcn/bilibili-mac-client) · [Website](https://typcn.com/legacy/bilimac/)  
+> `#bilibili` `#macos` `#mpv` `#player` >
+> 生成失败
+
+> <sub>An unofficial bilibili client for mac</sub>
+
+---
+## google/grumpy
+
+> [!info]
+> ⭐ 10,530 · Go · 2022-01-18  
+> [GitHub](https://github.com/google/grumpy)  
+> >
+> 生成失败
+
+> <sub>Grumpy is a Python to Go source code transcompiler and runtime.</sub>
+
+---
+## zhangjikai/online-markdown-reader
+
+> [!info]
+> ⭐ 49 · JavaScript · 2025-04-02  
+> [GitHub](https://github.com/zhangjikai/online-markdown-reader) · [Website](http://markdown.zhangjikai.com/)  
+> `#markdown-viewer` >
+> 生成失败
+
+> <sub>Markdown  在线阅读器</sub>
+
+---
+## kakuilan/china_area_mysql
+
+> [!info]
+> ⭐ 5,343 · N/A · 2024-07-29  
+> [GitHub](https://github.com/kakuilan/china_area_mysql)  
+> >
+> 生成失败
+
+> <sub>中国5级行政区域mysql库</sub>
+
+---
+## Jolly23/wx_pay_python
+
+> [!info]
+> ⭐ 444 · Python · 2022-04-20  
+> [GitHub](https://github.com/Jolly23/wx_pay_python)  
+> >
+> 生成失败
+
+> <sub>weixin pay python 微信支付功能集，前期开发借鉴zwczou https://github.com/zwczou/weixin-python ，后期补充及完善微信支付新功能，处理因微信支付调用规则修改而无法使用的旧代码，升级到最新微信支付接口配套代码</sub>
+
+---
+## Ajian-studio/GADownloading
+
+> [!info]
+> ⭐ 927 · Java · 2017-01-06  
+> [GitHub](https://github.com/Ajian-studio/GADownloading)  
+> >
+> 生成失败
+
+> <sub>A Gorgeous LoadingView (一个绚丽的LoadingView )</sub>
+
+---
+## amfe/article
+
+> [!info]
+> ⭐ 7,548 · N/A · 2016-03-19  
+> [GitHub](https://github.com/amfe/article)  
+> >
+> 生成失败
+
+---
+## iview/iview
+
+> [!info]
+> ⭐ 23,860 · Vue · 2024-01-15  
+> [GitHub](https://github.com/iview/iview) · [Website](http://iview.talkingdata.com)  
+> `#components` `#css` `#design-systems` `#frontend` `#iview` `#javascript` `#ui-design` `#ui-kit` `#vue` `#vue-components` >
+> 生成失败
+
+> <sub>A high quality UI Toolkit built on Vue.js 2.0</sub>
+
+---
+## algolia/algoliasearch-django
+
+> [!info]
+> ⭐ 181 · Python · 2025-01-06  
+> [GitHub](https://github.com/algolia/algoliasearch-django) · [Website](https://www.algolia.com)  
+> >
+> 生成失败
+
+> <sub>Seamless integration of Algolia into your Django project.</sub>
+
+---
+## powerline/fonts
+
+> [!info]
+> ⭐ 26,234 · Shell · 2024-03-22  
+> [GitHub](https://github.com/powerline/fonts)  
+> >
+> 生成失败
+
+> <sub>Patched fonts for Powerline users.</sub>
+
+---
+## DiyCodes/code_news
+
+> [!info]
+> ⭐ 1,283 · N/A · 2017-06-24  
+> [GitHub](https://github.com/DiyCodes/code_news) · [Website](http://diycode.cc/news)  
+> `#android` `#android-ios` `#daily` `#news` `#offer` >
+> 生成失败
+
+> <sub>Diycode每日文章精选</sub>
+
+---
+## rofl0r/proxychains-ng
+
+> [!info]
+> ⭐ 10,488 · C · 2026-01-11  
+> [GitHub](https://github.com/rofl0r/proxychains-ng) · [Website](http://sourceforge.net/projects/proxychains-ng/files)  
+> `#hack` `#hook` `#http` `#preload` `#proxy` `#proxychains` `#socks` >
+> 生成失败
+
+> <sub>proxychains ng (new generation) - a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies. continuation of the unmaintained proxychains project. the sf.net page is currently not updated, use releases from github release page instead.</sub>
+
+---
+## kalwalkden/django-materializecss-form
+
+> [!info]
+> ⭐ 85 · HTML · 2024-11-01  
+> [GitHub](https://github.com/kalwalkden/django-materializecss-form)  
+> `#css` `#django-form` `#html` `#materializecss` `#pypi` `#python` >
+> 生成失败
+
+> <sub>Materializecss for Django Form</sub>
+
+---
+## viewflow/django-material
+
+> [!info]
+> ⭐ 2,543 · JavaScript · 2025-11-21  
+> [GitHub](https://github.com/viewflow/django-material) · [Website](http://viewflow.io/)  
+> `#admin` `#crud` `#django` `#form` `#material-design` `#materializecss` >
+> 生成失败
+
+> <sub>Material Design for Django</sub>
+
+---
+## reorx/httpstat
+
+> [!info]
+> ⭐ 6,271 · Python · 2023-10-03  
+> [GitHub](https://github.com/reorx/httpstat)  
+> `#cli` `#curl` `#http` `#python` `#visualization` >
+> 生成失败
+
+> <sub>curl statistics made simple</sub>
+
+---
+## jobbole/awesome-programming-books
+
+> [!info]
+> ⭐ 15,220 · N/A · 2021-08-26  
+> [GitHub](https://github.com/jobbole/awesome-programming-books)  
+> >
+> 生成失败
+
+> <sub>经典编程书籍大全，涵盖：计算机系统与网络、系统架构、算法与数据结构、前端开发、后端开发、移动开发、数据库、测试、项目与团队、程序员职业修炼、求职面试等</sub>
+
+---
+## zhangfisher/DjangoUeditor
+
+> [!info]
+> ⭐ 447 · JavaScript · 2023-07-22  
+> [GitHub](https://github.com/zhangfisher/DjangoUeditor)  
+> >
+> 生成失败
+
+> <sub>DjangoUeditor</sub>
+
+---
+## FIRHQ/flow.ci
+
+> [!info]
+> ⭐ 201 · N/A · 2017-09-11  
+> [GitHub](https://github.com/FIRHQ/flow.ci) · [Website](http://flow.ci)  
+> >
+> 生成失败
+
+> <sub>Public docs & issues for flow.ci</sub>
+
+---
+## qiyeboy/IPProxyPool
+
+> [!info]
+> ⭐ 4,265 · Python · 2018-07-13  
+> [GitHub](https://github.com/qiyeboy/IPProxyPool)  
+> >
+> 生成失败
+
+> <sub>IPProxyPool代理池项目，提供代理ip</sub>
+
+---
+## AlloyTeam/AlloyFinger
+
+> [!info]
+> ⭐ 3,451 · JavaScript · 2019-01-03  
+> [GitHub](https://github.com/AlloyTeam/AlloyFinger) · [Website](http://alloyteam.github.io/AlloyFinger/)  
+> `#alloyfinger` `#finger` `#gesture` `#touch` >
+> 生成失败
+
+> <sub>Super tiny size multi-touch gestures library for the web. 　　　You can touch this →</sub>
+
+---
+## liuchengxu/git-commit-emoji-cn
+
+> [!info]
+> ⭐ 1,935 · N/A · 2021-07-06  
+> [GitHub](https://github.com/liuchengxu/git-commit-emoji-cn)  
+> `#emoji` `#git` >
+> 生成失败
+
+> <sub>😁 git commit message emoji 使用指南</sub>
+
+---
+## WLDragon/SMValidator
+
+> [!info]
+> ⭐ 330 · JavaScript · 2017-07-16  
+> [GitHub](https://github.com/WLDragon/SMValidator) · [Website](https://github.com/WLDragon/SMValidator)  
+> >
+> 生成失败
+
+> <sub>a simple but powerful tool for validating form fields.  support bootstrap and your own styles.</sub>
+
+---
+## ruanyf/jstraining
+
+> [!info]
+> ⭐ 19,964 · N/A · 2025-07-15  
+> [GitHub](https://github.com/ruanyf/jstraining)  
+> >
+> 生成失败
+
+> <sub>全栈工程师培训材料</sub>
+
+---
+## JackGit/material-ui-vue
+
+> [!info]
+> ⭐ 141 · JavaScript · 2017-08-08  
+> [GitHub](https://github.com/JackGit/material-ui-vue) · [Website](http://jackgit.github.io/material-ui-vue/index.html)  
+> `#material-ui-vue` `#materializecss` `#vue` >
+> 生成失败
+
+> <sub>It is a materializecss.com implementation with Vue.js.</sub>
+
+---
+## iblh/hexo-theme-material
+
+> [!info]
+> ⭐ 4,117 · CSS · 2022-05-18  
+> [GitHub](https://github.com/iblh/hexo-theme-material) · [Website](https://iblh.github.io/material-demo/)  
+> `#blog` `#hexo` `#hexo-theme` `#theme` >
+> 生成失败
+
+> <sub>Material Design theme for hexo.</sub>
+
+---
+## vuejs/vue
+
+> [!info]
+> ⭐ 209,967 · TypeScript · 2024-10-10  
+> [GitHub](https://github.com/vuejs/vue) · [Website](http://v2.vuejs.org)  
+> `#framework` `#frontend` `#javascript` `#vue` >
+> 生成失败
+
+> <sub>This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core</sub>
+
+---
+## vuejs/awesome-vue
+
+> [!info]
+> ⭐ 73,633 · N/A · 2026-02-20  
+> [GitHub](https://github.com/vuejs/awesome-vue)  
+> >
+> 生成失败
+
+> <sub>🎉 A curated list of awesome things related to Vue.js</sub>
+
+---
+## bigskysoftware/intercooler-js
+
+> [!info]
+> ⭐ 4,790 · HTML · 2024-12-29  
+> [GitHub](https://github.com/bigskysoftware/intercooler-js) · [Website](http://intercoolerjs.org)  
+> `#front-end` `#html` `#javascript` `#jquery` `#web-app` >
+> 生成失败
+
+> <sub>Making AJAX as easy as anchor tags</sub>
+
+---
+## peunzhang/pageResponse
+
+> [!info]
+> ⭐ 680 · HTML · 2019-10-09  
+> [GitHub](https://github.com/peunzhang/pageResponse)  
+> >
+> 生成失败
+
+> <sub>移动端响应式插件</sub>
+
+---
+## una/CSSgram
+
+> [!info]
+> ⭐ 5,399 · HTML · 2021-08-01  
+> [GitHub](https://github.com/una/CSSgram) · [Website](http://una.github.io/CSSgram/)  
+> >
+> 生成失败
+
+> <sub>CSS library for Instagram filters</sub>
+
+---
+## odoo/odoo
+
+> [!info]
+> ⭐ 49,166 · Python · 2026-02-25  
+> [GitHub](https://github.com/odoo/odoo) · [Website](https://www.odoo.com)  
+> `#apps` `#business` `#erp` `#management` `#odoo` `#odoo-apps` `#python` >
+> 生成失败
+
+> <sub>Odoo. Open Source Apps To Grow Your Business.</sub>
+
+---
+## FE-Driver/vue-beauty
+
+> [!info]
+> ⭐ 2,105 · JavaScript · 2024-03-06  
+> [GitHub](https://github.com/FE-Driver/vue-beauty) · [Website](https://fe-driver.github.io/vue-beauty)  
+> `#components` `#javascript` `#ui-design` `#ui-kit` `#vue` `#vue-beauty` `#vue-components` >
+> 生成失败
+
+> <sub>Beautiful  UI components build with vue and ant design</sub>
+
+---
+## myronliu347/vue-carbon
+
+> [!info]
+> ⭐ 857 · Vue · 2016-11-15  
+> [GitHub](https://github.com/myronliu347/vue-carbon)  
+> >
+> 生成失败
+
+> <sub>此项目已停止维护，建议迁移到  https://github.com/museui/muse-ui/</sub>
+
+---
+## JosephusPaye/Keen-UI
+
+> [!info]
+> ⭐ 4,068 · JavaScript · 2023-08-16  
+> [GitHub](https://github.com/JosephusPaye/Keen-UI) · [Website](https://josephuspaye.github.io/Keen-UI/)  
+> `#components` `#javascript` `#material-design` `#ui` `#vue` `#vue3` >
+> 生成失败
+
+> <sub>A lightweight Vue.js UI library with a simple API, inspired by Google's Material Design.</sub>
+
+---
+## ElemeFE/element
+
+> [!info]
+> ⭐ 54,201 · Vue · 2024-08-20  
+> [GitHub](https://github.com/ElemeFE/element) · [Website](https://element.eleme.io/)  
+> `#components` `#element-ui` `#javascript` `#ui-kit` `#vue` `#vue-components` `#vuejs` >
+> 生成失败
+
+> <sub>A Vue.js 2.0 UI Toolkit for Web</sub>
+
+---
+## yuche/vue-strap
+
+> [!info]
+> ⭐ 4,693 · JavaScript · 2019-04-13  
+> [GitHub](https://github.com/yuche/vue-strap) · [Website](http://yuche.github.io/vue-strap/)  
+> >
+> 生成失败
+
+> <sub>Bootstrap components built with Vue.js</sub>
+
+---
+## airyland/vux
+
+> [!info]
+> ⭐ 17,526 · Vue · 2024-04-24  
+> [GitHub](https://github.com/airyland/vux) · [Website](https://vux.li)  
+> `#ant` `#components` `#javascript` `#mobile-web` `#vue` `#vue-components` `#vue2` `#vux` `#web-app` `#wechat` `#weui` >
+> 生成失败
+
+> <sub>Mobile UI Components based on Vue & WeUI</sub>
+
+---
+## adamchainz/django-cors-headers
+
+> [!info]
+> ⭐ 5,662 · Python · 2026-02-14  
+> [GitHub](https://github.com/adamchainz/django-cors-headers)  
+> `#cors` `#django` >
+> 生成失败
+
+> <sub>Django app for handling the server headers required for Cross-Origin Resource Sharing (CORS)</sub>
+
+---
+## tabulapdf/tabula
+
+> [!info]
+> ⭐ 7,334 · CSS · 2025-03-14  
+> [GitHub](https://github.com/tabulapdf/tabula) · [Website](http://tabula.technology)  
+> `#csv` `#excel` `#pdf` `#scraping` `#tables` >
+> 生成失败
+
+> <sub>Tabula is a tool for liberating data tables trapped inside PDF files</sub>
+
+---
+## Fechin/hexo-theme-diaspora
+
+> [!info]
+> ⭐ 1,271 · JavaScript · 2022-07-05  
+> [GitHub](https://github.com/Fechin/hexo-theme-diaspora) · [Website](https://fech.in)  
+> `#blog` `#hexo` `#theme` >
+> 生成失败
+
+> <sub>Hexo theme, Blog theme, Clean, Responsive theme</sub>
+
+---
+## glenhoooo/hexo-theme-Daily
+
+> [!info]
+> ⭐ 245 · SCSS · 2021-03-21  
+> [GitHub](https://github.com/glenhoooo/hexo-theme-Daily) · [Website](https://hinpc.github.io/Daily/)  
+> `#blog` `#hexo` `#hexo-theme` `#theme` >
+> 生成失败
+
+> <sub>A simple theme for Hexo</sub>
+
+---
+## jrainlau/markcook
+
+> [!info]
+> ⭐ 547 · Vue · 2018-05-15  
+> [GitHub](https://github.com/jrainlau/markcook) · [Website](https://jrainlau.github.io/markcook)  
+> `#markdown-editor` `#pwa` `#service-worker` `#vue` `#vuejs2` `#webpack3` >
+> 生成失败
+
+> <sub>A smart and beautiful markdown editor.</sub>
+
+---
+## manateelazycat/deepin-terminal
+
+> [!info]
+> ⭐ 252 · Vala · 2018-05-14  
+> [GitHub](https://github.com/manateelazycat/deepin-terminal)  
+> >
+> 生成失败
+
+> <sub>Deepin Terminal written by vala</sub>
+
+---
+## jobbole/awesome-python-books
+
+> [!info]
+> ⭐ 1,340 · N/A · 2020-01-02  
+> [GitHub](https://github.com/jobbole/awesome-python-books)  
+> >
+> 生成失败
+
+> <sub>如果有人让你推荐 Python 技术书，请让他看这个列表</sub>
+
+---
+## kaku2015/ColorfulNews
+
+> [!info]
+> ⭐ 1,308 · Java · 2016-10-30  
+> [GitHub](https://github.com/kaku2015/ColorfulNews)  
+> >
+> 生成失败
+
+> <sub>A news-reading App (MVP+Dagger2+RxJava+Retrofit2+Material Design)</sub>
+
+---
+## amsul/pickadate.js
+
+> [!info]
+> ⭐ 7,684 · JavaScript · 2023-07-14  
+> [GitHub](https://github.com/amsul/pickadate.js) · [Website](http://amsul.ca/pickadate.js)  
+> `#calendar` `#date` `#picker` `#time` >
+> 生成失败
+
+> <sub>The mobile-friendly, responsive, and lightweight jQuery date & time input picker.</sub>
+
+---
+## mobi-css/mobi.css
+
+> [!info]
+> ⭐ 2,323 · CSS · 2017-09-29  
+> [GitHub](https://github.com/mobi-css/mobi.css) · [Website](http://getmobicss.com/)  
+> `#css` `#css-framework` `#cssnext` `#design` `#flexbox` `#mobi-css` `#mobile` `#mobile-first` `#postcss` >
+> 生成失败
+
+> <sub>A lightweight, scalable, mobile-first CSS framework</sub>
+
+---
+## ant-design/ant-design-mobile
+
+> [!info]
+> ⭐ 11,953 · TypeScript · 2026-01-09  
+> [GitHub](https://github.com/ant-design/ant-design-mobile) · [Website](https://mobile.ant.design)  
+> `#ant-design` `#antd` `#antd-mobile` `#javascript` `#mobile` `#react` `#react-components` `#typescript` >
+> 生成失败
+
+> <sub>Essential UI blocks for building mobile web apps.</sub>
+
+---
+## sliptree/bootstrap-tokenfield
+
+> [!info]
+> ⭐ 857 · JavaScript · 2020-09-28  
+> [GitHub](https://github.com/sliptree/bootstrap-tokenfield) · [Website](http://sliptree.github.io/bootstrap-tokenfield/)  
+> >
+> 生成失败
+
+> <sub>A jQuery tag/token input plugin for Twitter's Bootstrap, by the guys from Sliptree</sub>
+
+---
+## mumuy/data_location
+
+> [!info]
+> ⭐ 3,075 · JavaScript · 2025-12-26  
+> [GitHub](https://github.com/mumuy/data_location) · [Website](https://passer-by.com/data_location/)  
+> `#administrative-divisions` `#area` `#china` `#json` >
+> 生成失败
+
+> <sub>中华人民共和国行政区划数据【省、市、区县、乡镇街道】中国省市区镇三级四级联动地址数据（GB/T 2260）</sub>
+
+---
+## jazzband/django-redis
+
+> [!info]
+> ⭐ 3,056 · Python · 2026-02-23  
+> [GitHub](https://github.com/jazzband/django-redis)  
+> >
+> 生成失败
+
+> <sub>Full featured redis cache backend for Django.</sub>
+
+---
+## teddziuba/django-sslserver
+
+> [!info]
+> ⭐ 742 · Python · 2024-06-01  
+> [GitHub](https://github.com/teddziuba/django-sslserver)  
+> >
+> 生成失败
+
+> <sub>A SSL-enabled development server for Django</sub>
+
+---
+## vczero/toilet
+
+> [!info]
+> ⭐ 379 · JavaScript · 2017-06-20  
+> [GitHub](https://github.com/vczero/toilet)  
+> >
+> 生成失败
+
+> <sub>Urban governance - Where is the restroom?</sub>
+
+---
+## cn/GB2260
+
+> [!info]
+> ⭐ 1,537 · Python · 2023-05-22  
+> [GitHub](https://github.com/cn/GB2260)  
+> `#gb2260` >
+> 生成失败
+
+> <sub>中华人民共和国国家标准 GB/T 2260 行政区划代码</sub>
+
+---
+## geeeeeeeeek/electronic-wechat
+
+> [!info]
+> ⭐ 13,902 · JavaScript · 2020-09-30  
+> [GitHub](https://github.com/geeeeeeeeek/electronic-wechat)  
+> `#electron` `#linux` `#macos` `#web-wechat` `#wechat` >
+> 生成失败
+
+> <sub>:speech_balloon: A better WeChat on macOS and Linux. Built with Electron by Zhongyi Tong.</sub>
+
+---
+## fatedier/frp
+
+> [!info]
+> ⭐ 104,742 · Go · 2026-02-13  
+> [GitHub](https://github.com/fatedier/frp)  
+> `#expose` `#firewall` `#frp` `#go` `#http-proxy` `#nat` `#p2p` `#proxy` `#reverse-proxy` `#tunnel` >
+> 生成失败
+
+> <sub>A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.</sub>
+
+---
+## nihgwu/react-native-sudoku
+
+> [!info]
+> ⭐ 651 · JavaScript · 2016-11-07  
+> [GitHub](https://github.com/nihgwu/react-native-sudoku) · [Website](http://sudoku.liteneo.com/)  
+> >
+> 生成失败
+
+> <sub>a sudoku game written in React Native</sub>
+
+---
+## anishathalye/lumen
+
+> [!info]
+> ⭐ 2,422 · Objective-C · 2025-06-19  
+> [GitHub](https://github.com/anishathalye/lumen) · [Website](https://anishathalye.com/lumen/)  
+> >
+> 生成失败
+
+> <sub>Magic auto brightness based on screen contents 💡</sub>
+
+---
+## fangwei716/30-days-of-react-native
+
+> [!info]
+> ⭐ 6,891 · JavaScript · 2018-09-07  
+> [GitHub](https://github.com/fangwei716/30-days-of-react-native)  
+> `#ios` `#react-native` >
+> 生成失败
+
+> <sub>30 days of React Native demos</sub>
+
+---
+## reactnativecn/react-native-guide
+
+> [!info]
+> ⭐ 17,854 · N/A · 2020-07-27  
+> [GitHub](https://github.com/reactnativecn/react-native-guide)  
+> >
+> 生成失败
+
+> <sub>React Native指南汇集了各类react-native学习资源、开源App和组件</sub>
+
+---
+## clarkduvall/serpy
+
+> [!info]
+> ⭐ 961 · Python · 2020-08-18  
+> [GitHub](https://github.com/clarkduvall/serpy) · [Website](http://serpy.readthedocs.org/en/latest/)  
+> >
+> 生成失败
+
+> <sub>ridiculously fast object serialization</sub>
+
+---
+## wq/html-json-forms
+
+> [!info]
+> ⭐ 35 · Python · 2021-01-27  
+> [GitHub](https://github.com/wq/html-json-forms) · [Website](https://www.w3.org/TR/html-json-forms/)  
+> >
+> 生成失败
+
+> <sub>Python implementation of the (inactive) HTML JSON Forms spec.</sub>
+
+---
+## ptomasroos/react-native-tab-navigator
+
+> [!info]
+> ⭐ 2,389 · JavaScript · 2020-09-30  
+> [GitHub](https://github.com/ptomasroos/react-native-tab-navigator)  
+> >
+> 生成失败
+
+> <sub>A tab bar that switches between scenes, written in JS for cross-platform support</sub>
+
+---
+## HelloZeroNet/ZeroNet
+
+> [!info]
+> ⭐ 18,743 · JavaScript · 2024-01-31  
+> [GitHub](https://github.com/HelloZeroNet/ZeroNet) · [Website](https://zeronet.io)  
+> `#anonymity` `#anticensorship` `#bitcoin` `#bittorrent` `#decentralized` `#internet-freedom` `#p2p` `#python` `#realtime` `#tor` `#torrent` `#web` >
+> 生成失败
+
+> <sub>ZeroNet - Decentralized websites using Bitcoin crypto and BitTorrent network</sub>
+
+---
+## iWoz/file_sync
+
+> [!info]
+> ⭐ 141 · Python · 2023-01-27  
+> [GitHub](https://github.com/iWoz/file_sync)  
+> >
+> 生成失败
+
+> <sub>Detect file modification in background and push it to git automatically.</sub>
+
+---
+## livid/v2ex-gae
+
+> [!info]
+> ⭐ 3,103 · Python · 2017-10-23  
+> [GitHub](https://github.com/livid/v2ex-gae) · [Website](https://www.v2ex.com/)  
+> >
+> 生成失败
+
+> <sub>Legacy code of V2EX running on Google App Engine</sub>
+
+---
+## unbug/codelf
+
+> [!info]
+> ⭐ 14,202 · JavaScript · 2025-06-06  
+> [GitHub](https://github.com/unbug/codelf) · [Website](https://unbug.github.io/codelf/)  
+> `#atom-plugin` `#chrome-extension` `#codelf` `#naming` `#vscode-extension` >
+> 生成失败
+
+> <sub>A search tool helps dev to solve the naming things problem.</sub>
+
+---
+## slowsay/ReactNativeTestApp
+
+> [!info]
+> ⭐ 4 · JavaScript · 2016-10-12  
+> [GitHub](https://github.com/slowsay/ReactNativeTestApp)  
+> >
+> 生成失败
+
+> <sub>利用reactnative技术，开发，生成app</sub>
+
+---
+## vczero/React-Dou
+
+> [!info]
+> ⭐ 407 · JavaScript · 2016-09-13  
+> [GitHub](https://github.com/vczero/React-Dou)  
+> >
+> 生成失败
+
+> <sub>Douban Search App Based on React Native</sub>
+
+---
+## vczero/React-Native-App
+
+> [!info]
+> ⭐ 738 · JavaScript · 2019-10-30  
+> [GitHub](https://github.com/vczero/React-Native-App)  
+> >
+> 生成失败
+
+> <sub>RN 开源之初，写几个Mini-App</sub>
+
+---
+## sigurdga/django-jquery-file-upload
+
+> [!info]
+> ⭐ 573 · HTML · 2020-08-11  
+> [GitHub](https://github.com/sigurdga/django-jquery-file-upload)  
+> >
+> 生成失败
+
+> <sub>A minimal django project containing a minimal app with a working jquery file upload form based on the work by Sebastian Tschan: http://aquantum-demo.appspot.com/file-upload</sub>
+
+---
+## nathanborror/django-basic-apps
+
+> [!info]
+> ⭐ 1,316 · Python · 2020-10-09  
+> [GitHub](https://github.com/nathanborror/django-basic-apps) · [Website](http://code.google.com/p/django-basic-apps/)  
+> >
+> 生成失败
+
+> <sub>Simple prebuilt applications.</sub>
+
+---
+## vczero/react-native-lesson
+
+> [!info]
+> ⭐ 4,065 · HTML · 2020-01-13  
+> [GitHub](https://github.com/vczero/react-native-lesson)  
+> >
+> 生成失败
+
+> <sub>React Native入门指南</sub>
+
+---
+## BelinChung/react-native-hiapp
+
+> [!info]
+> ⭐ 641 · JavaScript · 2022-12-08  
+> [GitHub](https://github.com/BelinChung/react-native-hiapp) · [Website](http://hi.belinchung.com/)  
+> `#hiapp` `#hybrid-apps` `#i18n` `#localize` `#react` `#react-native` `#redux` >
+> 生成失败
+
+> <sub>HiApp written in react-native.</sub>
+
+---
+## GavinFoo/elasticsearch-definitive-guide
+
+> [!info]
+> ⭐ 1,294 · HTML · 2016-06-30  
+> [GitHub](https://github.com/GavinFoo/elasticsearch-definitive-guide) · [Website](http://learnes.net)  
+> >
+> 生成失败
+
+> <sub>elasticsearch 权威指南</sub>
+
+---
+## looly/elasticsearch-definitive-guide-cn
+
+> [!info]
+> ⭐ 2,047 · Shell · 2020-07-14  
+> [GitHub](https://github.com/looly/elasticsearch-definitive-guide-cn) · [Website](http://es-guide-preview.elasticsearch.cn/)  
+> >
+> 生成失败
+
+> <sub>Elasticsearch权威指南中文版</sub>
+
+---
+## itorr/imouto
+
+> [!info]
+> ⭐ 341 · JavaScript · 2020-11-23  
+> [GitHub](https://github.com/itorr/imouto)  
+> >
+> 生成失败
+
+> <sub>快速、明确、极简</sub>
+
+---
+## litten/hexo-theme-yilia
+
+> [!info]
+> ⭐ 8,383 · JavaScript · 2024-07-02  
+> [GitHub](https://github.com/litten/hexo-theme-yilia) · [Website](http://litten.me/)  
+> `#hexo` `#hexo-theme` `#hexo-theme-yilia` >
+> 生成失败
+
+> <sub>一个简洁优雅的hexo主题  A simple and elegant theme for hexo.</sub>
+
+---
+## breakwa11/gfw_whitelist
+
+> [!info]
+> ⭐ 3,155 · JavaScript · 2021-02-01  
+> [GitHub](https://github.com/breakwa11/gfw_whitelist)  
+> >
+> 生成失败
+
+> <sub>gfw_whitelist</sub>
+
+---
+## barszczmm/django-wpadmin
+
+> [!info]
+> ⭐ 265 · Python · 2020-05-01  
+> [GitHub](https://github.com/barszczmm/django-wpadmin) · [Website](http://django-wpadmin.dev.barszcz.info/)  
+> `#css` `#django` `#django-admin` `#python` `#wordpress` >
+> 生成失败
+
+> <sub>WordPress look and feel for Django administration panel</sub>
+
+---
+## docopt/docopt
+
+> [!info]
+> ⭐ 8,015 · Python · 2025-06-23  
+> [GitHub](https://github.com/docopt/docopt)  
+> >
+> 生成失败
+
+> <sub>Create *beautiful* command-line interfaces with Python</sub>
+
+---
+## vgist/RimeFiles
+
+> [!info]
+> ⭐ 117 · N/A · 2023-10-23  
+> [GitHub](https://github.com/vgist/RimeFiles) · [Website](https://repo.or.cz/RimeFiles.git)  
+> `#rime` >
+> 生成失败
+
+> <sub>Rime 词库及配置</sub>
+
+---
+## littlecodersh/MyPlatform
+
+> [!info]
+> ⭐ 138 · Python · 2016-07-30  
+> [GitHub](https://github.com/littlecodersh/MyPlatform)  
+> >
+> 生成失败
+
+> <sub>文科生也会配的微信个人号后台，Content based wechat massive platform framework, what you need to do is only adding your articles in :)</sub>
+
+---
+## littlecodersh/ItChat
+
+> [!info]
+> ⭐ 26,705 · Python · 2023-09-28  
+> [GitHub](https://github.com/littlecodersh/ItChat) · [Website](http://itchat.readthedocs.io)  
+> `#api` `#itchat` `#robot` `#wechat` >
+> 生成失败
+
+> <sub>A complete and graceful API for Wechat. 微信个人号接口、微信机器人及命令行微信，三十行即可自定义个人号机器人。</sub>
+
+---
+## django-request/django-request
+
+> [!info]
+> ⭐ 665 · JavaScript · 2025-10-16  
+> [GitHub](https://github.com/django-request/django-request) · [Website](https://django-request.readthedocs.org/en/latest/)  
+> `#django` `#python` `#requests` >
+> 生成失败
+
+> <sub>django-request is a statistics module for django. It stores requests in a database for admins to see, it can also be used to get statistics on who is online etc.</sub>
+
+---
+## ColorfulCat/AndroidGuide
+
+> [!info]
+> ⭐ 988 · N/A · 2016-05-05  
+> [GitHub](https://github.com/ColorfulCat/AndroidGuide) · [Website](https://www.xcube.cn)  
+> `#android` >
+> 生成失败
+
+> <sub>AndroidCat安卓书签导航集合</sub>
+
+---
+## geekan/one-python
+
+> [!info]
+> ⭐ 750 · N/A · 2020-10-06  
+> [GitHub](https://github.com/geekan/one-python)  
+> >
+> 生成失败
+
+> <sub>We don't need a lot of libraries. We just need the best ones. | Unofficial recommended first choice.</sub>
+
+---
+## boylegu/celery-task-tigger
+
+> [!info]
+> ⭐ 54 · Python · 2017-06-21  
+> [GitHub](https://github.com/boylegu/celery-task-tigger)  
+> `#celery` `#crontab` `#periodic` `#python` `#python3` `#task` >
+> 生成失败
+
+> <sub>A controllable timing task widgets with Celery</sub>
+
+---
+## eduosi/district
+
+> [!info]
+> ⭐ 1,071 · N/A · 2026-01-22  
+> [GitHub](https://github.com/eduosi/district)  
+> >
+> 生成失败
+
+> <sub>中国省/自治区/直辖市、市/自治州、区/县/旗数据，包含名称、拼音、拼音首字母、行政代码、区号</sub>
+
+---
+## ohmyzsh/ohmyzsh
+
+> [!info]
+> ⭐ 184,998 · Shell · 2026-02-25  
+> [GitHub](https://github.com/ohmyzsh/ohmyzsh) · [Website](https://ohmyz.sh)  
+> `#cli` `#cli-app` `#oh-my-zsh` `#oh-my-zsh-plugin` `#oh-my-zsh-theme` `#ohmyzsh` `#plugin-framework` `#plugins` `#productivity` `#shell` `#terminal` `#theme` `#themes` `#zsh` `#zsh-configuration` >
+> 生成失败
+
+> <sub>🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.</sub>
+
+---
+## vinta/awesome-python
+
+> [!info]
+> ⭐ 284,577 · Python · 2026-02-25  
+> [GitHub](https://github.com/vinta/awesome-python) · [Website](https://awesome-python.com/)  
+> `#awesome` `#collections` `#python` `#python-framework` `#python-library` `#python-resources` >
+> 生成失败
+
+> <sub>An opinionated list of awesome Python frameworks, libraries, software and resources.</sub>
+
+---
+## boycy815/PinchImageView
+
+> [!info]
+> ⭐ 1,972 · Java · 2024-08-28  
+> [GitHub](https://github.com/boycy815/PinchImageView)  
+> `#android` `#imageview` `#pinch-to-zoom` `#zoom` `#zoom-images` `#zoomable` `#zoomable-images` >
+> 生成失败
+
+> <sub>体验极佳的Android图片手势控件。An Android image gesture control with excellent user experience.</sub>
+
+---
+## taizilongxu/interview_python
+
+> [!info]
+> ⭐ 17,212 · Shell · 2025-03-05  
+> [GitHub](https://github.com/taizilongxu/interview_python)  
+> >
+> 生成失败
+
+> <sub>关于Python的面试题</sub>
+
+---
+## mfenniak/pyPdf
+
+> [!info]
+> ⭐ 276 · Python · 2020-08-24  
+> [GitHub](https://github.com/mfenniak/pyPdf) · [Website](https://github.com/knowah/PyPDF2/)  
+> >
+> 生成失败
+
+> <sub>Pure-Python PDF Library; this repository is no longer maintained, please see https://github.com/knowah/PyPDF2/ insead.</sub>
+
+---
+## euske/pdfminer
+
+> [!info]
+> ⭐ 5,302 · Python · 2022-12-07  
+> [GitHub](https://github.com/euske/pdfminer) · [Website](https://github.com/pdfminer/pdfminer.six)  
+> >
+> 生成失败
+
+> <sub>Python PDF Parser (Not actively maintained). Check out pdfminer.six.</sub>
+
+---
+## coolwanglu/pdf2htmlEX
+
+> [!info]
+> ⭐ 10,581 · HTML · 2023-06-02  
+> [GitHub](https://github.com/coolwanglu/pdf2htmlEX) · [Website](http://coolwanglu.github.com/pdf2htmlEX/)  
+> >
+> 生成失败
+
+> <sub>Convert PDF to HTML without losing text or format.</sub>
+
+---
+## django-notifications/django-notifications
+
+> [!info]
+> ⭐ 1,943 · Python · 2025-07-17  
+> [GitHub](https://github.com/django-notifications/django-notifications) · [Website](http://pypi.python.org/pypi/django-notifications-hq/)  
+> `#django` `#notification` `#package` `#python` >
+> 生成失败
+
+> <sub>GitHub notifications alike app for Django</sub>
+
+---
+## ptmt/react-native-macos
+
+> [!info]
+> ⭐ 11,209 · JavaScript · 2024-02-13  
+> [GitHub](https://github.com/ptmt/react-native-macos)  
+> >
+> 生成失败
+
+> <sub>[deprecated in favor of https://microsoft.github.io/react-native-windows/] React Native for macOS is an experimental fork for writing desktop apps using Cocoa</sub>
+
+---
+## Wox-launcher/Wox
+
+> [!info]
+> ⭐ 26,586 · Go · 2026-02-23  
+> [GitHub](https://github.com/Wox-launcher/Wox) · [Website](http://wox-launcher.github.io/Wox/)  
+> `#alfred` `#launcher` `#launchy` `#linux` `#macos` `#raycast` `#spotlight` `#windows` `#wox` >
+> 生成失败
+
+> <sub>A cross-platform launcher that simply works</sub>
+
+---
+## ericflo/django-newcache
+
+> [!info]
+> ⭐ 189 · Python · 2016-05-06  
+> [GitHub](https://github.com/ericflo/django-newcache)  
+> >
+> 生成失败
+
+> <sub>Improved memcached cache backend for Django</sub>
+
+---
+## lincolnloop/django-ft-cache
+
+> [!info]
+> ⭐ 24 · Python · 2025-08-18  
+> [GitHub](https://github.com/lincolnloop/django-ft-cache)  
+> >
+> 生成失败
+
+> <sub>A fault-tolerant pylibmc cache backend for Django</sub>
+
+---
+## dcramer/django-devserver
+
+> [!info]
+> ⭐ 1,265 · Python · 2020-02-26  
+> [GitHub](https://github.com/dcramer/django-devserver)  
+> >
+> 生成失败
+
+> <sub>A drop-in replacement for Django's runserver.</sub>
+
+---
+## recamshak/django-debug-panel
+
+> [!info]
+> ⭐ 404 · Python · 2020-01-09  
+> [GitHub](https://github.com/recamshak/django-debug-panel)  
+> >
+> 生成失败
+
+> <sub>django-debug-toolbar in WebKit DevTools. Works fine with background Ajax requests and non-HTML responses.</sub>
+
+---
+## django-cms/django-filer
+
+> [!info]
+> ⭐ 1,845 · Python · 2026-02-24  
+> [GitHub](https://github.com/django-cms/django-filer) · [Website](https://django-filer.readthedocs.io/)  
+> `#addon` `#cms` `#django` `#django-cms` `#python` >
+> 生成失败
+
+> <sub>File and Image Management Application for django</sub>
+
+---
+## debnet/django-rest-framework-docs
+
+> [!info]
+> ⭐ 3 · Python · 2018-10-11  
+> [GitHub](https://github.com/debnet/django-rest-framework-docs) · [Website](http://www.drfdocs.com/)  
+> >
+> 生成失败
+
+> <sub>Document Web APIs made with Django Rest Framework</sub>
+
+---
+## manosim/django-rest-framework-docs
+
+> [!info]
+> ⭐ 644 · Python · 2022-01-11  
+> [GitHub](https://github.com/manosim/django-rest-framework-docs) · [Website](https://www.drfdocs.com/)  
+> `#django` `#django-rest-framework` `#docs` `#pypi` `#web-api` >
+> 生成失败
+
+> <sub>Document Web APIs made with Django Rest Framework</sub>
+
+---
+## ciaoca/cxSelect
+
+> [!info]
+> ⭐ 609 · JavaScript · 2022-03-17  
+> [GitHub](https://github.com/ciaoca/cxSelect) · [Website](http://ciaoca.github.io/cxSelect/)  
+> `#jquery` `#select` `#zepto` >
+> 生成失败
+
+> <sub>cxSelect 是基于 jQuery 的多级联动菜单插件，适用于省市、商品分类等联动菜单。</sub>
+
+---
+## zhzenghui/zh_mysite
+
+> [!info]
+> ⭐ 27 · Python · 2013-01-29  
+> [GitHub](https://github.com/zhzenghui/zh_mysite)  
+> >
+> 生成失败
+
+> <sub>django最佳实践 项目目录结构布局</sub>
+
+---
+## lincolnloop/django-layout
+
+> [!info]
+> ⭐ 325 · Python · 2026-02-18  
+> [GitHub](https://github.com/lincolnloop/django-layout)  
+> `#django` >
+> 生成失败
+
+> <sub>Django project template layout</sub>
+
+---
+## django-import-export/django-import-export
+
+> [!info]
+> ⭐ 3,292 · Python · 2026-02-23  
+> [GitHub](https://github.com/django-import-export/django-import-export) · [Website](https://django-import-export.readthedocs.org/en/latest/)  
+> `#csv` `#django` `#import-export` `#json` `#python` `#xls` >
+> 生成失败
+
+> <sub>Django application and library for importing and exporting data with admin integration.</sub>
+
+---
+## CodeByZach/pace
+
+> [!info]
+> ⭐ 15,651 · CSS · 2024-02-26  
+> [GitHub](https://github.com/CodeByZach/pace) · [Website](https://codebyzach.github.io/pace/)  
+> `#loading-animation` `#loading-bar` `#loading-indicator` `#pace` `#pace-js` `#progress-bar` >
+> 生成失败
+
+> <sub>Automatically add a progress bar to your site.</sub>
+
+---
+## django-commons/django-debug-toolbar
+
+> [!info]
+> ⭐ 8,352 · Python · 2026-02-23  
+> [GitHub](https://github.com/django-commons/django-debug-toolbar) · [Website](https://django-debug-toolbar.readthedocs.io)  
+> >
+> 生成失败
+
+> <sub>A configurable set of panels that display various debug information about the current request/response.</sub>
+
+---
+## ZTfer/weui-sketch
+
+> [!info]
+> ⭐ 117 · N/A · 2018-12-12  
+> [GitHub](https://github.com/ZTfer/weui-sketch) · [Website](http://ztfer.github.io/weui-sketch/)  
+> `#psd` `#sketch` `#uikit` `#weui` >
+> 生成失败
+
+> <sub>weui sketch by ZTfer</sub>
+
+---
+## adcentury/vue-weui
+
+> [!info]
+> ⭐ 411 · Vue · 2017-10-11  
+> [GitHub](https://github.com/adcentury/vue-weui) · [Website](http://adcentury.github.io/vue-weui)  
+> `#mobile-ui` `#vue` `#vue-components` `#vue-weui` `#wechat-mobile-ui` `#weui` >
+> 生成失败
+
+> <sub>(Deprecated) WeUI Components with love of vue.js</sub>
+
+---
+## aidenZou/vue-weui
+
+> [!info]
+> ⭐ 483 · CSS · 2016-10-18  
+> [GitHub](https://github.com/aidenZou/vue-weui) · [Website](http://aidenzou.github.io/vue-weui/#!/)  
+> >
+> 生成失败
+
+> <sub>针对 Vue 框架移植的 We UI 框架的适配，让 mobile开发过程成为一种享受。 Demo:</sub>
+
+---
+## weui/react-weui
+
+> [!info]
+> ⭐ 2,860 · JavaScript · 2020-08-06  
+> [GitHub](https://github.com/weui/react-weui) · [Website](https://weui.github.io/react-weui/docs/)  
+> `#component-library` `#components` `#react` `#react-components` `#ui` `#ui-components` `#weui` >
+> 生成失败
+
+> <sub>weui for react</sub>
+
+---
+## Tencent/weui
+
+> [!info]
+> ⭐ 27,390 · HTML · 2025-09-12  
+> [GitHub](https://github.com/Tencent/weui) · [Website](https://weui.io)  
+> `#mobile-web` `#style` `#wechat` `#weui` >
+> 生成失败
+
+> <sub>A UI library by WeChat official design team, includes the most useful widgets/modules in mobile web applications.</sub>
+
+---
+## ruanyf/react-demos
+
+> [!info]
+> ⭐ 16,727 · JavaScript · 2024-10-29  
+> [GitHub](https://github.com/ruanyf/react-demos)  
+> >
+> 生成失败
+
+> <sub>a collection of simple demos of React.js</sub>
+
+---
+## jpadilla/django-rest-framework-jwt
+
+> [!info]
+> ⭐ 3,174 · Python · 2022-12-06  
+> [GitHub](https://github.com/jpadilla/django-rest-framework-jwt) · [Website](http://jpadilla.github.io/django-rest-framework-jwt/)  
+> `#django` `#django-rest-framework` `#jwt` `#python` >
+> 生成失败
+
+> <sub>JSON Web Token Authentication support for Django REST Framework</sub>
+
+---
+## vvangelovski/django-audit-log
+
+> [!info]
+> ⭐ 233 · Python · 2024-01-05  
+> [GitHub](https://github.com/vvangelovski/django-audit-log)  
+> >
+> 生成失败
+
+> <sub>Audit log for your Django models</sub>
+
+---
+## django-extensions/django-extensions
+
+> [!info]
+> ⭐ 6,793 · Python · 2025-10-03  
+> [GitHub](https://github.com/django-extensions/django-extensions) · [Website](https://django-extensions.readthedocs.io)  
+> >
+> 生成失败
+
+> <sub>This is a repository for collecting global custom management extensions for the Django Framework.</sub>
+
+---
+## DaoCloud/python-django-sample
+
+> [!info]
+> ⭐ 31 · Python · 2016-09-01  
+> [GitHub](https://github.com/DaoCloud/python-django-sample)  
+> >
+> 生成失败
+
+---
+## honzakral/django-threadedcomments
+
+> [!info]
+> ⭐ 621 · Python · 2021-11-17  
+> [GitHub](https://github.com/honzakral/django-threadedcomments)  
+> >
+> 生成失败
+
+> <sub>django-threadedcomments is a simple yet flexible threaded commenting system for Django.</sub>
+
+---
+## cundi/Django-Design-Patterns-and-Best-Practices
+
+> [!info]
+> ⭐ 186 · N/A · 2023-05-24  
+> [GitHub](https://github.com/cundi/Django-Design-Patterns-and-Best-Practices)  
+> >
+> 生成失败
+
+> <sub>《Django设计模式与最佳实践》2015年03月-基于Django 1.7</sub>
+
+---
+## glasslion/django-qiniu-storage
+
+> [!info]
+> ⭐ 191 · Python · 2022-04-13  
+> [GitHub](https://github.com/glasslion/django-qiniu-storage)  
+> >
+> 生成失败
+
+> <sub>Django storage for 七牛云存储</sub>
+
+---
+## piglei/django-qiniu
+
+> [!info]
+> ⭐ 52 · Python · 2016-12-22  
+> [GitHub](https://github.com/piglei/django-qiniu)  
+> >
+> 生成失败
+
+> <sub>Qiniu(http://www.qiniu.com) is a cloud storage service, this package interages it with django framework.</sub>
+
+---
+## carltongibson/django-filter
+
+> [!info]
+> ⭐ 4,680 · Python · 2025-12-15  
+> [GitHub](https://github.com/carltongibson/django-filter) · [Website](https://django-filter.readthedocs.io/en/main/)  
+> >
+> 生成失败
+
+> <sub>A generic system for filtering Django QuerySets based on user selections</sub>
+
+---
+## kraiz/django-crontab
+
+> [!info]
+> ⭐ 849 · Python · 2022-10-04  
+> [GitHub](https://github.com/kraiz/django-crontab)  
+> >
+> 生成失败
+
+> <sub>dead simple crontab powered job scheduling for django.</sub>
+
+---
+## ChenYilong/iOSInterviewQuestions
+
+> [!info]
+> ⭐ 9,508 · Swift · 2026-01-27  
+> [GitHub](https://github.com/ChenYilong/iOSInterviewQuestions)  
+> >
+> 生成失败
+
+> <sub>iOS interview questions;iOS面试题集锦（附答案）</sub>
+
+---
+## 0x5e/wechat-deleted-friends
+
+> [!info]
+> ⭐ 4,792 · Python · 2020-10-01  
+> [GitHub](https://github.com/0x5e/wechat-deleted-friends)  
+> `#python` `#wechat` >
+> 生成失败
+
+> <sub>查看被删的微信好友</sub>
+
+---
+## angular-ui/bootstrap
+
+> [!info]
+> ⭐ 14,204 · JavaScript · 2019-02-10  
+> [GitHub](https://github.com/angular-ui/bootstrap) · [Website](http://angular-ui.github.io/bootstrap/)  
+> >
+> 生成失败
+
+> <sub>PLEASE READ THE PROJECT STATUS BELOW.  Native AngularJS (Angular) directives for Bootstrap. Smaller footprint (20kB gzipped), no 3rd party JS dependencies (jQuery, bootstrap JS) required. Please read the README.md file before submitting an issue!</sub>
+
+---
+## richardbarran/django-photologue
+
+> [!info]
+> ⭐ 675 · Python · 2025-06-01  
+> [GitHub](https://github.com/richardbarran/django-photologue)  
+> `#django` `#photo-gallery` >
+> 生成失败
+
+> <sub>A customizable plug-in photo gallery management application for the Django web framework.</sub>
+
+---
+## Gazler/githug
+
+> [!info]
+> ⭐ 6,933 · Shell · 2024-08-11  
+> [GitHub](https://github.com/Gazler/githug)  
+> `#git` >
+> 生成失败
+
+> <sub>Git your game on!</sub>
+
+---
+## Python-Markdown/markdown
+
+> [!info]
+> ⭐ 4,170 · Python · 2026-02-09  
+> [GitHub](https://github.com/Python-Markdown/markdown) · [Website](https://python-markdown.github.io/)  
+> `#markdown` `#markdown-parser` `#markdown-to-html` `#python` `#python-markdown` `#python3` >
+> 生成失败
+
+> <sub>A Python implementation of John Gruber’s Markdown with Extension support.</sub>
+
+---
+## trentm/django-markdown-deux
+
+> [!info]
+> ⭐ 291 · Python · 2023-05-05  
+> [GitHub](https://github.com/trentm/django-markdown-deux)  
+> >
+> 生成失败
+
+> <sub>A django app that provides Markdown-related template tags using the python-markdown2 library.</sub>
+
+---
+## darklow/django-suit
+
+> [!info]
+> ⭐ 2,400 · SCSS · 2025-05-27  
+> [GitHub](https://github.com/darklow/django-suit) · [Website](http://djangosuit.com/)  
+> `#django` `#django-admin` >
+> 生成失败
+
+> <sub>Modern theme for Django admin interface</sub>
+
+---
+## rstacruz/nprogress
+
+> [!info]
+> ⭐ 26,431 · JavaScript · 2022-06-04  
+> [GitHub](https://github.com/rstacruz/nprogress) · [Website](http://ricostacruz.com/nprogress)  
+> >
+> 生成失败
+
+> <sub>For slim progress bars like on YouTube, Medium, etc</sub>
+
+---
+## atom/atom
+
+> [!info]
+> ⭐ 61,024 · JavaScript · 2023-01-03  
+> [GitHub](https://github.com/atom/atom) · [Website](https://atom.io)  
+> `#atom` `#editor` `#electron` `#javascript` `#linux` `#macos` `#windows` >
+> 生成失败
+
+> <sub>:atom: The hackable text editor</sub>
+
+---
+## whzhyh/blog
+
+> [!info]
+> ⭐ 1 · JavaScript · 2014-11-20  
+> [GitHub](https://github.com/whzhyh/blog)  
+> >
+> 生成失败
+
+> <sub>My hexo blog source code</sub>
+
+---
+## omab/python-social-auth
+
+> [!info]
+> ⭐ 2,816 · Python · 2022-07-01  
+> [GitHub](https://github.com/omab/python-social-auth) · [Website](http://psa.matiasaguirre.net)  
+> >
+> 生成失败
+
+> <sub>Social auth made simple</sub>
+
+---
+## omab/django-social-auth
+
+> [!info]
+> ⭐ 2,656 · Python · 2017-03-28  
+> [GitHub](https://github.com/omab/django-social-auth) · [Website](https://groups.google.com/group/django-social-auth)  
+> >
+> 生成失败
+
+> <sub>Django social authentication made simple</sub>
+
+---
+## marcgibbons/django-rest-swagger
+
+> [!info]
+> ⭐ 2,582 · Python · 2020-12-14  
+> [GitHub](https://github.com/marcgibbons/django-rest-swagger) · [Website](https://marcgibbons.com/django-rest-swagger/)  
+> `#coreapi` `#django-rest-framework` `#openapi` `#swagger-ui` >
+> 生成失败
+
+> <sub>Swagger Documentation Generator for Django REST Framework: deprecated</sub>
+
+---
+## MrKiven/PyZh
+
+> [!info]
+> ⭐ 1,421 · Makefile · 2018-05-07  
+> [GitHub](https://github.com/MrKiven/PyZh) · [Website](http://pyzh.readthedocs.org)  
+> `#documents` `#python` `#zh-cn` >
+> 生成失败
+
+> <sub>:books: 一起写Python文章，一起看Python文章 - 利用readthedocs的Python技术文章的收集和翻译。</sub>
+
+---
+## scrapy-plugins/scrapy-djangoitem
+
+> [!info]
+> ⭐ 504 · Python · 2023-10-15  
+> [GitHub](https://github.com/scrapy-plugins/scrapy-djangoitem)  
+> >
+> 生成失败
+
+> <sub>Scrapy extension to write scraped items using Django models</sub>
+
+---
+## chukong/quick-cocos2d-x
+
+> [!info]
+> ⭐ 1,481 · C++ · 2020-10-01  
+> [GitHub](https://github.com/chukong/quick-cocos2d-x) · [Website](http://quick-x.com/)  
+> >
+> 生成失败
+
+> <sub>quick-cocos2d-x is a quick framework, based on cocos2d-x. Make mobile games in Lua.</sub>
+
+---
+## GhostFlying/LocationReportEnabler
+
+> [!info]
+> ⭐ 1,097 · Java · 2017-11-10  
+> [GitHub](https://github.com/GhostFlying/LocationReportEnabler)  
+> `#android` `#xposed` >
+> 生成失败
+
+> <sub>A simple android app to enable Google Location Report, Google Now and related functions in China mainland or somewhere like.</sub>
+
+---
+## scrapy/scrapy
+
+> [!info]
+> ⭐ 59,887 · Python · 2026-02-23  
+> [GitHub](https://github.com/scrapy/scrapy) · [Website](https://scrapy.org)  
+> `#crawler` `#crawling` `#framework` `#hacktoberfest` `#python` `#scraping` `#web-scraping` `#web-scraping-python` >
+> 生成失败
+
+> <sub>Scrapy, a fast high-level web crawling & scraping framework for Python.</sub>
+
+---
+## eventials/django-pjax
+
+> [!info]
+> ⭐ 91 · Python · 2020-07-21  
+> [GitHub](https://github.com/eventials/django-pjax)  
+> >
+> 生成失败
+
+> <sub>This is a Django helper for @defunkt's jquery-pjax.</sub>
+
+---
+## richleland/pygments-css
+
+> [!info]
+> ⭐ 1,130 · CSS · 2022-08-25  
+> [GitHub](https://github.com/richleland/pygments-css) · [Website](http://richleland.github.io/pygments-css/)  
+> >
+> 生成失败
+
+> <sub>css files created from pygment's built-in styles</sub>
+
+---
+## FSX/misaka
+
+> [!info]
+> ⭐ 418 · N/A · 2025-08-19  
+> [GitHub](https://github.com/FSX/misaka)  
+> >
+> 生成失败
+
+> <sub>A Python binding for Hoedown.</sub>
+
+---
+## trentm/python-markdown2
+
+> [!info]
+> ⭐ 2,807 · Python · 2026-02-15  
+> [GitHub](https://github.com/trentm/python-markdown2)  
+> >
+> 生成失败
+
+> <sub>markdown2: A fast and complete implementation of Markdown in Python</sub>
+
+---
+## klen/django_markdown
+
+> [!info]
+> ⭐ 390 · JavaScript · 2020-12-02  
+> [GitHub](https://github.com/klen/django_markdown)  
+> >
+> 生成失败
+
+> <sub>Django markdown support and wysiwig</sub>
+
+---
+## un33k/django-uuslug
+
+> [!info]
+> ⭐ 277 · Python · 2024-03-02  
+> [GitHub](https://github.com/un33k/django-uuslug)  
+> >
+> 生成失败
+
+> <sub>Generates Unique (& Unicode) slugs in Django Edit Add topics</sub>
+
+---
+## cmderdev/cmder
+
+> [!info]
+> ⭐ 26,778 · PowerShell · 2026-02-25  
+> [GitHub](https://github.com/cmderdev/cmder) · [Website](https://cmder.app)  
+> `#c-plus-plus` `#cmder` `#color-scheme` `#command-line` `#conemu` `#mintty` `#portable` `#powershell` `#shell` `#ssh-agent` `#windows` >
+> 生成失败
+
+> <sub>Lovely console emulator package for Windows</sub>
+
+---
+## josephschmitt/Clamp.js
+
+> [!info]
+> ⭐ 2,425 · JavaScript · 2018-11-30  
+> [GitHub](https://github.com/josephschmitt/Clamp.js) · [Website](http://joe.sh/clamp-js)  
+> >
+> 生成失败
+
+> <sub>Clamps an HTML element by adding ellipsis to it if the content inside is too long.</sub>
+
+---
+## clintecker/django-chunks
+
+> [!info]
+> ⭐ 304 · Python · 2023-11-22  
+> [GitHub](https://github.com/clintecker/django-chunks) · [Website](http://github.com/clintecker/django-chunks)  
+> >
+> 生成失败
+
+> <sub>Think of it as flatpages for small bits of reusable content you might want to insert into your templates and manage from the admin interface.</sub>
+
+---
+## telegram-zhCN/Telegram-cn-l10n-bot
+
+> [!info]
+> ⭐ 10 · JavaScript · 2015-06-30  
+> [GitHub](https://github.com/telegram-zhCN/Telegram-cn-l10n-bot)  
+> >
+> 生成失败
+
+> <sub>一个发布 Telegram 翻译的 Bot</sub>
+
+---
+## samluescher/django-persistent-messages
+
+> [!info]
+> ⭐ 106 · Python · 2016-01-03  
+> [GitHub](https://github.com/samluescher/django-persistent-messages)  
+> >
+> 生成失败
+
+> <sub>A Django app for unified and persistent user messages/notifications, built on top of Django's messages framework</sub>
+
+---
+## maraujop/django-persistent-messages
+
+> [!info]
+> ⭐ 17 · Python · 2015-06-04  
+> [GitHub](https://github.com/maraujop/django-persistent-messages)  
+> >
+> 生成失败
+
+> <sub>My independent fork of django-persistent-messages. A Django app for unified and persistent user messages/notifications, built on top of Django's messages framework</sub>
+
+---
+## mpasternak/django-monitio
+
+> [!info]
+> ⭐ 103 · Python · 2015-06-04  
+> [GitHub](https://github.com/mpasternak/django-monitio)  
+> >
+> 生成失败
+
+> <sub>Unified, persistent user messages with live notifications via SSE for Django.</sub>
+
+---
+## peduarte/wallop
+
+> [!info]
+> ⭐ 1,097 · CSS · 2020-04-21  
+> [GitHub](https://github.com/peduarte/wallop)  
+> `#animation` `#css` `#minimal` `#slider` >
+> 生成失败
+
+> <sub>:no_entry: currently unmaintained :no_entry: A minimal JS library for showing & hiding things</sub>
+
+---
+## djyde/PureSlider
+
+> [!info]
+> ⭐ 183 · JavaScript · 2015-12-13  
+> [GitHub](https://github.com/djyde/PureSlider) · [Website](http://djyde.github.io/PureSlider)  
+> >
+> 生成失败
+
+> <sub>A lightweight, no-dependency image slider library</sub>
+
+---
+## KagayamaKaede/ShadowsocksRDroid
+
+> [!info]
+> ⭐ 346 · C · 2015-12-01  
+> [GitHub](https://github.com/KagayamaKaede/ShadowsocksRDroid)  
+> >
+> 生成失败
+
+> <sub>A ShadowsocksR client for Android4.0+.Compatible Shadowsocks protocol and support some ShadowsocksR function.</sub>
+
+---
+## Voidly/Parallel-Programming-with-Python
+
+> [!info]
+> ⭐ 258 · N/A · 2018-09-30  
+> [GitHub](https://github.com/Voidly/Parallel-Programming-with-Python) · [Website](https://github.com/Voidly/Parallel-Programming-with-Python)  
+> >
+> 生成失败
+
+> <sub>Parallel Programming with Python简体中文版</sub>
+
+---
+## winauth/winauth
+
+> [!info]
+> ⭐ 1,849 · C# · 2021-09-26  
+> [GitHub](https://github.com/winauth/winauth)  
+> >
+> 生成失败
+
+> <sub>Authenticator on Windows for Battle.net / Steam / Guild Wars 2 / Glyph / Runescape / SWTOR / Bitcoin and digital currency exchanges</sub>
+
+---
+## zh-google-styleguide/zh-google-styleguide
+
+> [!info]
+> ⭐ 10,963 · Makefile · 2025-03-15  
+> [GitHub](https://github.com/zh-google-styleguide/zh-google-styleguide) · [Website](http://zh-google-styleguide.readthedocs.org/)  
+> >
+> 生成失败
+
+> <sub>Google 开源项目风格指南 (中文版)</sub>
+
+---
+## baijunjie/PhotoClip.js
+
+> [!info]
+> ⭐ 637 · JavaScript · 2021-03-09  
+> [GitHub](https://github.com/baijunjie/PhotoClip.js)  
+> >
+> 生成失败
+
+> <sub>一款手势驱动的裁图插件 / A gesture to drive image cropping plug-in</sub>
+
+---
+## Long-live-shadowsocks/shadowsocks
+
+> [!info]
+> ⭐ 720 · Python · 2015-09-08  
+> [GitHub](https://github.com/Long-live-shadowsocks/shadowsocks)  
+> >
+> 生成失败
+
+---
+## angular/material
+
+> [!info]
+> ⭐ 16,432 · JavaScript · 2024-09-05  
+> [GitHub](https://github.com/angular/material) · [Website](https://material.angularjs.org/)  
+> `#angularjs` `#angularjs-material` `#javascript` `#lts` `#material-design` >
+> 生成失败
+
+> <sub>Material design for AngularJS</sub>
+
+---
+## zensh/AngularjsTutorial_cn
+
+> [!info]
+> ⭐ 570 · N/A · 2013-06-05  
+> [GitHub](https://github.com/zensh/AngularjsTutorial_cn) · [Website](http://angularjs.cn/)  
+> >
+> 生成失败
+
+> <sub>AngularJS入门教程——AngularJS中文社区提供</sub>
+
+---
+## fex-team/webuploader
+
+> [!info]
+> ⭐ 7,673 · JavaScript · 2021-01-27  
+> [GitHub](https://github.com/fex-team/webuploader) · [Website](http://fex.baidu.com/webuploader/)  
+> >
+> 生成失败
+
+> <sub>It's a new file uploader solution!</sub>
+
+---
+## RubyLouvre/avalon
+
+> [!info]
+> ⭐ 5,783 · JavaScript · 2019-03-11  
+> [GitHub](https://github.com/RubyLouvre/avalon) · [Website](http://avalonjs.coding.me/)  
+> >
+> 生成失败
+
+> <sub>an elegant efficient express mvvm framework</sub>
+
+---
+## RubyLouvre/avalon.oniui
+
+> [!info]
+> ⭐ 413 · JavaScript · 2016-09-14  
+> [GitHub](https://github.com/RubyLouvre/avalon.oniui)  
+> >
+> 生成失败
+
+> <sub>基于avalon的组件库</sub>
+
+---
+## rainyear/javascript-in-one-pic
+
+> [!info]
+> ⭐ 6,662 · N/A · 2022-10-14  
+> [GitHub](https://github.com/rainyear/javascript-in-one-pic) · [Website](https://git.io/Js-pic)  
+> >
+> 生成失败
+
+> <sub>Learn javascript in one picture.</sub>
+
+---
+## rainyear/python3-in-one-pic
+
+> [!info]
+> ⭐ 5,023 · Jupyter Notebook · 2022-05-28  
+> [GitHub](https://github.com/rainyear/python3-in-one-pic) · [Website](https://git.io/Coo-py3)  
+> >
+> 生成失败
+
+> <sub>Learn python3 in one picture.</sub>
+
+---
+## faisalman/ua-parser-js
+
+> [!info]
+> ⭐ 10,060 · JavaScript · 2026-02-25  
+> [GitHub](https://github.com/faisalman/ua-parser-js) · [Website](https://uaparser.dev/)  
+> `#analytics` `#bot-detection` `#browser-detection` `#client-hints` `#device-detection` `#mobile-detection` `#user-agent` `#user-agent-parser` >
+> 生成失败
+
+> <sub>UAParser.js - The Essential Web Development Tool for User-Agent Detection. Detect Browsers, OS, Devices, Bots, Apps, AI Crawlers, and more. Run in Browser (client-side) or Node.js (server-side).</sub>
+
+---
+## bbrik/django-pjax-middleware
+
+> [!info]
+> ⭐ 4 · Python · 2015-03-13  
+> [GitHub](https://github.com/bbrik/django-pjax-middleware)  
+> >
+> 生成失败
+
+> <sub>Middleware that sets a base template name on the context</sub>
+
+---
+## iekadou/django-pjaxr
+
+> [!info]
+> ⭐ 45 · Python · 2014-05-06  
+> [GitHub](https://github.com/iekadou/django-pjaxr)  
+> >
+> 生成失败
+
+---
+## nigma/django-easy-pjax
+
+> [!info]
+> ⭐ 145 · JavaScript · 2016-02-21  
+> [GitHub](https://github.com/nigma/django-easy-pjax)  
+> `#django` `#javascript` `#pjax` `#python` >
+> 生成失败
+
+> <sub>Easy PJAX for Django</sub>
+
+---
+## lincanbin/Carbon-Forum
+
+> [!info]
+> ⭐ 1,855 · PHP · 2020-01-05  
+> [GitHub](https://github.com/lincanbin/Carbon-Forum) · [Website](https://www.94cb.com/)  
+> `#carbon-forum` `#forum` `#mysql` `#php` >
+> 生成失败
+
+> <sub>A high performance open-source forum software written in PHP. Discussions Tags based with Quora/StackOverflow style.</sub>
+
+---
+## lincanbin/Carbon-Forum-API-Documentation
+
+> [!info]
+> ⭐ 45 · N/A · 2019-08-08  
+> [GitHub](https://github.com/lincanbin/Carbon-Forum-API-Documentation)  
+> >
+> 生成失败
+
+> <sub>Carbon Forum HTTP API Documentation.</sub>
+
+---
+## lincanbin/Android-Carbon-Forum
+
+> [!info]
+> ⭐ 250 · Java · 2022-02-28  
+> [GitHub](https://github.com/lincanbin/Android-Carbon-Forum) · [Website](https://www.94cb.com)  
+> `#android` `#android-app` `#carbon-forum` `#material-design` >
+> 生成失败
+
+> <sub>Android Client for Carbon Forum with Material Design.</sub>
+
+---
+## django-admin-bootstrapped/django-admin-bootstrapped
+
+> [!info]
+> ⭐ 1,580 · HTML · 2021-08-15  
+> [GitHub](https://github.com/django-admin-bootstrapped/django-admin-bootstrapped)  
+> >
+> 生成失败
+
+> <sub>A Django admin theme using Twitter Bootstrap. It doesn't need any kind of modification on your side, just add it to the installed apps.</sub>
+
+---
+## yingDev/WGestures
+
+> [!info]
+> ⭐ 1,573 · C# · 2022-09-09  
+> [GitHub](https://github.com/yingDev/WGestures) · [Website](http://www.yingdev.com/projects/wgestures)  
+> >
+> 生成失败
+
+> <sub>Modern mouse gestures for Windows. (C#)</sub>
+
+---
+## nt1m/material-framework
+
+> [!info]
+> ⭐ 383 · HTML · 2019-12-07  
+> [GitHub](https://github.com/nt1m/material-framework) · [Website](http://nt1m.github.io/material-framework)  
+> `#css` `#design` `#framework` `#framework-css` `#material` `#material-design` `#web` >
+> 生成失败
+
+> <sub>[Unmaintained] An easy to use material design based framework.</sub>
+
+---
+## smartfile/django-mysqlpool
+
+> [!info]
+> ⭐ 91 · Python · 2018-01-16  
+> [GitHub](https://github.com/smartfile/django-mysqlpool)  
+> >
+> 生成失败
+
+> <sub>Django database backend for MySQL that provides pooling ala SQLAlchemy.</sub>
+
+---
+## XX-net/XX-Net
+
+> [!info]
+> ⭐ 33,439 · Python · 2026-02-20  
+> [GitHub](https://github.com/XX-net/XX-Net)  
+> `#gfw` `#goagent` `#proxy` `#uncensored` `#vpn` >
+> 生成失败
+
+> <sub>A proxy tool to bypass GFW.</sub>
+
+---
+## zhuinfo/Django-ERP
+
+> [!info]
+> ⭐ 1,447 · Python · 2021-12-08  
+> [GitHub](https://github.com/zhuinfo/Django-ERP)  
+> >
+> 生成失败
+
+> <sub>Django-ERP是一款基于Django开发的ERP管理软件，包含常用的销售管理、采购管理、库存管理、组织管理等，支持按项目归集费用，支持工作流审批，支持采购单、报价单的批量导入。</sub>
+
+---
+## iissnan/hexo-theme-next
+
+> [!info]
+> ⭐ 15,865 · JavaScript · 2022-11-10  
+> [GitHub](https://github.com/iissnan/hexo-theme-next) · [Website](http://notes.iissnan.com)  
+> `#hexo` `#hexo-theme` `#theme-next` >
+> 生成失败
+
+> <sub>Elegant theme for Hexo.</sub>
+
+---
+## 1sters/material_design_zh_2
+
+> [!info]
+> ⭐ 1,177 · N/A · 2019-04-03  
+> [GitHub](https://github.com/1sters/material_design_zh_2) · [Website](http://wiki.jikexueyuan.com/project/material-design/)  
+> >
+> 生成失败
+
+> <sub>Material Design 中文版 ( 2015 年 8 月更新)</sub>
+
+---
+## 1sters/material_design_zh
+
+> [!info]
+> ⭐ 3,065 · CSS · 2019-05-06  
+> [GitHub](https://github.com/1sters/material_design_zh) · [Website](http://design.1sters.com)  
+> >
+> 生成失败
+
+> <sub>Material Design 中文协同翻译 - design.1sters.com</sub>
+
+---
+## lightSky/Awesome-MaterialDesign
+
+> [!info]
+> ⭐ 5,884 · N/A · 2018-01-06  
+> [GitHub](https://github.com/lightSky/Awesome-MaterialDesign)  
+> >
+> 生成失败
+
+> <sub>Collection of material design libs and res.</sub>
+
+---
+## SohuTech/essay
+
+> [!info]
+> ⭐ 538 · Python · 2018-08-03  
+> [GitHub](https://github.com/SohuTech/essay) · [Website](https://github.com/SohuTech/essay)  
+> >
+> 生成失败
+
+> <sub>Python项目自动化多服务器部署的工具</sub>
+
+---
+## android-cn/android-dev-com
+
+> [!info]
+> ⭐ 2,416 · N/A · 2016-06-08  
+> [GitHub](https://github.com/android-cn/android-dev-com) · [Website](https://www.codekk.com)  
+> >
+> 生成失败
+
+> <sub>Some Famous Android Developers Information, 微信公众号:codekk, 网站:</sub>
+
+---
+## android-cn/android-dev-cn
+
+> [!info]
+> ⭐ 2,899 · N/A · 2016-09-21  
+> [GitHub](https://github.com/android-cn/android-dev-cn) · [Website](https://www.codekk.com)  
+> >
+> 生成失败
+
+> <sub>Some Chinese Android Developers Information, 微信公众号:codekk, 网站:</sub>
+
+---
+## JeremyHeleine/Photo-Sphere-Viewer
+
+> [!info]
+> ⭐ 881 · JavaScript · 2019-08-07  
+> [GitHub](https://github.com/JeremyHeleine/Photo-Sphere-Viewer)  
+> >
+> 生成失败
+
+> <sub>A JavaScript library to display Photo Sphere panoramas.</sub>
+
+---
+## fouber/blog
+
+> [!info]
+> ⭐ 22,657 · N/A · 2019-11-12  
+> [GitHub](https://github.com/fouber/blog)  
+> >
+> 生成失败
+
+> <sub>没事写写文章，喜欢的话请点star，想订阅点watch，千万别fork！</sub>
+
+---
+## binux/qiandao
+
+> [!info]
+> ⭐ 3,444 · JavaScript · 2022-11-24  
+> [GitHub](https://github.com/binux/qiandao) · [Website](https://qiandao.today)  
+> >
+> 生成失败
+
+> <sub>签到</sub>
+
+---
+## acgotaku/GetCookies
+
+> [!info]
+> ⭐ 289 · JavaScript · 2017-07-01  
+> [GitHub](https://github.com/acgotaku/GetCookies)  
+> >
+> 生成失败
+
+> <sub>Assistant for get HTTP ONLY Cookies.</sub>
+
+---
+## hexojs/hexo
+
+> [!info]
+> ⭐ 41,255 · TypeScript · 2026-02-23  
+> [GitHub](https://github.com/hexojs/hexo) · [Website](https://hexo.io)  
+> `#hacktoberfest` `#hexo` `#javascript` `#nodejs` `#static-site-generator` `#typescript` >
+> 生成失败
+
+> <sub>A fast, simple & powerful blog framework, powered by Node.js.</sub>
+
+---
+## django/django
+
+> [!info]
+> ⭐ 86,931 · Python · 2026-02-25  
+> [GitHub](https://github.com/django/django) · [Website](https://www.djangoproject.com/)  
+> `#apps` `#django` `#framework` `#models` `#orm` `#python` `#templates` `#views` `#web` >
+> 生成失败
+
+> <sub>The Web framework for perfectionists with deadlines.</sub>
+
+---
+## WuXianglong/GeekBlog
+
+> [!info]
+> ⭐ 117 · JavaScript · 2019-02-15  
+> [GitHub](https://github.com/WuXianglong/GeekBlog) · [Website](http://blog.1saying.com)  
+> `#blog` `#django` `#django-blog` `#python` >
+> 生成失败
+
+> <sub>A full blog system based on Django</sub>
+
+---
+## django-guardian/django-guardian
+
+> [!info]
+> ⭐ 3,880 · Python · 2026-02-24  
+> [GitHub](https://github.com/django-guardian/django-guardian) · [Website](https://django-guardian.readthedocs.io/)  
+> >
+> 生成失败
+
+> <sub>Per object permissions for Django</sub>
+
+---
+## flyhigher139/mayblog
+
+> [!info]
+> ⭐ 162 · HTML · 2020-01-03  
+> [GitHub](https://github.com/flyhigher139/mayblog)  
+> `#blog` `#django` `#docker` `#mongodb` `#mongoengine` `#python` >
+> 生成失败
+
+> <sub>Yet another django based blog created in May 2015</sub>
+
+---
+## ericflo/django-pagination
+
+> [!info]
+> ⭐ 516 · Python · 2024-02-13  
+> [GitHub](https://github.com/ericflo/django-pagination) · [Website](http://code.google.com/p/django-pagination/)  
+> >
+> 生成失败
+
+> <sub>A set of utilities for creating robust pagination tools throughout a django application.</sub>
+
+---
+## jmcclell/django-bootstrap-pagination
+
+> [!info]
+> ⭐ 213 · Python · 2021-04-16  
+> [GitHub](https://github.com/jmcclell/django-bootstrap-pagination)  
+> `#bootstrap` `#bootstrap-3` `#bootstrap-4` `#bootstrap-pagination` `#django` `#python` >
+> 生成失败
+
+> <sub>Django template tag for rendering Page objects as Bootstrap pagination HTML</sub>
+
+---
+## TencentYouTu/python_sdk
+
+> [!info]
+> ⭐ 64 · Python · 2016-09-01  
+> [GitHub](https://github.com/TencentYouTu/python_sdk)  
+> >
+> 生成失败
+
+> <sub>python_sdk for TencentYoutuyun-person-face-service</sub>
+
+---
+## stephenmcd/django-socketio
+
+> [!info]
+> ⭐ 1,318 · Python · 2021-05-17  
+> [GitHub](https://github.com/stephenmcd/django-socketio)  
+> >
+> 生成失败
+
+> <sub>WebSockets for Django</sub>
+
+---
+## DroidPluginTeam/DroidPlugin
+
+> [!info]
+> ⭐ 6,976 · Java · 2024-06-06  
+> [GitHub](https://github.com/DroidPluginTeam/DroidPlugin) · [Website](http://droidpluginteam.github.io/DroidPlugin/)  
+> `#android` `#droid-plugin` `#hook` `#plugin` `#pluginframework` `#virtualization` >
+> 生成失败
+
+> <sub>A plugin framework on android,Run any third-party apk without installation, modification or repackage</sub>
+
+---
+## iberryful/weixin_sogou
+
+> [!info]
+> ⭐ 753 · CSS · 2015-10-01  
+> [GitHub](https://github.com/iberryful/weixin_sogou) · [Website](http://weirss.me)  
+> >
+> 生成失败
+
+> <sub>爬取微信公众号文章</sub>
+
+---
+## leanote/leanote
+
+> [!info]
+> ⭐ 11,723 · JavaScript · 2023-11-27  
+> [GitHub](https://github.com/leanote/leanote) · [Website](http://leanote.com)  
+> `#evernote` `#leanote` >
+> 生成失败
+
+> <sub>Not Just A Notepad! (golang + mongodb) http://leanote.org</sub>
+
+---
+## hugapi/hug
+
+> [!info]
+> ⭐ 6,909 · Python · 2024-07-04  
+> [GitHub](https://github.com/hugapi/hug)  
+> `#command-line` `#falcon` `#http` `#http-server` `#hug-api` `#python` `#python-api` `#python3` >
+> 生成失败
+
+> <sub>Embrace the APIs of the future. Hug aims to make developing APIs as simple as possible, but no simpler.</sub>
+
+---
+## limodou/uliweb
+
+> [!info]
+> ⭐ 470 · Python · 2021-07-04  
+> [GitHub](https://github.com/limodou/uliweb) · [Website](limodou.github.com/uliweb-doc)  
+> >
+> 生成失败
+
+> <sub>Simple and easy use python web framework</sub>
+
+---
+## cobrateam/splinter
+
+> [!info]
+> ⭐ 2,768 · Python · 2025-08-16  
+> [GitHub](https://github.com/cobrateam/splinter) · [Website](http://splinter.readthedocs.org/en/stable/index.html)  
+> `#automation` `#hacktoberfest` `#python` `#selenium` `#webdriver` >
+> 生成失败
+
+> <sub>splinter - python test framework for web applications</sub>
+
+---
+## markyun/markyun
+
+> [!info]
+> ⭐ 11,263 · N/A · 2024-02-02  
+> [GitHub](https://github.com/markyun/markyun) · [Website](http://markyun.github.io/)  
+> `#front-end` `#front-end-developer` `#front-end-interview-question` >
+> 生成失败
+
+> <sub>在Github的学习片段</sub>
+
+---
+## rmax/scrapy-redis
+
+> [!info]
+> ⭐ 5,644 · Python · 2024-07-06  
+> [GitHub](https://github.com/rmax/scrapy-redis) · [Website](http://scrapy-redis.readthedocs.io)  
+> `#crawler` `#distributed` `#redis` `#scrapy` >
+> 生成失败
+
+> <sub>Redis-based components for Scrapy.</sub>
+
+---
+## dcloudio/casecode
+
+> [!info]
+> ⭐ 1,439 · JavaScript · 2021-06-09  
+> [GitHub](https://github.com/dcloudio/casecode)  
+> >
+> 生成失败
+
+> <sub>DCloud开源项目集锦</sub>
+
+---
+## vicalloy/django-simple-avatar
+
+> [!info]
+> ⭐ 12 · Python · 2015-05-25  
+> [GitHub](https://github.com/vicalloy/django-simple-avatar)  
+> >
+> 生成失败
+
+> <sub>A reusable django application for handling Avatars.</sub>
+
+---
+## ericflo/django-avatar
+
+> [!info]
+> ⭐ 15 · Python · 2012-10-08  
+> [GitHub](https://github.com/ericflo/django-avatar) · [Website](https://github.com/jezdez/django-avatar)  
+> >
+> 生成失败
+
+> <sub>MOVED TO https://github.com/jezdez/django-avatar</sub>
+
+---
+## bread-and-pepper/django-userena
+
+> [!info]
+> ⭐ 1,250 · Python · 2019-09-17  
+> [GitHub](https://github.com/bread-and-pepper/django-userena) · [Website](http://django-userena.readthedocs.org)  
+> >
+> 生成失败
+
+> <sub>Accounts for Django made beautifully simple</sub>
+
+---
+## Dogfalo/materialize
+
+> [!info]
+> ⭐ 39,164 · JavaScript · 2025-08-10  
+> [GitHub](https://github.com/Dogfalo/materialize) · [Website](https://materializecss.com)  
+> `#css` `#css-framework` `#design` `#framework` `#javascript` `#material` `#material-design` >
+> 生成失败
+
+> <sub>Materialize, a CSS Framework based on Material Design</sub>
+
+---
+## muicss/mui
+
+> [!info]
+> ⭐ 4,492 · JavaScript · 2021-08-23  
+> [GitHub](https://github.com/muicss/mui) · [Website](https://www.muicss.com)  
+> `#css-framework` `#google-material` `#javascript` `#lightweight-css-framework` `#material` `#meteor` `#mui` `#nodejs` >
+> 生成失败
+
+> <sub>Lightweight CSS framework</sub>
+
+---
+## yidao620c/python3-cookbook
+
+> [!info]
+> ⭐ 12,009 · Jupyter Notebook · 2024-07-24  
+> [GitHub](https://github.com/yidao620c/python3-cookbook)  
+> `#python` `#python3` `#python3-cookbook` `#readthedocs` >
+> 生成失败
+
+> <sub>《Python Cookbook》 3rd Edition Translation</sub>
+
+---
+## anru/rsted
+
+> [!info]
+> ⭐ 696 · JavaScript · 2018-10-11  
+> [GitHub](https://github.com/anru/rsted) · [Website](http://rst.ninjs.org)  
+> >
+> 生成失败
+
+> <sub>[UNMAINTAINED] Online reStructuredText editor</sub>
+
+---
+## celery/django-celery
+
+> [!info]
+> ⭐ 1,557 · Python · 2025-05-20  
+> [GitHub](https://github.com/celery/django-celery) · [Website](http://celery.github.com/django-celery)  
+> `#celery` `#django` `#python` >
+> 生成失败
+
+> <sub>Old Celery integration project for Django</sub>
+
+---
+## nuuneoi/Lab-Android-DesignLibrary
+
+> [!info]
+> ⭐ 639 · Java · 2017-10-15  
+> [GitHub](https://github.com/nuuneoi/Lab-Android-DesignLibrary)  
+> >
+> 生成失败
+
+---
+## ipader/SwiftGuide
+
+> [!info]
+> ⭐ 16,019 · Swift · 2025-02-07  
+> [GitHub](https://github.com/ipader/SwiftGuide)  
+> `#swift` `#swift-programming-language` >
+> 生成失败
+
+> <sub>Swift Featured Projects in brain Mapping</sub>
+
+---
+## apache/echarts
+
+> [!info]
+> ⭐ 65,785 · TypeScript · 2026-02-17  
+> [GitHub](https://github.com/apache/echarts) · [Website](https://echarts.apache.org)  
+> `#apache` `#canvas` `#charting-library` `#charts` `#data-visualization` `#data-viz` `#echarts` `#svg` `#visualization` >
+> 生成失败
+
+> <sub>Apache ECharts is a powerful, interactive charting and data visualization library for browser</sub>
+
+---
+## gmcquillan/django-brake
+
+> [!info]
+> ⭐ 106 · Python · 2024-05-17  
+> [GitHub](https://github.com/gmcquillan/django-brake)  
+> `#django` `#python` `#ratelimiting` >
+> 生成失败
+
+> <sub>Django Brake - a versatile ratelimiting app for Django.</sub>
+
+---
+## jsocol/django-ratelimit
+
+> [!info]
+> ⭐ 1,141 · Python · 2024-07-11  
+> [GitHub](https://github.com/jsocol/django-ratelimit) · [Website](https://django-ratelimit.readthedocs.io/en/latest/)  
+> >
+> 生成失败
+
+> <sub>Cache-based rate-limiting for Django</sub>
+
+---
+## sofish/typo.css
+
+> [!info]
+> ⭐ 4,541 · HTML · 2020-09-30  
+> [GitHub](https://github.com/sofish/typo.css) · [Website](http://typo.sofi.sh)  
+> >
+> 生成失败
+
+> <sub>中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版</sub>
+
+---
+## tiimgreen/github-cheat-sheet
+
+> [!info]
+> ⭐ 55,354 · N/A · 2024-04-15  
+> [GitHub](https://github.com/tiimgreen/github-cheat-sheet) · [Website](http://git.io/sheet)  
+> `#awesome` `#awesome-list` `#git` `#github` `#list` >
+> 生成失败
+
+> <sub>A list of cool features of Git and GitHub.</sub>
+
+---
+## geekcompany/DeerResume
+
+> [!info]
+> ⭐ 3,459 · JavaScript · 2018-05-07  
+> [GitHub](https://github.com/geekcompany/DeerResume)  
+> >
+> 生成失败
+
+> <sub>MarkDown在线简历工具，可在线预览、编辑和生成PDF。[此项目已不再维护，建议使用 cv.ftqq.com 替代 ]</sub>
+
+---
+## geekcompany/ResumeSample
+
+> [!info]
+> ⭐ 28,012 · N/A · 2024-08-14  
+> [GitHub](https://github.com/geekcompany/ResumeSample) · [Website](http://cv.ftqq.com/?fr=github)  
+> >
+> 生成失败
+
+> <sub>Resume template for Chinese programmers . 程序员简历模板系列。包括PHP程序员简历模板、iOS程序员简历模板、Android程序员简历模板、Web前端程序员简历模板、Java程序员简历模板、C/C++程序员简历模板、NodeJS程序员简历模板、架构师简历模板以及通用程序员简历模板</sub>
+
+---
+## justjavac/free-programming-books-zh_CN
+
+> [!info]
+> ⭐ 116,354 · N/A · 2024-07-15  
+> [GitHub](https://github.com/justjavac/free-programming-books-zh_CN) · [Website](http://weibo.com/justjavac)  
+> `#android` `#angular` `#books` `#free` `#ios` `#javascript` `#kotlin` `#pdf` `#programming` `#python` `#react` `#react-native` `#swift` `#vue` >
+> 生成失败
+
+> <sub>:books: 免费的计算机编程类中文书籍，欢迎投稿</sub>
+
+---
+## ququplay/jquery-mobile-flat-ui-theme
+
+> [!info]
+> ⭐ 1,620 · CSS · 2015-08-09  
+> [GitHub](https://github.com/ququplay/jquery-mobile-flat-ui-theme) · [Website](http://ququplay.github.com/jquery-mobile-flat-ui-theme)  
+> >
+> 生成失败
+
+> <sub>jQuery Mobile Flat UI Theme</sub>
+
+---
+## GTBrowser/Jndroid.js
+
+> [!info]
+> ⭐ 133 · JavaScript · 2015-11-12  
+> [GitHub](https://github.com/GTBrowser/Jndroid.js)  
+> >
+> 生成失败
+
+> <sub>Building WebApp in Android way.</sub>
+
+---
+## stowball/jQuery-rwdImageMaps
+
+> [!info]
+> ⭐ 1,562 · JavaScript · 2021-12-04  
+> [GitHub](https://github.com/stowball/jQuery-rwdImageMaps) · [Website](http://mattstow.com)  
+> `#jquery` `#jquery-plugin` `#responsive` >
+> 生成失败
+
+> <sub>Responsive Image Maps jQuery Plugin</sub>
+
+---
+## gollum/gollum
+
+> [!info]
+> ⭐ 14,235 · Ruby · 2025-11-24  
+> [GitHub](https://github.com/gollum/gollum)  
+> `#documentation` `#documentation-tool` `#gollum` `#jruby-support` `#markdown` `#ruby` `#wiki` >
+> 生成失败
+
+> <sub>A simple, Git-powered wiki with a local frontend and support for many kinds of markup and content.</sub>
+
+---
+## fxsjy/jieba
+
+> [!info]
+> ⭐ 34,762 · Python · 2024-08-21  
+> [GitHub](https://github.com/fxsjy/jieba)  
+> >
+> 生成失败
+
+> <sub>结巴中文分词</sub>
+
+---
+## lincolnloop/python-qrcode
+
+> [!info]
+> ⭐ 4,855 · Python · 2026-01-12  
+> [GitHub](https://github.com/lincolnloop/python-qrcode) · [Website](https://pypi.python.org/pypi/qrcode)  
+> >
+> 生成失败
+
+> <sub>Python QR Code image generator</sub>
+
+---
+## cyfdecyf/cow
+
+> [!info]
+> ⭐ 8,448 · Go · 2023-02-05  
+> [GitHub](https://github.com/cyfdecyf/cow)  
+> >
+> 生成失败
+
+> <sub>HTTP proxy written in Go. COW can automatically identify blocked sites and use parent proxies to access.</sub>
+
+---
+## PhilJay/MPAndroidChart
+
+> [!info]
+> ⭐ 38,226 · Java · 2025-06-05  
+> [GitHub](https://github.com/PhilJay/MPAndroidChart)  
+> `#android` `#chart` `#graph` `#java` `#mpandroidchart` >
+> 生成失败
+
+> <sub>A powerful 🚀 Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations.</sub>
+
+---
+## kartik-v/bootstrap-star-rating
+
+> [!info]
+> ⭐ 1,054 · JavaScript · 2023-03-22  
+> [GitHub](https://github.com/kartik-v/bootstrap-star-rating) · [Website](http://plugins.krajee.com/star-rating)  
+> `#bootstrap-star-rating` `#caption` `#change-stars` `#css` `#css-styles` `#fractional` `#javascript` `#jquery` `#rate-control` `#rating` `#rtl` `#star` `#star-symbols` >
+> 生成失败
+
+> <sub>A simple yet powerful JQuery star rating plugin with fractional rating support.</sub>
+
+---
+## greatyao/v2ex-android
+
+> [!info]
+> ⭐ 500 · Java · 2019-05-29  
+> [GitHub](https://github.com/greatyao/v2ex-android)  
+> >
+> 生成失败
+
+> <sub>爱V2EX（原掌上V2EX）</sub>
+
+---
+## romannurik/AndroidAssetStudio
+
+> [!info]
+> ⭐ 6,578 · JavaScript · 2024-05-21  
+> [GitHub](https://github.com/romannurik/AndroidAssetStudio)  
+> >
+> 生成失败
+
+> <sub>A set of web-based tools for generating graphics and other assets that would eventually be in an Android application's res/ directory.</sub>
+
+---
+## shinux/PyTime
+
+> [!info]
+> ⭐ 158 · Python · 2022-11-05  
+> [GitHub](https://github.com/shinux/PyTime)  
+> `#date-time` `#datetime` `#python` `#pytime` >
+> 生成失败
+
+> <sub>PyTime is an easy-use Python module which aims to operate date/time/datetime by string.</sub>
+
+---
+## layui/layer
+
+> [!info]
+> ⭐ 8,219 · JavaScript · 2024-07-22  
+> [GitHub](https://github.com/layui/layer) · [Website](https://layui.dev/2.7/layer/)  
+> `#alert` `#confirm` `#dialog` `#layer` `#layui` `#tips` >
+> 生成失败
+
+> <sub>丰富多样的 Web 弹出层组件，可轻松实现 Alert/Confirm/Prompt/ 普通提示/页面区块/iframe/tips等等几乎所有的弹出交互。目前已成为最多人使用的弹层解决方案</sub>
+
+---
+## dsphper/lUpload
+
+> [!info]
+> ⭐ 51 · JavaScript · 2017-10-23  
+> [GitHub](https://github.com/dsphper/lUpload)  
+> >
+> 生成失败
+
+> <sub>:zap: :rocket:This is a upload plug-ins</sub>
+
+---
+## nkunihiko/django-bootstrap3-datetimepicker
+
+> [!info]
+> ⭐ 117 · JavaScript · 2018-05-18  
+> [GitHub](https://github.com/nkunihiko/django-bootstrap3-datetimepicker)  
+> >
+> 生成失败
+
+---
+## jazzband/django-taggit
+
+> [!info]
+> ⭐ 3,427 · Python · 2026-01-19  
+> [GitHub](https://github.com/jazzband/django-taggit) · [Website](https://django-taggit.readthedocs.io)  
+> >
+> 生成失败
+
+> <sub>Simple tagging for django</sub>
+
+---
+## selwin/python-user-agents
+
+> [!info]
+> ⭐ 1,517 · Python · 2023-02-16  
+> [GitHub](https://github.com/selwin/python-user-agents)  
+> `#browser-detection` `#python` `#user-agent-detection` >
+> 生成失败
+
+> <sub>A Python library that provides an easy way to identify devices like mobile phones, tablets and their capabilities by parsing (browser) user agent strings.</sub>
+
+---
+## bydmm/Startup-Game
+
+> [!info]
+> ⭐ 310 · Ruby · 2019-07-01  
+> [GitHub](https://github.com/bydmm/Startup-Game)  
+> >
+> 生成失败
+
+> <sub>创业者的游戏： 中关村启示录</sub>
+
+---
+## zsxsoft/useragent.js
+
+> [!info]
+> ⭐ 78 · JavaScript · 2019-11-07  
+> [GitHub](https://github.com/zsxsoft/useragent.js) · [Website](http://zsxsoft.github.io/useragent.js)  
+> `#javascript` `#nodejs` `#user-agent` >
+> 生成失败
+
+> <sub>A User-agent analyze project.</sub>
+
+---
+## sshwsfc/xadmin
+
+> [!info]
+> ⭐ 4,768 · Python · 2025-12-16  
+> [GitHub](https://github.com/sshwsfc/xadmin) · [Website](http://www.xadmin.io)  
+> `#admin` `#react` `#redux` >
+> 生成失败
+
+> <sub>Drop-in replacement of Django admin comes with lots of goodies, fully extensible with plugin support, pretty UI based on Twitter Bootstrap.</sub>
+
+---
+## the5fire/django_selfblog
+
+> [!info]
+> ⭐ 251 · JavaScript · 2017-06-19  
+> [GitHub](https://github.com/the5fire/django_selfblog) · [Website](http://the5fire.com)  
+> >
+> 生成失败
+
+> <sub>Another opensource blog system  based on Django1.6</sub>
+
+---
+## messense/wechat-bot
+
+> [!info]
+> ⭐ 181 · Python · 2014-09-24  
+> [GitHub](https://github.com/messense/wechat-bot)  
+> >
+> 生成失败
+
+> <sub>A robot of wechat based on python (Not maintained)</sub>
+
+---
+## offu/WeRoBot
+
+> [!info]
+> ⭐ 4,671 · Python · 2026-01-13  
+> [GitHub](https://github.com/offu/WeRoBot) · [Website](https://werobot.readthedocs.io/zh_CN/latest/)  
+> `#python` `#sdk` `#wechat` `#wechat-framework` `#wechat-sdk` `#weixin` `#weixin-sdk` >
+> 生成失败
+
+> <sub>WeRoBot 是一个微信公众号开发框架</sub>
+
+---
+## zdhxiong/v2ex-material-theme
+
+> [!info]
+> ⭐ 64 · CSS · 2019-10-25  
+> [GitHub](https://github.com/zdhxiong/v2ex-material-theme)  
+> >
+> 生成失败
+
+> <sub>v2ex 的 Material design 风格 CSS</sub>
+
+---
+## gregmuellegger/django-mobile
+
+> [!info]
+> ⭐ 557 · Python · 2023-02-26  
+> [GitHub](https://github.com/gregmuellegger/django-mobile) · [Website](http://pypi.python.org/pypi/django-mobile)  
+> >
+> 生成失败
+
+> <sub>Detect mobile browsers and serve different template flavours to them.</sub>
+
+---
+## wenzhixin/bootstrap-table
+
+> [!info]
+> ⭐ 11,822 · JavaScript · 2026-02-25  
+> [GitHub](https://github.com/wenzhixin/bootstrap-table) · [Website](https://bootstrap-table.com/)  
+> `#bootstrap` `#bootstrap-table` `#bulma` `#checkbox` `#css` `#css-framework` `#datatables` `#foundation` `#hacktoberfest` `#material` `#material-design` `#materialize` `#pagination` `#radio` `#semantic` `#semantic-ui` `#table` `#vue` >
+> 生成失败
+
+> <sub>An extended table for integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)</sub>
+
+---
+## gaqzi/django-emoji
+
+> [!info]
+> ⭐ 110 · Python · 2024-04-19  
+> [GitHub](https://github.com/gaqzi/django-emoji) · [Website](https://pypi.python.org/pypi/django-emoji)  
+> >
+> 生成失败
+
+> <sub>A simple django app to use emojis on your website ⛺</sub>
+
+---
+## markpluslabs/react-markplus
+
+> [!info]
+> ⭐ 2,121 · SCSS · 2025-02-09  
+> [GitHub](https://github.com/markpluslabs/react-markplus) · [Website](https://markpluslabs.github.io/react-markplus/)  
+> `#markdown` `#markdown-editor` `#markdown-editor-react` `#markplus` `#react` `#react-editor` >
+> 生成失败
+
+> <sub>A React markdown editor and previewer.</sub>
+
+---
+## manyunkai/dannysite.com
+
+> [!info]
+> ⭐ 52 · JavaScript · 2015-11-27  
+> [GitHub](https://github.com/manyunkai/dannysite.com) · [Website](https://www.dannysite.com)  
+> >
+> 生成失败
+
+> <sub>Source code to dannysite.com</sub>
+
+---
+## kokdemo/v2ex.k
+
+> [!info]
+> ⭐ 144 · JavaScript · 2019-09-30  
+> [GitHub](https://github.com/kokdemo/v2ex.k)  
+> >
+> 生成失败
+
+> <sub>Get a better UI of V2EX.</sub>
+
+---
+## gyk001/hexo-qiniu-sync
+
+> [!info]
+> ⭐ 355 · JavaScript · 2017-03-24  
+> [GitHub](https://github.com/gyk001/hexo-qiniu-sync)  
+> >
+> 生成失败
+
+> <sub>Hexo七牛同步插件</sub>
+
+---
+## kyze8439690/v2ex-daily-android
+
+> [!info]
+> ⭐ 468 · Java · 2015-04-26  
+> [GitHub](https://github.com/kyze8439690/v2ex-daily-android)  
+> >
+> 生成失败
+
+> <sub>A v2ex client on android platform.(deprecated)</sub>
+
+---
+## GitbookIO/gitbook
+
+> [!info]
+> ⭐ 28,683 · TypeScript · 2026-02-25  
+> [GitHub](https://github.com/GitbookIO/gitbook) · [Website](https://www.gitbook.com)  
+> `#documentation` `#git` `#gitbook` `#markdown` >
+> 生成失败
+
+> <sub>The open source frontend for GitBook doc sites</sub>
+
+---
+## Trinea/android-open-project
+
+> [!info]
+> ⭐ 31,839 · N/A · 2025-08-02  
+> [GitHub](https://github.com/Trinea/android-open-project) · [Website](https://p.codekk.com/)  
+> `#android` `#open-source-project` >
+> 生成失败
+
+> <sub>A categorized collection of Android Open Source Projects,  More powerful web version:</sub>
+
+---
+## kesenhoo/android-training-course-in-chinese
+
+> [!info]
+> ⭐ 10,922 · JavaScript · 2018-01-11  
+> [GitHub](https://github.com/kesenhoo/android-training-course-in-chinese) · [Website](http://hukai.me/android-training-course-in-chinese/index.html)  
+> >
+> 生成失败
+
+> <sub>Android官方培训课程中文版</sub>
+
+---
+## furious-luke/django-address
+
+> [!info]
+> ⭐ 442 · Python · 2023-10-13  
+> [GitHub](https://github.com/furious-luke/django-address)  
+> >
+> 生成失败
+
+> <sub>A Django address model and field. Addresses may be specified by address components or by performing an automatic Google Maps lookup.</sub>
+
+---
+## watsy0007/djangoBaidusitemap
+
+> [!info]
+> ⭐ 12 · Python · 2013-08-22  
+> [GitHub](https://github.com/watsy0007/djangoBaidusitemap)  
+> >
+> 生成失败
+
+> <sub>django动态生成百度地图。</sub>
+
+---
+## node-webot/wechat
+
+> [!info]
+> ⭐ 5,150 · JavaScript · 2018-12-28  
+> [GitHub](https://github.com/node-webot/wechat)  
+> >
+> 生成失败
+
+> <sub>微信公共平台消息接口服务中间件</sub>
+
+---
+## foundation/foundation-sites
+
+> [!info]
+> ⭐ 29,766 · HTML · 2025-01-21  
+> [GitHub](https://github.com/foundation/foundation-sites) · [Website](https://get.foundation)  
+> >
+> 生成失败
+
+> <sub>The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites that work on any kind of device.</sub>
+
+---
+## weareoutman/clockpicker
+
+> [!info]
+> ⭐ 1,985 · JavaScript · 2021-07-07  
+> [GitHub](https://github.com/weareoutman/clockpicker) · [Website](http://weareoutman.github.io/clockpicker/)  
+> >
+> 生成失败
+
+> <sub>A clock-style timepicker for Bootstrap (or jQuery). Sorry but no longer maintained.</sub>
+
+---
+## onokumus/metismenu
+
+> [!info]
+> ⭐ 1,961 · JavaScript · 2026-01-22  
+> [GitHub](https://github.com/onokumus/metismenu) · [Website](https://onokumus.github.io/metismenu/)  
+> `#jquery` `#jquery-plugin` `#menu` `#metismenu` >
+> 生成失败
+
+> <sub>A collapsible jQuery menu plugin</sub>
+
+---
+## zgs225/easy-tree
+
+> [!info]
+> ⭐ 122 · JavaScript · 2016-11-09  
+> [GitHub](https://github.com/zgs225/easy-tree)  
+> >
+> 生成失败
+
+> <sub>A jquery and bootstrap basic tree view plugin, easily use.</sub>
+
+---
+## sorich87/bootstrap-tour
+
+> [!info]
+> ⭐ 4,422 · CoffeeScript · 2023-10-09  
+> [GitHub](https://github.com/sorich87/bootstrap-tour) · [Website](http://bootstraptour.com)  
+> >
+> 生成失败
+
+> <sub>Quick and easy product tours with Twitter Bootstrap Popovers</sub>
+
+---
+## dangrossman/daterangepicker
+
+> [!info]
+> ⭐ 11,005 · JavaScript · 2024-08-09  
+> [GitHub](https://github.com/dangrossman/daterangepicker) · [Website](http://www.daterangepicker.com)  
+> >
+> 生成失败
+
+> <sub>JavaScript Date Range, Date and Time Picker Component</sub>
+
+---
+## bootboxjs/bootbox
+
+> [!info]
+> ⭐ 5,032 · JavaScript · 2026-02-14  
+> [GitHub](https://github.com/bootboxjs/bootbox) · [Website](http://bootboxjs.com)  
+> >
+> 生成失败
+
+> <sub>Wrappers for JavaScript alert(), confirm() and other flexible dialogs using Twitter's bootstrap framework</sub>
+
+---
+## ReactiveRaven/jqBootstrapValidation
+
+> [!info]
+> ⭐ 1,336 · JavaScript · 2022-01-18  
+> [GitHub](https://github.com/ReactiveRaven/jqBootstrapValidation) · [Website](http://reactiveraven.github.io/jqBootstrapValidation)  
+> >
+> 生成失败
+
+> <sub>A JQuery validation framework for bootstrap forms.</sub>
+
+---
+## aozora/bootmetro
+
+> [!info]
+> ⭐ 2,180 · HTML · 2020-10-01  
+> [GitHub](https://github.com/aozora/bootmetro) · [Website](http://aozora.github.io/bootmetro)  
+> `#bootstrap` `#css` `#metro-ui` >
+> 生成失败
+
+> <sub>Simple and complete web UI framework to create web apps with Windows 8 Metro user interface, based on Bootstrap 2.</sub>
+
+---
+## jquery-ui-bootstrap/jquery-ui-bootstrap
+
+> [!info]
+> ⭐ 5,735 · HTML · 2018-06-18  
+> [GitHub](https://github.com/jquery-ui-bootstrap/jquery-ui-bootstrap) · [Website](http://jquery-ui-bootstrap.github.io/jquery-ui-bootstrap/)  
+> >
+> 生成失败
+
+> <sub>A jQuery UI theme based on Twitter Bootstrap</sub>
+
+---
+## goodybag/bootstrap-notify
+
+> [!info]
+> ⭐ 822 · HTML · 2024-03-08  
+> [GitHub](https://github.com/goodybag/bootstrap-notify) · [Website](http://goodybag.github.com/bootstrap-notify)  
+> >
+> 生成失败
+
+> <sub>Bootstrap alert system made better, builds off of bootstrap-alert.js</sub>
+
+---
+## eldarion/eldarion-ajax
+
+> [!info]
+> ⭐ 756 · JavaScript · 2020-10-01  
+> [GitHub](https://github.com/eldarion/eldarion-ajax)  
+> >
+> 生成失败
+
+> <sub>a library for adding declarative ajax functionality to your website</sub>
+
+---
+## clu3/bootstro.js
+
+> [!info]
+> ⭐ 1,321 · JavaScript · 2018-09-24  
+> [GitHub](https://github.com/clu3/bootstro.js) · [Website](http://clu3.github.io/bootstro.js/)  
+> >
+> 生成失败
+
+> <sub>Tiny JS library using bootstrap's popovers to help guide your users around your website</sub>
+
+---
+## maxwells/bootstrap-tags
+
+> [!info]
+> ⭐ 543 · CoffeeScript · 2017-04-27  
+> [GitHub](https://github.com/maxwells/bootstrap-tags)  
+> `#unmaintained` >
+> 生成失败
+
+> <sub>Bootstrap-themed jquery tag interface</sub>
+
+---
+## buberdds/angular-bootstrap-colorpicker
+
+> [!info]
+> ⭐ 417 · CSS · 2019-02-19  
+> [GitHub](https://github.com/buberdds/angular-bootstrap-colorpicker)  
+> >
+> 生成失败
+
+> <sub>Native AngularJS colorpicker directive. No dependency on jQuery or jQuery plugin is required.</sub>
+
+---
+## itsjavi/bootstrap-colorpicker
+
+> [!info]
+> ⭐ 1,367 · JavaScript · 2022-04-07  
+> [GitHub](https://github.com/itsjavi/bootstrap-colorpicker) · [Website](https://itsjavi.com/bootstrap-colorpicker/)  
+> `#bootstrap` `#bootstrap-colorpicker` `#bootstrap-components` `#bootstrap-plugin` `#bootstrap3` `#bootstrap4` `#color` `#color-picker` `#colorpicker` `#jquery` `#twitter-bootstrap` >
+> 生成失败
+
+> <sub>Bootstrap Colorpicker is a modular color picker plugin for Bootstrap.</sub>
+
+---
+## Semantic-Org/Semantic-UI
+
+> [!info]
+> ⭐ 51,139 · JavaScript · 2024-11-27  
+> [GitHub](https://github.com/Semantic-Org/Semantic-UI) · [Website](http://www.semantic-ui.com)  
+> `#button` `#css-framework` `#dropdown` `#flexbox` `#popup` `#semantic` `#sidebar` `#tooltip` `#ui` `#ui-components` >
+> 生成失败
+
+> <sub>Semantic is a UI component framework based around useful principles from natural language.</sub>
+
+---
+## welefen/pjax
+
+> [!info]
+> ⭐ 898 · JavaScript · 2019-04-30  
+> [GitHub](https://github.com/welefen/pjax) · [Website](http://www.welefen.com/pjax-for-ajax-and-pushstate.html)  
+> `#pushstate-pjax` >
+> 生成失败
+
+> <sub>ajax + history.pushState = pjax</sub>
+
+---
+## defunkt/jquery-pjax
+
+> [!info]
+> ⭐ 16,671 · JavaScript · 2022-11-30  
+> [GitHub](https://github.com/defunkt/jquery-pjax) · [Website](https://pjax.herokuapp.com)  
+> >
+> 生成失败
+
+> <sub>pushState + ajax = pjax</sub>
+
+---
+## yangyangwithgnu/hardseed
+
+> [!info]
+> ⭐ 9,234 · C++ · 2018-08-25  
+> [GitHub](https://github.com/yangyangwithgnu/hardseed)  
+> >
+> 生成失败
+
+> <sub>SEX IS ZERO (0), so, who wanna be the ONE (1), aha?</sub>
+
+---
+## zostera/django-bootstrap3
+
+> [!info]
+> ⭐ 2,337 · Python · 2026-02-06  
+> [GitHub](https://github.com/zostera/django-bootstrap3) · [Website](http://django-bootstrap3.readthedocs.org/)  
+> `#bootstrap3` `#django` `#python` >
+> 生成失败
+
+> <sub>Bootstrap 3 integration with Django.</sub>
+
+---
+## tapir-dream/berserkJS
+
+> [!info]
+> ⭐ 754 · C++ · 2016-01-06  
+> [GitHub](https://github.com/tapir-dream/berserkJS) · [Website](http://tapir-dream.github.com/berserkJS)  
+> >
+> 生成失败
+
+> <sub>berserkJS 是新形态的前端测试自动化工具 + 页面性能分析工具 ，同时也是个使用 JS 语法控制的命令行浏览器。可用 JS 编写前端自动测试用例 + 页面性能分析用例。 想了解更多？看看连接中的文档吧~~</sub>
+
+---
+## ushuz/weixin-simulator
+
+> [!info]
+> ⭐ 295 · Python · 2020-02-26  
+> [GitHub](https://github.com/ushuz/weixin-simulator)  
+> >
+> 生成失败
+
+> <sub>微信客户端模拟器，方便在本地进行微信公众平台API的开发和调试</sub>
+
+---
+## xixilive/wecheat
+
+> [!info]
+> ⭐ 442 · Ruby · 2018-09-18  
+> [GitHub](https://github.com/xixilive/wecheat)  
+> `#docker` `#wechat` `#wechat-api` `#weixin` >
+> 生成失败
+
+> <sub>开箱即用的微信公众平台API模拟服务器，帮助你开发与调试微信公众平台应用</sub>
+
+---
+## node-webot/webot-cli
+
+> [!info]
+> ⭐ 96 · JavaScript · 2016-10-21  
+> [GitHub](https://github.com/node-webot/webot-cli)  
+> >
+> 生成失败
+
+> <sub>command line interface for weixin-robot</sub>
+
+---
+## kinglio8520/weixin_pay
+
+> [!info]
+> ⭐ 37 · Python · 2019-12-04  
+> [GitHub](https://github.com/kinglio8520/weixin_pay)  
+> >
+> 生成失败
+
+> <sub>微信支付的python接口</sub>
+
+---
+## wechatpy/wechatpy
+
+> [!info]
+> ⭐ 4,259 · Python · 2026-01-08  
+> [GitHub](https://github.com/wechatpy/wechatpy) · [Website](https://www.wechatpy.org)  
+> `#python` `#sdk` `#wechat` `#wechat-sdk` `#wechatpy` `#weixin` `#weixin-sdk` >
+> 生成失败
+
+> <sub>WeChat SDK for Python</sub>
+
+---
+## doraemonext/wechat-python-sdk
+
+> [!info]
+> ⭐ 1,350 · Python · 2020-10-01  
+> [GitHub](https://github.com/doraemonext/wechat-python-sdk)  
+> >
+> 生成失败
+
+> <sub>微信公众平台 Python 开发包 [DEPRECATED]</sub>
+
+---
+## binsee/hexo-qiniu-sync
+
+> [!info]
+> ⭐ 4 · JavaScript · 2020-01-17  
+> [GitHub](https://github.com/binsee/hexo-qiniu-sync)  
+> >
+> 生成失败
+
+> <sub>hexo插件 - 七牛资源同步. 可以在本地存放好静态资源（图片、JS、CSS），然后在md文章中直接使用标签引用，在发布时会自动将静态资源上传到你的七牛空间中，并在hexo生成的静态页面中自动引用这些静态资源在千牛的url。</sub>
+
+---
+## mui/material-ui
+
+> [!info]
+> ⭐ 97,962 · JavaScript · 2026-02-25  
+> [GitHub](https://github.com/mui/material-ui) · [Website](https://mui.com/material-ui/)  
+> `#design-system` `#material-design` `#material-ui` `#react` `#react-components` >
+> 生成失败
+
+> <sub>Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.</sub>
+
+---
+## mdbootstrap/mdb-ui-kit
+
+> [!info]
+> ⭐ 24,289 · SCSS · 2025-12-08  
+> [GitHub](https://github.com/mdbootstrap/mdb-ui-kit) · [Website](https://mdbootstrap.com/docs/standard/)  
+> `#bootstrap` `#bootstrap-material` `#bootstrap-template` `#bootstrap-theme` `#bootstrap-themes` `#bootstrap-ui-kit` `#bootstrap5` `#css` `#framework` `#html` `#javascript` `#material` `#material-design` `#uikit` >
+> 生成失败
+
+> <sub>Bootstrap 5 & Material Design UI KIT</sub>
+
+---
+## thomaspark/bootswatch
+
+> [!info]
+> ⭐ 14,760 · JavaScript · 2025-12-06  
+> [GitHub](https://github.com/thomaspark/bootswatch) · [Website](https://bootswatch.com)  
+> `#bootstrap` `#bootswatch` `#css` `#css-framework` `#theme` >
+> 生成失败
+
+> <sub>Themes for Bootstrap</sub>
+
+---
+## TalksLab/metro-bootstrap
+
+> [!info]
+> ⭐ 1,039 · Less · 2026-02-22  
+> [GitHub](https://github.com/TalksLab/metro-bootstrap) · [Website](http://talkslab.github.io/metro-bootstrap)  
+> `#hacktoberfest` `#maintainer-wanted` >
+> 生成失败
+
+> <sub>Twitter Bootstrap with Metro style</sub>
+
+---
+## qhw/DjangoVerifyCode
+
+> [!info]
+> ⭐ 7 · Python · 2012-10-19  
+> [GitHub](https://github.com/qhw/DjangoVerifyCode)  
+> >
+> 生成失败
+
+> <sub>django verify code</sub>
+
+---
+## mrlong/bootstrap3-validation.js
+
+> [!info]
+> ⭐ 89 · HTML · 2017-07-15  
+> [GitHub](https://github.com/mrlong/bootstrap3-validation.js)  
+> >
+> 生成失败
+
+> <sub>bootstrap3 validation</sub>
+
+---
+## dcloudio/mui
+
+> [!info]
+> ⭐ 13,495 · JavaScript · 2025-05-20  
+> [GitHub](https://github.com/dcloudio/mui) · [Website](https://dev.dcloud.net.cn/mui/)  
+> `#android` `#css` `#dcloud` `#hbuilder` `#ios` `#javascript` `#mui` `#ui` >
+> 生成失败
+
+> <sub>最接近原生APP体验的高性能框架</sub>
 
 ---
