@@ -79,6 +79,7 @@ jobs:
           PAGES_SYNC_ENABLED: ${{ vars.PAGES_SYNC_ENABLED }} # 是否启用 Pages 同步
         run: python scripts/sync_stars.py
 
+      # ── 6. 提交变更到本仓库 ───────────────────────────────
       - name: 提交并推送变更
         run: |
           git config user.name "github-actions[bot]"

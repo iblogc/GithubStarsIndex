@@ -568,12 +568,12 @@
             </div>
 
             <div class="modal-section">
-                <span class="section-label">ORIGINAL_DESCRIPTION</span>
+                <span id="l-desc" class="section-label">ORIGINAL_DESCRIPTION</span>
                 <p id="m-desc" class="modal-desc"></p>
             </div>
 
             <div class="modal-section">
-                <span class="section-label">AI_GENERATED_SUMMARY</span>
+                <span id="l-sum" class="section-label">AI_GENERATED_SUMMARY</span>
                 <p id="m-summary" class="modal-summary"></p>
                 <div id="m-tags" class="topic-list" style="margin-top: 1rem;"></div>
             </div>
@@ -706,8 +706,8 @@
             document.getElementById('m-stars').textContent = `☆ ${texts.stars}: ${item.stars}`;
             document.getElementById('m-desc').textContent = item.description || (currentLang === 'zh' ? '暂无项目描述。' : 'No original description.');
             
-            document.querySelector('#details-modal .modal-section:nth-child(2) .section-label').textContent = texts.orig_desc;
-            document.querySelector('#details-modal .modal-section:nth-child(3) .section-label').textContent = texts.ai_sum;
+            document.getElementById('l-desc').textContent = texts.orig_desc;
+            document.getElementById('l-sum').textContent = texts.ai_sum;
             
             document.getElementById('m-summary').textContent = item.summary[currentLang] || item.summary.zh;
             document.getElementById('m-github').textContent = texts.github_btn;

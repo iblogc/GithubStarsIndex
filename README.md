@@ -97,7 +97,7 @@ ai:
   concurrency: 5                # 并发生成摘要的线程数（可被 MAX_CONCURRENCY 覆盖）
 
 output:
-  file_path: "stars.md"         # 输出文件路径（会自动加上 _zh.md 和 _en.md 后缀）
+  file_path: "stars.md"         # 输出文件名。注：文件现在生成在 dist/ 目录下（如 dist/stars_zh.md）
 
 vault_sync:
   # Vault 同步的开关和仓库名通过 Actions Variables 控制，此处仅配置默认路径和 commit 信息
@@ -194,10 +194,8 @@ python scripts/sync_stars.py
 | `data/stars.json`            | **核心数据集**（抓取的全量项目数据） |
 | `templates/stars.md.j2`      | Markdown 生成模版                    |
 | `templates/index.html.j2`    | HTML (GitHub Pages) 生成模版         |
-| `stars_zh.md`                | 自动生成的中文版 Stars Index 文档    |
-| `stars_en.md`                | 自动生成的英文版 Stars Index 文档    |
 | `dist/index.html`            | 自动生成的 HTML 静态页面             |
-| `dist/stars_zh.md`           | 中文版的副本（用于 Pages 资源下载）  |
-| `dist/stars_en.md`           | 英文版的副本（用于 Pages 资源下载）  |
+| `dist/stars_zh.md`           | 自动生成的中文版 Stars Index 文档    |
+| `dist/stars_en.md`           | 自动生成的英文版 Stars Index 文档    |
 | `scripts/sync_stars.py`      | 核心同步与生成脚本                   |
 | `.github/workflows/sync.yml` | GitHub Actions 定时工作流            |

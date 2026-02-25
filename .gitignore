@@ -20,6 +20,4 @@ venv/
 *.swp
 
 # 数据与构建产物
-data/*
-!data/stars.json
 dist/
