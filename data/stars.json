@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25 16:41 UTC",
+  "last_updated": "2026-02-25 16:56 UTC",
   "repos": {
     "op7418/Document-illustrator-skill": {
       "metadata": {
@@ -36,7 +36,7 @@
         "name": "nanobot",
         "owner": "HKUDS",
         "description": "\"🐈 nanobot: The Ultra-Lightweight OpenClaw\"",
-        "stars": 25044,
+        "stars": 25049,
         "language": "Python",
         "url": "https://github.com/HKUDS/nanobot",
         "homepage": "",
@@ -65,7 +65,7 @@
         "name": "memU",
         "owner": "NevaMind-AI",
         "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
-        "stars": 10660,
+        "stars": 10663,
         "language": "Python",
         "url": "https://github.com/NevaMind-AI/memU",
         "homepage": "https://memu.pro",
@@ -172,7 +172,7 @@
         "name": "cc-switch",
         "owner": "farion1231",
         "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.",
-        "stars": 20082,
+        "stars": 20085,
         "language": "TypeScript",
         "url": "https://github.com/farion1231/cc-switch",
         "homepage": "https://github.com/farion1231/cc-switch",
@@ -218,7 +218,7 @@
         "name": "everything-claude-code",
         "owner": "affaan-m",
         "description": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.",
-        "stars": 51926,
+        "stars": 51938,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/everything-claude-code",
         "homepage": "",
@@ -343,7 +343,7 @@
         "name": "Antigravity-Manager",
         "owner": "lbjlaq",
         "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
-        "stars": 24283,
+        "stars": 24284,
         "language": "Rust",
         "url": "https://github.com/lbjlaq/Antigravity-Manager",
         "homepage": "https://lbjlaq.github.io/Antigravity-Manager/",
@@ -728,7 +728,7 @@
         "name": "vibe-kanban",
         "owner": "BloopAI",
         "description": "Get 10X more out of Claude Code, Codex or any coding agent",
-        "stars": 21869,
+        "stars": 21871,
         "language": "Rust",
         "url": "https://github.com/BloopAI/vibe-kanban",
         "homepage": "https://www.vibekanban.com/",
@@ -899,7 +899,7 @@
         "name": "Handy",
         "owner": "cjpais",
         "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
-        "stars": 16069,
+        "stars": 16073,
         "language": "Rust",
         "url": "https://github.com/cjpais/Handy",
         "homepage": "https://handy.computer",
@@ -962,7 +962,7 @@
         "name": "ui-ux-pro-max-skill",
         "owner": "nextlevelbuilder",
         "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
-        "stars": 34584,
+        "stars": 34588,
         "language": "Python",
         "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
         "homepage": "https://www.uupm.cc/",
@@ -1063,7 +1063,7 @@
         "name": "browserwing",
         "owner": "browserwing",
         "description": "BrowserWing turns your browser actions into MCP commands Or Claude Skill, allowing AI agents to control browsers efficiently and reliably. Say goodbye to slow, token-heavy LLM interactions — let agents call commands directly for faster automation. Perfect for AI-driven tasks, browser automation, and boosting productivity.",
-        "stars": 833,
+        "stars": 834,
         "language": "TypeScript",
         "url": "https://github.com/browserwing/browserwing",
         "homepage": "https://www.browserwing.com",
@@ -1313,7 +1313,7 @@
         "name": "skills",
         "owner": "anthropics",
         "description": "Public repository for Agent Skills",
-        "stars": 75627,
+        "stars": 75635,
         "language": "Python",
         "url": "https://github.com/anthropics/skills",
         "homepage": "",
@@ -1450,7 +1450,7 @@
         "name": "spec-kit",
         "owner": "github",
         "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-        "stars": 71962,
+        "stars": 71966,
         "language": "Python",
         "url": "https://github.com/github/spec-kit",
         "homepage": "https://github.github.com/spec-kit/",
@@ -1479,6 +1479,75 @@
         ]
       },
       "pushed_at": "2026-02-25",
+      "updated_at": "2026-02-25"
+    },
+    "VoltAgent/awesome-claude-code-subagents": {
+      "metadata": {
+        "full_name": "VoltAgent/awesome-claude-code-subagents",
+        "name": "awesome-claude-code-subagents",
+        "owner": "VoltAgent",
+        "description": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
+        "stars": 11397,
+        "language": "Shell",
+        "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+        "homepage": "https://github.com/VoltAgent/voltagent",
+        "topics": [
+          "ai-agent-framework",
+          "ai-agent-tools",
+          "ai-agents",
+          "awesome",
+          "awesome-list",
+          "claude",
+          "claude-ai",
+          "claude-code-subagents",
+          "claude-subagents",
+          "subagents"
+        ],
+        "updated_at": "2026-02-21"
+      },
+      "summary": {
+        "zh": "VoltAgent/awesome-claude-code-subagents 是一个包含127+个专用Claude Code子代理的开源集合，覆盖核心开发、语言专家、基础设施、数据科学等九大类别，支持插件化安装与交互式部署，旨在为开发者提供针对特定任务的AI编程助手。",
+        "tags": [
+          "Claude Code",
+          "AI编程助手",
+          "子代理集合",
+          "开发工具",
+          "插件化",
+          "多语言支持",
+          "DevOps",
+          "开源"
+        ]
+      },
+      "pushed_at": "2026-02-21",
+      "updated_at": "2026-02-25"
+    },
+    "Scipline/Image_matting": {
+      "metadata": {
+        "full_name": "Scipline/Image_matting",
+        "name": "Image_matting",
+        "owner": "Scipline",
+        "description": "一键批量抠图。两种方法。一.使用remove.bg网站账号免费api额度，二.使用rembg和onnxruntime训练模型本地抠图",
+        "stars": 14,
+        "language": "Python",
+        "url": "https://github.com/Scipline/Image_matting",
+        "homepage": "",
+        "topics": [],
+        "updated_at": "2023-01-11"
+      },
+      "summary": {
+        "zh": "一键批量图像抠图工具，支持两种模式：调用 remove.bg 免费 API（需网络，精度高但分辨率低）或本地运行 rembg + ONNX 模型（速度快、清晰度高）。支持自动切换 API Key、批量处理、背景替换及规范文件命名，适用于无 GUI 场景下的高效自动化抠图需求。",
+        "tags": [
+          "图像抠图",
+          "批量处理",
+          "remove.bg",
+          "rembg",
+          "ONNX",
+          "自动化",
+          "背景移除",
+          "计算机视觉"
+        ]
+      },
+      "pushed_at": "2023-01-11",
       "updated_at": "2026-02-25"
     }
   }

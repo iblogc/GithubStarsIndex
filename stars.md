@@ -1,6 +1,6 @@
 # ⭐ GitHub Stars Index
 
-> Updated: 2026-02-25 16:41 UTC · Total: 44
+> Updated: 2026-02-25 16:56 UTC · Total: 46
 
 ---
 
@@ -49,6 +49,8 @@
 - [[#anthropics/skills|anthropics/skills]]
 - [[#tianchangNorth/WeSpy|tianchangNorth/WeSpy]]
 - [[#github/spec-kit|github/spec-kit]]
+- [[#Scipline/Image_matting|Scipline/Image_matting]]
+- [[#VoltAgent/awesome-claude-code-subagents|VoltAgent/awesome-claude-code-subagents]]
 
 ---
 
@@ -66,7 +68,7 @@
 ## HKUDS/nanobot
 
 > [!info]
-> ⭐ 25,044 · Python · 2026-02-25  
+> ⭐ 25,049 · Python · 2026-02-25  
 > [GitHub](https://github.com/HKUDS/nanobot)  
 > `#AI助手` `#轻量级` `#多平台支持` `#MCP协议` `#Python` `#开源` `#智能代理` `#模块化设计` >
 > nanobot 是一款超轻量级个人 AI 助手，仅约 4000 行代码，功能完整且高度模块化。支持多平台通信（Slack、Discord、飞书等）、MCP 协议、多模态输入与记忆系统，适用于构建高效、可扩展的智能代理应用。
@@ -77,7 +79,7 @@
 ## NevaMind-AI/memU
 
 > [!info]
-> ⭐ 10,660 · Python · 2026-02-24  
+> ⭐ 10,663 · Python · 2026-02-24  
 > [GitHub](https://github.com/NevaMind-AI/memU) · [Website](https://memu.pro)  
 > `#AI 代理` `#长期记忆` `#用户意图识别` `#成本优化` `#文件系统式记忆` `#主动式智能` `#LLM 效率` `#知识图谱` `#agent-memory` `#agentic-workflow` `#claude` `#claude-skills` `#clawdbot` `#clawdbot-skill` `#mcp` `#memory` `#proactive` `#proactive-ai` `#sandbox` `#skills` >
 > memU 是一个专为 24/7 主动式 AI 代理设计的记忆框架，通过类文件系统的结构化记忆管理，持续捕捉用户意图并降低 LLM 调用成本，支持长期运行、跨会话记忆与主动决策。
@@ -110,7 +112,7 @@
 ## farion1231/cc-switch
 
 > [!info]
-> ⭐ 20,082 · TypeScript · 2026-02-25  
+> ⭐ 20,085 · TypeScript · 2026-02-25  
 > [GitHub](https://github.com/farion1231/cc-switch) · [Website](https://github.com/farion1231/cc-switch)  
 > `#AI 编程助手` `#跨平台桌面应用` `#Claude Code` `#Codex` `#Gemini CLI` `#Tauri` `#API 中继` `#开发者工具` `#ai-tools` `#claude-code` `#codex` `#desktop-app` `#kimi-k2-thiking` `#mcp` `#minimax` `#open-source` `#opencode` `#provider-management` `#rust` `#skills` `#skills-management` `#tauri` `#typescript` `#wsl-support` >
 > 一款跨平台桌面全能助手工具，集成 Claude Code、Codex、OpenCode 和 Gemini CLI，支持多模型切换与高效开发协作，基于 Tauri 2 构建，提供稳定、低成本的 AI 编程服务接入。
@@ -121,7 +123,7 @@
 ## affaan-m/everything-claude-code
 
 > [!info]
-> ⭐ 51,926 · JavaScript · 2026-02-25  
+> ⭐ 51,938 · JavaScript · 2026-02-25  
 > [GitHub](https://github.com/affaan-m/everything-claude-code)  
 > `#Claude Code` `#AI代理配置` `#MCP` `#多语言支持` `#PM2编排` `#记忆持久化` `#令牌优化` `#生产就绪` `#ai-agents` `#anthropic` `#claude` `#claude-code` `#developer-tools` `#llm` `#mcp` `#productivity` >
 > 由Anthropic黑客马拉松获胜者整理的完整Claude Code配置库，包含生产级代理、技能、钩子、命令、规则和MCP配置，支持多语言开发，提供交互式安装向导与PM2多服务编排，优化令牌使用与持久化记忆。
@@ -163,7 +165,7 @@
 ## lbjlaq/Antigravity-Manager
 
 > [!info]
-> ⭐ 24,283 · Rust · 2026-02-25  
+> ⭐ 24,284 · Rust · 2026-02-25  
 > [GitHub](https://github.com/lbjlaq/Antigravity-Manager) · [Website](https://lbjlaq.github.io/Antigravity-Manager/)  
 > `#AI 账号管理` `#协议代理` `#Tauri` `#Rust` `#React` `#模型路由` `#多模态支持` `#API 中转` `#account-manager` `#antigravity` >
 > Antigravity Manager 是一款基于 Tauri v2 和 React（Rust 后端）构建的专业级 AI 账号管理与协议代理系统，支持多平台账号（如 Gemini、Claude）的一键无缝切换、智能配额监控、协议转换（OpenAI/Anthropic/Gemini 格式兼容），并提供模型路由、自动重试、静默降级等企业级功能，打造高性能本地 AI 调度网关。
@@ -295,7 +297,7 @@
 ## cjpais/Handy
 
 > [!info]
-> ⭐ 16,069 · Rust · 2026-02-25  
+> ⭐ 16,073 · Rust · 2026-02-25  
 > [GitHub](https://github.com/cjpais/Handy) · [Website](https://handy.computer)  
 > `#语音识别` `#离线转录` `#开源工具` `#隐私保护` `#跨平台` `#Whisper` `#Tauri` `#Rust` `#accessibility` `#cross-platform` `#speech-to-text` `#tauri-v2` >
 > Handy 是一款免费、开源且可扩展的离线语音转文本桌面应用，支持跨平台使用。通过快捷键录音，利用本地 Whisper 或 Parakeet 模型进行语音识别，并将转录文本直接输入到任意文本框，全程无需上传数据，保障隐私。
@@ -306,7 +308,7 @@
 ## nextlevelbuilder/ui-ux-pro-max-skill
 
 > [!info]
-> ⭐ 34,584 · Python · 2026-02-12  
+> ⭐ 34,588 · Python · 2026-02-12  
 > [GitHub](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · [Website](https://www.uupm.cc/)  
 > `#ai-skills` `#antigravity` `#claude` `#claude-code` `#codex` `#command-line` `#copilot` `#cursor-ai` `#html5` `#kiro` `#landing-page` `#mobile-ui` `#qoder` `#react` `#tailwindcss` `#trae` `#ui-design` `#uikit` `#windsurf-ai` >
 > 
@@ -317,7 +319,7 @@
 ## BloopAI/vibe-kanban
 
 > [!info]
-> ⭐ 21,869 · Rust · 2026-02-25  
+> ⭐ 21,871 · Rust · 2026-02-25  
 > [GitHub](https://github.com/BloopAI/vibe-kanban) · [Website](https://www.vibekanban.com/)  
 > `#AI 编程代理` `#任务编排` `#Kanban 看板` `#MCP 配置` `#远程开发` `#VSCode 集成` `#自托管` `#多代理协同` `#agent` `#ai-agents` `#kanban` `#management` `#task-manager` >
 > Vibe Kanban 是一款专为 AI 编程代理（如 Claude Code、Codex、Gemini CLI）设计的任务编排与管理工具，支持多代理并行/串行执行、任务状态跟踪、MCP 配置集中管理及远程 SSH 项目打开，显著提升工程师在 AI 辅助开发中的协作效率。
@@ -383,7 +385,7 @@
 ## browserwing/browserwing
 
 > [!info]
-> ⭐ 833 · TypeScript · 2026-02-25  
+> ⭐ 834 · TypeScript · 2026-02-25  
 > [GitHub](https://github.com/browserwing/browserwing) · [Website](https://www.browserwing.com)  
 > `#浏览器自动化` `#AI 集成` `#MCP 协议` `#Claude Skill` `#可视化脚本` `#LLM 支持` `#HTTP API` `#会话管理` `#aibrowser` `#golang` `#llm` `#react` >
 > BrowserWing 是一款集成 AI 的原生浏览器自动化平台，支持通过 MCP 协议或 Claude Skill 将浏览器操作转化为 AI 可调用指令。提供 26+ API 接口、可视化脚本录制、多 LLM 支持及会话管理，实现高效、稳定的 AI 驱动浏览器自动化，适用于数据采集、RPA 和智能代理场景。
@@ -504,7 +506,7 @@
 ## anthropics/skills
 
 > [!info]
-> ⭐ 75,627 · Python · 2026-02-25  
+> ⭐ 75,635 · Python · 2026-02-25  
 > [GitHub](https://github.com/anthropics/skills)  
 > `#Claude` `#Agent Skills` `#AI 技能` `#文档处理` `#企业自动化` `#开源示例` `#技能模板` `#Anthropic` `#agent-skills` >
 > Anthropic 官方技能库，提供 Claude 可动态加载的专用任务技能，涵盖创意设计、技术开发、企业流程及文档处理等场景。包含开源示例、生产级文档技能（如 PDF/DOCX 处理）及技能创建模板，支持在 Claude Code、Claude.ai 和 API 中使用。
@@ -526,11 +528,33 @@
 ## github/spec-kit
 
 > [!info]
-> ⭐ 71,962 · Python · 2026-02-25  
+> ⭐ 71,966 · Python · 2026-02-25  
 > [GitHub](https://github.com/github/spec-kit) · [Website](https://github.github.com/spec-kit/)  
 > `#规范驱动开发` `#AI 编程助手` `#CLI 工具` `#代码生成` `#开源` `#软件开发流程` `#GitHub` `#自动化` `#ai` `#copilot` `#development` `#engineering` `#prd` `#spec` `#spec-driven` >
 > Spec Kit 是一个开源工具包，支持规范驱动开发（Spec-Driven Development），通过可执行的规范直接生成高质量代码实现。它集成多种 AI 编程助手（如 Claude Code、GitHub Copilot 等），提供 CLI 工具链帮助开发者聚焦产品场景与预期结果，提升开发效率与一致性。
 
 > <sub>💫 Toolkit to help you get started with Spec-Driven Development</sub>
+
+---
+## Scipline/Image_matting
+
+> [!info]
+> ⭐ 14 · Python · 2023-01-11  
+> [GitHub](https://github.com/Scipline/Image_matting)  
+> `#图像抠图` `#批量处理` `#remove.bg` `#rembg` `#ONNX` `#自动化` `#背景移除` `#计算机视觉` >
+> 一键批量图像抠图工具，支持两种模式：调用 remove.bg 免费 API（需网络，精度高但分辨率低）或本地运行 rembg + ONNX 模型（速度快、清晰度高）。支持自动切换 API Key、批量处理、背景替换及规范文件命名，适用于无 GUI 场景下的高效自动化抠图需求。
+
+> <sub>一键批量抠图。两种方法。一.使用remove.bg网站账号免费api额度，二.使用rembg和onnxruntime训练模型本地抠图</sub>
+
+---
+## VoltAgent/awesome-claude-code-subagents
+
+> [!info]
+> ⭐ 11,397 · Shell · 2026-02-21  
+> [GitHub](https://github.com/VoltAgent/awesome-claude-code-subagents) · [Website](https://github.com/VoltAgent/voltagent)  
+> `#Claude Code` `#AI编程助手` `#子代理集合` `#开发工具` `#插件化` `#多语言支持` `#DevOps` `#开源` `#ai-agent-framework` `#ai-agent-tools` `#ai-agents` `#awesome` `#awesome-list` `#claude` `#claude-ai` `#claude-code-subagents` `#claude-subagents` `#subagents` >
+> VoltAgent/awesome-claude-code-subagents 是一个包含127+个专用Claude Code子代理的开源集合，覆盖核心开发、语言专家、基础设施、数据科学等九大类别，支持插件化安装与交互式部署，旨在为开发者提供针对特定任务的AI编程助手。
+
+> <sub>A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases</sub>
 
 ---
