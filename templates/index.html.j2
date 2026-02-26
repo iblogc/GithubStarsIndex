@@ -782,6 +782,7 @@
         // Search logic
         searchInput.addEventListener('input', (e) => {
             const query = e.target.value.toLowerCase().trim();
+            const keywords = query.split(/\s+/).filter(k => k.length > 0);
             grid.innerHTML = '';
             currentIndex = 0;
             
@@ -789,7 +790,8 @@
                 const tagsZh = (item.summary.tags_zh || item.summary.tags || []).join(' ');
                 const tagsEn = (item.summary.tags_en || []).join(' ');
                 const searchStr = `${item.full_name} ${item.description || ''} ${item.summary.zh} ${item.summary.en || ''} ${tagsZh} ${tagsEn} ${item.topics ? item.topics.join(' ') : ''}`.toLowerCase();
-                return searchStr.includes(query);
+                
+                return keywords.every(kw => searchStr.includes(kw));
             });
             
             loadMore();
