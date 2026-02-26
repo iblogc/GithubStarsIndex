@@ -93,7 +93,7 @@ schedule:
 | `VAULT_REPO`         | 选填 | Vault 仓库 (`owner/repo`)  | -                           |
 | `VAULT_SYNC_PATH`    | 可选 | Vault 同步的目录路径       | `GitHub-Stars/`             |
 | `PAGES_SYNC_ENABLED` | 可选 | 是否开启 GitHub Pages 部署 | `true`                      |
-| `MAX_CONCURRENCY`    | 可选 | AI 并发处理数 (建议 1-10)  | `5`                         |
+| `MAX_CONCURRENCY`    | 可选 | AI 并发处理数 (建议 1-10)  | `1`                         |
 | `GH_TOKEN`           | 选填 | 本地运行时提升 API 额度    | -                           |
 
 ---

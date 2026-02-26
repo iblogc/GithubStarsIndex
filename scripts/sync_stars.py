@@ -502,6 +502,7 @@ def main():
         "last_updated": store.data["last_updated"],
         "repos": ordered_repos,
         "top_langs": top_langs,
+        "ai_model": cfg["ai"].get("model", "gpt-4o-mini"),
     }
     langs = ["zh", "en"]
     generated_mds = {}

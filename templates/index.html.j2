@@ -541,6 +541,59 @@
             .footer-center { border: none; padding: 0; text-align: left; }
             .footer-right { text-align: left; }
         }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border: 2px solid var(--bg);
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent);
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 3.5rem;
+            height: 3.5rem;
+            background: var(--surface);
+            border: 2px solid var(--border);
+            color: var(--fg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+            opacity: 0;
+            visibility: hidden;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        .back-to-top:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            transform: translateY(-5px);
+        }
+        @media (max-width: 768px) {
+            .back-to-top {
+                bottom: 1.5rem;
+                right: 1.5rem;
+                width: 3rem;
+                height: 3rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -594,7 +647,7 @@
                 </div>
                 <div class="footer-center">
                     <p>THIS_DATA_IS_CURATED_FROM_GITHUB_AND_SUMMARIZED_BY_AI_AGENTS.</p>
-                    <p>REPOSITORY_INDEXED_BY_LONG_CAT_FLASH // PERSISTENT_STORAGE_ACTIVE</p>
+                    <p>REPOSITORY_INDEXED_BY_{{ ai_model|upper|replace('-', '_') }} // PERSISTENT_STORAGE_ACTIVE</p>
                 </div>
                 <div class="footer-right">
                     <span>© 2026 STARS_ARCHIVE</span>
@@ -602,6 +655,9 @@
                 </div>
             </div>
         </footer>
+        <button id="back-to-top" class="back-to-top" title="BACK_TO_TOP">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+        </button>
     </div>
 
     <!-- Details Modal -->
@@ -849,6 +905,19 @@
             currentLang = currentLang === 'zh' ? 'en' : 'zh';
             localStorage.setItem('lang', currentLang);
             updateTexts();
+        });
+
+        // Back to Top Logic
+        const backToTop = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
         // Initialize texts
