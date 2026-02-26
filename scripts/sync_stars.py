@@ -58,17 +58,50 @@ DATA_DIR.mkdir(exist_ok=True)
 
 def load_config() -> dict:
     """加载 config.yml，并用环境变量覆盖敏感字段"""
-    if not CONFIG_PATH.exists():
-        log.error(f"配置文件不存在: {CONFIG_PATH}")
-        sys.exit(1)
+    cfg = {
+        "github": {"username": "", "token": None},
+        "ai": {
+            "model": "gpt-4o-mini",
+            "base_url": "https://api.openai.com/v1",
+            "api_key": "",
+            "timeout": 60,
+            "max_retries": 3,
+            "max_readme_length": 8000,
+            "concurrency": 1,
+        },
+        "output": {"file_path": "stars.md"},
+        "vault_sync": {
+            "enabled": False,
+            "repo": "",
+            "file_path": "",
+            "pat": "",
+            "default_file_path": "GitHub-Stars/stars.md",
+            "commit_message": "🤖 自动更新 GitHub Stars 摘要",
+        },
+        "pages_sync": {
+            "enabled": False,
+            "output_dir": "dist",
+            "file_name": "index.html",
+            "template": "index.html.j2",
+        },
+    }
 
-    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
-        cfg = yaml.safe_load(f) or {}
+    if CONFIG_PATH.exists():
+        with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+            user_cfg = yaml.safe_load(f) or {}
+            # 深度合并或手动更新，此处采用手动按需更新
+            if "ai" in user_cfg:
+                cfg["ai"].update(user_cfg["ai"])
+            if "output" in user_cfg:
+                cfg["output"].update(user_cfg["output"])
+            if "vault_sync" in user_cfg:
+                cfg["vault_sync"].update(user_cfg["vault_sync"])
+            if "pages_sync" in user_cfg:
+                cfg["pages_sync"].update(user_cfg["pages_sync"])
 
-    # 环境变量优先覆盖配置文件中的值
+    # 环境变量优先覆盖
     if os.environ.get("GH_USERNAME"):
         cfg["github"]["username"] = os.environ["GH_USERNAME"]
-
     if os.environ.get("AI_BASE_URL"):
         cfg["ai"]["base_url"] = os.environ["AI_BASE_URL"]
     if os.environ.get("AI_API_KEY"):
@@ -76,45 +109,43 @@ def load_config() -> dict:
     if os.environ.get("AI_MODEL"):
         cfg["ai"]["model"] = os.environ["AI_MODEL"]
 
-    if os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN"):
-        cfg["github"]["token"] = os.environ.get("GH_TOKEN") or os.environ.get(
-            "GITHUB_TOKEN"
-        )
-    else:
-        cfg["github"]["token"] = None
+    # 并发数：环境变量具有最高优先级
+    concurrency_env = os.environ.get("MAX_CONCURRENCY", "").strip()
+    if concurrency_env.isdigit():
+        cfg["ai"]["concurrency"] = int(concurrency_env)
 
-    vault = cfg.get("vault_sync", {})
+    # GitHub Token
+    cfg["github"]["token"] = os.environ.get("GH_TOKEN") or os.environ.get(
+        "GITHUB_TOKEN"
+    )
+
+    # Vault 同步
     if os.environ.get("VAULT_SYNC_ENABLED", "").lower() == "true":
-        vault["enabled"] = True
+        cfg["vault_sync"]["enabled"] = True
     if os.environ.get("VAULT_REPO"):
-        vault["repo"] = os.environ["VAULT_REPO"]
+        cfg["vault_sync"]["repo"] = os.environ["VAULT_REPO"]
     if os.environ.get("VAULT_FILE_PATH"):
-        vault["file_path"] = os.environ["VAULT_FILE_PATH"]
+        cfg["vault_sync"]["file_path"] = os.environ["VAULT_FILE_PATH"]
     if os.environ.get("VAULT_PAT"):
-        vault["pat"] = os.environ["VAULT_PAT"]
-    cfg["vault_sync"] = vault
+        cfg["vault_sync"]["pat"] = os.environ["VAULT_PAT"]
 
-    pages = cfg.get("pages_sync", {})
+    # Pages 同步
     if os.environ.get("PAGES_SYNC_ENABLED", "").lower() == "true":
-        pages["enabled"] = True
-    else:
-        pages["enabled"] = False
-    cfg["pages_sync"] = pages
+        cfg["pages_sync"]["enabled"] = True
 
-    # 测试限制（可选）
+    # 测试限制
     test_limit = os.environ.get("TEST_LIMIT", "").strip()
-    if test_limit.isdigit():
-        cfg["test_limit"] = int(test_limit)
+    cfg["test_limit"] = int(test_limit) if test_limit.isdigit() else None
+    if cfg["test_limit"]:
         log.info(f"📍 测试模式已开启，限制处理项目数: {cfg['test_limit']}")
-    else:
-        cfg["test_limit"] = None
 
-    # 并发控制
-    concurrency = os.environ.get("MAX_CONCURRENCY", "")
-    if concurrency.isdigit():
-        cfg["ai"]["concurrency"] = int(concurrency)
-    elif "concurrency" not in cfg["ai"]:
-        cfg["ai"]["concurrency"] = 5
+    # 简单校验
+    if not cfg["github"]["username"]:
+        log.error("❌ 错误: 未配置 GitHub 用户名 (GH_USERNAME)")
+        sys.exit(1)
+    if not cfg["ai"]["api_key"]:
+        log.error("❌ 错误: 未配置 AI API Key (AI_API_KEY)")
+        sys.exit(1)
 
     return cfg
 

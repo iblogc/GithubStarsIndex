@@ -71,12 +71,13 @@ jobs:
           # ── Variables（非机密，明文，在 Settings → Variables 中配置）──
           GH_USERNAME: ${{ vars.GH_USERNAME }}         # 要抓取 Stars 的 GitHub 用户名
           AI_BASE_URL: ${{ vars.AI_BASE_URL }}         # AI 接口地址
-          AI_MODEL: ${{ vars.AI_MODEL }}               # 模型名（可留空，用 config.yml 默认值）
-          VAULT_SYNC_ENABLED: ${{ vars.VAULT_SYNC_ENABLED }}  # 是否启用 Vault 同步（true/false）
-          VAULT_REPO: ${{ vars.VAULT_REPO }}           # Vault 仓库（owner/repo 格式）
-          VAULT_FILE_PATH: ${{ vars.VAULT_FILE_PATH }} # stars.md 在 Vault 中的路径
-          TEST_LIMIT: ${{ github.event.inputs.test_limit }} # 手动触发时的测试限制量
-          PAGES_SYNC_ENABLED: ${{ vars.PAGES_SYNC_ENABLED }} # 是否启用 Pages 同步
+          AI_MODEL: ${{ vars.AI_MODEL }}
+          MAX_CONCURRENCY: ${{ vars.MAX_CONCURRENCY }}
+          VAULT_SYNC_ENABLED: ${{ vars.VAULT_SYNC_ENABLED }}
+          VAULT_REPO: ${{ vars.VAULT_REPO }}
+          VAULT_FILE_PATH: ${{ vars.VAULT_FILE_PATH }}
+          TEST_LIMIT: ${{ github.event.inputs.test_limit }}
+          PAGES_SYNC_ENABLED: ${{ vars.PAGES_SYNC_ENABLED }}
         run: python scripts/sync_stars.py
 
       # ── 6. 提交变更到本仓库 ───────────────────────────────

@@ -48,16 +48,16 @@
 
 **📋 Variables**（非机密，明文保存）
 
-| Variable 名称        | 说明                                                                             | 必填 |
-| -------------------- | -------------------------------------------------------------------------------- | ---- |
-| `GH_USERNAME`        | 要抓取 Stars 的 GitHub 用户名                                                    | ✅    |
-| `AI_BASE_URL`        | AI 接口地址（OpenAI 兼容格式，如 `https://api.openai.com/v1`）                   | ✅    |
-| `AI_MODEL`           | 模型名称（如 `gpt-4o-mini`），不填则用 `config.yml` 默认值                       | ❌    |
-| `MAX_CONCURRENCY`    | AI 摘要并发生成数量（默认 `5`），过高可能触发接口限速                            | ❌    |
-| `VAULT_SYNC_ENABLED` | 是否启用同步到 Vault 仓库，填 `true` 开启                                        | ❌    |
-| `VAULT_REPO`         | Vault 仓库（`owner/repo-name` 格式）                                             | ❌    |
-| `VAULT_FILE_PATH`    | 目标路径前缀（如 `GitHub-Stars/stars.md`），将自动生成 `_zh.md` 和 `_en.md` 后缀 | ❌    |
-| `PAGES_SYNC_ENABLED` | 是否启用同步到 GitHub Pages，填 `true` 开启                                      | ❌    |
+| Variable 名称        | 说明                                                                                                               | 必填 |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- |
+| `GH_USERNAME`        | 要抓取 Stars 的 GitHub 用户名                                                                                      | ✅    |
+| `AI_BASE_URL`        | AI 接口地址（OpenAI 兼容格式，如 `https://api.openai.com/v1`）                                                     | ✅    |
+| `AI_MODEL`           | 模型名称（如 `gpt-4o-mini`），不填则用 `config.yml` 默认值                                                         | ❌    |
+| `MAX_CONCURRENCY`    | AI 摘要并发生成数量（默认 `5`），过高可能触发接口限速                                                              | ❌    |
+| `VAULT_SYNC_ENABLED` | 是否启用同步到 Vault 仓库，填 `true` 开启                                                                          | ❌    |
+| `VAULT_REPO`         | Vault 仓库（`owner/repo-name` 格式）                                                                               | ❌    |
+| `VAULT_FILE_PATH`    | 目标路径及其文件名（如 `GitHub-Stars/stars.md`），脚本将自动以此为基准生成 `stars_zh.md` 和 `stars_en.md` 后缀文件 | ❌    |
+| `PAGES_SYNC_ENABLED` | 是否启用同步到 GitHub Pages，填 `true` 开启                                                                        | ❌    |
 
 ### 第三步：按需修改 config.yml
 
@@ -90,25 +90,20 @@ schedule:
 
 ```yaml
 ai:
-  model: "gpt-4o-mini"         # AI 模型（可被 AI_MODEL Variable 覆盖）
-  max_readme_length: 8000       # README 截取长度（避免超 Token）
+  model: "gpt-4o-mini"         # AI 模型
+  max_readme_length: 8000       # README 截取长度
   timeout: 60                   # 请求超时（秒）
   max_retries: 3                # 失败重试次数
-  concurrency: 5                # 并发生成摘要的线程数（可被 MAX_CONCURRENCY 覆盖）
+  concurrency: 1                # 默认并发数 (可被 MAX_CONCURRENCY 覆盖)
 
 output:
-  file_path: "stars.md"         # 输出文件名。注：文件现在生成在 dist/ 目录下（如 dist/stars_zh.md）
+  file_path: "stars.md"         # 输出文件名 (生成在 gh-pages 分支)
 
 vault_sync:
-  # Vault 同步的开关和仓库名通过 Actions Variables 控制，此处仅配置默认路径和 commit 信息
   default_file_path: "GitHub-Stars/stars.md"
   commit_message: "🤖 自动更新 GitHub Stars 摘要"
 
-pages_sync:
-  # GitHub Pages 开关通过 Actions Variable: PAGES_SYNC_ENABLED 控制
-  output_dir: "dist"             # 生成文件的输出目录
-  file_name: "index.html"        # 生成的文件名
-  template: "index.html.j2"      # 使用的模板文件
+# pages_sync 默认值已内置，通常无需配置
 ```
 
 ---
@@ -123,13 +118,13 @@ pages_sync:
 
 3. 在仓库 **Settings → Secrets and variables → Actions → Variables** 中配置：
 
-   | Variable 名称        | 示例值                              |
-   | -------------------- | ----------------------------------- |
-   | `VAULT_SYNC_ENABLED` | `true`                              |
-   | `VAULT_REPO`         | `your-username/your-obsidian-vault` |
-   | `VAULT_FILE_PATH`    | `GitHub-Stars/stars.md`             |
+   | Variable 名称        | 示例值                                                            |
+   | -------------------- | ----------------------------------------------------------------- |
+   | `VAULT_SYNC_ENABLED` | `true`                                                            |
+   | `VAULT_REPO`         | `your-username/your-obsidian-vault`                               |
+   | `VAULT_FILE_PATH`    | `GitHub-Stars/stars.md` (最终生成 `stars_zh.md` 和 `stars_en.md`) |
 
-4. 确保 Obsidian Git 插件开启了**定时 Pull**，每次 Action 运行后 Obsidian 会自动获取最新的 `stars_zh.md` 和 `stars_en.md`
+4. 确保 Obsidian Git 插件能够同步 **`gh-pages` 分支** 的内容，或者通过网页链接直接引用。每次 Action 运行后，最新的 `stars_zh.md` 和 `stars_en.md` 将出现在 `gh-pages` 分支中。
     
 ---
 
@@ -188,14 +183,14 @@ python scripts/sync_stars.py
 
 ## 文件说明
 
-| 文件                         | 说明                                 |
-| ---------------------------- | ------------------------------------ |
-| `config.yml`                 | 主配置文件（非敏感配置）             |
-| `data/stars.json`            | **核心数据集**（抓取的全量项目数据） |
-| `templates/stars.md.j2`      | Markdown 生成模版                    |
-| `templates/index.html.j2`    | HTML (GitHub Pages) 生成模版         |
-| `dist/index.html`            | 自动生成的 HTML 静态页面             |
-| `dist/stars_zh.md`           | 自动生成的中文版 Stars Index 文档    |
-| `dist/stars_en.md`           | 自动生成的英文版 Stars Index 文档    |
-| `scripts/sync_stars.py`      | 核心同步与生成脚本                   |
-| `.github/workflows/sync.yml` | GitHub Actions 定时工作流            |
+| 文件                         | 说明                                  |
+| ---------------------------- | ------------------------------------- |
+| `config.yml`                 | 主配置文件（非敏感配置）              |
+| `data/stars.json`            | **核心数据集**（抓取的全量项目数据）  |
+| `templates/stars.md.j2`      | Markdown 生成模版                     |
+| `templates/index.html.j2`    | HTML (GitHub Pages) 生成模版          |
+| `gh-pages/index.html`        | 自动生成的 HTML 静态页面 (部署后可见) |
+| `gh-pages/stars_zh.md`       | 自动生成的中文版 Stars Index 文档     |
+| `gh-pages/stars_en.md`       | 自动生成的英文版 Stars Index 文档     |
+| `scripts/sync_stars.py`      | 核心同步与生成脚本                    |
+| `.github/workflows/sync.yml` | GitHub Actions 定时工作流             |
