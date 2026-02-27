@@ -12,6 +12,7 @@ GitHub Stars Index同步脚本 (JSON + Template 版)
 import os
 import sys
 import json
+import re
 import time
 import base64
 import logging
