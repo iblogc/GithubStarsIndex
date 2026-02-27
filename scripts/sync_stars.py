@@ -304,12 +304,61 @@ class GitHubClient:
 
 
 class AISummarizer:
+    THINK_BLOCK_RE = re.compile(r"<think>.*?</think>", re.IGNORECASE | re.DOTALL)
+
     def __init__(
         self, base_url: str, api_key: str, model: str, timeout: int = 60, retry: int = 3
     ):
+        self.base_url = (base_url or "").lower()
         self.model = model
         self.retry = retry
         self.client = OpenAI(base_url=base_url, api_key=api_key, timeout=timeout)
+
+    def _extract_json_payload(self, content: object) -> dict:
+        if content is None:
+            raise ValueError("empty content")
+
+        if isinstance(content, list):
+            parts = []
+            for item in content:
+                if isinstance(item, dict) and isinstance(item.get("text"), str):
+                    parts.append(item["text"])
+                elif isinstance(item, str):
+                    parts.append(item)
+            text = "\n".join(parts).strip()
+        else:
+            text = str(content).strip()
+
+        if not text:
+            raise ValueError("empty content")
+
+        # MiniMax 兼容接口可能会把 CoT 放在 <think>...</think> 中，先剥离。
+        text = self.THINK_BLOCK_RE.sub("", text).strip()
+
+        # 兼容 ```json ... ``` 包裹场景。
+        text = text.replace("```json", "```").strip()
+        if text.startswith("```") and text.endswith("```"):
+            text = text[3:-3].strip()
+
+        try:
+            payload = json.loads(text)
+            if isinstance(payload, dict):
+                return payload
+        except Exception:
+            pass
+
+        decoder = json.JSONDecoder()
+        for idx, ch in enumerate(text):
+            if ch not in "[{":
+                continue
+            try:
+                payload, _ = decoder.raw_decode(text[idx:])
+                if isinstance(payload, dict):
+                    return payload
+            except Exception:
+                continue
+
+        raise ValueError("no valid json object found in model content")
 
     def summarize(self, repo_name: str, description: str, readme: str) -> dict:
         context = f"Repo: {repo_name}\nDesc: {description}\n\nREADME:\n{readme}"
@@ -330,16 +379,21 @@ class AISummarizer:
 }"""
         for attempt in range(self.retry):
             try:
-                resp = self.client.chat.completions.create(
-                    model=self.model,
-                    messages=[
+                kwargs = {
+                    "model": self.model,
+                    "messages": [
                         {"role": "system", "content": prompt},
                         {"role": "user", "content": context},
                     ],
-                    temperature=0.3,
-                    response_format={"type": "json_object"},
-                )
-                data = json.loads(resp.choices[0].message.content)
+                    "temperature": 0.3,
+                }
+
+                # 对标准 OpenAI 继续启用结构化返回；MiniMax 走文本容错解析。
+                if "api.minimaxi.com" not in self.base_url:
+                    kwargs["response_format"] = {"type": "json_object"}
+
+                resp = self.client.chat.completions.create(**kwargs)
+                data = self._extract_json_payload(resp.choices[0].message.content)
                 # 兼容旧版本结构
                 if "tags" in data and "tags_zh" not in data:
                     data["tags_zh"] = data["tags"]
