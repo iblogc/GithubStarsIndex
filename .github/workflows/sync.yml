@@ -84,12 +84,13 @@ jobs:
       # ── 6. 提交变更到本仓库 ───────────────────────────────
       - name: 提交并推送变更
         run: |
+          set -e
+      
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
       
           git add data/stars.json
       
-          # 如果没有变化则直接退出
           if git diff --staged --quiet; then
             echo "✅ 无新内容，跳过提交"
             exit 0
@@ -97,9 +98,11 @@ jobs:
       
           git commit -m "🤖 自动更新 GitHub Stars 摘要 [$(date -u '+%Y-%m-%d %H:%M UTC')]"
       
-          # ⭐ 关键步骤：同步远程
-          git pull --rebase origin main
+          echo "🔄 同步远程最新代码..."
+          git fetch origin main
+          git rebase origin/main
       
+          echo "🚀 推送更新..."
           git push origin main
 
       # ── 7. 部署到 GitHub Pages ─────────────────────────────
