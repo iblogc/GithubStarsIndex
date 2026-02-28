@@ -490,7 +490,6 @@
                 padding: 0.8rem;
                 font-size: 0.7rem;
                 color: var(--fg-dim);
-                text-transform: uppercase;
                 letter-spacing: 0.2em;
                 background: var(--surface);
                 border-top: 1px solid var(--border);
@@ -1096,17 +1095,17 @@
 
         <main class="repo-grid" id="main-grid"></main>
         
-        <div id="loading-trigger">SYSTEM LOADING...</div>
+        <div id="loading-trigger">System Loading...</div>
 
         <footer>
             <div class="footer-grid">
                 <div class="footer-brand">
                     <span class="eof-text">EOF</span>
-                    <span>END OF TRANS STREAM // ALL SYSTEMS NOMINAL</span>
+                    <span>End of trans stream // All systems nominal</span>
                 </div>
                 <div class="footer-center">
-                    <p>THIS DATA IS CURATED FROM GITHUB AND SUMMARIZED BY AI AGENTS.</p>
-                    <p>REPOSITORY INDEXED BY {{ ai_model|upper }} // PERSISTENT STORAGE ACTIVE</p>
+                    <p>This data is curated from GitHub and summarized by AI agents.</p>
+                    <p>Repository indexed by {{ ai_model }} // Persistent storage active</p>
                 </div>
                 <div class="footer-right">
                     <span>© 2026 STARS ARCHIVE</span>
@@ -1230,7 +1229,7 @@
             searchInput.placeholder = texts.search;
             langBtn.textContent = `LANG: ${currentLang === 'zh' ? 'ZH_CN' : 'EN_US'}`;
             
-            document.getElementById('l-lang-label').textContent = activeLanguage ? `LANG: ${activeLanguage.toUpperCase()}` : texts.lang_all;
+            document.getElementById('l-lang-label').textContent = activeLanguage ? `Language: ${activeLanguage}` : texts.lang_all;
             document.getElementById('l-tag-label').textContent = texts.tag_all;
 
             const sortPills = document.querySelectorAll('.sort-pill');
@@ -1257,7 +1256,7 @@
 
             document.getElementById('s-total').textContent = total;
             document.getElementById('s-avg').innerHTML = `<span class="ui-stars" style="font-size: 1.5rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> ${avgStars}</span>`;
-            document.getElementById('s-top-stack').textContent = topLang.toUpperCase();
+            document.getElementById('s-top-stack').textContent = topLang;
         }
 
         function getUniqueTags() {
@@ -1289,10 +1288,10 @@
             const filtered = query ? availableLangs.filter(l => l.toLowerCase().includes(query.toLowerCase())) : availableLangs;
             
             // Fixed: Use activeLanguage check to properly highlight "ALL"
-            let html = `<div class="dropdown-item ${activeLanguage === null ? 'active' : ''}" data-value="" style="grid-column: span 2;">ALL LANGUAGES</div>`;
+            let html = `<div class="dropdown-item ${activeLanguage === null ? 'active' : ''}" data-value="" style="grid-column: span 2;">All Languages</div>`;
             filtered.forEach(l => {
                 const isActive = activeLanguage === l;
-                html += `<div class="dropdown-item ${isActive ? 'active' : ''}" data-value="${l}">${l.toUpperCase()}</div>`;
+                html += `<div class="dropdown-item ${isActive ? 'active' : ''}" data-value="${l}">${l}</div>`;
             });
             container.innerHTML = html;
         }
@@ -1305,7 +1304,7 @@
             let html = '';
             filtered.forEach(t => {
                 const isActive = activeTags.has(t);
-                html += `<div class="dropdown-item ${isActive ? 'active' : ''}" data-value="${t}">#${t.toUpperCase()}</div>`;
+                html += `<div class="dropdown-item ${isActive ? 'active' : ''}" data-value="${t}">#${t}</div>`;
             });
             container.innerHTML = html;
         }
@@ -1398,13 +1397,13 @@
             if(activeLanguage) {
                 const chip = document.createElement('div');
                 chip.className = 'filter-chip';
-                chip.innerHTML = `LANG: ${activeLanguage.toUpperCase()} <span onclick="removeLang()">✕</span>`;
+                chip.innerHTML = `Lang: ${activeLanguage} <span onclick="removeLang()">✕</span>`;
                 activeFiltersContainer.appendChild(chip);
             }
             activeTags.forEach(tag => {
                 const chip = document.createElement('div');
                 chip.className = 'filter-chip';
-                chip.innerHTML = `#${tag.toUpperCase()} <span onclick="removeTag('${tag}')">✕</span>`;
+                chip.innerHTML = `#${tag} <span onclick="removeTag('${tag}')">✕</span>`;
                 activeFiltersContainer.appendChild(chip);
             });
 
@@ -1475,7 +1474,7 @@
             if(langContainer) langContainer.scrollTop = langScrollTop;
 
             // Update labels
-            document.getElementById('l-lang-label').textContent = activeLanguage ? `LANG: ${activeLanguage.toUpperCase()}` : texts.lang_all;
+            document.getElementById('l-lang-label').textContent = activeLanguage ? `Language: ${activeLanguage}` : texts.lang_all;
         }
 
         // --- Render functions ---

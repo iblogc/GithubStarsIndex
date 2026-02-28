@@ -299,10 +299,43 @@ class GitHubClient:
             return False
 
 
+# ── 标签治理配置 ──────────────────────────────────────────
+TAG_MAPPING = {
+    # 类别归口
+    "LLM": "AI 大模型",
+    "Large Language Model": "AI 大模型",
+    "Agent": "AI 智能体",
+    "Agents": "AI 智能体",
+    "AI Agent": "AI 智能体",
+    "Generative AI": "生成式 AI",
+    "Prompt Engineering": "提示工程",
+    "LangChain": "LangChain 框架",
+    "RAG": "RAG 检索增强",
+    
+    # 技术栈归一化
+    "JS": "JavaScript",
+    "TS": "TypeScript",
+    "Golang": "Go",
+    "Rustlang": "Rust",
+    "Vuejs": "Vue.js",
+    "Reactjs": "React",
+    "Nextjs": "Next.js",
+    "Tauri": "Tauri 框架",
+    
+    # 领域/场景
+    "Web Scraping": "网页爬虫",
+    "Crawler": "网页爬虫",
+    "Automation": "自动化工具",
+    "DevOps": "运维自动化",
+    "Cybersecurity": "网络安全",
+    "Data Visualization": "数据可视化",
+    "Knowledge Graph": "知识图谱",
+    "Microservices": "微服务架构",
+}
+
 # ════════════════════════════════════════════════════════════
 # AI 摘要生成
 # ════════════════════════════════════════════════════════════
-
 
 class AISummarizer:
     THINK_BLOCK_RE = re.compile(r"<think>.*?</think>", re.IGNORECASE | re.DOTALL)
@@ -314,6 +347,25 @@ class AISummarizer:
         self.model = model
         self.retry = retry
         self.client = OpenAI(base_url=base_url, api_key=api_key, timeout=timeout)
+
+    def normalize_tags(self, tags: list[str]) -> list[str]:
+        """标签归一化：去重、合并同义词、统一大小写"""
+        normalized = set()
+        for t in tags:
+            # 1. 基础清洗
+            t = t.strip()
+            if not t: continue
+            
+            # 2. 查表合并
+            # 尝试 原词、全小写、全大写 的匹配
+            mapped = TAG_MAPPING.get(t) or TAG_MAPPING.get(t.upper()) or TAG_MAPPING.get(t.title())
+            if mapped:
+                normalized.add(mapped)
+            else:
+                # 3. 兜底处理：如果不在字典里，仅做基础美化
+                normalized.add(t)
+        
+        return sorted(list(normalized))
 
     def _extract_json_payload(self, content: object) -> dict:
         if content is None:
@@ -366,17 +418,18 @@ class AISummarizer:
         prompt = """你是一个顶级技术布道师和架构师。请深入分析 GitHub 仓库信息并生成：
 1. **中文摘要**（80-100字）：准确提炼核心价值、应用场景与技术亮点，避免空话。
 2. **英文摘要**（80-100字）。
-3. **高权重关键词标签**（中英文各 2-4 个）：
-   - **定位精准**：标签必须反映项目最核心的技术栈、领域分类或独特性。
-   - **拒绝平庸**：不要使用 "github", "project", "awesome" 等无意义通用词汇。
-   - **质量优先**：数量严格控制在 2-4 个，宁愿少而精，不要多而杂。
+3. **高权重标签**（中英文各 2-4 个）：
+   - **分层打标**：[1个领域大类] + [1-2个核心技术栈] + [1个核心用途]。
+   - **优先选用标准词**：例如 AI智能体, AI大模型, 网页爬虫, 自动化工具, 提示工程, 运维自动化, 跨平台, 数据可视化, 知识图谱, 浏览器插件, 桌面应用。
+   - **严控数量**：标签必须是极高权重的，禁止琐碎或重复（如不要同时打 "Python" 和 "Python脚本"）。
+   - **语言规范**：中文标签尽量简洁有力，英文标签首字母大写。
 
 输出 JSON 格式：
 {
   "zh": "中文摘要",
   "en": "English summary",
-  "tags_zh": ["核心技术", "细分领域", "主要特征"],
-  "tags_en": ["Core Tech", "Sub-domain", "Key Feature"]
+  "tags_zh": ["应用领域", "核心技术", "主要特征"],
+  "tags_en": ["Domain", "Tech Stack", "Key Feature"]
 }"""
         for attempt in range(self.retry):
             try:
@@ -395,9 +448,14 @@ class AISummarizer:
 
                 resp = self.client.chat.completions.create(**kwargs)
                 data = self._extract_json_payload(resp.choices[0].message.content)
-                # 兼容旧版本结构
+                # 兼容性处理
                 if "tags" in data and "tags_zh" not in data:
                     data["tags_zh"] = data["tags"]
+                
+                # 标签归一化治理
+                data["tags_zh"] = self.normalize_tags(data.get("tags_zh", []))
+                data["tags_en"] = self.normalize_tags(data.get("tags_en", []))
+                
                 return data
             except Exception as e:
                 if attempt == self.retry - 1:
