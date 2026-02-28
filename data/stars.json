@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28 18:47 UTC",
+  "last_updated": "2026-02-28 19:06 UTC",
   "repos": {
     "waoowaooAI/waoowaoo": {
       "metadata": {
@@ -7,7 +7,7 @@
         "name": "waoowaoo",
         "owner": "waoowaooAI",
         "description": "首家工业级全流程可控协作式专业AIagent影视生产平台，从短片到漫剧到真人级影视剧一站搞定，采用好莱坞专业制作团队思路，让你拥有虚拟制片场",
-        "stars": 3497,
+        "stars": 3504,
         "language": "TypeScript",
         "url": "https://github.com/waoowaooAI/waoowaoo",
         "homepage": "",
@@ -97,7 +97,7 @@
         "name": "nanobot",
         "owner": "HKUDS",
         "description": "\"🐈 nanobot: The Ultra-Lightweight OpenClaw\"",
-        "stars": 26863,
+        "stars": 26866,
         "language": "Python",
         "url": "https://github.com/HKUDS/nanobot",
         "homepage": "",
@@ -127,7 +127,7 @@
         "name": "memU",
         "owner": "NevaMind-AI",
         "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
-        "stars": 11631,
+        "stars": 11634,
         "language": "Python",
         "url": "https://github.com/NevaMind-AI/memU",
         "homepage": "https://memu.pro",
@@ -241,7 +241,7 @@
         "name": "cc-switch",
         "owner": "farion1231",
         "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.",
-        "stars": 21769,
+        "stars": 21771,
         "language": "TypeScript",
         "url": "https://github.com/farion1231/cc-switch",
         "homepage": "https://github.com/farion1231/cc-switch",
@@ -288,7 +288,7 @@
         "name": "everything-claude-code",
         "owner": "affaan-m",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Cowork, and beyond. 🧠",
-        "stars": 54712,
+        "stars": 54721,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/everything-claude-code",
         "homepage": "https://ecc.tools",
@@ -359,7 +359,7 @@
         "name": "beautiful-mermaid",
         "owner": "lukilabs",
         "description": "",
-        "stars": 7923,
+        "stars": 7924,
         "language": "TypeScript",
         "url": "https://github.com/lukilabs/beautiful-mermaid",
         "homepage": "",
@@ -389,7 +389,7 @@
         "name": "BMAD-METHOD",
         "owner": "bmad-code-org",
         "description": "Breakthrough Method for Agile Ai Driven Development",
-        "stars": 38474,
+        "stars": 38476,
         "language": "JavaScript",
         "url": "https://github.com/bmad-code-org/BMAD-METHOD",
         "homepage": "",
@@ -421,7 +421,7 @@
         "name": "Antigravity-Manager",
         "owner": "lbjlaq",
         "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
-        "stars": 24790,
+        "stars": 24791,
         "language": "Rust",
         "url": "https://github.com/lbjlaq/Antigravity-Manager",
         "homepage": "https://lbjlaq.github.io/Antigravity-Manager/",
@@ -690,6 +690,717 @@
         ]
       },
       "pushed_at": "2026-02-06",
+      "updated_at": "2026-02-28"
+    },
+    "DayuanJiang/next-ai-draw-io": {
+      "metadata": {
+        "full_name": "DayuanJiang/next-ai-draw-io",
+        "name": "next-ai-draw-io",
+        "owner": "DayuanJiang",
+        "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+        "stars": 22127,
+        "language": "TypeScript",
+        "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+        "homepage": "https://next-ai-drawio.jiang.jp/",
+        "topics": [
+          "ai",
+          "diagrams",
+          "productivity"
+        ],
+        "updated_at": "2026-02-28"
+      },
+      "summary": {
+        "zh": "Next AI Draw.io 是一个基于 Next.js 的 AI 驱动图表设计工具，支持通过自然语言指令创建、修改和增强 draw.io 图表。它集成了 AI 能力，提供智能可视化辅助，支持多云平台图标（AWS/GCP/Azure）和动画效果，适用于架构图、流程图等场景。",
+        "en": "Next AI Draw.io is a Next.js web app that integrates AI with draw.io diagrams, enabling users to create, modify, and enhance diagrams via natural language commands and AI-assisted visualization. It supports animated connectors, cloud platform icons (AWS/GCP/Azure), and intelligent diagram generation.",
+        "tags_zh": [
+          "AI智能体",
+          "AI辅助设计",
+          "网页应用"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "AI-Assisted Design",
+          "Web Application"
+        ]
+      },
+      "pushed_at": "2026-02-28",
+      "updated_at": "2026-02-28"
+    },
+    "ZeframLou/call-me": {
+      "metadata": {
+        "full_name": "ZeframLou/call-me",
+        "name": "call-me",
+        "owner": "ZeframLou",
+        "description": "Minimal plugin that lets Claude Code call you on the phone.",
+        "stars": 2378,
+        "language": "TypeScript",
+        "url": "https://github.com/ZeframLou/call-me",
+        "homepage": "",
+        "topics": [],
+        "updated_at": "2026-01-09"
+      },
+      "summary": {
+        "zh": "CallMe 是一个极简的 Claude Code 插件，允许 AI 在任务完成、卡住或需要决策时主动拨打电话通知用户。支持多轮语音对话，兼容智能手机、智能手表等设备，结合 OpenAI 语音技术实现实时语音交互，并通过 ngrok 提供安全的 webhook 隧道服务。",
+        "en": "CallMe is a minimal plugin for Claude Code that enables AI to proactively call users via phone when tasks complete, get stuck, or require decisions. It supports multi-turn voice conversations using OpenAI's speech-to-text and text-to-speech, works across smartphones and smartwatches, and uses ngrok for secure webhook tunneling.",
+        "tags_zh": [
+          "AI智能体",
+          "自动化通知",
+          "语音交互"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Automated Notification",
+          "Voice Interaction"
+        ]
+      },
+      "pushed_at": "2026-01-09",
+      "updated_at": "2026-02-28"
+    },
+    "lingfengQAQ/webnovel-writer": {
+      "metadata": {
+        "full_name": "lingfengQAQ/webnovel-writer",
+        "name": "webnovel-writer",
+        "owner": "lingfengQAQ",
+        "description": "基于 Claude Code 的长篇网文辅助创作系统，解决 AI 写作中的「遗忘」和「幻觉」问题，支持 200 万字量级 连载创作。",
+        "stars": 322,
+        "language": "Python",
+        "url": "https://github.com/lingfengQAQ/webnovel-writer",
+        "homepage": "",
+        "topics": [],
+        "updated_at": "2026-02-28"
+      },
+      "summary": {
+        "zh": "基于 Claude Code 的长篇网文创作辅助系统，通过双 Agent 架构和六维审查机制解决 AI 写作中的遗忘与幻觉问题，支持 200 万字量级连载创作，集成 RAG 检索、创意约束系统和追读力机制保障叙事连贯性与读者粘性。",
+        "en": "A long-form webnovel writing assistant built on Claude Code, utilizing dual-agent architecture and six-dimensional review mechanisms to solve AI writing issues of forgetting and hallucination, supporting serialized creation up to 2 million words with RAG retrieval, creative constraint systems, and reader engagement mechanics.",
+        "tags_zh": [
+          "AI智能体",
+          "叙事一致性",
+          "提示工程",
+          "长篇创作"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Long-form Writing",
+          "Narrative Consistency",
+          "提示工程"
+        ]
+      },
+      "pushed_at": "2026-02-28",
+      "updated_at": "2026-02-28"
+    },
+    "Tosencen/XMSLEEP": {
+      "metadata": {
+        "full_name": "Tosencen/XMSLEEP",
+        "name": "XMSLEEP",
+        "owner": "Tosencen",
+        "description": "一款白噪音应用送给你，祝您牛掰，有的是钱",
+        "stars": 1127,
+        "language": "Kotlin",
+        "url": "https://github.com/Tosencen/XMSLEEP",
+        "homepage": "",
+        "topics": [],
+        "updated_at": "2026-02-04"
+      },
+      "summary": {
+        "zh": "XMSLEEP 是一款专注于白噪音播放的 Android 应用，提供雨声、篝火、雷声等多种自然声音，支持音量调节、倒计时、预设播放和动态主题切换，采用 Kotlin 和 Jetpack Compose 开发，界面美观且功能实用，适合放松、专注和助眠。",
+        "en": "XMSLEEP is an Android app focused on white noise playback, offering natural sounds like rain, fire, and thunder. It supports volume control, countdown, presets, and dynamic themes. Built with Kotlin and Jetpack Compose, it features a clean UI and practical functions for relaxation, focus, and sleep.",
+        "tags_zh": [
+          "Kotlin",
+          "白噪音播放",
+          "移动应用"
+        ],
+        "tags_en": [
+          "Kotlin",
+          "White Noise Player",
+          "移动端应用"
+        ]
+      },
+      "pushed_at": "2026-02-04",
+      "updated_at": "2026-02-28"
+    },
+    "cjpais/Handy": {
+      "metadata": {
+        "full_name": "cjpais/Handy",
+        "name": "Handy",
+        "owner": "cjpais",
+        "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+        "stars": 16393,
+        "language": "Rust",
+        "url": "https://github.com/cjpais/Handy",
+        "homepage": "https://handy.computer",
+        "topics": [
+          "accessibility",
+          "cross-platform",
+          "speech-to-text",
+          "tauri-v2"
+        ],
+        "updated_at": "2026-02-28"
+      },
+      "summary": {
+        "zh": "Handy 是一款免费开源的离线语音转文字桌面应用，基于 Tauri 架构，支持 Windows/macOS/Linux。它利用 Whisper 和 Parakeet V3 模型实现本地语音识别，结合 Silero VAD 进行语音活动检测，确保隐私安全。用户可通过快捷键一键录音并实时转录为文本，适用于笔记、字幕等场景。",
+        "en": "Handy is a free, open-source, offline speech-to-text desktop app built with Tauri. It uses Whisper and Parakeet V3 models for local transcription, powered by Silero VAD for voice detection. Designed for privacy, it enables instant voice-to-text via hotkeys on Windows, macOS, and Linux, ideal for note-taking and accessibility.",
+        "tags_zh": [
+          "桌面应用",
+          "离线AI",
+          "语音识别",
+          "隐私工具"
+        ],
+        "tags_en": [
+          "Offline AI",
+          "Privacy Tool",
+          "Speech Recognition",
+          "桌面应用"
+        ]
+      },
+      "pushed_at": "2026-02-28",
+      "updated_at": "2026-02-28"
+    },
+    "nextlevelbuilder/ui-ux-pro-max-skill": {
+      "metadata": {
+        "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "name": "ui-ux-pro-max-skill",
+        "owner": "nextlevelbuilder",
+        "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+        "stars": 35587,
+        "language": "Python",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "homepage": "https://www.uupm.cc/",
+        "topics": [
+          "ai-skills",
+          "antigravity",
+          "claude",
+          "claude-code",
+          "codex",
+          "command-line",
+          "copilot",
+          "cursor-ai",
+          "html5",
+          "kiro",
+          "landing-page",
+          "mobile-ui",
+          "qoder",
+          "react",
+          "tailwindcss",
+          "trae",
+          "ui-design",
+          "uikit",
+          "windsurf-ai"
+        ],
+        "updated_at": "2026-02-27"
+      },
+      "summary": {
+        "zh": "UI UX Pro Max 是一款 AI 技能，专为多平台专业 UI/UX 设计提供智能设计决策支持。其核心功能包括基于 100 条推理规则和 67 种 UI 风格的智能设计系统生成，支持跨平台框架适配，显著提升设计效率与一致性。",
+        "en": "UI UX Pro Max is an AI skill delivering intelligent design intelligence for professional UI/UX across multiple platforms and frameworks. Its flagship feature, the Design System Generator, uses AI reasoning to create tailored design systems in seconds, leveraging 100 reasoning rules and 67 UI styles for enhanced consistency and efficiency.",
+        "tags_zh": [
+          "AI智能体",
+          "UI/UX设计",
+          "提示工程",
+          "设计系统"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Design System",
+          "UI/UX Design",
+          "提示工程"
+        ]
+      },
+      "pushed_at": "2026-02-27",
+      "updated_at": "2026-02-28"
+    },
+    "BloopAI/vibe-kanban": {
+      "metadata": {
+        "full_name": "BloopAI/vibe-kanban",
+        "name": "vibe-kanban",
+        "owner": "BloopAI",
+        "description": "Get 10X more out of Claude Code, Codex or any coding agent",
+        "stars": 22086,
+        "language": "Rust",
+        "url": "https://github.com/BloopAI/vibe-kanban",
+        "homepage": "https://www.vibekanban.com/",
+        "topics": [
+          "agent",
+          "ai-agents",
+          "kanban",
+          "management",
+          "task-manager"
+        ],
+        "updated_at": "2026-02-28"
+      },
+      "summary": {
+        "zh": "Vibe Kanban 是一款专为 AI 编程代理设计的任务管理与协同工具，支持 Claude Code、Gemini CLI、Codex 等主流代理的无缝切换与并行/串行任务编排。它提供任务状态跟踪、代码审查、远程 SSH 项目访问及集中化 MCP 配置管理，显著提升开发效率。",
+        "en": "Vibe Kanban is a task orchestration tool designed for AI coding agents like Claude Code and Gemini CLI. It enables seamless switching between agents, parallel/sequential task execution, code review, remote SSH project access, and centralized MCP configuration management, boosting developer productivity by 10x.",
+        "tags_zh": [
+          "AI智能体",
+          "任务编排",
+          "开发效率"
+        ],
+        "tags_en": [
+          "AI Agents",
+          "Developer Productivity",
+          "Task Orchestration"
+        ]
+      },
+      "pushed_at": "2026-02-28",
+      "updated_at": "2026-02-28"
+    },
+    "ychisbest/easytype": {
+      "metadata": {
+        "full_name": "ychisbest/easytype",
+        "name": "easytype",
+        "owner": "ychisbest",
+        "description": "A Flask-based tool that types or copies text from mobile devices directly to Windows computers.",
+        "stars": 10,
+        "language": "HTML",
+        "url": "https://github.com/ychisbest/easytype",
+        "homepage": "",
+        "topics": [],
+        "updated_at": "2025-12-30"
+      },
+      "summary": {
+        "zh": "EasyType 是一款基于 Flask 的跨平台输入工具，支持手机实时输入并推送到 Windows 剪贴板或直接模拟键盘输入。具备低延迟同步、移动端优化界面及多种快捷键支持，适用于远程办公与移动办公场景。",
+        "en": "EasyType is a Flask-based tool that enables real-time text input from mobile devices to Windows via clipboard or direct keyboard simulation. It features low-latency sync, mobile-optimized UI, and supports shortcuts like Enter, Tab, and Backspace, ideal for remote and mobile workflows.",
+        "tags_zh": [
+          "Flask",
+          "移动端同步",
+          "自动化工具",
+          "跨平台"
+        ],
+        "tags_en": [
+          "Automation Tool",
+          "Cross-Platform",
+          "Flask",
+          "Mobile Sync"
+        ]
+      },
+      "pushed_at": "2025-12-30",
+      "updated_at": "2026-02-28"
+    },
+    "aiclientproxy/proxycast": {
+      "metadata": {
+        "full_name": "aiclientproxy/proxycast",
+        "name": "proxycast",
+        "owner": "aiclientproxy",
+        "description": "把灵感、写作、出图、改稿、沉淀放进同一个工作台，让创作从“想到”直接走到“可发布”",
+        "stars": 1223,
+        "language": "Rust",
+        "url": "https://github.com/aiclientproxy/proxycast",
+        "homepage": "",
+        "topics": [
+          "agent",
+          "agentic-ai",
+          "ai",
+          "antigravity",
+          "gemini",
+          "kiro"
+        ],
+        "updated_at": "2026-02-28"
+      },
+      "summary": {
+        "zh": "ProxyCast 是一款面向创作者的 AI Agent 工作台，整合灵感构思、内容生成、素材制作与版本沉淀全流程，支持社媒文案、短视频脚本、小说创作、海报设计、歌词曲谱等九大主题，实现从想法到可发布内容的无缝创作闭环。",
+        "en": "ProxyCast is an AI Agent platform for creators, integrating ideation, content generation, asset creation, and version management into a unified workspace. It supports nine creative themes including social media, video scripts, novels, and posters, enabling seamless workflows from concept to publishable output.",
+        "tags_zh": [
+          "AI智能体",
+          "内容生成",
+          "创作工具",
+          "工作台一体化"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Content Generation",
+          "Creative Tool",
+          "Unified Workspace"
+        ]
+      },
+      "pushed_at": "2026-02-28",
+      "updated_at": "2026-02-28"
+    },
+    "doocs/cose": {
+      "metadata": {
+        "full_name": "doocs/cose",
+        "name": "cose",
+        "owner": "doocs",
+        "description": "😃 md 编辑器使用的浏览器扩展，支持一键将文章同步到多个内容平台。",
+        "stars": 403,
+        "language": "JavaScript",
+        "url": "https://github.com/doocs/cose",
+        "homepage": "",
+        "topics": [
+          "cose",
+          "doocs",
+          "extension",
+          "extension-chrome",
+          "md"
+        ],
+        "updated_at": "2026-02-24"
+      },
+      "summary": {
+        "zh": "COSE 是一款专为 Markdown 编辑器设计的浏览器扩展，支持一键将文章同步至 30+ 主流内容平台（如微信公众号、知乎、掘金、CSDN 等），自动检测登录状态并保留渲染样式，实现跨平台内容分发，所有操作均在本地完成，保障隐私安全。",
+        "en": "COSE is a browser extension designed for Markdown editors that enables one-click synchronization of articles to 30+ content platforms (e.g., WeChat Official Account, Zhihu, Juejin, CSDN). It auto-detects login status, preserves rendered styles, and ensures all operations run locally for privacy.",
+        "tags_zh": [
+          "内容分发",
+          "多平台同步",
+          "浏览器扩展"
+        ],
+        "tags_en": [
+          "Content Distribution",
+          "Multi-Platform Sync",
+          "浏览器插件"
+        ]
+      },
+      "pushed_at": "2026-02-24",
+      "updated_at": "2026-02-28"
+    },
+    "fishjar/kiss-translator": {
+      "metadata": {
+        "full_name": "fishjar/kiss-translator",
+        "name": "kiss-translator",
+        "owner": "fishjar",
+        "description": "A simple, open source bilingual translation extension & Greasemonkey script (一个简约、开源的 双语对照翻译扩展 & 油猴脚本)",
+        "stars": 8879,
+        "language": "JavaScript",
+        "url": "https://github.com/fishjar/kiss-translator",
+        "homepage": "https://github.com/fishjar/kiss-translator",
+        "topics": [
+          "extension",
+          "translate",
+          "translation",
+          "translator",
+          "userscript",
+          "userscripts"
+        ],
+        "updated_at": "2026-02-26"
+      },
+      "summary": {
+        "zh": "KISS Translator 是一款简约开源的双语对照翻译工具，支持浏览器扩展与油猴脚本两种形式。它适配主流浏览器，支持 Google、OpenAI、DeepL 等十余种翻译服务，覆盖网页翻译、划词翻译、YouTube字幕翻译等场景，并提供自定义规则、术语词典、快捷键操作及跨客户端数据同步功能，兼顾易用性与高度可定制性。",
+        "en": "KISS Translator is a minimalist, open-source bilingual translation tool available as both a browser extension and a Greasemonkey script. It supports over ten translation services including Google, OpenAI, and DeepL, offering features like webpage translation, selection-based translation, YouTube subtitle translation, custom rules, term dictionaries, and cross-device sync. It emphasizes simplicity, flexibility, and privacy through local processing and self-deployable sync options.",
+        "tags_zh": [
+          "AI大模型",
+          "双语对照",
+          "浏览器扩展",
+          "网页翻译"
+        ],
+        "tags_en": [
+          "AI Large Model",
+          "Bilingual Display",
+          "Web Translation",
+          "浏览器插件"
+        ]
+      },
+      "pushed_at": "2026-02-26",
+      "updated_at": "2026-02-28"
+    },
+    "hezhizheng/go-wxpush": {
+      "metadata": {
+        "full_name": "hezhizheng/go-wxpush",
+        "name": "go-wxpush",
+        "owner": "hezhizheng",
+        "description": "极简且免费的微信消息推送服务 (基于golang)",
+        "stars": 1578,
+        "language": "Go",
+        "url": "https://github.com/hezhizheng/go-wxpush",
+        "homepage": "https://push.hzz.cool",
+        "topics": [],
+        "updated_at": "2026-01-23"
+      },
+      "summary": {
+        "zh": "Go-WXPush 是基于 Golang 开发的极简免费微信消息推送服务，支持 Docker 一键部署（镜像仅 2MB），提供每日 10 万次推送额度。通过 HTTP API 可快速向微信用户发送模板消息，支持多用户、自定义跳转页面及无限换肤，适用于个人及小型项目通知场景。",
+        "en": "Go-WXPush is a minimalist, free WeChat push service built with Golang. It supports one-click Docker deployment (2MB image), offers 100K daily pushes, and provides HTTP API for sending template messages to multiple users. Features include custom redirect pages, skin customization, and webhook integration for automation.",
+        "tags_zh": [
+          "Go",
+          "微信服务",
+          "消息推送"
+        ],
+        "tags_en": [
+          "Go",
+          "Message Push",
+          "WeChat Service"
+        ]
+      },
+      "pushed_at": "2026-01-23",
+      "updated_at": "2026-02-28"
+    },
+    "browserwing/browserwing": {
+      "metadata": {
+        "full_name": "browserwing/browserwing",
+        "name": "browserwing",
+        "owner": "browserwing",
+        "description": "BrowserWing turns your browser actions into MCP commands Or Claude Skill, allowing AI agents to control browsers efficiently and reliably. Say goodbye to slow, token-heavy LLM interactions — let agents call commands directly for faster automation. Perfect for AI-driven tasks, browser automation, and boosting productivity.",
+        "stars": 909,
+        "language": "TypeScript",
+        "url": "https://github.com/browserwing/browserwing",
+        "homepage": "https://www.browserwing.com",
+        "topics": [
+          "aibrowser",
+          "golang",
+          "llm",
+          "react"
+        ],
+        "updated_at": "2026-02-28"
+      },
+      "summary": {
+        "zh": "BrowserWing 是一款原生浏览器自动化平台，支持 AI 智能体通过 MCP 协议或 Claude Skill 直接控制浏览器。提供 26+ 个 HTTP API 实现完整浏览器操作，内置 AI 代理对话界面，支持可视化脚本录制与编辑，并可将脚本导出为 AI 工具兼容的命令文件。适用于自动化任务、网页爬虫及提升 AI 驱动工作效率。",
+        "en": "BrowserWing is a native browser automation platform enabling AI agents to control browsers via MCP commands or Claude Skills. It offers 26+ HTTP APIs for full browser control, built-in AI agent interface, visual script recording/editing, and LLM-powered data extraction. Perfect for AI-driven automation, web scraping, and boosting productivity with direct command execution instead of token-heavy LLM interactions.",
+        "tags_zh": [
+          "AI智能体",
+          "MCP协议",
+          "浏览器自动化"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Browser Automation",
+          "MCP Protocol"
+        ]
+      },
+      "pushed_at": "2026-02-28",
+      "updated_at": "2026-02-28"
+    },
+    "RanFeng/clipsketch-ai": {
+      "metadata": {
+        "full_name": "RanFeng/clipsketch-ai",
+        "name": "clipsketch-ai",
+        "owner": "RanFeng",
+        "description": "将视频瞬间转化为手绘故事 Turn Video Moments into Hand-Drawn Stories",
+        "stars": 1630,
+        "language": "TypeScript",
+        "url": "https://github.com/RanFeng/clipsketch-ai",
+        "homepage": "https://clipsketch-ai.vercel.app",
+        "topics": [],
+        "updated_at": "2026-01-14"
+      },
+      "summary": {
+        "zh": "ClipSketch AI 是一款专为视频创作者设计的 AI 驱动内容创作工具，支持解析 Bilibili 和小红书视频链接，实现帧级精准标记，并基于 Google Gemini 多模态大模型将精彩瞬间转化为手绘风格故事板，自动生成适配社交媒体的爆款文案，提供从素材采集到内容输出的全流程创作解决方案。",
+        "en": "ClipSketch AI is an AI-powered content creation tool for video creators, enabling frame-level tagging of Bilibili and Xiaohongshu videos, transforming key moments into hand-drawn storyboards via Google Gemini's multimodal models, and auto-generating social media captions, offering an end-to-end creative workflow from video import to content export.",
+        "tags_zh": [
+          "AI内容创作",
+          "多模态AI",
+          "视频处理"
+        ],
+        "tags_en": [
+          "AI Content Creation",
+          "Multimodal AI",
+          "Video Processing"
+        ]
+      },
+      "pushed_at": "2026-01-14",
+      "updated_at": "2026-02-28"
+    },
+    "oraios/serena": {
+      "metadata": {
+        "full_name": "oraios/serena",
+        "name": "serena",
+        "owner": "oraios",
+        "description": "A powerful coding agent toolkit providing semantic retrieval and editing capabilities (MCP server & other integrations)",
+        "stars": 20796,
+        "language": "Python",
+        "url": "https://github.com/oraios/serena",
+        "homepage": "https://oraios.github.io/serena",
+        "topics": [
+          "agent",
+          "ai",
+          "ai-coding",
+          "claude",
+          "claude-code",
+          "language-server",
+          "llms",
+          "mcp-server",
+          "programming",
+          "vibe-coding"
+        ],
+        "updated_at": "2026-02-28"
+      },
+      "summary": {
+        "zh": "Serena 是一个强大的编码代理工具包，可将大语言模型（LLM）转化为可直接操作代码库的全功能代理。它提供语义级代码检索与编辑能力，支持符号级提取和关系结构分析，显著提升编码效率。通过 MCP 服务器集成多种 LLM 客户端（如 Claude Code、Cursor、VSCode 等），无需依赖特定框架，即可为 LLM 提供类 IDE 的工具支持，实现精准代码定位与修改。",
+        "en": "Serena is a powerful coding agent toolkit that transforms an LLM into a fully-featured agent capable of directly manipulating your codebase. It provides semantic code retrieval and editing tools at the symbol level, enhancing token efficiency by enabling precise code navigation and modification. Integrated via MCP server with LLM clients like Claude Code, Cursor, and VSCode, Serena offers IDE-like capabilities without being tied to a specific framework or interface.",
+        "tags_zh": [
+          "AI智能体",
+          "MCP集成",
+          "语义代码编辑"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "MCP Integration",
+          "Semantic Code Editing"
+        ]
+      },
+      "pushed_at": "2026-02-28",
+      "updated_at": "2026-02-28"
+    },
+    "wordflowlab/article-writer": {
+      "metadata": {
+        "full_name": "wordflowlab/article-writer",
+        "name": "article-writer",
+        "owner": "wordflowlab",
+        "description": "使用Claude Code，Cursor, codex, gemini 写微信公众号文章工具。",
+        "stars": 204,
+        "language": "TypeScript",
+        "url": "https://github.com/wordflowlab/article-writer",
+        "homepage": "",
+        "topics": [
+          "ai-article-writer",
+          "article",
+          "spec-kit"
+        ],
+        "updated_at": "2025-11-27"
+      },
+      "summary": {
+        "zh": "Article Writer 是一款专为公众号/自媒体设计的 AI 智能写作系统，集成 Claude、Cursor、Gemini 等 13 个 AI 平台。核心创新在于提出多模式写作体系（教练/快速/混合/框架约束），通过斜杠命令实现九步创作流程，重点解决 AI 内容缺乏温度与真实性的痛点，支持文档爬虫、素材库、三遍审校等深度功能。",
+        "en": "Article Writer is an AI-powered intelligent writing system designed for WeChat Official Accounts and self-media content. It integrates 13 AI platforms including Claude, Cursor, and Gemini via slash commands. Its core innovation is a multi-mode writing framework (Coach/Quick/Hybrid/Constrained) with an 11-step workflow, addressing the lack of authenticity in AI-generated content through features like document crawling, material libraries, and triple proofreading.",
+        "tags_zh": [
+          "AI智能体",
+          "内容创作",
+          "多模态写作",
+          "提示工程"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Content Creation",
+          "Multi-Mode Writing",
+          "提示工程"
+        ]
+      },
+      "pushed_at": "2025-11-27",
+      "updated_at": "2026-02-28"
+    },
+    "wordflowlab/novel-writer": {
+      "metadata": {
+        "full_name": "wordflowlab/novel-writer",
+        "name": "novel-writer",
+        "owner": "wordflowlab",
+        "description": "参考Spec-kit 实现小说撰写工具",
+        "stars": 654,
+        "language": "Shell",
+        "url": "https://github.com/wordflowlab/novel-writer",
+        "homepage": "",
+        "topics": [
+          "engineering",
+          "novels",
+          "sdd",
+          "spec",
+          "spec-driven"
+        ],
+        "updated_at": "2025-10-26"
+      },
+      "summary": {
+        "zh": "Novel Writer 是基于规格驱动开发（SDD）的 AI 智能中文小说创作工具，支持在 Claude、Cursor、Gemini 等主流 AI 助手中通过斜杠命令系统化创作小说。提供七步创作方法论、情节追踪、角色一致性验证等功能，专为中文小说写作优化，支持跨平台及插件扩展。",
+        "en": "Novel Writer is an AI-powered Chinese novel writing tool based on Specification-Driven Development (SDD), enabling systematic novel creation via slash commands in AI assistants like Claude, Cursor, and Gemini. It features a seven-step methodology, plot tracking, character consistency checks, and is optimized for Chinese fiction with cross-platform support and plugin extensibility.",
+        "tags_zh": [
+          "AI智能体",
+          "小说创作",
+          "斜杠命令",
+          "规格驱动开发"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Novel Writing",
+          "Slash Commands",
+          "Specification-Driven Development"
+        ]
+      },
+      "pushed_at": "2025-10-26",
+      "updated_at": "2026-02-28"
+    },
+    "siddharthvaddem/openscreen": {
+      "metadata": {
+        "full_name": "siddharthvaddem/openscreen",
+        "name": "openscreen",
+        "owner": "siddharthvaddem",
+        "description": "Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. ",
+        "stars": 7554,
+        "language": "TypeScript",
+        "url": "https://github.com/siddharthvaddem/openscreen",
+        "homepage": "https://openscreen.vercel.app",
+        "topics": [
+          "electron",
+          "open-source",
+          "pixijs",
+          "screen-capture",
+          "screen-recorder"
+        ],
+        "updated_at": "2026-02-28"
+      },
+      "summary": {
+        "zh": "OpenScreen 是一款免费的开源屏幕录制工具，提供无水印、无订阅的商业级屏幕录制功能，支持自定义缩放、背景设置、视频剪辑和导出。适用于制作产品演示和教程，是 Screen Studio 的轻量替代方案，采用 Electron + React + TypeScript 技术栈构建。",
+        "en": "OpenScreen is a free, open-source screen recording app offering watermark-free, subscription-free commercial use. It supports custom zooms, background customization, video trimming, and export in multiple formats. Built with Electron, React, and TypeScript, it serves as a lightweight alternative to Screen Studio for product demos and walkthroughs.",
+        "tags_zh": [
+          "屏幕录制",
+          "开源工具",
+          "桌面应用"
+        ],
+        "tags_en": [
+          "Open Source Tool",
+          "Screen Recording",
+          "桌面应用"
+        ]
+      },
+      "pushed_at": "2026-02-28",
+      "updated_at": "2026-02-28"
+    },
+    "666OS/ClashMac": {
+      "metadata": {
+        "full_name": "666OS/ClashMac",
+        "name": "ClashMac",
+        "owner": "666OS",
+        "description": "Native Proxy Experience Built for macOS",
+        "stars": 4758,
+        "language": "N/A",
+        "url": "https://github.com/666OS/ClashMac",
+        "homepage": "https://clashmac.app",
+        "topics": [
+          "clash",
+          "clash-meta",
+          "macos",
+          "mihomo",
+          "network",
+          "proxy",
+          "swiftui"
+        ],
+        "updated_at": "2026-01-31"
+      },
+      "summary": {
+        "zh": "ClashMac 是一款为 macOS 设计的原生代理客户端，采用 SwiftUI 构建，深度集成系统。核心功能包括全球路由地图可视化、实时连接拓扑图、4D 流量统计（按代理/进程/接口/主机），支持双代理模式（系统代理+TUN增强）。提供菜单栏常驻、隐私模式、一键切换节点及自动断开旧连接等高效操作体验。",
+        "en": "ClashMac is a native macOS proxy client built with SwiftUI, offering deep system integration. Key features include global route map visualization, real-time connection topology, 4D traffic statistics (by proxy/process/interface/host), and dual proxy modes (system + TUN). It provides menu bar residency, privacy mode, one-click node switching, and automatic disconnection for seamless proxy management.",
+        "tags_zh": [
+          "SwiftUI",
+          "流量可视化",
+          "网络代理"
+        ],
+        "tags_en": [
+          "Network Proxy",
+          "SwiftUI",
+          "Traffic Visualization"
+        ]
+      },
+      "pushed_at": "2026-01-31",
+      "updated_at": "2026-02-28"
+    },
+    "guiyumin/vget": {
+      "metadata": {
+        "full_name": "guiyumin/vget",
+        "name": "vget",
+        "owner": "guiyumin",
+        "description": "Versatile downloader for audio, video, podcasts, PDFs and more. Available as CLI and Docker | 多功能下载工具，支持音视频、播客、PDF等，提供 CLI 和 Docker 两种方式",
+        "stars": 443,
+        "language": "Go",
+        "url": "https://github.com/guiyumin/vget",
+        "homepage": "https://vget.io",
+        "topics": [],
+        "updated_at": "2026-02-26"
+      },
+      "summary": {
+        "zh": "vget 是一款多功能下载工具，支持从音视频、播客、社交媒体及PDF等网站抓取内容，提供 CLI 和 Docker 部署方式，具备 WebDAV 远程管理、多语言配置及交互式设置向导，适用于跨平台自动化下载场景。",
+        "en": "vget is a versatile downloader that supports fetching audio, video, podcasts, PDFs, and more from various sites. It offers CLI and Docker deployment, WebDAV remote management, multi-language configuration, and an interactive setup wizard, ideal for cross-platform automated downloading.",
+        "tags_zh": [
+          "CLI工具",
+          "下载工具",
+          "跨平台"
+        ],
+        "tags_en": [
+          "CLI Tool",
+          "Cross-Platform",
+          "Downloader"
+        ]
+      },
+      "pushed_at": "2026-02-26",
       "updated_at": "2026-02-28"
     }
   }
