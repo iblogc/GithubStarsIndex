@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28 18:37 UTC",
+  "last_updated": "2026-02-28 18:47 UTC",
   "repos": {
     "waoowaooAI/waoowaoo": {
       "metadata": {
@@ -7,7 +7,7 @@
         "name": "waoowaoo",
         "owner": "waoowaooAI",
         "description": "首家工业级全流程可控协作式专业AIagent影视生产平台，从短片到漫剧到真人级影视剧一站搞定，采用好莱坞专业制作团队思路，让你拥有虚拟制片场",
-        "stars": 3488,
+        "stars": 3497,
         "language": "TypeScript",
         "url": "https://github.com/waoowaooAI/waoowaoo",
         "homepage": "",
@@ -97,7 +97,7 @@
         "name": "nanobot",
         "owner": "HKUDS",
         "description": "\"🐈 nanobot: The Ultra-Lightweight OpenClaw\"",
-        "stars": 26861,
+        "stars": 26863,
         "language": "Python",
         "url": "https://github.com/HKUDS/nanobot",
         "homepage": "",
@@ -127,7 +127,7 @@
         "name": "memU",
         "owner": "NevaMind-AI",
         "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
-        "stars": 11629,
+        "stars": 11631,
         "language": "Python",
         "url": "https://github.com/NevaMind-AI/memU",
         "homepage": "https://memu.pro",
@@ -172,7 +172,7 @@
         "name": "prompt-optimizer",
         "owner": "linshenkx",
         "description": "一款提示词优化器，助力于编写高质量的提示词",
-        "stars": 22381,
+        "stars": 22380,
         "language": "TypeScript",
         "url": "https://github.com/linshenkx/prompt-optimizer",
         "homepage": "https://prompt.always200.com",
@@ -241,7 +241,7 @@
         "name": "cc-switch",
         "owner": "farion1231",
         "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.",
-        "stars": 21766,
+        "stars": 21769,
         "language": "TypeScript",
         "url": "https://github.com/farion1231/cc-switch",
         "homepage": "https://github.com/farion1231/cc-switch",
@@ -288,7 +288,7 @@
         "name": "everything-claude-code",
         "owner": "affaan-m",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Cowork, and beyond. 🧠",
-        "stars": 54711,
+        "stars": 54712,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/everything-claude-code",
         "homepage": "https://ecc.tools",
@@ -421,7 +421,7 @@
         "name": "Antigravity-Manager",
         "owner": "lbjlaq",
         "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
-        "stars": 24788,
+        "stars": 24790,
         "language": "Rust",
         "url": "https://github.com/lbjlaq/Antigravity-Manager",
         "homepage": "https://lbjlaq.github.io/Antigravity-Manager/",
@@ -519,6 +519,177 @@
         ]
       },
       "pushed_at": "2026-02-14",
+      "updated_at": "2026-02-28"
+    },
+    "nolanzhao/creative_tools": {
+      "metadata": {
+        "full_name": "nolanzhao/creative_tools",
+        "name": "creative_tools",
+        "owner": "nolanzhao",
+        "description": "使用 Gemini (Nano Banano 和 Veo) 的短视频和漫画创作工具",
+        "stars": 72,
+        "language": "TypeScript",
+        "url": "https://github.com/nolanzhao/creative_tools",
+        "homepage": "",
+        "topics": [],
+        "updated_at": "2026-02-02"
+      },
+      "summary": {
+        "zh": "基于 Gemini Nano Banano 和 VEO 的 AI 驱动短视频与漫画创作工具，支持剧本导入、AI 生成分镜图片与视频、角色一致性管理及多项目协作，提供画布视图与历史版本管理，适用于内容创作者快速生成视觉叙事作品。",
+        "en": "AI-powered video and comic creation tool leveraging Gemini (Nano Banano & VEO) APIs, enabling script-to-scene generation, character consistency, canvas-based editing, and project management for content creators.",
+        "tags_zh": [
+          "AI智能体",
+          "Gemini API",
+          "漫画生成",
+          "短视频创作"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Comic Generation",
+          "Gemini API",
+          "Video Creation"
+        ]
+      },
+      "pushed_at": "2026-02-02",
+      "updated_at": "2026-02-28"
+    },
+    "antvis/Infographic": {
+      "metadata": {
+        "full_name": "antvis/Infographic",
+        "name": "Infographic",
+        "owner": "antvis",
+        "description": "🦋 An Infographic Generation and Rendering Framework, bring words to life with AI!",
+        "stars": 4513,
+        "language": "TypeScript",
+        "url": "https://github.com/antvis/Infographic",
+        "homepage": "https://infographic.antv.vision",
+        "topics": [
+          "ai",
+          "antv",
+          "infographic",
+          "llm",
+          "visualization"
+        ],
+        "updated_at": "2026-02-28"
+      },
+      "summary": {
+        "zh": "AntV Infographic 是蚂蚁集团 AntV 团队推出的下一代声明式信息图可视化引擎，提供专为 AI 优化的配置语法和约 200 个内置模板组件。支持 AI 友好提示词生成、流式渲染输出，具备主题系统、SVG 渲染、内置编辑器等功能，可快速创建高质量信息图，提升数据叙事效率。",
+        "en": "AntV Infographic is AntV's next-generation declarative infographic visualization engine, featuring AI-optimized syntax and ~200 built-in templates. It supports AI-friendly prompts, streaming rendering, theme system, SVG output, and an integrated editor for creating professional infographics efficiently.",
+        "tags_zh": [
+          "AI智能体",
+          "信息图生成",
+          "数据可视化"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Infographic Generation",
+          "数据可视化"
+        ]
+      },
+      "pushed_at": "2026-02-28",
+      "updated_at": "2026-02-28"
+    },
+    "aresbit/MateBot": {
+      "metadata": {
+        "full_name": "aresbit/MateBot",
+        "name": "MateBot",
+        "owner": "aresbit",
+        "description": "claudeclaw",
+        "stars": 38,
+        "language": "JavaScript",
+        "url": "https://github.com/aresbit/MateBot",
+        "homepage": "",
+        "topics": [],
+        "updated_at": "2026-02-27"
+      },
+      "summary": {
+        "zh": "MateCode 是一个通过 Telegram 远程控制 Claude Code 的桥接工具，支持长期记忆、会话管理、代码高亮等功能。采用纯 Python 标准库开发，使用长轮询实现低延迟通信，所有数据本地存储保障隐私安全。",
+        "en": "MateCode is a bridge tool that enables remote control of Claude Code via Telegram, featuring long-term memory, session management, and code highlighting. Built with pure Python standard libraries, it uses long polling for low-latency communication with local data storage for privacy.",
+        "tags_zh": [
+          "AI智能体",
+          "Python",
+          "自动化工具",
+          "远程协作"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Automation Tool",
+          "Python",
+          "Remote Collaboration"
+        ]
+      },
+      "pushed_at": "2026-02-27",
+      "updated_at": "2026-02-28"
+    },
+    "workany-ai/workany": {
+      "metadata": {
+        "full_name": "workany-ai/workany",
+        "name": "workany",
+        "owner": "workany-ai",
+        "description": "Desktop Agent for Any Task",
+        "stars": 1285,
+        "language": "TypeScript",
+        "url": "https://github.com/workany-ai/workany",
+        "homepage": "https://workany.ai",
+        "topics": [
+          "ai-assistant",
+          "desktop-agent",
+          "general-agent",
+          "open-cowork"
+        ],
+        "updated_at": "2026-02-25"
+      },
+      "summary": {
+        "zh": "WorkAny 是一款桌面级 AI 智能体应用，通过自然语言指令执行复杂任务，支持实时代码生成、多模态文件处理（文档/网页/表格/幻灯片）、沙箱环境执行及 MCP 协议集成，基于 Claude Agent SDK 构建，提供跨平台桌面端体验。",
+        "en": "WorkAny is a desktop AI agent that executes tasks via natural language, featuring real-time code generation, multi-format file creation (docs/web/excel/ppt), sandboxed code execution, and MCP integration. Built on Claude Agent SDK with a Tauri-based cross-platform desktop interface.",
+        "tags_zh": [
+          "AI智能体",
+          "Claude Agent SDK",
+          "桌面应用"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Claude Agent SDK",
+          "Desktop Application"
+        ]
+      },
+      "pushed_at": "2026-02-25",
+      "updated_at": "2026-02-28"
+    },
+    "liu-ziting/ThinkFlowAI": {
+      "metadata": {
+        "full_name": "liu-ziting/ThinkFlowAI",
+        "name": "ThinkFlowAI",
+        "owner": "liu-ziting",
+        "description": "ThinkFlow AI 是一个轻量级“从想法到结构化图谱”的工作台：输入一个核心想法，应用会把它扩展为可浏览的知识图谱（模块/子模块）。每个节点支持继续追问扩展、深挖详情，以及可选的配图生成。",
+        "stars": 141,
+        "language": "Vue",
+        "url": "https://github.com/liu-ziting/ThinkFlowAI",
+        "homepage": "https://thinkflow-ai.lz-t.top",
+        "topics": [
+          "ai",
+          "flow",
+          "gpt",
+          "thinkflow",
+          "web"
+        ],
+        "updated_at": "2026-02-06"
+      },
+      "summary": {
+        "zh": "ThinkFlow AI 是一个基于 Vue 3 和 AI 的轻量级工作台，可将核心想法自动扩展为交互式知识图谱，支持节点追问、深度解析与配图生成，实现从抽象概念到结构化思维网络的智能转化。",
+        "en": "ThinkFlow AI is a lightweight workspace built with Vue 3 and AI that transforms core ideas into interactive knowledge graphs, enabling node-based expansion, deep dive analysis, and image generation for structured thinking.",
+        "tags_zh": [
+          "AI智能体",
+          "提示工程",
+          "知识图谱"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "提示工程",
+          "知识图谱"
+        ]
+      },
+      "pushed_at": "2026-02-06",
       "updated_at": "2026-02-28"
     }
   }
