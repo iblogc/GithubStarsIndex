@@ -1,6 +1,6 @@
 # ⭐ GitHub Stars Index
 
-> Updated: 2026-02-28 18:33 UTC · Total: 5
+> Updated: 2026-02-28 18:37 UTC · Total: 15
 
 ---
 
@@ -10,6 +10,16 @@
 - [[#op7418/Document-illustrator-skill|op7418/Document-illustrator-skill]]
 - [[#HKUDS/nanobot|HKUDS/nanobot]]
 - [[#NevaMind-AI/memU|NevaMind-AI/memU]]
+- [[#linshenkx/prompt-optimizer|linshenkx/prompt-optimizer]]
+- [[#pxw3504k-web/free-n8n-workflows|pxw3504k-web/free-n8n-workflows]]
+- [[#farion1231/cc-switch|farion1231/cc-switch]]
+- [[#affaan-m/everything-claude-code|affaan-m/everything-claude-code]]
+- [[#HisMax/RedInk|HisMax/RedInk]]
+- [[#lukilabs/beautiful-mermaid|lukilabs/beautiful-mermaid]]
+- [[#bmad-code-org/BMAD-METHOD|bmad-code-org/BMAD-METHOD]]
+- [[#lbjlaq/Antigravity-Manager|lbjlaq/Antigravity-Manager]]
+- [[#openmozi/openmozi|openmozi/openmozi]]
+- [[#nocmt/toMic|nocmt/toMic]]
 
 ---
 
@@ -46,7 +56,7 @@
 ## HKUDS/nanobot
 
 > [!info]
-> ⭐ 26,859 · Python · 2026-02-28  
+> ⭐ 26,861 · Python · 2026-02-28  
 > [GitHub](https://github.com/HKUDS/nanobot)  
 > `#AI 智能体` `#Lightweight Architecture` `#Multi-Channel Communication` 
 > nanobot is an ultra-lightweight personal AI assistant with core agent functionality in ~4,000 lines of code—99% smaller than Clawdbot. It supports multi-channel communication (Slack, Discord, Feishu, etc.), integrates MCP protocol, multimodal file handling, and optimized session memory, offering high reliability and extensibility for lightweight AI agent deployment.
@@ -56,10 +66,109 @@
 ## NevaMind-AI/memU
 
 > [!info]
-> ⭐ 11,627 · Python · 2026-02-24  
+> ⭐ 11,629 · Python · 2026-02-24  
 > [GitHub](https://github.com/NevaMind-AI/memU) · [Website](https://memu.pro)  
 > `#AI 智能体` `#Cost Optimization` `#Long-Term Memory` `#提示工程` `#agent-memory` `#agentic-workflow` `#claude` `#claude-skills` `#clawdbot` `#clawdbot-skill` `#mcp` `#memory` `#proactive` `#proactive-ai` `#sandbox` `#skills` 
 > memU is a memory framework for 24/7 proactive AI agents, using a file-system-like structure to organize memory, drastically reducing LLM token costs by caching insights and enabling continuous, context-aware user intent understanding.
 > <sub>Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).</sub>
+
+---
+## linshenkx/prompt-optimizer
+
+> [!info]
+> ⭐ 22,381 · TypeScript · 2026-02-10  
+> [GitHub](https://github.com/linshenkx/prompt-optimizer) · [Website](https://prompt.always200.com)  
+> `#AI 智能体` `#Multi-Model Integration` `#提示工程` `#浏览器插件` `#llm` `#prompt` `#prompt-engineering` `#prompt-optimization` `#prompt-toolkit` `#prompt-tuning` 
+> Prompt Optimizer is a professional AI prompt optimization tool featuring multi-round iterative improvement, dual-mode prompt editing, real-time comparison testing, and integration with major AI models (OpenAI/Gemini/DeepSeek). It supports text-to-image, image-to-image generation, MCP protocol compatibility, and offers four deployment options: Web, desktop app, Chrome extension, and Docker.
+> <sub>一款提示词优化器，助力于编写高质量的提示词</sub>
+
+---
+## pxw3504k-web/free-n8n-workflows
+
+> [!info]
+> ⭐ 25 · TypeScript · 2026-02-06  
+> [GitHub](https://github.com/pxw3504k-web/free-n8n-workflows)  
+> `#Automation Tools` `#Web Crawler` `#n8n Workflows` 
+> This project offers the largest open-source collection of 8,000+ verified n8n workflows, providing free JSON downloads with smart filtering by role and integration. Built with Next.js 14, Tailwind CSS, and Supabase, it features a self-hostable search interface deployable via Vercel or locally, enabling efficient automation template discovery and management.
+> <sub>🚀 8000+ Verified n8n Workflows. Free to download. Includes a self-hostable frontend to browse and search automation templates.</sub>
+
+---
+## farion1231/cc-switch
+
+> [!info]
+> ⭐ 21,766 · TypeScript · 2026-02-28  
+> [GitHub](https://github.com/farion1231/cc-switch) · [Website](https://github.com/farion1231/cc-switch)  
+> `#AI 智能体` `#Cross-Platform Desktop App` `#Tauri 框架` `#ai-tools` `#claude-code` `#codex` `#desktop-app` `#kimi-k2-thiking` `#mcp` `#minimax` `#open-source` `#opencode` `#provider-management` `#rust` `#skills` `#skills-management` `#tauri` `#typescript` `#wsl-support` 
+> A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI, built with Tauri 2, offering unified management and optimized AI coding experience with integrated API relay services and exclusive user benefits.
+> <sub>A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.</sub>
+
+---
+## affaan-m/everything-claude-code
+
+> [!info]
+> ⭐ 54,711 · JavaScript · 2026-02-28  
+> [GitHub](https://github.com/affaan-m/everything-claude-code) · [Website](https://ecc.tools)  
+> `#AI 智能体` `#Performance Optimization` `#Production Ready` `#ai-agents` `#anthropic` `#claude` `#claude-code` `#developer-tools` `#llm` `#mcp` `#productivity` 
+> Everything Claude Code is a comprehensive performance optimization system for AI agent harnesses, featuring skills, instincts, memory, security, and research-first development. Built from an Anthropic hackathon winner, it supports Claude Code, Codex, Cowork, and more, offering production-ready agents, hooks, commands, rules, and MCP configurations with cross-session memory persistence and automated skill extraction.
+> <sub>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Cowork, and beyond. 🧠</sub>
+
+---
+## HisMax/RedInk
+
+> [!info]
+> ⭐ 4,924 · Python · 2025-12-29  
+> [GitHub](https://github.com/HisMax/RedInk) · [Website](https://redink.top)  
+> `#AI 智能体` `#Automation Tool` `#Xiaohongshu Content` `#提示工程` 
+> RedInk is a one-stop Xiaohongshu image-and-text generator powered by 🍌Nano Banana Pro🍌, enabling 'one sentence, one image' creation with AI-driven content outlines, cover pages, and batch content generation. Built with Python Flask backend and Vue 3 frontend, it supports Docker deployment and API integration.
+> <sub>红墨 - 基于🍌Nano Banana Pro🍌 的一站式小红书图文生成器 《一句话一张图片生成小红书图文》 Red Ink - A one-stop Xiaohongshu image-and-text generator based on the 🍌Nano Banana Pro🍌, "One Sentence, One Image: Generate Xiaohongshu Text and Images."</sub>
+
+---
+## lukilabs/beautiful-mermaid
+
+> [!info]
+> ⭐ 7,923 · TypeScript · 2026-02-26  
+> [GitHub](https://github.com/lukilabs/beautiful-mermaid)  
+> `#AI 智能体` `#Mermaid Diagram` `#Terminal Rendering` 
+> beautiful-mermaid is a high-performance Mermaid diagram renderer supporting dual SVG/ASCII output, 15 built-in themes, zero DOM dependencies, and synchronous rendering. Designed for AI coding assistants and terminal tools with seamless React integration.
+
+---
+## bmad-code-org/BMAD-METHOD
+
+> [!info]
+> ⭐ 38,474 · JavaScript · 2026-02-28  
+> [GitHub](https://github.com/bmad-code-org/BMAD-METHOD)  
+> `#AI Agents` `#AI Large Models` `#Agile Development` `#Development Framework` 
+> BMad Method is an AI-driven agile development framework featuring structured workflows, 12+ domain-expert agents, and scale-adaptive intelligence for projects from bug fixes to enterprise systems. Key features include smart guidance via `/bmad-help`, multi-agent collaboration (Party Mode), full lifecycle support, and cross-platform integration for efficient, high-quality software development.
+> <sub>Breakthrough Method for Agile Ai Driven Development</sub>
+
+---
+## lbjlaq/Antigravity-Manager
+
+> [!info]
+> ⭐ 24,788 · Rust · 2026-02-27  
+> [GitHub](https://github.com/lbjlaq/Antigravity-Manager) · [Website](https://lbjlaq.github.io/Antigravity-Manager/)  
+> `#AI 智能体` `#Account Management` `#Protocol Proxy` `#account-manager` `#antigravity` 
+> Antigravity-Manager is a professional AI account management and protocol proxy system built with Tauri v2 + React and Rust. It enables one-click seamless account switching, multi-protocol support (OpenAI/Anthropic/Gemini), intelligent quota monitoring, automatic retry on 429/401 errors, OAuth 2.0 authorization, tiered model routing, and handles up to 100MB multimodal payloads for high-resolution image generation.
+> <sub>Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。</sub>
+
+---
+## openmozi/openmozi
+
+> [!info]
+> ⭐ 166 · TypeScript · 2026-02-13  
+> [GitHub](https://github.com/openmozi/openmozi) · [Website](https://mozi.aigcshow.com/)  
+> `#AI 智能体` `#Domestic LLMs` `#Multi-Platform Integration` `#agent` `#claude` `#claude-code` `#clawdbot` `#deepseek` `#dingding` `#feishu` `#minimax` `#moltbot` `#openclaw` `#qq` `#qqbot` 
+> OpenMozi is a lightweight AI assistant framework designed for the Chinese ecosystem, supporting domestic large models like DeepSeek, Doubao, and Qwen, as well as OpenAI/Anthropic-compatible APIs. It integrates multi-platform communication (Feishu, DingTalk, QQ, WeCom), provides unified Function Calling, 25 built-in tools (file ops, browser automation, cron jobs), memory system, and Skills extension mechanism. With clean architecture and ~16k lines of code, it's ideal for enterprise bot development.
+> <sub>轻量级的clawdbot/openclaw，支持飞书，钉钉，QQ和企业微信</sub>
+
+---
+## nocmt/toMic
+
+> [!info]
+> ⭐ 52 · JavaScript · 2026-02-14  
+> [GitHub](https://github.com/nocmt/toMic)  
+> `#Audio Processing` `#LAN Streaming` `#Virtual Microphone` 
+> ToMic is a Web-based LAN virtual microphone tool that turns your phone into a PC microphone via browser. It streams audio over Wi-Fi using WebSocket and Opus encoding, then injects it into the system via virtual sound cards (BlackHole/VB-CABLE). Features zero-install, low-latency, HTTPS security, and SoX-based audio routing for apps like Zoom and Teams.
+> <sub>ToMic - Turn Your Phone into a PC Microphone</sub>
 
 ---
