@@ -308,23 +308,196 @@
             background: var(--surface);
             border: 1px solid var(--border);
             z-index: 500;
-            min-width: 200px;
+            width: 850px;
+            max-width: calc(100vw - 40px);
             display: none;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-height: 450px;
+            overflow: hidden;
+            flex-direction: column;
+            animation: fadeIn 0.2s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+
+        #tag-dropdown .dropdown-content {
+            left: 0;
+            right: auto;
         }
 
         .dropdown.active .dropdown-content {
+            display: flex;
+        }
+
+        .dropdown-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.6);
+            backdrop-filter: blur(4px);
+            z-index: 499;
+            display: none;
+        }
+
+        body.dropdown-open .dropdown-overlay {
             display: block;
         }
 
+        .dropdown-search-wrapper {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border);
+            background: var(--surface);
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+
+        .dropdown-search {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            color: var(--fg);
+            padding: 0.6rem 1rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            outline: none;
+            flex-grow: 1;
+            width: 100%;
+        }
+
+        .dropdown-search-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1rem;
+            border-bottom: 1px solid var(--border);
+            background: var(--surface);
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+
+        .btn-clear-dropdown {
+            font-size: 0.7rem;
+            color: var(--accent);
+            cursor: pointer;
+            white-space: nowrap;
+            padding: 0.2rem 0.5rem;
+            border: 1px solid var(--accent);
+            font-family: 'Space Mono', monospace;
+            transition: var(--transition);
+        }
+
+        .btn-clear-dropdown:hover {
+            background: var(--accent);
+            color: var(--bg);
+        }
+
+        .dropdown-search:focus {
+            border-color: var(--accent);
+        }
+
+        .dropdown-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            overflow-y: auto;
+            flex-grow: 1;
+            border-top: 1px solid var(--border);
+            border-left: 1px solid var(--border);
+            border-right: 1px solid var(--border); /* Added right border to container */
+        }
+
         .dropdown-item {
-            padding: 0.8rem 1.2rem;
+            padding: 0.6rem 0.8rem;
             cursor: pointer;
             transition: var(--transition);
             border-bottom: 1px solid var(--border);
+            border-right: 1px solid var(--border);
             display: flex;
             justify-content: space-between;
+            align-items: center;
+            font-size: 0.65rem;
+            min-width: 0;
+            color: var(--fg-dim);
         }
+
+        .dropdown-item:hover {
+            background: var(--surface-dim);
+            color: var(--fg);
+        }
+
+        .dropdown-item.active {
+            background: rgba(var(--accent-rgb), 0.1);
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+            font-weight: bold;
+        }
+
+        /* Removed static nth-child logic as columns are now dynamic */
+
+        @media (max-width: 1024px) {
+            .dropdown-content { 
+                width: 600px;
+            }
+            .dropdown-list { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
+        }
+
+        @media (max-width: 800px) {
+            .dropdown-content {
+                position: fixed;
+                bottom: 0;
+                top: auto;
+                left: 0 !important;
+                right: 0 !important;
+                min-width: 100% !important;
+                max-height: 80vh;
+                z-index: 2000;
+                border-top: 1px solid var(--accent);
+                border-bottom: none;
+                border-left: none;
+                border-right: none;
+                animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            }
+            .dropdown-list { 
+                grid-template-columns: 1fr;
+                border-left: none;
+            }
+            .dropdown-item {
+                font-size: 1rem;
+                padding: 1rem 1.5rem;
+                border-right: none !important;
+                border-left: none !important;
+            }
+            .dropdown-search-wrapper {
+                padding: 1.5rem;
+            }
+            .dropdown-search {
+                padding: 0.8rem 1rem;
+                font-size: 1rem;
+            }
+            body.dropdown-open {
+                overflow: hidden;
+            }
+            .dropdown-close-mobile {
+                display: block;
+                text-align: center;
+                padding: 0.8rem;
+                font-size: 0.7rem;
+                color: var(--fg-dim);
+                text-transform: uppercase;
+                letter-spacing: 0.2em;
+                background: var(--surface);
+                border-top: 1px solid var(--border);
+            }
+        }
+
+        .dropdown-close-mobile { display: none; }
 
         .dropdown-item:hover {
             background: var(--glass);
@@ -349,12 +522,19 @@
             border: 1px solid var(--accent);
         }
 
-        .filter-chip span {
-            cursor: pointer;
-            opacity: 0.6;
-        }
-
         .filter-chip span:hover { opacity: 1; }
+
+        .filter-chip.reset-all {
+            background: transparent;
+            border-style: dashed;
+            opacity: 0.8;
+        }
+        .filter-chip.reset-all:hover {
+            opacity: 1;
+            background: rgba(255, 68, 68, 0.1);
+            border-color: #ff4444;
+            color: #ff4444;
+        }
 
         .sort-pill-group {
             display: flex;
@@ -387,14 +567,44 @@
             margin-bottom: 1rem;
         }
 
-        .stat-card {
-            background: var(--glass);
-            border: 1px solid var(--glass-border);
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-            transition: var(--transition);
+        @media (max-width: 768px) {
+            .stats-dashboard {
+                display: flex;
+                gap: 0;
+                background: var(--surface);
+                border: 1px solid var(--border);
+                margin-bottom: 0.5rem;
+                padding: 0;
+            }
+
+            .stat-card {
+                flex: 1;
+                padding: 0.8rem 0.4rem;
+                background: none;
+                border: none;
+                border-right: 1px solid var(--border);
+                align-items: center;
+                gap: 0.2rem;
+            }
+
+            .stat-card:last-child {
+                border-right: none;
+            }
+
+            .stat-card-label {
+                font-size: 0.55rem;
+            }
+
+            .stat-card-value {
+                font-size: 0.9rem;
+            }
+            .stat-card-value .ui-stars {
+                font-size: 0.9rem !important;
+            }
+            .stat-card-value .ui-stars svg {
+                width: 14px;
+                height: 14px;
+            }
         }
 
         .stat-card:hover {
@@ -799,6 +1009,7 @@
     </style>
 </head>
 <body>
+    <div class="dropdown-overlay" onclick="closeAllDropdowns()"></div>
     <div class="container">
         <header>
             <div class="title-area">
@@ -836,7 +1047,7 @@
 
         <section class="search-section">
             <div class="search-bar">
-                <input type="text" id="search-input" placeholder="SEARCH_KEYWORD_OR_TAG...">
+                <input type="text" id="search-input" placeholder="SEARCH_KEYWORD_OR_TAG (AND_LOGIC)...">
                 <div class="search-hint">PRESS [/] TO FOCUS</div>
             </div>
         </section>
@@ -848,7 +1059,14 @@
                         <span id="l-lang-label">LANGUAGE: ALL</span>
                         <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
-                    <div class="dropdown-content" id="lang-options"></div>
+                    <div class="dropdown-content">
+                        <div class="dropdown-search-wrapper">
+                            <input type="text" class="dropdown-search" placeholder="FILTER..." id="lang-search">
+                            <div class="btn-clear-dropdown" onclick="clearLangFilter()">[ CLEAR ]</div>
+                        </div>
+                        <div class="dropdown-list" id="lang-options"></div>
+                        <div class="dropdown-close-mobile" onclick="closeAllDropdowns()">[ TAP_TO_CLOSE ]</div>
+                    </div>
                 </div>
 
                 <div class="dropdown" id="tag-dropdown">
@@ -856,7 +1074,14 @@
                         <span id="l-tag-label">TAGS: ALL</span>
                         <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
-                    <div class="dropdown-content" id="tag-options"></div>
+                    <div class="dropdown-content">
+                        <div class="dropdown-search-wrapper">
+                            <input type="text" class="dropdown-search" placeholder="FILTER..." id="tag-search">
+                            <div class="btn-clear-dropdown" onclick="clearTagFilters()">[ CLEAR ]</div>
+                        </div>
+                        <div class="dropdown-list" id="tag-options"></div>
+                        <div class="dropdown-close-mobile" onclick="closeAllDropdowns()">[ TAP_TO_CLOSE ]</div>
+                    </div>
                 </div>
 
                 <div class="sort-pill-group">
@@ -942,6 +1167,19 @@
         let activeLanguage = null;
         let activeTags = new Set();
         let currentSort = 'pushed_at';
+
+        const LANG_ALIAS = {
+            'JavaScript': 'JS',
+            'TypeScript': 'TS',
+            'Objective-C': 'Obj-C',
+            'Objective-C++': 'Obj-C++',
+            'Jupyter Notebook': 'Jupyter',
+            'CoffeeScript': 'Coffee',
+            'PowerShell': 'PS',
+            'Makefile': 'Make',
+            'Batchfile': 'Batch',
+            'Vim Snippet': 'Vim'
+        };
         
         const grid = document.getElementById('main-grid');
         const trigger = document.getElementById('loading-trigger');
@@ -952,7 +1190,7 @@
 
         const I18N = {
             zh: {
-                search: "搜索关键字或标签...",
+                search: "搜索关键字或标签 (空格分隔多词 AND 搜索)...",
                 updated: "更新时间",
                 loading: "系统加载中...",
                 end: "已加载全部档案",
@@ -969,7 +1207,7 @@
                 alpha: "字母顺序"
             },
             en: {
-                search: "SEARCH KEYWORDS OR TAGS...",
+                search: "SEARCH KEYWORDS/TAGS (SPACE-SEPARATED AND LOGIC)...",
                 updated: "UPDATED",
                 loading: "SYSTEM_LOADING...",
                 end: "END_OF_ARCHIVE",
@@ -1014,7 +1252,8 @@
                     langCounts[r.language] = (langCounts[r.language] || 0) + 1;
                 }
             });
-            const topLang = Object.entries(langCounts).sort((a,b) => b[1] - a[1])[0]?.[0] || 'N/A';
+            const topLangRaw = Object.entries(langCounts).sort((a,b) => b[1] - a[1])[0]?.[0] || 'N/A';
+            const topLang = LANG_ALIAS[topLangRaw] || topLangRaw;
 
             document.getElementById('s-total').textContent = total;
             document.getElementById('s-avg').innerHTML = `<span class="ui-stars" style="font-size: 1.5rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> ${avgStars}</span>`;
@@ -1041,38 +1280,67 @@
         }
 
         // --- UI Initialization ---
+        let availableLangs = [];
+        let availableTags = [];
+
+        function renderLangOptions(query = '') {
+            const container = document.getElementById('lang-options');
+            if (!container) return;
+            const filtered = query ? availableLangs.filter(l => l.toLowerCase().includes(query.toLowerCase())) : availableLangs;
+            
+            // Fixed: Use activeLanguage check to properly highlight "ALL"
+            let html = `<div class="dropdown-item ${activeLanguage === null ? 'active' : ''}" data-value="" style="grid-column: span 2;">ALL LANGUAGES</div>`;
+            filtered.forEach(l => {
+                const isActive = activeLanguage === l;
+                html += `<div class="dropdown-item ${isActive ? 'active' : ''}" data-value="${l}">${l.toUpperCase()}</div>`;
+            });
+            container.innerHTML = html;
+        }
+
+        function renderTagOptions(query = '') {
+            const container = document.getElementById('tag-options');
+            if (!container) return;
+            const filtered = query ? availableTags.filter(t => t.toLowerCase().includes(query.toLowerCase())) : availableTags;
+            
+            let html = '';
+            filtered.forEach(t => {
+                const isActive = activeTags.has(t);
+                html += `<div class="dropdown-item ${isActive ? 'active' : ''}" data-value="${t}">#${t.toUpperCase()}</div>`;
+            });
+            container.innerHTML = html;
+        }
+
         function initControls() {
             updateDashboard();
-            // Language Dropdown
-            const langOptions = document.getElementById('lang-options');
-            const langs = getUniqueLanguages();
-            langOptions.innerHTML = `<div class="dropdown-item" data-value="">ALL LANGUAGES</div>`;
-            langs.forEach(l => {
-                langOptions.innerHTML += `<div class="dropdown-item" data-value="${l}">${l.toUpperCase()}</div>`;
-            });
+            availableLangs = getUniqueLanguages();
+            availableTags = getUniqueTags();
 
-            // Tag Dropdown
-            const tagOptions = document.getElementById('tag-options');
-            const tags = getUniqueTags();
-            tagOptions.innerHTML = '';
-            tags.forEach(t => {
-                tagOptions.innerHTML += `<div class="dropdown-item" data-value="${t}">#${t.toUpperCase()}</div>`;
-            });
+            renderLangOptions();
+            renderTagOptions();
+
+            document.getElementById('lang-search').oninput = (e) => renderLangOptions(e.target.value);
+            document.getElementById('tag-search').oninput = (e) => renderTagOptions(e.target.value);
 
             // Event Listeners
             document.querySelectorAll('.dropdown-trigger').forEach(trigger => {
                 trigger.onclick = (e) => {
                     e.stopPropagation();
                     const current = trigger.parentElement;
-                    document.querySelectorAll('.dropdown').forEach(d => {
-                        if(d !== current) d.classList.remove('active');
-                    });
-                    current.classList.toggle('active');
+                    const isActive = current.classList.contains('active');
+                    
+                    document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('active'));
+                    document.body.classList.remove('dropdown-open');
+
+                    if(!isActive) {
+                        current.classList.add('active');
+                        document.body.classList.add('dropdown-open');
+                    }
                 };
             });
 
-            document.addEventListener('click', () => {
-                document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('active'));
+            // Prevent dropdown from closing when clicking inside content
+            document.querySelectorAll('.dropdown-content').forEach(content => {
+                content.onclick = (e) => e.stopPropagation();
             });
 
             document.getElementById('lang-options').onclick = (e) => {
@@ -1080,12 +1348,15 @@
                 if(!item) return;
                 activeLanguage = item.dataset.value || null;
                 applyFiltersAndSort();
+                if (window.innerWidth <= 800) closeAllDropdowns();
             };
 
             document.getElementById('tag-options').onclick = (e) => {
                 const item = e.target.closest('.dropdown-item');
                 if(!item) return;
-                activeTags.add(item.dataset.value);
+                const val = item.dataset.value;
+                if(activeTags.has(val)) activeTags.delete(val);
+                else activeTags.add(val);
                 applyFiltersAndSort();
             };
 
@@ -1099,8 +1370,31 @@
             });
         }
 
+        function closeAllDropdowns() {
+            document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('active'));
+            document.body.classList.remove('dropdown-open');
+        }
+
+        function clearLangFilter() {
+            activeLanguage = null;
+            applyFiltersAndSort();
+        }
+
+        function clearTagFilters() {
+            activeTags.clear();
+            applyFiltersAndSort();
+        }
+
+        function clearAllFilters() {
+            activeLanguage = null;
+            activeTags.clear();
+            applyFiltersAndSort();
+        }
+
         function renderActiveFilters() {
             activeFiltersContainer.innerHTML = '';
+            if(!activeLanguage && activeTags.size === 0) return;
+
             if(activeLanguage) {
                 const chip = document.createElement('div');
                 chip.className = 'filter-chip';
@@ -1113,6 +1407,14 @@
                 chip.innerHTML = `#${tag.toUpperCase()} <span onclick="removeTag('${tag}')">✕</span>`;
                 activeFiltersContainer.appendChild(chip);
             });
+
+            // Reset All Button
+            const resetBtn = document.createElement('div');
+            resetBtn.className = 'filter-chip reset-all';
+            resetBtn.style.cursor = 'pointer';
+            resetBtn.innerHTML = `[ RESET_ALL ]`;
+            resetBtn.onclick = clearAllFilters;
+            activeFiltersContainer.appendChild(resetBtn);
         }
 
         function removeLang() { activeLanguage = null; applyFiltersAndSort(); }
@@ -1158,6 +1460,20 @@
             
             trigger.textContent = filteredData.length > 0 ? texts.loading : texts.no_match;
             
+            // Fix shifting: Save scroll positions
+            const tagContainer = document.getElementById('tag-options');
+            const langContainer = document.getElementById('lang-options');
+            const tagScrollTop = tagContainer ? tagContainer.scrollTop : 0;
+            const langScrollTop = langContainer ? langContainer.scrollTop : 0;
+
+            // Sync highlights in dropdowns
+            renderLangOptions(document.getElementById('lang-search').value);
+            renderTagOptions(document.getElementById('tag-search').value);
+
+            // Restore scroll positions
+            if(tagContainer) tagContainer.scrollTop = tagScrollTop;
+            if(langContainer) langContainer.scrollTop = langScrollTop;
+
             // Update labels
             document.getElementById('l-lang-label').textContent = activeLanguage ? `LANG: ${activeLanguage.toUpperCase()}` : texts.lang_all;
         }
@@ -1289,8 +1605,16 @@
             document.body.style.overflow = 'auto';
         }
 
-        window.onclick = (e) => { if (e.target == modal) closeModal(); }
-        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+        window.onclick = (e) => { 
+            if (e.target == modal) closeModal();
+            if (!e.target.closest('.dropdown')) closeAllDropdowns();
+        }
+        document.addEventListener('keydown', (e) => { 
+            if (e.key === 'Escape') {
+                closeModal();
+                closeAllDropdowns();
+            }
+        });
         
         // Initial load
         loadMore();
