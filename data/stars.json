@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28 18:33 UTC",
+  "last_updated": "2026-02-28 18:37 UTC",
   "repos": {
     "waoowaooAI/waoowaoo": {
       "metadata": {
@@ -97,7 +97,7 @@
         "name": "nanobot",
         "owner": "HKUDS",
         "description": "\"🐈 nanobot: The Ultra-Lightweight OpenClaw\"",
-        "stars": 26859,
+        "stars": 26861,
         "language": "Python",
         "url": "https://github.com/HKUDS/nanobot",
         "homepage": "",
@@ -127,7 +127,7 @@
         "name": "memU",
         "owner": "NevaMind-AI",
         "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
-        "stars": 11627,
+        "stars": 11629,
         "language": "Python",
         "url": "https://github.com/NevaMind-AI/memU",
         "homepage": "https://memu.pro",
@@ -164,6 +164,361 @@
         ]
       },
       "pushed_at": "2026-02-24",
+      "updated_at": "2026-02-28"
+    },
+    "linshenkx/prompt-optimizer": {
+      "metadata": {
+        "full_name": "linshenkx/prompt-optimizer",
+        "name": "prompt-optimizer",
+        "owner": "linshenkx",
+        "description": "一款提示词优化器，助力于编写高质量的提示词",
+        "stars": 22381,
+        "language": "TypeScript",
+        "url": "https://github.com/linshenkx/prompt-optimizer",
+        "homepage": "https://prompt.always200.com",
+        "topics": [
+          "llm",
+          "prompt",
+          "prompt-engineering",
+          "prompt-optimization",
+          "prompt-toolkit",
+          "prompt-tuning"
+        ],
+        "updated_at": "2026-02-10"
+      },
+      "summary": {
+        "zh": "Prompt Optimizer 是一款专业的AI提示词优化工具，支持多轮迭代优化、双模式提示词编辑、实时对比测试及多模型集成（OpenAI/Gemini/DeepSeek等），涵盖文生图、图生图及MCP协议支持，提供Web/桌面/Chrome插件/Docker四种部署方式，纯前端架构保障数据安全。",
+        "en": "Prompt Optimizer is a professional AI prompt optimization tool featuring multi-round iterative improvement, dual-mode prompt editing, real-time comparison testing, and integration with major AI models (OpenAI/Gemini/DeepSeek). It supports text-to-image, image-to-image generation, MCP protocol compatibility, and offers four deployment options: Web, desktop app, Chrome extension, and Docker.",
+        "tags_zh": [
+          "AI智能体",
+          "Chrome插件",
+          "多模型集成",
+          "提示工程"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Multi-Model Integration",
+          "提示工程",
+          "浏览器插件"
+        ]
+      },
+      "pushed_at": "2026-02-10",
+      "updated_at": "2026-02-28"
+    },
+    "pxw3504k-web/free-n8n-workflows": {
+      "metadata": {
+        "full_name": "pxw3504k-web/free-n8n-workflows",
+        "name": "free-n8n-workflows",
+        "owner": "pxw3504k-web",
+        "description": "🚀 8000+ Verified n8n Workflows. Free to download. Includes a self-hostable frontend to browse and search automation templates.",
+        "stars": 25,
+        "language": "TypeScript",
+        "url": "https://github.com/pxw3504k-web/free-n8n-workflows",
+        "homepage": "",
+        "topics": [],
+        "updated_at": "2026-02-06"
+      },
+      "summary": {
+        "zh": "该项目是一个拥有8000+经过验证的n8n自动化工作流的开源集合，提供免费的JSON格式工作流下载，支持按角色和集成筛选的智能搜索功能。包含完整的Next.js前端源码，采用Next.js 14、Tailwind CSS和Supabase构建，支持一键Vercel部署或本地运行，实现自动化模板的便捷浏览与管理。",
+        "en": "This project offers the largest open-source collection of 8,000+ verified n8n workflows, providing free JSON downloads with smart filtering by role and integration. Built with Next.js 14, Tailwind CSS, and Supabase, it features a self-hostable search interface deployable via Vercel or locally, enabling efficient automation template discovery and management.",
+        "tags_zh": [
+          "n8n工作流",
+          "网页爬虫",
+          "自动化工具"
+        ],
+        "tags_en": [
+          "Automation Tools",
+          "Web Crawler",
+          "n8n Workflows"
+        ]
+      },
+      "pushed_at": "2026-02-06",
+      "updated_at": "2026-02-28"
+    },
+    "farion1231/cc-switch": {
+      "metadata": {
+        "full_name": "farion1231/cc-switch",
+        "name": "cc-switch",
+        "owner": "farion1231",
+        "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.",
+        "stars": 21766,
+        "language": "TypeScript",
+        "url": "https://github.com/farion1231/cc-switch",
+        "homepage": "https://github.com/farion1231/cc-switch",
+        "topics": [
+          "ai-tools",
+          "claude-code",
+          "codex",
+          "desktop-app",
+          "kimi-k2-thiking",
+          "mcp",
+          "minimax",
+          "open-source",
+          "opencode",
+          "provider-management",
+          "rust",
+          "skills",
+          "skills-management",
+          "tauri",
+          "typescript",
+          "wsl-support"
+        ],
+        "updated_at": "2026-02-28"
+      },
+      "summary": {
+        "zh": "跨平台桌面端一体化AI编程助手，支持Claude Code、Codex及Gemini CLI的统一管理，基于Tauri 2构建，提供高效、低成本的AI代码开发体验，集成API中继服务与专属优惠。",
+        "en": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI, built with Tauri 2, offering unified management and optimized AI coding experience with integrated API relay services and exclusive user benefits.",
+        "tags_zh": [
+          "AI智能体",
+          "Tauri 框架",
+          "跨平台桌面应用"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Cross-Platform Desktop App",
+          "Tauri 框架"
+        ]
+      },
+      "pushed_at": "2026-02-28",
+      "updated_at": "2026-02-28"
+    },
+    "affaan-m/everything-claude-code": {
+      "metadata": {
+        "full_name": "affaan-m/everything-claude-code",
+        "name": "everything-claude-code",
+        "owner": "affaan-m",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Cowork, and beyond. 🧠",
+        "stars": 54711,
+        "language": "JavaScript",
+        "url": "https://github.com/affaan-m/everything-claude-code",
+        "homepage": "https://ecc.tools",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude",
+          "claude-code",
+          "developer-tools",
+          "llm",
+          "mcp",
+          "productivity"
+        ],
+        "updated_at": "2026-02-28"
+      },
+      "summary": {
+        "zh": "Everything Claude Code 是一个为 AI 智能体性能优化设计的完整系统，涵盖技能、直觉、内存、安全和研究优先的开发流程。基于 Anthropic 黑客松获奖项目，支持 Claude Code、Codex、Cowork 等主流智能体框架，提供生产级配置、钩子、命令、规则及 MCP 集成，实现跨会话记忆持久化、自动技能提取与并行化开发。",
+        "en": "Everything Claude Code is a comprehensive performance optimization system for AI agent harnesses, featuring skills, instincts, memory, security, and research-first development. Built from an Anthropic hackathon winner, it supports Claude Code, Codex, Cowork, and more, offering production-ready agents, hooks, commands, rules, and MCP configurations with cross-session memory persistence and automated skill extraction.",
+        "tags_zh": [
+          "AI智能体",
+          "性能优化",
+          "生产级配置"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Performance Optimization",
+          "Production Ready"
+        ]
+      },
+      "pushed_at": "2026-02-28",
+      "updated_at": "2026-02-28"
+    },
+    "HisMax/RedInk": {
+      "metadata": {
+        "full_name": "HisMax/RedInk",
+        "name": "RedInk",
+        "owner": "HisMax",
+        "description": "红墨 - 基于🍌Nano Banana Pro🍌 的一站式小红书图文生成器 《一句话一张图片生成小红书图文》 Red Ink - A one-stop Xiaohongshu image-and-text generator based on the 🍌Nano Banana Pro🍌, \"One Sentence, One Image: Generate Xiaohongshu Text and Images.\"",
+        "stars": 4924,
+        "language": "Python",
+        "url": "https://github.com/HisMax/RedInk",
+        "homepage": "https://redink.top",
+        "topics": [],
+        "updated_at": "2025-12-29"
+      },
+      "summary": {
+        "zh": "红墨是基于🍌Nano Banana Pro🍌的一站式小红书图文生成器，支持一句话生成完整图文内容，具备智能大纲生成、封面页和内容页批量生成功能，采用Python Flask后端与Vue 3前端架构，支持Docker一键部署。",
+        "en": "RedInk is a one-stop Xiaohongshu image-and-text generator powered by 🍌Nano Banana Pro🍌, enabling 'one sentence, one image' creation with AI-driven content outlines, cover pages, and batch content generation. Built with Python Flask backend and Vue 3 frontend, it supports Docker deployment and API integration.",
+        "tags_zh": [
+          "AI智能体",
+          "小红书图文",
+          "提示工程",
+          "自动化工具"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Automation Tool",
+          "Xiaohongshu Content",
+          "提示工程"
+        ]
+      },
+      "pushed_at": "2025-12-29",
+      "updated_at": "2026-02-28"
+    },
+    "lukilabs/beautiful-mermaid": {
+      "metadata": {
+        "full_name": "lukilabs/beautiful-mermaid",
+        "name": "beautiful-mermaid",
+        "owner": "lukilabs",
+        "description": "",
+        "stars": 7923,
+        "language": "TypeScript",
+        "url": "https://github.com/lukilabs/beautiful-mermaid",
+        "homepage": "",
+        "topics": [],
+        "updated_at": "2026-02-26"
+      },
+      "summary": {
+        "zh": "beautiful-mermaid 是一个高性能的 Mermaid 图表渲染库，支持 SVG 和 ASCII 双输出模式，具备 15 种内置主题、零 DOM 依赖、同步渲染等特性，专为 AI 编程助手和终端工具设计，可无缝集成 React 组件。",
+        "en": "beautiful-mermaid is a high-performance Mermaid diagram renderer supporting dual SVG/ASCII output, 15 built-in themes, zero DOM dependencies, and synchronous rendering. Designed for AI coding assistants and terminal tools with seamless React integration.",
+        "tags_zh": [
+          "AI智能体",
+          "Mermaid图表",
+          "终端渲染"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Mermaid Diagram",
+          "Terminal Rendering"
+        ]
+      },
+      "pushed_at": "2026-02-26",
+      "updated_at": "2026-02-28"
+    },
+    "bmad-code-org/BMAD-METHOD": {
+      "metadata": {
+        "full_name": "bmad-code-org/BMAD-METHOD",
+        "name": "BMAD-METHOD",
+        "owner": "bmad-code-org",
+        "description": "Breakthrough Method for Agile Ai Driven Development",
+        "stars": 38474,
+        "language": "JavaScript",
+        "url": "https://github.com/bmad-code-org/BMAD-METHOD",
+        "homepage": "",
+        "topics": [],
+        "updated_at": "2026-02-28"
+      },
+      "summary": {
+        "zh": "BMad Method 是一个 AI 驱动的敏捷开发框架，提供结构化工作流程和12+领域专家代理，支持从小型修复到企业级系统的自适应开发。核心亮点包括智能助手 `/bmad-help`、多代理协作模式（Party Mode）、完整生命周期管理，以及跨平台集成能力，助力开发者高效构建高质量软件。",
+        "en": "BMad Method is an AI-driven agile development framework featuring structured workflows, 12+ domain-expert agents, and scale-adaptive intelligence for projects from bug fixes to enterprise systems. Key features include smart guidance via `/bmad-help`, multi-agent collaboration (Party Mode), full lifecycle support, and cross-platform integration for efficient, high-quality software development.",
+        "tags_zh": [
+          "AI大模型",
+          "AI智能体",
+          "开发框架",
+          "敏捷开发"
+        ],
+        "tags_en": [
+          "AI Agents",
+          "AI Large Models",
+          "Agile Development",
+          "Development Framework"
+        ]
+      },
+      "pushed_at": "2026-02-28",
+      "updated_at": "2026-02-28"
+    },
+    "lbjlaq/Antigravity-Manager": {
+      "metadata": {
+        "full_name": "lbjlaq/Antigravity-Manager",
+        "name": "Antigravity-Manager",
+        "owner": "lbjlaq",
+        "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
+        "stars": 24788,
+        "language": "Rust",
+        "url": "https://github.com/lbjlaq/Antigravity-Manager",
+        "homepage": "https://lbjlaq.github.io/Antigravity-Manager/",
+        "topics": [
+          "account-manager",
+          "antigravity"
+        ],
+        "updated_at": "2026-02-27"
+      },
+      "summary": {
+        "zh": "Antigravity-Manager 是一款专业的 AI 账号管理与协议代理系统，基于 Tauri v2 + React 和 Rust 构建。它提供一键无缝账号切换、多协议适配（OpenAI/Anthropic/Gemini）、智能配额监控与自动重试机制，支持 OAuth 2.0 授权、模型路由分级及高达 100MB 的多模态请求处理，是开发者构建本地 AI 中转站的理想工具。",
+        "en": "Antigravity-Manager is a professional AI account management and protocol proxy system built with Tauri v2 + React and Rust. It enables one-click seamless account switching, multi-protocol support (OpenAI/Anthropic/Gemini), intelligent quota monitoring, automatic retry on 429/401 errors, OAuth 2.0 authorization, tiered model routing, and handles up to 100MB multimodal payloads for high-resolution image generation.",
+        "tags_zh": [
+          "AI智能体",
+          "协议代理",
+          "账号管理"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Account Management",
+          "Protocol Proxy"
+        ]
+      },
+      "pushed_at": "2026-02-27",
+      "updated_at": "2026-02-28"
+    },
+    "openmozi/openmozi": {
+      "metadata": {
+        "full_name": "openmozi/openmozi",
+        "name": "openmozi",
+        "owner": "openmozi",
+        "description": "轻量级的clawdbot/openclaw，支持飞书，钉钉，QQ和企业微信",
+        "stars": 166,
+        "language": "TypeScript",
+        "url": "https://github.com/openmozi/openmozi",
+        "homepage": "https://mozi.aigcshow.com/",
+        "topics": [
+          "agent",
+          "claude",
+          "claude-code",
+          "clawdbot",
+          "deepseek",
+          "dingding",
+          "feishu",
+          "minimax",
+          "moltbot",
+          "openclaw",
+          "qq",
+          "qqbot"
+        ],
+        "updated_at": "2026-02-13"
+      },
+      "summary": {
+        "zh": "OpenMozi 是一个轻量级 AI 助手框架，专为国产生态设计，支持 DeepSeek、豆包、通义千问等国产大模型及 OpenAI/Anthropic 兼容接口。框架集成飞书、钉钉、QQ、企业微信等多平台通讯能力，提供统一的 Function Calling 工具调用、25 个内置工具（文件操作、浏览器自动化、定时任务等）、记忆系统和 Skills 技能扩展机制，代码简洁高效，适合企业级机器人开发。",
+        "en": "OpenMozi is a lightweight AI assistant framework designed for the Chinese ecosystem, supporting domestic large models like DeepSeek, Doubao, and Qwen, as well as OpenAI/Anthropic-compatible APIs. It integrates multi-platform communication (Feishu, DingTalk, QQ, WeCom), provides unified Function Calling, 25 built-in tools (file ops, browser automation, cron jobs), memory system, and Skills extension mechanism. With clean architecture and ~16k lines of code, it's ideal for enterprise bot development.",
+        "tags_zh": [
+          "AI智能体",
+          "国产大模型",
+          "多平台集成"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "Domestic LLMs",
+          "Multi-Platform Integration"
+        ]
+      },
+      "pushed_at": "2026-02-13",
+      "updated_at": "2026-02-28"
+    },
+    "nocmt/toMic": {
+      "metadata": {
+        "full_name": "nocmt/toMic",
+        "name": "toMic",
+        "owner": "nocmt",
+        "description": "ToMic - Turn Your Phone into a PC Microphone",
+        "stars": 52,
+        "language": "JavaScript",
+        "url": "https://github.com/nocmt/toMic",
+        "homepage": "",
+        "topics": [],
+        "updated_at": "2026-02-14"
+      },
+      "summary": {
+        "zh": "ToMic 是一款基于 Web 技术的局域网虚拟麦克风工具，可将手机浏览器作为电脑麦克风输入源，通过 Wi-Fi 传输音频并利用虚拟声卡（如 BlackHole/VB-CABLE）注入系统。支持零安装、低延迟传输、HTTPS 安全连接，并集成 SoX 实现智能音频路由，适用于 Zoom、Teams 等会议场景。",
+        "en": "ToMic is a Web-based LAN virtual microphone tool that turns your phone into a PC microphone via browser. It streams audio over Wi-Fi using WebSocket and Opus encoding, then injects it into the system via virtual sound cards (BlackHole/VB-CABLE). Features zero-install, low-latency, HTTPS security, and SoX-based audio routing for apps like Zoom and Teams.",
+        "tags_zh": [
+          "局域网传输",
+          "虚拟麦克风",
+          "音频处理"
+        ],
+        "tags_en": [
+          "Audio Processing",
+          "LAN Streaming",
+          "Virtual Microphone"
+        ]
+      },
+      "pushed_at": "2026-02-14",
       "updated_at": "2026-02-28"
     }
   }
