@@ -679,7 +679,6 @@
             font-size: 0.7rem;
             padding: 0.2rem 0.6rem;
             border: 1px solid var(--border);
-            text-transform: uppercase;
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
@@ -1206,20 +1205,20 @@
                 alpha: "字母顺序"
             },
             en: {
-                search: "SEARCH KEYWORDS/TAGS (SPACE-SEPARATED AND LOGIC)...",
-                updated: "UPDATED",
-                loading: "SYSTEM_LOADING...",
-                end: "END_OF_ARCHIVE",
-                no_match: "NO_MATCH_FOUND",
-                orig_desc: "DESCRIPTION",
-                ai_sum: "AI_SUMMARY",
+                search: "Search keywords or tags (space-separated AND search)...",
+                updated: "Updated",
+                loading: "Loading items...",
+                end: "All records loaded",
+                no_match: "No matching items",
+                orig_desc: "Project Description",
+                ai_sum: "AI Summary",
                 no_sum: "No summary available.",
-                github_btn: "VIEW_ON_GITHUB",
-                home_btn: "VISIT_HOMEPAGE",
-                lang_all: "LANGUAGE: ALL",
-                tag_all: "TAGS: ALL",
-                latest: "LATEST",
-                stars: "STARS",
+                github_btn: "View on GitHub",
+                home_btn: "Visit Homepage",
+                lang_all: "Language: All",
+                tag_all: "Tags: All",
+                latest: "Latest",
+                stars: "Stars",
                 alpha: "A-Z"
             }
         };
@@ -1260,22 +1259,36 @@
         }
 
         function getUniqueTags() {
-            const tags = new Set();
+            const seen = new Map(); // lowercase -> original
             RAW_DATA.forEach(item => {
                 const itemTags = currentLang === 'zh' ? 
                     (item.summary.tags_zh || item.summary.tags || []) : 
                     (item.summary.tags_en || item.summary.tags || []);
-                itemTags.forEach(t => tags.add(t.toLowerCase()));
+                itemTags.forEach(t => {
+                    if (!t) return;
+                    const clean = t.trim();
+                    const key = clean.toLowerCase();
+                    // Prioritize keeping the version with more uppercase/title case
+                    if (!seen.has(key) || clean !== key) {
+                        seen.set(key, clean);
+                    }
+                });
             });
-            return Array.from(tags).sort();
+            return Array.from(seen.values()).sort((a, b) => a.localeCompare(b));
         }
 
         function getUniqueLanguages() {
-            const langs = new Set();
+            const seen = new Map();
             RAW_DATA.forEach(item => {
-                if(item.language && item.language !== 'N/A') langs.add(item.language);
+                if (item.language && item.language !== 'N/A') {
+                    const l = item.language.trim();
+                    const key = l.toLowerCase();
+                    if (!seen.has(key) || l !== key) {
+                        seen.set(key, l);
+                    }
+                }
             });
-            return Array.from(langs).sort();
+            return Array.from(seen.values()).sort((a, b) => a.localeCompare(b));
         }
 
         // --- UI Initialization ---
@@ -1439,7 +1452,7 @@
                     (currentLang === 'zh' ? (item.summary.tags_zh || item.summary.tags || []) : (item.summary.tags_en || item.summary.tags || []))
                     .map(t => t.toLowerCase())
                 );
-                const tagMatch = activeTags.size === 0 || Array.from(activeTags).every(t => itemTags.has(t));
+                const tagMatch = activeTags.size === 0 || Array.from(activeTags).every(t => itemTags.has(t.toLowerCase()));
                 
                 return searchMatch && langMatch && tagMatch;
             });
