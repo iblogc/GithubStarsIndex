@@ -120,19 +120,19 @@ schedule:
 
 ## 配置项详解
 
-| 变量名               | 类型 | 说明                       | 默认值                      |
-| -------------------- | ---- | -------------------------- | --------------------------- |
-| `GH_USERNAME`        | 必填 | 要同步的 GitHub 用户名     | -                           |
-| `AI_API_KEY`         | 必填 | AI 接口 Key                | -                           |
-| `AI_BASE_URL`        | 可选 | OpenAI 兼容接口地址        | `https://api.openai.com/v1` |
-| `AI_MODEL`           | 可选 | 使用的 AI 模型             | `gpt-4o-mini`               |
-| `OUTPUT_FILENAME`    | 可选 | 生成 MD/HTML 的文件名基准  | `stars`                     |
-| `VAULT_SYNC_ENABLED` | 可选 | 是否开启 Obsidian 同步     | `false`                     |
-| `VAULT_REPO`         | 选填 | Vault 仓库 (`owner/repo`)  | -                           |
-| `VAULT_SYNC_PATH`    | 可选 | Vault 同步的目录路径       | `GitHub-Stars/`             |
-| `PAGES_SYNC_ENABLED` | 可选 | 是否开启 GitHub Pages 部署 | `true`                      |
-| `MAX_CONCURRENCY`    | 可选 | AI 并发处理数 (建议 1-10)  | `1`                         |
-| `GH_TOKEN`           | 选填 | 本地运行时提升 API 额度    | -                           |
+| 变量名               | 类型     | 说明                       | 默认值                      |
+| -------------------- | -------- | -------------------------- | --------------------------- |
+| `GH_USERNAME`        | 必填     | 要同步的 GitHub 用户名     | -                           |
+| `AI_API_KEY`         | 必填     | AI 接口 Key                | -                           |
+| `AI_BASE_URL`        | 可选     | OpenAI 兼容接口地址        | `https://api.openai.com/v1` |
+| `AI_MODEL`           | 可选     | 使用的 AI 模型             | `gpt-4o-mini`               |
+| `OUTPUT_FILENAME`    | 可选     | 生成 MD/HTML 的文件名基准  | `stars`                     |
+| `VAULT_SYNC_ENABLED` | 可选     | 是否开启 Obsidian 同步     | `false`                     |
+| `VAULT_REPO`         | 选填     | Vault 仓库 (`owner/repo`)  | -                           |
+| `VAULT_SYNC_PATH`    | 可选     | Vault 同步的目录路径       | `GitHub-Stars/`             |
+| `PAGES_SYNC_ENABLED` | 可选     | 是否开启 GitHub Pages 部署 | `true`                      |
+| `MAX_CONCURRENCY`    | 可选     | AI 并发处理数 (建议 1-10)  | `1`                         |
+| `GH_TOKEN`           | **建议** | 提升 API 额度，防止限速    | -                           |
 
 ---
 
@@ -174,6 +174,46 @@ schedule:
 
 ---
 
+## Docker 部署
+
+如果你希望在服务器上长期运行并自动同步，推荐使用 Docker Compose。
+
+### 1. 准备配置
+复制 `.env.example` 为 `.env` 并填写必要信息：
+```bash
+cp .env.example .env
+# 编辑 .env 填入 GH_USERNAME、AI_API_KEY 和 GH_TOKEN
+```
+
+> [!IMPORTANT]
+> **必须填写 GH_TOKEN**：在 Docker 环境中请求 GitHub API 极易触发 [Rate Limit](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api)。如果不配置 `GH_TOKEN`，API 限制为 60次/小时，抓取稍多 Stars 就会报错。配置后限额提升至 5,000次/小时。
+
+### 2. 启动服务
+使用 Docker Compose 一键启动：
+```bash
+docker compose up -d
+```
+该命令会启动两个容器：
+- `sync`: 核心同步脚本。默认每 **24 小时** 自动抓取并生成一次。你可以在 `.env` 中设置 `SCHEDULE_HOURS` 来调整间隔。
+- `web`: 基于 Nginx 的静态服务器，用于展示生成的索引页面。
+
+### 3. 访问页面
+打开浏览器访问：`http://localhost:8080`
+
+### 4. 常用管理命令
+```bash
+# 查看同步日志
+docker logs -f github-stars-sync
+
+# 立即执行一次强制同步（不等待周期）
+docker compose run --rm sync
+
+# 仅更新页面渲染（不调用 AI）
+docker compose run --rm sync --render-only
+```
+
+---
+
 ## 本地运行
 
 ```bash
@@ -211,3 +251,23 @@ python scripts/sync_stars.py --render-only
 | `scripts/sync_stars.py`      | 核心同步与生成脚本                   |
 | `.github/workflows/sync.yml` | GitHub Actions 定时工作流            |
 | `.env.example`               | 配置示例文件                         |
+
+---
+
+## 附录：申请 GitHub Token (GH_TOKEN)
+
+为了保证程序能够顺畅抓取你的全部 Stars，建议申请一个具有只读权限的人员访问令牌（Personal Access Token）。
+
+### 申请步骤：
+1.  访问 [GitHub Fine-grained PAT 页面](https://github.com/settings/personal-access-tokens/new)。
+2.  **Token name**: 填写 `Stars-Index-Sync` (或任意你喜欢的名字)。
+3.  **Expiration**: 建议选择 `90 days` 或 `Custom`。
+4.  **Resource owner**: 选择你的个人账号。
+5.  **Repository access**: 选择 `Public Repositories (read-only)` 即可，或者选 `All repositories`。
+6.  **Permissions**: 无需额外特殊权限，默认的公共访问权限已足够抓取 Stars 列表。
+7.  点击 **Generate token**，**立即复制并保存**该 Token。
+8.  将此 Token 填入 `.env` 文件的 `GH_TOKEN` 字段中。
+
+> [!TIP]
+> 如果你也开启了 **Obsidian 同步 (Vault Sync)**，可以直接复用具有写入权限的 `VAULT_PAT` 作为 `GH_TOKEN`。
+

@@ -1,0 +1,23 @@
+services:
+  sync:
+    build: .
+    container_name: github-stars-sync
+    volumes:
+      - ./data:/app/data
+      - ./dist:/app/dist
+    env_file:
+      - .env
+    environment:
+      - SCHEDULE_HOURS=${SCHEDULE_HOURS:-24} # 默认 24 小时运行一次
+    restart: unless-stopped
+
+  web:
+    image: nginx:alpine
+    container_name: github-stars-web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+    restart: unless-stopped
+    depends_on:
+      - sync
