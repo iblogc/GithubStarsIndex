@@ -22,11 +22,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 复制项目代码
 COPY . .
 
-# 确保脚本具有执行权限
-RUN chmod +x scripts/sync_stars.py
-RUN chmod +x docker-entrypoint.sh
+# 确保脚本具有执行权限，并消除可能的 CRLF 换行问题
+RUN chmod +x /app/scripts/sync_stars.py \
+    && sed -i 's/\r$//' /app/docker-entrypoint.sh \
+    && chmod +x /app/docker-entrypoint.sh
 
 # 暴露端口（虽然 sync 主要是后台脚本，但为了统一性声明）
 # HTML 展示由单独的 Nginx 处理，这里不强制暴露端口
 
-ENTRYPOINT ["/app/docker-entrypoint.sh"]
+ENTRYPOINT ["/bin/sh", "/app/docker-entrypoint.sh"]

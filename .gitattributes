@@ -1,0 +1,14 @@
+# 默认文本文件按 LF 存储
+* text=auto eol=lf
+
+# 关键脚本/配置强制 LF
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+
+# Windows 脚本
+*.bat text eol=crlf
+*.cmd text eol=crlf
