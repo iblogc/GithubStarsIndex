@@ -1561,7 +1561,7 @@
                 } else if (currentSort === 'starred_at') {
                     result = (a.starred_at || '').localeCompare(b.starred_at || '');
                 } else {
-                    result = (a.updated_at || '').localeCompare(b.updated_at || '');
+                    result = (a.pushed_at || a.updated_at || '').localeCompare(b.pushed_at || b.updated_at || '');
                 }
                 return currentOrder === 'asc' ? result : -result;
             });

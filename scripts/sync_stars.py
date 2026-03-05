@@ -174,7 +174,7 @@ class DataStore:
             self.data["repos"][full_name] = {
                 "metadata": metadata,
                 "summary": summary,
-                "pushed_at": metadata.get("updated_at", ""),
+                "pushed_at": metadata.get("pushed_at", ""),
                 "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
             }
 
@@ -258,8 +258,9 @@ class GitHubClient:
                         "url": repo["html_url"],
                         "homepage": repo.get("homepage") or "",
                         "topics": repo.get("topics", []),
-                        "updated_at": repo.get("pushed_at", "")[:10],
-                        "starred_at": starred_at_raw[:10] if starred_at_raw else "",
+                        "pushed_at": repo.get("pushed_at", "") or "",
+                        "updated_at": repo.get("updated_at", "") or "",
+                        "starred_at": starred_at_raw or "",
                     }
                 )
             log.info(f"  第 {page} 页：获取 {len(data)} 个，共 {len(repos)} 个")
@@ -587,7 +588,8 @@ def main():
         # 优先按 star 时间排序，缺失时回退到更新时间
         all_repos = sorted(
             all_repos_data,
-            key=lambda x: x.get("starred_at") or x.get("updated_at", ""),
+            key=lambda x: x.get("updated_at")
+            or x.get("pushed_at", ""),
             reverse=True,
         )
     else:
