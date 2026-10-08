@@ -20,6 +20,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230a0e17'/><circle cx='16' cy='16' r='2.6' fill='%23e3a82b'/><circle cx='16' cy='7.5' r='1.3' fill='%23e8e6df'/><circle cx='23.4' cy='20' r='1.3' fill='%23e8e6df'/><circle cx='8.6' cy='20' r='1.3' fill='%23e8e6df'/><path d='M16 7.5 23.4 20 8.6 20Z' fill='none' stroke='%23e3a82b' stroke-width='1'/></svg>">
+{#- 订阅与机器接口：让阅读器和 Agent 能自动发现 -#}
+<link rel="alternate" type="application/rss+xml" title="Stars Atlas · 全部新收藏" href="feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Stars Atlas · 各领域" href="feed-ai.xml">
+<link rel="describedby" type="application/json" href="api/index.json">
+<link rel="alternate" type="application/json" title="Stars Atlas 数据接口目录" href="api/index.json">
+<link rel="llms" type="text/plain" href="llms.txt">
 
 <style>
 /* ════════════════════════════════════════════════════════════
@@ -636,7 +642,11 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
     <div>
         <a href="../">经典视图</a>
         <span aria-hidden="true"> · </span>
-        <a href="atlas.json">原始数据集</a>
+        <a href="feed.xml">RSS 订阅</a>
+        <span aria-hidden="true"> · </span>
+        <a href="api/index.json">数据接口</a>
+        <span aria-hidden="true"> · </span>
+        <a href="llms.txt">llms.txt</a>
     </div>
 </footer>
 
