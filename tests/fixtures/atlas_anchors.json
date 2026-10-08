@@ -1,0 +1,1302 @@
+{
+ "note": "从真实 stars.json 抽取的锚点样本，用于分类回归测试。expect 可为主领域或其次要领域。",
+ "cases": [
+  {
+   "repo": "vuejs/vue",
+   "expect": "web",
+   "record": {
+    "metadata": {
+     "full_name": "vuejs/vue",
+     "name": "vue",
+     "owner": "vuejs",
+     "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+     "stars": 212809,
+     "language": "TypeScript",
+     "url": "https://github.com/vuejs/vue",
+     "homepage": "http://v2.vuejs.org",
+     "topics": [
+      "framework",
+      "frontend",
+      "javascript",
+      "vue"
+     ],
+     "pushed_at": "2024-10-10T07:24:15Z",
+     "updated_at": "2026-10-07T22:41:14Z",
+     "starred_at": "2016-11-09T06:55:47Z"
+    },
+    "summary": {
+     "zh": "Vue 2 已于2023年12月31日终止维护，不再接收新功能、更新或修复。该仓库为 Vue 2 的归档版本，官方推荐新项目使用 Vue 3.x。Vue 是一个渐进式前端框架，核心库专注视图层，支持逐步采用，并拥有完善的生态系统（如 vue-router、vuex、vue-cli）。",
+     "en": "Vue 2 reached End of Life on December 31st, 2023 and no longer receives updates. This repository is archived for Vue 2. The actively maintained version is vuejs/core. Vue is a progressive framework for building user interfaces, designed to be incrementally adoptable with a core library focused on the view layer and a rich ecosystem for large-scale applications.",
+     "tags_zh": [
+      "前端框架",
+      "渐进式框架",
+      "视图层"
+     ],
+     "tags_en": [
+      "Frontend Framework",
+      "Progressive Framework",
+      "View Layer"
+     ]
+    },
+    "pushed_at": "2024-10-10",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "django/django",
+   "expect": "web",
+   "record": {
+    "metadata": {
+     "full_name": "django/django",
+     "name": "django",
+     "owner": "django",
+     "description": "The Web framework for perfectionists with deadlines.",
+     "stars": 91353,
+     "language": "Python",
+     "url": "https://github.com/django/django",
+     "homepage": "https://www.djangoproject.com/",
+     "topics": [
+      "apps",
+      "django",
+      "framework",
+      "models",
+      "orm",
+      "python",
+      "templates",
+      "views",
+      "web"
+     ],
+     "pushed_at": "2026-10-07T16:48:53Z",
+     "updated_at": "2026-10-07T20:41:12Z",
+     "starred_at": "2015-09-07T14:54:05Z"
+    },
+    "summary": {
+     "zh": "Django 是一个高级 Python Web 框架，专为追求高效开发流程的务实开发者设计。它提供开箱即用的功能，支持快速构建安全、可维护的 Web 应用，内置 ORM、管理后台、认证系统和 URL 路由等核心组件，极大提升开发效率。",
+     "en": "Django is a high-level Python web framework designed for developers who value rapid development and clean, pragmatic design. It provides built-in features like ORM, admin interface, authentication, and URL routing, enabling secure and maintainable web application development with minimal boilerplate code.",
+     "tags_zh": [
+      "Python框架",
+      "Web开发",
+      "全栈开发"
+     ],
+     "tags_en": [
+      "Full-Stack Development",
+      "Python Framework",
+      "Web Development"
+     ]
+    },
+    "pushed_at": "2026-02-28",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "hexojs/hexo",
+   "expect": "web",
+   "record": {
+    "metadata": {
+     "full_name": "hexojs/hexo",
+     "name": "hexo",
+     "owner": "hexojs",
+     "description": "A fast, simple & powerful blog framework, powered by Node.js.",
+     "stars": 41777,
+     "language": "TypeScript",
+     "url": "https://github.com/hexojs/hexo",
+     "homepage": "https://hexo.io",
+     "topics": [
+      "hacktoberfest",
+      "hexo",
+      "javascript",
+      "nodejs",
+      "static-site-generator",
+      "typescript"
+     ],
+     "pushed_at": "2026-08-29T09:36:32Z",
+     "updated_at": "2026-10-07T10:22:20Z",
+     "starred_at": "2015-09-08T13:47:40Z"
+    },
+    "summary": {
+     "zh": "Hexo 是一个基于 Node.js 的快速、简洁且强大的博客框架，支持 GitHub Flavored Markdown 和 Octopress 插件，提供一键部署到 GitHub Pages 等功能，拥有强大的 API 和丰富的主题插件生态。",
+     "en": "Hexo is a fast, simple & powerful blog framework powered by Node.js, supporting GitHub Flavored Markdown and Octopress plugins, with one-command deployment to platforms like GitHub Pages, a robust API, and extensive themes and plugins.",
+     "tags_zh": [
+      "Node.js",
+      "博客框架",
+      "静态网站生成"
+     ],
+     "tags_en": [
+      "Blog Framework",
+      "Node.js",
+      "Static Site Generator"
+     ]
+    },
+    "pushed_at": "2026-02-26",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "ant-design/ant-design-mobile",
+   "expect": "web",
+   "record": {
+    "metadata": {
+     "full_name": "ant-design/ant-design-mobile",
+     "name": "ant-design-mobile",
+     "owner": "ant-design",
+     "description": "Essential UI blocks for building mobile web apps.",
+     "stars": 12058,
+     "language": "TypeScript",
+     "url": "https://github.com/ant-design/ant-design-mobile",
+     "homepage": "https://mobile.ant.design",
+     "topics": [
+      "ant-design",
+      "antd",
+      "antd-mobile",
+      "javascript",
+      "mobile",
+      "react",
+      "react-components",
+      "typescript"
+     ],
+     "pushed_at": "2026-09-14T09:06:19Z",
+     "updated_at": "2026-10-07T15:04:36Z",
+     "starred_at": "2016-09-18T06:19:01Z"
+    },
+    "summary": {
+     "zh": "Ant Design Mobile 是构建移动端 Web 应用的核心 UI 组件库，提供高性能、可定制的原子化组件，支持 CSS 变量主题定制与流畅动画，适用于快速开发跨平台移动应用。",
+     "en": "Ant Design Mobile is a core UI component library for building mobile web apps, offering high-performance, customizable atomic components with CSS variable theming and smooth animations for cross-platform mobile development.",
+     "tags_zh": [
+      "UI组件库",
+      "移动开发",
+      "跨平台应用"
+     ],
+     "tags_en": [
+      "Cross-Platform App",
+      "Mobile Development",
+      "UI Components"
+     ]
+    },
+    "pushed_at": "2026-01-09",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "Binaryify/NeteaseCloudMusicApi",
+   "expect": "web",
+   "record": {
+    "metadata": {
+     "full_name": "Binaryify/NeteaseCloudMusicApi",
+     "name": "NeteaseCloudMusicApi",
+     "owner": "Binaryify",
+     "description": "网易云音乐 Node.js API service",
+     "stars": 30243,
+     "language": "N/A",
+     "url": "https://github.com/Binaryify/NeteaseCloudMusicApi",
+     "homepage": "https://gitlab.com/Binaryify/neteasecloudmusicapi",
+     "topics": [
+      "api",
+      "apis",
+      "cloudmusic",
+      "javascript",
+      "neteasecloud",
+      "nodejs"
+     ],
+     "pushed_at": "2024-02-28T02:47:42Z",
+     "updated_at": "2026-10-07T18:00:54Z",
+     "starred_at": "2017-10-25T06:51:19Z"
+    },
+    "summary": {
+     "zh": "网易云音乐 Node.js API 服务，提供音乐播放、歌单获取、用户信息查询等功能，支持无版权限制访问。因版权政策调整，项目已停止维护，建议用户注意合规使用。",
+     "en": "Netease Cloud Music Node.js API service offering music playback, playlist retrieval, and user data access. Now deprecated due to copyright policy changes; users advised to ensure compliance.",
+     "tags_zh": [
+      "API接口",
+      "Node.js",
+      "音乐服务"
+     ],
+     "tags_en": [
+      "API Interface",
+      "Music Service",
+      "Node.js"
+     ]
+    },
+    "pushed_at": "2024-02-28",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "ohmyzsh/ohmyzsh",
+   "expect": "dev",
+   "record": {
+    "metadata": {
+     "full_name": "ohmyzsh/ohmyzsh",
+     "name": "ohmyzsh",
+     "owner": "ohmyzsh",
+     "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+     "stars": 190220,
+     "language": "Shell",
+     "url": "https://github.com/ohmyzsh/ohmyzsh",
+     "homepage": "https://ohmyz.sh",
+     "topics": [
+      "cli",
+      "cli-app",
+      "oh-my-zsh",
+      "oh-my-zsh-plugin",
+      "oh-my-zsh-theme",
+      "ohmyzsh",
+      "plugin-framework",
+      "plugins",
+      "productivity",
+      "shell",
+      "terminal",
+      "theme",
+      "themes",
+      "zsh",
+      "zsh-configuration"
+     ],
+     "pushed_at": "2026-10-06T09:06:45Z",
+     "updated_at": "2026-10-07T22:41:11Z",
+     "starred_at": "2016-05-24T15:34:16Z"
+    },
+    "summary": {
+     "zh": "Oh My Zsh 是一个社区驱动的 zsh 配置管理框架，提供 300+ 插件（如 Git、Docker、Node.js）和 140+ 主题，支持自动更新。它通过丰富的扩展功能提升终端体验，让用户在开发效率与个性化之间获得平衡，同时保持轻量与易用性。",
+     "en": "Oh My Zsh is a community-driven framework for managing zsh configurations, offering 300+ optional plugins (e.g., Git, Docker, Node.js) and 140+ themes, with auto-update support. It enhances terminal productivity and personalization through extensible plugins and beautiful themes, balancing power and simplicity for developers.",
+     "tags_zh": [
+      "zsh配置",
+      "插件系统",
+      "终端工具"
+     ],
+     "tags_en": [
+      "Plugin Ecosystem",
+      "Terminal Tools",
+      "Zsh Configuration"
+     ]
+    },
+    "pushed_at": "2026-02-25",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "microsoft/playwright",
+   "expect": "dev",
+   "record": {
+    "metadata": {
+     "full_name": "microsoft/playwright",
+     "name": "playwright",
+     "owner": "microsoft",
+     "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+     "stars": 97235,
+     "language": "TypeScript",
+     "url": "https://github.com/microsoft/playwright",
+     "homepage": "https://playwright.dev",
+     "topics": [
+      "automation",
+      "chrome",
+      "chromium",
+      "e2e-testing",
+      "electron",
+      "end-to-end-testing",
+      "firefox",
+      "javascript",
+      "playwright",
+      "test",
+      "test-automation",
+      "testing",
+      "testing-tools",
+      "web",
+      "webkit"
+     ],
+     "pushed_at": "2026-10-07T22:05:51Z",
+     "updated_at": "2026-10-07T23:01:02Z",
+     "starred_at": "2024-12-03T04:26:25Z"
+    },
+    "summary": {
+     "zh": "Playwright 是一个现代化的 Web 测试与自动化框架，支持 Chromium、Firefox 和 WebKit 三大浏览器内核的统一 API 调用。其核心优势在于内置智能等待机制、原生支持跨浏览器测试、无人工超时设计，以及自动生成测试追踪与录屏功能，显著提升端到端测试的稳定性与效率。",
+     "en": "Playwright is a modern framework for web testing and automation that provides a single API to test Chromium, Firefox, and WebKit browsers. It features built-in auto-waiting, cross-browser support, no artificial timeouts, and native tracing/video capture, making end-to-end tests more reliable and efficient.",
+     "tags_zh": [
+      "Web自动化",
+      "端到端测试",
+      "跨浏览器测试"
+     ],
+     "tags_en": [
+      "Cross-Browser Testing",
+      "End-to-End Testing",
+      "Web Automation"
+     ]
+    },
+    "pushed_at": "2026-02-28",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "unbug/codelf",
+   "expect": "dev",
+   "record": {
+    "metadata": {
+     "full_name": "unbug/codelf",
+     "name": "codelf",
+     "owner": "unbug",
+     "description": "A search tool helps dev to solve the naming things problem.",
+     "stars": 14132,
+     "language": "JavaScript",
+     "url": "https://github.com/unbug/codelf",
+     "homepage": "https://unbug.github.io/codelf/",
+     "topics": [
+      "atom-plugin",
+      "chrome-extension",
+      "codelf",
+      "naming",
+      "vscode-extension"
+     ],
+     "pushed_at": "2025-06-06T02:57:56Z",
+     "updated_at": "2026-10-07T10:17:35Z",
+     "starred_at": "2016-07-22T13:44:33Z"
+    },
+    "summary": {
+     "zh": "CODELF 是一个智能变量命名工具，通过搜索 GitHub 等代码托管平台上的真实项目，为开发者提供精准的变量命名建议。支持 VS Code、Atom、Sublime Text 等编辑器插件，并集成每日算法题推荐功能，同时可管理 GitHub 仓库标签与收藏，显著提升代码命名效率与规范性。",
+     "en": "CODELF is a smart variable naming tool that helps developers find real-world naming patterns by searching across GitHub and other code repositories. It offers IDE plugins for VS Code, Atom, and Sublime Text, features a daily algorithm practice guide, and includes GitHub repository tagging/organization tools to improve code naming consistency and productivity.",
+     "tags_zh": [
+      "IDE插件",
+      "代码工具",
+      "变量命名"
+     ],
+     "tags_en": [
+      "Code Tool",
+      "IDE Plugin",
+      "Variable Naming"
+     ]
+    },
+    "pushed_at": "2025-06-06",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "scrapy/scrapy",
+   "expect": "data",
+   "record": {
+    "metadata": {
+     "full_name": "scrapy/scrapy",
+     "name": "scrapy",
+     "owner": "scrapy",
+     "description": "Scrapy, a fast high-level web crawling & scraping framework for Python.",
+     "stars": 64639,
+     "language": "Python",
+     "url": "https://github.com/scrapy/scrapy",
+     "homepage": "https://scrapy.org",
+     "topics": [
+      "crawler",
+      "crawling",
+      "framework",
+      "hacktoberfest",
+      "python",
+      "scraping",
+      "web-scraping",
+      "web-scraping-python"
+     ],
+     "pushed_at": "2026-10-07T17:45:50Z",
+     "updated_at": "2026-10-07T22:50:51Z",
+     "starred_at": "2015-12-13T11:48:20Z"
+    },
+    "summary": {
+     "zh": "Scrapy 是一个高性能的 Python 网络爬虫框架，专为高效提取结构化数据而设计。支持跨平台运行，基于异步架构实现高并发抓取，提供灵活的中间件扩展机制，广泛用于数据采集、价格监控、内容聚合等场景。",
+     "en": "Scrapy is a high-performance Python web crawling and scraping framework designed for extracting structured data from websites. Built on an asynchronous architecture, it enables high-concurrency data extraction with flexible middleware support, widely used in data collection, price monitoring, and content aggregation.",
+     "tags_zh": [
+      "Python",
+      "数据采集",
+      "网页爬虫",
+      "自动化工具"
+     ],
+     "tags_en": [
+      "Automation Tool",
+      "Data Collection",
+      "Python",
+      "网页爬虫"
+     ]
+    },
+    "pushed_at": "2026-02-23",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "apache/echarts",
+   "expect": "data",
+   "record": {
+    "metadata": {
+     "full_name": "apache/echarts",
+     "name": "echarts",
+     "owner": "apache",
+     "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
+     "stars": 67460,
+     "language": "TypeScript",
+     "url": "https://github.com/apache/echarts",
+     "homepage": "https://echarts.apache.org",
+     "topics": [
+      "apache",
+      "canvas",
+      "charting-library",
+      "charts",
+      "data-visualization",
+      "data-viz",
+      "echarts",
+      "svg",
+      "visualization"
+     ],
+     "pushed_at": "2026-10-04T10:59:25Z",
+     "updated_at": "2026-10-07T22:37:06Z",
+     "starred_at": "2015-06-29T01:21:45Z"
+    },
+    "summary": {
+     "zh": "Apache ECharts 是一个强大的开源数据可视化库，基于纯 JavaScript 和 zrender 构建，支持丰富的交互式图表（如折线图、柱状图、热力图等），提供高度可定制的配置选项，适用于商业产品中的数据可视化需求，支持 npm 安装、CDN 引入及多语言文档。",
+     "en": "Apache ECharts is a free, powerful charting and visualization library for browsers, built with pure JavaScript and zrender. It offers intuitive, interactive, and highly customizable charts for commercial products, with support for npm, CDN, and comprehensive documentation.",
+     "tags_zh": [
+      "JavaScript",
+      "交互式图表",
+      "数据可视化"
+     ],
+     "tags_en": [
+      "Interactive Charts",
+      "JavaScript",
+      "数据可视化"
+     ]
+    },
+    "pushed_at": "2026-02-26",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "topjohnwu/Magisk",
+   "expect": "mobile",
+   "record": {
+    "metadata": {
+     "full_name": "topjohnwu/Magisk",
+     "name": "Magisk",
+     "owner": "topjohnwu",
+     "description": "The Magic Mask for Android",
+     "stars": 63136,
+     "language": "Kotlin",
+     "url": "https://github.com/topjohnwu/Magisk",
+     "homepage": "",
+     "topics": [],
+     "pushed_at": "2026-10-07T18:59:21Z",
+     "updated_at": "2026-10-07T22:26:36Z",
+     "starred_at": "2020-06-17T17:09:01Z"
+    },
+    "summary": {
+     "zh": "Magisk 是一款专为 Android 6.0+ 设备设计的开源定制工具，提供系统级 root 权限、模块化功能扩展及 Zygisk 动态注入能力，支持在不修改系统分区的情况下深度定制设备，广泛用于解锁系统限制、安装模块和高级调试。",
+     "en": "Magisk is an open-source suite for customizing Android devices above Android 6.0, offering root access via MagiskSU, systemless modification through modules, and Zygisk for runtime code injection, enabling deep customization without altering system partitions.",
+     "tags_zh": [
+      "Android定制",
+      "MagiskSU",
+      "Zygisk",
+      "系统模块"
+     ],
+     "tags_en": [
+      "Android Customization",
+      "MagiskSU",
+      "System Modules",
+      "Zygisk"
+     ]
+    },
+    "pushed_at": "2026-02-27",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "2dust/v2rayNG",
+   "expect": "net",
+   "record": {
+    "metadata": {
+     "full_name": "2dust/v2rayNG",
+     "name": "v2rayNG",
+     "owner": "2dust",
+     "description": "A V2Ray client for Android, support Xray core and v2fly core",
+     "stars": 63613,
+     "language": "Kotlin",
+     "url": "https://github.com/2dust/v2rayNG",
+     "homepage": "https://v2rayng.2dust.link",
+     "topics": [
+      "android",
+      "proxy",
+      "shadowsocks",
+      "socks5",
+      "trojan",
+      "v2fly",
+      "v2ray",
+      "vless",
+      "vmess",
+      "vpn",
+      "xray",
+      "xtls"
+     ],
+     "pushed_at": "2026-10-06T07:32:20Z",
+     "updated_at": "2026-10-07T19:57:19Z",
+     "starred_at": "2026-07-27T06:46:33Z"
+    },
+    "summary": {
+     "zh": "v2rayNG 是一款专为 Android 平台设计的 V2Ray 客户端，全面支持 Xray 和 v2fly 核心。它提供了强大的代理功能与灵活的 GeoIP/Geosite 路由规则管理，采用 Kotlin 编写，具备 GPG 签名校验机制，是移动端科学上网的优选工具。",
+     "en": "v2rayNG is a robust V2Ray client for Android, fully supporting Xray and v2fly cores. It offers powerful proxy capabilities with flexible GeoIP/Geosite routing management. Written in Kotlin and featuring GPG signature verification, it is a top-tier solution for mobile network proxying.",
+     "tags_zh": [
+      "Android客户端",
+      "VPN代理",
+      "网络安全"
+     ],
+     "tags_en": [
+      "Android Client",
+      "Network Security",
+      "VPN Proxy"
+     ]
+    },
+    "pushed_at": "2026-07-27T12:31:53Z",
+    "updated_at": "2026-07-27"
+   }
+  },
+  {
+   "repo": "shadowsocks/shadowsocks-android",
+   "expect": "net",
+   "record": {
+    "metadata": {
+     "full_name": "shadowsocks/shadowsocks-android",
+     "name": "shadowsocks-android",
+     "owner": "shadowsocks",
+     "description": "A shadowsocks client for Android",
+     "stars": 36805,
+     "language": "Kotlin",
+     "url": "https://github.com/shadowsocks/shadowsocks-android",
+     "homepage": "",
+     "topics": [
+      "android",
+      "shadowsocks"
+     ],
+     "pushed_at": "2026-08-09T11:06:54Z",
+     "updated_at": "2026-10-07T04:52:12Z",
+     "starred_at": "2018-07-31T15:58:57Z"
+    },
+    "summary": {
+     "zh": "Shadowsocks Android 是一款基于 Kotlin 开发的开源代理客户端，支持 Android 和 Chrome OS 平台。该应用提供安全、快速的科学上网功能，采用 Shadowsocks 协议加密传输数据，兼容多种服务器配置，具备自动切换、流量统计等实用功能，适用于需要隐私保护和网络访问的场景。",
+     "en": "Shadowsocks Android is an open-source proxy client built with Kotlin for Android and Chrome OS. It enables secure and fast internet access using the Shadowsocks protocol, supporting multiple server configurations, automatic switching, and traffic monitoring for enhanced privacy and network freedom.",
+     "tags_zh": [
+      "Kotlin",
+      "科学上网",
+      "隐私保护"
+     ],
+     "tags_en": [
+      "Kotlin",
+      "Privacy Protection",
+      "Proxy Client"
+     ]
+    },
+    "pushed_at": "2026-02-18",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "lxgw/LxgwWenKai",
+   "expect": "design",
+   "record": {
+    "metadata": {
+     "full_name": "lxgw/LxgwWenKai",
+     "name": "LxgwWenKai",
+     "owner": "lxgw",
+     "description": "An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文字体，基于 FONTWORKS 出品字体 Klee One 衍生。  ",
+     "stars": 26189,
+     "language": "Shell",
+     "url": "https://github.com/lxgw/LxgwWenKai",
+     "homepage": "",
+     "topics": [
+      "cjk",
+      "font",
+      "typeface"
+     ],
+     "pushed_at": "2026-10-05T11:25:39Z",
+     "updated_at": "2026-10-07T21:13:00Z",
+     "starred_at": "2023-11-22T17:43:37Z"
+    },
+    "summary": {
+     "zh": "霞鹜文楷是一款基于 FONTWORKS Klee One 衍生的开源中文字体，采用 OFL 1.1 协议授权，支持免费商用。提供多个变体版本，包括屏幕阅读版、轻便版、GB 规范版及繁体旧字形版，适配不同场景需求。",
+     "en": "LXGW WenKai is an open-source Chinese font derived from Fontworks' Klee One, licensed under OFL 1.1 for free commercial use. It offers multiple variants including screen-optimized, lite, GB-compliant, and traditional character editions for diverse applications.",
+     "tags_zh": [
+      "中文字体",
+      "字体设计",
+      "开源授权"
+     ],
+     "tags_en": [
+      "Chinese Font",
+      "Font Design",
+      "Open Source License"
+     ]
+    },
+    "pushed_at": "2026-02-28",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "odoo/odoo",
+   "expect": "office",
+   "record": {
+    "metadata": {
+     "full_name": "odoo/odoo",
+     "name": "odoo",
+     "owner": "odoo",
+     "description": "Odoo. Open Source Apps To Grow Your Business.",
+     "stars": 54882,
+     "language": "Python",
+     "url": "https://github.com/odoo/odoo",
+     "homepage": "https://www.odoo.com",
+     "topics": [
+      "apps",
+      "business",
+      "erp",
+      "management",
+      "odoo",
+      "odoo-apps",
+      "python"
+     ],
+     "pushed_at": "2026-10-07T22:54:00Z",
+     "updated_at": "2026-10-07T22:02:07Z",
+     "starred_at": "2016-11-01T05:20:51Z"
+    },
+    "summary": {
+     "zh": "Odoo 是一套基于开源技术的企业级业务应用套件，涵盖 CRM、电商、仓储、财务、项目管理等核心模块，支持模块化部署与无缝集成，提供完整的开源 ERP 解决方案。其低代码平台与 Python 技术栈便于二次开发，适用于中小企业数字化转型。",
+     "en": "Odoo is an open-source business application suite featuring integrated modules like CRM, eCommerce, accounting, and inventory management. Built on Python, it offers modular, scalable ERP solutions with seamless integration and extensive customization capabilities for growing businesses.",
+     "tags_zh": [
+      "Python",
+      "企业应用",
+      "开源ERP"
+     ],
+     "tags_en": [
+      "Enterprise Applications",
+      "Open Source ERP",
+      "Python"
+     ]
+    },
+    "pushed_at": "2026-02-28",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "EbookFoundation/free-programming-books",
+   "expect": "edu",
+   "record": {
+    "metadata": {
+     "full_name": "EbookFoundation/free-programming-books",
+     "name": "free-programming-books",
+     "owner": "EbookFoundation",
+     "description": ":books: Freely available programming books",
+     "stars": 398659,
+     "language": "Python",
+     "url": "https://github.com/EbookFoundation/free-programming-books",
+     "homepage": "https://ebookfoundation.github.io/free-programming-books/",
+     "topics": [
+      "books",
+      "education",
+      "hacktoberfest",
+      "list",
+      "resource"
+     ],
+     "pushed_at": "2026-10-05T17:28:36Z",
+     "updated_at": "2026-10-07T22:46:28Z",
+     "starred_at": "2018-08-11T07:14:39Z"
+    },
+    "summary": {
+     "zh": "该项目是免费编程书籍的权威集合，涵盖多语言、多领域的开源学习资源，支持动态搜索和静态网站访问，由非营利组织 Free Ebook Foundation 维护，是全球最受欢迎的开源项目之一。",
+     "en": "This repository aggregates freely available programming books across multiple languages and domains, featuring dynamic search and static site access. Maintained by the non-profit Free Ebook Foundation, it is one of GitHub's most popular open-source projects.",
+     "tags_zh": [
+      "开源学习资源",
+      "知识共享",
+      "编程书籍"
+     ],
+     "tags_en": [
+      "Creative Commons",
+      "Open Source Learning",
+      "Programming Books"
+     ]
+    },
+    "pushed_at": "2026-02-28",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "xxlllq/system_architect",
+   "expect": "edu",
+   "record": {
+    "metadata": {
+     "full_name": "xxlllq/system_architect",
+     "name": "system_architect",
+     "owner": "xxlllq",
+     "description": ":100: 2026年系统架构设计师（软考高级）备考资料。",
+     "stars": 8817,
+     "language": "HTML",
+     "url": "https://github.com/xxlllq/system_architect",
+     "homepage": "https://fchxxn.com/exam",
+     "topics": [
+      "examination",
+      "ruankao"
+     ],
+     "pushed_at": "2026-05-22T01:38:15Z",
+     "updated_at": "2026-10-07T14:05:57Z",
+     "starred_at": "2025-02-26T04:11:35Z"
+    },
+    "summary": {
+     "zh": "该项目为2026年软考高级系统架构设计师备考资料库，涵盖历年真题、模拟卷、精讲视频及论文范文，支持免费与付费资源更新。提供多平台刷题工具（网页/小程序/App），并持续优化教程与考纲解析，助力考生高效通过考试。",
+     "en": "This repository provides comprehensive study materials for the 2026 System Architect Designer exam (a senior-level soft certification). It includes past papers, mock tests, video courses, and essay templates. Free and paid resources are updated regularly, with multi-platform practice tools (web, WeChat mini-program, mobile app) and optimized tutorials to help candidates pass efficiently.",
+     "tags_zh": [
+      "备考资料",
+      "系统架构",
+      "软考培训"
+     ],
+     "tags_en": [
+      "Certification Training",
+      "Exam Preparation",
+      "System Architecture"
+     ]
+    },
+    "pushed_at": "2026-01-27",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "OpenCut-app/OpenCut",
+   "expect": "media",
+   "record": {
+    "metadata": {
+     "full_name": "OpenCut-app/OpenCut",
+     "name": "OpenCut",
+     "owner": "OpenCut-app",
+     "description": "The open-source CapCut alternative",
+     "stars": 93110,
+     "language": "TypeScript",
+     "url": "https://github.com/OpenCut-app/OpenCut",
+     "homepage": "https://opencut.app",
+     "topics": [
+      "editor",
+      "oss",
+      "videoeditor"
+     ],
+     "pushed_at": "2026-09-24T09:24:44Z",
+     "updated_at": "2026-10-07T22:45:45Z",
+     "starred_at": "2025-07-10T18:37:44Z"
+    },
+    "summary": {
+     "zh": "OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，提供时间轴编辑、多轨道支持、实时预览等功能，无水印且无需订阅。注重隐私保护，所有视频处理在本地完成，核心功能对标 CapCut，适合追求简洁高效的用户。",
+     "en": "OpenCut is a free, open-source video editor for web, desktop, and mobile, offering timeline-based editing, multi-track support, and real-time preview. It emphasizes privacy by processing videos locally, avoids watermarks, and targets users seeking CapCut-like simplicity without paywalled features.",
+     "tags_zh": [
+      "开源软件",
+      "视频编辑",
+      "跨平台应用"
+     ],
+     "tags_en": [
+      "Cross-Platform",
+      "Open Source",
+      "Video Editing"
+     ]
+    },
+    "pushed_at": "2026-02-28",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "GoogleChromeLabs/squoosh",
+   "expect": "media",
+   "record": {
+    "metadata": {
+     "full_name": "GoogleChromeLabs/squoosh",
+     "name": "squoosh",
+     "owner": "GoogleChromeLabs",
+     "description": "Make images smaller using best-in-class codecs, right in the browser.",
+     "stars": 25997,
+     "language": "TypeScript",
+     "url": "https://github.com/GoogleChromeLabs/squoosh",
+     "homepage": "https://squoosh.app",
+     "topics": [],
+     "pushed_at": "2026-10-07T09:06:55Z",
+     "updated_at": "2026-10-07T14:20:12Z",
+     "starred_at": "2019-07-16T05:32:24Z"
+    },
+    "summary": {
+     "zh": "Squoosh 是一款浏览器内图像压缩工具，利用顶级编解码器显著减小图像体积，所有处理均在本地完成，保护用户隐私。支持多种格式压缩，提供实时预览与尺寸对比，适用于网页优化与资源管理。",
+     "en": "Squoosh is a browser-based image compression tool that reduces image sizes using best-in-class codecs entirely in the browser. It supports multiple formats, offers real-time preview and size comparison, and ensures privacy by processing images locally without server transmission.",
+     "tags_zh": [
+      "前端应用",
+      "图像压缩",
+      "浏览器工具"
+     ],
+     "tags_en": [
+      "Browser Tool",
+      "Frontend Application",
+      "Image Compression"
+     ]
+    },
+    "pushed_at": "2026-02-05",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "anthropics/skills",
+   "expect": "ai",
+   "record": {
+    "metadata": {
+     "full_name": "anthropics/skills",
+     "name": "skills",
+     "owner": "anthropics",
+     "description": "Public repository for Agent Skills",
+     "stars": 180055,
+     "language": "Python",
+     "url": "https://github.com/anthropics/skills",
+     "homepage": "",
+     "topics": [
+      "agent-skills"
+     ],
+     "pushed_at": "2026-10-05T13:46:45Z",
+     "updated_at": "2026-10-07T23:00:07Z",
+     "starred_at": "2025-11-18T03:24:48Z"
+    },
+    "summary": {
+     "zh": "Anthropic 公开 Claude 智能体技能库，提供文档处理、开发工具、企业工作流等多样化技能模板，支持动态加载与自定义扩展，助力 AI 智能体实现专业化任务自动化。",
+     "en": "Anthropic's public repository for Agent Skills provides Claude with dynamic, modular capabilities across document processing, development tools, and enterprise workflows, enabling specialized task automation through customizable, production-grade skill modules.",
+     "tags_zh": [
+      "AI智能体",
+      "技能系统",
+      "文档处理"
+     ],
+     "tags_en": [
+      "AI 智能体",
+      "Document Processing",
+      "Skill System"
+     ]
+    },
+    "pushed_at": "2026-02-25",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "langchain-ai/langchain",
+   "expect": "ai",
+   "record": {
+    "metadata": {
+     "full_name": "langchain-ai/langchain",
+     "name": "langchain",
+     "owner": "langchain-ai",
+     "description": "The agent engineering platform.",
+     "stars": 147543,
+     "language": "Python",
+     "url": "https://github.com/langchain-ai/langchain",
+     "homepage": "https://docs.langchain.com/langchain/",
+     "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "deepagents",
+      "enterprise",
+      "framework",
+      "gemini",
+      "generative-ai",
+      "langchain",
+      "langgraph",
+      "llm",
+      "multiagent",
+      "open-source",
+      "openai",
+      "pydantic",
+      "python",
+      "rag",
+      "typescript"
+     ],
+     "pushed_at": "2026-10-07T22:47:38Z",
+     "updated_at": "2026-10-07T22:41:55Z",
+     "starred_at": "2023-05-09T09:29:27Z"
+    },
+    "summary": {
+     "zh": "LangChain 是一个构建可靠 AI 智能体的框架，提供标准化的 LLM、嵌入、向量存储等组件接口，支持实时数据增强、模型互操作性和快速原型开发，助力开发者高效构建生产级 LLM 应用。",
+     "en": "LangChain is a framework for building reliable AI agents and LLM-powered applications. It offers standardized interfaces for models, embeddings, and vector stores, enabling real-time data augmentation, model interoperability, and rapid prototyping for production-ready AI solutions.",
+     "tags_zh": [
+      "AI智能体",
+      "大模型应用",
+      "开发框架"
+     ],
+     "tags_en": [
+      "AI Agents",
+      "Development Framework",
+      "LLM Applications"
+     ]
+    },
+    "pushed_at": "2026-02-28",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "run-llama/llama_index",
+   "expect": "ai",
+   "record": {
+    "metadata": {
+     "full_name": "run-llama/llama_index",
+     "name": "llama_index",
+     "owner": "run-llama",
+     "description": "LlamaIndex is the document processing platform for AI",
+     "stars": 52434,
+     "language": "Python",
+     "url": "https://github.com/run-llama/llama_index",
+     "homepage": "https://developers.llamaindex.ai",
+     "topics": [
+      "agents",
+      "application",
+      "data",
+      "fine-tuning",
+      "framework",
+      "llamaindex",
+      "llm",
+      "multi-agents",
+      "rag",
+      "vector-database"
+     ],
+     "pushed_at": "2026-10-06T19:11:28Z",
+     "updated_at": "2026-10-07T23:00:02Z",
+     "starred_at": "2023-03-10T11:29:39Z"
+    },
+    "summary": {
+     "zh": "LlamaIndex 是一个领先的文档智能代理与 OCR 平台，专为构建基于大模型的文档应用而设计。它提供数据连接、索引、查询与可视化能力，支持多模态输入与复杂推理，广泛应用于知识库问答、文档分析与智能检索等场景。",
+     "en": "LlamaIndex is a leading document agent and OCR platform designed for building LLM-powered document applications. It enables data ingestion, indexing, querying, and visualization, supporting multimodal inputs and complex reasoning for use cases like knowledge base QA, document analysis, and intelligent retrieval.",
+     "tags_zh": [
+      "AI大模型",
+      "AI智能体",
+      "文档处理",
+      "知识库"
+     ],
+     "tags_en": [
+      "AI 大模型",
+      "AI 智能体",
+      "Document Processing",
+      "Knowledge Base"
+     ]
+    },
+    "pushed_at": "2026-02-28",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "harry0703/MoneyPrinterTurbo",
+   "expect": "ai",
+   "record": {
+    "metadata": {
+     "full_name": "harry0703/MoneyPrinterTurbo",
+     "name": "MoneyPrinterTurbo",
+     "owner": "harry0703",
+     "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+     "stars": 129118,
+     "language": "Python",
+     "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+     "homepage": "",
+     "topics": [
+      "ai-video-generator",
+      "content-creation",
+      "ffmpeg",
+      "instagram-reels",
+      "llm",
+      "python",
+      "short-video",
+      "subtitles",
+      "text-to-speech",
+      "tiktok",
+      "video-automation",
+      "video-workflow",
+      "workflow-automation",
+      "youtube-shorts"
+     ],
+     "pushed_at": "2026-10-07T13:46:58Z",
+     "updated_at": "2026-10-07T23:05:45Z",
+     "starred_at": "2025-05-04T17:04:09Z"
+    },
+    "summary": {
+     "zh": "MoneyPrinterTurbo 是一款基于 AI 大模型的智能短视频生成工具，支持一键生成高清横竖屏视频。用户只需输入主题或关键词，即可自动完成文案生成、素材匹配、语音合成、字幕添加及背景音乐配置，全面覆盖视频创作流程，支持多模型接入与批量处理，适用于内容创作者快速产出高质量短视频。",
+     "en": "MoneyPrinterTurbo is an AI-powered short video generation tool that leverages large language models to automatically create high-definition videos with one click. Users input a topic or keyword to generate scripts, visuals, voiceovers, subtitles, and background music. It supports multiple AI models, batch processing, and both vertical and horizontal formats, ideal for content creators seeking efficient video production.",
+     "tags_zh": [
+      "AI大模型",
+      "AI智能体",
+      "短视频生成",
+      "自动化工具"
+     ],
+     "tags_en": [
+      "AI LLM",
+      "AI 智能体",
+      "Automation Tool",
+      "Short Video Generation"
+     ]
+    },
+    "pushed_at": "2025-12-14",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "massgravel/Microsoft-Activation-Scripts",
+   "expect": "sys",
+   "record": {
+    "metadata": {
+     "full_name": "massgravel/Microsoft-Activation-Scripts",
+     "name": "Microsoft-Activation-Scripts",
+     "owner": "massgravel",
+     "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
+     "stars": 193687,
+     "language": "Batchfile",
+     "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
+     "homepage": "https://massgrave.dev",
+     "topics": [
+      "activator",
+      "hwid",
+      "kms",
+      "kms38",
+      "massgrave",
+      "massgravel",
+      "microsoft",
+      "microsoft365",
+      "office",
+      "office365",
+      "ohook",
+      "powershell",
+      "tsforge",
+      "windows",
+      "windows-10",
+      "windows-11"
+     ],
+     "pushed_at": "2026-09-10T22:33:44Z",
+     "updated_at": "2026-10-07T22:48:58Z",
+     "starred_at": "2025-02-18T17:34:33Z"
+    },
+    "summary": {
+     "zh": "MAS 是一个开源的 Windows 和 Office 激活工具，支持 HWID、Ohook、TSforge 和在线 KMS 等多种激活方式，并提供高级故障排除功能。通过 PowerShell 脚本或传统 CMD 文件一键激活系统，适用于 Windows 8.1/10/11 及 Office 产品，集成自动化与跨平台支持。",
+     "en": "MAS is an open-source activator for Windows and Office using HWID, Ohook, TSforge, and Online KMS methods, with advanced troubleshooting. It enables one-click activation via PowerShell or CMD scripts, supporting Windows 8.1/10/11 and Office, featuring automation and cross-platform compatibility.",
+     "tags_zh": [
+      "Windows Office",
+      "系统激活",
+      "自动化工具"
+     ],
+     "tags_en": [
+      "Automation Tool",
+      "System Activation",
+      "Windows Office"
+     ]
+    },
+    "pushed_at": "2026-02-22",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "vorssaintapp/vorssaint-utils",
+   "expect": "sys",
+   "record": {
+    "metadata": {
+     "full_name": "vorssaintapp/vorssaint-utils",
+     "name": "vorssaint-utils",
+     "owner": "vorssaintapp",
+     "description": "Free and open-source macOS menu bar toolkit.",
+     "stars": 14999,
+     "language": "Swift",
+     "url": "https://github.com/vorssaintapp/vorssaint-utils",
+     "homepage": "https://vorssaint.com",
+     "topics": [
+      "alt-tab",
+      "app-uninstaller",
+      "appkit",
+      "finder",
+      "free",
+      "keep-awake",
+      "mac-os",
+      "menu-bar",
+      "menubar",
+      "open-source",
+      "swift",
+      "swift-ui",
+      "system-monitor",
+      "uninstaller",
+      "volume-mixer",
+      "window-switcher"
+     ],
+     "pushed_at": "2026-09-03T18:44:10Z",
+     "updated_at": "2026-09-03T21:00:31Z",
+     "starred_at": "2026-06-28T16:01:50Z"
+    },
+    "summary": {
+     "zh": "Vorssaint 是一款免费开源的 macOS 菜单栏工具集，以单一图标整合音量混音、系统监控、窗口管理、剪贴板历史、文本片段等多项实用功能。模块化设计支持按需安装卸载，零账户、零遥测、零订阅，专为用户隐私和性能效率而构建。",
+     "en": "Vorssaint is a free, open-source macOS menu bar toolkit that consolidates volume mixing, system monitoring, window management, clipboard history, and more into a single lightweight icon. Fully modular, privacy-first with zero telemetry or subscriptions, and requires macOS 14+ on Apple Silicon.",
+     "tags_zh": [
+      "macOS工具",
+      "效率工具",
+      "桌面应用",
+      "隐私保护"
+     ],
+     "tags_en": [
+      "Desktop Application",
+      "Privacy-Focused",
+      "Productivity Tool",
+      "macOS Utilities"
+     ]
+    },
+    "pushed_at": "2026-08-24T18:48:52Z",
+    "updated_at": "2026-08-24"
+   }
+  },
+  {
+   "repo": "hugohe3/ppt-master",
+   "expect": "doc",
+   "record": {
+    "metadata": {
+     "full_name": "hugohe3/ppt-master",
+     "name": "ppt-master",
+     "owner": "hugohe3",
+     "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+     "stars": 58064,
+     "language": "Python",
+     "url": "https://github.com/hugohe3/ppt-master",
+     "homepage": "https://hugohe3.github.io/ppt-master-examples/",
+     "topics": [
+      "ai-agent",
+      "aippt",
+      "office",
+      "powerpoint",
+      "powerpoint-generation",
+      "ppt",
+      "pptx",
+      "presentation",
+      "slide",
+      "slides"
+     ],
+     "pushed_at": "2026-10-07T10:34:54Z",
+     "updated_at": "2026-10-07T23:00:01Z",
+     "starred_at": "2026-06-16T14:32:23Z"
+    },
+    "summary": {
+     "zh": "PPT Master 是一款开源 AI 工具，能将任意文档转化为原生可编辑的 PPTX 文件，支持原生形状、动画效果及演讲者备注转语音旁白，并可应用自定义模板。相比生成静态幻灯片图片，它生成真正可编辑的演示文稿，大幅提升内容复用与二次编辑效率，适合教育、汇报、技术分享等场景。",
+     "en": "PPT Master is an open-source AI tool that converts any document into a natively editable PPTX file, preserving native shapes, animations, and speaker notes with optional audio narration. It supports custom .pptx templates instead of static slide images, enabling full post-generation editing. Ideal for education, presentations, and technical sharing where editable, reusable slide decks are essential.",
+     "tags_zh": [
+      "AI智能体",
+      "文档转换",
+      "演示文稿生成",
+      "自动化工具"
+     ],
+     "tags_en": [
+      "AI 智能体",
+      "Automation Tool",
+      "Document Conversion",
+      "Presentation Generation"
+     ]
+    },
+    "pushed_at": "2026-06-16T16:22:47Z",
+    "updated_at": "2026-06-16"
+   }
+  },
+  {
+   "repo": "gollum/gollum",
+   "expect": "doc",
+   "record": {
+    "metadata": {
+     "full_name": "gollum/gollum",
+     "name": "gollum",
+     "owner": "gollum",
+     "description": "A simple, Git-powered wiki with a local frontend and support for many kinds of markup and content.",
+     "stars": 14332,
+     "language": "Ruby",
+     "url": "https://github.com/gollum/gollum",
+     "homepage": "",
+     "topics": [
+      "documentation",
+      "documentation-tool",
+      "gollum",
+      "jruby-support",
+      "markdown",
+      "ruby",
+      "wiki"
+     ],
+     "pushed_at": "2025-11-24T22:15:31Z",
+     "updated_at": "2026-10-07T03:01:45Z",
+     "starred_at": "2015-06-08T16:50:48Z"
+    },
+    "summary": {
+     "zh": "Gollum 是一个基于 Git 的轻量级 Wiki 系统，支持多种标记语言（如 Markdown、AsciiDoc 等），提供本地前端界面和版本控制功能。它允许用户通过 Git 仓库管理 Wiki 页面，支持实时编辑、历史回溯、数学公式、图表（Mermaid/PlantUML）、BibTeX 引用等高级功能，兼容 GitHub/GitLab Wiki，适合团队协作与知识管理。",
+     "en": "Gollum is a Git-powered wiki system that enables version-controlled, human-editable text files organized in a Git repository. It supports multiple markup languages, real-time editing, page history, diagrams (Mermaid/PlantUML), math rendering, citations, and integrates seamlessly with GitHub/GitLab wikis for collaborative documentation.",
+     "tags_zh": [
+      "Git版本控制",
+      "Wiki系统",
+      "知识管理"
+     ],
+     "tags_en": [
+      "Git Version Control",
+      "Knowledge Management",
+      "Wiki System"
+     ]
+    },
+    "pushed_at": "2025-11-24",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "ripienaar/free-for-dev",
+   "expect": "cloud",
+   "record": {
+    "metadata": {
+     "full_name": "ripienaar/free-for-dev",
+     "name": "free-for-dev",
+     "owner": "ripienaar",
+     "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+     "stars": 139343,
+     "language": "HTML",
+     "url": "https://github.com/ripienaar/free-for-dev",
+     "homepage": "https://free-for.dev/",
+     "topics": [
+      "awesome-list",
+      "free-for-developers"
+     ],
+     "pushed_at": "2026-10-07T21:31:03Z",
+     "updated_at": "2026-10-07T22:47:19Z",
+     "starred_at": "2025-05-04T17:05:41Z"
+    },
+    "summary": {
+     "zh": "free-for.dev 是一个面向开发者和运维人员的精选免费服务清单，涵盖 SaaS、PaaS、IaaS 等基础设施类工具。该列表聚焦于 DevOps 和系统管理员常用服务，强调长期可用的免费层级（非试用），并排除自托管软件。内容由社区协作维护，包含云管理、CI/CD、监控、安全等 30+ 个分类，帮助开发者快速发现并评估适合的免费资源。",
+     "en": "free-for.dev is a curated list of free-tier SaaS, PaaS, and IaaS services tailored for developers and infrastructure teams. It focuses on tools useful for DevOps, sysadmins, and cloud engineers, excluding self-hosted software and limited-time trials. Maintained by a community of 1600+ contributors, it covers 30+ categories including cloud management, CI/CD, monitoring, security, and more, enabling informed decisions about free developer offerings.",
+     "tags_zh": [
+      "DevOps工具",
+      "免费云服务",
+      "基础设施即服务"
+     ],
+     "tags_en": [
+      "DevOps Tools",
+      "Free Cloud Services",
+      "Infrastructure as a Service"
+     ]
+    },
+    "pushed_at": "2026-02-27",
+    "updated_at": "2026-02-28"
+   }
+  },
+  {
+   "repo": "xiaolai/regular-investing-in-box",
+   "expect": "office",
+   "record": {
+    "metadata": {
+     "full_name": "xiaolai/regular-investing-in-box",
+     "name": "regular-investing-in-box",
+     "owner": "xiaolai",
+     "description": "定投改变命运 —— 让时间陪你慢慢变富 https://onregularinvesting.com",
+     "stars": 6384,
+     "language": "Python",
+     "url": "https://github.com/xiaolai/regular-investing-in-box",
+     "homepage": "https://ri.firesbox.com",
+     "topics": [],
+     "pushed_at": "2026-10-07T15:55:53Z",
+     "updated_at": "2026-10-07T15:56:08Z",
+     "starred_at": "2019-08-14T19:15:55Z"
+    },
+    "summary": {
+     "zh": "《定投改变命运》系统阐述普通人通过定期投资实现财富积累与阶层跃迁的路径，强调定投作为唯一可操作、可坚持的长期投资策略，结合证券市场奇迹属性与人性弱点分析，提供可落地的投资哲学与实践指南。",
+     "en": "This book systematically explains how ordinary people can break through class barriers through regular investing, emphasizing that dollar-cost averaging is the only feasible and sustainable investment strategy. It combines market insights with human psychology to offer a practical philosophy and actionable guidance for long-term wealth building.",
+     "tags_zh": [
+      "定投策略",
+      "投资理财",
+      "财富增长"
+     ],
+     "tags_en": [
+      "Dollar-Cost Averaging",
+      "Investment",
+      "Wealth Building"
+     ]
+    },
+    "pushed_at": "2026-02-28",
+    "updated_at": "2026-02-28"
+   }
+  }
+ ]
+}

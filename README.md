@@ -8,6 +8,7 @@
 
 - [功能特性](#功能特性)
 - [快速开始](#快速开始)
+- [Stars Atlas（星图视图）](#stars-atlas星图视图)
 - [配置项详解](#配置项详解-环境变量--env)
 - [Obsidian 同步（可选）](#obsidian-同步可选)
 - [本地运行](#本地运行)
@@ -27,6 +28,7 @@
 - 🔄 可选：自动将生成的 `stars_zh.md` & `stars_en.md` **推送到 Obsidian Vault 仓库**
 - 🌐 可选：自动同步到 **GitHub Pages** 分支，支持多语言 (ZH/EN) 切换与页面实时搜索
 - 💻 支持任意 **OpenAI 格式兼容接口**（OpenAI / Azure / 本地 Ollama 等）
+- 🗺️ **Stars Atlas 星图视图**：在经典检索页之外，额外生成一个 `atlas/` 页面 —— 用**纯规则引擎**（零 AI、零额外密钥）把仓库分成 **16 个领域 / 85 个子类 / 100+ 主题标签**，并以「角度=领域、半径=热度、点径=Star 数」的星图呈现，支持多维交叉筛选、分面计数、可分享 URL 与中英双语
 
 ---
 
@@ -120,6 +122,51 @@ schedule:
 ### 第四步：手动触发首次运行
 
 进入 **Actions → 🌟 GitHub Stars Index同步 → Run workflow**，点击运行。
+
+---
+
+## Stars Atlas（星图视图）
+
+经典页面把仓库铺成一格格卡片；Atlas 换一种读法：一张**星图**。同一份 `data/stars.json`，两套视图并存，互不影响。
+
+| 维度 | 说明 |
+| :--- | :--- |
+| **领域**（16 个） | AI、开发工具、Web/服务端、数据、云与运维、系统与桌面、网络、安全与隐私、影音与图像、文档与知识、办公与效率、沟通与社交、移动端、设计与视觉、学习与参考、游戏与娱乐 |
+| **子类**（85 个） | 领域下再细分，例如「AI → 智能体与编码 / 模型与推理 / RAG 与知识库」 |
+| **主题标签**（100+） | 细颗粒关键词，跨领域交叉筛选：MCP、代理与科学上网、微信生态、字体与排版…… |
+| **形态**（8 个） | 应用 / 命令行 / 插件 / 库框架 / 主题模板 / 合集群单 / 素材字体 / 教程文档 |
+| **热度 / 活跃度** | 热度按对数归一（弱化头部巨星的碾压）；活跃度叠加最近提交时间 |
+
+分类由 `scripts/atlas/taxonomy.py` 里的**关键词规则引擎**完成，不调用 AI、不需要额外密钥：
+
+- **确定性**：同样的 `stars.json` 永远得到同样的分类，可复现、可 diff；
+- **可解释**：`--explain` 能打印任意仓库的判定依据（命中了哪些词、在哪个字段）；
+- **抗堆词**：字段有权重（topics/tags 最可信，摘要正文最弱），且每个字段只采纳特异性最高的前 3 条命中，避免「关键词写得多的类目通吃」；
+- **兜底**：证据不足的项目进入「其他」，不硬塞。
+
+```bash
+# 生成星图页面（只读 data/stars.json，不抓取、不调 AI）
+python3 scripts/sync_atlas.py
+
+# 只看分类统计 / 只列出未分类的项目
+python3 scripts/sync_atlas.py --stats
+
+# 查某个仓库为什么被这样分类
+python3 scripts/sync_atlas.py --explain microsoft/playwright -v
+
+# 分类回归测试（29 个真实锚点 + 结构不变量）
+python3 tests/test_atlas.py -v
+```
+
+产物：
+
+| 文件 | 说明 |
+| :--- | :--- |
+| `dist/atlas/index.html` | 星图页面（发布到 `https://<你的域名>/atlas/`） |
+| `dist/atlas/atlas.json` | 带分类结果的数据集，供二次开发 |
+
+> [!NOTE]
+> 想调整分类，只改 `scripts/atlas/taxonomy.py` 的 `CANON_TAGS` / `CATS`，然后跑一次 `python3 tests/test_atlas.py` 确认锚点没有回归即可。
 
 ---
 
@@ -260,6 +307,10 @@ python scripts/sync_stars.py --render-only
 | `templates/`                 | Jinja2 生成模版（Markdown/HTML）   |
 | `dist/`                      | 自动生成的本地成品（HTML / MD）    |
 | `scripts/sync_stars.py`      | 核心同步与生成脚本                 |
+| `scripts/sync_atlas.py`      | 星图数据集与页面构建（只读 stars.json） |
+| `scripts/atlas/taxonomy.py`  | 星图分类体系与评分引擎             |
+| `templates/atlas.html.j2`    | 星图页面模版                       |
+| `tests/test_atlas.py`        | 分类回归测试                       |
 | `.github/workflows/sync.yml` | GitHub Actions 定时工作流          |
 | `.env.example`               | 配置示例文件                       |
 

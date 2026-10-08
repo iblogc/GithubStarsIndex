@@ -126,16 +126,24 @@ jobs:
           PAGES_SYNC_ENABLED: ${{ vars.PAGES_SYNC_ENABLED }}
         run: python scripts/sync_stars.py
 
-      # ── 6. 准备 Pages 发布内容（包含 stars.json） ─────────────
+      # ── 6. 构建 Stars Atlas（分类星图，独立于经典视图） ─────────
+      - name: 构建 Stars Atlas
+        run: python3 scripts/sync_atlas.py --data data/stars.json --out dist/atlas
+
+      # ── 7. 准备 Pages 发布内容（包含 stars.json） ─────────────
       - name: 准备 gh-pages 发布目录
         run: |
           set -e
           test -s data/stars.json || { echo "❌ 未找到有效 data/stars.json"; exit 1; }
+          test -s dist/atlas/index.html || { echo "❌ Stars Atlas 未生成"; exit 1; }
           mkdir -p dist/data
           cp data/stars.json dist/data/stars.json
           echo "✅ 已写入 dist/data/stars.json（仅发布到 gh-pages，不提交 main）"
 
-      # ── 7. 部署到 GitHub Pages ─────────────────────────────
+          # Atlas 数据集（含分类结果）发布到 gh-pages，可供「仅渲染」模式或其它站点复用
+          test -s dist/atlas/atlas.json && echo "✅ 已包含 dist/atlas/atlas.json（$(du -h dist/atlas/atlas.json | cut -f1)）"
+
+      # ── 8. 部署到 GitHub Pages ─────────────────────────────
       - name: 部署到 GitHub Pages
         if: vars.PAGES_SYNC_ENABLED == 'true'
         uses: JamesIves/github-pages-deploy-action@v4

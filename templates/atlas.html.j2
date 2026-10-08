@@ -1,0 +1,1527 @@
+{#- Stars Atlas —— 单页星图 (Jinja2)
+
+    数据来自 scripts/sync_atlas.py 构建的 dataset：
+      data.meta     概览统计
+      data.facets   领域/语言/标签/形态/年份 的完整词表与计数
+      data.items    每个仓库的分类与展示字段
+
+    设计：以「星图」为核心隐喻 —— 角度=领域，距圆心=热度，点径=Star 数。
+    页面不依赖任何外部 JS 库；字体走 Google Fonts（与 v1 保持同样的取用方式）。
+-#}
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stars Atlas · GitHub 星图</title>
+<meta name="description" content="把 GitHub Stars 绘成一张星图：按领域分区、按热度定位，支持多维筛选与检索。">
+<meta name="color-scheme" content="dark light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230a0e17'/><circle cx='16' cy='16' r='2.6' fill='%23e3a82b'/><circle cx='16' cy='7.5' r='1.3' fill='%23e8e6df'/><circle cx='23.4' cy='20' r='1.3' fill='%23e8e6df'/><circle cx='8.6' cy='20' r='1.3' fill='%23e8e6df'/><path d='M16 7.5 23.4 20 8.6 20Z' fill='none' stroke='%23e3a82b' stroke-width='1'/></svg>">
+
+<style>
+/* ════════════════════════════════════════════════════════════
+   1. 设计令牌
+   ════════════════════════════════════════════════════════════ */
+:root {
+    --ink:        #090d16;
+    --ink-raise:  #0f1522;
+    --ink-card:   #121a29;
+    --line:       #1d2739;
+    --line-soft:  #16202f;
+    --fg:         #e9e7e0;
+    --fg-soft:    #a9b0bf;
+    --fg-mute:    #6f7889;
+    --gold:       #e3a82b;
+    --gold-soft:  rgba(227, 168, 43, 0.14);
+    --sky:        #6ba6d4;
+    --danger:     #d0685f;
+
+    --field-bg:   #070b13;
+    --field-line: #172135;
+    --field-pt:   #e9e7e0;
+    --field-dim:  #2a3346;
+
+    --radius:     10px;
+    --radius-sm:  6px;
+    --sans: 'Archivo', system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    --serif: 'Fraunces', 'Songti SC', 'Noto Serif CJK SC', Georgia, serif;
+    --shadow: 0 18px 44px -28px rgba(0, 0, 0, 0.85);
+    --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+html[data-theme='light'] {
+    --ink:        #eef0ef;
+    --ink-raise:  #f7f8f7;
+    --ink-card:   #ffffff;
+    --line:       #d3d9d9;
+    --line-soft:  #e2e6e5;
+    --fg:         #111820;
+    --fg-soft:    #4d5761;
+    --fg-mute:    #7b848d;
+    --gold:       #9c6d10;
+    --gold-soft:  rgba(156, 109, 16, 0.12);
+    --sky:        #2a6f9e;
+    --danger:     #a8433a;
+
+    --field-bg:   #e6eae9;
+    --field-line: #cbd3d4;
+    --field-pt:   #1b2735;
+    --field-dim:  #c2cbcb;
+    --shadow: 0 16px 40px -30px rgba(16, 24, 38, 0.5);
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+    margin: 0;
+    background: var(--ink);
+    color: var(--fg);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+}
+h1, h2, h3 { margin: 0; font-weight: 600; }
+p { margin: 0; }
+a { color: var(--sky); text-underline-offset: 2px; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; border-radius: 3px; }
+::selection { background: var(--gold-soft); }
+
+.sr {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.skip {
+    position: absolute; left: 50%; top: -3rem; transform: translateX(-50%);
+    background: var(--gold); color: #10151f; padding: 0.5rem 1rem; z-index: 100;
+    border-radius: 0 0 var(--radius-sm) var(--radius-sm); text-decoration: none;
+    transition: top 0.2s var(--ease);
+}
+.skip:focus { top: 0; }
+
+/* 数字统一使用等宽数字，便于上下对齐 */
+.num { font-variant-numeric: tabular-nums; font-feature-settings: 'tnum' 1; }
+
+/* ════════════════════════════════════════════════════════════
+   2. 报头
+   ════════════════════════════════════════════════════════════ */
+.masthead {
+    padding: 2.6rem clamp(1rem, 4vw, 3.4rem) 1.6rem;
+    border-bottom: 1px solid var(--line);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1.6rem 2.4rem;
+    align-items: end;
+}
+.brand h1 {
+    font-family: var(--serif);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: clamp(2.9rem, 8.4vw, 6.2rem);
+    line-height: 0.92;
+    letter-spacing: -0.022em;
+}
+.brand h1 em {
+    font-style: italic;
+    font-weight: 300;
+    color: var(--gold);
+}
+.lede {
+    margin-top: 1.1rem;
+    max-width: 46ch;
+    color: var(--fg-soft);
+    font-size: 1rem;
+}
+.lede b { color: var(--fg); font-weight: 600; }
+
+.vitals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 2.4rem;
+    padding-bottom: 0.3rem;
+}
+.vital { min-width: 6.5rem; }
+.vital dt { color: var(--fg-mute); font-size: 0.78rem; letter-spacing: 0.02em; }
+.vital dd {
+    margin: 0.15rem 0 0;
+    font-family: var(--serif);
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+.vital dd small { font-family: var(--sans); font-size: 0.8rem; color: var(--fg-soft); font-weight: 400; margin-left: 0.25rem; }
+
+/* 控制条 */
+.controls {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    align-items: center;
+}
+.search {
+    flex: 1 1 20rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: var(--ink-raise);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 0.6rem 0.9rem;
+    transition: border-color 0.18s var(--ease);
+}
+.search:focus-within { border-color: var(--gold); }
+.search svg { flex: none; color: var(--fg-mute); }
+.search input {
+    flex: 1; min-width: 0; background: none; border: 0; color: var(--fg);
+    font: inherit; padding: 0;
+}
+.search input::placeholder { color: var(--fg-mute); }
+.search kbd {
+    font-family: var(--sans); font-size: 0.72rem; color: var(--fg-mute);
+    border: 1px solid var(--line); border-radius: 4px; padding: 0.1rem 0.35rem;
+}
+.toggle {
+    display: inline-flex; align-items: center; gap: 0.45rem;
+    border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 0.6rem 0.85rem; color: var(--fg-soft);
+    background: var(--ink-raise);
+    transition: color 0.18s var(--ease), border-color 0.18s var(--ease);
+}
+.toggle:hover { color: var(--fg); border-color: var(--fg-mute); }
+.filter-open { display: none; }
+
+/* ════════════════════════════════════════════════════════════
+   3. 骨架
+   ════════════════════════════════════════════════════════════ */
+.shell {
+    display: grid;
+    grid-template-columns: 19rem minmax(0, 1fr);
+    gap: clamp(1rem, 2.6vw, 2.4rem);
+    padding: clamp(1.2rem, 2.6vw, 2rem) clamp(1rem, 4vw, 3.4rem) 4rem;
+    align-items: start;
+}
+.rail {
+    position: sticky;
+    top: 1.2rem;
+    max-height: calc(100vh - 2.4rem);
+    overflow-y: auto;
+    padding-right: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    scrollbar-width: thin;
+}
+.rail::-webkit-scrollbar { width: 6px; }
+.rail::-webkit-scrollbar-thumb { background: var(--line); border-radius: 3px; }
+
+.group > h2 {
+    font-size: 0.82rem;
+    color: var(--fg-mute);
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--line-soft);
+    margin-bottom: 0.5rem;
+}
+.note { color: var(--fg-mute); font-size: 0.82rem; padding: 0.35rem 0; }
+
+/* 领域脊：左侧栏的主结构 */
+.spine { display: flex; flex-direction: column; }
+.spine-row {
+    display: grid;
+    grid-template-columns: 2.1rem 1fr auto;
+    align-items: baseline;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.4rem 0.5rem 0.4rem 0.35rem;
+    border-radius: var(--radius-sm);
+    text-align: left;
+    color: var(--fg-soft);
+    border-left: 2px solid transparent;
+    transition: background 0.15s var(--ease), color 0.15s var(--ease);
+}
+.spine-row:hover { background: var(--ink-raise); color: var(--fg); }
+.spine-row[aria-pressed='true'] {
+    color: var(--fg);
+    background: var(--gold-soft);
+    border-left-color: var(--gold);
+}
+.spine-code {
+    font-size: 0.72rem; color: var(--fg-mute); letter-spacing: 0.04em;
+}
+.spine-row[aria-pressed='true'] .spine-code { color: var(--gold); }
+.spine-name { font-size: 0.92rem; }
+.spine-count { font-size: 0.82rem; color: var(--fg-mute); }
+.spine-row[aria-pressed='true'] .spine-count { color: var(--fg); }
+.spine-row.is-empty { opacity: 0.4; }
+
+.subs { margin: 0.1rem 0 0.5rem 2.6rem; display: flex; flex-direction: column; }
+.sub-row {
+    text-align: left; padding: 0.22rem 0.4rem; font-size: 0.84rem;
+    color: var(--fg-mute); border-radius: 4px;
+    display: flex; justify-content: space-between; gap: 0.5rem;
+}
+.sub-row:hover { color: var(--fg); background: var(--ink-raise); }
+.sub-row[aria-pressed='true'] { color: var(--gold); background: var(--gold-soft); }
+
+/* 通用 facet 芯片 */
+.chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.chip {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    border: 1px solid var(--line); border-radius: 999px;
+    padding: 0.24rem 0.6rem; font-size: 0.8rem; color: var(--fg-soft);
+    max-width: 100%;
+    transition: border-color 0.15s var(--ease), color 0.15s var(--ease), background 0.15s var(--ease);
+}
+.chip:hover { border-color: var(--fg-mute); color: var(--fg); }
+.chip[aria-pressed='true'] {
+    background: var(--gold-soft); border-color: var(--gold); color: var(--gold);
+}
+.chip .c { color: var(--fg-mute); font-size: 0.74rem; }
+.chip[aria-pressed='true'] .c { color: inherit; }
+.chip:disabled { opacity: 0.35; cursor: not-allowed; }
+.chip span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.facet-more {
+    font-size: 0.8rem; color: var(--sky); padding: 0.2rem 0.1rem;
+}
+.facet-search {
+    width: 100%; margin-bottom: 0.5rem;
+    background: var(--ink-raise); border: 1px solid var(--line);
+    border-radius: var(--radius-sm); padding: 0.35rem 0.55rem;
+    color: var(--fg); font-size: 0.84rem;
+}
+
+/* ════════════════════════════════════════════════════════════
+   4. 星图
+   ════════════════════════════════════════════════════════════ */
+.stage { display: flex; flex-direction: column; gap: 1.4rem; min-width: 0; }
+.field-wrap {
+    position: relative;
+    background: var(--field-bg);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+.field-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    gap: 1rem; flex-wrap: wrap;
+    padding: 0.8rem 1rem 0;
+}
+.field-title { font-family: var(--serif); font-size: 1.05rem; font-weight: 600; }
+.field-hint { color: var(--fg-mute); font-size: 0.8rem; }
+.field-hint b { color: var(--fg-soft); font-weight: 500; }
+#field { display: block; width: 100%; height: clamp(240px, 34vh, 380px); }
+.field-tip {
+    position: absolute; pointer-events: none; z-index: 5;
+    background: var(--ink-card); border: 1px solid var(--line);
+    border-radius: var(--radius-sm); box-shadow: var(--shadow);
+    padding: 0.45rem 0.65rem; font-size: 0.82rem; max-width: 20rem;
+    opacity: 0; transform: translateY(3px); transition: opacity 0.12s var(--ease);
+}
+.field-tip.on { opacity: 1; }
+.field-tip strong { font-weight: 600; }
+.field-tip .meta { color: var(--fg-mute); font-size: 0.76rem; }
+
+/* ════════════════════════════════════════════════════════════
+   5. 结果条与条目
+   ════════════════════════════════════════════════════════════ */
+.bar {
+    display: flex; flex-wrap: wrap; gap: 0.6rem 1rem; align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid var(--line);
+}
+.bar-count { color: var(--fg-soft); font-size: 0.88rem; }
+.bar-count b { color: var(--fg); font-weight: 600; }
+.sorts { display: flex; gap: 0.3rem; flex-wrap: wrap; }
+.sort-btn {
+    padding: 0.22rem 0.55rem; border-radius: var(--radius-sm);
+    color: var(--fg-mute); font-size: 0.83rem;
+}
+.sort-btn:hover { color: var(--fg); }
+.sort-btn[aria-pressed='true'] { color: var(--gold); background: var(--gold-soft); }
+.dir-btn { color: var(--fg-mute); font-size: 0.83rem; padding: 0.22rem 0.4rem; }
+.dir-btn:hover { color: var(--fg); }
+
+.active { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }
+.active:empty { display: none; }
+.clear {
+    font-size: 0.83rem; color: var(--fg-mute); text-decoration: underline;
+    text-underline-offset: 2px;
+}
+.clear:hover { color: var(--danger); }
+
+.entries { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.entry {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.35rem 1.4rem;
+    width: 100%;
+    text-align: left;
+    padding: 1.05rem 0.9rem 1.05rem 0.75rem;
+    border-bottom: 1px solid var(--line-soft);
+    border-left: 2px solid transparent;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    transition: background 0.16s var(--ease), border-color 0.16s var(--ease);
+}
+.entry:hover { background: var(--ink-raise); border-left-color: var(--gold); }
+.entry-name {
+    font-family: var(--serif);
+    font-size: 1.12rem;
+    font-weight: 600;
+    letter-spacing: -0.008em;
+    overflow-wrap: anywhere;
+}
+.entry-owner { color: var(--fg-mute); font-weight: 400; }
+.entry-desc {
+    color: var(--fg-soft);
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 82ch;
+}
+.entry-side {
+    display: flex; flex-direction: column; align-items: flex-end;
+    gap: 0.3rem; text-align: right; white-space: nowrap;
+}
+.entry-stars { font-family: var(--serif); font-size: 1.02rem; font-weight: 600; }
+.entry-stars i { color: var(--gold); font-style: normal; }
+.entry-sub { color: var(--fg-mute); font-size: 0.78rem; }
+.entry-foot {
+    grid-column: 1 / -1;
+    display: flex; flex-wrap: wrap; gap: 0.3rem 0.45rem; align-items: center;
+    margin-top: 0.35rem;
+}
+.tag {
+    font-size: 0.76rem; color: var(--fg-soft);
+    background: var(--ink-card); border: 1px solid var(--line-soft);
+    border-radius: 999px; padding: 0.08rem 0.5rem;
+}
+.heat {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    font-size: 0.76rem; color: var(--fg-mute);
+}
+.heat-track {
+    width: 2.4rem; height: 3px; border-radius: 2px;
+    background: var(--line); overflow: hidden;
+}
+.heat-fill { display: block; height: 100%; background: var(--gold); }
+
+.empty {
+    padding: 4rem 1rem; text-align: center; color: var(--fg-soft);
+    border: 1px dashed var(--line); border-radius: var(--radius);
+}
+.empty h3 { font-family: var(--serif); font-size: 1.3rem; margin-bottom: 0.5rem; }
+.empty p { color: var(--fg-mute); font-size: 0.9rem; margin-bottom: 1.1rem; }
+.btn {
+    display: inline-block; border: 1px solid var(--line);
+    border-radius: var(--radius-sm); padding: 0.45rem 0.9rem; font-size: 0.86rem;
+    color: var(--fg);
+}
+.btn:hover { border-color: var(--gold); color: var(--gold); }
+
+/* ════════════════════════════════════════════════════════════
+   6. 详情面板
+   ════════════════════════════════════════════════════════════ */
+.detail {
+    width: min(46rem, 94vw);
+    max-height: 88vh;
+    margin: auto;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--ink-card);
+    color: var(--fg);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+.detail::backdrop { background: rgba(4, 7, 12, 0.72); backdrop-filter: blur(2px); }
+.detail-inner { max-height: 88vh; overflow-y: auto; padding: 1.8rem clamp(1.1rem, 3vw, 2.2rem) 1.5rem; }
+.detail .close {
+    position: absolute; top: 0.9rem; right: 1rem;
+    font-size: 1.1rem; color: var(--fg-mute); line-height: 1;
+    border: 1px solid transparent; border-radius: 50%; width: 2rem; height: 2rem;
+    display: grid; place-items: center;
+}
+.detail .close:hover { color: var(--fg); border-color: var(--line); }
+.detail h2 {
+    font-family: var(--serif); font-size: clamp(1.5rem, 4vw, 2.1rem);
+    font-weight: 600; letter-spacing: -0.015em; overflow-wrap: anywhere;
+    padding-right: 2rem;
+}
+.detail .owner { color: var(--fg-mute); font-size: 0.92rem; margin-top: 0.15rem; }
+.detail-section { margin-top: 1.5rem; }
+.detail-section h4 {
+    margin: 0 0 0.5rem;
+    font-size: 0.78rem; font-weight: 500; color: var(--fg-mute);
+    padding-bottom: 0.35rem; border-bottom: 1px solid var(--line-soft);
+}
+.detail-body { font-size: 0.95rem; line-height: 1.68; color: var(--fg-soft); }
+.detail-body.zh { font-size: 1rem; }
+.stat-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+    gap: 0.9rem 1.2rem;
+}
+.stat-grid dt { color: var(--fg-mute); font-size: 0.78rem; }
+.stat-grid dd { margin: 0.1rem 0 0; font-family: var(--serif); font-size: 1.15rem; font-weight: 600; }
+.meter { margin-top: 0.3rem; height: 4px; border-radius: 2px; background: var(--line); overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--gold); }
+.detail-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.6rem; }
+.detail-actions .btn.primary { background: var(--gold); color: #14171f; border-color: var(--gold); font-weight: 600; }
+.detail-actions .btn.primary:hover { filter: brightness(1.08); color: #14171f; }
+
+/* ════════════════════════════════════════════════════════════
+   7. 页脚
+   ════════════════════════════════════════════════════════════ */
+.foot {
+    border-top: 1px solid var(--line);
+    padding: 1.6rem clamp(1rem, 4vw, 3.4rem) 3rem;
+    color: var(--fg-mute); font-size: 0.83rem;
+    display: flex; flex-wrap: wrap; gap: 0.5rem 1.6rem; justify-content: space-between;
+}
+.foot a { color: var(--fg-soft); }
+
+/* ════════════════════════════════════════════════════════════
+   8. 响应式
+   ════════════════════════════════════════════════════════════ */
+@media (max-width: 960px) {
+    .masthead { grid-template-columns: minmax(0, 1fr); }
+    .vitals { order: 3; }
+    .shell { grid-template-columns: minmax(0, 1fr); }
+    .filter-open { display: inline-flex; }
+    .rail {
+        position: fixed; inset: 0 auto 0 0; z-index: 60;
+        width: min(21rem, 88vw); max-height: none;
+        background: var(--ink-raise);
+        border-right: 1px solid var(--line);
+        padding: 1.2rem 1.1rem 3rem;
+        transform: translateX(-102%);
+        transition: transform 0.26s var(--ease);
+        box-shadow: var(--shadow);
+    }
+    .rail.open { transform: none; }
+    .rail-close { display: block; }
+    .scrim {
+        position: fixed; inset: 0; z-index: 55; background: rgba(4, 7, 12, 0.6);
+        opacity: 0; visibility: hidden; transition: opacity 0.2s var(--ease);
+    }
+    .scrim.on { opacity: 1; visibility: visible; }
+    .entry { padding: 1rem 0.5rem; }
+    .entry-side { align-items: flex-start; text-align: left; }
+}
+@media (min-width: 961px) { .rail-close { display: none; } }
+@media (max-width: 560px) {
+    .entry { grid-template-columns: minmax(0, 1fr); }
+    .entry-side { flex-direction: row; gap: 0.7rem; align-items: baseline; }
+}
+@media (prefers-reduced-motion: reduce) {
+    * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+    html { scroll-behavior: auto; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#entries-heading">跳到条目列表</a>
+
+<header class="masthead">
+    <div class="brand">
+        <h1>Stars <em>Atlas</em></h1>
+        <p class="lede" id="lede">
+            把 <b>{{ data.meta.count }}</b> 个收藏的仓库摊开成一张星图：
+            角度是领域，离圆心越近越热，点径是 Star 数。
+        </p>
+    </div>
+
+    <dl class="vitals">
+        <div class="vital"><dt id="v-repos">仓库</dt><dd class="num">{{ data.meta.count }}</dd></div>
+        <div class="vital"><dt id="v-stars">星标合计</dt><dd class="num">{{ data.meta.starsCompact }}</dd></div>
+        <div class="vital"><dt id="v-domains">领域</dt><dd class="num">{{ data.facets.cats | selectattr('count') | list | length }}</dd></div>
+        <div class="vital"><dt id="v-updated">数据更新</dt><dd class="num" style="font-size:1.05rem">{{ data.meta.sourceUpdated.split(' ')[0] }}</dd></div>
+    </dl>
+
+    <div class="controls">
+        <label class="search" for="q">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <circle cx="7" cy="7" r="4.6" stroke="currentColor" stroke-width="1.4"/>
+                <path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            </svg>
+            <input id="q" type="search" autocomplete="off" spellcheck="false"
+                   placeholder="搜索仓库、描述、标签…（空格分隔 = 同时满足）">
+            <kbd>/</kbd>
+        </label>
+        <button class="toggle filter-open" id="filter-open" aria-controls="rail" aria-expanded="false">
+            <span id="filter-open-label">筛选</span>
+        </button>
+        <button class="toggle" id="theme" aria-label="切换配色">
+            <span id="theme-label">浅色</span>
+        </button>
+        <button class="toggle" id="lang" aria-label="切换语言">
+            <span id="lang-label">EN</span>
+        </button>
+    </div>
+</header>
+
+<div class="scrim" id="scrim"></div>
+
+<main class="shell">
+    <aside class="rail" id="rail" aria-label="筛选">
+        <button class="rail-close toggle" id="rail-close" style="align-self:flex-start">关闭</button>
+
+        <div class="group">
+            <h2 id="g-domain">领域</h2>
+            <div class="spine" id="spine" role="group" aria-labelledby="g-domain"></div>
+        </div>
+
+        <div class="group">
+            <h2 id="g-lang">语言</h2>
+            <div class="chips" id="f-lang" role="group" aria-labelledby="g-lang"></div>
+            <button class="facet-more" id="lang-more" hidden>显示全部</button>
+        </div>
+
+        <div class="group">
+            <h2 id="g-tag">主题</h2>
+            <input class="facet-search" id="tag-search" type="search" placeholder="过滤主题…" aria-label="过滤主题">
+            <div class="chips" id="f-tag" role="group" aria-labelledby="g-tag"></div>
+            <button class="facet-more" id="tag-more" hidden>显示更多</button>
+        </div>
+
+        <div class="group">
+            <h2 id="g-form">形态</h2>
+            <div class="chips" id="f-form" role="group" aria-labelledby="g-form"></div>
+        </div>
+
+        <div class="group">
+            <h2 id="g-year">收藏年份</h2>
+            <div class="chips" id="f-year" role="group" aria-labelledby="g-year"></div>
+        </div>
+    </aside>
+
+    <section class="stage">
+        <div class="field-wrap">
+            <div class="field-head">
+                <div>
+                    <div class="field-title" id="field-title">星图</div>
+                    <div class="field-hint" id="field-hint">
+                        <b>角度</b> 领域 · <b>半径</b> 热度 · <b>点径</b> Star 数
+                    </div>
+                </div>
+                <div class="field-hint" id="field-state"></div>
+            </div>
+            <canvas id="field" role="img" aria-label="按领域与热度分布的仓库星图，可用左侧列表代替浏览"></canvas>
+            <div class="field-tip" id="tip" role="status"></div>
+        </div>
+
+        <div class="bar">
+            <div class="bar-count" id="count" aria-live="polite"></div>
+            <div class="sorts" role="group" id="sorts" aria-label="排序"></div>
+        </div>
+        <div class="active" id="active"></div>
+
+        <h2 class="sr" id="entries-heading">条目列表</h2>
+        <ol class="entries" id="entries"></ol>
+        <div id="sentinel" style="height:1px"></div>
+    </section>
+</main>
+
+<footer class="foot">
+    <div>
+        数据来自 GitHub Stars · 分类由 <code>scripts/sync_atlas.py</code> 规则引擎生成，无 AI 调用 ·
+        更新于 {{ data.meta.sourceUpdated }}
+    </div>
+    <div>
+        <a href="../">经典视图</a>
+        <span aria-hidden="true"> · </span>
+        <a href="atlas.json">原始数据集</a>
+    </div>
+</footer>
+
+<dialog class="detail" id="detail" aria-labelledby="d-name">
+    <button class="close" id="d-close" aria-label="关闭">✕</button>
+    <div class="detail-inner" id="d-inner"></div>
+</dialog>
+
+<script>
+/* ════════════════════════════════════════════════════════════
+   星图前端。所有渲染走 DOM API（textContent），不拼 innerHTML，
+   避免仓库描述里的字符被当作标记解析。
+   ════════════════════════════════════════════════════════════ */
+const DATA = {{ data|tojson }};
+
+const META = DATA.meta;
+const ITEMS = DATA.items;
+const CATS = DATA.facets.cats;
+const TAGS = DATA.facets.tags;
+const FORMS = DATA.facets.forms;
+const LANGS = DATA.facets.languages;
+const YEARS = DATA.facets.years;
+
+/* 索引：id -> 展示名 */
+const CAT_BY = {}, SUB_BY = {}, TAG_BY = {}, FORM_BY = {};
+CATS.forEach(c => {
+    CAT_BY[c.id] = c;
+    c.subs.forEach(s => { SUB_BY[s.id] = { ...s, cat: c.id }; });
+});
+TAGS.forEach(t => { TAG_BY[t.id] = t; });
+FORMS.forEach(f => { FORM_BY[f.id] = f; });
+
+const TIER_LABEL = {
+    zh: { 1: '万人级', 2: '千人级', 3: '起步级' },
+    en: { 1: '10k+', 2: '1k+', 3: 'starter' }
+};
+
+const SORT_LABEL = {
+    zh: { heat: '热度', s: 'Star', p: '最近更新', st: '收藏时间', n: '名称' },
+    en: { heat: 'Heat', s: 'Stars', p: 'Updated', st: 'Starred', n: 'Name' }
+};
+
+/* ── 状态 ─────────────────────────────────────────────────── */
+const S = {
+    q: '',
+    cats: new Set(), subs: new Set(), tags: new Set(),
+    forms: new Set(), langs: new Set(), years: new Set(), tiers: new Set(),
+    sort: 'heat', dir: 'desc',
+    lang: 'zh', theme: 'dark',
+    shown: 0
+};
+
+const TEXT = {
+    zh: {
+        lede: (n) => `把 ${n} 个收藏的仓库摊开成一张星图：角度是领域，离圆心越近越热，点径是 Star 数。`,
+        repos: '仓库', stars: '星标合计', domains: '领域', updated: '数据更新',
+        search: '搜索仓库、描述、标签…（空格分隔 = 同时满足）',
+        filter: '筛选', light: '浅色', dark: '深色',
+        domain: '领域', lang: '语言', tag: '主题', form: '形态', year: '收藏年份',
+        filterTag: '过滤主题…', showAll: '显示全部', showMore: '显示更多',
+        field: '星图', fieldHint: '角度 领域 · 半径 热度 · 点径 Star 数',
+        sort: '排序', asc: '升序', desc: '降序',
+        count: (m, n) => `<b>${m}</b> / ${n} 个仓库`,
+        clear: '清除全部筛选', none: '没有命中的仓库',
+        noneHint: '试试减少几个条件，或直接清空筛选重新开始。',
+        desc: '项目描述', summary: 'AI 摘要', topics: 'Topics', cat: '领域',
+        sub: '分类', tags: '主题标签', forms: '形态', popularity: '热度', momentum: '活跃度',
+        starredAt: '收藏于', pushedAt: '最近提交', starsN: 'Star', language: '语言',
+        github: '在 GitHub 打开', home: '项目主页', nosum: '暂无摘要。',
+        noHome: '该项目未填写主页', close: '关闭', scrimClose: '关闭筛选'
+    },
+    en: {
+        lede: (n) => `${n} starred repositories laid out as a star chart: angle is the domain, closer to the centre is hotter, dot size is stars.`,
+        repos: 'Repos', stars: 'Total stars', domains: 'Domains', updated: 'Updated',
+        search: 'Search repos, descriptions, tags… (space = AND)',
+        filter: 'Filters', light: 'Light', dark: 'Dark',
+        domain: 'Domain', lang: 'Language', tag: 'Topics', form: 'Form', year: 'Starred year',
+        filterTag: 'Filter topics…', showAll: 'Show all', showMore: 'Show more',
+        field: 'The field', fieldHint: 'Angle domain · Radius heat · Size stars',
+        sort: 'Sort', asc: 'Ascending', desc: 'Descending',
+        count: (m, n) => `<b>${m}</b> of ${n} repositories`,
+        clear: 'Clear all filters', none: 'Nothing matches',
+        noneHint: 'Remove a condition, or clear the filters and start over.',
+        desc: 'Description', summary: 'AI summary', topics: 'Topics', cat: 'Domain',
+        sub: 'Category', tags: 'Tags', forms: 'Form', popularity: 'Heat', momentum: 'Momentum',
+        starredAt: 'Starred', pushedAt: 'Last push', starsN: 'Stars', language: 'Language',
+        github: 'Open on GitHub', home: 'Homepage', nosum: 'No summary yet.',
+        noHome: 'No homepage listed', close: 'Close', scrimClose: 'Close filters'
+    }
+};
+const T = () => TEXT[S.lang];
+
+/* ── 工具 ─────────────────────────────────────────────────── */
+const $ = (id) => document.getElementById(id);
+
+function fmt(n) {
+    if (n >= 1e6) return (n / 1e6).toFixed(1).replace('.0', '') + 'M';
+    if (n >= 1e4) return Math.round(n / 1e3) + 'k';
+    if (n >= 1e3) return (n / 1e3).toFixed(1).replace('.0', '') + 'k';
+    return String(n);
+}
+function label(obj) { return obj ? (obj[S.lang] || obj.zh || obj.id) : ''; }
+function dateShort(s) { return s ? s.slice(0, 10) : ''; }
+function yearOf(s) { return s ? Number(s.slice(0, 4)) : 0; }
+
+/* 单条记录的可搜索文本，惰性构建一次 */
+const HAY = new Map();
+function hay(item) {
+    if (HAY.has(item.k)) return HAY.get(item.k);
+    const text = [item.k, item.d, item.z, item.e, item.l,
+        item.t.join(' '), item.tags.map(t => TAG_BY[t] ? TAG_BY[t].zh + ' ' + TAG_BY[t].en : t).join(' '),
+        CAT_BY[item.cat] ? CAT_BY[item.cat].zh + ' ' + CAT_BY[item.cat].en : '',
+        item.sub && SUB_BY[item.sub] ? SUB_BY[item.sub].zh + ' ' + SUB_BY[item.sub].en : '',
+        item.forms.map(f => FORM_BY[f] ? FORM_BY[f].zh + ' ' + FORM_BY[f].en : f).join(' '),
+    ].join(' ').toLowerCase();
+    HAY.set(item.k, text);
+    return text;
+}
+
+/* ════════════════════════════════════════════════════════════
+   筛选
+   ════════════════════════════════════════════════════════════ */
+
+/** 单个维度是否命中（skip 用于分面计数时排除自身维度） */
+function hit(item, skip) {
+    if (skip !== 'cats' && S.cats.size && !item.cats.some(c => S.cats.has(c))) return false;
+    if (skip !== 'subs' && S.subs.size && !(item.sub && S.subs.has(item.sub))) return false;
+    if (skip !== 'tags' && S.tags.size && !item.tags.some(t => S.tags.has(t))) return false;
+    if (skip !== 'forms' && S.forms.size && !item.forms.some(f => S.forms.has(f))) return false;
+    if (skip !== 'langs' && S.langs.size && !S.langs.has(item.l)) return false;
+    if (skip !== 'years' && S.years.size && !S.years.has(item.y)) return false;
+    if (skip !== 'tiers' && S.tiers.size && !S.tiers.has(item.tier)) return false;
+    return true;
+}
+
+/** 搜索词唯一来源是 S.q；每次派生，避免缓存与输入框不一致。 */
+function searchTokens() {
+    return S.q.trim() ? S.q.trim().toLowerCase().split(/\s+/).filter(Boolean) : [];
+}
+
+function match(item) {
+    if (!hit(item)) return false;
+    const toks = searchTokens();
+    if (!toks.length) return true;
+    const h = hay(item);
+    for (const t of toks) if (h.indexOf(t) === -1) return false;
+    return true;
+}
+
+function results() {
+    const out = ITEMS.filter(match);
+    const dir = S.dir === 'asc' ? 1 : -1;
+    const key = {
+        heat: (a, b) => (a.heat - b.heat) || (a.s - b.s),
+        s: (a, b) => (a.s - b.s) || (a.heat - b.heat),
+        p: (a, b) => a.p.localeCompare(b.p),
+        st: (a, b) => a.st.localeCompare(b.st),
+        n: (a, b) => a.n.localeCompare(b.n, S.lang === 'zh' ? 'zh' : 'en')
+    }[S.sort];
+    out.sort((a, b) => dir * key(a, b) || b.s - a.s);
+    return out;
+}
+
+/** 分面计数：某维度的计数 = 满足「其它所有条件」的条目数 */
+function facetCounts(dim, ids, idOf) {
+    const counts = new Map();
+    const pool = ITEMS.filter(it => hit(it, dim));
+    const toks = searchTokens();
+    for (const it of pool) {
+        if (toks.length) {
+            const h = hay(it);
+            let ok = true;
+            for (const t of toks) if (h.indexOf(t) === -1) { ok = false; break; }
+            if (!ok) continue;
+        }
+        const v = idOf(it);
+        if (v == null) continue;
+        if (Array.isArray(v)) { for (const x of v) counts.set(x, (counts.get(x) || 0) + 1); }
+        else counts.set(v, (counts.get(v) || 0) + 1);
+    }
+    return counts;
+}
+
+/* ════════════════════════════════════════════════════════════
+   DOM 构建器：统一走 textContent
+   ════════════════════════════════════════════════════════════ */
+function el(tag, cls, text) {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+}
+function chip(name, count, pressed, onToggle, disabled) {
+    const b = el('button', 'chip');
+    b.type = 'button';
+    b.setAttribute('aria-pressed', String(!!pressed));
+    b.disabled = !!disabled;
+    b.append(el('span', null, name));
+    if (count != null) b.append(el('span', 'c num', fmt(count)));
+    b.addEventListener('click', onToggle);
+    return b;
+}
+function setToggle(set, v) { if (set.has(v)) set.delete(v); else set.add(v); }
+
+/* ════════════════════════════════════════════════════════════
+   左侧栏：领域脊 + 各分面
+   ════════════════════════════════════════════════════════════ */
+const LANG_FULL = 14;   // 语言默认展示数
+const TAG_FULL = 18;    // 主题默认展示数
+let tagFilterText = '';
+
+function renderSpine() {
+    const box = $('spine');
+    box.textContent = '';
+    const counts = facetCounts('cats', null, it => it.cats);
+    CATS.forEach(c => {
+        if (!c.count) return;
+        const n = counts.get(c.id) || 0;
+        const row = el('button', 'spine-row');
+        row.type = 'button';
+        row.setAttribute('aria-pressed', String(S.cats.has(c.id)));
+        if (!n) row.classList.add('is-empty');
+        row.append(el('span', 'spine-code num', c.code));
+        row.append(el('span', 'spine-name', label(c)));
+        row.append(el('span', 'spine-count num', fmt(c.count)));
+        row.addEventListener('click', () => { setToggle(S.cats, c.id); if (!S.cats.has(c.id)) dropSubsOf(c.id); render(); });
+        box.append(row);
+
+        if (S.cats.has(c.id) && c.subs.length) {
+            const subs = el('div', 'subs');
+            c.subs.forEach(s => {
+                const sc = facetCounts('subs', null, it => it.sub).get(s.id) || s.count;
+                const b = el('button', 'sub-row');
+                b.type = 'button';
+                b.setAttribute('aria-pressed', String(S.subs.has(s.id)));
+                b.append(el('span', null, label(s)));
+                b.append(el('span', 'num', String(sc)));
+                b.addEventListener('click', () => { setToggle(S.subs, s.id); render(); });
+                subs.append(b);
+            });
+            box.append(subs);
+        }
+    });
+}
+
+function dropSubsOf(catId) {
+    for (const sid of [...S.subs]) if (SUB_BY[sid] && SUB_BY[sid].cat === catId) S.subs.delete(sid);
+}
+
+function renderLangFacet() {
+    const box = $('f-lang');
+    box.textContent = '';
+    const counts = facetCounts('langs', null, it => it.l);
+    const all = window.__langAll;
+    const list = all ? LANGS : LANGS.slice(0, LANG_FULL);
+    list.forEach(l => {
+        const n = counts.get(l.name) || 0;
+        box.append(chip(l.name, n, S.langs.has(l.name),
+            () => { setToggle(S.langs, l.name); render(); }, !n && !S.langs.has(l.name)));
+    });
+    const more = $('lang-more');
+    more.hidden = LANGS.length <= LANG_FULL;
+    more.textContent = all ? T().showAll + ' ↓' : `${T().showAll} (${LANGS.length})`;
+    more.onclick = () => { window.__langAll = !all; renderLangFacet(); };
+}
+
+function renderTagFacet() {
+    const box = $('f-tag');
+    box.textContent = '';
+    const counts = facetCounts('tags', null, it => it.tags);
+    const q = tagFilterText.trim().toLowerCase();
+    let list = TAGS.filter(t => (counts.get(t.id) || 0) > 0 || S.tags.has(t.id));
+    if (q) list = TAGS.filter(t => (label(t).toLowerCase().includes(q) || t.id.includes(q)));
+    list.sort((a, b) => (counts.get(b.id) || 0) - (counts.get(a.id) || 0) || b.count - a.count);
+    const shown = q ? list : list.slice(0, window.__tagAll ? list.length : TAG_FULL);
+    shown.forEach(t => {
+        const n = counts.get(t.id) || 0;
+        box.append(chip(label(t), n, S.tags.has(t.id),
+            () => { setToggle(S.tags, t.id); render(); }, !n && !S.tags.has(t.id)));
+    });
+    if (!shown.length) box.append(el('div', 'note', '—'));
+    const more = $('tag-more');
+    more.hidden = !!q || list.length <= TAG_FULL;
+    more.textContent = window.__tagAll ? T().showMore + ' ↓' : `${T().showMore} (${list.length})`;
+    more.onclick = () => { window.__tagAll = !window.__tagAll; renderTagFacet(); };
+}
+
+function renderSimpleFacet(boxId, source, set, fmtId, onlyActive) {
+    const box = $(boxId);
+    box.textContent = '';
+    const counts = facetCounts(boxId, null, onlyActive);
+    source.forEach(x => {
+        const id = fmtId ? fmtId(x) : x.id || x.name || x.year;
+        const n = counts.get(id) || 0;
+        if (!n && !set.has(id)) return;
+        const name = x.zh ? label(x) : String(x.year || x.name);
+        const key = x.year != null ? x.year : id;
+        box.append(chip(name, n, set.has(key), () => {
+            setToggle(set, key); render();
+        }, !n && !set.has(key)));
+    });
+}
+
+/* ════════════════════════════════════════════════════════════
+   条目列表（分页渲染）
+   ════════════════════════════════════════════════════════════ */
+const PAGE = 48;
+let CURRENT = [];
+
+function entryNode(item) {
+    const li = el('li');
+    const b = el('button', 'entry');
+    b.type = 'button';
+    b.addEventListener('click', () => openDetail(item));
+
+    const main = el('div');
+    const name = el('h3', 'entry-name');
+    const dot = item.k.indexOf('/');
+    name.append(el('span', 'entry-owner', item.k.slice(0, dot + 1)));
+    name.append(document.createTextNode(item.k.slice(dot + 1)));
+    main.append(name);
+    const desc = (S.lang === 'zh' ? item.d : item.d) || (S.lang === 'zh' ? item.z : item.e) || '';
+    main.append(el('p', 'entry-desc', desc));
+    b.append(main);
+
+    const side = el('div', 'entry-side');
+    const st = el('div', 'entry-stars num');
+    st.append(el('i', null, '★'));
+    st.append(document.createTextNode(' ' + fmt(item.s)));
+    side.append(st);
+    side.append(el('div', 'entry-sub', [item.l, item.st.slice(0, 4)].filter(Boolean).join(' · ')));
+    b.append(side);
+
+    const foot = el('div', 'entry-foot');
+    const heat = el('span', 'heat');
+    heat.append(document.createTextNode((S.lang === 'zh' ? '热度' : 'heat') + ' '));
+    const track = el('span', 'heat-track');
+    const fill = el('i', 'heat-fill');
+    fill.style.width = item.heat + '%';
+    track.append(fill);
+    heat.append(track);
+    foot.append(heat);
+    // 去重：子类名可能与主题标签同义（如「API 与 SDK」），只保留一次
+    const seenTag = new Set();
+    if (item.sub && SUB_BY[item.sub]) {
+        seenTag.add(label(SUB_BY[item.sub]));
+        foot.append(el('span', 'tag', label(SUB_BY[item.sub])));
+    }
+    for (const t of item.tags) {
+        if (!TAG_BY[t]) continue;
+        const name = label(TAG_BY[t]);
+        if (seenTag.has(name)) continue;
+        seenTag.add(name);
+        foot.append(el('span', 'tag', name));
+        if (seenTag.size >= 5) break;
+    }
+    b.append(foot);
+    li.append(b);
+    return li;
+}
+
+function renderList() {
+    const ol = $('entries');
+    ol.textContent = '';
+    const slice = CURRENT.slice(0, S.shown);
+    const frag = document.createDocumentFragment();
+    slice.forEach(it => frag.append(entryNode(it)));
+    ol.append(frag);
+
+    if (!CURRENT.length) {
+        const empty = el('div', 'empty');
+        empty.append(el('h3', null, T().none));
+        empty.append(el('p', null, T().noneHint));
+        const btn = el('button', 'btn', T().clear);
+        btn.type = 'button';
+        btn.addEventListener('click', clearAll);
+        empty.append(btn);
+        ol.append(empty);
+    }
+}
+
+function renderCount() {
+    const total = ITEMS.length;
+    $('count').innerHTML = T().count(CURRENT.length, total);
+}
+
+function renderActive() {
+    const box = $('active');
+    box.textContent = '';
+    const add = (name, set, v) => box.append(chip(name, null, true, () => { set.delete(v); render(); }));
+    S.cats.forEach(v => add(label(CAT_BY[v]), S.cats, v));
+    S.subs.forEach(v => add(label(SUB_BY[v]), S.subs, v));
+    S.tags.forEach(v => add(label(TAG_BY[v]), S.tags, v));
+    S.forms.forEach(v => add(label(FORM_BY[v]), S.forms, v));
+    S.langs.forEach(v => add(v, S.langs, v));
+    S.years.forEach(v => add(String(v), S.years, v));
+    S.tiers.forEach(v => add(TIER_LABEL[S.lang][v], S.tiers, v));
+    if (S.q.trim()) {
+        const c = chip(`“${S.q.trim()}”`, null, true, () => { S.q = ''; $('q').value = ''; render(); });
+        box.append(c);
+    }
+    if (box.children.length) {
+        const btn = el('button', 'clear', T().clear);
+        btn.type = 'button';
+        btn.addEventListener('click', clearAll);
+        box.append(btn);
+    }
+}
+
+function clearAll() {
+    S.cats.clear(); S.subs.clear(); S.tags.clear();
+    S.forms.clear(); S.langs.clear(); S.years.clear(); S.tiers.clear();
+    S.q = ''; $('q').value = '';
+    render();
+}
+
+/* ════════════════════════════════════════════════════════════
+   星图绘制
+   ════════════════════════════════════════════════════════════ */
+const CV = $('field');
+const ctx = CV.getContext('2d');
+let POINTS = [];         // 当前布局
+let HOVER = null;
+let INTRO = 0;           // 入场动画进度 0..1
+let dpr = 1;
+
+/** 扇区 = 领域；扇区宽度 ∝ sqrt(条目数的占比) */
+function layout() {
+    const w = CV.clientWidth, h = CV.clientHeight;
+    const cx = w / 2, cy = h / 2;
+    const R = Math.min(w, h) / 2 - Math.max(26, Math.min(w, h) * 0.11);
+
+    const cats = CATS.filter(c => c.count);
+    const weight = cats.map(c => Math.sqrt(c.count));
+    const totalW = weight.reduce((a, b) => a + b, 0);
+
+    const sect = [];
+    let a = -Math.PI / 2;
+    cats.forEach((c, i) => {
+        const span = (weight[i] / totalW) * Math.PI * 2;
+        sect.push({ cat: c, a0: a, a1: a + span });
+        a += span;
+    });
+
+    // 领域内按热度降序 -> 半径由内到外
+    const byCat = new Map();
+    ITEMS.forEach(it => {
+        if (!byCat.has(it.cat)) byCat.set(it.cat, []);
+        byCat.get(it.cat).push(it);
+    });
+    byCat.forEach(list => list.sort((x, y) => y.heat - x.heat || y.s - x.s));
+
+    POINTS = [];
+    sect.forEach(s => {
+        const list = byCat.get(s.cat.id) || [];
+        const n = list.length;
+        const pad = Math.min((s.a1 - s.a0) * 0.06, 0.03);
+        list.forEach((it, rank) => {
+            const t = n > 1 ? rank / (n - 1) : 0;
+            const r = R * (0.26 + 0.74 * t);
+            // 稳定的角度抖动，避免同热度排成一条直线
+            const frac = ((rank * 0.6180339887) % 1);
+            const ang = s.a0 + pad + (s.a1 - s.a0 - 2 * pad) * frac;
+            POINTS.push({
+                it, s: s.cat,
+                x: cx + Math.cos(ang) * r,
+                y: cy + Math.sin(ang) * r,
+                R: 1.15 + (it.heat / 100) * 3.4,
+                a0: s.a0, a1: s.a1
+            });
+        });
+    });
+    return { w, h, cx, cy, R, sect };
+}
+
+function css(name) {
+    return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || '#888';
+}
+
+function visibleSet() {
+    if (!filterActive()) return null;
+    const set = new Set();
+    ITEMS.forEach(it => { if (match(it)) set.add(it.k); });
+    return set;
+}
+
+function filterActive() {
+    return S.cats.size || S.subs.size || S.tags.size || S.forms.size ||
+        S.langs.size || S.years.size || S.tiers.size || S.q.trim();
+}
+
+function resizeCanvas() {
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const w = CV.clientWidth, h = CV.clientHeight;
+    CV.width = Math.round(w * dpr);
+    CV.height = Math.round(h * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
+
+function draw() {
+    const { w, h, cx, cy, R, sect } = layout();
+    const pt = css('--field-pt'), dim = css('--field-dim');
+    const line = css('--field-line'), gold = css('--gold');
+    const cardBg = css('--field-bg');
+    const mono = css('--sans');
+
+    ctx.clearRect(0, 0, w, h);
+    ctx.fillStyle = cardBg;
+    ctx.fillRect(0, 0, w, h);
+
+    // 量级同心圆
+    ctx.strokeStyle = line;
+    ctx.lineWidth = 1;
+    for (const f of [0.26, 0.5, 0.74, 1]) {
+        ctx.beginPath();
+        ctx.arc(cx, cy, R * f, 0, Math.PI * 2);
+        ctx.stroke();
+    }
+    // 扇区分界线
+    ctx.beginPath();
+    sect.forEach(s => {
+        ctx.moveTo(cx + Math.cos(s.a0) * R * 0.26, cy + Math.sin(s.a0) * R * 0.26);
+        ctx.lineTo(cx + Math.cos(s.a0) * R * 1.06, cy + Math.sin(s.a0) * R * 1.06);
+    });
+    ctx.stroke();
+
+    const vis = visibleSet();
+    const ease = INTRO;
+    const goldSoft = gold;
+
+    // 点
+    for (let i = 0; i < POINTS.length; i++) {
+        const p = POINTS[i];
+        const on = !vis || vis.has(p.it.k);
+        const isHover = HOVER && HOVER.it.k === p.it.k;
+        // 入场：按热度顺序渐显
+        const appear = Math.max(0, Math.min(1, (ease * POINTS.length - i * 0.55) / 26));
+        if (appear <= 0) continue;
+
+        ctx.globalAlpha = (on ? 0.95 : 0.16) * appear;
+        ctx.fillStyle = isHover ? goldSoft : (on ? pt : dim);
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.R * (isHover ? 1.9 : 1) * (0.5 + 0.5 * appear), 0, Math.PI * 2);
+        ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+
+    // 扇区标签
+    ctx.font = `500 10px ${mono}`;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    sect.forEach(s => {
+        const mid = (s.a0 + s.a1) / 2;
+        const x = cx + Math.cos(mid) * (R + 18);
+        const y = cy + Math.sin(mid) * (R + 18);
+        ctx.fillStyle = S.cats.has(s.cat.id) ? gold : (vis && !onCat(s.cat.id) ? dim : css('--fg-mute'));
+        ctx.fillText(s.cat.code, x, y);
+    });
+}
+
+function onCat(id) { return !S.cats.size || S.cats.has(id); }
+
+function hitTest(mx, my) {
+    let best = null, bestD = 14;
+    for (const p of POINTS) {
+        const dx = p.x - mx, dy = p.y - my;
+        const d = Math.sqrt(dx * dx + dy * dy);
+        if (d < Math.max(bestD, p.R + 3)) { best = p; bestD = d; }
+    }
+    return best;
+}
+
+CV.addEventListener('mousemove', (e) => {
+    const r = CV.getBoundingClientRect();
+    const p = hitTest(e.clientX - r.left, e.clientY - r.top);
+    if (p !== HOVER) { HOVER = p; draw(); }
+    const tip = $('tip');
+    if (p) {
+        const it = p.it;
+        tip.textContent = '';
+        tip.append(el('strong', null, it.k));
+        tip.append(el('div', 'meta', `${label(p.s)} · ★${fmt(it.s)} · ${it.l}`));
+        tip.append(el('div', 'meta', (it.d || '').slice(0, 80)));
+        tip.classList.add('on');
+        const tx = Math.min(Math.max(e.clientX - r.left + 12, 4), r.width - 240);
+        const ty = Math.min(Math.max(e.clientY - r.top + 12, 4), r.height - 70);
+        tip.style.left = tx + 'px';
+        tip.style.top = ty + 'px';
+    } else {
+        tip.classList.remove('on');
+    }
+});
+CV.addEventListener('mouseleave', () => {
+    if (HOVER) { HOVER = null; draw(); }
+    $('tip').classList.remove('on');
+});
+CV.addEventListener('click', (e) => {
+    const r = CV.getBoundingClientRect();
+    const p = hitTest(e.clientX - r.left, e.clientY - r.top);
+    if (p) { openDetail(p.it); return; }
+    // 点到扇区：切换领域筛选
+    const dx = e.clientX - r.left - r.width / 2, dy = e.clientY - r.top - r.height / 2;
+    if (Math.sqrt(dx * dx + dy * dy) < 12) return;
+    let ang = Math.atan2(dy, dx);
+    while (ang < -Math.PI / 2) ang += Math.PI * 2;
+    for (const s of layout().sect) {
+        const a0 = ((s.a0 % (Math.PI * 2)) + Math.PI * 2) % (Math.PI * 2);
+        if (ang >= a0 && ang < a0 + (s.a1 - s.a0)) {
+            setToggle(S.cats, s.cat.id);
+            if (!S.cats.has(s.cat.id)) dropSubsOf(s.cat.id);
+            render();
+            return;
+        }
+    }
+});
+
+/* ════════════════════════════════════════════════════════════
+   详情
+   ════════════════════════════════════════════════════════════ */
+function openDetail(item) {
+    const box = $('d-inner');
+    box.textContent = '';
+    const dlg = $('detail');
+
+    box.append(el('h2', null, item.k));
+    const owner = el('div', 'owner', item.o + ' · ' + (SUB_BY[item.sub] ? label(SUB_BY[item.sub]) : label(CAT_BY[item.cat])));
+    box.append(owner);
+
+    // 统计
+    const sec1 = el('div', 'detail-section');
+    const grid = el('dl', 'stat-grid');
+    const stat = (k, v, meter) => {
+        const wrap = el('div');
+        wrap.append(el('dt', null, k));
+        const dd = el('dd', 'num', v);
+        wrap.append(dd);
+        if (meter != null) {
+            const m = el('div', 'meter');
+            const i = el('i'); i.style.width = meter + '%';
+            m.append(i); wrap.append(m);
+        }
+        grid.append(wrap);
+    };
+    stat(T().starsN, '★ ' + fmt(item.s));
+    stat(T().popularity, String(item.heat), item.heat);
+    stat(T().momentum, String(item.mom), item.mom);
+    stat(T().language, item.l);
+    stat(T().starredAt, dateShort(item.st));
+    stat(T().pushedAt, dateShort(item.p));
+    sec1.append(grid);
+    box.append(sec1);
+
+    const body = S.lang === 'zh' ? (item.z || item.e) : (item.e || item.z);
+    if (body) {
+        const sec = el('div', 'detail-section');
+        sec.append(el('h4', null, T().summary));
+        sec.append(el('p', 'detail-body' + (S.lang === 'zh' ? ' zh' : ''), body));
+        box.append(sec);
+    }
+    if (item.d) {
+        const sec = el('div', 'detail-section');
+        sec.append(el('h4', null, T().desc));
+        sec.append(el('p', 'detail-body', item.d));
+        box.append(sec);
+    }
+
+    if (item.tags.length) {
+        const sec = el('div', 'detail-section');
+        sec.append(el('h4', null, T().tags));
+        const chips = el('div', 'chips');
+        item.tags.forEach(t => { if (TAG_BY[t]) chips.append(el('span', 'tag', label(TAG_BY[t]))); });
+        sec.append(chips);
+        box.append(sec);
+    }
+    if (item.t.length) {
+        const sec = el('div', 'detail-section');
+        sec.append(el('h4', null, T().topics));
+        const chips = el('div', 'chips');
+        item.t.forEach(t => chips.append(el('span', 'tag', t)));
+        sec.append(chips);
+        box.append(sec);
+    }
+
+    const acts = el('div', 'detail-actions');
+    const a1 = el('a', 'btn primary', T().github);
+    a1.href = item.u; a1.target = '_blank'; a1.rel = 'noopener noreferrer';
+    acts.append(a1);
+    if (item.h) {
+        const a2 = el('a', 'btn', T().home);
+        a2.href = item.h; a2.target = '_blank'; a2.rel = 'noopener noreferrer';
+        acts.append(a2);
+    }
+    box.append(acts);
+
+    if (typeof dlg.showModal === 'function') dlg.showModal();
+    else dlg.setAttribute('open', '');
+}
+
+$('d-close').addEventListener('click', () => $('detail').close());
+$('detail').addEventListener('click', (e) => { if (e.target === $('detail')) $('detail').close(); });
+
+/* ════════════════════════════════════════════════════════════
+   渲染总入口
+   ════════════════════════════════════════════════════════════ */
+function render() {
+    CURRENT = results();
+    S.shown = Math.min(PAGE, CURRENT.length);
+    renderSpine();
+    renderLangFacet();
+    renderTagFacet();
+    renderSimpleFacet('f-form', FORMS, S.forms, f => f.id, it => it.forms);
+    renderSimpleFacet('f-year', YEARS, S.years, y => y.year, it => it.y || null);
+    renderCount();
+    renderActive();
+    renderSorts();
+    renderList();
+    draw();
+    updateStatic();
+    saveHash();
+}
+
+function renderSorts() {
+    const box = $('sorts');
+    box.textContent = '';
+    Object.keys(SORT_LABEL[S.lang]).forEach(k => {
+        const b = el('button', 'sort-btn');
+        b.type = 'button';
+        b.textContent = SORT_LABEL[S.lang][k];
+        b.setAttribute('aria-pressed', String(S.sort === k));
+        b.addEventListener('click', () => { S.sort = k; render(); });
+        box.append(b);
+    });
+    const d = el('button', 'dir-btn');
+    d.type = 'button';
+    d.textContent = S.dir === 'desc' ? '↓' : '↑';
+    d.title = S.dir === 'desc' ? T().desc : T().asc;
+    d.addEventListener('click', () => { S.dir = S.dir === 'desc' ? 'asc' : 'desc'; render(); });
+    box.append(d);
+}
+
+function updateStatic() {
+    const t = T();
+    $('q').placeholder = t.search;
+    $('lede').textContent = t.lede(META.count);
+    $('v-repos').textContent = t.repos;
+    $('v-stars').textContent = t.stars;
+    $('v-domains').textContent = t.domains;
+    $('v-updated').textContent = t.updated;
+    $('g-domain').textContent = t.domain;
+    $('g-lang').textContent = t.lang;
+    $('g-tag').textContent = t.tag;
+    $('g-form').textContent = t.form;
+    $('g-year').textContent = t.year;
+    $('tag-search').placeholder = t.filterTag;
+    $('field-title').textContent = t.field;
+    $('field-hint').textContent = t.fieldHint;
+    $('filter-open-label').textContent = t.filter;
+    $('lang-label').textContent = S.lang === 'zh' ? 'EN' : '中文';
+    $('theme-label').textContent = S.theme === 'dark' ? t.light : t.dark;
+    $('d-close').setAttribute('aria-label', t.close);
+    const st = $('field-state');
+    st.textContent = filterActive()
+        ? (S.lang === 'zh' ? `已筛出 ${CURRENT.length}` : `${CURRENT.length} in view`)
+        : '';
+    document.documentElement.lang = S.lang === 'zh' ? 'zh-CN' : 'en';
+}
+
+/* ════════════════════════════════════════════════════════════
+   无限滚动
+   ════════════════════════════════════════════════════════════ */
+if ('IntersectionObserver' in window) {
+    new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting && S.shown < CURRENT.length) {
+            const target = Math.min(S.shown + PAGE, CURRENT.length);
+            const ol = $('entries');
+            const frag = document.createDocumentFragment();
+            for (let i = S.shown; i < target; i++) frag.append(entryNode(CURRENT[i]));
+            ol.append(frag);
+            S.shown = target;
+        }
+    }, { rootMargin: '600px' }).observe($('sentinel'));
+}
+
+/* ════════════════════════════════════════════════════════════
+   交互绑定
+   ════════════════════════════════════════════════════════════ */
+let qTimer = null;
+$('q').addEventListener('input', (e) => {
+    const v = e.target.value;
+    clearTimeout(qTimer);
+    qTimer = setTimeout(() => { S.q = v; render(); }, 140);
+});
+document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== $('q')) { e.preventDefault(); $('q').focus(); }
+});
+$('tag-search').addEventListener('input', (e) => { tagFilterText = e.target.value; renderTagFacet(); });
+
+$('theme').addEventListener('click', () => {
+    S.theme = S.theme === 'dark' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = S.theme;
+    localStorage.setItem('atlas.theme', S.theme);
+    draw();
+    updateStatic();
+});
+$('lang').addEventListener('click', () => {
+    S.lang = S.lang === 'zh' ? 'en' : 'zh';
+    localStorage.setItem('atlas.lang', S.lang);
+    render();
+});
+
+const rail = $('rail'), scrim = $('scrim');
+function openRail(v) {
+    rail.classList.toggle('open', v);
+    scrim.classList.toggle('on', v);
+    $('filter-open').setAttribute('aria-expanded', String(v));
+}
+$('filter-open').addEventListener('click', () => openRail(!rail.classList.contains('open')));
+$('rail-close').addEventListener('click', () => openRail(false));
+scrim.addEventListener('click', () => openRail(false));
+
+let rTimer = null;
+window.addEventListener('resize', () => {
+    clearTimeout(rTimer);
+    rTimer = setTimeout(() => { resizeCanvas(); draw(); }, 120);
+});
+
+/* ════════════════════════════════════════════════════════════
+   URL 状态：筛选可分享
+   ════════════════════════════════════════════════════════════ */
+function saveHash() {
+    const p = new URLSearchParams();
+    if (S.q.trim()) p.set('q', S.q.trim());
+    const put = (k, s) => { if (s.size) p.set(k, [...s].join(',')); };
+    put('cat', S.cats); put('sub', S.subs); put('tag', S.tags);
+    put('form', S.forms); put('lang', S.langs); put('year', S.years); put('tier', S.tiers);
+    if (S.sort !== 'heat') p.set('sort', S.sort);
+    if (S.dir !== 'desc') p.set('dir', S.dir);
+    const h = p.toString();
+    history.replaceState(null, '', h ? '#' + h : location.pathname);
+}
+function loadHash() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    // 先清空，让「浏览器后退 / 手动改 hash」也能正确切回上一次的视图
+    S.cats.clear(); S.subs.clear(); S.tags.clear();
+    S.forms.clear(); S.langs.clear(); S.years.clear(); S.tiers.clear();
+    S.q = ''; S.sort = 'heat'; S.dir = 'desc';
+    const get = (k, set, cast) => {
+        const v = p.get(k);
+        if (v) v.split(',').filter(Boolean).forEach(x => set.add(cast ? cast(x) : x));
+    };
+    if (p.get('q')) S.q = p.get('q');
+    get('cat', S.cats); get('sub', S.subs); get('tag', S.tags);
+    get('form', S.forms); get('lang', S.langs); get('year', S.years, Number); get('tier', S.tiers, Number);
+    if (p.get('sort')) S.sort = p.get('sort');
+    if (p.get('dir')) S.dir = p.get('dir');
+    $('q').value = S.q;
+}
+
+/* 只改 hash 的同文档导航不会重新加载页面，需要手动同步 */
+window.addEventListener('hashchange', () => { loadHash(); render(); });
+
+/* ════════════════════════════════════════════════════════════
+   启动
+   ════════════════════════════════════════════════════════════ */
+(function boot() {
+    S.theme = localStorage.getItem('atlas.theme') || 'dark';
+    S.lang = localStorage.getItem('atlas.lang') || 'zh';
+    document.documentElement.dataset.theme = S.theme;
+    loadHash();
+    resizeCanvas();
+    render();
+
+    // 入场：星点依次点亮，一次性的编排动作
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) { INTRO = 1; draw(); }
+    else {
+        const t0 = performance.now();
+        const step = (t) => {
+            INTRO = Math.min(1, (t - t0) / 620);
+            draw();
+            if (INTRO < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+    }
+})();
+</script>
+</body>
+</html>
