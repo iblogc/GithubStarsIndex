@@ -29,6 +29,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from jinja2 import Environment, FileSystemLoader  # noqa: E402
 
+from atlas.publish import write_api, write_feeds  # noqa: E402
 from atlas.taxonomy import (  # noqa: E402
     CANON_TAGS,
     CATS,
@@ -43,6 +44,7 @@ from atlas.taxonomy import (  # noqa: E402
 )
 
 ROOT = Path(__file__).parent.parent
+DEFAULT_SITE = "https://stars.iblogc.com"
 DEFAULT_DATA = ROOT / "data" / "stars.json"
 DEFAULT_TEMPLATE_DIR = ROOT / "templates"
 DEFAULT_TEMPLATE = "atlas.html.j2"
@@ -433,7 +435,7 @@ def build_dataset(raw: dict) -> dict:
 # ════════════════════════════════════════════════════════════
 
 
-def render_page(dataset: dict, template_dir: Path, template: str) -> str:
+def render_page(dataset: dict, template_dir: Path, template: str, site: str) -> str:
     env = Environment(
         loader=FileSystemLoader(str(template_dir)),
         autoescape=False,
@@ -441,7 +443,7 @@ def render_page(dataset: dict, template_dir: Path, template: str) -> str:
         lstrip_blocks=True,
     )
     tpl = env.get_template(template)
-    return tpl.render(data=dataset)
+    return tpl.render(data=dataset, site=site)
 
 
 def explain(raw: dict, query: str, verbose: bool = False) -> int:
@@ -513,6 +515,8 @@ def main() -> int:
     ap.add_argument("--explain", metavar="QUERY", help="打印某个仓库（名/owner 片段）的分类依据")
     ap.add_argument("--list-misc", action="store_true", help="列出未分类项目")
     ap.add_argument("-v", "--verbose", action="store_true", help="打印命中的关键词依据")
+    ap.add_argument("--site", default=DEFAULT_SITE,
+                    help="站点根地址，用于生成 RSS/接口里的绝对 URL")
     args = ap.parse_args()
 
     data_path = Path(args.data)
@@ -553,10 +557,18 @@ def main() -> int:
     json_path.write_text(json.dumps(dataset, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"   ↳ 数据: {json_path} ({json_path.stat().st_size / 1024:.0f} KB)")
 
-    html = render_page(dataset, Path(args.template_dir), args.template)
+    html = render_page(dataset, Path(args.template_dir), args.template, args.site)
     html_path = out_dir / "index.html"
     html_path.write_text(html, encoding="utf-8")
     print(f"   ↳ 页面: {html_path} ({html_path.stat().st_size / 1024:.0f} KB)")
+
+    # Agent 接口（分片 + JSONL 语料）与 RSS
+    api = write_api(dataset, out_dir, args.site)
+    print(f"   ↳ 接口: {out_dir / 'api/index.json'} "
+          f"({api['index_bytes'] / 1024:.0f} KB, {api['shards']} 个分片, "
+          f"语料 {api['jsonl_bytes'] / 1024:.0f} KB)")
+    feeds = write_feeds(dataset, out_dir, args.site)
+    print(f"   ↳ 订阅: {feeds['feeds']} 个 RSS 源 (feed.xml + 各领域)")
     return 0
 
 

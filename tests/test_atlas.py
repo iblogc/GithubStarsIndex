@@ -99,6 +99,114 @@ def check_dataset_shapes() -> int:
     return len(errors)
 
 
+def check_published_artifacts() -> int:
+    """发布产物：接口分片自洽、RSS 为合法 XML 且条目正确。
+
+    这些文件是给 Agent 与订阅器消费的，格式错误不会在本站报错，
+    但会让下游静默拿不到数据，因此在这里兜住。
+    """
+    import tempfile
+    import xml.etree.ElementTree as ET
+    from pathlib import Path as _P
+    from atlas.publish import write_api, write_feeds
+
+    raw = json.loads(FIXTURE.read_text(encoding="utf-8"))
+    ds = SA.build_dataset({"last_updated": "test", "repos": {c["repo"]: c["record"] for c in raw["cases"]}})
+    errors = []
+    site = "https://example.test"
+
+    with tempfile.TemporaryDirectory() as tmp:
+        out = _P(tmp)
+        stats = write_api(ds, out, site)
+        write_feeds(ds, out, site)
+
+        # 目录文件
+        idx_path = out / "api/index.json"
+        if not idx_path.exists():
+            return _report(["api/index.json 未生成"])
+        idx = json.loads(idx_path.read_text(encoding="utf-8"))
+
+        for key in ("totals", "fields", "facets", "shards", "corpus", "index", "feeds"):
+            if key not in idx:
+                errors.append(f"index.json 缺少 {key}")
+
+        n = len(ds["items"])
+        if idx["totals"]["repos"] != n:
+            errors.append(f"totals.repos={idx['totals']['repos']} 与实际 {n} 不符")
+
+        # 分片：每条记录都能在某一领域分片中找到，且计数对得上
+        seen = set()
+        for sh in idx["shards"]:
+            p = out / sh["path"]
+            if not p.exists():
+                errors.append(f"分片缺失 {sh['path']}")
+                continue
+            if p.stat().st_size != sh["bytes"]:
+                errors.append(f"{sh['path']} 字节数声明与实际不符")
+            blob = json.loads(p.read_text(encoding="utf-8"))
+            if len(blob["repos"]) != sh["count"]:
+                errors.append(f"{sh['path']} count 与实际条数不符")
+            if blob["count"] != sh["count"]:
+                errors.append(f"{sh['path']} 内层 count 与清单不符")
+            if sh["scope"] == "domain":
+                seen.update(r["full_name"] for r in blob["repos"])
+
+        missing = {i["k"] for i in ds["items"]} - seen
+        if missing:
+            errors.append(f"{len(missing)} 个仓库未出现在任何领域分片中，例如 {list(missing)[:3]}")
+
+        # 每条记录必备字段
+        for sh in idx["shards"]:
+            blob = json.loads((out / sh["path"]).read_text(encoding="utf-8"))
+            for r in blob["repos"][:3]:
+                for k in ("full_name", "url", "stars", "domain", "tags", "heat"):
+                    if k not in r:
+                        errors.append(f"{sh['path']} 的记录缺少字段 {k}")
+                        break
+
+        # JSONL 行数
+        jsonl = (out / "api/repos.jsonl").read_text(encoding="utf-8").strip().splitlines()
+        if len(jsonl) != n:
+            errors.append(f"repos.jsonl 行数 {len(jsonl)} != {n}")
+        idxl = (out / "api/index.jsonl").read_text(encoding="utf-8").strip().splitlines()
+        if len(idxl) != n:
+            errors.append(f"index.jsonl 行数 {len(idxl)} != {n}")
+        if idx["index"]["bytes"] >= idx["corpus"]["bytes"]:
+            errors.append("轻量索引并不比全量语料小，失去了存在意义")
+
+        # RSS：XML 合法 + 必填元素
+        for rel in ["feed.xml"] + [f["url"].split("/")[-1] for f in idx["feeds"]["by_domain"]]:
+            p = out / rel
+            if not p.exists():
+                errors.append(f"订阅源缺失 {rel}")
+                continue
+            try:
+                root = ET.parse(p).getroot()
+            except ET.ParseError as e:
+                errors.append(f"{rel} 不是合法 XML: {e}")
+                continue
+            if root.tag != "rss":
+                errors.append(f"{rel} 根节点不是 rss")
+                continue
+            ch = root.find("channel")
+            for tag in ("title", "link", "description", "lastBuildDate"):
+                if ch.find(tag) is None:
+                    errors.append(f"{rel} channel 缺少 {tag}")
+            for it in ch.findall("item"):
+                for tag in ("title", "link", "guid", "pubDate"):
+                    if not (it.findtext(tag) or "").strip():
+                        errors.append(f"{rel} 有 item 缺少 {tag}")
+                        break
+
+    return _report(errors)
+
+
+def _report(errors) -> int:
+    for e in errors:
+        print(f"  FAIL {e}")
+    return len(errors)
+
+
 def main() -> int:
     verbose = "-v" in sys.argv
     print("1) 锚点分类")
@@ -113,7 +221,11 @@ def main() -> int:
     shape = check_dataset_shapes()
     print(f"   {'ok' if shape == 0 else f'{shape} failed'}")
 
-    total_fail = failed + inv + shape
+    print("4) 接口与订阅产物")
+    pub = check_published_artifacts()
+    print(f"   {'ok' if pub == 0 else f'{pub} failed'}")
+
+    total_fail = failed + inv + shape + pub
     print("\n" + ("✅ 全部通过" if total_fail == 0 else f"❌ {total_fail} 项失败"))
     return 1 if total_fail else 0
 

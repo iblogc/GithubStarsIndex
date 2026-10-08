@@ -127,6 +127,9 @@ jobs:
         run: python scripts/sync_stars.py
 
       # ── 6. 构建 Stars Atlas（分类星图，独立于经典视图） ─────────
+      - name: 分类与产物测试
+        run: python3 tests/test_atlas.py
+
       - name: 构建 Stars Atlas
         run: python3 scripts/sync_atlas.py --data data/stars.json --out dist/atlas
 

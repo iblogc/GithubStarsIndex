@@ -9,6 +9,8 @@ English | [中文](README.md)
 - [Features](#features)
 - [Quick Start](#quick-start)
 - [Stars Atlas (Star Chart View)](#stars-atlas-star-chart-view)
+- [Agent Access (No Server Required)](#agent-access-no-server-required)
+- [RSS Feeds](#rss-feeds)
 - [Configuration Reference (Environment Variables / .env)](#configuration-reference-environment-variables--env)
 - [Obsidian Sync (Optional)](#obsidian-sync-optional)
 - [Local Installation](#local-installation)
@@ -29,6 +31,8 @@ English | [中文](README.md)
 - 🌐 **GitHub Pages (Optional)**: Deploys a static search page with multi-language (ZH/EN) support and real-time search.
 - 💻 **Flexible AI Providers**: Compatible with any **OpenAI-format API** (OpenAI, Azure, local Ollama, etc.).
 - 🗺️ **Stars Atlas**: Alongside the classic search page, generates an `atlas/` view that sorts every repo into **16 domains / 85 subcategories / 100+ topic tags** using a **pure rule engine** (no AI, no extra keys), drawn as a star chart where angle is the domain, radius is heat, and dot size is stars.
+- 🤖 **Agent-ready**: Publishes a static data API (per-domain/per-topic shards plus a JSONL corpus) and ships a **zero-dependency MCP server**, so an agent can search, get recommendations, and pull full records on its own.
+- 📡 **RSS feeds**: Site-wide and per-domain, ordered by when you starred each repo.
 
 ---
 
@@ -74,6 +78,65 @@ Artifacts:
 
 > [!NOTE]
 > To adjust the taxonomy, edit `CANON_TAGS` / `CATS` in `scripts/atlas/taxonomy.py`, then run `python3 tests/test_atlas.py` to confirm no anchor regressed.
+
+---
+
+## Agent Access (No Server Required)
+
+The site is static — there is no backend to query. The "API" is therefore a set of
+**pre-split files** that any agent can `GET` without credentials, and without running anything.
+
+**Read the catalog first, then pull one shard.** `api/index.json` lists every domain,
+subcategory and topic with counts, plus `shards[].bytes` — so the caller knows the context
+cost *before* fetching, instead of dumping the whole site into the window.
+
+| What you need | What to fetch |
+| :--- | :--- |
+| An overview of the taxonomy | `api/index.json` (tens of KB) |
+| One specific area | `api/c/<domain>.json` (e.g. `api/c/ai.json`), `api/t/<topic>.json` |
+| A cheap scan of everything | `api/index.jsonl` (one compact profile per line, ~1/3 the size of the full corpus) |
+| Full summaries and topics | `api/repos.jsonl` |
+
+The `fields` key in `api/index.json` documents every field in Chinese, readable by a model as-is.
+
+### MCP (optional, recommended)
+
+If the host supports MCP, mount `scripts/atlas_mcp.py` to call this as tools instead of
+hand-rolling HTTP requests. It has **no third-party dependencies** (standard library only),
+so there is nothing to install:
+
+```json
+{
+  "mcpServers": {
+    "stars-atlas": {
+      "command": "python3",
+      "args": ["/absolute/path/scripts/atlas_mcp.py"]
+    }
+  }
+}
+```
+
+It exposes five tools: `list_facets`, `search_repos`, **`recommend_for_task`** (describe your
+task in plain language and get suitable projects), `get_repo`, and `get_domain_digest`.
+Run `python3 scripts/atlas_mcp.py --selftest` to check it without a host.
+
+> [!TIP]
+> Find candidates → read summaries → open `url` to read the source. That is the intended
+> loop: agents can use this data both to **recommend** an existing project and to **learn
+> from** its implementation.
+
+---
+
+## RSS Feeds
+
+`dist/atlas/feed.xml` (site-wide) and `dist/atlas/feed-<domain>.xml` (e.g. `feed-ai.xml`),
+standard RSS 2.0, ordered by **when you starred each repo** — so new stars show up in your reader.
+
+- All: `https://<your-domain>/atlas/feed.xml`
+- Per domain: `https://<your-domain>/atlas/feed-ai.xml`
+
+The page head already carries `<link rel="alternate" type="application/rss+xml">`, so most
+readers will auto-discover the feed when you paste the site URL.
 
 ---
 
@@ -307,9 +370,11 @@ python scripts/sync_stars.py --render-only
 | `dist/`                      | Automatically generated local results (HTML / MD) |
 | `scripts/sync_stars.py`      | Core sync and generation script                   |
 | `scripts/sync_atlas.py`      | Atlas dataset/page builder (reads stars.json only) |
+| `scripts/atlas/publish.py`   | Static API shards and RSS generation              |
+| `scripts/atlas_mcp.py`       | MCP server (stdio, no third-party deps)           |
 | `scripts/atlas/taxonomy.py`  | Atlas taxonomy and scoring engine                 |
 | `templates/atlas.html.j2`    | Atlas page template                               |
-| `tests/test_atlas.py`        | Classification regression tests                   |
+| `tests/test_atlas.py`        | Classification + artifact contract tests          |
 | `.github/workflows/sync.yml` | GitHub Actions scheduled workflow                 |
 | `.env.example`               | Configuration example file                        |
 

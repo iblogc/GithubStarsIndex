@@ -9,6 +9,8 @@
 - [功能特性](#功能特性)
 - [快速开始](#快速开始)
 - [Stars Atlas（星图视图）](#stars-atlas星图视图)
+- [给 Agent 调用（无需服务端）](#给-agent-调用无需服务端)
+- [RSS 订阅](#rss-订阅)
 - [配置项详解](#配置项详解-环境变量--env)
 - [Obsidian 同步（可选）](#obsidian-同步可选)
 - [本地运行](#本地运行)
@@ -29,6 +31,8 @@
 - 🌐 可选：自动同步到 **GitHub Pages** 分支，支持多语言 (ZH/EN) 切换与页面实时搜索
 - 💻 支持任意 **OpenAI 格式兼容接口**（OpenAI / Azure / 本地 Ollama 等）
 - 🗺️ **Stars Atlas 星图视图**：在经典检索页之外，额外生成一个 `atlas/` 页面 —— 用**纯规则引擎**（零 AI、零额外密钥）把仓库分成 **16 个领域 / 85 个子类 / 100+ 主题标签**，并以「角度=领域、半径=热度、点径=Star 数」的星图呈现，支持多维交叉筛选、分面计数、可分享 URL 与中英双语
+- 🤖 **可被 Agent 调用**：发布静态数据接口（按领域/主题切好的分片 + JSONL 语料），并附带**零依赖 MCP 服务器**，让 Agent 在别的活里直接检索、推荐、取档案
+- 📡 **RSS 订阅**：全站与分领域订阅源，按收藏时间倒序
 
 ---
 
@@ -164,9 +168,84 @@ python3 tests/test_atlas.py -v
 | :--- | :--- |
 | `dist/atlas/index.html` | 星图页面（发布到 `https://<你的域名>/atlas/`） |
 | `dist/atlas/atlas.json` | 带分类结果的数据集，供二次开发 |
+| `dist/atlas/api/index.json` | **Agent 调用入口**：分类全貌 + 分片清单（含字节数） |
+| `dist/atlas/api/c/*.json` | 按领域切好的分片 |
+| `dist/atlas/api/t/*.json` | 按主题切好的分片 |
+| `dist/atlas/api/index.jsonl` | 轻量索引（每行一个精简画像，约 340 KB / 837 项） |
+| `dist/atlas/api/repos.jsonl` | 全量语料（含完整摘要，一行一条，可 grep） |
+| `dist/atlas/feed.xml`、`feed-*.xml` | RSS 2.0：全站 + 各领域 |
+| `dist/atlas/llms.txt` | 站点自述，按 llms.txt 约定 |
 
 > [!NOTE]
 > 想调整分类，只改 `scripts/atlas/taxonomy.py` 的 `CANON_TAGS` / `CATS`，然后跑一次 `python3 tests/test_atlas.py` 确认锚点没有回归即可。
+
+---
+
+## 给 Agent 调用（无需服务端）
+
+站点是纯静态的，没有可以查询的后端。因此「接口」的形态是**预先切好的分片文件**，
+用普通 GET 就能取——Agent 不需要任何凭据，也不需要跑服务。
+
+**先看目录，再取分片。** `api/index.json` 里有全部领域/子类/主题及各自条目数，
+还有 `shards[].bytes`——拉取之前就知道要花多少上下文，不必把整站塞进窗口。
+
+| 想要什么 | 取哪个 |
+| :--- | :--- |
+| 先了解有哪些分类 | `api/index.json`（几十 KB） |
+| 只关心某一类 | `api/c/<领域>.json`（如 `api/c/ai.json`）、`api/t/<主题>.json` |
+| 想整体粗筛一遍 | `api/index.jsonl`（每行一个精简画像，约为全量语料的 1/3） |
+| 要完整摘要与 topics | `api/repos.jsonl` |
+
+`api/index.json` 的 `fields` 字段用中文说明了每条记录每个字段的含义，Agent 可直接读。
+
+### MCP（可选，推荐）
+
+如果宿主支持 MCP，可以挂上 `scripts/atlas_mcp.py`，直接以工具形式调用，
+不必自己拼 HTTP 请求。该文件**零第三方依赖**（只用标准库），部署成本极低：
+
+```json
+{
+  "mcpServers": {
+    "stars-atlas": {
+      "command": "python3",
+      "args": ["/绝对路径/scripts/atlas_mcp.py"]
+    }
+  }
+}
+```
+
+提供 5 个工具：
+
+| 工具 | 用途 |
+| :--- | :--- |
+| `list_facets` | 列出领域/子类/标签/形态/语言及条目数 |
+| `search_repos` | 关键词 + 过滤条件检索 |
+| `recommend_for_task` | **用一段自然语言描述任务，推荐合适的项目** |
+| `get_repo` | 取单个项目完整档案 |
+| `get_domain_digest` | 取某领域代表作速览 |
+
+自检（不必接进宿主）：
+
+```bash
+python3 scripts/atlas_mcp.py --selftest
+```
+
+> [!TIP]
+> 找候选 → 看摘要 → 打开 `url` 读源码，是这套数据最自然的用法：
+> Agent 既可以用它**推荐**合适的现成项目，也可以顺着链接**借鉴**这些项目的实现。
+
+---
+
+## RSS 订阅
+
+`dist/atlas/feed.xml`（全站）与 `dist/atlas/feed-<领域>.xml`（如 `feed-ai.xml`），
+标准 RSS 2.0，按**收藏时间**倒序——也就是说，你新收藏了什么，订阅里就出现什么。
+
+- 全站：`https://<你的域名>/atlas/feed.xml`
+- 分领域：`https://<你的域名>/atlas/feed-ai.xml`
+
+页面 `<head>` 里已写好 `<link rel="alternate" type="application/rss+xml">`，
+大多数阅读器直接粘贴站点地址就能自动发现订阅源。
 
 ---
 
@@ -310,7 +389,9 @@ python scripts/sync_stars.py --render-only
 | `scripts/sync_atlas.py`      | 星图数据集与页面构建（只读 stars.json） |
 | `scripts/atlas/taxonomy.py`  | 星图分类体系与评分引擎             |
 | `templates/atlas.html.j2`    | 星图页面模版                       |
-| `tests/test_atlas.py`        | 分类回归测试                       |
+| `scripts/atlas/publish.py`   | 静态接口分片与 RSS 生成             |
+| `scripts/atlas_mcp.py`       | MCP 服务器（stdio，零第三方依赖）   |
+| `tests/test_atlas.py`        | 分类回归与产物契约测试              |
 | `.github/workflows/sync.yml` | GitHub Actions 定时工作流          |
 | `.env.example`               | 配置示例文件                       |
 
