@@ -1,0 +1,110 @@
+{#- 风格 5：收藏编年史 — 竖向时间轴 / 年份为巨型节点 -#}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stars Atlas · 收藏编年史</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* 概念：一条自上而下的时间轴，以「收藏时间」为脊椎。
+   年份是巨大的衬线数字节点，同年项目从轴上向右生长。
+   适合回顾：我什么时候开始关注这个方向？ */
+:root{
+  --bg:#14110E; --bg-2:#1B1713; --line:#2E2822; --line-2:#3D352D;
+  --fg:#EDE6DA; --fg-2:#B3A997; --fg-3:#7A7163;
+  --gold:#C9A227; --rose:#C97B6B;
+  --serif:"Fraunces","Songti SC",Georgia,serif;
+  --sans:"Karla",-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:14.5px;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 26px 90px}
+
+/* 报头 */
+header{padding:60px 0 34px;border-bottom:1px solid var(--line)}
+h1{font-family:var(--serif);font-weight:300;font-size:clamp(2.2rem,6vw,4rem);line-height:1;letter-spacing:-.02em;margin:0}
+h1 em{font-style:italic;color:var(--gold)}
+header p{color:var(--fg-2);max-width:52ch;margin:16px 0 0;font-size:1rem}
+.legend{display:flex;gap:22px;flex-wrap:wrap;margin-top:22px;font-size:.78rem;color:var(--fg-3);letter-spacing:.04em}
+.legend i{font-style:normal;color:var(--gold)}
+
+/* 时间轴主体：左侧固定一根竖线 */
+.timeline{position:relative;margin-top:8px;padding-left:118px}
+.timeline::before{content:"";position:absolute;left:82px;top:0;bottom:0;width:1px;background:var(--line-2)}
+@media(max-width:760px){.timeline{padding-left:52px}.timeline::before{left:24px}}
+
+.year{position:relative;padding:46px 0 10px}
+.year .y{position:absolute;left:-118px;top:34px;width:96px;text-align:right;
+  font-family:var(--serif);font-size:2.5rem;font-weight:600;line-height:1;letter-spacing:-.03em;color:var(--fg)}
+@media(max-width:760px){.year .y{position:static;width:auto;text-align:left;font-size:1.9rem;margin-bottom:6px}}
+.year .y small{display:block;font-family:var(--sans);font-size:.72rem;font-weight:400;color:var(--fg-3);letter-spacing:.08em;margin-top:5px}
+.year .node{position:absolute;left:-118px;top:44px;width:9px;height:9px;border-radius:50%;background:var(--gold);
+  transform:translateX(75px);box-shadow:0 0 0 5px var(--bg)}
+@media(max-width:760px){.year .node{left:19px;top:auto;bottom:auto;position:absolute;margin-top:6px}}
+
+/* 年份里的条目 */
+.items{display:flex;flex-direction:column;gap:2px}
+.item{position:relative;padding:14px 0 14px 22px;border-bottom:1px solid var(--line)}
+.item:hover{background:var(--bg-2)}
+.item::before{content:"";position:absolute;left:0;top:22px;width:9px;height:1px;background:var(--line-2)}
+.item .date{font-size:.74rem;color:var(--fg-3);letter-spacing:.06em;font-variant-numeric:tabular-nums}
+.item h3{font-family:var(--serif);font-size:1.22rem;font-weight:600;letter-spacing:-.01em;margin:3px 0 5px;line-height:1.25}
+.item h3 em{font-style:normal;font-family:var(--sans);font-weight:400;font-size:.9rem;color:var(--fg-3)}
+.item:hover h3{color:var(--gold)}
+.item p{margin:0;color:var(--fg-2);font-size:.92rem;max-width:76ch;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.meta{display:flex;gap:14px;flex-wrap:wrap;margin-top:9px;font-size:.76rem;color:var(--fg-3);align-items:center}
+.meta b{font-weight:500;color:var(--fg-2)}
+.stars{color:var(--gold);font-weight:600;font-variant-numeric:tabular-nums}
+.dm{display:inline-flex;align-items:center;gap:5px}
+.dm::before{content:"";width:7px;height:7px;border-radius:2px;background:var(--c)}
+footer{margin-top:60px;padding-top:22px;border-top:1px solid var(--line);color:var(--fg-3);font-size:.8rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>收藏编年史 <em>Chronicle</em></h1>
+  <p>以收藏时间为脊椎，把 {{ meta.count }} 个仓库摊在时间上。
+     越往下越早，金色节点标记每一年的开始。</p>
+  <div class="legend">
+    <span><i>●</i> 年份节点</span>
+    <span>星标合计 <i>{{ meta.starsCompact }}</i></span>
+    <span>覆盖 <i>{{ years | length }}</i> 个年份</span>
+    <span>更新 <i>{{ updated.split(' ')[0] }}</i></span>
+  </div>
+</header>
+
+<div class="timeline">
+  {% for year, items in years[:14] %}
+  <section class="year">
+    <div class="y">{{ year }}<small>{{ year_counts[year] }} 个项目</small></div>
+    <span class="node"></span>
+    <div class="items">
+      {% for it in items[:8] %}
+      <a class="item" href="{{ it.url }}" target="_blank" rel="noopener">
+        <div class="date">{{ it.starred }}</div>
+        <h3>{{ it.repo }} <em>{{ it.owner }}</em></h3>
+        <p>{{ it.summary }}</p>
+        <div class="meta">
+          <span class="stars">★ {{ it.stars_str }}</span>
+          <span><b>{{ it.lang }}</b></span>
+          <span class="dm" style="--c:{{ it.color }}">{{ it.domain_zh }}</span>
+          <span>{{ it.sub_zh }}</span>
+          {% for t in it.tags[:2] %}<span>{{ t }}</span>{% endfor %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</div>
+
+<footer>Stars Atlas · 分类由规则引擎离线生成 · 数据更新 {{ updated }}</footer>
+</div>
+</body>
+</html>

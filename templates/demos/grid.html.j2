@@ -1,0 +1,258 @@
+{#- 风格 4：数据网格 — 主从视图 / 高密度表格 -#}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stars Atlas · 数据网格</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* 概念：一个专业工具的数据表。
+   左窄栏筛选、中间高密度可排序表格、右侧详情面板；行高 30px，单位面积信息量最大。
+   没有装饰，只有边框、对齐与状态色 —— 目标是「三分钟找到要用的工具」。 */
+:root{
+  --bg:#FBFBFC; --panel:#FFFFFF; --line:#E3E5EA; --line-2:#CFD3DA;
+  --fg:#171A20; --fg-2:#5A616E; --fg-3:#8B929E;
+  --sel:#2F6FEB; --sel-bg:#EAF1FE; --star:#B8860B; --ok:#1F8A4C;
+  --sans:"Inter",-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:13px;line-height:1.45}
+a{color:var(--sel);text-decoration:none}
+a:hover{text-decoration:underline}
+.app{display:grid;grid-template-columns:186px minmax(0,1fr) 340px;height:100vh;overflow:hidden;max-width:100vw}
+@media(max-width:1180px){.app{grid-template-columns:186px minmax(0,1fr)}.detail{display:none}}
+@media(max-width:780px){.app{grid-template-columns:minmax(0,1fr);height:auto;overflow:visible}.filters{display:none}
+  /* 顶栏在窄屏改为可换行，否则 search 的 flex:1 与 nowrap 的状态文本会把文档撑宽 */
+  .topbar{flex-wrap:wrap;height:auto;padding:8px 12px;gap:8px}
+  .search{flex:1 1 100%;max-width:none;order:3}
+  .tb-stat{margin-left:0;font-size:12px}}
+
+/* 顶部命令条 */
+.topbar{grid-column:1/-1;display:flex;align-items:center;gap:12px;padding:0 14px;height:44px;
+  background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.brand{font-weight:600;letter-spacing:-.01em;white-space:nowrap}
+.brand span{color:var(--fg-3);font-weight:400}
+.search{flex:1;max-width:420px;display:flex;align-items:center;gap:7px;border:1px solid var(--line-2);border-radius:5px;padding:5px 9px;background:#fff}
+.search:focus-within{border-color:var(--sel);box-shadow:0 0 0 2px var(--sel-bg)}
+.search input{flex:1;border:0;outline:none;font:inherit;background:none}
+.tb-stat{color:var(--fg-3);font-variant-numeric:tabular-nums;white-space:nowrap;margin-left:auto}
+.tb-stat b{color:var(--fg);font-weight:600}
+
+/* 左：筛选 */
+.filters{background:var(--panel);border-right:1px solid var(--line);overflow-y:auto;padding:12px 0}
+.fgroup{padding:0 12px 14px}
+.fgroup h3{margin:0 0 7px;font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--fg-3);font-weight:600}
+.fopt{display:flex;justify-content:space-between;gap:8px;padding:3px 7px;border-radius:4px;cursor:pointer;color:var(--fg-2)}
+.fopt:hover{background:#F3F4F7}
+.fopt.on{background:var(--sel-bg);color:var(--sel);font-weight:500}
+.fopt i{font-style:normal;color:var(--fg-3);font-variant-numeric:tabular-nums}
+.fopt.on i{color:var(--sel)}
+.dot{width:7px;height:7px;border-radius:2px;display:inline-block;margin-right:6px;vertical-align:1px}
+
+/* 中：表格 */
+.tablewrap{overflow:auto;background:var(--panel);min-width:0}
+table{border-collapse:separate;border-spacing:0;width:100%;font-size:12.5px}
+thead th{position:sticky;top:0;background:#F7F8FA;border-bottom:1px solid var(--line-2);
+  text-align:left;padding:7px 10px;font-weight:600;color:var(--fg-2);white-space:nowrap;cursor:pointer;user-select:none;z-index:2}
+thead th:hover{color:var(--fg);background:#F0F2F6}
+thead th .ar{color:var(--sel);font-size:10px}
+tbody tr{border-bottom:1px solid var(--line);cursor:pointer}
+tbody tr:hover{background:#F7F8FA}
+tbody tr.sel{background:var(--sel-bg);box-shadow:inset 2px 0 0 var(--sel)}
+td{padding:5px 10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+td.name{max-width:300px;font-weight:500}
+td.name em{font-style:normal;color:var(--fg-3);font-weight:400}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+td.tagcell{color:var(--fg-3);font-size:11.5px}
+.pill{display:inline-block;font-size:10.5px;padding:1px 6px;border-radius:3px;border:1px solid var(--line-2);color:var(--fg-2);background:#F7F8FA}
+.star{color:var(--star);font-weight:600}
+
+/* 右：详情 */
+.detail{background:var(--panel);border-left:1px solid var(--line);overflow-y:auto;padding:16px 16px 40px}
+.detail h2{margin:0 0 2px;font-size:16px;letter-spacing:-.01em;word-break:break-word}
+.detail .sub{color:var(--fg-3);font-size:12px;margin-bottom:14px}
+.dl{display:grid;grid-template-columns:auto 1fr;gap:5px 12px;font-size:12.5px;margin-bottom:16px}
+.dl dt{color:var(--fg-3)}
+.dl dd{margin:0}
+.btn{display:inline-block;background:var(--sel);color:#fff;border-radius:5px;padding:6px 11px;font-size:12.5px;font-weight:500}
+.btn:hover{filter:brightness(1.07);text-decoration:none}
+.btn.ghost{background:#fff;color:var(--fg);border:1px solid var(--line-2)}
+.sec-h{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--fg-3);font-weight:600;
+  margin:18px 0 7px;padding-bottom:5px;border-bottom:1px solid var(--line)}
+.body-text{color:var(--fg-2);line-height:1.6;font-size:12.5px}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.bar{height:4px;background:var(--line);border-radius:2px;overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%;background:var(--sel)}
+</style>
+</head>
+<body>
+<div class="app">
+
+  <div class="topbar">
+    <div class="brand">Stars Atlas <span>/ data grid</span></div>
+    <label class="search">
+      <svg width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="4.6" stroke="#8B929E" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="#8B929E" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input id="q" placeholder="筛选仓库 / 描述 / 标签…" autocomplete="off">
+    </label>
+    <div class="tb-stat"><b id="cnt">{{ dense | length }}</b> / {{ meta.count }} 行 · 共 {{ meta.starsCompact }} ★</div>
+  </div>
+
+  <aside class="filters">
+    <div class="fgroup">
+      <h3>领域</h3>
+      {% for c in facets.cats %}{% if c.count %}
+      <div class="fopt" data-dom="{{ c.id }}">
+        <span><i class="dot" style="background:{{ DOMAIN_COLOR.get(c.id,'#888') }}"></i>{{ c.zh }}</span><i>{{ c.count }}</i>
+      </div>
+      {% endif %}{% endfor %}
+      <div class="fopt" data-dom=""><span>全部</span><i>{{ meta.count }}</i></div>
+    </div>
+    <div class="fgroup">
+      <h3>语言</h3>
+      {% for l in facets.languages[:9] %}
+      <div class="fopt" data-lang="{{ l.name }}"><span>{{ l.name }}</span><i>{{ l.count }}</i></div>
+      {% endfor %}
+    </div>
+  </aside>
+
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr>
+          <th data-sort="name">仓库 <span class="ar" data-ar="name"></span></th>
+          <th data-sort="stars" style="text-align:right">★ <span class="ar" data-ar="stars">▼</span></th>
+          <th data-sort="lang">语言</th>
+          <th data-sort="domain">领域</th>
+          <th data-sort="sub">分类</th>
+          <th data-sort="pushed" style="text-align:right">最近提交</th>
+        </tr>
+      </thead>
+      <tbody id="tb">
+        {% for it in dense %}
+        <tr data-i="{{ loop.index0 }}">
+          <td class="name"><em>{{ it.owner }}/</em>{{ it.repo }}</td>
+          <td class="num star">{{ it.stars_str }}</td>
+          <td>{{ it.lang }}</td>
+          <td><span class="dot" style="background:{{ it.color }}"></span>{{ it.domain_zh }}</td>
+          <td class="tagcell">{{ it.sub_zh }}</td>
+          <td class="num" style="color:var(--fg-3)">{{ it.pushed }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <aside class="detail" id="detail"></aside>
+</div>
+
+<script>
+const DATA = {{ dense | tojson }};
+const tbody = document.getElementById('tb');
+let selIdx = 0;
+
+function esc(s) { const d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+
+function renderDetail(i) {
+  const it = DATA[i];
+  document.getElementById('detail').innerHTML = `
+    <h2>${esc(it.name)}</h2>
+    <div class="sub">${esc(it.lang)} · 收藏于 ${esc(it.starred)}</div>
+    <div class="dl">
+      <dt>Star</dt><dd><span class="star">★ ${esc(it.stars_str)}</span></dd>
+      <dt>领域</dt><dd>${esc(it.domain_zh)}</dd>
+      <dt>分类</dt><dd>${esc(it.sub_zh)}</dd>
+      <dt>热度</dt><dd>${it.heat}<div class="bar"><i style="width:${it.heat}%"></i></div></dd>
+      <dt>活跃度</dt><dd>${it.momentum}<div class="bar"><i style="width:${it.momentum}%"></i></div></dd>
+      <dt>最近提交</dt><dd>${esc(it.pushed)}</dd>
+    </div>
+    <a class="btn" href="${esc(it.url)}" target="_blank" rel="noopener">在 GitHub 打开</a>
+    ${it.homepage ? `<a class="btn ghost" style="margin-left:6px" href="${esc(it.homepage)}" target="_blank" rel="noopener">项目主页</a>` : ''}
+    <div class="sec-h">摘要</div>
+    <div class="body-text">${esc(it.summary_long)}</div>
+    <div class="sec-h">主题标签</div>
+    <div class="chips">${it.tags.map(t => `<span class="pill">${esc(t)}</span>`).join('')}</div>
+    <div class="sec-h">Topics</div>
+    <div class="chips">${it.topics.map(t => `<span class="pill">${esc(t)}</span>`).join('')}</div>
+  `;
+}
+function paintSel() {
+  [...tbody.querySelectorAll('tr')].forEach((r, i) => r.classList.toggle('sel', i === selIdx));
+}
+
+tbody.addEventListener('click', e => {
+  const tr = e.target.closest('tr');
+  if (!tr) return;
+  selIdx = +tr.dataset.i;
+  paintSel(); renderDetail(selIdx);
+});
+tbody.addEventListener('dblclick', e => {
+  const tr = e.target.closest('tr');
+  if (tr) window.open(DATA[+tr.dataset.i].url, '_blank');
+});
+addEventListener('keydown', e => {
+  if (e.key === '/' && document.activeElement.tagName !== 'INPUT') { e.preventDefault(); document.getElementById('q').focus(); return; }
+  if (document.activeElement.tagName === 'INPUT') return;
+  if (e.key === 'j' || e.key === 'ArrowDown') { e.preventDefault(); selIdx = Math.min(selIdx + 1, DATA.length - 1); paintSel(); renderDetail(selIdx); }
+  if (e.key === 'k' || e.key === 'ArrowUp') { e.preventDefault(); selIdx = Math.max(selIdx - 1, 0); paintSel(); renderDetail(selIdx); }
+});
+
+// 筛选
+let fDom = '', fLang = '', fText = '';
+function apply() {
+  let n = 0;
+  [...tbody.querySelectorAll('tr')].forEach((r, i) => {
+    const it = DATA[i];
+    const ok = (!fDom || it.domain === fDom) && (!fLang || it.lang === fLang) &&
+      (!fText || (it.name + ' ' + it.desc + ' ' + it.summary + ' ' + it.tags.join(' ') + ' ' + it.topics.join(' ')).toLowerCase().includes(fText));
+    r.style.display = ok ? '' : 'none';
+    if (ok) n++;
+  });
+  document.getElementById('cnt').textContent = n;
+}
+document.querySelectorAll('.fopt').forEach(o => o.addEventListener('click', () => {
+  const isDom = 'dom' in o.dataset, key = isDom ? 'dom' : 'lang', val = o.dataset[key];
+  const cur = isDom ? fDom : fLang;
+  const next = cur === val ? '' : val;
+  if (isDom) fDom = next; else fLang = next;
+  document.querySelectorAll(`.fopt[data-${key}]`).forEach(x => x.classList.toggle('on', x.dataset[key] === next && next !== ''));
+  apply();
+}));
+document.getElementById('q').addEventListener('input', e => { fText = e.target.value.toLowerCase().trim(); apply(); });
+
+// 排序
+let sortKey = 'stars', sortDir = -1;
+
+function sortValue(it, k) {
+  return k === 'stars' ? it.stars : k === 'heat' ? it.heat
+    : k === 'pushed' ? it.pushed : k === 'lang' ? it.lang
+    : k === 'domain' ? it.domain_zh : k === 'sub' ? it.sub_zh
+    : it.name.toLowerCase();          // 名称排序忽略大小写，否则 Ebook… 会被排到最后
+}
+
+function applySort() {
+  document.querySelectorAll('[data-ar]').forEach(a => a.textContent = '');
+  const ar = document.querySelector(`[data-ar="${sortKey}"]`);
+  if (ar) ar.textContent = sortDir > 0 ? '▲' : '▼';
+  const rows = [...tbody.querySelectorAll('tr')];
+  rows.map((r, i) => [DATA[i], r]).sort((a, b) => {
+    const x = sortValue(a[0], sortKey), y = sortValue(b[0], sortKey);
+    return (typeof x === 'number' ? x - y : String(x).localeCompare(String(y))) * sortDir;
+  }).forEach(([, r]) => tbody.appendChild(r));
+}
+
+document.querySelectorAll('thead th[data-sort]').forEach(th => th.addEventListener('click', () => {
+  const k = th.dataset.sort;
+  sortDir = (k === sortKey) ? -sortDir : (k === 'stars' || k === 'pushed' ? -1 : 1);
+  sortKey = k;
+  applySort();
+}));
+
+// 首屏就该和表头标注的排序一致，否则「列上写着 ▼ 但顺序不是降序」
+applySort();
+paintSel(); renderDetail(0);
+</script>
+</body>
+</html>
