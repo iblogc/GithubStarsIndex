@@ -1,0 +1,87 @@
+{#- 风格总览：把 5 个 demo 放在一起对比 -#}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stars Atlas · 版式探索</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0D0F12;--card:#15181D;--line:#242830;--fg:#E8EAED;--fg-2:#9AA1AC;--fg-3:#6B7280;--spot:#FF4D2E}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Archivo",-apple-system,"PingFang SC",sans-serif;font-size:15px;line-height:1.55}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:56px 24px 80px}
+h1{font-family:"Archivo Black","Archivo",sans-serif;font-size:clamp(1.9rem,5vw,3rem);letter-spacing:-.03em;margin:0 0 8px}
+h1 span{color:var(--spot)}
+.lede{color:var(--fg-2);max-width:62ch;margin:0 0 8px}
+.note{color:var(--fg-3);font-size:.85rem;margin-top:14px;padding:12px 14px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin-top:30px}
+.demo{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;
+  transition:border-color .15s,transform .15s}
+.demo:hover{border-color:var(--fg-3);transform:translateY(-2px)}
+.swatch{height:78px;position:relative;border-bottom:1px solid var(--line)}
+.body{padding:16px 18px 18px;flex:1;display:flex;flex-direction:column}
+.body h2{margin:0 0 4px;font-size:1.06rem;letter-spacing:-.01em}
+.body h2 small{color:var(--fg-3);font-weight:400;margin-left:6px;font-size:.8rem}
+.body p{margin:0 0 14px;color:var(--fg-2);font-size:.88rem;flex:1}
+.tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:12px}
+.tags span{font-size:.72rem;border:1px solid var(--line);border-radius:999px;padding:1px 8px;color:var(--fg-3)}
+.go{font-size:.86rem;color:var(--spot);font-weight:600}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>版式<span>探索</span></h1>
+  <p class="lede">同一份数据（{{ meta.count }} 个仓库，更新于 {{ updated.split(' ')[0] }}），
+     5 种不同的版式与视觉方向。点进去看实际效果，再决定沿用哪一种、或组合哪几种。</p>
+  <div class="note">
+    这些是<strong>独立的静态 demo</strong>，不参与线上构建，也不影响已经做好的 <code>/atlas/</code> 页面。
+    每个 demo 用完全相同的数据切片，所以对比时看到的是设计差异，不是内容差异。
+  </div>
+
+  <div class="grid">
+    {% for p in pages %}
+    <a class="demo" href="{{ p.slug }}.html">
+      <div class="swatch" data-slug="{{ p.slug }}"></div>
+      <div class="body">
+        <h2>{{ p.title }} <small>{{ p.slug }}.html · {{ p.kb }} KB</small></h2>
+        <p>{{ p.blurb }}</p>
+        <div class="tags">
+          {% if 'catalog' in p.slug %}<span>纸质</span><span>卡片</span><span>暖色</span>
+          {% elif 'press' in p.slug %}<span>编辑排版</span><span>多栏</span><span>高对比</span>
+          {% elif 'terminal' in p.slug %}<span>等宽</span><span>暗色</span><span>键盘</span>
+          {% elif 'grid' in p.slug %}<span>表格</span><span>主从</span><span>高密度</span>
+          {% else %}<span>时间轴</span><span>长滚动</span><span>回顾</span>{% endif %}
+        </div>
+        <span class="go">打开 →</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+// 每个 demo 的缩略色板：直接把它自己的配色画出来，比截图更轻
+const SWATCH = {
+  '1-catalog': ['#F6F2E8','#EFEADC','#D8D1BE','#8C2F1F','#232019'],
+  '2-press':   ['#FFFFFF','#F4F1EC','#0E0E0E','#D6261C','#787878'],
+  '3-terminal':['#0B0F14','#1E2A36','#5FBF7F','#4FB3C9','#D9B356'],
+  '4-grid':    ['#FBFBFC','#FFFFFF','#E3E5EA','#2F6FEB','#B8860B'],
+  '5-chronicle':['#14110E','#1B1713','#2E2822','#C9A227','#EDE6DA'],
+};
+document.querySelectorAll('.swatch').forEach(el => {
+  const colors = SWATCH[el.dataset.slug] || [];
+  const n = colors.length;
+  el.style.background = `linear-gradient(90deg, ${colors.map((c,i)=>`${c} ${(i/n)*100}% ${((i+1)/n)*100}%`).join(',')})`;
+  el.style.background = colors[0];
+  el.insertAdjacentHTML('beforeend',
+    `<div style="position:absolute;inset:0;display:flex">${
+      colors.map(c => `<i style="flex:1;background:${c}"></i>`).join('')
+    }</div>`);
+});
+</script>
+</body>
+</html>
