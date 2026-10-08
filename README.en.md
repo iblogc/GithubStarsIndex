@@ -8,6 +8,7 @@ English | [中文](README.md)
 
 - [Features](#features)
 - [Quick Start](#quick-start)
+- [Stars Atlas (Star Chart View)](#stars-atlas-star-chart-view)
 - [Configuration Reference (Environment Variables / .env)](#configuration-reference-environment-variables--env)
 - [Obsidian Sync (Optional)](#obsidian-sync-optional)
 - [Local Installation](#local-installation)
@@ -27,6 +28,52 @@ English | [中文](README.md)
 - 🔄 **Vault Sync (Optional)**: Automatically pushes generated `stars_zh.md` & `stars_en.md` to your **Obsidian Vault**.
 - 🌐 **GitHub Pages (Optional)**: Deploys a static search page with multi-language (ZH/EN) support and real-time search.
 - 💻 **Flexible AI Providers**: Compatible with any **OpenAI-format API** (OpenAI, Azure, local Ollama, etc.).
+- 🗺️ **Stars Atlas**: Alongside the classic search page, generates an `atlas/` view that sorts every repo into **16 domains / 85 subcategories / 100+ topic tags** using a **pure rule engine** (no AI, no extra keys), drawn as a star chart where angle is the domain, radius is heat, and dot size is stars.
+
+---
+
+## Stars Atlas (Star Chart View)
+
+The classic page lays repos out as a grid of cards. Atlas offers a different reading: a **star chart**, built from the same `data/stars.json`. Both views coexist and neither disturbs the other.
+
+| Dimension | Description |
+| :--- | :--- |
+| **Domains** (16) | AI, Developer tooling, Web & backend, Data, Cloud & ops, System & desktop, Network, Security & privacy, Media & graphics, Docs & knowledge, Office & productivity, Communication & social, Mobile, Design & visual, Learning & reference, Games & fun |
+| **Subcategories** (85) | Deeper cuts, e.g. "AI → Agents & coding / Models & inference / RAG & knowledge" |
+| **Topic tags** (100+) | Fine-grained keywords for cross-domain filtering: MCP, Proxies, WeChat, Type & typography … |
+| **Forms** (8) | App / CLI / Extension / Library / Theme / Collection / Asset / Docs |
+| **Heat / Momentum** | Heat is log-normalized so a few giants don't flatten everything; momentum folds in the last push date. |
+
+Classification runs in the keyword engine in `scripts/atlas/taxonomy.py` — deterministic, explainable, and offline:
+
+- **Deterministic**: the same `stars.json` always yields the same classification, so results are reproducible and diffable.
+- **Explainable**: `--explain` prints exactly which keywords matched, in which field.
+- **Spam-resistant**: fields are weighted (topics/tags most trustworthy, summary prose least), and only the three most specific matches per field count, so a category with a long keyword list does not automatically win.
+- **Honest fallback**: thin evidence lands in "Other" rather than being forced into a domain.
+
+```bash
+# Build the star chart page (reads data/stars.json only; no fetching, no AI)
+python3 scripts/sync_atlas.py
+
+# Classification stats only
+python3 scripts/sync_atlas.py --stats
+
+# Why was a repo classified that way?
+python3 scripts/sync_atlas.py --explain microsoft/playwright -v
+
+# Classification regression tests (29 real anchors + structural invariants)
+python3 tests/test_atlas.py -v
+```
+
+Artifacts:
+
+| File | Description |
+| :--- | :--- |
+| `dist/atlas/index.html` | The star chart page (published at `https://<your-domain>/atlas/`) |
+| `dist/atlas/atlas.json` | Dataset with classifications, for downstream use |
+
+> [!NOTE]
+> To adjust the taxonomy, edit `CANON_TAGS` / `CATS` in `scripts/atlas/taxonomy.py`, then run `python3 tests/test_atlas.py` to confirm no anchor regressed.
 
 ---
 
@@ -259,6 +306,10 @@ python scripts/sync_stars.py --render-only
 | `templates/`                 | Jinja2 generation templates (Markdown/HTML)       |
 | `dist/`                      | Automatically generated local results (HTML / MD) |
 | `scripts/sync_stars.py`      | Core sync and generation script                   |
+| `scripts/sync_atlas.py`      | Atlas dataset/page builder (reads stars.json only) |
+| `scripts/atlas/taxonomy.py`  | Atlas taxonomy and scoring engine                 |
+| `templates/atlas.html.j2`    | Atlas page template                               |
+| `tests/test_atlas.py`        | Classification regression tests                   |
 | `.github/workflows/sync.yml` | GitHub Actions scheduled workflow                 |
 | `.env.example`               | Configuration example file                        |
 
