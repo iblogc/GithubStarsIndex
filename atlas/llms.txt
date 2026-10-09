@@ -1,0 +1,35 @@
+# Stars Atlas
+
+> 一个开发者 Star 过的 GitHub 项目库，按 17 个领域 / 101 个主题
+> 分类整理成可直接查阅的数据集，供人或 Agent 检索、推荐与借鉴。
+
+站点：https://stars.iblogc.com/atlas/
+数据更新：2026-10-08 23:22 UTC
+规模：1173 个仓库 / 23,306,353 stars
+
+## 给 Agent 的接口
+
+- [调用入口 https://stars.iblogc.com/atlas/api/index.json](https://stars.iblogc.com/atlas/api/index.json)：
+  元信息、全部分类与计数、分片清单（含字节数）。**从这里开始。**
+- [用法说明 https://stars.iblogc.com/atlas/api/README.md](https://stars.iblogc.com/atlas/api/README.md)
+- [轻量索引 https://stars.iblogc.com/atlas/api/index.jsonl](https://stars.iblogc.com/atlas/api/index.jsonl)：
+  每行一个仓库的精简画像，适合先粗筛。
+- [全量语料 https://stars.iblogc.com/atlas/api/repos.jsonl](https://stars.iblogc.com/atlas/api/repos.jsonl)：
+  一行一个仓库（含完整摘要与 topics），便于 grep / 流式读取。
+
+若宿主支持 MCP，可直接挂载 `scripts/atlas_mcp.py` 以获得 search / recommend /
+get_repo / list_facets 四个工具。
+
+分片位于 `https://stars.iblogc.com/atlas/api/c/<领域>.json` 与
+`https://stars.iblogc.com/atlas/api/t/<主题>.json`。
+
+## 订阅
+
+- [全部更新 RSS](https://stars.iblogc.com/atlas/feed.xml)
+- 分领域 RSS：`https://stars.iblogc.com/atlas/feed-<领域 id>.xml`
+
+## 每一条记录包含
+
+仓库名、地址、主页、描述、中英文 AI 摘要、Star 数、语言、所属领域与子类、
+AI 标签与仓库自带 topics、形态、最近提交与收藏日期。
+每个仓库都带 GitHub 地址，可直接打开阅读源码与文档。
