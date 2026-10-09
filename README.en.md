@@ -30,7 +30,7 @@ English | [中文](README.md)
 - 🔄 **Vault Sync (Optional)**: Automatically pushes generated `stars_zh.md` & `stars_en.md` to your **Obsidian Vault**.
 - 🌐 **GitHub Pages (Optional)**: Deploys a static search page with multi-language (ZH/EN) support and real-time search.
 - 💻 **Flexible AI Providers**: Compatible with any **OpenAI-format API** (OpenAI, Azure, local Ollama, etc.).
-- 🗺️ **Stars Atlas**: Alongside the classic search page, generates an `atlas/` view that sorts every repo into **16 domains / 85 subcategories / 100+ tags** using a **pure rule engine** (no AI, no extra keys), presented as a master–detail data grid: faceted filters on the left (domain, language, AI tags, form, starred year, created year, star tier), a dense sortable table in the middle, full records on the right. Facet counts, infinite scroll, keyboard navigation, shareable URLs, en/zh and light/dark.
+- 🗺️ **Stars Atlas (sub-page)**: `/` remains the original browsing home page; an `atlas/` sub-page is generated for **faster lookup**, and sorts every repo into **16 domains / 85 subcategories / 100+ tags** using a **pure rule engine** (no AI, no extra keys), presented as a master–detail data grid: faceted filters on the left (domain, language, AI tags, form, starred year, created year, star tier), a dense sortable table in the middle, full records on the right. Facet counts, infinite scroll, keyboard navigation, shareable URLs, en/zh and light/dark.
 - 🤖 **Agent-ready**: Publishes a static data API (per-domain/per-topic shards plus a JSONL corpus) and ships a **zero-dependency MCP server**, so an agent can search, get recommendations, and pull full records on its own.
 - 📡 **RSS feeds**: Site-wide and per-domain, ordered by when you starred each repo.
 
@@ -38,7 +38,10 @@ English | [中文](README.md)
 
 ## Stars Atlas (Star Chart View)
 
-The classic page lays repos out as a grid of cards. Atlas offers a different reading: **a searchable data table**, built from the same `data/stars.json`. Both views coexist and neither disturbs the other.
+The home page (`/`) is for browsing and revisiting: a card stream with AI summaries, filterable by tag and language.
+Atlas is its **sub-page** (`/atlas/`), offering a different reading: **a searchable data table** for quickly locating "the tool that does X".
+
+Both are built from the same `data/stars.json`. The home page carries an `[ Open Atlas ]` entry in the top-right, and Atlas links back with "← Back to Stars Archive", forming a closed loop.
 
 Three columns: faceted filters (domain, language, tag, form, year, star tier) on the left, a dense sortable table in the middle, the selected repository's full record on the right. On narrow screens the rail becomes a drawer and details move into a dialog.
 

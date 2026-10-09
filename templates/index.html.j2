@@ -176,6 +176,20 @@
             transition: var(--transition);
         }
 
+        /* 子页面入口：用强调色描边，在同级的文本链接里最醒目 */
+        .header-links .atlas-entry {
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            padding: 0.3rem 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            white-space: nowrap;      /* 否则窄容器里会折成两行 */
+            transition: var(--transition);
+        }
+        .header-links .atlas-entry:hover {
+            background: var(--accent);
+            color: var(--bg);
+        }
         .header-links a:hover {
             color: var(--accent);
             border-color: var(--accent);
@@ -1038,6 +1052,7 @@
                 <div class="header-links">
                     <button id="lang-btn" class="lang-toggle">LANG: ZH_CN</button>
                     <button id="theme-btn" class="theme-toggle">UI_THEME: NOIR_MODE</button>
+                    <a class="atlas-entry" href="atlas/" id="atlas-entry">[ 步入星图 ]</a>
                     <a href="https://github.com/iblogc/GithubStarsIndex" target="_blank">[ SOURCE_CODE ]</a>
                 </div>
             </div>
@@ -1228,7 +1243,9 @@
                 stars: "Star 数量",
                 alpha: "字母顺序",
                 asc: "升序",
-                desc: "降序"
+                desc: "降序",
+                atlas: "步入星图",
+                atlas_title: "打开数据网格：按领域、标签、年份快速筛选与排序"
             },
             en: {
                 search: "Search keywords or tags (space-separated AND search)...",
@@ -1249,7 +1266,9 @@
                 stars: "Stars",
                 alpha: "A-Z",
                 asc: "ASC",
-                desc: "DESC"
+                desc: "DESC",
+                atlas: "Open Atlas",
+                atlas_title: "Open the data grid: filter and sort by domain, tag and year"
             }
         };
 
@@ -1257,6 +1276,13 @@
             const texts = I18N[currentLang];
             searchInput.placeholder = texts.search;
             langBtn.textContent = `LANG: ${currentLang === 'zh' ? 'ZH_CN' : 'EN_US'}`;
+
+            const entry = document.getElementById('atlas-entry');
+            if (entry) {
+                entry.textContent = `[ ${texts.atlas} ]`;
+                entry.title = texts.atlas_title;
+                entry.setAttribute('aria-label', texts.atlas_title);
+            }
             
             document.getElementById('l-lang-label').textContent = activeLanguage ? `Language: ${activeLanguage}` : texts.lang_all;
             document.getElementById('l-tag-label').textContent = texts.tag_all;

@@ -262,6 +262,39 @@ def check_page_contract() -> int:
     return _report(errors)
 
 
+def check_cross_page_nav() -> int:
+    """跨页契约：原版主页要有进入 Atlas 的入口，Atlas 要能返回原版。
+
+    这两个页面分别由 sync_stars.py 与 sync_atlas.py 渲染，容易出现
+    「改了一边忘了另一边」，所以在这里定死。
+    """
+    errors = []
+    home = ROOT / "templates" / "index.html.j2"
+    atlas = ROOT / "templates" / "atlas.html.j2"
+
+    if not home.exists():
+        errors.append("缺少 templates/index.html.j2（原版主页模板）")
+    else:
+        tpl = home.read_text(encoding="utf-8")
+        # 入口链接：相对路径指向子目录，部署后即 /atlas/
+        if 'href="atlas/"' not in tpl:
+            errors.append("原版主页缺少进入 Atlas 的入口链接（href=\"atlas/\"）")
+        if 'id="atlas-entry"' not in tpl:
+            errors.append("原版主页入口缺少 id=atlas-entry（i18n 需要它来更新文案）")
+        if "atlas_entry" not in tpl and "atlas:" not in tpl:
+            errors.append("原版主页入口文案未接入 i18n")
+
+    if not atlas.exists():
+        errors.append("缺少 templates/atlas.html.j2")
+    else:
+        tpl = atlas.read_text(encoding="utf-8")
+        # 返回链接：相对路径回到站点根
+        if 'href="../"' not in tpl:
+            errors.append("Atlas 页面缺少返回原版主页的链接（href=\"../\"）")
+
+    return _report(errors)
+
+
 def _report(errors) -> int:
     for e in errors:
         print(f"  FAIL {e}")
@@ -290,7 +323,11 @@ def main() -> int:
     page = check_page_contract()
     print(f"   {'ok' if page == 0 else f'{page} failed'}")
 
-    total_fail = failed + inv + shape + pub + page
+    print("6) 跨页导航")
+    nav = check_cross_page_nav()
+    print(f"   {'ok' if nav == 0 else f'{nav} failed'}")
+
+    total_fail = failed + inv + shape + pub + page + nav
     print("\n" + ("✅ 全部通过" if total_fail == 0 else f"❌ {total_fail} 项失败"))
     return 1 if total_fail else 0
 

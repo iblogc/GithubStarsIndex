@@ -464,7 +464,7 @@ html[data-theme='dark'] .pill { background: #171d25; }
     <footer class="foot">
         <span id="foot-src"></span>
         <span style="margin-left:auto">
-            <a href="../">经典视图</a> ·
+            <a href="../" id="back-home">← 返回 Stars Archive</a> ·
             <a href="feed.xml">RSS</a> ·
             <a href="api/index.json">数据接口</a> ·
             <a href="llms.txt">llms.txt</a>
@@ -548,7 +548,7 @@ const TEXT = {
         cat: '领域', sub: '分类', forms: '形态',
         starredAt: '收藏于', created: '创建于', pushedAt: '最近提交', starsN: 'Star', language: '语言',
         github: '在 GitHub 打开', home: '项目主页', noDesc: '该仓库未填写描述',
-        close: '关闭', scrimClose: '关闭筛选'
+        close: '关闭', scrimClose: '关闭筛选', back: '← 返回 Stars Archive', backTitle: '回到 Stars Archive 主页'
     },
     en: {
         count: (m, n) => `<b>${m}</b> of ${n} repositories`,
@@ -563,7 +563,7 @@ const TEXT = {
         cat: 'Domain', sub: 'Category', forms: 'Form',
         starredAt: 'Starred', created: 'Created', pushedAt: 'Last push', starsN: 'Stars', language: 'Language',
         github: 'Open on GitHub', home: 'Homepage', noDesc: 'This repository has no description',
-        close: 'Close', scrimClose: 'Close filters'
+        close: 'Close', scrimClose: 'Close filters', back: '← Back to Stars Archive', backTitle: 'Back to the Stars Archive home page'
     }
 };
 const T = () => TEXT[S.lang];
@@ -1058,6 +1058,8 @@ function updateStatic() {
     $('lang-label').textContent = S.lang === 'zh' ? 'EN' : '中文';
     $('theme-label').textContent = S.theme === 'dark' ? t.light : t.dark;
     $('dlg-close').setAttribute('aria-label', t.close);
+    const back = $('back-home');
+    if (back) { back.textContent = t.back; back.title = t.backTitle; }
     $('foot-src').textContent = META.count + ' ' + t.repos + ' · ' + t.updated + ' ' + (META.sourceUpdated || '');
     document.documentElement.lang = S.lang === 'zh' ? 'zh-CN' : 'en';
 }
