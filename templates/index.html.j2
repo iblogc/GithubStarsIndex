@@ -77,7 +77,9 @@
         header {
             margin-bottom: 6rem;
             display: grid;
-            grid-template-columns: 1.5fr 1fr;
+            /* 右侧要放 LANG / THEME / 入口 / SOURCE 四个控件，
+               1fr 会在常见宽度下挤到换行，故略增其占比 */
+            grid-template-columns: 1.25fr 1fr;
             gap: 2rem;
             align-items: end;
         }
@@ -150,7 +152,17 @@
             justify-content: flex-end;
             margin-top: 1rem;
             align-items: center;
+            flex-wrap: wrap;      /* 放不下时整项换行，而不是把文字压断 */
+            row-gap: 0.5rem;
         }
+
+        /* 控件内部一律不折行：宁可整项换行，也不出现「LANG:」独占一行 */
+        .lang-toggle,
+        .theme-toggle,
+        .header-links a {
+            white-space: nowrap;
+        }
+
 
         .lang-toggle {
             cursor: pointer;
@@ -189,6 +201,16 @@
         .header-links .atlas-entry:hover {
             background: var(--accent);
             color: var(--bg);
+        }
+
+        /* 收紧间距，尽量把四个控件维持在同一行 */
+        .header-links { column-gap: 0.9rem; }
+        @media (max-width: 1320px) {
+            .header-links { column-gap: 0.5rem; }
+            .lang-toggle, .theme-toggle { padding: 0.2rem 0.4rem; }
+            /* 链接类字略小一点，四个控件才能维持单行 */
+            .header-links a { font-size: 0.72rem; }
+            .header-links .atlas-entry { padding: 0.3rem 0.5rem; }
         }
         .header-links a:hover {
             color: var(--accent);
@@ -257,6 +279,7 @@
             border: 1px solid var(--border);
             padding: 0.2rem 0.4rem;
             pointer-events: none;
+            white-space: nowrap;   /* 标签不拆行 */
         }
 
         #search-input {
@@ -552,6 +575,7 @@
         .sort-pill-group {
             display: flex;
             gap: 0.5rem;
+            flex-wrap: wrap;       /* 极窄屏下整组换行，而不是溢出 */
             background: var(--surface);
             padding: 0.3rem;
             border: 1px solid var(--border);
@@ -565,6 +589,7 @@
             cursor: pointer;
             transition: var(--transition);
             color: var(--fg-dim);
+            white-space: nowrap;   /* 「最新更新」不该断成两行 */
         }
 
         .sort-pill.active {
@@ -958,6 +983,7 @@
             color: var(--accent);
             margin-top: 1rem;
             display: block;
+            white-space: nowrap;
         }
 
         @media (max-width: 768px) {

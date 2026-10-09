@@ -143,6 +143,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
     display: inline-flex; align-items: center; gap: 5px;
     border: 1px solid var(--line-2); border-radius: var(--radius);
     padding: 4px 9px; color: var(--fg-2); font-size: 12.5px;
+    white-space: nowrap;   /* 顶栏按钮的文字不折行，挤不下时整颗换行 */
     transition: color .15s var(--ease), border-color .15s var(--ease);
 }
 .toggle:hover { color: var(--fg); border-color: var(--fg-3); }
@@ -361,7 +362,9 @@ html[data-theme='dark'] .link-row:hover { background: #1a212b; }
     .app { grid-template-columns: minmax(0, 1fr); height: auto; overflow: visible; }
     .topbar { flex-wrap: wrap; height: auto; padding: 8px 12px; gap: 8px; }
     .search { flex: 1 1 100%; max-width: none; order: 3; }
-    .tb-right { margin-left: 0; }
+    /* 按钮文字不折行（见 .toggle），所以这里要允许整颗按钮换行，
+       否则窄屏下 .tb-right 会把文档撑宽 */
+    .tb-right { margin-left: 0; flex-wrap: wrap; }
     .tb-stat { font-size: 12px; }
     .filter-open { display: inline-flex; }
     .rail {
@@ -380,6 +383,7 @@ html[data-theme='dark'] .link-row:hover { background: #1a212b; }
 }
 @media (max-width: 620px) {
     th.col-domain, td.col-domain, th.col-push, td.col-push { display: none; }
+    .tb-stat { display: none; }   /* 极窄屏优先保证操作按钮完整可见 */
 }
 @media (prefers-reduced-motion: reduce) {
     * { transition-duration: .01ms !important; animation-duration: .01ms !important; }

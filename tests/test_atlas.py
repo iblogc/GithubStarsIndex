@@ -277,6 +277,78 @@ def check_page_contract() -> int:
     return _report(errors)
 
 
+def _css_without_media(css: str) -> str:
+    """剥掉所有 @media 块，只留下顶层规则（用花括号配对，不靠正则）。"""
+    out, i, n = [], 0, len(css)
+    while i < n:
+        j = css.find("@media", i)
+        if j == -1:
+            out.append(css[i:])
+            break
+        out.append(css[i:j])
+        k = css.find("{", j)
+        if k == -1:
+            break
+        depth, p = 1, k + 1
+        while p < n and depth:
+            if css[p] == "{":
+                depth += 1
+            elif css[p] == "}":
+                depth -= 1
+            p += 1
+        i = p
+    return "".join(out)
+
+
+def _css_has(css: str, selector: str, decl: str) -> bool:
+    """该选择器的**任一**规则体里是否声明了某个属性。
+
+    刻意不取「最后一条」：同一选择器常被媒体查询再次覆盖（例如窄屏
+    `.search-hint { display: none }`），那一条里当然不会有 nowrap，
+    但它并不否定基础规则里的声明。
+    """
+    import re
+    for body in re.findall(re.escape(selector) + r"\s*\{([^}]*)\}", css):
+        if decl in body:
+            return True
+    return False
+
+
+def check_no_label_wrapping() -> int:
+    """短标签不得在控件内部折行。
+
+    这类缺陷不会报错，只是「LANG:」独占一行那样难看，极易在后续改动中回归：
+    宽度不够时应当**整颗控件换行**，而不是把控件里的文字压断。
+    """
+    errors = []
+
+    home = (ROOT / "templates" / "index.html.j2")
+    if home.exists():
+        css = home.read_text(encoding="utf-8")
+        # 允许整项换行（否则宽屏挤不下时只能压断文字）
+        # 必须落在**基础规则**里：写在媒体查询里只能救窄屏，宽屏仍会压断文字
+        if not _css_has(_css_without_media(css), ".header-links", "flex-wrap"):
+            errors.append("首页 .header-links 的基础规则缺少 flex-wrap：宽屏挤不下时会把控件内文字压断")
+        # 各短标签内部不折行
+        for selector in (".search-hint", ".sort-pill", ".footer-tag"):
+            if not _css_has(css, selector, "nowrap"):
+                errors.append(f"首页 {selector} 缺少 white-space: nowrap")
+        import re
+        if not re.search(r"\.header-links a[^{]*\{[^}]*white-space:\s*nowrap", css):
+            errors.append("首页 .header-links 的链接未设置 white-space: nowrap")
+
+    atlas = (ROOT / "templates" / "atlas.html.j2")
+    if atlas.exists():
+        css = atlas.read_text(encoding="utf-8")
+        if not _css_has(css, ".toggle", "nowrap"):
+            errors.append("Atlas .toggle 缺少 white-space: nowrap")
+        # 文字不折行后，窄屏必须允许整颗按钮换行，否则会撑宽文档
+        if not _css_has(css, ".tb-right", "flex-wrap"):
+            errors.append("Atlas .tb-right 缺少 flex-wrap：窄屏会横向溢出")
+
+    return _report(errors)
+
+
 def check_cross_page_nav() -> int:
     """跨页契约：原版主页要有进入 Atlas 的入口，Atlas 要能返回原版。
 
@@ -342,7 +414,11 @@ def main() -> int:
     nav = check_cross_page_nav()
     print(f"   {'ok' if nav == 0 else f'{nav} failed'}")
 
-    total_fail = failed + inv + shape + pub + page + nav
+    print("7) 标签不折行")
+    wrap = check_no_label_wrapping()
+    print(f"   {'ok' if wrap == 0 else f'{wrap} failed'}")
+
+    total_fail = failed + inv + shape + pub + page + nav + wrap
     print("\n" + ("✅ 全部通过" if total_fail == 0 else f"❌ {total_fail} 项失败"))
     return 1 if total_fail else 0
 
