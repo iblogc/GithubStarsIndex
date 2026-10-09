@@ -311,6 +311,32 @@ html[data-theme='dark'] .pill { background: #171d25; }
 }
 .dlg::backdrop { background: rgba(8, 12, 18, .6); }
 .dlg-inner { max-height: 86vh; overflow-y: auto; padding: 22px 24px 20px; }
+.dlg-lede { color: var(--fg-2); font-size: 12.5px; line-height: 1.6; margin: 4px 0 0; }
+.dlg-note {
+    margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line);
+    color: var(--fg-3); font-size: 11.5px; line-height: 1.6;
+}
+.icon-toggle { gap: 6px; }
+/* 链接网格：每项一行，名称 + 路径 + 字节数，便于直接读或复制 */
+.link-grid { display: flex; flex-direction: column; gap: 2px; }
+.link-grid.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 14px; }
+@media (max-width: 620px) { .link-grid.two-col { grid-template-columns: 1fr; } }
+/* 两栏下每格更窄：名称列自适应，路径与条目数靠右 */
+.link-grid.two-col .link-row { grid-template-columns: minmax(0, 1fr) auto auto; gap: 10px; }
+.link-row {
+    display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) auto;
+    align-items: baseline; gap: 10px;
+    padding: 5px 7px; border-radius: var(--radius-sm);
+    text-decoration: none; color: var(--fg);
+    transition: background .13s var(--ease);
+}
+html[data-theme='dark'] .link-row:hover { background: #1a212b; }
+.link-row:hover { background: var(--panel-2); text-decoration: none; }
+.link-row .nm { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.link-row .pt { color: var(--fg-3); font-family: var(--mono); font-size: 11px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.link-row .sz { color: var(--fg-3); font-size: 11px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.link-row:hover .nm { color: var(--sel); }
 .dlg .close {
     position: absolute; top: .7rem; right: .8rem;
     width: 1.9rem; height: 1.9rem; display: grid; place-items: center;
@@ -390,6 +416,16 @@ html[data-theme='dark'] .pill { background: #171d25; }
             </button>
             <button class="toggle" id="lang" aria-label="切换语言">
                 <span id="lang-label">EN</span>
+            </button>
+            <button class="toggle icon-toggle" id="data-open" aria-haspopup="dialog"
+                    aria-controls="data-dlg" aria-expanded="false">
+                <svg width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                    <circle cx="4" cy="8" r="1.6" fill="currentColor"/>
+                    <path d="M6.2 8h5.6" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+                    <circle cx="13" cy="4.4" r="1.5" stroke="currentColor" stroke-width="1.3"/>
+                    <circle cx="13" cy="11.6" r="1.5" stroke="currentColor" stroke-width="1.3"/>
+                </svg>
+                <span id="data-open-label">订阅与接口</span>
             </button>
         </div>
     </div>
@@ -479,6 +515,22 @@ html[data-theme='dark'] .pill { background: #171d25; }
     <div class="dlg-inner" id="dlg-inner"></div>
 </dialog>
 
+<dialog class="dlg" id="data-dlg" aria-labelledby="data-title">
+    <button class="close" id="data-close" aria-label="关闭">✕</button>
+    <div class="dlg-inner">
+        <h2 id="data-title"></h2>
+        <p class="dlg-lede" id="data-lede"></p>
+
+        <div class="sec-h" id="data-feed-h"></div>
+        <div class="link-grid two-col" id="data-feeds"></div>
+
+        <div class="sec-h" id="data-api-h"></div>
+        <div class="link-grid" id="data-apis"></div>
+
+        <p class="dlg-note" id="data-note"></p>
+    </div>
+</dialog>
+
 <script>
 /* ════════════════════════════════════════════════════════════
    数据网格。所有渲染走 DOM API（textContent），不拼 innerHTML，
@@ -548,7 +600,16 @@ const TEXT = {
         cat: '领域', sub: '分类', forms: '形态',
         starredAt: '收藏于', created: '创建于', pushedAt: '最近提交', starsN: 'Star', language: '语言',
         github: '在 GitHub 打开', home: '项目主页', noDesc: '该仓库未填写描述',
-        close: '关闭', scrimClose: '关闭筛选', back: '← 返回 Stars Archive', backTitle: '回到 Stars Archive 主页'
+        close: '关闭', scrimClose: '关闭筛选', back: '← 返回 Stars Archive', backTitle: '回到 Stars Archive 主页',
+        dataNav: '订阅与接口', dataTitle: '订阅与数据接口',
+        dataLede: '本页的数据可以直接带走：用阅读器订阅更新，或让 Agent 直接调用。',
+        dataFeed: 'RSS 订阅', dataApi: '数据接口（供 Agent 调用）',
+        dataAll: '全部新收藏',
+        apiIndex: '调用入口：分类全貌 + 分片清单',
+        apiIndexJsonl: '轻量索引：每行一个精简画像',
+        apiCorpus: '全量语料：含完整摘要与 topics',
+        apiReadme: '用法说明', apiLlms: '站点自述（llms.txt）',
+        dataNote: '订阅源按收藏时间倒序；接口是预先切好的静态文件，无需凭据即可取用。'
     },
     en: {
         count: (m, n) => `<b>${m}</b> of ${n} repositories`,
@@ -563,7 +624,16 @@ const TEXT = {
         cat: 'Domain', sub: 'Category', forms: 'Form',
         starredAt: 'Starred', created: 'Created', pushedAt: 'Last push', starsN: 'Stars', language: 'Language',
         github: 'Open on GitHub', home: 'Homepage', noDesc: 'This repository has no description',
-        close: 'Close', scrimClose: 'Close filters', back: '← Back to Stars Archive', backTitle: 'Back to the Stars Archive home page'
+        close: 'Close', scrimClose: 'Close filters', back: '← Back to Stars Archive', backTitle: 'Back to the Stars Archive home page',
+        dataNav: 'Feeds & API', dataTitle: 'Feeds and data API',
+        dataLede: 'This page\u2019s data is portable: subscribe with a feed reader, or let an agent call it directly.',
+        dataFeed: 'RSS feeds', dataApi: 'Data API (for agents)',
+        dataAll: 'All new stars',
+        apiIndex: 'Entry point: taxonomy + shard manifest',
+        apiIndexJsonl: 'Light index: one compact profile per line',
+        apiCorpus: 'Full corpus: complete summaries and topics',
+        apiReadme: 'Usage notes', apiLlms: 'Site self-description (llms.txt)',
+        dataNote: 'Feeds are ordered by when you starred each repo. The API is pre-split static files — no credentials needed.'
     }
 };
 const T = () => TEXT[S.lang];
@@ -850,7 +920,7 @@ function rowNode(item, idx) {
     tr.append(el('td', 'col-sub dim', item.sub && SUB_BY[item.sub] ? SUB_BY[item.sub].zh : '—'));
     tr.append(el('td', 'col-push n dim', item.p || '—'));
 
-    tr.addEventListener('click', () => selectRow(idx));
+    tr.addEventListener('click', () => selectRow(idx, true));
     return tr;
 }
 
@@ -881,13 +951,13 @@ function appendMore() {
     S.shown = target;
 }
 
-function selectRow(idx) {
+function selectRow(idx, openDialog) {
     if (idx < 0 || idx >= CURRENT.length) return;
     S.sel = idx;
     [...$('tbody').children].forEach((tr, i) => tr.classList.toggle('sel', i === idx));
     const tr = $('tbody').children[idx];
     if (tr) tr.scrollIntoView({ block: 'nearest' });
-    showDetail(CURRENT[idx]);
+    showDetail(CURRENT[idx], openDialog);
 }
 
 /* ════════════════════════════════════════════════════════════
@@ -956,7 +1026,14 @@ function buildDetail(item) {
     return box;
 }
 
-function showDetail(item) {
+/**
+ * 渲染详情。
+ *
+ * `openDialog` 必须区分「渲染」与「用户主动打开」：窄屏下若每次 render 都调用
+ * showModal()，页面一加载就会弹出一个盖住列表的对话框（曾经如此）。
+ * 因此只有用户点击某一行时才允许弹出。
+ */
+function showDetail(item, openDialog) {
     if (isWide()) {
         const panel = $('detail');
         panel.textContent = '';
@@ -964,14 +1041,67 @@ function showDetail(item) {
         panel.append(buildDetail(item));
         return;
     }
-    // 窄屏：走对话框
+    // 窄屏：详情走对话框，且仅在用户主动选择时打开
+    const dlg = $('dlg');
+    if (!openDialog) return;
     const inner = $('dlg-inner');
     inner.textContent = '';
     if (!item) return;
     inner.append(buildDetail(item));
-    const dlg = $('dlg');
     if (typeof dlg.showModal === 'function') { if (!dlg.open) dlg.showModal(); }
     else dlg.setAttribute('open', '');
+}
+
+/* ════════════════════════════════════════════════════════════
+   订阅与数据接口面板
+   ════════════════════════════════════════════════════════════ */
+
+/** 一行链接：名称 + 可复制的相对路径 + 附注（订阅源显示条目数） */
+function linkRow(name, path, extra) {
+    const a = el('a', 'link-row');
+    a.href = path;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.append(el('span', 'nm', name));
+    a.append(el('span', 'pt', path));
+    a.append(el('span', 'sz', extra || ''));
+    return a;
+}
+
+function renderDataPanel() {
+    const t = T();
+    $('data-title').textContent = t.dataTitle;
+    $('data-lede').textContent = t.dataLede;
+    $('data-feed-h').textContent = t.dataFeed;
+    $('data-api-h').textContent = t.dataApi;
+    $('data-note').textContent = t.dataNote;
+
+    // RSS：全站 + 每个有内容的领域（对应的 feed-<id>.xml 由构建脚本生成）
+    const feeds = $('data-feeds');
+    feeds.textContent = '';
+    feeds.append(linkRow(t.dataAll, 'feed.xml', String(META.count)));
+    CATS.filter(c => c.count).forEach(c => {
+        feeds.append(linkRow(label(c), `feed-${c.id}.xml`, String(c.count)));
+    });
+
+    // 接口：按「先看目录、再取分片」的顺序排列
+    const apis = $('data-apis');
+    apis.textContent = '';
+    [
+        [t.apiIndex, 'api/index.json'],
+        [t.apiIndexJsonl, 'api/index.jsonl'],
+        [t.apiCorpus, 'api/repos.jsonl'],
+        [t.apiReadme, 'api/README.md'],
+        [t.apiLlms, 'llms.txt'],
+    ].forEach(([name, path]) => apis.append(linkRow(name, path, '')));
+}
+
+function openDataPanel() {
+    renderDataPanel();
+    const d = $('data-dlg');
+    if (typeof d.showModal === 'function') { if (!d.open) d.showModal(); }
+    else d.setAttribute('open', '');
+    $('data-open').setAttribute('aria-expanded', 'true');
 }
 
 /* ════════════════════════════════════════════════════════════
@@ -997,7 +1127,7 @@ function render() {
 
     renderActive();
     updateStatic();
-    showDetail(CURRENT[S.sel] || null);
+    showDetail(CURRENT[S.sel] || null, false);
     saveHash();
 }
 
@@ -1058,6 +1188,10 @@ function updateStatic() {
     $('lang-label').textContent = S.lang === 'zh' ? 'EN' : '中文';
     $('theme-label').textContent = S.theme === 'dark' ? t.light : t.dark;
     $('dlg-close').setAttribute('aria-label', t.close);
+    $('data-close').setAttribute('aria-label', t.close);
+    $('data-open-label').textContent = t.dataNav;
+    $('data-open').setAttribute('aria-label', t.dataTitle);
+    if ($('data-dlg').open) renderDataPanel();   // 面板开着时切语言要跟着变
     const back = $('back-home');
     if (back) { back.textContent = t.back; back.title = t.backTitle; }
     $('foot-src').textContent = META.count + ' ' + t.repos + ' · ' + t.updated + ' ' + (META.sourceUpdated || '');
@@ -1119,13 +1253,18 @@ $('filter-open').addEventListener('click', () => openRail(!rail.classList.contai
 $('rail-close').addEventListener('click', () => openRail(false));
 scrim.addEventListener('click', () => openRail(false));
 
+$('data-open').addEventListener('click', openDataPanel);
+$('data-close').addEventListener('click', () => $('data-dlg').close());
+$('data-dlg').addEventListener('click', (e) => { if (e.target === $('data-dlg')) $('data-dlg').close(); });
+$('data-dlg').addEventListener('close', () => $('data-open').setAttribute('aria-expanded', 'false'));
+
 $('dlg-close').addEventListener('click', () => $('dlg').close());
 $('dlg').addEventListener('click', (e) => { if (e.target === $('dlg')) $('dlg').close(); });
 
 let rTimer = null;
 window.addEventListener('resize', () => {
     clearTimeout(rTimer);
-    rTimer = setTimeout(() => { showDetail(CURRENT[S.sel] || null); }, 150);
+    rTimer = setTimeout(() => { showDetail(CURRENT[S.sel] || null, false); }, 150);
 });
 
 /* ════════════════════════════════════════════════════════════
@@ -1173,8 +1312,8 @@ window.addEventListener('hashchange', () => { loadHash(); render(); });
     loadHash();
     render();
     if (isWide()) {
-        // 宽屏先选第一条，右侧面板不留空白
-        selectRow(0);
+        // 宽屏先选第一条，右侧面板不留空白（窄屏不预选，避免弹出遮挡列表的对话框）
+        selectRow(0, false);
     }
 })();
 </script>
