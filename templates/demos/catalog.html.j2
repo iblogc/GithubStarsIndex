@@ -56,6 +56,10 @@ h1 small{display:block;font-size:.85rem;font-weight:500;letter-spacing:.16em;tex
   padding-right:52px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .card-h .name em{font-style:normal;color:var(--ink-3);font-weight:500}
 .card-b{padding:12px 14px 14px}
+/* 项目自带描述：先于 AI 摘要出现，用左线区分「作者原话」与「机器摘要」 */
+.repo-desc{color:var(--ink);font-size:.86rem;margin:0 0 8px;padding-left:9px;border-left:2px solid var(--rule-2);
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.summary-label{font-family:var(--cond);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:3px}
 .desc{color:var(--ink-2);font-size:.9rem;margin:0 0 12px;
   display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .fields{border-top:1px dotted var(--rule-2);padding-top:10px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;font-size:.8rem;color:var(--ink-3)}
@@ -107,6 +111,8 @@ h1 small{display:block;font-size:.85rem;font-weight:500;letter-spacing:.16em;tex
         </div>
       </div>
       <div class="card-b">
+        {% if it.desc %}<p class="repo-desc">{{ it.desc }}</p>{% endif %}
+        <div class="summary-label">ai summary</div>
         <p class="desc">{{ it.summary }}</p>
         <div class="fields">
           <span>Star</span><b class="star">★ {{ it.stars_str }}</b>
@@ -115,7 +121,7 @@ h1 small{display:block;font-size:.85rem;font-weight:500;letter-spacing:.16em;tex
           <span>最近提交</span><b>{{ it.pushed }}</b>
         </div>
         <div class="kw">
-          {% for t in it.tags[:4] %}<span>{{ t }}</span>{% endfor %}
+          {% for t in it.ai_tags[:4] %}<span>{{ t }}</span>{% endfor %}
         </div>
       </div>
     </a>

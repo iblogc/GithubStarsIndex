@@ -67,6 +67,18 @@ FIELD_WEIGHT = {
     "domain": 1.4,
 }
 
+def star_bias(stars: int) -> float:
+    """把 Star 数折成 0..1，用作排序时的轻微偏好。
+
+    这里刻意不用「热度」之类的自创指标 —— 只用 GitHub 给的原始星数，
+    对数缩放后作为次要因子，避免冷门但精准的项目被高星项目挤掉。
+    """
+    import math
+    if stars <= 0:
+        return 0.0
+    return min(1.0, math.log10(1 + stars) / math.log10(1 + 500_000))
+
+
 # 停用词：任务描述里的常见虚词，避免它们把分数拉平
 STOPWORDS = {
     "the", "a", "an", "to", "for", "with", "of", "in", "on", "and", "or", "how",
@@ -144,7 +156,7 @@ class Corpus:
 
         items = [SA.build_item(r) for r in raw.get("repos", {}).values()
                  if (r.get("metadata") or {}).get("full_name")]
-        items.sort(key=lambda x: (-x["heat"], -x["s"]))
+        items.sort(key=lambda x: (-x["s"], x["k"]))
         facets = SA.build_facets(items)
         meta = {"count": len(items), "sourceUpdated": raw.get("last_updated", ""),
                 "starsCompact": SA.compact(sum(i["s"] for i in items))}
@@ -217,7 +229,7 @@ def relevance(it: dict, concepts: list[str]) -> float:
     覆盖了大部分概念的项目之后。因此总分乘以覆盖比例。
     """
     if not concepts:
-        return it.get("heat", 0) / 100.0
+        return star_bias(it.get("s", 0))
     f = _field_weights(it)
     scores = [concept_score(it, c, f) for c in concepts]
     hit = [s for s in scores if s > 0]
@@ -225,8 +237,8 @@ def relevance(it: dict, concepts: list[str]) -> float:
         return 0.0
     coverage = len(hit) / len(concepts)
     total = sum(hit) / len(concepts)          # 未覆盖的概念按 0 参与平均
-    # 热度只做轻微加成，避免冷门但精准的项目被埋没
-    return total * (0.35 + 0.65 * coverage) * (0.8 + 0.2 * it.get("heat", 0) / 100.0)
+    # Star 数只做轻微偏好，避免冷门但精准的项目被埋没
+    return total * (0.35 + 0.65 * coverage) * (0.8 + 0.2 * star_bias(it.get("s", 0)))
 
 
 def filter_items(c: Corpus, args: dict) -> list[dict]:
@@ -268,8 +280,8 @@ def brief(c: Corpus, it: dict, summary_chars: int = 200) -> dict:
         "domain": it["cat"],
         "domain_zh": c.cat_by.get(it["cat"], {}).get("zh"),
         "subcategory_zh": c.sub_by.get(it.get("sub") or "", {}).get("zh"),
-        "tags_zh": [c.tag_by[t]["zh"] for t in (it.get("tags") or []) if t in c.tag_by],
-        "heat": it.get("heat"),
+        "ai_tags_zh": [c.tag_by[t]["zh"] for t in (it.get("tags") or []) if t in c.tag_by],
+        "repo_topics": it.get("t") or [],
         "pushed_at": it.get("p") or None,
         "summary": clip(it.get("z") or it.get("e") or it.get("d") or "", summary_chars) or None,
     }
@@ -319,7 +331,7 @@ def tool_search_repos(c: Corpus, args: dict) -> dict:
         scored.sort(key=lambda x: (-x[0], -x[1].get("s", 0)))
         pool = [it for _, it in scored]
     else:
-        pool = sorted(pool, key=lambda x: (-x.get("heat", 0), -x.get("s", 0)))
+        pool = sorted(pool, key=lambda x: (-x.get("s", 0), x.get("k", "")))
     return {
         "matched": len(pool),
         "returned": min(limit, len(pool)),
@@ -343,11 +355,11 @@ def tool_recommend_for_task(c: Corpus, args: dict) -> dict:
         if s > 0:
             scored.append((s, it))
     if not scored:                       # 没命中就把该范围的热门项目给出去
-        fallback = sorted(pool, key=lambda x: (-x.get("heat", 0), -x.get("s", 0)))[:limit]
+        fallback = sorted(pool, key=lambda x: (-x.get("s", 0), x.get("k", "")))[:limit]
         return {
             "matched": 0,
             "interpreted_query": concepts[:12],
-            "note": "任务描述未与任何项目的标签/摘要匹配，以下为该范围热度最高的项目。",
+            "note": "任务描述未与任何项目的标签/摘要匹配，以下为该范围 Star 数最高的项目。",
             "repos": [brief(c, it) for it in fallback],
         }
     scored.sort(key=lambda x: (-x[0], -x[1].get("s", 0)))
@@ -379,12 +391,10 @@ def tool_get_repo(c: Corpus, args: dict) -> dict:
                 "subcategory": it.get("sub"),
                 "subcategory_zh": c.sub_by.get(it.get("sub") or "", {}).get("zh"),
                 "secondary_domains": it["cats"][1:],
-                "tags": [{"id": t, "zh": c.tag_by.get(t, {}).get("zh")}
-                         for t in (it.get("tags") or [])],
+                "ai_tags": [{"id": t, "zh": c.tag_by.get(t, {}).get("zh")}
+                            for t in (it.get("tags") or [])],
+                "repo_topics": it.get("t") or [],
                 "forms": it.get("forms") or [],
-                "topics": it.get("t") or [],
-                "heat": it.get("heat"),
-                "momentum": it.get("mom"),
                 "pushed_at": it.get("p") or None,
                 "starred_at": it.get("st") or None,
             }
@@ -403,7 +413,7 @@ def tool_get_domain_digest(c: Corpus, args: dict) -> dict:
     if not pool:
         return {"error": f"没有匹配的范围 domain={domain!r} tag={tag!r}",
                 "available_domains": [x["id"] for x in c.facets.get("cats", []) if x.get("count")][:20]}
-    pool = sorted(pool, key=lambda x: (-x.get("heat", 0), -x.get("s", 0)))
+    pool = sorted(pool, key=lambda x: (-x.get("s", 0), x.get("k", "")))
     label = c.cat_by.get(domain, {}).get("zh") if domain else (
         c.tag_by.get(tag, {}).get("zh") if tag else "全部")
     return {
@@ -454,7 +464,7 @@ TOOLS = [
         "name": "recommend_for_task",
         "description": ("用一段自然语言描述你正在做的任务，返回最契合的项目候选。"
                         "适合「我要做 X，有没有现成的项目可以参考/复用」这类场景；"
-                        "结果按标签与摘要的相关度排序，兼顾热度。"),
+                        "结果按标签与摘要的相关度排序，并以 Star 数作轻微偏好。"),
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -471,7 +481,7 @@ TOOLS = [
     {
         "name": "get_repo",
         "description": ("取单个项目的完整档案：中英文摘要、领域与子类、主题标签、形态、"
-                        "topics、热度与活跃度、最近提交与收藏时间，以及 GitHub 地址。"),
+                        "AI 标签、仓库自带 topics、最近提交与收藏时间，以及 GitHub 地址。"),
         "inputSchema": {
             "type": "object",
             "properties": {"full_name": {"type": "string", "description": "owner/repo，例如 fatedier/frp"}},
@@ -480,7 +490,7 @@ TOOLS = [
     },
     {
         "name": "get_domain_digest",
-        "description": ("取某个领域（或某个主题标签）的代表作速览，按热度排序。"
+        "description": ("取某个领域（或某个主题标签）的代表作速览，按 Star 数排序。"
                         "适合需要快速了解某个方向都有哪些成熟项目时使用。"),
         "inputSchema": {
             "type": "object",
@@ -630,8 +640,8 @@ def selftest(c: Corpus) -> int:
 
     dg = tool_get_domain_digest(c, {"domain": "ai", "limit": 5})
     check("领域速览有结果", len(dg.get("repos", [])) == 5)
-    check("速览按热度降序",
-          all(dg["repos"][i]["heat"] >= dg["repos"][i + 1]["heat"] for i in range(len(dg["repos"]) - 1)))
+    check("速览按 Star 降序",
+          all(dg["repos"][i]["stars"] >= dg["repos"][i + 1]["stars"] for i in range(len(dg["repos"]) - 1)))
 
     bad = tool_get_domain_digest(c, {"domain": "nope"})
     check("无效领域给出可用值", "error" in bad and bad.get("available_domains"))

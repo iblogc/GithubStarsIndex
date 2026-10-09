@@ -69,14 +69,12 @@ def api_item(it: dict, cats: dict, subs: dict, tags: dict, forms: dict) -> dict:
         "subcategory": sub.get("id"),
         "subcategory_zh": sub.get("zh"),
         "secondary_domains": [c for c in it["cats"][1:]],
-        "tags": [{"id": t, "zh": tags.get(t, {}).get("zh"), "en": tags.get(t, {}).get("en")}
-                 for t in it["tags"]],
+        # 两种标签来源不同，字段名必须能区分
+        "ai_tags": [{"id": t, "zh": tags.get(t, {}).get("zh"), "en": tags.get(t, {}).get("en")}
+                    for t in it["tags"]],
+        "repo_topics": it["t"],
         "forms": [{"id": f, "zh": forms.get(f, {}).get("zh"), "en": forms.get(f, {}).get("en")}
                   for f in it["forms"]],
-        "topics": it["t"],
-        "heat": it["heat"],
-        "momentum": it["mom"],
-        "stars_tier": it["tier"],
         "pushed_at": it["p"] or None,
         "starred_at": it["st"] or None,
     }
@@ -177,7 +175,7 @@ def write_api(dataset: dict, out_dir: Path, site: str) -> dict:
     idx_rows = [{
         "full_name": i["k"], "url": i["u"], "description": _plain(i["d"] or i["z"], 160) or None,
         "stars": i["s"], "language": i["l"], "domain": i["cat"], "subcategory": i["sub"],
-        "tags": i["tags"], "forms": i["forms"], "heat": i["heat"],
+        "ai_tags": i["tags"], "forms": i["forms"],
         "pushed_at": i["p"] or None, "starred_at": i["st"] or None,
     } for i in items]
     idx_bytes = _dump_jsonl(out_dir / idx_rel, idx_rows)
@@ -210,24 +208,21 @@ def write_api(dataset: dict, out_dir: Path, site: str) -> dict:
             "full_name": "owner/repo",
             "url": "GitHub 地址",
             "homepage": "项目主页，可能为 null",
-            "description": "作者写的仓库描述",
+            "description": "仓库自带的项目描述（作者撰写，GitHub 上的原文）",
             "summary_zh": "AI 生成的中文摘要（可能为 null）",
             "summary_en": "AI 生成的英文摘要（可能为 null）",
-            "stars": "Star 数",
+            "stars": "Star 数（GitHub 原始值）",
             "language": "主要语言",
             "domain": "主领域 id，取值见 facets.domains[].id",
             "domain_zh": "主领域中文名",
             "subcategory": "子类 id",
             "subcategory_zh": "子类中文名",
             "secondary_domains": "次要领域 id 列表（一个项目可跨领域）",
-            "tags": "主题标签列表 [{id,zh,en}]",
+            "ai_tags": "AI 生成的标签列表 [{id,zh,en}]",
+            "repo_topics": "仓库自带的 GitHub topics（作者填写，非 AI 生成）",
             "forms": "形态列表：app/cli/ext/lib/theme/list/asset/doc",
-            "topics": "GitHub topics 原文",
-            "heat": "热度 0-100，对数归一，跨项目可比",
-            "momentum": "活跃度 0-100，叠加最近提交时间",
-            "stars_tier": "1=万人级 2=千人级 3=起步级",
-            "pushed_at": "最近提交日期",
-            "starred_at": "被收藏的日期（RSS 以此为发布时间的依据）",
+            "pushed_at": "最近提交日期（GitHub 原始值）",
+            "starred_at": "被收藏的日期（GitHub 原始值，RSS 以此为发布时间的依据）",
         },
         "facets": {
             "domains": [{"id": c["id"], "code": c["code"], "zh": c["zh"], "en": c["en"],
@@ -363,7 +358,7 @@ get_repo / list_facets 四个工具。
 ## 每一条记录包含
 
 仓库名、地址、主页、描述、中英文 AI 摘要、Star 数、语言、所属领域与子类、
-主题标签、形态、GitHub topics、热度与活跃度评分、最近提交与收藏日期。
+AI 标签与仓库自带 topics、形态、最近提交与收藏日期。
 每个仓库都带 GitHub 地址，可直接打开阅读源码与文档。
 """
 

@@ -72,6 +72,8 @@ pre.ascii{margin:0;font-size:11.5px;line-height:1.25;color:var(--cyn);overflow-x
 .reader dt{color:var(--fg-dim)}
 .reader dd{margin:0;color:var(--fg)}
 .reader .sum{color:var(--fg);border-left:2px solid var(--line-2);padding-left:12px;margin:12px 0;white-space:pre-wrap}
+/* 项目自带描述：作者原话，与下方 AI 摘要用不同质感区分 */
+.reader .repo-desc{color:var(--cyn);border-left:2px solid var(--cyn);padding-left:12px;margin:12px 0;font-size:12.5px}
 .cmd{color:var(--grn)}
 
 /* 键位提示 */
@@ -93,7 +95,7 @@ pre.ascii{margin:0;font-size:11.5px;line-height:1.25;color:var(--cyn);overflow-x
 <pre class="ascii">
    ╺╸ STARS ATLAS ╺╸   <span style="color:var(--fg-dim)">index of starred repositories, classified offline</span>
 
-   domain  angle   ·   radius  heat   ·   dot  ★ stars
+   domain  angle   ·   radius & dot  ★ stars
    ─────────────────────────────────────────────────────────
    ai 454   dv 241   wb 358   da 91    cl 43    sy 110   nw 58
    se 30    md 80    dc 76    of 26    cm 94    mo 88    ds 22
@@ -107,7 +109,7 @@ pre.ascii{margin:0;font-size:11.5px;line-height:1.25;color:var(--cyn);overflow-x
 </div>
 
 <div class="box">
-  <div class="tb"><span>RESULTS — 按热度排序</span><span id="cnt">{{ dense | length }} shown</span></div>
+  <div class="tb"><span>RESULTS — 按 Star 数排序</span><span id="cnt">{{ dense | length }} shown</span></div>
   <div class="bd" style="padding:0">
     <div class="rows" id="rows">
       <div class="row hrow">
@@ -138,11 +140,11 @@ pre.ascii{margin:0;font-size:11.5px;line-height:1.25;color:var(--cyn);overflow-x
     <dl>
       <dt>domain</dt><dd>{{ first.domain_zh }} ({{ first.domain }})</dd>
       <dt>subcategory</dt><dd>{{ first.sub_zh }}</dd>
-      <dt>tags</dt><dd>{{ first.tags | join(' · ') }}</dd>
-      <dt>topics</dt><dd>{{ first.topics[:8] | join(', ') }}</dd>
+      <dt>ai_tags</dt><dd>{{ first.ai_tags | join(' · ') }}</dd>
+      <dt>repo_topics</dt><dd>{{ first.repo_topics[:8] | join(', ') }}</dd>
       <dt>starred</dt><dd>{{ first.starred }} &nbsp; pushed {{ first.pushed }}</dd>
-      <dt>heat</dt><dd>{{ first.heat }} / momentum {{ first.momentum }}</dd>
     </dl>
+    {% if first.desc %}<div class="repo-desc">{{ first.desc }}</div>{% endif %}
     <div class="sum">{{ first.summary_long }}</div>
     <div><span class="cmd">$</span> open {{ first.url }}</div>
   </div>
@@ -175,10 +177,11 @@ function paint() {
   const dd = rd.querySelectorAll('dd');
   dd[0].textContent = `${it.domain_zh} (${it.domain})`;
   dd[1].textContent = it.sub_zh;
-  dd[2].textContent = it.tags.join(' · ');
-  dd[3].textContent = it.topics.slice(0, 8).join(', ');
+  dd[2].textContent = it.ai_tags.join(' · ');
+  dd[3].textContent = it.repo_topics.slice(0, 8).join(', ');
   dd[4].textContent = `${it.starred}  pushed ${it.pushed}`;
-  dd[5].textContent = `${it.heat} / momentum ${it.momentum}`;
+  const rdesc = rd.querySelector('.repo-desc');
+  if (rdesc) rdesc.textContent = it.desc || '';
   rd.querySelector('.sum').textContent = it.summary_long;
   rd.querySelector('.cmd').parentElement.lastChild.textContent = ' ' + it.url;
 }
@@ -203,7 +206,7 @@ document.getElementById('q').addEventListener('input', e => {
   let n = 0;
   rows.forEach((r, i) => {
     const it = DATA[i];
-    const hit = !v || (it.name + ' ' + it.desc + ' ' + it.summary + ' ' + it.tags.join(' ') + ' ' + it.topics.join(' ')).toLowerCase().includes(v);
+    const hit = !v || (it.name + ' ' + it.desc + ' ' + it.summary + ' ' + it.ai_tags.join(' ') + ' ' + it.repo_topics.join(' ')).toLowerCase().includes(v);
     r.style.display = hit ? '' : 'none';
     if (hit) n++;
   });
