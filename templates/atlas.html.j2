@@ -426,6 +426,11 @@ html[data-theme='dark'] .pill { background: #171d25; }
         </div>
 
         <div class="group">
+            <h2 id="g-cyear">创建年份</h2>
+            <div class="chips" id="f-cyear" role="group" aria-labelledby="g-cyear"></div>
+        </div>
+
+        <div class="group">
             <h2 id="g-star">星数</h2>
             <div class="chips" id="f-tier" role="group" aria-labelledby="g-star"></div>
         </div>
@@ -488,6 +493,7 @@ const TAGS = DATA.facets.tags;
 const FORMS = DATA.facets.forms;
 const LANGS = DATA.facets.languages;
 const YEARS = DATA.facets.years;
+const CREATED_YEARS = DATA.facets.createdYears || [];
 
 /* 索引：id -> 展示名 */
 const CAT_BY = {}, SUB_BY = {}, TAG_BY = {}, FORM_BY = {};
@@ -521,7 +527,7 @@ const DEFAULT_DIR = { s: 'desc', p: 'desc', n: 'asc', l: 'asc', cat: 'asc', sub:
 const S = {
     q: '',
     cats: new Set(), subs: new Set(), tags: new Set(),
-    forms: new Set(), langs: new Set(), years: new Set(), tiers: new Set(),
+    forms: new Set(), langs: new Set(), years: new Set(), cyears: new Set(), tiers: new Set(),
     sort: 's', dir: 'desc',
     lang: 'zh', theme: 'light',
     sel: 0,                 // 当前选中行在 CURRENT 中的下标
@@ -534,13 +540,13 @@ const TEXT = {
         repos: '个仓库', updated: '更新',
         search: '搜索仓库、描述、摘要、标签…（空格分隔 = 同时满足）',
         filter: '筛选', light: '浅色', dark: '深色',
-        domain: '领域', lang: '语言', tag: 'AI 标签', form: '形态', year: '收藏年份', star: '星数',
+        domain: '领域', lang: '语言', tag: 'AI 标签', form: '形态', year: '收藏年份', cyear: '创建年份', star: '星数',
         filterTag: '过滤标签…', showAll: '显示全部', showMore: '显示更多',
         clear: '清除全部筛选', none: '没有命中', noneHint: '减少几个筛选条件，或清空后重新开始。',
         detailEmpty: '从左侧列表选一个项目查看详情',
         desc: '项目描述', summary: 'AI 摘要', aiTags: 'AI 标签', repoTopics: '项目自带标签',
         cat: '领域', sub: '分类', forms: '形态',
-        starredAt: '收藏于', pushedAt: '最近提交', starsN: 'Star', language: '语言',
+        starredAt: '收藏于', created: '创建于', pushedAt: '最近提交', starsN: 'Star', language: '语言',
         github: '在 GitHub 打开', home: '项目主页', noDesc: '该仓库未填写描述',
         close: '关闭', scrimClose: '关闭筛选'
     },
@@ -549,13 +555,13 @@ const TEXT = {
         repos: 'repos', updated: 'Updated',
         search: 'Search repos, descriptions, summaries, tags… (space = AND)',
         filter: 'Filters', light: 'Light', dark: 'Dark',
-        domain: 'Domain', lang: 'Language', tag: 'AI tags', form: 'Form', year: 'Starred year', star: 'Stars',
+        domain: 'Domain', lang: 'Language', tag: 'AI tags', form: 'Form', year: 'Starred year', cyear: 'Created year', star: 'Stars',
         filterTag: 'Filter tags…', showAll: 'Show all', showMore: 'Show more',
         clear: 'Clear all filters', none: 'Nothing matches', noneHint: 'Remove a condition, or clear the filters and start over.',
         detailEmpty: 'Pick a repository to see its details',
         desc: 'Description', summary: 'AI summary', aiTags: 'AI tags', repoTopics: 'Repo topics',
         cat: 'Domain', sub: 'Category', forms: 'Form',
-        starredAt: 'Starred', pushedAt: 'Last push', starsN: 'Stars', language: 'Language',
+        starredAt: 'Starred', created: 'Created', pushedAt: 'Last push', starsN: 'Stars', language: 'Language',
         github: 'Open on GitHub', home: 'Homepage', noDesc: 'This repository has no description',
         close: 'Close', scrimClose: 'Close filters'
     }
@@ -601,6 +607,7 @@ function hit(item, skip) {
     if (skip !== 'forms' && S.forms.size && !item.forms.some(f => S.forms.has(f))) return false;
     if (skip !== 'langs' && S.langs.size && !S.langs.has(item.l)) return false;
     if (skip !== 'years' && S.years.size && !S.years.has(item.y)) return false;
+    if (skip !== 'cyears' && S.cyears.size && !S.cyears.has(item.cy)) return false;
     if (skip !== 'tiers' && S.tiers.size && !S.tiers.has(tierOf(item.s))) return false;
     return true;
 }
@@ -901,6 +908,7 @@ function buildDetail(item) {
     stat(T().cat, CAT_BY[item.cat] ? CAT_BY[item.cat].zh : '—');
     stat(T().sub, item.sub && SUB_BY[item.sub] ? SUB_BY[item.sub].zh : '—');
     stat(T().starredAt, item.st || '—');
+    stat(T().created, item.cr || '—');
     stat(T().pushedAt, item.p || '—');
     box.append(dl);
 
@@ -979,6 +987,7 @@ function render() {
     renderTagFacet();
     renderChipFacet('f-form', FORMS, S.forms, it => it.forms, 'forms');
     renderChipFacet('f-year', YEARS, S.years, it => it.y, 'years');
+    renderChipFacet('f-cyear', CREATED_YEARS, S.cyears, it => it.cy, 'cyears');
     renderTierFacet();
     renderHead();
     renderRows();
@@ -1014,6 +1023,7 @@ function renderActive() {
     S.forms.forEach(v => add(label(FORM_BY[v]), S.forms, v));
     S.langs.forEach(v => add(v, S.langs, v));
     S.years.forEach(v => add(String(v), S.years, v));
+    S.cyears.forEach(v => add(String(v), S.cyears, v));
     S.tiers.forEach(v => add(TIER_LABEL[S.lang][v], S.tiers, v));
     if (S.q.trim()) box.append(chip(`“${S.q.trim()}”`, null, true, () => { S.q = ''; $('q').value = ''; render(); }));
     if (box.children.length) {
@@ -1026,7 +1036,7 @@ function renderActive() {
 
 function clearAll() {
     S.cats.clear(); S.subs.clear(); S.tags.clear();
-    S.forms.clear(); S.langs.clear(); S.years.clear(); S.tiers.clear();
+    S.forms.clear(); S.langs.clear(); S.years.clear(); S.cyears.clear(); S.tiers.clear();
     S.q = ''; $('q').value = '';
     S.sort = 's'; S.dir = 'desc';
     render();
@@ -1041,6 +1051,7 @@ function updateStatic() {
     $('g-tag').textContent = t.tag;
     $('g-form').textContent = t.form;
     $('g-year').textContent = t.year;
+    $('g-cyear').textContent = t.cyear;
     $('g-star').textContent = t.star;
     $('tag-search').placeholder = t.filterTag;
     $('filter-open-label').textContent = t.filter;
@@ -1123,7 +1134,7 @@ function saveHash() {
     if (S.q.trim()) p.set('q', S.q.trim());
     const put = (k, s) => { if (s.size) p.set(k, [...s].join(',')); };
     put('cat', S.cats); put('sub', S.subs); put('tag', S.tags);
-    put('form', S.forms); put('lang', S.langs); put('year', S.years); put('tier', S.tiers);
+    put('form', S.forms); put('lang', S.langs); put('year', S.years); put('cyear', S.cyears); put('tier', S.tiers);
     if (S.sort !== 's') p.set('sort', S.sort);
     if (S.dir !== 'desc') p.set('dir', S.dir);
     const h = p.toString();
@@ -1134,7 +1145,7 @@ function loadHash() {
     const p = new URLSearchParams(location.hash.slice(1));
     // 先清空，让「后退 / 手动改 hash」也能正确切回上一次的视图
     S.cats.clear(); S.subs.clear(); S.tags.clear();
-    S.forms.clear(); S.langs.clear(); S.years.clear(); S.tiers.clear();
+    S.forms.clear(); S.langs.clear(); S.years.clear(); S.cyears.clear(); S.tiers.clear();
     S.q = ''; S.sort = 's'; S.dir = 'desc'; S.sel = 0;
     const get = (k, set, cast) => {
         const v = p.get(k);
@@ -1142,7 +1153,8 @@ function loadHash() {
     };
     if (p.get('q')) S.q = p.get('q');
     get('cat', S.cats); get('sub', S.subs); get('tag', S.tags);
-    get('form', S.forms); get('lang', S.langs); get('year', S.years, Number); get('tier', S.tiers, Number);
+    get('form', S.forms); get('lang', S.langs); get('year', S.years, Number);
+    get('cyear', S.cyears, Number); get('tier', S.tiers, Number);
     if (p.get('sort')) S.sort = p.get('sort');
     if (p.get('dir')) S.dir = p.get('dir');
     $('q').value = S.q;
