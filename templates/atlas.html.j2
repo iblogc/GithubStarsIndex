@@ -5,7 +5,7 @@
       data.facets   领域/语言/标签/形态/年份 的完整词表与计数
       data.items    每个仓库的分类与展示字段
 
-    设计：以「星图」为核心隐喻 —— 角度=领域，距圆心=热度，点径=Star 数。
+    设计：以「星图」为核心隐喻 —— 角度=领域，距圆心与点径都按 Star 数。
     页面不依赖任何外部 JS 库；字体走 Google Fonts（与 v1 保持同样的取用方式）。
 -#}
 <!DOCTYPE html>
@@ -14,7 +14,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Stars Atlas · GitHub 星图</title>
-<meta name="description" content="把 GitHub Stars 绘成一张星图：按领域分区、按热度定位，支持多维筛选与检索。">
+<meta name="description" content="把 GitHub Stars 绘成一张星图：按领域分区、按 Star 数定位，支持多维筛选与检索。">
 <meta name="color-scheme" content="dark light">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -408,15 +408,6 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
     background: var(--ink-card); border: 1px solid var(--line-soft);
     border-radius: 999px; padding: 0.08rem 0.5rem;
 }
-.heat {
-    display: inline-flex; align-items: center; gap: 0.3rem;
-    font-size: 0.76rem; color: var(--fg-mute);
-}
-.heat-track {
-    width: 2.4rem; height: 3px; border-radius: 2px;
-    background: var(--line); overflow: hidden;
-}
-.heat-fill { display: block; height: 100%; background: var(--gold); }
 
 .empty {
     padding: 4rem 1rem; text-align: center; color: var(--fg-soft);
@@ -613,12 +604,12 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
                 <div>
                     <div class="field-title" id="field-title">星图</div>
                     <div class="field-hint" id="field-hint">
-                        <b>角度</b> 领域 · <b>半径</b> 热度 · <b>点径</b> Star 数
+                        <b>角度</b> 领域 · <b>半径</b> 与 <b>点径</b> 都按 Star 数
                     </div>
                 </div>
                 <div class="field-hint" id="field-state"></div>
             </div>
-            <canvas id="field" role="img" aria-label="按领域与热度分布的仓库星图，可用左侧列表代替浏览"></canvas>
+            <canvas id="field" role="img" aria-label="按领域与 Star 数分布的仓库星图，可用左侧列表代替浏览"></canvas>
             <div class="field-tip" id="tip" role="status"></div>
         </div>
 
@@ -679,14 +670,17 @@ CATS.forEach(c => {
 TAGS.forEach(t => { TAG_BY[t.id] = t; });
 FORMS.forEach(f => { FORM_BY[f.id] = f; });
 
+/** 星数分档：由 stars 现算，不再依赖数据集里的自创指标 */
+function tierOf(stars) { return stars >= 10000 ? 1 : stars >= 1000 ? 2 : 3; }
+
 const TIER_LABEL = {
     zh: { 1: '万人级', 2: '千人级', 3: '起步级' },
     en: { 1: '10k+', 2: '1k+', 3: 'starter' }
 };
 
 const SORT_LABEL = {
-    zh: { heat: '热度', s: 'Star', p: '最近更新', st: '收藏时间', n: '名称' },
-    en: { heat: 'Heat', s: 'Stars', p: 'Updated', st: 'Starred', n: 'Name' }
+    zh: { s: 'Star', p: '最近更新', st: '收藏时间', n: '名称' },
+    en: { s: 'Stars', p: 'Updated', st: 'Starred', n: 'Name' }
 };
 
 /* ── 状态 ─────────────────────────────────────────────────── */
@@ -694,44 +688,46 @@ const S = {
     q: '',
     cats: new Set(), subs: new Set(), tags: new Set(),
     forms: new Set(), langs: new Set(), years: new Set(), tiers: new Set(),
-    sort: 'heat', dir: 'desc',
+    sort: 's', dir: 'desc',
     lang: 'zh', theme: 'dark',
     shown: 0
 };
 
 const TEXT = {
     zh: {
-        lede: (n) => `把 ${n} 个收藏的仓库摊开成一张星图：角度是领域，离圆心越近越热，点径是 Star 数。`,
+        lede: (n) => `把 ${n} 个收藏的仓库摊开成一张星图：角度是领域，越靠近圆心、点越大，Star 数越多。`,
         repos: '仓库', stars: '星标合计', domains: '领域', updated: '数据更新',
         search: '搜索仓库、描述、标签…（空格分隔 = 同时满足）',
         filter: '筛选', light: '浅色', dark: '深色',
         domain: '领域', lang: '语言', tag: '主题', form: '形态', year: '收藏年份',
         filterTag: '过滤主题…', showAll: '显示全部', showMore: '显示更多',
-        field: '星图', fieldHint: '角度 领域 · 半径 热度 · 点径 Star 数',
-        sort: '排序', asc: '升序', desc: '降序',
+        field: '星图', fieldHint: '角度 领域 · 距圆心与点径都按 Star 数',
+        sortBy: '排序', ascOrder: '升序', descOrder: '降序',
         count: (m, n) => `<b>${m}</b> / ${n} 个仓库`,
         clear: '清除全部筛选', none: '没有命中的仓库',
         noneHint: '试试减少几个条件，或直接清空筛选重新开始。',
-        desc: '项目描述', summary: 'AI 摘要', topics: 'Topics', cat: '领域',
-        sub: '分类', tags: '主题标签', forms: '形态', popularity: '热度', momentum: '活跃度',
+        desc: '项目描述', summary: 'AI 摘要',
+        repoTopics: '项目自带标签', aiTags: 'AI 标签', cat: '领域',
+        sub: '分类', forms: '形态',
         starredAt: '收藏于', pushedAt: '最近提交', starsN: 'Star', language: '语言',
         github: '在 GitHub 打开', home: '项目主页', nosum: '暂无摘要。',
         noHome: '该项目未填写主页', close: '关闭', scrimClose: '关闭筛选'
     },
     en: {
-        lede: (n) => `${n} starred repositories laid out as a star chart: angle is the domain, closer to the centre is hotter, dot size is stars.`,
+        lede: (n) => `${n} starred repositories laid out as a star chart: angle is the domain, and closer to the centre plus a bigger dot both mean more stars.`,
         repos: 'Repos', stars: 'Total stars', domains: 'Domains', updated: 'Updated',
         search: 'Search repos, descriptions, tags… (space = AND)',
         filter: 'Filters', light: 'Light', dark: 'Dark',
         domain: 'Domain', lang: 'Language', tag: 'Topics', form: 'Form', year: 'Starred year',
         filterTag: 'Filter topics…', showAll: 'Show all', showMore: 'Show more',
-        field: 'The field', fieldHint: 'Angle domain · Radius heat · Size stars',
-        sort: 'Sort', asc: 'Ascending', desc: 'Descending',
+        field: 'The field', fieldHint: 'Angle the domain · Radius and size both track stars',
+        sortBy: 'Sort', ascOrder: 'Ascending', descOrder: 'Descending',
         count: (m, n) => `<b>${m}</b> of ${n} repositories`,
         clear: 'Clear all filters', none: 'Nothing matches',
         noneHint: 'Remove a condition, or clear the filters and start over.',
-        desc: 'Description', summary: 'AI summary', topics: 'Topics', cat: 'Domain',
-        sub: 'Category', tags: 'Tags', forms: 'Form', popularity: 'Heat', momentum: 'Momentum',
+        desc: 'Description', summary: 'AI summary',
+        repoTopics: 'Repo topics', aiTags: 'AI tags', cat: 'Domain',
+        sub: 'Category', forms: 'Form',
         starredAt: 'Starred', pushedAt: 'Last push', starsN: 'Stars', language: 'Language',
         github: 'Open on GitHub', home: 'Homepage', nosum: 'No summary yet.',
         noHome: 'No homepage listed', close: 'Close', scrimClose: 'Close filters'
@@ -778,7 +774,7 @@ function hit(item, skip) {
     if (skip !== 'forms' && S.forms.size && !item.forms.some(f => S.forms.has(f))) return false;
     if (skip !== 'langs' && S.langs.size && !S.langs.has(item.l)) return false;
     if (skip !== 'years' && S.years.size && !S.years.has(item.y)) return false;
-    if (skip !== 'tiers' && S.tiers.size && !S.tiers.has(item.tier)) return false;
+    if (skip !== 'tiers' && S.tiers.size && !S.tiers.has(tierOf(item.s))) return false;
     return true;
 }
 
@@ -800,8 +796,7 @@ function results() {
     const out = ITEMS.filter(match);
     const dir = S.dir === 'asc' ? 1 : -1;
     const key = {
-        heat: (a, b) => (a.heat - b.heat) || (a.s - b.s),
-        s: (a, b) => (a.s - b.s) || (a.heat - b.heat),
+        s: (a, b) => (a.s - b.s) || a.k.localeCompare(b.k),
         p: (a, b) => a.p.localeCompare(b.p),
         st: (a, b) => a.st.localeCompare(b.st),
         n: (a, b) => a.n.localeCompare(b.n, S.lang === 'zh' ? 'zh' : 'en')
@@ -981,14 +976,7 @@ function entryNode(item) {
     b.append(side);
 
     const foot = el('div', 'entry-foot');
-    const heat = el('span', 'heat');
-    heat.append(document.createTextNode((S.lang === 'zh' ? '热度' : 'heat') + ' '));
-    const track = el('span', 'heat-track');
-    const fill = el('i', 'heat-fill');
-    fill.style.width = item.heat + '%';
-    track.append(fill);
-    heat.append(track);
-    foot.append(heat);
+    foot.append(el('span', 'tag', TIER_LABEL[S.lang][tierOf(item.s)]));
     // 去重：子类名可能与主题标签同义（如「API 与 SDK」），只保留一次
     const seenTag = new Set();
     if (item.sub && SUB_BY[item.sub]) {
@@ -1091,13 +1079,13 @@ function layout() {
         a += span;
     });
 
-    // 领域内按热度降序 -> 半径由内到外
+    // 领域内按 Star 数降序 -> 半径由内到外
     const byCat = new Map();
     ITEMS.forEach(it => {
         if (!byCat.has(it.cat)) byCat.set(it.cat, []);
         byCat.get(it.cat).push(it);
     });
-    byCat.forEach(list => list.sort((x, y) => y.heat - x.heat || y.s - x.s));
+    byCat.forEach(list => list.sort((x, y) => y.s - x.s || x.k.localeCompare(y.k)));
 
     POINTS = [];
     sect.forEach(s => {
@@ -1107,14 +1095,14 @@ function layout() {
         list.forEach((it, rank) => {
             const t = n > 1 ? rank / (n - 1) : 0;
             const r = R * (0.26 + 0.74 * t);
-            // 稳定的角度抖动，避免同热度排成一条直线
+            // 稳定的角度抖动，避免同星数的排成一条直线
             const frac = ((rank * 0.6180339887) % 1);
             const ang = s.a0 + pad + (s.a1 - s.a0 - 2 * pad) * frac;
             POINTS.push({
                 it, s: s.cat,
                 x: cx + Math.cos(ang) * r,
                 y: cy + Math.sin(ang) * r,
-                R: 1.15 + (it.heat / 100) * 3.4,
+                R: 1.4 + Math.min(3.6, Math.log10(1 + it.s) / Math.log10(500_000) * 4.6),
                 a0: s.a0, a1: s.a1
             });
         });
@@ -1182,7 +1170,7 @@ function draw() {
         const p = POINTS[i];
         const on = !vis || vis.has(p.it.k);
         const isHover = HOVER && HOVER.it.k === p.it.k;
-        // 入场：按热度顺序渐显
+        // 入场：按排列顺序渐显
         const appear = Math.max(0, Math.min(1, (ease * POINTS.length - i * 0.55) / 26));
         if (appear <= 0) continue;
 
@@ -1291,14 +1279,19 @@ function openDetail(item) {
         grid.append(wrap);
     };
     stat(T().starsN, '★ ' + fmt(item.s));
-    stat(T().popularity, String(item.heat), item.heat);
-    stat(T().momentum, String(item.mom), item.mom);
     stat(T().language, item.l);
     stat(T().starredAt, dateShort(item.st));
     stat(T().pushedAt, dateShort(item.p));
     sec1.append(grid);
     box.append(sec1);
 
+    // 顺序与各 demo 统一：作者原话在前，AI 摘要在后
+    if (item.d) {
+        const sec = el('div', 'detail-section');
+        sec.append(el('h4', null, T().desc));
+        sec.append(el('p', 'detail-body', item.d));
+        box.append(sec);
+    }
     const body = S.lang === 'zh' ? (item.z || item.e) : (item.e || item.z);
     if (body) {
         const sec = el('div', 'detail-section');
@@ -1306,16 +1299,11 @@ function openDetail(item) {
         sec.append(el('p', 'detail-body' + (S.lang === 'zh' ? ' zh' : ''), body));
         box.append(sec);
     }
-    if (item.d) {
-        const sec = el('div', 'detail-section');
-        sec.append(el('h4', null, T().desc));
-        sec.append(el('p', 'detail-body', item.d));
-        box.append(sec);
-    }
 
+    // 两种标签来源不同，必须分开标注，否则读者无从判断哪个是作者打的
     if (item.tags.length) {
         const sec = el('div', 'detail-section');
-        sec.append(el('h4', null, T().tags));
+        sec.append(el('h4', null, T().aiTags));
         const chips = el('div', 'chips');
         item.tags.forEach(t => { if (TAG_BY[t]) chips.append(el('span', 'tag', label(TAG_BY[t]))); });
         sec.append(chips);
@@ -1323,7 +1311,7 @@ function openDetail(item) {
     }
     if (item.t.length) {
         const sec = el('div', 'detail-section');
-        sec.append(el('h4', null, T().topics));
+        sec.append(el('h4', null, T().repoTopics));
         const chips = el('div', 'chips');
         item.t.forEach(t => chips.append(el('span', 'tag', t)));
         sec.append(chips);
@@ -1382,7 +1370,7 @@ function renderSorts() {
     const d = el('button', 'dir-btn');
     d.type = 'button';
     d.textContent = S.dir === 'desc' ? '↓' : '↑';
-    d.title = S.dir === 'desc' ? T().desc : T().asc;
+    d.title = S.dir === 'desc' ? T().descOrder : T().ascOrder;
     d.addEventListener('click', () => { S.dir = S.dir === 'desc' ? 'asc' : 'desc'; render(); });
     box.append(d);
 }
@@ -1482,7 +1470,7 @@ function saveHash() {
     const put = (k, s) => { if (s.size) p.set(k, [...s].join(',')); };
     put('cat', S.cats); put('sub', S.subs); put('tag', S.tags);
     put('form', S.forms); put('lang', S.langs); put('year', S.years); put('tier', S.tiers);
-    if (S.sort !== 'heat') p.set('sort', S.sort);
+    if (S.sort !== 's') p.set('sort', S.sort);
     if (S.dir !== 'desc') p.set('dir', S.dir);
     const h = p.toString();
     history.replaceState(null, '', h ? '#' + h : location.pathname);
@@ -1492,7 +1480,7 @@ function loadHash() {
     // 先清空，让「浏览器后退 / 手动改 hash」也能正确切回上一次的视图
     S.cats.clear(); S.subs.clear(); S.tags.clear();
     S.forms.clear(); S.langs.clear(); S.years.clear(); S.tiers.clear();
-    S.q = ''; S.sort = 'heat'; S.dir = 'desc';
+    S.q = ''; S.sort = 's'; S.dir = 'desc';
     const get = (k, set, cast) => {
         const v = p.get(k);
         if (v) v.split(',').filter(Boolean).forEach(x => set.add(cast ? cast(x) : x));

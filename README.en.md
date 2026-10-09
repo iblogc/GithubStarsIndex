@@ -30,7 +30,7 @@ English | [中文](README.md)
 - 🔄 **Vault Sync (Optional)**: Automatically pushes generated `stars_zh.md` & `stars_en.md` to your **Obsidian Vault**.
 - 🌐 **GitHub Pages (Optional)**: Deploys a static search page with multi-language (ZH/EN) support and real-time search.
 - 💻 **Flexible AI Providers**: Compatible with any **OpenAI-format API** (OpenAI, Azure, local Ollama, etc.).
-- 🗺️ **Stars Atlas**: Alongside the classic search page, generates an `atlas/` view that sorts every repo into **16 domains / 85 subcategories / 100+ topic tags** using a **pure rule engine** (no AI, no extra keys), drawn as a star chart where angle is the domain, radius is heat, and dot size is stars.
+- 🗺️ **Stars Atlas**: Alongside the classic search page, generates an `atlas/` view that sorts every repo into **16 domains / 85 subcategories / 100+ topic tags** using a **pure rule engine** (no AI, no extra keys), drawn as a star chart where the angle is the domain and both the radius and dot size track star count.
 - 🤖 **Agent-ready**: Publishes a static data API (per-domain/per-topic shards plus a JSONL corpus) and ships a **zero-dependency MCP server**, so an agent can search, get recommendations, and pull full records on its own.
 - 📡 **RSS feeds**: Site-wide and per-domain, ordered by when you starred each repo.
 
@@ -46,7 +46,8 @@ The classic page lays repos out as a grid of cards. Atlas offers a different rea
 | **Subcategories** (85) | Deeper cuts, e.g. "AI → Agents & coding / Models & inference / RAG & knowledge" |
 | **Topic tags** (100+) | Fine-grained keywords for cross-domain filtering: MCP, Proxies, WeChat, Type & typography … |
 | **Forms** (8) | App / CLI / Extension / Library / Theme / Collection / Asset / Docs |
-| **Heat / Momentum** | Heat is log-normalized so a few giants don't flatten everything; momentum folds in the last push date. |
+| **Description / AI summary** | The description is the repo's own GitHub text; the AI summary is model-generated. Both are shown separately. |
+| **Repo topics / AI tags** | The former are the author's GitHub topics; the latter are AI-derived category tags. |
 
 Classification runs in the keyword engine in `scripts/atlas/taxonomy.py` — deterministic, explainable, and offline:
 

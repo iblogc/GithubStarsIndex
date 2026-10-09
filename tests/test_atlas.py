@@ -87,13 +87,15 @@ def check_dataset_shapes() -> int:
     if primary_only < n:
         errors.append(f"领域计数 {primary_only} < 项目数 {n}")
     for item in ds["items"]:
-        for key in ("k", "cat", "tags", "forms", "heat", "mom"):
+        for key in ("k", "cat", "tags", "forms", "d", "z", "t", "s", "st", "p"):
             if key not in item:
                 errors.append(f"{item.get('k')}: 缺少字段 {key}")
-        if not isinstance(item["heat"], int) or not 0 <= item["heat"] <= 100:
-            errors.append(f"{item['k']}: heat 越界 {item['heat']}")
-        if not isinstance(item["mom"], int) or not 0 <= item["mom"] <= 100:
-            errors.append(f"{item['k']}: mom 越界 {item['mom']}")
+        # 自创指标已移除：页面上的数字必须都能追溯到 GitHub 原始字段
+        for banned in ("heat", "mom", "tier"):
+            if banned in item:
+                errors.append(f"{item['k']}: 不应再包含自创指标 {banned}")
+        if not isinstance(item["s"], int) or item["s"] < 0:
+            errors.append(f"{item['k']}: stars 非法 {item['s']}")
     for e in errors:
         print(f"  FAIL {e}")
     return len(errors)
@@ -159,7 +161,7 @@ def check_published_artifacts() -> int:
         for sh in idx["shards"]:
             blob = json.loads((out / sh["path"]).read_text(encoding="utf-8"))
             for r in blob["repos"][:3]:
-                for k in ("full_name", "url", "stars", "domain", "tags", "heat"):
+                for k in ("full_name", "url", "stars", "domain", "ai_tags", "repo_topics", "description"):
                     if k not in r:
                         errors.append(f"{sh['path']} 的记录缺少字段 {k}")
                         break

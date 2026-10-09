@@ -8,7 +8,7 @@ Stars Atlas —— 把 data/stars.json 编译成一份「带分类的地图数�
   * 输出 dist/atlas/index.html 与 dist/atlas/atlas.json，互不干扰。
 
 产物特点：
-  * 每个仓库带：主领域 / 子类 / 次要领域 / 主题标签 / 形态标签 / 热度 / 活跃度 / 收藏年代；
+  * 每个仓库带：主领域 / 子类 / 次要领域 / AI 标签 / 形态标签 / 收藏年代；
   * 附带全局 facets（领域、语言、标签、形态、年份的计数），页面无需自己再统计。
 
 用法：
@@ -224,7 +224,7 @@ def classify(rec: dict) -> dict:
 
 
 # ════════════════════════════════════════════════════════════
-# 时间与热度
+# 时间
 # ════════════════════════════════════════════════════════════
 
 
@@ -235,58 +235,6 @@ def _year(value: str) -> int | None:
         return int(value[:4])
     except ValueError:
         return None
-
-
-def _full_stars(stars: int, created_hint: int | None) -> int:
-    """把『刚被 Star 的年轻仓库』的星数折算成可比的成熟度。
-
-    收藏时长远小于 1 年的项目，星数是起步值；按收藏年份外推，
-    让新项目与老项目在同一把尺子上比较。
-    """
-    if not created_hint:
-        return stars
-    now_year = datetime.now(timezone.utc).year
-    age = max(1, now_year - created_hint)
-    if age >= 2:
-        return stars
-    return int(stars * 1.6)
-
-
-def heat_of(stars: int, priorities: dict) -> int:
-    """对数热度：10k 星 ≈ 75，100k 星 ≈ 100。"""
-    import math
-
-    boost = priorities.get("full_stars", stars) / max(1, stars)
-    effective = stars * boost
-    if effective <= 0:
-        return 0
-    v = 100 * math.log10(1 + effective) / math.log10(1 + 500_000)
-    return max(0, min(100, round(v)))
-
-
-def momentum_of(pushed_at: str, heat: int) -> int:
-    """活跃度：最近更新越新越高，叠加自身热度。"""
-    y = _year(pushed_at)
-    if not y:
-        return 0
-    now = datetime.now(timezone.utc)
-    if y == now.year:
-        recency = 100
-    elif y == now.year - 1:
-        recency = 55
-    elif y == now.year - 2:
-        recency = 28
-    else:
-        recency = max(0, 14 - (now.year - y - 2) * 2)
-    return max(0, min(100, round(recency * 0.8 + heat * 0.2)))
-
-
-def tier_of(stars: int) -> int:
-    if stars >= 10_000:
-        return 1
-    if stars >= 1000:
-        return 2
-    return 3
 
 
 def compact(n: int) -> str:
@@ -304,15 +252,18 @@ def compact(n: int) -> str:
 
 
 def build_item(rec: dict) -> dict:
+    """把一条 stars.json 记录投影成展示就绪的条目。
+
+    这里只做**投影与派生星数**，不生成任何「自创指标」——
+    页面上的每个数字都能追溯到 GitHub 的原始字段。
+    """
     meta = rec.get("metadata", rec)
     summary = rec.get("summary") or {}
     stars = int(meta.get("stars") or 0)
     starred = (meta.get("starred_at") or "")[:10]
     pushed = (meta.get("pushed_at") or "")[:10]
     star_year = _year(starred)
-    priority = {"full_stars": _full_stars(stars, star_year)}
     cls = classify(rec)
-    heat = heat_of(stars, priority)
 
     return {
         "k": meta.get("full_name") or "",
@@ -336,9 +287,6 @@ def build_item(rec: dict) -> dict:
         "tags": cls["tags"],
         "forms": cls["forms"],
         "cs": cls["catScore"],
-        "heat": heat,
-        "mom": momentum_of(pushed, heat),
-        "tier": tier_of(stars),
     }
 
 
@@ -406,8 +354,8 @@ def build_dataset(raw: dict) -> dict:
             continue
         items.append(build_item(rec))
 
-    # 默认排序：按热度
-    items.sort(key=lambda x: (-x["heat"], -x["s"]))
+    # 默认排序：按 Star 数（页面上唯一的原始量化指标）
+    items.sort(key=lambda x: (-x["s"], x["k"]))
     facets = build_facets(items)
 
     total_stars = sum(i["s"] for i in items)
