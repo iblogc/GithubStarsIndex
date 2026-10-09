@@ -30,7 +30,7 @@ English | [中文](README.md)
 - 🔄 **Vault Sync (Optional)**: Automatically pushes generated `stars_zh.md` & `stars_en.md` to your **Obsidian Vault**.
 - 🌐 **GitHub Pages (Optional)**: Deploys a static search page with multi-language (ZH/EN) support and real-time search.
 - 💻 **Flexible AI Providers**: Compatible with any **OpenAI-format API** (OpenAI, Azure, local Ollama, etc.).
-- 🗺️ **Stars Atlas**: Alongside the classic search page, generates an `atlas/` view that sorts every repo into **16 domains / 85 subcategories / 100+ topic tags** using a **pure rule engine** (no AI, no extra keys), drawn as a star chart where the angle is the domain and both the radius and dot size track star count.
+- 🗺️ **Stars Atlas**: Alongside the classic search page, generates an `atlas/` view that sorts every repo into **16 domains / 85 subcategories / 100+ tags** using a **pure rule engine** (no AI, no extra keys), presented as a master–detail data grid: faceted filters on the left, a dense sortable table in the middle, full records on the right. Facet counts, infinite scroll, keyboard navigation, shareable URLs, en/zh and light/dark.
 - 🤖 **Agent-ready**: Publishes a static data API (per-domain/per-topic shards plus a JSONL corpus) and ships a **zero-dependency MCP server**, so an agent can search, get recommendations, and pull full records on its own.
 - 📡 **RSS feeds**: Site-wide and per-domain, ordered by when you starred each repo.
 
@@ -38,7 +38,9 @@ English | [中文](README.md)
 
 ## Stars Atlas (Star Chart View)
 
-The classic page lays repos out as a grid of cards. Atlas offers a different reading: a **star chart**, built from the same `data/stars.json`. Both views coexist and neither disturbs the other.
+The classic page lays repos out as a grid of cards. Atlas offers a different reading: **a searchable data table**, built from the same `data/stars.json`. Both views coexist and neither disturbs the other.
+
+Three columns: faceted filters (domain, language, tag, form, year, star tier) on the left, a dense sortable table in the middle, the selected repository's full record on the right. On narrow screens the rail becomes a drawer and details move into a dialog.
 
 | Dimension | Description |
 | :--- | :--- |
@@ -57,7 +59,7 @@ Classification runs in the keyword engine in `scripts/atlas/taxonomy.py` — det
 - **Honest fallback**: thin evidence lands in "Other" rather than being forced into a domain.
 
 ```bash
-# Build the star chart page (reads data/stars.json only; no fetching, no AI)
+# Build the data grid page (reads data/stars.json only; no fetching, no AI)
 python3 scripts/sync_atlas.py
 
 # Classification stats only
@@ -74,7 +76,7 @@ Artifacts:
 
 | File | Description |
 | :--- | :--- |
-| `dist/atlas/index.html` | The star chart page (published at `https://<your-domain>/atlas/`) |
+| `dist/atlas/index.html` | The data grid page (published at `https://<your-domain>/atlas/`) |
 | `dist/atlas/atlas.json` | Dataset with classifications, for downstream use |
 
 > [!NOTE]

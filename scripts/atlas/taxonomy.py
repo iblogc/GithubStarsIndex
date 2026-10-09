@@ -624,6 +624,17 @@ FORM_BY_ID = {t[0]: t for t in FORM_TAGS}
 # 子类归属：sub id 前缀即其父领域
 SUB_TO_CAT = {s.id: c.id for c in CATS for s in c.subs}
 
+# 领域识别色：仅用于界面上的色点/色条，与分类逻辑无关。
+# 选低饱和度，避免深色与浅色主题下都显得刺眼。
+DOMAIN_COLOR = {
+    "ai": "#7A5C9E", "dev": "#2E6F8E", "web": "#3B7D5A", "data": "#A8622F",
+    "cloud": "#4A6FA5", "sys": "#5F6368", "net": "#2F7F7F", "sec": "#963D3D",
+    "media": "#A34D8C", "doc": "#8A7440", "office": "#6E7A34", "comm": "#B0663F",
+    "mobile": "#3F7A9E", "design": "#9B4F6B", "edu": "#55689E", "game": "#8E4B4B",
+    "misc": "#7B7F85",
+}
+
+
 # 领域基础分：部分领域天然更容易被宽泛词命中，需要一点先验抑制
 CAT_PRIOR = {
     "misc": 0.0,

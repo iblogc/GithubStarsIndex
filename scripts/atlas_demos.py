@@ -6,6 +6,9 @@ Stars Atlas 版式探索：用同一份真实数据渲染多种风格的 demo �
 这是**设计探索**用的脚本，不参与线上构建、不写入 dist/atlas/。
 产物在 dist/atlas-demos/，用浏览器直接打开对比即可。
 
+注意：「数据网格」曾在此作为 demo 探索，现已采用为 /atlas/ 的正式版式，
+因此不再保留其 demo 副本 —— 避免两套实现各自演化后互相漂移。
+
     python3 scripts/atlas_demos.py            # 生成全部 demo
     python3 scripts/atlas_demos.py --out DIR  # 指定输出目录
 
@@ -31,13 +34,7 @@ TEMPLATE_DIR = ROOT / "templates" / "demos"
 DEFAULT_OUT = ROOT / "dist" / "atlas-demos"
 
 # 领域配色：为「纸质 / 印刷」取向选的低饱和色，避免彩虹感
-DOMAIN_COLOR = {
-    "ai": "#7A5C9E", "dev": "#2E6F8E", "web": "#3B7D5A", "data": "#A8622F",
-    "cloud": "#4A6FA5", "sys": "#5F6368", "net": "#2F7F7F", "sec": "#963D3D",
-    "media": "#A34D8C", "doc": "#8A7440", "office": "#6E7A34", "comm": "#B0663F",
-    "mobile": "#3F7A9E", "design": "#9B4F6B", "edu": "#55689E", "game": "#8E4B4B",
-    "misc": "#7B7F85",
-}
+from atlas.taxonomy import DOMAIN_COLOR  # 与页面共用同一份配色
 
 DEMOS = [
     ("1-catalog", "索引卡片目录", "catalog.html.j2",
@@ -46,9 +43,7 @@ DEMOS = [
      "瑞士式编辑排版：头条 + 多栏简讯 + 底部密集索引，纯白纸面、纯黑油墨、一个专色。信息层级最强。"),
     ("3-terminal", "终端会话", "terminal.html.j2",
      "TUI 风格：等宽字体、制表线条、语法高亮式多色标记，带命令提示与键盘操作。开发者的母语界面。"),
-    ("4-grid", "数据网格", "grid.html.j2",
-     "主从视图：左侧筛选栏 + 高密度可排序表格 + 右侧详情面板。单位面积信息量最大，适合「找工具」。"),
-    ("5-chronicle", "收藏编年史", "chronicle.html.j2",
+    ("4-chronicle", "收藏编年史", "chronicle.html.j2",
      "时间轴：以收藏时间为脊椎，按年月向下流淌，年份是巨大的数字节点。适合回顾与考古。"),
 ]
 

@@ -40,6 +40,7 @@ h1 span{color:var(--spot)}
   <div class="note">
     这些是<strong>独立的静态 demo</strong>，不参与线上构建，也不影响已经做好的 <code>/atlas/</code> 页面。
     每个 demo 用完全相同的数据切片，所以对比时看到的是设计差异，不是内容差异。
+    其中「数据网格」已采用为 <code>/atlas/</code> 的正式版式，故不再保留 demo 副本。
   </div>
 
   <div class="grid">
@@ -53,7 +54,6 @@ h1 span{color:var(--spot)}
           {% if 'catalog' in p.slug %}<span>纸质</span><span>卡片</span><span>暖色</span>
           {% elif 'press' in p.slug %}<span>编辑排版</span><span>多栏</span><span>高对比</span>
           {% elif 'terminal' in p.slug %}<span>等宽</span><span>暗色</span><span>键盘</span>
-          {% elif 'grid' in p.slug %}<span>表格</span><span>主从</span><span>高密度</span>
           {% else %}<span>时间轴</span><span>长滚动</span><span>回顾</span>{% endif %}
         </div>
         <span class="go">打开 →</span>
@@ -69,8 +69,7 @@ const SWATCH = {
   '1-catalog': ['#F6F2E8','#EFEADC','#D8D1BE','#8C2F1F','#232019'],
   '2-press':   ['#FFFFFF','#F4F1EC','#0E0E0E','#D6261C','#787878'],
   '3-terminal':['#0B0F14','#1E2A36','#5FBF7F','#4FB3C9','#D9B356'],
-  '4-grid':    ['#FBFBFC','#FFFFFF','#E3E5EA','#2F6FEB','#B8860B'],
-  '5-chronicle':['#14110E','#1B1713','#2E2822','#C9A227','#EDE6DA'],
+  '4-chronicle':['#14110E','#1B1713','#2E2822','#C9A227','#EDE6DA'],
 };
 document.querySelectorAll('.swatch').forEach(el => {
   const colors = SWATCH[el.dataset.slug] || [];
