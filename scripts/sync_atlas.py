@@ -32,6 +32,7 @@ from jinja2 import Environment, FileSystemLoader  # noqa: E402
 from atlas.publish import write_api, write_feeds  # noqa: E402
 from atlas.taxonomy import (  # noqa: E402
     CANON_TAGS,
+    DOMAIN_COLOR,
     CATS,
     CAT_BY_ID,
     CAT_PRIOR,
@@ -301,6 +302,7 @@ def build_facets(items: list[dict]) -> dict:
     for c in CATS:
         cats[c.id] = {"id": c.id, "code": c.code, "zh": c.zh, "en": c.en,
                       "blurbZh": c.blurb_zh, "blurbEn": c.blurb_en,
+                      "color": DOMAIN_COLOR.get(c.id, "#7B7F85"),
                       "count": 0, "stars": 0, "subs": []}
         for s in c.subs:
             subs[s.id] = {"id": s.id, "zh": s.zh, "en": s.en, "count": 0, "cat": c.id}

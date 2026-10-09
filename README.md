@@ -8,7 +8,7 @@
 
 - [功能特性](#功能特性)
 - [快速开始](#快速开始)
-- [Stars Atlas（星图视图）](#stars-atlas星图视图)
+- [Stars Atlas（数据网格）](#stars-atlas数据网格)
 - [给 Agent 调用（无需服务端）](#给-agent-调用无需服务端)
 - [RSS 订阅](#rss-订阅)
 - [配置项详解](#配置项详解-环境变量--env)
@@ -30,7 +30,7 @@
 - 🔄 可选：自动将生成的 `stars_zh.md` & `stars_en.md` **推送到 Obsidian Vault 仓库**
 - 🌐 可选：自动同步到 **GitHub Pages** 分支，支持多语言 (ZH/EN) 切换与页面实时搜索
 - 💻 支持任意 **OpenAI 格式兼容接口**（OpenAI / Azure / 本地 Ollama 等）
-- 🗺️ **Stars Atlas 星图视图**：在经典检索页之外，额外生成一个 `atlas/` 页面 —— 用**纯规则引擎**（零 AI、零额外密钥）把仓库分成 **16 个领域 / 85 个子类 / 100+ 主题标签**，并以「角度=领域、距圆心与点径都按 Star 数」的星图呈现，支持多维交叉筛选、分面计数、可分享 URL 与中英双语
+- 🗺️ **Stars Atlas 数据网格**：在经典检索页之外，额外生成一个 `atlas/` 页面 —— 用**纯规则引擎**（零 AI、零额外密钥）把仓库分成 **16 个领域 / 85 个子类 / 100+ 标签**，以「左侧分面筛选 + 高密度可排序表格 + 右侧详情」的主从视图呈现，带分面计数、无限滚动、键盘导航、可分享 URL 与中英双语/明暗主题
 - 🤖 **可被 Agent 调用**：发布静态数据接口（按领域/主题切好的分片 + JSONL 语料），并附带**零依赖 MCP 服务器**，让 Agent 在别的活里直接检索、推荐、取档案
 - 📡 **RSS 订阅**：全站与分领域订阅源，按收藏时间倒序
 
@@ -129,9 +129,11 @@ schedule:
 
 ---
 
-## Stars Atlas（星图视图）
+## Stars Atlas（数据网格）
 
-经典页面把仓库铺成一格格卡片；Atlas 换一种读法：一张**星图**。同一份 `data/stars.json`，两套视图并存，互不影响。
+经典页面把仓库铺成一格格卡片；Atlas 换一种读法：**一张可检索的数据表**。同一份 `data/stars.json`，两套视图并存，互不影响。
+
+三栏主从结构：左侧按领域/语言/标签/形态/年份/星数分面筛选，中间是高密度可排序表格，右侧是选中项目的完整档案。窄屏下左栏收成抽屉、详情改用对话框。
 
 | 维度 | 说明 |
 | :--- | :--- |
@@ -150,7 +152,7 @@ schedule:
 - **兜底**：证据不足的项目进入「其他」，不硬塞。
 
 ```bash
-# 生成星图页面（只读 data/stars.json，不抓取、不调 AI）
+# 生成数据网格页面（只读 data/stars.json，不抓取、不调 AI）
 python3 scripts/sync_atlas.py
 
 # 只看分类统计 / 只列出未分类的项目
@@ -167,7 +169,7 @@ python3 tests/test_atlas.py -v
 
 | 文件 | 说明 |
 | :--- | :--- |
-| `dist/atlas/index.html` | 星图页面（发布到 `https://<你的域名>/atlas/`） |
+| `dist/atlas/index.html` | 数据网格页面（发布到 `https://<你的域名>/atlas/`） |
 | `dist/atlas/atlas.json` | 带分类结果的数据集，供二次开发 |
 | `dist/atlas/api/index.json` | **Agent 调用入口**：分类全貌 + 分片清单（含字节数） |
 | `dist/atlas/api/c/*.json` | 按领域切好的分片 |
@@ -387,9 +389,9 @@ python scripts/sync_stars.py --render-only
 | `templates/`                 | Jinja2 生成模版（Markdown/HTML）   |
 | `dist/`                      | 自动生成的本地成品（HTML / MD）    |
 | `scripts/sync_stars.py`      | 核心同步与生成脚本                 |
-| `scripts/sync_atlas.py`      | 星图数据集与页面构建（只读 stars.json） |
-| `scripts/atlas/taxonomy.py`  | 星图分类体系与评分引擎             |
-| `templates/atlas.html.j2`    | 星图页面模版                       |
+| `scripts/sync_atlas.py`      | Atlas 数据集与页面构建（只读 stars.json） |
+| `scripts/atlas/taxonomy.py`  | 分类体系、配色与评分引擎           |
+| `templates/atlas.html.j2`    | 数据网格页面模版                   |
 | `scripts/atlas/publish.py`   | 静态接口分片与 RSS 生成             |
 | `scripts/atlas_mcp.py`       | MCP 服务器（stdio，零第三方依赖）   |
 | `tests/test_atlas.py`        | 分类回归与产物契约测试              |

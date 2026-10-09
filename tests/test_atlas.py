@@ -203,6 +203,45 @@ def check_published_artifacts() -> int:
     return _report(errors)
 
 
+def check_page_contract() -> int:
+    """页面契约：确认 /atlas/ 是数据网格，而不是被改回旧版星图或漏掉关键接线。
+
+    只做结构断言（渲染逻辑是 JS，由浏览器验证），防止模板被静默替换。
+    """
+    errors = []
+    tpl_path = ROOT / "templates" / "atlas.html.j2"
+    if not tpl_path.exists():
+        return _report(["缺少 templates/atlas.html.j2"])
+    tpl = tpl_path.read_text(encoding="utf-8")
+
+    must = {
+        "表格容器": 'id="tbody"',
+        "表头容器": 'id="thead-row"',
+        "筛选栏": 'id="rail"',
+        "详情面板": 'id="detail"',
+        "无限滚动哨兵": 'id="sentinel"',
+        "空状态": 'id="empty-state"',
+        "RSS 发现链接": 'application/rss+xml',
+        "接口发现链接": 'api/index.json',
+        "搜索框": 'id="q"',
+    }
+    for name, needle in must.items():
+        if needle not in tpl:
+            errors.append(f"页面缺少{name}（{needle}）")
+
+    # 不应再有旧版星图的痕迹
+    for name, needle in {"canvas 星图": '<canvas', "星图绘制": "getContext("}.items():
+        if needle in tpl:
+            errors.append(f"页面仍包含{name}（{needle}），可能未完成替换")
+
+    # 必须区分两种标签与描述
+    for name, needle in {"项目描述": "desc", "AI 标签": "aiTags", "自带标签": "repoTopics"}.items():
+        if needle not in tpl:
+            errors.append(f"页面缺少{name}（{needle}）")
+
+    return _report(errors)
+
+
 def _report(errors) -> int:
     for e in errors:
         print(f"  FAIL {e}")
@@ -227,7 +266,11 @@ def main() -> int:
     pub = check_published_artifacts()
     print(f"   {'ok' if pub == 0 else f'{pub} failed'}")
 
-    total_fail = failed + inv + shape + pub
+    print("5) 页面契约")
+    page = check_page_contract()
+    print(f"   {'ok' if page == 0 else f'{page} failed'}")
+
+    total_fail = failed + inv + shape + pub + page
     print("\n" + ("✅ 全部通过" if total_fail == 0 else f"❌ {total_fail} 项失败"))
     return 1 if total_fail else 0
 
