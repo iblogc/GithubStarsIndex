@@ -43,6 +43,10 @@ Atlas is its **sub-page** (`/atlas/`), offering a different reading: **a searcha
 
 Both are built from the same `data/stars.json`. The home page carries an `[ Open Atlas ]` entry in the top-right, and Atlas links back with "← Back to Stars Archive", forming a closed loop.
 
+Atlas also has a **"Feeds & API"** button in its top bar. It opens a panel listing every destination at
+once — site-wide and per-domain RSS, the API entry point, the light index, the full corpus, usage notes
+and `llms.txt` — each with a copyable relative path and its item count.
+
 Three columns: faceted filters (domain, language, tag, form, year, star tier) on the left, a dense sortable table in the middle, the selected repository's full record on the right. On narrow screens the rail becomes a drawer and details move into a dialog.
 
 | Dimension | Description |

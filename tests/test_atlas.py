@@ -234,6 +234,21 @@ def check_page_contract() -> int:
         if needle not in tpl:
             errors.append(f"页面缺少{name}（{needle}）")
 
+    # 顶栏的「订阅与接口」入口：必须在页面里可达，且指向真实产物
+    if 'id="data-open"' not in tpl:
+        errors.append("页面缺少订阅与接口入口（id=data-open）")
+    if 'id="data-dlg"' not in tpl:
+        errors.append("页面缺少订阅与接口面板（id=data-dlg）")
+    for needle, name in {"'feed.xml'": "全站 RSS", "'api/index.json'": "接口入口", "'llms.txt'": "llms.txt"}.items():
+        if needle not in tpl:
+            errors.append(f"订阅与接口面板未链接到{name}（{needle}）")
+
+    # 窄屏详情对话框只能由用户主动打开：渲染路径不得直接 showModal
+    if 'showDetail(item, openDialog)' not in tpl:
+        errors.append("showDetail 缺少 openDialog 参数，窄屏可能在校验后自动弹框")
+    if 'showDetail(CURRENT[S.sel] || null, false)' not in tpl:
+        errors.append("render/resize 路径未显式关闭弹框，窄屏加载会弹出详情对话框")
+
     must = {
         "表格容器": 'id="tbody"',
         "表头容器": 'id="thead-row"',
