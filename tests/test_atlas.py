@@ -82,12 +82,25 @@ def check_dataset_shapes() -> int:
         pass
     if ds["meta"]["count"] != n:
         errors.append("meta.count 与 items 长度不一致")
+    # 创建年份维度必须存在且覆盖绝大多数（少数仓库已被删除，无从获取）
+    cy = ds["facets"].get("createdYears") or []
+    if not cy:
+        errors.append("缺少 createdYears 分面")
+    else:
+        covered = sum(x["count"] for x in cy)
+        if covered < n * 0.95:
+            errors.append(f"创建年份仅覆盖 {covered}/{n}，低于 95%")
+        # 创建年份应单调递增
+        ys = [x["year"] for x in cy]
+        if ys != sorted(ys):
+            errors.append("创建年份未按年升序")
+
     # 主领域计数之和应等于项目数
     primary_only = sum(c["count"] for c in ds["facets"]["cats"])
     if primary_only < n:
         errors.append(f"领域计数 {primary_only} < 项目数 {n}")
     for item in ds["items"]:
-        for key in ("k", "cat", "tags", "forms", "d", "z", "t", "s", "st", "p"):
+        for key in ("k", "cat", "tags", "forms", "d", "z", "t", "s", "st", "p", "cr", "cy"):
             if key not in item:
                 errors.append(f"{item.get('k')}: 缺少字段 {key}")
         # 自创指标已移除：页面上的数字必须都能追溯到 GitHub 原始字段
@@ -96,6 +109,9 @@ def check_dataset_shapes() -> int:
                 errors.append(f"{item['k']}: 不应再包含自创指标 {banned}")
         if not isinstance(item["s"], int) or item["s"] < 0:
             errors.append(f"{item['k']}: stars 非法 {item['s']}")
+        # 创建年份不能晚于收藏年份（先有仓库，才可能被收藏）
+        if item["cy"] and item["y"] and item["cy"] > item["y"]:
+            errors.append(f"{item['k']}: 创建年份 {item['cy']} 晚于收藏年份 {item['y']}")
     for e in errors:
         print(f"  FAIL {e}")
     return len(errors)
@@ -161,7 +177,7 @@ def check_published_artifacts() -> int:
         for sh in idx["shards"]:
             blob = json.loads((out / sh["path"]).read_text(encoding="utf-8"))
             for r in blob["repos"][:3]:
-                for k in ("full_name", "url", "stars", "domain", "ai_tags", "repo_topics", "description"):
+                for k in ("full_name", "url", "stars", "domain", "ai_tags", "repo_topics", "description", "created_year"):
                     if k not in r:
                         errors.append(f"{sh['path']} 的记录缺少字段 {k}")
                         break
@@ -213,6 +229,10 @@ def check_page_contract() -> int:
     if not tpl_path.exists():
         return _report(["缺少 templates/atlas.html.j2"])
     tpl = tpl_path.read_text(encoding="utf-8")
+
+    for needle, name in {'id="f-cyear"': "创建年份分面", 'id="g-cyear"': "创建年份分组"}.items():
+        if needle not in tpl:
+            errors.append(f"页面缺少{name}（{needle}）")
 
     must = {
         "表格容器": 'id="tbody"',

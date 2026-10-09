@@ -251,6 +251,8 @@ class GitHubClient:
                     {
                         "full_name": repo["full_name"],
                         "name": repo["name"],
+                        # 仓库编号：全局自增，created_at 缺失时可用来插值创建年份
+                        "repo_id": repo.get("id"),
                         "owner": repo["owner"]["login"],
                         "description": repo.get("description") or "",
                         "stars": repo["stargazers_count"],
@@ -258,6 +260,7 @@ class GitHubClient:
                         "url": repo["html_url"],
                         "homepage": repo.get("homepage") or "",
                         "topics": repo.get("topics", []),
+                        "created_at": repo.get("created_at", "") or "",
                         "pushed_at": repo.get("pushed_at", "") or "",
                         "updated_at": repo.get("updated_at", "") or "",
                         "starred_at": starred_at_raw or "",

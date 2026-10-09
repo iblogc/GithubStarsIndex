@@ -30,7 +30,7 @@ English | [中文](README.md)
 - 🔄 **Vault Sync (Optional)**: Automatically pushes generated `stars_zh.md` & `stars_en.md` to your **Obsidian Vault**.
 - 🌐 **GitHub Pages (Optional)**: Deploys a static search page with multi-language (ZH/EN) support and real-time search.
 - 💻 **Flexible AI Providers**: Compatible with any **OpenAI-format API** (OpenAI, Azure, local Ollama, etc.).
-- 🗺️ **Stars Atlas**: Alongside the classic search page, generates an `atlas/` view that sorts every repo into **16 domains / 85 subcategories / 100+ tags** using a **pure rule engine** (no AI, no extra keys), presented as a master–detail data grid: faceted filters on the left, a dense sortable table in the middle, full records on the right. Facet counts, infinite scroll, keyboard navigation, shareable URLs, en/zh and light/dark.
+- 🗺️ **Stars Atlas**: Alongside the classic search page, generates an `atlas/` view that sorts every repo into **16 domains / 85 subcategories / 100+ tags** using a **pure rule engine** (no AI, no extra keys), presented as a master–detail data grid: faceted filters on the left (domain, language, AI tags, form, starred year, created year, star tier), a dense sortable table in the middle, full records on the right. Facet counts, infinite scroll, keyboard navigation, shareable URLs, en/zh and light/dark.
 - 🤖 **Agent-ready**: Publishes a static data API (per-domain/per-topic shards plus a JSONL corpus) and ships a **zero-dependency MCP server**, so an agent can search, get recommendations, and pull full records on its own.
 - 📡 **RSS feeds**: Site-wide and per-domain, ordered by when you starred each repo.
 
@@ -49,6 +49,7 @@ Three columns: faceted filters (domain, language, tag, form, year, star tier) on
 | **Topic tags** (100+) | Fine-grained keywords for cross-domain filtering: MCP, Proxies, WeChat, Type & typography … |
 | **Forms** (8) | App / CLI / Extension / Library / Theme / Collection / Asset / Docs |
 | **Description / AI summary** | The description is the repo's own GitHub text; the AI summary is model-generated. Both are shown separately. |
+| **Starred / created year** | The former is when *you* starred it; the latter is when the project itself was born. Both are filterable. |
 | **Repo topics / AI tags** | The former are the author's GitHub topics; the latter are AI-derived category tags. |
 
 Classification runs in the keyword engine in `scripts/atlas/taxonomy.py` — deterministic, explainable, and offline:

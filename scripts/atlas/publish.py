@@ -77,6 +77,8 @@ def api_item(it: dict, cats: dict, subs: dict, tags: dict, forms: dict) -> dict:
                   for f in it["forms"]],
         "pushed_at": it["p"] or None,
         "starred_at": it["st"] or None,
+        "created_at": it.get("cr") or None,
+        "created_year": it.get("cy") or None,
     }
 
 
@@ -177,6 +179,7 @@ def write_api(dataset: dict, out_dir: Path, site: str) -> dict:
         "stars": i["s"], "language": i["l"], "domain": i["cat"], "subcategory": i["sub"],
         "ai_tags": i["tags"], "forms": i["forms"],
         "pushed_at": i["p"] or None, "starred_at": i["st"] or None,
+        "created_year": i.get("cy") or None,
     } for i in items]
     idx_bytes = _dump_jsonl(out_dir / idx_rel, idx_rows)
 
@@ -223,6 +226,8 @@ def write_api(dataset: dict, out_dir: Path, site: str) -> dict:
             "forms": "形态列表：app/cli/ext/lib/theme/list/asset/doc",
             "pushed_at": "最近提交日期（GitHub 原始值）",
             "starred_at": "被收藏的日期（GitHub 原始值，RSS 以此为发布时间的依据）",
+            "created_at": "仓库创建日期（GitHub 原始值）",
+            "created_year": "仓库创建年份，便于按年筛选；极少数仓库已从 GitHub 删除故为 null",
         },
         "facets": {
             "domains": [{"id": c["id"], "code": c["code"], "zh": c["zh"], "en": c["en"],

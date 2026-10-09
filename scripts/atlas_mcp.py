@@ -283,6 +283,7 @@ def brief(c: Corpus, it: dict, summary_chars: int = 200) -> dict:
         "ai_tags_zh": [c.tag_by[t]["zh"] for t in (it.get("tags") or []) if t in c.tag_by],
         "repo_topics": it.get("t") or [],
         "pushed_at": it.get("p") or None,
+        "created_year": it.get("cy") or None,
         "summary": clip(it.get("z") or it.get("e") or it.get("d") or "", summary_chars) or None,
     }
 
@@ -397,6 +398,8 @@ def tool_get_repo(c: Corpus, args: dict) -> dict:
                 "forms": it.get("forms") or [],
                 "pushed_at": it.get("p") or None,
                 "starred_at": it.get("st") or None,
+                "created_at": it.get("cr") or None,
+                "created_year": it.get("cy") or None,
             }
     # 放宽为模糊匹配，方便 agent 用部分名字查询
     partial = [i for i in c.items if name in i["k"].lower()]
