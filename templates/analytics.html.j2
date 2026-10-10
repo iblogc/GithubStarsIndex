@@ -12,8 +12,13 @@
 -#}
 {%- set _wid = analytics_id or 'GitHubStarsIndex' -%}
 {%- set _src = analytics_src or 'https://analytics.1step.dev/tracker.min.js' -%}
-{%- set _on = true if analytics_enabled is not defined or analytics_enabled is none
-              else (analytics_enabled | string | lower) in ['true', '1', 'yes'] -%}
+{#- 开关解析：空串要按「未配置」处理并保持默认开启。
+
+    原因：GitHub Actions 里未设置的 Variable 会被渲染成空字符串。若把空串
+    当成「显式关闭」，那么只要工作流传了 ANALYTICS_ENABLED 而用户没配，
+    分析就会被静默关掉 —— 与「默认开启」相反。 -#}
+{%- set _enabled_raw = (analytics_enabled | default('', true)) | string | trim | lower -%}
+{%- set _on = _enabled_raw == '' or _enabled_raw in ['true', '1', 'yes'] -%}
 {%- if _on %}
 <!-- 网站分析：Fork 后请改 ANALYTICS_WEBSITE_ID，或设 ANALYTICS_ENABLED=false 整段关闭。 -->
 <script defer src="{{ _src }}" data-website-id="{{ _wid }}"></script>

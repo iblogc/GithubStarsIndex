@@ -84,13 +84,18 @@ graph TD
 > 为避免统计数据混入原项目仪表板，Fork 后请改成你自己的站点 ID。
 >
 > 脚本只在 **`templates/analytics.html.j2`** 一处维护，所有 HTML 页面（`/` 与 `/atlas/`）都通过
-> `{% include %}` 引入 —— 改一处即全站生效。也可用环境变量覆盖，无需改文件：
+> `{% include %}` 引入 —— 改一处即全站生效。
 >
-> | 变量 | 作用 |
-> | :--- | :--- |
-> | `ANALYTICS_WEBSITE_ID` | 站点 ID（默认 `GitHubStarsIndex`） |
-> | `ANALYTICS_ENABLED` | 设为 `false` 即整段关闭，不再注入脚本 |
-> | `ANALYTICS_SRC` | 自定义脚本地址 |
+> **不配置也能用**：默认注入 `data-website-id="GitHubStarsIndex"`，两个页面都带。
+> 想在 GitHub Actions 里改，用下面这几个 **Variables**（工作流已透传，留空即用默认值）：
+>
+> | Variable | 默认值 | 作用 |
+> | :--- | :--- | :--- |
+> | `ANALYTICS_WEBSITE_ID` | `GitHubStarsIndex` | 网站 ID，Fork 后改成自己的 |
+> | `ANALYTICS_ENABLED` | 开启 | 设 `false` 即整段不注入脚本 |
+> | `ANALYTICS_SRC` | `analytics.1step.dev/tracker.min.js` | 自定义脚本地址 |
+>
+> 留空会被当成「未配置」并回落到默认值（GitHub 对未设置的 Variable 渲染出的就是空串）。
 >
 > 注：`stars_zh.md` / `stars_en.md` 是 Markdown 归档，不含 JS 运行环境，无法统计。
 

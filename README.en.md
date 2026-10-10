@@ -198,14 +198,20 @@ Click the **Fork** button in the top right corner to copy this repository to you
 > After forking, change it to your own website ID so your traffic does not appear in the original project dashboard.
 >
 > The script lives in exactly one place — **`templates/analytics.html.j2`** — and every HTML page
-> (`/` and `/atlas/`) pulls it in via `{% include %}`, so one edit covers the whole site. You can also
-> override it with environment variables instead of editing files:
+> (`/` and `/atlas/`) pulls it in via `{% include %}`, so one edit covers the whole site.
 >
-> | Variable | Effect |
-> | :--- | :--- |
-> | `ANALYTICS_WEBSITE_ID` | Your website ID (default `GitHubStarsIndex`) |
-> | `ANALYTICS_ENABLED` | Set to `false` to drop the script entirely |
-> | `ANALYTICS_SRC` | Custom script URL |
+> **No configuration required**: `data-website-id="GitHubStarsIndex"` is injected on both pages by default.
+> To change that in GitHub Actions, set these **Variables** (the workflow forwards them; leaving one blank
+> falls back to its default):
+>
+> | Variable | Default | Effect |
+> | :--- | :--- | :--- |
+> | `ANALYTICS_WEBSITE_ID` | `GitHubStarsIndex` | Your website ID — change this after forking |
+> | `ANALYTICS_ENABLED` | on | Set to `false` to drop the script entirely |
+> | `ANALYTICS_SRC` | `analytics.1step.dev/tracker.min.js` | Custom script URL |
+>
+> A blank value counts as "not configured" and falls back to the default (GitHub renders an unset
+> Variable as an empty string).
 >
 > Note: `stars_zh.md` / `stars_en.md` are Markdown archives — there is no JS runtime there, so they cannot be tracked.
 

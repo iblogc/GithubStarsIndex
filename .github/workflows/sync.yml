@@ -124,6 +124,12 @@ jobs:
           VAULT_SYNC_PATH: ${{ vars.VAULT_SYNC_PATH }}
           TEST_LIMIT: ${{ github.event.inputs.test_limit }}
           PAGES_SYNC_ENABLED: ${{ vars.PAGES_SYNC_ENABLED }}
+
+          # ── 网站分析（均可选，默认值写在 templates/analytics.html.j2）──
+          # 未配置时为空字符串，渲染端会按「未配置」处理并保持默认开启
+          ANALYTICS_ENABLED: ${{ vars.ANALYTICS_ENABLED }}
+          ANALYTICS_WEBSITE_ID: ${{ vars.ANALYTICS_WEBSITE_ID }}
+          ANALYTICS_SRC: ${{ vars.ANALYTICS_SRC }}
         run: python scripts/sync_stars.py
 
       # ── 6. 构建 Stars Atlas（分类星图，独立于经典视图） ─────────
@@ -133,6 +139,11 @@ jobs:
           python3 tests/test_config.py
 
       - name: 构建 Stars Atlas
+        env:
+          # 与主页保持一致：分析脚本是同一份，配置当然也要同一份
+          ANALYTICS_ENABLED: ${{ vars.ANALYTICS_ENABLED }}
+          ANALYTICS_WEBSITE_ID: ${{ vars.ANALYTICS_WEBSITE_ID }}
+          ANALYTICS_SRC: ${{ vars.ANALYTICS_SRC }}
         run: python3 scripts/sync_atlas.py --data data/stars.json --out dist/atlas
 
       # ── 7. 准备 Pages 发布内容（包含 stars.json） ─────────────

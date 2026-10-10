@@ -308,6 +308,57 @@ def check_analytics_wiring() -> int:
     return _report(errors)
 
 
+def check_analytics_semantics() -> int:
+    """分析脚本的取值语义：空串必须按「未配置」处理。
+
+    GitHub Actions 里未设置的 Variable 会被渲染成**空字符串**。若把空串
+    当成「显式关闭」，那么工作流一旦透传 ANALYTICS_ENABLED 而用户没配，
+    分析就会被静默关掉 —— 与「默认开启」正好相反。
+    """
+    from jinja2 import Environment, FileSystemLoader
+    errors = []
+    env = Environment(loader=FileSystemLoader(str(ROOT / "templates")),
+                      trim_blocks=True, lstrip_blocks=True)
+    tpl = env.get_template("analytics.html.j2")
+
+    def render(**ctx) -> str:
+        return tpl.render(**ctx)
+
+    cases = [
+        ("完全不传", {}, True, "GitHubStarsIndex"),
+        ("ENABLED 空串（未配置 Variable）", {"analytics_enabled": ""}, True, "GitHubStarsIndex"),
+        ("ENABLED=None", {"analytics_enabled": None}, True, "GitHubStarsIndex"),
+        ("ENABLED=true", {"analytics_enabled": "true"}, True, "GitHubStarsIndex"),
+        ("ENABLED=false", {"analytics_enabled": "false"}, False, None),
+        ("ENABLED=0", {"analytics_enabled": "0"}, False, None),
+        ("ID 空串应回落默认", {"analytics_id": ""}, True, "GitHubStarsIndex"),
+        ("ID 显式指定", {"analytics_id": "MySite"}, True, "MySite"),
+        ("SRC 空串应回落默认", {"analytics_src": ""}, True, "GitHubStarsIndex"),
+    ]
+    for label, ctx, should_inject, want_id in cases:
+        html = render(**ctx)
+        injected = "data-website-id" in html
+        if injected != should_inject:
+            errors.append(f"{label}: 期望{'注入' if should_inject else '不注入'}，实际相反")
+            continue
+        if injected:
+            got = html.split('data-website-id="')[1].split('"')[0]
+            if got != want_id:
+                errors.append(f"{label}: 站点 ID 期望 {want_id!r}，实际 {got!r}")
+            if not html.split('src="')[1].split('"')[0]:
+                errors.append(f"{label}: 脚本地址为空")
+        if injected and "defer" not in html:
+            errors.append(f"{label}: 脚本缺少 defer")
+
+    # 模板里不得出现第二个出处（内联脚本）
+    for name in ("index.html.j2", "atlas.html.j2"):
+        tpl_path = ROOT / "templates" / name
+        if tpl_path.exists() and "tracker.min.js" in tpl_path.read_text(encoding="utf-8"):
+            errors.append(f"{name} 仍内联分析脚本，应只走 include")
+
+    return _report(errors)
+
+
 def _css_without_media(css: str) -> str:
     """剥掉所有 @media 块，只留下顶层规则（用花括号配对，不靠正则）。"""
     out, i, n = [], 0, len(css)
@@ -453,7 +504,11 @@ def main() -> int:
     ana = check_analytics_wiring()
     print(f"   {'ok' if ana == 0 else f'{ana} failed'}")
 
-    total_fail = failed + inv + shape + pub + page + nav + wrap + ana
+    print("9) 分析脚本取值语义")
+    sem = check_analytics_semantics()
+    print(f"   {'ok' if sem == 0 else f'{sem} failed'}")
+
+    total_fail = failed + inv + shape + pub + page + nav + wrap + ana + sem
     print("\n" + ("✅ 全部通过" if total_fail == 0 else f"❌ {total_fail} 项失败"))
     return 1 if total_fail else 0
 
