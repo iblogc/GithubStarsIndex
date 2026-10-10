@@ -80,7 +80,19 @@ graph TD
 点击右上角 **Fork**，将本仓库复制到你自己的账号下。
 
 > [!IMPORTANT]
-> 本站模板已内置 `analytics.1step.dev` 网站分析脚本，默认 `data-website-id` 为 `GitHubStarsIndex`。Fork 后请改成你自己的站点 ID，或直接删除 `templates/index.html.j2` 底部的脚本，避免统计数据混入原项目仪表板。
+> 本站模板已内置 `analytics.1step.dev` 网站分析脚本，默认 `data-website-id` 为 `GitHubStarsIndex`。
+> 为避免统计数据混入原项目仪表板，Fork 后请改成你自己的站点 ID。
+>
+> 脚本只在 **`templates/analytics.html.j2`** 一处维护，所有 HTML 页面（`/` 与 `/atlas/`）都通过
+> `{% include %}` 引入 —— 改一处即全站生效。也可用环境变量覆盖，无需改文件：
+>
+> | 变量 | 作用 |
+> | :--- | :--- |
+> | `ANALYTICS_WEBSITE_ID` | 站点 ID（默认 `GitHubStarsIndex`） |
+> | `ANALYTICS_ENABLED` | 设为 `false` 即整段关闭，不再注入脚本 |
+> | `ANALYTICS_SRC` | 自定义脚本地址 |
+>
+> 注：`stars_zh.md` / `stars_en.md` 是 Markdown 归档，不含 JS 运行环境，无法统计。
 
 ### 第二步：配置环境 (二选一)
 

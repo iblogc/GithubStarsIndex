@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -435,6 +436,15 @@ def build_dataset(raw: dict) -> dict:
 # ════════════════════════════════════════════════════════════
 
 
+def analytics_context() -> dict:
+    """网站分析配置：默认值写在 templates/analytics.html.j2，这里只读环境变量做覆盖。"""
+    return {
+        "analytics_enabled": os.environ.get("ANALYTICS_ENABLED"),
+        "analytics_id": os.environ.get("ANALYTICS_WEBSITE_ID"),
+        "analytics_src": os.environ.get("ANALYTICS_SRC"),
+    }
+
+
 def render_page(dataset: dict, template_dir: Path, template: str, site: str) -> str:
     env = Environment(
         loader=FileSystemLoader(str(template_dir)),
@@ -443,7 +453,8 @@ def render_page(dataset: dict, template_dir: Path, template: str, site: str) -> 
         lstrip_blocks=True,
     )
     tpl = env.get_template(template)
-    return tpl.render(data=dataset, site=site)
+    # 默认值集中在 templates/analytics.html.j2，这里只做环境变量覆盖
+    return tpl.render(data=dataset, site=site, **analytics_context())
 
 
 def explain(raw: dict, query: str, verbose: bool = False) -> int:

@@ -194,7 +194,20 @@ graph TD
 Click the **Fork** button in the top right corner to copy this repository to your account.
 
 > [!IMPORTANT]
-> This site template includes the `analytics.1step.dev` analytics script with `data-website-id` set to `GitHubStarsIndex`. After forking, change it to your own website ID or remove the script at the bottom of `templates/index.html.j2` so your traffic does not appear in the original project dashboard.
+> This site template includes the `analytics.1step.dev` analytics script with `data-website-id` set to `GitHubStarsIndex`.
+> After forking, change it to your own website ID so your traffic does not appear in the original project dashboard.
+>
+> The script lives in exactly one place — **`templates/analytics.html.j2`** — and every HTML page
+> (`/` and `/atlas/`) pulls it in via `{% include %}`, so one edit covers the whole site. You can also
+> override it with environment variables instead of editing files:
+>
+> | Variable | Effect |
+> | :--- | :--- |
+> | `ANALYTICS_WEBSITE_ID` | Your website ID (default `GitHubStarsIndex`) |
+> | `ANALYTICS_ENABLED` | Set to `false` to drop the script entirely |
+> | `ANALYTICS_SRC` | Custom script URL |
+>
+> Note: `stars_zh.md` / `stars_en.md` are Markdown archives — there is no JS runtime there, so they cannot be tracked.
 
 ### Step 2: Configure Environment (Choose One)
 

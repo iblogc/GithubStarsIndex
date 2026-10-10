@@ -556,6 +556,15 @@ class TemplateGenerator:
         return template.render(context)
 
 
+def analytics_context() -> dict:
+    """网站分析配置：默认值写在 templates/analytics.html.j2，这里只读环境变量做覆盖。"""
+    return {
+        "analytics_enabled": os.environ.get("ANALYTICS_ENABLED"),
+        "analytics_id": os.environ.get("ANALYTICS_WEBSITE_ID"),
+        "analytics_src": os.environ.get("ANALYTICS_SRC"),
+    }
+
+
 # ════════════════════════════════════════════════════════════
 # 主流程
 # ════════════════════════════════════════════════════════════
@@ -709,6 +718,7 @@ def main():
         "repos": ordered_repos,
         "top_langs": top_langs,
         "ai_model": cfg["ai"].get("model", "gpt-4o-mini"),
+        **analytics_context(),
     }
     langs = ["zh", "en"]
     generated_mds = {}

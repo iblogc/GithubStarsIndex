@@ -1,0 +1,21 @@
+{#- 网站分析脚本 —— 全站唯一出处。
+
+    所有 HTML 页面都通过 {% include "analytics.html.j2" %} 引入，
+    因此改这里一处即可覆盖全部页面（此前是每个模板各写一份，容易漏改）。
+
+    可用环境变量覆盖（两个渲染脚本都会读取）：
+      ANALYTICS_ENABLED     设为 false/0/no 可整段关闭
+      ANALYTICS_WEBSITE_ID  站点 ID，Fork 后应改成自己的
+      ANALYTICS_SRC         脚本地址
+
+    默认值只写在这里，避免同一份配置散落在多处。
+-#}
+{%- set _wid = analytics_id or 'GitHubStarsIndex' -%}
+{%- set _src = analytics_src or 'https://analytics.1step.dev/tracker.min.js' -%}
+{%- set _on = true if analytics_enabled is not defined or analytics_enabled is none
+              else (analytics_enabled | string | lower) in ['true', '1', 'yes'] -%}
+{%- if _on %}
+<!-- 网站分析：Fork 后请改 ANALYTICS_WEBSITE_ID，或设 ANALYTICS_ENABLED=false 整段关闭。 -->
+<script defer src="{{ _src }}" data-website-id="{{ _wid }}"></script>
+
+{% endif %}

@@ -277,6 +277,37 @@ def check_page_contract() -> int:
     return _report(errors)
 
 
+def check_analytics_wiring() -> int:
+    """网站分析必须覆盖全部 HTML 页面，且只有一处出处。
+
+    之前每个模板各写一份内联片段，新增页面时极易漏掉（Atlas 页就漏了很久），
+    Fork 后也要改多处。现在统一走 include，这里把它钉住。
+    """
+    errors = []
+    partial = ROOT / "templates" / "analytics.html.j2"
+    if not partial.exists():
+        return _report(["缺少 templates/analytics.html.j2（分析脚本的唯一出处）"])
+
+    body = partial.read_text(encoding="utf-8")
+    if "tracker" not in body and "analytics" not in body:
+        errors.append("analytics 片段里没有脚本")
+
+    include = '{% include "analytics.html.j2" %}'
+    for name in ("index.html.j2", "atlas.html.j2"):
+        tpl_path = ROOT / "templates" / name
+        if not tpl_path.exists():
+            errors.append(f"缺少 {name}")
+            continue
+        tpl = tpl_path.read_text(encoding="utf-8")
+        if include not in tpl:
+            errors.append(f"{name} 未引入 analytics 片段（新增页面容易漏）")
+        # 不得再内联一份，否则出现两个出处，Fork 时必然漏改
+        if "tracker.min.js" in tpl:
+            errors.append(f"{name} 仍内联了分析脚本，应改为 include")
+
+    return _report(errors)
+
+
 def _css_without_media(css: str) -> str:
     """剥掉所有 @media 块，只留下顶层规则（用花括号配对，不靠正则）。"""
     out, i, n = [], 0, len(css)
@@ -418,7 +449,11 @@ def main() -> int:
     wrap = check_no_label_wrapping()
     print(f"   {'ok' if wrap == 0 else f'{wrap} failed'}")
 
-    total_fail = failed + inv + shape + pub + page + nav + wrap
+    print("8) 分析脚本覆盖")
+    ana = check_analytics_wiring()
+    print(f"   {'ok' if ana == 0 else f'{ana} failed'}")
+
+    total_fail = failed + inv + shape + pub + page + nav + wrap + ana
     print("\n" + ("✅ 全部通过" if total_fail == 0 else f"❌ {total_fail} 项失败"))
     return 1 if total_fail else 0
 
