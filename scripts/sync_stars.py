@@ -113,6 +113,11 @@ def load_config() -> dict:
     for env_key, config_path in env_mapping.items():
         val = os.environ.get(env_key)
         if val is not None:
+            # 未配置的 GitHub Variable 会被渲染成空字符串（不是不传）。
+            # 若直接采用，就会用空串覆盖掉下面的默认值 —— 例如 AI_MODEL 变成 ''，
+            # 默认的 gpt-4o-mini 形同虚设。空值一律视为「未配置」。
+            if not val.strip():
+                continue
             # 处理类型转换
             if env_key in ["MAX_CONCURRENCY", "TEST_LIMIT"]:
                 if val.isdigit():
