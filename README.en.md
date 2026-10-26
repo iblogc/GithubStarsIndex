@@ -194,7 +194,7 @@ graph TD
 Click the **Fork** button in the top right corner to copy this repository to your account.
 
 > [!IMPORTANT]
-> This site template includes the `analytics.1step.dev` analytics script with `data-website-id` set to `GitHubStarsIndex`.
+> This site template includes the `analytics.iblogc.com` analytics script with `data-website-id` set to `GitHubStarsIndex`.
 > After forking, change it to your own website ID so your traffic does not appear in the original project dashboard.
 >
 > The script lives in exactly one place — **`templates/analytics.html.j2`** — and every HTML page
@@ -208,7 +208,7 @@ Click the **Fork** button in the top right corner to copy this repository to you
 > | :--- | :--- | :--- |
 > | `ANALYTICS_WEBSITE_ID` | `GitHubStarsIndex` | Your website ID — change this after forking |
 > | `ANALYTICS_ENABLED` | on | Set to `false` to drop the script entirely |
-> | `ANALYTICS_SRC` | `analytics.1step.dev/tracker.min.js` | Custom script URL |
+> | `ANALYTICS_SRC` | `analytics.iblogc.com/tracker.min.js` | Custom script URL |
 >
 > A blank value counts as "not configured" and falls back to the default (GitHub renders an unset
 > Variable as an empty string).

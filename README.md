@@ -80,7 +80,7 @@ graph TD
 点击右上角 **Fork**，将本仓库复制到你自己的账号下。
 
 > [!IMPORTANT]
-> 本站模板已内置 `analytics.1step.dev` 网站分析脚本，默认 `data-website-id` 为 `GitHubStarsIndex`。
+> 本站模板已内置 `analytics.iblogc.com` 网站分析脚本，默认 `data-website-id` 为 `GitHubStarsIndex`。
 > 为避免统计数据混入原项目仪表板，Fork 后请改成你自己的站点 ID。
 >
 > 脚本只在 **`templates/analytics.html.j2`** 一处维护，所有 HTML 页面（`/` 与 `/atlas/`）都通过
@@ -93,7 +93,7 @@ graph TD
 > | :--- | :--- | :--- |
 > | `ANALYTICS_WEBSITE_ID` | `GitHubStarsIndex` | 网站 ID，Fork 后改成自己的 |
 > | `ANALYTICS_ENABLED` | 开启 | 设 `false` 即整段不注入脚本 |
-> | `ANALYTICS_SRC` | `analytics.1step.dev/tracker.min.js` | 自定义脚本地址 |
+> | `ANALYTICS_SRC` | `analytics.iblogc.com/tracker.min.js` | 自定义脚本地址 |
 >
 > 留空会被当成「未配置」并回落到默认值（GitHub 对未设置的 Variable 渲染出的就是空串）。
 >
