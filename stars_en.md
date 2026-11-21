@@ -1,10 +1,12 @@
 # ⭐ GitHub Stars Index
 
-> Updated: 2026-11-20 00:37 UTC · Total: 1127
+> Updated: 2026-11-21 23:18 UTC · Total: 1129
 
 ---
 
 ## 📑 Index
+- [[#cholf5/agent-skills|cholf5/agent-skills]]
+- [[#anonymousjav/AvPlayRelease|anonymousjav/AvPlayRelease]]
 - [[#t8y2/dbx|t8y2/dbx]]
 - [[#zephyr4123/snug|zephyr4123/snug]]
 - [[#DIYgod/pinky|DIYgod/pinky]]
@@ -1135,10 +1137,29 @@
 
 ---
 
+## cholf5/agent-skills
+
+> [!info]
+> ⭐ 5 · N/A · 2026-11-21T15:43:47Z  
+> [GitHub](https://github.com/cholf5/agent-skills)  
+> `#AI 智能体` `#Automated Collaboration` `#提示工程` 
+> A collection of skills for AI programming agents following the open Agent Skills spec. Features markdown-kanban (cross-session task board management with persistent context) and cindy-orca-team (multi-agent parallel collaboration with independent workers), ideal for developers seeking structured workflows.
+> <sub>Some of the agent skills I frequently use.</sub>
+
+---
+## anonymousjav/AvPlayRelease
+
+> [!info]
+> ⭐ 2,817 · N/A · 2026-11-21T22:22:04Z  
+> [GitHub](https://github.com/anonymousjav/AvPlayRelease) · [Website](https://javrocket.top)  
+> `#Cross-platform` `#Video Player` `#桌面应用` 
+> AvPlay is an elegant cross-platform video playback app covering Android, iOS, Windows, and macOS. Features responsive design for premium large-screen viewing. Built-in media player enables seamless online streaming with aggregated Japanese, Chinese, Western, and anime video content — no external tools required.
+
+---
 ## t8y2/dbx
 
 > [!info]
-> ⭐ 31,056 · Rust · 2026-11-20T22:02:18Z  
+> ⭐ 31,100 · Rust · 2026-11-21T22:44:46Z  
 > [GitHub](https://github.com/t8y2/dbx) · [Website](https://dbxio.com)  
 > `#AI Assistant` `#Cross-platform Tool` `#Database Management` `#ai` `#cli` `#clickhouse` `#database` `#database-client` `#database-management` `#docker` `#gui` `#mcp` `#mongodb` `#mysql` `#postgresql` `#redis` `#rust` `#sql-server` `#sqlite` `#tauri` `#vue` 
 > dbx is an ultra-lightweight cross-platform database client at just 25 MB, supporting over 100 databases including MySQL, PostgreSQL, SQLite, Redis, MongoDB. It offers desktop app, Docker container, CLI, MCP server, and a built-in AI assistant for efficient multi-database management and querying.
@@ -1148,7 +1169,7 @@
 ## zephyr4123/snug
 
 > [!info]
-> ⭐ 1,137 · Swift · 2026-11-20T21:08:42Z  
+> ⭐ 1,249 · Swift · 2026-11-21T22:55:09Z  
 > [GitHub](https://github.com/zephyr4123/snug)  
 > `#Mobile Collaboration` `#Remote Desktop Control` `#macOS Application` `#android` `#gestures` `#ipad` `#iphone` `#macos` `#macos-app` `#menubar-app` `#multi-monitor` `#productivity` `#remote-control` `#remote-desktop` `#swift` `#swiftui` `#tablet` `#uu-remote` `#virtual-display` `#window-management` 
 > Snug creates a native-grade iPhone workspace for UU Remote, delivering vertical screen display, iOS gesture support, and an app library for Mac control. Features include auto font scaling, right-click menus, screenshot tools, and full compatibility with Apple Silicon and Intel processors.
@@ -1158,7 +1179,7 @@
 ## DIYgod/pinky
 
 > [!info]
-> ⭐ 2,588 · Go · 2026-11-20T23:22:52Z  
+> ⭐ 2,640 · Go · 2026-11-21T22:34:14Z  
 > [GitHub](https://github.com/DIYgod/pinky)  
 > `#AI 智能体` `#MCP Protocol` `#Mobile Remote Control` `#ai-agent` `#android` `#claude-code` `#ios` `#iphone` `#mcp` `#mcp-server` `#phone-automation` 
 > Pinky enables any AI agent to operate a real iPhone or Android phone via MCP protocol, while users approve risky steps through a built-in safety gateway. Supports macOS, Windows, and Linux with a lightweight native architecture. Banking apps are hidden by default, PINs are never exposed to agents, and human approval is enforced at the gateway level for payments, transfers, and other sensitive actions.
@@ -1168,7 +1189,7 @@
 ## trycua/cua
 
 > [!info]
-> ⭐ 32,716 · Rust · 2026-11-20T22:58:00Z  
+> ⭐ 32,752 · Rust · 2026-11-21T22:43:52Z  
 > [GitHub](https://github.com/trycua/cua) · [Website](https://cua.ai)  
 > `#AI Agent Platform` `#Desktop Automation` `#Model Evaluation` `#agent` `#ai-agent` `#apple` `#computer-use` `#computer-use-agent` `#containerization` `#cua` `#desktop-automation` `#hacktoberfest` `#lume` `#macos` `#manus` `#operator` `#swift` `#virtualization` `#virtualization-framework` `#windows` `#windows-sandbox` 
 > CUA is an open-source Computer-Use 2.0 framework that pools existing machines into a shared supercomputer for AI agents. It delivers cross-OS sandboxes, desktop automation drivers, local VMs, and specialized decision models covering training, evaluation, and data generation.
@@ -1178,7 +1199,7 @@
 ## oinkvm/oink
 
 > [!info]
-> ⭐ 2,429 · Rust · 2026-11-20T23:41:32Z  
+> ⭐ 2,528 · Rust · 2026-11-21T21:40:40Z  
 > [GitHub](https://github.com/oinkvm/oink)  
 > `#Cross-Platform` `#P2P Protocol` `#Remote Collaboration Tool` `#Software KVM` `#audio-sharing` `#barrier-alternative` `#clipboard-sync` `#cross-platform` `#drag-and-drop` `#keyboard-sharing` `#kvm` `#macos` `#mouse-sharing` `#productivity` `#rust` `#software-kvm` `#synergy-alternative` `#tauri` `#universal-control` `#windows` 
 > Oink is an open-source software KVM that establishes a peer-to-peer sharing network across Windows and Mac computers. It enables seamless keyboard, mouse, trackpad gestures, clipboard, and drag-and-drop sharing between devices, plus cross-device audio playback. Features local auto-discovery and default encryption for secure cross-platform collaboration.
@@ -1188,7 +1209,7 @@
 ## blader/humanizer
 
 > [!info]
-> ⭐ 71,659 · Python · 2026-11-20T23:57:45Z  
+> ⭐ 71,969 · Python · 2026-11-21T23:15:02Z  
 > [GitHub](https://github.com/blader/humanizer) · [Website](https://skills.sh/blader/humanizer)  
 > `#AI Tool` `#Agent Skill` `#Content Humanization` `#agent-skills` `#ai-humanizer` `#ai-writing` `#chatgpt` `#claude` `#claude-code` `#codex` `#cursor` `#humanize-ai-text` `#humanizer` `#llm` `#prompt-engineering` `#writing-tools` 
 > Humanizer is an AI Agent skill that transforms AI-generated text into natural human writing without altering the meaning. Based on Wikipedia's guide on AI writing signs, it detects and rewrites 26 AI patterns. Compatible with Claude Code, Codex, and other agents, it also offers voice matching to align the output with personal writing style.
@@ -1198,7 +1219,7 @@
 ## leepokai/Codync
 
 > [!info]
-> ⭐ 2,344 · Rust · 2026-11-20T23:45:32Z  
+> ⭐ 2,384 · Rust · 2026-11-21T23:13:33Z  
 > [GitHub](https://github.com/leepokai/Codync) · [Website](https://www.codync.dev)  
 > `#AI 智能体` `#Cross-Platform Desktop App` `#Rust` `#acp` `#agent-client-protocol` `#ai-agents` `#ai-assistant` `#claude` `#claude-code` `#codex` `#coding-agents` `#cursor` `#gemini` `#gemini-cli` `#grok-bot-alternative` `#ios` `#iphone` `#linux` `#macos` `#mcp` `#open-source` `#rust` `#self-hosted` 
 > Codync is an open-source AI agent aggregator that connects to 40+ coding agents including Claude Code, Codex, Gemini CLI, and Cursor. Unify agent conversations across platforms with a built-in macOS/Windows/Linux client and iOS app, written in Rust and fully free.
@@ -1208,7 +1229,7 @@
 ## wangzan101/Mika
 
 > [!info]
-> ⭐ 9,299 · Kotlin · 2026-11-20T23:57:31Z  
+> ⭐ 9,447 · Kotlin · 2026-11-21T22:38:55Z  
 > [GitHub](https://github.com/wangzan101/Mika) · [Website](https://mikaphone.com)  
 > `#AI 智能体` `#Mobile Assistant` `#自动化工具` `#accessibility` `#ai-agent` `#android` `#automation` `#jetpack-compose` `#kotlin` `#llm` `#mobile-agent` 
 > Mika is an on-device AI agent for Android that autonomously operates apps and websites on a hidden background screen. Users can accomplish tasks like messaging, research, and shopping with simple voice commands. The local-first architecture ensures privacy while supporting both Chinese social apps and global platforms.
@@ -1218,7 +1239,7 @@
 ## oil-oil/oil-html
 
 > [!info]
-> ⭐ 22 · CSS · 2026-11-19T08:43:18Z  
+> ⭐ 23 · CSS · 2026-11-21T18:24:44Z  
 > [GitHub](https://github.com/oil-oil/oil-html)  
 > `#Document Tool` `#HTML/CSS` `#Product Showcase` 
 > oil-html is a skill for generating shareable single-page HTML documents with built-in design system and layout rules. It supports product feature intros, workflow demos, and solution presentations, delivering a complete standalone file optimized for mobile scrolling.
@@ -1228,7 +1249,7 @@
 ## heydamir/unslop
 
 > [!info]
-> ⭐ 19,241 · JavaScript · 2026-11-20T23:53:51Z  
+> ⭐ 19,758 · JavaScript · 2026-11-21T23:05:50Z  
 > [GitHub](https://github.com/heydamir/unslop)  
 > `#AI Developer Tool` `#Frontend Framework` `#UI Auto-Refactor` 
 > unslop is a Claude Code skill that audits and redesigns AI-generated or vibecoded UIs plagued by purple gradients, glow effects, and uneven layouts. It systematically fixes spacing, typography, color, motion, and visuals, and can even generate before-and-after story videos, supporting Next.js, Vue, Svelte, and more.
@@ -1238,7 +1259,7 @@
 ## ccch1mneyyy/dsh-Go
 
 > [!info]
-> ⭐ 28,996 · Dart · 2026-11-20T23:53:33Z  
+> ⭐ 29,586 · Dart · 2026-11-21T23:00:21Z  
 > [GitHub](https://github.com/ccch1mneyyy/dsh-Go)  
 > `#AI Large Model` `#Android Client` `#Remote Control` `#ai-agent` `#android` `#android-app` `#coding-agent` `#deepseek` `#deepseek-harness` `#dsh` `#dsh-plugin` `#dsh-tui` `#flutter` `#llm` 
 > DSH Go is the official Android client for DeepSeek Harness, supporting Android 8+. Users can run AI tasks directly on mobile devices and remotely control DSH instances on their computers. Features an innovative virtual pet interaction system with desktop floating display support, delivering an immersive AI-assisted development experience.
@@ -1248,7 +1269,7 @@
 ## dualface/ste-zh
 
 > [!info]
-> ⭐ 909 · N/A · 2026-11-20T03:56:39Z  
+> ⭐ 910 · N/A · 2026-11-21T09:36:30Z  
 > [GitHub](https://github.com/dualface/ste-zh) · [Website](https://quicktui.ai/cn/open-source/ste-zh/)  
 > `#AI 智能体` `#Technical Writing` `#提示工程` 
 > ste-zh is an AI Agent reporting skill that adapts the aviation-grade ASD-STE100 simplified technical English standard to Chinese, enforcing conclusion-first, evidence-backed, status-fixed, and option-driven reports while eliminating verbose speculation and ambiguity.
@@ -1268,7 +1289,7 @@
 ## egoist/mygo-cloudmusic
 
 > [!info]
-> ⭐ 816 · N/A · 2026-11-20T04:49:21Z  
+> ⭐ 817 · N/A · 2026-11-21T17:20:29Z  
 > [GitHub](https://github.com/egoist/mygo-cloudmusic) · [Website](music.egoist.dev)  
 > `#Go` `#Music Player` `#桌面应用` 
 > A native desktop client for NetEase Cloud Music built with Go and the MyGo UI framework, featuring a pure native interface without WebView. Supports lossless audio playback, local caching, word-by-word lyrics display, notch-screen mini player, and dark/light theme switching for an enhanced music experience.
@@ -1288,7 +1309,7 @@
 ## wangrongding/tv-fresh
 
 > [!info]
-> ⭐ 802 · Shell · 2026-11-20T14:50:21Z  
+> ⭐ 805 · Shell · 2026-11-21T17:23:47Z  
 > [GitHub](https://github.com/wangrongding/tv-fresh)  
 > `#DevOps Automation` `#Firmware Reverse Engineering` `#Smart Device` 
 > An Agent Skill for Xiaomi TV debloating: remove ads, preloads, swap launcher to Projectivy, and install proxy/streaming apps via ADB without root. Features one-click automation, reversible commands, and firmware reverse-engineering notes.
@@ -1298,7 +1319,7 @@
 ## elayadesign/ai-design-skills
 
 > [!info]
-> ⭐ 16,208 · Python · 2026-11-20T23:13:59Z  
+> ⭐ 16,261 · Python · 2026-11-21T22:57:06Z  
 > [GitHub](https://github.com/elayadesign/ai-design-skills)  
 > `#AI Coding Tools` `#Frontend Design Automation` `#提示工程` 
 > A collection of design skills for AI coding tools like Claude Code and Cursor. Features landing page generation and static-to-animated design conversion via SKILL.md rule files. Fully customizable design tokens, MIT-licensed, empowering developers to efficiently build design-driven front-end projects with AI assistance.
@@ -1307,7 +1328,7 @@
 ## peach-mitao/peach
 
 > [!info]
-> ⭐ 15,219 · Python · 2026-11-20T23:26:45Z  
+> ⭐ 15,232 · Python · 2026-11-21T21:40:48Z  
 > [GitHub](https://github.com/peach-mitao/peach) · [Website](https://peach.video)  
 > `#Desktop Application` `#Local-First` `#Media Library Manager` `#local-first` `#media-library` `#media-manager` `#python` `#react` `#self-hosted` `#video-player` 
 > Peach is a single-user, local-first personal media library system that unifies local drives and cloud storage (115, PikPak, OneDrive) into one collection. It features a video wall player, subtitle search, cross-site creator follow aggregation, cloud download, and taste preference analysis. All data stays local; scans never modify original files.
@@ -1317,7 +1338,7 @@
 ## JohnHeibel/PDoomVideo
 
 > [!info]
-> ⭐ 2,980 · JavaScript · 2026-11-20T20:32:55Z  
+> ⭐ 2,984 · JavaScript · 2026-11-21T17:05:07Z  
 > [GitHub](https://github.com/JohnHeibel/PDoomVideo)  
 > `#AI Large Model` `#Automated Animation` `#Creative Video` 
 > This project demonstrates fully automated music video generation using Claude Opus 5.5. The model independently designs scenes, renders animated frames via p5.js brush rendering, and composes MP4 videos through headless Chrome. Parallel subagents collaborate to visualize lyrics into creative animations.
@@ -1327,7 +1348,7 @@
 ## joeseesun/opus-video-prompts
 
 > [!info]
-> ⭐ 1,170 · N/A · 2026-11-20T23:27:35Z  
+> ⭐ 1,177 · N/A · 2026-11-21T22:09:53Z  
 > [GitHub](https://github.com/joeseesun/opus-video-prompts)  
 > `#AI 智能体` `#Case Library` `#提示工程` `#claude` `#claude-code` `#motion-graphics` `#opus` `#prompts` `#remotion` `#video-generation` 
 > Curates 54 public cases of Claude Opus 5.5 code-generated videos with 18 copy-ready prompt templates. Covers HTML Canvas, Three.js, Remotion tech stacks. Ideal for motion graphics, educational animations, and promotional videos, lowering the barrier to AI video creation.
@@ -1337,7 +1358,7 @@
 ## lemomo-ai/lemo-opuscar
 
 > [!info]
-> ⭐ 19,101 · JavaScript · 2026-11-20T23:53:09Z  
+> ⭐ 19,503 · JavaScript · 2026-11-21T23:14:05Z  
 > [GitHub](https://github.com/lemomo-ai/lemo-opuscar) · [Website](https://lemomo-ai.github.io/lemo-opuscar/)  
 > `#AI 智能体` `#Code Animation` `#Creative Video` `#agent-skills` `#ai-agents` `#ai-short-film` `#ai-video` `#animation` `#canvas` `#claude` `#claude-code` `#claude-code-plugin` `#claude-code-skill` `#creative-coding` `#ffmpeg` `#filmmaking` `#motion-graphics` `#opus-5-5` `#prompt-library` `#text-to-speech` `#threejs` `#video-production` `#webgl` 
 > Lemo-Opuscar is a Claude Code skill offering 51 film styles, each with a demo short made entirely in code by Claude Opus 5.5. It renders frames via Canvas/WebGL, adds original music and TTS narration, enabling stylized short film creation without video generation models.
@@ -1357,7 +1378,7 @@
 ## limin112/min-skill
 
 > [!info]
-> ⭐ 646 · TypeScript · 2026-11-19T07:18:04Z  
+> ⭐ 648 · TypeScript · 2026-11-21T07:51:36Z  
 > [GitHub](https://github.com/limin112/min-skill)  
 > `#AI Agent Plugin` `#Automation Workflow` `#Video Generation` 
 > Integrates multiple Claude Code Skills and CLI tools into optional modules covering video generation, free model routing, WeChat publishing, 3D handwriting animation, and remote terminal management with on-demand installation and auto-trigger.
@@ -1366,7 +1387,7 @@
 ## dualface/kander
 
 > [!info]
-> ⭐ 331 · Go · 2026-11-19T13:46:26Z  
+> ⭐ 332 · Go · 2026-11-21T19:08:33Z  
 > [GitHub](https://github.com/dualface/kander) · [Website](https://quicktui.ai/open-source/kander/)  
 > `#Agent Orchestration` `#Automated Code Review` `#Multi-Agent Parallel Development` `#ai-agents` `#claude-code` `#codex` `#coding-agents` `#developer-tools` `#git-worktree` `#go` `#kanban` `#multi-agent` `#tui` 
 > Kander is a kanban orchestration system for multiple AI coding agents, featuring isolated execution and review environments to ensure automated delivery quality. Key highlights include two-stage independent review gates, conflict-aware scheduling, Git Worktree-based workspace isolation, and zero-token GitHub integration, optimized for single-developer multi-agent parallel development.
@@ -1376,7 +1397,7 @@
 ## cardisoft/cardinal
 
 > [!info]
-> ⭐ 1,792 · Rust · 2026-11-20T07:55:48Z  
+> ⭐ 1,794 · Rust · 2026-11-21T09:12:44Z  
 > [GitHub](https://github.com/cardisoft/cardinal)  
 > `#File Search` `#Rust/Tauri` `#System Tool` `#macOS` `#everything` `#file-search` `#mac` `#macos` `#rust` `#tauri` 
 > Cardinal is the fastest file search tool for macOS, built with Rust and Tauri. It features Everything-compatible syntax, boolean operators, regex support, extension filtering, path matching, and live preview capabilities.
@@ -1396,7 +1417,7 @@
 ## FluentRead/FluentRead
 
 > [!info]
-> ⭐ 11,068 · TypeScript · 2026-11-20T20:28:56Z  
+> ⭐ 11,092 · TypeScript · 2026-11-21T22:50:16Z  
 > [GitHub](https://github.com/FluentRead/FluentRead) · [Website](https://read.thinkstu.com/)  
 > `#AI Large Model` `#Bilingual Translation` `#浏览器插件` 
 > FluentRead is an open-source browser extension for bilingual translation. It integrates DeepSeek Harness for AI reading assistance, offering page hover/selection translation, image/document/video translation, and a learning center with context memory. Supports multiple AI providers and local Ollama models, with features like bilingual display, original text restoration, and customizable shortcuts, ideal for language learning and professional translation.
@@ -1425,7 +1446,7 @@
 ## YYDS678/uzVideo-extensions
 
 > [!info]
-> ⭐ 627 · JavaScript · 2026-11-20T12:14:53Z  
+> ⭐ 628 · JavaScript · 2026-11-21T02:27:07Z  
 > [GitHub](https://github.com/YYDS678/uzVideo-extensions)  
 > `#Extension Framework` `#Media App` `#Plugin System` 
 > An open-source extension repository for the uzVideo application, offering video sources, recommendation homepage, cloud storage tools, and danmu modules. Supports community-contributed extensions with one-click subscription import for personalized media playback.
@@ -1435,7 +1456,7 @@
 ## YYDS678/uzVideo
 
 > [!info]
-> ⭐ 1,551 · HTML · 2026-11-20T22:52:10Z  
+> ⭐ 1,552 · HTML · 2026-11-21T01:24:31Z  
 > [GitHub](https://github.com/YYDS678/uzVideo) · [Website](https://uz-video-five.vercel.app)  
 > `#Cross-Platform` `#Flutter Framework` `#Streaming App` `#Video Aggregator` 
 > uzVideo is a cross-platform free video app supporting iOS/Android/Windows/Mac, offering drama streaming, live TV, and casting without ads. Built with Flutter, it supports extension repositories for custom sources and allows built-in resource packaging.
@@ -1445,7 +1466,7 @@
 ## morluto/rea
 
 > [!info]
-> ⭐ 471,469 · TypeScript · 2026-11-20T23:57:13Z  
+> ⭐ 472,735 · TypeScript · 2026-11-21T23:15:36Z  
 > [GitHub](https://github.com/morluto/rea) · [Website](https://rea.tools)  
 > `#AI 智能体` `#Reverse Engineering` `#Security Analysis` `#agent-skills` `#ai` `#android` `#claude-code` `#cli` `#cpp` `#dsh-plugin` `#html` `#java` `#javascript` `#linux` `#mcp` `#nodejs` `#python` `#rea` `#react` `#rust` `#security` `#touhou` `#typescript` 
 > REA is an AI agent-driven reverse engineering tool for full-stack code inspection from app behavior to native binaries. It integrates with Claude Code, Cursor, and other AI assistants via MCP protocol, supporting static analysis of JavaScript, .NET assemblies, and dynamic binary analysis with Hopper/Ghidra engines. Developers can inspect undocumented apps, understand implementation details, and rebuild features for their own projects.
@@ -1455,7 +1476,7 @@
 ## cclank/lanshu-create-ai-presenter-video
 
 > [!info]
-> ⭐ 3,066 · HTML · 2026-11-20T23:21:23Z  
+> ⭐ 3,071 · HTML · 2026-11-21T21:08:47Z  
 > [GitHub](https://github.com/cclank/lanshu-create-ai-presenter-video)  
 > `#AI 智能体` `#Multimodal AI` `#Video Generation` `#ai-video` `#codex` `#codex-skill` `#digital-human` `#video-generation` 
 > Provider-neutral Agent Skill for producing verified AI presenter videos from scripts. Supports 9 visual styles, dynamic provider selection at runtime, audio-locked timeline for lip-sync accuracy, cost guardrails, and evidence-gated QA. Compatible with Claude Code, Codex, Cursor and other agent platforms.
@@ -1475,7 +1496,7 @@
 ## 34306/vphone-aio
 
 > [!info]
-> ⭐ 8,136 · Shell · 2026-11-20T16:53:47Z  
+> ⭐ 8,141 · Shell · 2026-11-21T21:20:40Z  
 > [GitHub](https://github.com/34306/vphone-aio)  
 > `#Jailbreak Tool` `#Virtual Phone` `#iOS Development` 
 > A one-script solution to run a pre-jailbroken iOS 26.1 virtual iPhone via Tart VM on macOS, with full bootstrap and APT packages included. Launch with a single command and connect via VNC. Ideal for iOS development, testing, and research.
@@ -1485,7 +1506,7 @@
 ## omacom/omarchy
 
 > [!info]
-> ⭐ 47,275 · Shell · 2026-11-20T23:55:19Z  
+> ⭐ 47,332 · Shell · 2026-11-21T22:49:34Z  
 > [GitHub](https://github.com/omacom/omarchy) · [Website](https://omarchy.org)  
 > `#AI 智能体` `#Developer Toolkit` `#Dotfiles Automation` `#Linux Distribution` 
 > Omarchy is a beautiful, opinionated Linux distro by DHH featuring built-in AI agent capabilities, Neovim-centric workflows, and a polished terminal environment. It offers one-click configuration, theming, dotfiles management, and cross-platform support for developers seeking a productivity-optimized OS.
@@ -1495,7 +1516,7 @@
 ## pgsty/oink
 
 > [!info]
-> ⭐ 172 · HTML · 2026-11-14T15:10:11Z  
+> ⭐ 173 · HTML · 2026-11-21T06:45:43Z  
 > [GitHub](https://github.com/pgsty/oink) · [Website](https://oink.pgsty.com)  
 > `#Hugo Theme` `#Static Site` `#Technical Documentation` `#docsy` `#documentation` `#fumadocs` `#hextra` `#hugo` 
 > OINK is a local-first Hugo theme for engineering documentation that transforms native Markdown into a complete knowledge site with one build. It bundles search, diagrams, and math locally without Node.js or CDN, and supports AI agent indexing, multilingual routing, and progressive enhancement.
@@ -1505,7 +1526,7 @@
 ## yang0/handraw-style
 
 > [!info]
-> ⭐ 7,938 · HTML · 2026-11-20T17:52:49Z  
+> ⭐ 7,968 · HTML · 2026-11-21T22:41:16Z  
 > [GitHub](https://github.com/yang0/handraw-style)  
 > `#AI 智能体` `#Social Media Tool` `#提示工程` 
 > A curated AI image generation prompt library featuring 324 hand-drawn styles, 161 layout templates, and 36 classic color themes. Generate precise bilingual prompts through numbered style codes with smart recommendation and precise selection modes, ideal for social media content, comics, and visual design.
@@ -1525,7 +1546,7 @@
 ## egoist/mygo
 
 > [!info]
-> ⭐ 6,681 · Go · 2026-11-20T23:03:35Z  
+> ⭐ 6,707 · Go · 2026-11-21T23:13:31Z  
 > [GitHub](https://github.com/egoist/mygo) · [Website](https://mygo.run)  
 > `#Cross-Platform` `#Desktop Apps` `#Go Language` 
 > Build desktop apps in Go with web or native UI. Pure Go, no cgo, cross-platform. Typed IPC with generated TypeScript client. Built-in UI toolkit (flexbox/grid, animations). Complete bundling & distribution. Single binary, low memory/CPU footprint.
@@ -1535,7 +1556,7 @@
 ## KKKKhazix/AIHOT
 
 > [!info]
-> ⭐ 11,146 · TypeScript · 2026-11-20T19:40:20Z  
+> ⭐ 11,189 · TypeScript · 2026-11-21T22:13:00Z  
 > [GitHub](https://github.com/KKKKhazix/AIHOT) · [Website](https://aihot.news)  
 > `#Automated Content Generation` `#Industry Hotspot` `#LLM Workflow` `#ai` `#chinese` `#content-curation` `#daily-digest` `#docker-compose` `#llm` `#mcp` `#news-aggregator` `#postgresql` `#rss` `#self-hosted` `#typescript` 
 > AIHOT is an open-source framework for industry-specific news aggregation. It auto-collects from RSS, web, X and WeChat, applies AI pre-filtering, dual scoring and event clustering, then generates Chinese headlines, summaries and daily/weekly/monthly reports. Deployable as a vertical hotspot dashboard for legal, financial, HR domains.
@@ -1545,7 +1566,7 @@
 ## mkdir700/wx-ime-sdk
 
 > [!info]
-> ⭐ 98 · Rust · 2026-11-17T20:51:09Z  
+> ⭐ 99 · Rust · 2026-11-21T08:01:00Z  
 > [GitHub](https://github.com/mkdir700/wx-ime-sdk)  
 > `#Clipboard Sync` `#Cross-Platform Tool` `#Rust` `#wetype` 
 > An independent Rust SDK for WeType cross-device clipboard, enabling text, image, and file synchronization via protocol reverse engineering. Provides CLI wxc with multi-platform support and LAN TLS direct transfer, suitable for automation scripts and cross-device data workflows.
@@ -1555,7 +1576,7 @@
 ## codeman008/Financial_freedom
 
 > [!info]
-> ⭐ 8,548 · N/A · 2026-11-20T20:25:33Z  
+> ⭐ 8,560 · N/A · 2026-11-21T17:50:53Z  
 > [GitHub](https://github.com/codeman008/Financial_freedom)  
 > `#Personal Finance` `#Resource Curation` `#Value Investing` 
 > A curated collection of 16 essential personal finance and investing books from beginner to advanced levels. Covers value investing principles, asset allocation strategies, and wealth-building mindsets. Ideal for learners seeking accessible, high-quality financial education resources on the path to financial freedom.
@@ -1565,7 +1586,7 @@
 ## thsnkhn/harbor
 
 > [!info]
-> ⭐ 718 · Swift · 2026-11-20T15:24:44Z  
+> ⭐ 721 · Swift · 2026-11-21T21:50:43Z  
 > [GitHub](https://github.com/thsnkhn/harbor) · [Website](https://thsnkhn.github.io/harbor/)  
 > `#Desktop Application` `#Download Manager` `#macOS Native` `#aria2c` `#download-manager` `#macos` `#native-apps` `#swift` `#swiftui` `#torrent-client-desktop` `#youtube-downloader` `#yt-dlp` 
 > Harbor is a beautiful native macOS download manager built with SwiftUI, supporting direct links, magnet links, and torrents. Local-first, privacy-friendly, and free, it offers batch queuing, traffic profiles, and Torrent preview for a seamless Mac-native experience.
@@ -1585,7 +1606,7 @@
 ## Fenng/Tech-Doc-Style-Chinese
 
 > [!info]
-> ⭐ 1,603 · Python · 2026-11-20T09:08:25Z  
+> ⭐ 1,604 · Python · 2026-11-21T10:35:46Z  
 > [GitHub](https://github.com/Fenng/Tech-Doc-Style-Chinese)  
 > `#AI 智能体` `#Technical Writing Standard` `#提示工程` `#skill` `#typography` 
 > A reusable writing skill for Chinese technical documentation and product copy. Helps AI agents (Codex, Claude Code) generate precise, readable Chinese tech content. Solves issues like empty rhetoric, mechanical translations, and mixed Chinese-English typography. Covers API docs, landing pages, and FAQs.
@@ -1595,7 +1616,7 @@
 ## tt-a1i/archify
 
 > [!info]
-> ⭐ 98,330 · JavaScript · 2026-11-20T23:59:03Z  
+> ⭐ 98,574 · JavaScript · 2026-11-21T23:11:25Z  
 > [GitHub](https://github.com/tt-a1i/archify) · [Website](https://archify.si)  
 > `#AI 智能体` `#Developer Tools` `#数据可视化` `#agent-skills` `#ai-agents` `#architecture-diagram` `#claude-code` `#claude-skills` `#codex` `#coding-agents` `#deepseek-harness` `#developer-tools` `#diagrams` `#diagrams-as-code` `#dsh-plugin` `#flowchart` `#llm` `#mermaid` `#opencode` `#sequence-diagram` `#software-architecture` `#system-design` `#visualization` 
 > Archify is an AI agent skill that instantly converts natural language descriptions into interactive self-contained HTML visualizations, supporting architecture diagrams, workflows, sequence diagrams, and data flows with built-in animations and clean export. It integrates seamlessly with Cursor, Claude Code, and other major AI coding tools.
@@ -1614,7 +1635,7 @@
 ## yetone/magpie
 
 > [!info]
-> ⭐ 39,512 · Go · 2026-11-20T23:52:13Z  
+> ⭐ 39,776 · Go · 2026-11-21T23:01:00Z  
 > [GitHub](https://github.com/yetone/magpie) · [Website](https://usemagpie.ai)  
 > `#AI 智能体` `#API Gateway` `#Developer Tool` `#claude-code` `#codex` `#deepseek` `#gemini-cli` `#llm` `#macos` 
 > Magpie is a lightweight cross-platform local gateway that centrally manages model selection and API routing for multiple AI coding agents (Claude Code, Codex, Gemini CLI, etc.). It offers menu-bar GUI, TUI and CLI interfaces, supports shared subscriptions, real-time model discovery, and surgical config editing for unified multi-agent orchestration.
@@ -1624,7 +1645,7 @@
 ## fif7y/dimble
 
 > [!info]
-> ⭐ 1,264 · Swift · 2026-11-20T23:07:34Z  
+> ⭐ 1,270 · Swift · 2026-11-21T21:36:40Z  
 > [GitHub](https://github.com/fif7y/dimble) · [Website](https://dimble.fif7y.com)  
 > `#Interface Optimization` `#macOS` `#桌面应用` `#bartender-alternative` `#ice-alternative` `#macos` `#macos-app` `#menu-bar` `#menu-bar-manager` `#menubar` `#menubar-app` `#status-bar` `#statusbar` `#swift` `#swiftui` `#utility` 
 > Dimble is a macOS menu bar management tool that intelligently hides rarely used icons natively, revealing them on hover or click. Features three-category layout, drag-and-drop editor, and shortcut support — lightweight, free, open source, with no account or analytics required.
@@ -1634,7 +1655,7 @@
 ## zyronon/TypeWords
 
 > [!info]
-> ⭐ 12,190 · Vue · 2026-11-20T21:22:57Z  
+> ⭐ 12,225 · Vue · 2026-11-21T19:42:27Z  
 > [GitHub](https://github.com/zyronon/TypeWords) · [Website](https://typewords.cc)  
 > `#Language Learning` `#Spaced Repetition` `#Web Application` `#english-learn` `#learn-english` `#memorizing-words` `#type-words` `#typing-practice` `#typingspeedtest` 
 > TypeWords is an open-source English vocabulary and article practice tool built with Nuxt. It supports follow-along, dictation, self-test, and memory typing modes, with built-in word banks for CET-4/6, IELTS, TOEFL and more. Features spaced repetition algorithms, bilingual comparison, pronunciation playback, and a clean ad-free interface with local data storage.
@@ -1654,7 +1675,7 @@
 ## heyjunpenn/awesome-jev
 
 > [!info]
-> ⭐ 1,087 · Astro · 2026-11-20T15:08:12Z  
+> ⭐ 1,090 · Astro · 2026-11-21T14:34:17Z  
 > [GitHub](https://github.com/heyjunpenn/awesome-jev) · [Website](https://jevbest.com/)  
 > `#AI 智能体` `#Decision System` `#Open Source Catalog` `#astro` `#awesome` `#awesome-jev` `#awesome-list` `#jev` `#typesafe` 
 > Awesome Jev is a community-maintained catalog of 640 open-source projects built with Jev, TypeSafe AI's System One model for typed decisions in software. Spanning 11 categories across SDKs, agent tooling, browser automation, games, and more, each entry identifies concrete decision points and links to verifiable public evidence for evaluating real implementations.
@@ -1664,7 +1685,7 @@
 ## jev-chat/jev-chat-jarvis
 
 > [!info]
-> ⭐ 8,480 · Kotlin · 2026-11-20T17:34:06Z  
+> ⭐ 8,487 · Kotlin · 2026-11-21T12:24:50Z  
 > [GitHub](https://github.com/jev-chat/jev-chat-jarvis) · [Website](https://chatjevs.com)  
 > `#AI 智能体` `#Accessibility Service` `#Chat Assistant` `#accessibility-service` `#ai-assistant` `#android` `#chat-assistant` `#chat-copilot` `#llm` `#ocr` `#qq` `#whatsapp` 
 > Jev Chat Assistant is a mobile AI chat co-pilot supporting WeChat, QQ, X, and Feishu. Using Android accessibility service for non-invasive screen reading, it analyzes intent and risk level, generates three candidate replies for one-tap input, while keeping sending control and privacy fully in user's hands with customizable API endpoints.
@@ -1684,7 +1705,7 @@
 ## multica-ai/multica
 
 > [!info]
-> ⭐ 56,938 · Go · 2026-11-20T23:52:30Z  
+> ⭐ 57,050 · Go · 2026-11-21T22:52:54Z  
 > [GitHub](https://github.com/multica-ai/multica) · [Website](https://multica.ai)  
 > `#AI Agents` `#Open Source Collaboration` `#Workflow Automation` 
 > Multica is an open-source, self-hostable workspace that unifies human developers with 26 AI coding agents like Claude Code and Codex on a shared Kanban board. Agents act as teammates—claiming issues, reporting progress, raising blockers, and waiting for human review—eliminating context fragmentation across multiple agent sessions.
@@ -1694,7 +1715,7 @@
 ## eternity4719/HowToLiveBetter
 
 > [!info]
-> ⭐ 76,828 · HTML · 2026-11-20T23:56:35Z  
+> ⭐ 76,942 · HTML · 2026-11-21T22:58:21Z  
 > [GitHub](https://github.com/eternity4719/HowToLiveBetter) · [Website](https://eternity4719.github.io/HowToLiveBetter/)  
 > `#Evidence-Based Decision` `#Knowledge Curation` `#Life Guide` 
 > An evidence-based life guide with 498 high-cost-performance recommendations covering longevity, first aid, finance, legal risks, marriage & parenting, and entrepreneurship compliance. Each entry specifies cost, benefit, evidence grade and original references from peer-reviewed journals and official documents, with online search and filtering support.
@@ -1704,7 +1725,7 @@
 ## TencentCloud/Octop
 
 > [!info]
-> ⭐ 12,308 · Python · 2026-11-20T21:39:34Z  
+> ⭐ 12,320 · Python · 2026-11-21T22:40:55Z  
 > [GitHub](https://github.com/TencentCloud/Octop) · [Website](https://octop.cloud)  
 > `#AI 智能体` `#Multi-Agent Collaboration` `#Self-hosted Platform` `#agent` `#agentic-ai` `#ai` `#ai-agent` `#ai-agents` `#local-first` `#long-term-memory` 
 > Octop is Tencent's open-source self-hosted multi-user AI assistant featuring a multi-agent architecture for team and personal collaboration. Integrates expert libraries, RAG knowledge base, MCP/OAuth connectors, MBTI personas, IDE integration and browser automation, with JWT isolation ensuring local privacy.
@@ -1714,7 +1735,7 @@
 ## Homebrew/BrewUI
 
 > [!info]
-> ⭐ 2,863 · Swift · 2026-11-20T08:28:24Z  
+> ⭐ 2,867 · Swift · 2026-11-21T08:58:43Z  
 > [GitHub](https://github.com/Homebrew/BrewUI)  
 > `#Desktop Application` `#GUI Client` `#Package Manager` 
 > Homebrew's official macOS GUI built with SwiftUI, offering an intuitive package management experience for users who prefer graphical interfaces over terminal. It transparently exposes underlying brew operations while enabling safe discovery, installation, and update of packages through a native macOS application.
@@ -1743,7 +1764,7 @@
 ## 88lin/computer-repair-skill
 
 > [!info]
-> ⭐ 665 · Python · 2026-11-20T16:44:08Z  
+> ⭐ 671 · Python · 2026-11-21T15:10:17Z  
 > [GitHub](https://github.com/88lin/computer-repair-skill) · [Website](https://repair.88lin.eu.org/)  
 > `#AI 智能体` `#Computer Repair` `#Cross-Platform` `#自动化工具` `#agent-skills` `#claude-code` `#codex` `#computer-diagnostics` `#linux` `#macos` `#windows` 
 > A cross-platform computer repair Skill for AI Agents, featuring 64 on-demand Playbooks covering Windows, macOS, and Linux diagnostics, cleanup, performance optimization, and security maintenance. Follows an evidence-first, plan-confirm-modify workflow for natural language-based PC troubleshooting.
@@ -1753,7 +1774,7 @@
 ## zjp1997720/zhijian-skills
 
 > [!info]
-> ⭐ 789 · Python · 2026-11-19T07:58:24Z  
+> ⭐ 790 · Python · 2026-11-21T14:48:18Z  
 > [GitHub](https://github.com/zjp1997720/zhijian-skills)  
 > `#AI 智能体` `#Automation Tool` `#Workflow Orchestration` 
 > Zhijian Skills is the canonical distribution repository for OpenAI Codex Agent Skills, offering 19 plug-and-play modules covering workflow orchestration, model routing, context diagnosis, cross-agent handoff, enterprise digital twins, and long-form writing. Install via a single npx command, with independently verified releases and complete payloads.
@@ -1783,7 +1804,7 @@
 ## k2-fsa/OmniVoice
 
 > [!info]
-> ⭐ 16,735 · Python · 2026-11-20T23:28:54Z  
+> ⭐ 16,747 · Python · 2026-11-21T22:41:22Z  
 > [GitHub](https://github.com/k2-fsa/OmniVoice)  
 > `#AI Large Model` `#Multilingual` `#Speech Synthesis` 
 > OmniVoice is a state-of-the-art zero-shot TTS model supporting 600+ languages with diffusion language model architecture. It delivers high-quality voice cloning, voice design, and fast inference (RTF 0.025), enabling multilingual speech synthesis for content creation, virtual dubbing, and voice AI applications.
@@ -1793,7 +1814,7 @@
 ## siknet/FreePEP
 
 > [!info]
-> ⭐ 1,552 · Python · 2026-11-20T08:59:38Z  
+> ⭐ 1,555 · Python · 2026-11-21T21:10:52Z  
 > [GitHub](https://github.com/siknet/FreePEP)  
 > `#Educational Tools` `#Textbook Access` `#网页爬虫` `#自动化工具` 
 > FreePEP is a batch downloader for People's Education Press textbooks, featuring 780+ built-in titles and an AES decryption engine. It automatically bypasses WAF CAPTCHA, supports dual WebUI/CLI modes, multi-threaded downloads with resumption, and high-quality PDF synthesis for quick textbook access.
@@ -1803,7 +1824,7 @@
 ## vastsa/PI-Desktop
 
 > [!info]
-> ⭐ 8,113 · TypeScript · 2026-11-20T23:27:29Z  
+> ⭐ 8,117 · TypeScript · 2026-11-21T18:21:23Z  
 > [GitHub](https://github.com/vastsa/PI-Desktop) · [Website](https://www.aiuo.net)  
 > `#AI Coding Agent` `#Cross-Platform` `#Desktop Application` `#ai-agent` `#coding-agent` `#desktop-app` `#electron` `#global` `#i18n` `#local-first` `#mcp` `#pi` `#pi-agent` `#pi-desktop` `#plugins` `#react` `#rust` `#typescript` 
 > PI-Desktop is a local-first AI coding agent desktop app built with Electron and Rust. It supports OpenAI, Anthropic, and custom models, offers Agent/Plan/Goal modes with permission controls and an extensible plugin system for cross-platform independent coding workspaces.
@@ -1822,7 +1843,7 @@
 ## chidiwilliams/buzz
 
 > [!info]
-> ⭐ 22,942 · Python · 2026-11-20T21:48:19Z  
+> ⭐ 22,965 · Python · 2026-11-21T22:03:18Z  
 > [GitHub](https://github.com/chidiwilliams/buzz) · [Website](https://chidiwilliams.github.io/buzz)  
 > `#Audio Transcription` `#Subtitle Generation` `#Whisper` `#whisper` 
 > Buzz is a local audio transcription and translation tool powered by OpenAI Whisper, running entirely offline. It features multi-hardware acceleration (CUDA/Apple Silicon/Vulkan), real-time microphone input, voice separation, and speaker identification, with export to TXT/SRT/VTT formats across Windows, macOS, and Linux.
@@ -1832,7 +1853,7 @@
 ## humanlayer/skills
 
 > [!info]
-> ⭐ 5,849 · TypeScript · 2026-11-20T22:31:58Z  
+> ⭐ 5,851 · TypeScript · 2026-11-21T17:48:40Z  
 > [GitHub](https://github.com/humanlayer/skills)  
 > `#AI 智能体` `#Claude Code` `#Programming Assistant` 
 > A collection of Claude Code skills from HumanLayer, featuring instruction optimization, React prop narrowing, agentic loop automation, and GitHub Actions integration to boost developer productivity and code quality.
@@ -1841,7 +1862,7 @@
 ## Nutlope/logocreator
 
 > [!info]
-> ⭐ 8,987 · TypeScript · 2026-11-20T21:25:27Z  
+> ⭐ 8,991 · TypeScript · 2026-11-21T09:03:45Z  
 > [GitHub](https://github.com/Nutlope/logocreator) · [Website](https://www.logo-creator.io/)  
 > `#AI 图像生成` `#Brand Design Tool` 
 > An open-source AI logo generator powered by Flux and Together AI, delivering production-ready brand logos in seconds. Features include SVG/PNG export, reference image upload via vision models, and complete brand kit generation. No account required, ideal for rapid brand design and creative prototyping.
@@ -1861,7 +1882,7 @@
 ## bybit-exchange/svg-diagram
 
 > [!info]
-> ⭐ 674 · JavaScript · 2026-11-19T09:05:50Z  
+> ⭐ 676 · JavaScript · 2026-11-21T07:43:35Z  
 > [GitHub](https://github.com/bybit-exchange/svg-diagram)  
 > `#AI 智能体` `#Architecture Visualization` `#SVG Diagram` `#agent-skills` `#architecture-diagram` `#cjk` `#claude-code` `#claude-skill` `#codex` `#coding-agents` `#data-flow-diagram` `#developer-tools` `#diagrams` `#diagrams-as-code` `#flowchart` `#linter` `#mermaid-alternative` `#opencode` `#sequence-diagram` `#software-architecture` `#svg` `#system-design` `#technical-documentation` 
 > An agent skill that draws hand-crafted SVG diagrams — architecture, flowchart, sequence, data-flow, lifecycle — following a unified house style with layout arithmetic, a color system, and a zero-dependency linter (svg-lint) with 12 checks. Works with 40+ AI coding agents including Claude Code, Cursor, and Copilot.
@@ -1871,7 +1892,7 @@
 ## HD838A/remote-mic-app
 
 > [!info]
-> ⭐ 3,065 · Swift · 2026-11-20T18:53:53Z  
+> ⭐ 3,083 · Swift · 2026-11-21T18:26:03Z  
 > [GitHub](https://github.com/HD838A/remote-mic-app) · [Website](https://sayall.app)  
 > `#SwiftUI` `#Voice Input` `#桌面应用` `#自动化工具` 
 > SayAll is a native macOS app that transforms Xiaomi Bluetooth Remote 2 Pro into a wireless microphone for Mac, enabling real-time voice typing, per-app shortcut profiles, and automation workflows. It features voice history logging with local MCP agent integration, runs lightweight under 0.5% CPU and ~50MB memory.
@@ -1901,7 +1922,7 @@
 ## dujiao-next/dujiao-next
 
 > [!info]
-> ⭐ 1,834 · Go · 2026-11-20T18:43:59Z  
+> ⭐ 1,838 · Go · 2026-11-21T21:53:20Z  
 > [GitHub](https://github.com/dujiao-next/dujiao-next) · [Website](https://dujiao-next.com)  
 > `#Digital Goods` `#E-commerce Platform` `#Go Backend` `#Modular Monolith` 
 > Dujiao-Next is a digital goods e-commerce platform featuring a Go backend, Vue 3 storefront, and admin panel. It uses modular monolith architecture with JWT, Casbin RBAC, and TOTP 2FA, plus Redis-based async jobs via asynq — ideal for virtual products, AI services, and digital gift cards.
@@ -1911,7 +1932,7 @@
 ## majd/ipatool
 
 > [!info]
-> ⭐ 12,413 · Go · 2026-11-20T21:57:09Z  
+> ⭐ 12,422 · Go · 2026-11-21T22:49:23Z  
 > [GitHub](https://github.com/majd/ipatool) · [Website](https://ipatool.dev)  
 > `#App Store Integration` `#Command Line Tool` `#Cross-Platform` `#自动化工具` `#apple` `#appstore` `#cli` `#command-line` `#command-line-tool` `#go` `#golang` `#golang-library` `#ios` `#ipa` `#itunes` `#macos` `#research` `#reverse-engineering` `#security` `#swift` `#tool` `#visionos` 
 > ipatool is a cross-platform command-line tool for searching and downloading iOS, iPadOS, tvOS, and visionOS app packages (IPA) from the App Store. It supports authentication, search, license acquisition, and version management, ideal for developer workflows, enterprise distribution, and batch app management.
@@ -1921,7 +1942,7 @@
 ## baojie/shiji-kb
 
 > [!info]
-> ⭐ 3,803 · HTML · 2026-11-20T23:04:27Z  
+> ⭐ 3,806 · HTML · 2026-11-21T05:28:35Z  
 > [GitHub](https://github.com/baojie/shiji-kb)  
 > `#AI 智能体` `#Digital Humanities` `#知识图谱` 
 > Transforms the 570,000-character Records of the Grand Historian into an interactive knowledge graph using AI. Extracts 14,065 entities, 3,198 historical events, and 7,637 relations. Introduces Agentic Ontology paradigm with comprehensive methodology (14 meta-skills + 89 pipeline skills), suited for digital humanities, historical research, and AI knowledge engineering.
@@ -1930,7 +1951,7 @@
 ## SimoneAvogadro/android-reverse-engineering-skill
 
 > [!info]
-> ⭐ 8,757 · Shell · 2026-11-20T22:36:14Z  
+> ⭐ 8,764 · Shell · 2026-11-21T17:54:42Z  
 > [GitHub](https://github.com/SimoneAvogadro/android-reverse-engineering-skill)  
 > `#Mobile Apps` `#Reverse Engineering` `#Security Research` 
 > A Claude Code skill for Android reverse engineering that decompiles APK/XAPK/JAR/AAR files and extracts HTTP APIs (Retrofit, OkHttp, Ktor, Apollo GraphQL). Supports R8 deobfuscation for Kotlin/KMP apps, framework detection, and call flow tracing for security research and API documentation.
@@ -1940,7 +1961,7 @@
 ## tailscale/tailcat
 
 > [!info]
-> ⭐ 10,124 · Go · 2026-11-20T22:20:21Z  
+> ⭐ 10,133 · Go · 2026-11-21T22:24:09Z  
 > [GitHub](https://github.com/tailscale/tailcat) · [Website](https://tailscale.com/tailcat)  
 > `#DevOps Automation` `#Network Tool` `#Secure Communication` 
 > Tailcat is a netcat-like tool built on Tailscale's data plane, enabling WireGuard-encrypted P2P tunnels without requiring a Tailscale account or root privileges. Features NAT traversal, DERP relays, file transfer, and a WebAssembly browser client for secure cross-network communication.
@@ -1950,7 +1971,7 @@
 ## XiaoDuoYa/codex-with-chatgpt
 
 > [!info]
-> ⭐ 7,725 · TypeScript · 2026-11-20T18:47:34Z  
+> ⭐ 7,725 · TypeScript · 2026-11-21T20:03:20Z  
 > [GitHub](https://github.com/XiaoDuoYa/codex-with-chatgpt)  
 > `#AI 智能体` `#Coding Assistant` `#Workflow Orchestration` `#ai-agents` `#chatgpt` `#codex` `#mcp` `#model-context-protocol` `#oauth` 
 > Uses the ChatGPT web app as the planning and review brain for Codex coding sessions, while Codex retains full execution control. Secure read-only MCP connection via OAuth reads only needed code; repo is never uploaded. No API key or reverse proxy required.
@@ -1960,7 +1981,7 @@
 ## fayazara/Screendrop
 
 > [!info]
-> ⭐ 2,422 · Swift · 2026-11-20T20:55:20Z  
+> ⭐ 2,468 · Swift · 2026-11-21T22:31:17Z  
 > [GitHub](https://github.com/fayazara/Screendrop)  
 > `#Screen Recording` `#Video Creation` `#macOS` `#桌面应用` `#macos` `#swift` 
 > Screendrop is a free, native macOS screenshot and screen recording app — an open-source, self-hostable Loom alternative. Features include AI on-device transcription, karaoke captions, video editing with zooms and picture-in-picture, smart redaction, and shareable links with searchable transcripts and comments via Cloudflare. Integrates with Apple Shortcuts, Siri, and Finder for seamless automation.
@@ -1970,7 +1991,7 @@
 ## aozorae/Edgechat
 
 > [!info]
-> ⭐ 1,464 · JavaScript · 2026-11-20T05:19:59Z  
+> ⭐ 1,466 · JavaScript · 2026-11-21T22:20:37Z  
 > [GitHub](https://github.com/aozorae/Edgechat) · [Website](https://echat.azora.top)  
 > `#Cloudflare Workers` `#Team Collaboration` `#Telegram Bridge` `#chat` `#cloudflare` `#cloudflare-workers` `#instant-messaging` `#javascript` `#self-hosted` `#serverless` `#team-chat` `#telegram` `#webmcp` `#websocket` 
 > EdgeChat is a zero-infrastructure team chat system built on Cloudflare ecosystem, supporting public/private groups, DMs, and real-time messaging. Its standout feature is bidirectional Telegram bridge via Bot for seamless cross-platform sync. Powered by Vue 3 + Hono frontend, Durable Objects for WebSocket, and AES-256-GCM encryption, it delivers enterprise-grade IM within Cloudflare's free tier.
@@ -1980,7 +2001,7 @@
 ## XIaodou0416/Beans-Music
 
 > [!info]
-> ⭐ 478 · Swift · 2026-11-19T13:22:31Z  
+> ⭐ 479 · Swift · 2026-11-21T15:25:52Z  
 > [GitHub](https://github.com/XIaodou0416/Beans-Music)  
 > `#Music Aggregator Player` `#SwiftUI` `#iOS` `#移动端应用` 
 > A SwiftUI-based third-party iOS music player featuring iOS 26 Liquid Glass design. Aggregates NetEase Cloud Music and QQ Music with deep lyric customization, dynamic cover color extraction, free layout adjustment, and one-click backup for an immersive localized experience.
@@ -1990,7 +2011,7 @@
 ## kanbn/kan
 
 > [!info]
-> ⭐ 6,059 · TypeScript · 2026-11-20T16:45:35Z  
+> ⭐ 6,065 · TypeScript · 2026-11-21T22:38:48Z  
 > [GitHub](https://github.com/kanbn/kan) · [Website](https://kan.bn)  
 > `#Kanban Collaboration` `#Modern Web Stack` `#Project Management` `#better-auth` `#drizzle-orm` `#nestjs` `#nextjs` `#open-source` `#tailwindcss` `#turborepo` `#typescript` `#zod` 
 > Kan is an open-source Trello alternative built with Next.js and tRPC, offering board visibility control, team collaboration, Trello imports, labels, activity logs, and templates. Supports Railway one-click deployment and Docker self-hosting, ideal for small to medium teams seeking lightweight project management and task collaboration.
@@ -2000,7 +2021,7 @@
 ## chuspeeism/dashi-ppt-skill
 
 > [!info]
-> ⭐ 10,895 · JavaScript · 2026-11-20T16:30:55Z  
+> ⭐ 10,917 · JavaScript · 2026-11-21T21:42:19Z  
 > [GitHub](https://github.com/chuspeeism/dashi-ppt-skill)  
 > `#AI 智能体` `#Office Automation` `#Presentation Generation` `#agent-skill` `#ai-agent` `#ai-ppt` `#claude` `#claude-code` `#dashial` `#html-presentation` `#ppt` `#pptx` `#presentation` `#presentation-generator` `#skill` `#slide-generator` `#slides` 
 > Dashi PPT Skill is an AI Agent skill that generates browser-editable presentations from documents, featuring 12 visual themes, 1,020 layouts, and rich chart/model templates. Users can edit slides directly in the browser and export to editable HTML, PDF, and PPTX formats with one click.
@@ -2010,7 +2031,7 @@
 ## makecindy/cindy
 
 > [!info]
-> ⭐ 10,331 · TypeScript · 2026-11-20T20:52:15Z  
+> ⭐ 10,362 · TypeScript · 2026-11-21T22:21:16Z  
 > [GitHub](https://github.com/makecindy/cindy) · [Website](https://cindy.app)  
 > `#AI 智能体` `#Automation Workflow` `#Cross-Platform App` `#agent` `#ai-agent` `#ai-assistant` `#android` `#claude-code` `#codex` `#electron` `#ios` `#llm` `#macos` `#react-native` `#typescript` `#windows` 
 > Cindy is an open-source, out-of-the-box AI agent client supporting Claude Code and Codex orchestration. It runs locally with file system access, browser automation, and MCP protocol integration for cross-device task orchestration and automated execution.
@@ -2020,7 +2041,7 @@
 ## iAmCorey/Wake
 
 > [!info]
-> ⭐ 1,583 · Rust · 2026-11-20T18:13:27Z  
+> ⭐ 1,584 · Rust · 2026-11-21T18:34:24Z  
 > [GitHub](https://github.com/iAmCorey/Wake) · [Website](https://wake.cool)  
 > `#AI Coding Agent` `#Rust/GPUI Stack` `#Session Management` 
 > Wake is a native macOS app built with Rust + GPUI that unifies all coding-agent sessions — Claude, Codex, Copilot, Cursor, and more. Features full-text search (FTS5), one-click resume, local-first privacy (zero network), and incremental real-time scanning.
@@ -2030,7 +2051,7 @@
 ## tdlib/telegram-bot-api
 
 > [!info]
-> ⭐ 4,533 · C++ · 2026-11-20T23:10:55Z  
+> ⭐ 4,532 · C++ · 2026-11-21T21:27:26Z  
 > [GitHub](https://github.com/tdlib/telegram-bot-api) · [Website](https://core.telegram.org/bots)  
 > `#API Service` `#Automation Tool` `#C++` 
 > Official Telegram Bot API server implementation supporting self-hosted deployment. Provides complete Bot API HTTP interface with unlimited file downloads, 2000MB upload support, and custom webhook configuration. Ideal for high-concurrency scenarios, data privacy protection, and enterprise applications requiring API customization.
@@ -2040,7 +2061,7 @@
 ## agalwood/Motrix
 
 > [!info]
-> ⭐ 58,587 · TypeScript · 2026-11-20T23:33:38Z  
+> ⭐ 58,642 · TypeScript · 2026-11-21T22:34:53Z  
 > [GitHub](https://github.com/agalwood/Motrix) · [Website](https://motrix.app)  
 > `#BitTorrent` `#Download Manager` `#桌面应用` `#aria2` `#bt` `#download` `#electron` `#linux` `#mac` `#macos` `#magnet` `#motrix` `#torrent` `#windows` 
 > Motrix is a modern, full-featured download manager supporting HTTP, FTP, BitTorrent, and magnet links. v2 is rebuilt with Electron, React, and TypeScript, using the MDXP protocol for browser extensions and CLI remote control. It supports Docker headless deployment, ideal for desktop and NAS/home server scenarios.
@@ -2050,7 +2071,7 @@
 ## abcwyc/pi-agent-desktop
 
 > [!info]
-> ⭐ 939 · TypeScript · 2026-11-20T12:52:40Z  
+> ⭐ 940 · TypeScript · 2026-11-21T01:49:25Z  
 > [GitHub](https://github.com/abcwyc/pi-agent-desktop) · [Website](https://pi.348580.xyz)  
 > `#AI 智能体` `#Coding Assistant` `#Desktop Application` `#ai` `#ai-agent` `#desktop-app` `#pi` 
 > Pi Agent is a cross-platform AI coding agent desktop app that packages Claude Code capabilities into a standalone, zero-config application. Supporting macOS, Windows, and Linux, it enables seamless AI-assisted development without terminal commands. Features include session management, model configuration, code preview, and automatic updates.
@@ -2060,7 +2081,7 @@
 ## deepseek-ai/deepseek-harness
 
 > [!info]
-> ⭐ 284,698 · TypeScript · 2026-11-20T23:50:26Z  
+> ⭐ 285,070 · TypeScript · 2026-11-21T23:13:48Z  
 > [GitHub](https://github.com/deepseek-ai/deepseek-harness) · [Website](https://deepseek.com/harness)  
 > `#AI 智能体` `#Cordis Framework` `#Plugin Architecture` `#ai-agents` `#cordis` `#dsh` `#dsh-plugin` 
 > DeepSeek Harness is an open-source agent runtime by DeepSeek AI, built on Cordis's "everything is a plugin" architecture. It offers a Web UI for rapid AI agent development and execution with an extensible plugin ecosystem, suited for automation and intelligent task processing.
@@ -2070,7 +2091,7 @@
 ## didriksg/Crisp
 
 > [!info]
-> ⭐ 2,451 · Swift · 2026-11-20T18:51:39Z  
+> ⭐ 2,461 · Swift · 2026-11-21T21:59:23Z  
 > [GitHub](https://github.com/didriksg/Crisp) · [Website](https://crispmac.app/)  
 > `#Display Management` `#Open Source Tool` `#桌面应用` `#4k` `#apple-silicon` `#betterdisplay` `#brightness` `#brightness-control` `#ddc` `#display` `#display-manager` `#external-monitor` `#hidpi` `#mac` `#macos` `#macos-app` `#menu-bar` `#monitor` `#resolution` `#retina` `#scaling` `#swift` `#virtual-display` 
 > Crisp is a free, open-source external monitor control app for macOS, offering sharp HiDPI scaling, DDC brightness control, display presets and virtual displays as an alternative to paid tools like BetterDisplay.
@@ -2089,7 +2110,7 @@
 ## can1357/oh-my-pi
 
 > [!info]
-> ⭐ 39,538 · TypeScript · 2026-11-20T23:39:20Z  
+> ⭐ 39,594 · TypeScript · 2026-11-21T23:13:24Z  
 > [GitHub](https://github.com/can1357/oh-my-pi) · [Website](https://omp.sh)  
 > `#AI 智能体` `#Rust Core` `#Terminal Dev Tool` `#ai-agent` `#ai-coding-agent` `#anthropic` `#bun` `#claude` `#cli` `#coding-assistant` `#llm` `#mcp` `#multi-provider` `#openai` `#rust` `#terminal` `#tui` `#typescript` 
 > oh-my-pi is a powerful terminal-based AI coding agent featuring 31 built-in tools and 60+ LLM providers. Built on a Rust core (~80k lines), it supports LSP/DAP operations, hash-anchored edits, and subagent orchestration, delivering IDE-grade intelligent coding directly in the terminal.
@@ -2119,7 +2140,7 @@
 ## freestylefly/wesight-obsidian
 
 > [!info]
-> ⭐ 480 · TypeScript · 2026-11-20T02:17:41Z  
+> ⭐ 481 · TypeScript · 2026-11-21T14:07:18Z  
 > [GitHub](https://github.com/freestylefly/wesight-obsidian) · [Website](https://wesight.ai/)  
 > `#AI 智能体` `#Content Publishing` `#Local Runtime` `#Obsidian Plugin` 
 > WeSight Obsidian plugin integrates local AI agents like Claude Code, Codex, and OpenCode directly into your Obsidian vault. Features include sidebar chat, inline editing, file mentions, and slash commands. It supports internet snapshot sharing, Feishu document sync, and WeChat Official Account draft publishing, enabling seamless AI collaboration and multi-platform content distribution.
@@ -2129,7 +2150,7 @@
 ## getopenscreen/openscreen
 
 > [!info]
-> ⭐ 7,649 · TypeScript · 2026-11-20T23:41:41Z  
+> ⭐ 7,717 · TypeScript · 2026-11-21T23:16:01Z  
 > [GitHub](https://github.com/getopenscreen/openscreen) · [Website](https://getopenscreen.com/)  
 > `#AI Editing` `#Product Demos` `#Screen Recording` `#cross-platform` `#electron` `#ffmpeg` `#open-source` `#product-demo` `#rust` `#screen-capture` `#screen-recorder` `#screen-recording` `#screen-studio` `#screencast` `#speech-to-text` `#typescript` `#video-editing` `#video-editor` `#wayland` `#wgpu` `#whisper` 
 > OpenScreen is a free, open-source screen recording and demo creation tool, positioned as an alternative to Screen Studio. It features window/full-screen recording, auto-zooms, cursor effects, webcam overlay, on-device AI captions, and an AI editing assistant. Ideal for product demos, tutorials, and social media content across macOS, Windows, and Linux.
@@ -2139,7 +2160,7 @@
 ## firecrawl/anydoc
 
 > [!info]
-> ⭐ 23,640 · Rust · 2026-11-20T23:11:36Z  
+> ⭐ 23,647 · Rust · 2026-11-21T22:59:13Z  
 > [GitHub](https://github.com/firecrawl/anydoc) · [Website](https://firecrawl.github.io/anydoc/)  
 > `#AI 智能体` `#Data Preprocessing` `#Document Parsing` 
 > anydoc is a high-performance Rust library that converts 8+ document formats (Word, PDF, Excel, etc.) into clean GitHub-Flavored Markdown in single-digit milliseconds. Offers Node.js, Python, and WebAssembly bindings, purpose-built for LLM data preprocessing and AI Agent integration, powering Firecrawl Parse.
@@ -2149,7 +2170,7 @@
 ## thaw-app/Thaw
 
 > [!info]
-> ⭐ 12,840 · Swift · 2026-11-20T19:52:07Z  
+> ⭐ 12,857 · Swift · 2026-11-21T22:45:13Z  
 > [GitHub](https://github.com/thaw-app/Thaw) · [Website](https://www.getthaw.app)  
 > `#Menu Bar Manager` `#macOS` `#桌面应用` `#macos` `#macos-app` `#menu-bar` `#menu-bar-manager` `#menubar-app` `#swift` `#swiftui` `#utility` 
 > Thaw is a menu bar manager for macOS, supporting macOS 26+. It helps users organize, hide, and manage menu bar icons with an intuitive interface, improving desktop cleanliness and productivity. The project has achieved OpenSSF security certification, supports 20 languages, and maintains an active Discord community.
@@ -2159,7 +2180,7 @@
 ## citrolabs/ego-lite
 
 > [!info]
-> ⭐ 23,886 · JavaScript · 2026-11-20T23:55:07Z  
+> ⭐ 23,961 · JavaScript · 2026-11-21T22:40:27Z  
 > [GitHub](https://github.com/citrolabs/ego-lite) · [Website](https://lite.ego.app)  
 > `#AI 智能体` `#Browser Automation` `#Zero-Config Integration` `#agent-skills` `#ai-agent` `#automation` `#browser` `#browser-automation` `#claude-code` `#codex` `#hermes-agent` `#skills` `#skills-sh` 
 > ego-lite is a high-performance browser built for AI agents, enabling parallel work between users and AI assistants. Agents run browser tasks in isolated spaces while sharing your logins, cookies, and extensions with zero setup cost, seamlessly integrating with Claude Code, Codex, and other leading AI tools.
@@ -2169,7 +2190,7 @@
 ## KKKKhazix/human-writing
 
 > [!info]
-> ⭐ 4,682 · Python · 2026-11-20T17:33:01Z  
+> ⭐ 4,691 · Python · 2026-11-21T15:59:16Z  
 > [GitHub](https://github.com/KKKKhazix/human-writing)  
 > `#AI Writing` `#Chinese Optimization` `#提示工程` `#agent-skills` `#chinese-writing` `#creative-writing` `#writing-skill` 
 > Eliminates AI-generated Chinese stiffness, making outputs read like a real person speaking. Provides a ready-to-use writing Skill for Zhihu, WeChat articles, blogs, fiction and more, with built-in fact-checking, logical progression and Chinese rhythm controls, plus a detection script and distilled prompt version.
@@ -2179,7 +2200,7 @@
 ## yaojingang/yao-meta-skill
 
 > [!info]
-> ⭐ 2,739 · Python · 2026-11-20T04:52:57Z  
+> ⭐ 2,740 · Python · 2026-11-21T17:19:07Z  
 > [GitHub](https://github.com/yaojingang/yao-meta-skill) · [Website](https://github.com/yaojingang/yao-meta-skill#readme)  
 > `#AI 智能体` `#Engineering Governance` `#Reusable Skills` `#agent-skills` `#ai-agents` `#evaluation` `#governance` `#meta-skill` `#portability` `#skill-engineering` `#workflow-automation` 
 > YAO is a rigorous engineering and governance system for reusable AI agent skills. Version 2.0 upgrades to a Skill OS with platform-neutral IR, target compilers, evaluation evidence lab, release gates, and full lifecycle governance — turning repeated workflows into installable, cross-platform skill packages.
@@ -2189,7 +2210,7 @@
 ## cloudflare/computer
 
 > [!info]
-> ⭐ 9,942 · TypeScript · 2026-11-20T23:30:08Z  
+> ⭐ 9,948 · TypeScript · 2026-11-21T19:22:29Z  
 > [GitHub](https://github.com/cloudflare/computer)  
 > `#AI 智能体` `#Cloudflare Workers` `#Virtual Filesystem` 
 > Cloudflare Computer is a virtual filesystem built on Durable Objects with SQLite state management and pluggable execution backends. It supports three modes: containerized Linux, just-bash shell in Dynamic Workers, and ECMAScript modules. Provides a unified execution entry point for AI agents, automation tasks, and code sandboxing on the Cloudflare Workers platform.
@@ -2199,7 +2220,7 @@
 ## karpathy/autoresearch
 
 > [!info]
-> ⭐ 100,334 · Python · 2026-11-20T23:46:21Z  
+> ⭐ 100,379 · Python · 2026-11-21T22:09:23Z  
 > [GitHub](https://github.com/karpathy/autoresearch)  
 > `#AI 智能体` `#LLM Training` `#自动化工具` 
 > An autonomous AI research system by Karpathy where agents automatically modify training code, run 5-minute experiments on a single GPU, and iterate to optimize LLMs. Researchers program agent behavior via program.md, enabling overnight self-directed model training research without manual intervention.
@@ -2209,7 +2230,7 @@
 ## alielsokary/CaskHub
 
 > [!info]
-> ⭐ 1,475 · Swift · 2026-11-20T16:43:03Z  
+> ⭐ 1,475 · Swift · 2026-11-21T21:54:16Z  
 > [GitHub](https://github.com/alielsokary/CaskHub) · [Website](https://caskhub.app)  
 > `#Package Manager` `#SwiftUI` `#桌面应用` `#brew` `#homebrew` `#homebrew-cask` `#macos` `#swift` `#swiftui` 
 > CaskHub is a native macOS GUI for Homebrew Casks, enabling browsing, searching, installing, updating, and uninstalling Mac apps. Built with SwiftUI, it features category browsing, popularity charts, one-click app adoption, and is 100% free and open source with no ads or subscriptions.
@@ -2219,7 +2240,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 121,070 · C# · 2026-11-20T23:25:39Z  
+> ⭐ 121,131 · C# · 2026-11-21T23:07:09Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#Cross-platform` `#GUI Client` `#Network Proxy` `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > v2rayN is a cross-platform GUI proxy client built on .NET, supporting Windows, Linux, and macOS. It integrates multiple cores like Xray and sing-box, offering a user-friendly interface to manage complex network proxy configurations, with GPG signature verification for secure software distribution.
@@ -2229,7 +2250,7 @@
 ## 2dust/v2rayNG
 
 > [!info]
-> ⭐ 66,247 · Kotlin · 2026-11-20T20:01:49Z  
+> ⭐ 66,308 · Kotlin · 2026-11-21T22:20:35Z  
 > [GitHub](https://github.com/2dust/v2rayNG) · [Website](https://v2rayng.2dust.link)  
 > `#Android Client` `#Network Security` `#VPN Proxy` `#android` `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#vpn` `#xray` `#xtls` 
 > v2rayNG is a robust V2Ray client for Android, fully supporting Xray and v2fly cores. It offers powerful proxy capabilities with flexible GeoIP/Geosite routing management. Written in Kotlin and featuring GPG signature verification, it is a top-tier solution for mobile network proxying.
@@ -2239,7 +2260,7 @@
 ## nyblnet/bento
 
 > [!info]
-> ⭐ 5,680 · TypeScript · 2026-11-20T06:32:13Z  
+> ⭐ 5,681 · TypeScript · 2026-11-21T00:47:34Z  
 > [GitHub](https://github.com/nyblnet/bento) · [Website](https://bento.page)  
 > `#AI-Native` `#Local-First` `#Office Collaboration` `#Single-File App` `#mit-license` `#office` `#office-365` `#office-suite` `#office-tools` `#office365` `#open-source` `#powerpoint` `#self-hosted` `#single-page-app` `#slides` `#slideshare` `#slideshow` `#slideshow-gallery` `#slideshow-maker` `#slideshows` 
 > Bento is a single-file presentation tool that packs an editor, viewer, and animation engine into a ~560KB HTML file. Utilizing a pure JSON data structure, it offers local-first, offline capabilities with E2EE real-time collaboration and native AI agent editing, serving as a lightweight, cloud-free alternative to PowerPoint.
@@ -2249,7 +2270,7 @@
 ## yc-duan/fastctx
 
 > [!info]
-> ⭐ 1,557 · Rust · 2026-11-20T03:10:15Z  
+> ⭐ 1,556 · Rust · 2026-11-21T02:19:14Z  
 > [GitHub](https://github.com/yc-duan/fastctx)  
 > `#AI 智能体` `#Context Optimization` `#Rust Runtime` 
 > FastCtx is a high-performance Rust-based local tool runtime designed for AI coding agents, providing structured repository operations like file reading, content search, file discovery, batch replacement, and Bash execution via MCP. It encapsulates complex shell commands into stable I/O models, significantly reducing the cognitive load on AI agents, improving context efficiency, and allowing models to focus more on code comprehension and task planning.
@@ -2259,7 +2280,7 @@
 ## lidge-jun/opencodex
 
 > [!info]
-> ⭐ 18,685 · TypeScript · 2026-11-20T21:18:52Z  
+> ⭐ 18,696 · TypeScript · 2026-11-21T22:25:15Z  
 > [GitHub](https://github.com/lidge-jun/opencodex) · [Website](https://opencodex.me/)  
 > `#AI 智能体` `#LLM Proxy` `#Multi-model Routing` `#ai-gateway` `#ai-tools` `#anthropic` `#chatgpt` `#claude` `#claude-code` `#codex` `#codex-cli` `#deepseek` `#developer-tools` `#gemini` `#grok` `#kiro` `#llm` `#llm-proxy` `#ollama` `#openai` `#openrouter` `#proxy` `#typescript` 
 > OpenCodex is a universal local proxy that eliminates vendor lock-in for OpenAI Codex and Claude Code. It translates Codex's Responses API into various LLM provider formats (Claude, Gemini, DeepSeek, Ollama, etc.), enabling seamless model switching. Supporting streaming, tool calls, and multimodal inputs, it also features a ChatGPT account pool manager for automatic quota refreshing and load balancing to ensure uninterrupted development workflows.
@@ -2279,7 +2300,7 @@
 ## buchidonggua/dg-ai-notes
 
 > [!info]
-> ⭐ 3,692 · MDX · 2026-11-20T16:59:15Z  
+> ⭐ 3,700 · MDX · 2026-11-21T16:51:05Z  
 > [GitHub](https://github.com/buchidonggua/dg-ai-notes) · [Website](https://dg-ai-notes.pages.dev/)  
 > `#AI 智能体` `#SDK Architecture` `#Source Code Analysis` `#ai-agent` `#learning-notes` `#pi-agent` `#python` `#tutorial` `#typescript` 
 > A deep-dive tutorial repository on the Pi-Agent SDK, systematically deconstructing the core architecture of production-grade AI Agent runtimes. Covering 10 modules including Agent Loop, tool systems, and event-driven design, it provides TypeScript and Python dual-language comparisons to analyze the source code and design trade-offs of Agent SDKs for developers.
@@ -2298,7 +2319,7 @@
 ## Zackriya-Solutions/meetily
 
 > [!info]
-> ⭐ 32,928 · Rust · 2026-11-20T23:35:20Z  
+> ⭐ 32,948 · Rust · 2026-11-21T22:58:53Z  
 > [GitHub](https://github.com/Zackriya-Solutions/meetily) · [Website](https://meetily.ai)  
 > `#AI 智能体` `#Local Deployment` `#Rust` `#ai` `#ai-meeting-assistant` `#llm` `#local-ai` `#mac` `#meeting-minutes` `#meeting-notes` `#offline-first` `#ollama` `#parakeet` `#privacy-focused` `#privacy-tools` `#rust` `#self-hosted` `#sortformer` `#speech-to-text` `#transcription` `#whisper` `#whisper-cpp` `#windows` 
 > Meetily is a privacy-first AI meeting assistant built on Rust for macOS and Windows. Leveraging local AI models like Ollama, it delivers 4x faster real-time transcription, speaker diarization, and summarization with 100% local processing, ensuring complete data sovereignty and compliance without cloud dependency.
@@ -2308,7 +2329,7 @@
 ## oblien/openship
 
 > [!info]
-> ⭐ 15,373 · TypeScript · 2026-11-20T16:41:43Z  
+> ⭐ 15,379 · TypeScript · 2026-11-21T18:14:09Z  
 > [GitHub](https://github.com/oblien/openship) · [Website](https://openship.io)  
 > `#CI/CD` `#Containerization` `#私有化部署` `#运维自动化` `#agents` `#ai` `#deployments` `#self-hosted` 
 > Openship is an open-source, self-hostable deployment platform with built-in CI/CD. It enables push-to-deploy workflows, container management, and infrastructure control via desktop app, web dashboard, or CLI, requiring zero configuration files.
@@ -2318,7 +2339,7 @@
 ## Dokploy/dokploy
 
 > [!info]
-> ⭐ 38,626 · TypeScript · 2026-11-20T22:55:33Z  
+> ⭐ 38,637 · TypeScript · 2026-11-21T22:57:15Z  
 > [GitHub](https://github.com/Dokploy/dokploy) · [Website](https://dokploy.com/)  
 > `#Deployment Automation` `#PaaS` `#Self-Hosted` `#容器化` `#agents` `#ai` `#backend` `#backups` `#databases` `#deployment` `#deployments` `#devops` `#docker` `#frontend` `#mariadb` `#mongodb` `#mysql` `#nextjs` `#postgresql` `#self-hosted` `#vps` 
 > Dokploy is an open-source, self-hostable PaaS platform designed as an alternative to Vercel, Netlify, and Heroku. It simplifies application and database deployment with native Docker Compose support, multi-node Swarm clustering, integrated Traefik routing, real-time monitoring, and comprehensive multi-server management.
@@ -2328,7 +2349,7 @@
 ## xiejunjie524/handdraw-story-video
 
 > [!info]
-> ⭐ 813 · Python · 2026-11-18T23:05:07Z  
+> ⭐ 814 · Python · 2026-11-21T17:27:06Z  
 > [GitHub](https://github.com/xiejunjie524/handdraw-story-video)  
 > `#Animation` `#HyperFrames` `#Short Video Generation` 
 > Handdraw Story Video transforms hand-drawn illustrations into vertical short videos using HyperFrames and GSAP, featuring left-to-right line art reveal and gradual coloring. It supports story config validation, line art extraction, and page generation, producing 40s 720×960 30fps videos ideal for social media content creation.
@@ -2338,7 +2359,7 @@
 ## syabro/neat-annotations
 
 > [!info]
-> ⭐ 1,188 · HTML · 2026-11-20T21:58:31Z  
+> ⭐ 1,189 · HTML · 2026-11-21T02:19:06Z  
 > [GitHub](https://github.com/syabro/neat-annotations) · [Website](https://neat-annotations.syabro.com/)  
 > `#Frontend Development` `#Pure CSS Component` `#UI Annotation & Demo` 
 > neat-annotations is a pure CSS library for adding hand-drawn arrows and handwritten labels to inline web content. It requires no JavaScript or build steps, operating via a single self-contained CSS file. Featuring 8 directions, 6 built-in color themes, custom color support, and extensive CSS variable fine-tuning, it is ideal for documentation, tutorials, and UI prototyping annotations.
@@ -2358,7 +2379,7 @@
 ## kungfu-systems/kungfu
 
 > [!info]
-> ⭐ 4,542 · C++ · 2026-11-19T20:42:42Z  
+> ⭐ 4,541 · C++ · 2026-11-21T18:07:11Z  
 > [GitHub](https://github.com/kungfu-systems/kungfu) · [Website](https://kungfu.tech)  
 > `#AI 智能体` `#Context Management` `#Workflow Continuity` `#agent` `#agent-framework` `#agent-memory` `#agent-orchestration` 
 > Kungfu is a continuity framework for AI agents, designed to prevent work loss when chats end. It manages context from declared project sources, allowing agents to seamlessly resume tasks across restarts or handoffs without re-explaining, preserving decision evidence and action boundaries.
@@ -2368,7 +2389,7 @@
 ## Lingyan000/fluxdo
 
 > [!info]
-> ⭐ 2,610 · Dart · 2026-11-20T09:35:22Z  
+> ⭐ 2,617 · Dart · 2026-11-21T18:04:51Z  
 > [GitHub](https://github.com/Lingyan000/fluxdo)  
 > `#Community Forum` `#Flutter Cross-platform` `#Network Security Proxy` 
 > FluxDO is a cross-platform third-party client for the Linux.do community, built with Flutter. It features Material Design 3 and integrates a Rust-based DOH (DNS over HTTPS) proxy for secure, pollution-free networking. The app offers a complete forum experience with Markdown editing, real-time notifications, and native performance across mobile and desktop systems.
@@ -2408,7 +2429,7 @@
 ## XxMinor/mykvm
 
 > [!info]
-> ⭐ 739 · Rust · 2026-11-16T03:41:54Z  
+> ⭐ 740 · Rust · 2026-11-21T08:44:59Z  
 > [GitHub](https://github.com/XxMinor/mykvm)  
 > `#Cross-Platform` `#LAN Transmission` `#Peripheral Sharing` `#clipboard` `#keyboard-mouse-sharing` `#kvm` `#linux` `#macos` `#quic` `#react` `#rust` `#software-kvm` `#tauri` `#typescript` `#windows` 
 > MyKVM is an open-source, cross-platform software KVM that enables seamless sharing of keyboard, mouse, and clipboard across Windows, macOS, and Linux devices over a trusted LAN. Utilizing encrypted QUIC/TLS for input and clipboard data transfer, it features automatic peer discovery and multi-monitor layout support, aiming to replace traditional hardware KVM switches with a zero-cable experience for multi-machine workflows.
@@ -2427,7 +2448,7 @@
 ## flyfish-dev/file-viewer
 
 > [!info]
-> ⭐ 3,001 · TypeScript · 2026-11-20T23:39:13Z  
+> ⭐ 3,012 · TypeScript · 2026-11-21T17:58:35Z  
 > [GitHub](https://github.com/flyfish-dev/file-viewer) · [Website](https://file-viewer.app)  
 > `#Data Privacy` `#File Preview` `#Frontend Component` `#3d-viewer` `#cad-viewer` `#document-preview` `#document-viewer` `#docx` `#dwg` `#dxf` `#file-preview` `#file-viewer` `#ofd` `#office-viewer` `#pdf-viewer` `#pptx` `#private-deployment` `#react` `#self-hosted` `#vue` `#vue3` `#web-components` `#xlsx` 
 > Flyfish File Viewer is a browser-native file preview component supporting 208 formats including Office, PDF, CAD, and archives. It leverages client-side parsing and rendering without server-side conversion, ensuring data privacy. Compatible with Vue, React, and other frameworks, it offers lazy loading and private deployment for enterprise internal systems.
@@ -2437,7 +2458,7 @@
 ## jiji262/douyin-downloader
 
 > [!info]
-> ⭐ 12,644 · Python · 2026-11-20T18:21:36Z  
+> ⭐ 12,645 · Python · 2026-11-21T21:14:17Z  
 > [GitHub](https://github.com/jiji262/douyin-downloader)  
 > `#Automation Tool` `#Cross-Platform` `#Watermark Removal` `#网页爬虫` 
 > A practical Douyin batch downloader supporting watermark-free downloads of videos, galleries, collections, and music. Features progress display, auto-retry, SQLite deduplication, integrity checks, and browser fallback. Includes a cross-platform desktop app for Douyin, TikTok, and YouTube with multi-link queuing and account sync.
@@ -2466,7 +2487,7 @@
 ## laoma528/awesome-zhuiju-free
 
 > [!info]
-> ⭐ 16,059 · JavaScript · 2026-11-20T22:30:06Z  
+> ⭐ 16,170 · JavaScript · 2026-11-21T22:55:33Z  
 > [GitHub](https://github.com/laoma528/awesome-zhuiju-free) · [Website](https://zhuiju.me)  
 > `#Automated Validation` `#Content Aggregation` `#Media Resources` `#awesome-list` `#bt-search` `#chinese` `#cloud-drive-search` `#free` `#free-streaming` `#iptv` `#magnet-search` `#media-player` `#movie` `#movie-guide` `#movie-resources` `#no-ads` `#subtitles` `#tvbox` `#tvbox-config` 
 > A free, ad-free curated guide for streaming resources with manual selection and daily automated validation. Covers online streaming, TV apps, cloud search, torrent/磁力 links, subtitles, TVBox configurations, and IPTV sources—117 resources total, fully open-source and community-maintained.
@@ -2476,7 +2497,7 @@
 ## FlareStarter/flarestarter
 
 > [!info]
-> ⭐ 467 · TypeScript · 2026-11-20T07:07:58Z  
+> ⭐ 468 · TypeScript · 2026-11-21T12:43:34Z  
 > [GitHub](https://github.com/FlareStarter/flarestarter) · [Website](https://flarestarter.com)  
 > `#Edge Computing` `#Full-stack Development` `#SaaS Starter` `#better-auth` `#cloudflare-d1` `#cloudflare-workers` `#drizzle-orm` `#edge` `#i18n` `#react` `#saas-boilerplate` `#saas-starter` `#stripe` `#tanstack-start` `#typescript` 
 > FlareStarter is a full-stack, edge-native SaaS starter built with TanStack Start and Cloudflare Workers. It integrates essential modules like authentication, Stripe billing, email, i18n, and an admin dashboard. Leveraging Cloudflare's global edge network, it delivers millisecond latency and near-zero operational costs. Featuring end-to-end type safety and production-ready code, it enables developers to quickly deploy modern web applications with complete commercial capabilities.
@@ -2486,7 +2507,7 @@
 ## eatmoreduck/boss-zhipin-scraper
 
 > [!info]
-> ⭐ 1,777 · Python · 2026-11-20T17:18:13Z  
+> ⭐ 1,782 · Python · 2026-11-21T16:54:07Z  
 > [GitHub](https://github.com/eatmoreduck/boss-zhipin-scraper) · [Website](https://blog.xiaohuangyu.space/p/boss-zhipin-scraper-open-source/)  
 > `#Automation Tool` `#Chrome CDP` `#Salary Analysis` `#网页爬虫` `#agent-skills` `#ai-agents` `#boss-zhipin` `#boss-zhipin-scraper` `#boss-zhipin-spider` `#bosszp` `#chrome-cdp` `#claude-skills` `#crawler` `#job-scraper` `#python` `#scraper` `#spider` `#zhipin` 
 > A Chrome CDP-based BOSS Zhipin job scraper that leverages local authenticated sessions to invoke official search APIs, effectively bypassing font anti-scraping to extract plain-text salary data. It supports JSON/CSV output and provides salary distribution analysis, skill frequency statistics, and job application prompt generation, usable as both a CLI tool and a Hermes Agent Skill.
@@ -2496,7 +2517,7 @@
 ## KnockOutEZ/wigolo
 
 > [!info]
-> ⭐ 5,559 · TypeScript · 2026-11-20T15:29:12Z  
+> ⭐ 5,558 · TypeScript · 2026-11-21T14:06:31Z  
 > [GitHub](https://github.com/KnockOutEZ/wigolo) · [Website](https://wigolo.app)  
 > `#AI 智能体` `#Local-first` `#MCP Server` `#Web Crawler` `#agent` `#ai` `#ai-agent` `#claude` `#developer-tools` `#exa-alternative` `#firecrawl-alternative` `#local-first` `#mcp` `#mcp-server` `#metasearch` `#model-context-protocol` `#privacy` `#rag` `#search` `#search-engine` `#tavily-alternative` `#web-crawler` `#web-scraping` `#web-search` 
 > wigolo is a local-first MCP server delivering web intelligence for AI coding agents. It provides search, fetch, crawl, and autonomous research capabilities entirely on-device without API keys or cloud services. Supporting Claude Code, Cursor, and other major tools, it offers a privacy-focused, zero-cost alternative to metered search APIs.
@@ -2515,7 +2536,7 @@
 ## CodeDrobe/skills
 
 > [!info]
-> ⭐ 251 · CSS · 2026-11-17T02:55:46Z  
+> ⭐ 252 · CSS · 2026-11-21T16:42:27Z  
 > [GitHub](https://github.com/CodeDrobe/skills) · [Website](https://codedrobe.app)  
 > `#AI 智能体` `#Automation Tools` `#Cross-Platform` `#桌面应用` `#agent-skills` `#ai-agents` `#ai-coding` `#chrome-devtools-protocol` `#claude-code` `#codex` `#desktop-customization` `#electron` `#openai-codex` `#theming` 
 > CodeDrobe Skills is an open-source AI-driven theming engine for Chromium/Electron-based AI desktop apps like OpenAI Codex and Tencent WorkBuddy. It provides a reversible theme customization workflow utilizing DOM snapshot analysis and semantic generation. Managed via installable Agent Skills, it simplifies visual personalization and cross-platform theme deployment for AI desktop environments.
@@ -2525,7 +2546,7 @@
 ## Fei-Away/Codex-Dream-Skin
 
 > [!info]
-> ⭐ 15,450 · JavaScript · 2026-11-20T17:58:31Z  
+> ⭐ 15,451 · JavaScript · 2026-11-21T15:57:41Z  
 > [GitHub](https://github.com/Fei-Away/Codex-Dream-Skin) · [Website](https://www.dreamskin.cc)  
 > `#CDP Injection` `#Cross-platform Theming` `#Desktop Application` 
 > Codex Dream Skin is a cross-platform theming tool for the OpenAI Codex desktop app. Utilizing local loopback CDP injection, it customizes native UI elements like sidebars and input boxes without altering the official installation package or code signature. It supports one-click image swapping and restoration, balancing personalized aesthetics with system security.
@@ -2535,7 +2556,7 @@
 ## op7418/guizang-material-illustration
 
 > [!info]
-> ⭐ 1,268 · N/A · 2026-11-19T17:39:58Z  
+> ⭐ 1,271 · N/A · 2026-11-21T17:28:45Z  
 > [GitHub](https://github.com/op7418/guizang-material-illustration)  
 > `#AI 智能体` `#Automation Tool` `#提示工程` `#数据可视化` `#agent` `#chart-visualization` `#chinese` `#claude-code` `#codex` `#data-visualization` `#explainer` `#illustration` `#image-generation` `#material-illustration` `#skill` `#social-media` 
 > Guizang Material Illustration Skill is an AI Agent-native tool for generating explanatory center graphics. It transforms abstract concepts, data charts, and workflows into labeled 3D material-style illustrations, beautified charts, and reference-assisted visuals. Focusing on information accuracy and Swiss editorial aesthetics, it supports various scenarios from social media cards to educational content.
@@ -2545,7 +2566,7 @@
 ## isjiamu/gzh-design-skill
 
 > [!info]
-> ⭐ 4,429 · HTML · 2026-11-20T21:14:08Z  
+> ⭐ 4,436 · HTML · 2026-11-21T15:29:31Z  
 > [GitHub](https://github.com/isjiamu/gzh-design-skill) · [Website](https://github.com/AlephMuYe)  
 > `#AI 智能体` `#Automated Typesetting` `#Content Creation` `#agent-skill` `#ai-agent` `#claude-code` `#codex` `#cursor` `#gongzhonghao` `#html` `#markdown` `#rich-text` `#skill` `#typesetting` `#wechat` `#weixin` 
 > gzh-design-skill is an AI-agent skill that converts Markdown into paste-ready WeChat Official Account HTML. It features 6 preset themes and a custom theme generator, utilizing inline styles and specific tags to bypass platform filters. With auto-numbering, keyword marking, and dual-stage quality validation, it ensures high-fidelity, consistent formatting for content creators.
@@ -2555,7 +2576,7 @@
 ## sivan/heti
 
 > [!info]
-> ⭐ 6,762 · SCSS · 2026-11-20T09:06:05Z  
+> ⭐ 6,763 · SCSS · 2026-11-21T16:46:33Z  
 > [GitHub](https://github.com/sivan/heti) · [Website](https://sivan.github.io/heti/)  
 > `#CJK Enhancement` `#CSS Styling` `#Frontend Typography` `#clreq` `#css` `#scss` `#typography` 
 > Heti is a typography enhancement library specifically designed for Chinese content display. Based on standard Chinese typesetting conventions, it offers grid-aligned layouts, full tag styling, and specialized formats for classical poetry and vertical writing. By including its CSS and optional JS, it automatically optimizes CJK-Latin mixed spacing and punctuation compression, significantly improving the reading experience.
@@ -2565,7 +2586,7 @@
 ## mactools-app/MacTools
 
 > [!info]
-> ⭐ 1,436 · Swift · 2026-11-20T05:51:50Z  
+> ⭐ 1,435 · Swift · 2026-11-21T04:10:00Z  
 > [GitHub](https://github.com/mactools-app/MacTools) · [Website](https://mactools.ggbond.app)  
 > `#Open Source` `#System Monitor` `#macOS Utility` `#桌面应用` `#fan-speed-control` `#macos` `#menubar` `#swiftui` 
 > MacTools is a free, open-source native macOS menu bar toolkit offering system status widgets, activity analytics, and quick controls for display, audio, and power. It features a plugin marketplace, draggable custom panels, light/dark theme support (including iTerm2 and Base16 palettes), and a polished SwiftUI-based interface requiring macOS 14+.
@@ -2575,7 +2596,7 @@
 ## wzh4869/AppPorts
 
 > [!info]
-> ⭐ 2,290 · Swift · 2026-11-20T13:13:25Z  
+> ⭐ 2,290 · Swift · 2026-11-21T16:09:57Z  
 > [GitHub](https://github.com/wzh4869/AppPorts) · [Website](https://appports.shimoko.com)  
 > `#Storage Management` `#System Utility` `#macOS Optimization` `#app-manager` `#disk-cleaner` `#external-storage` `#full-disk-access` `#macos` `#macos-app` `#swift` `#swiftui` `#symbolic-links` `#utility` 
 > AppPorts is a macOS utility for seamlessly migrating large applications to external storage (SSD/SD card/NAS) while leaving a tiny launcher stub locally. It features arrow-free linking, auto-update protection, code signature repair, and orphaned link detection, effectively reclaiming precious local disk space without breaking system integration.
@@ -2585,7 +2606,7 @@
 ## tashfeenahmed/freellmapi
 
 > [!info]
-> ⭐ 55,715 · TypeScript · 2026-11-20T23:56:14Z  
+> ⭐ 56,165 · TypeScript · 2026-11-21T23:15:31Z  
 > [GitHub](https://github.com/tashfeenahmed/freellmapi) · [Website](https://freellmapi.co)  
 > `#AI 大模型` `#API Gateway` `#Smart Routing` 
 > FreeLLMAPI is an OpenAI-compatible proxy aggregating free tiers from 16 major LLM providers into a single /v1 endpoint, delivering ~1.7B tokens/month. It features smart routing, automatic failover, and encrypted key storage, eliminating the complexity of managing multiple SDKs and scattered quotas for personal AI experimentation.
@@ -2605,7 +2626,7 @@
 ## Sanyam-G/switch
 
 > [!info]
-> ⭐ 653 · Swift · 2026-11-19T20:26:07Z  
+> ⭐ 654 · Swift · 2026-11-21T16:05:40Z  
 > [GitHub](https://github.com/Sanyam-G/switch) · [Website](https://switch-dev.sanyamgarg.com)  
 > `#Productivity` `#Window Management` `#macOS` `#桌面应用` 
 > Switch is a free, keyboard-driven window switcher for macOS. It replaces the native ⌘Tab with instant filtering, cross-space management, and sticky mode, allowing users to quickly navigate and manage windows using only the keyboard.
@@ -2625,7 +2646,7 @@
 ## microsoft/SkillOpt
 
 > [!info]
-> ⭐ 19,170 · Python · 2026-11-20T23:22:56Z  
+> ⭐ 19,177 · Python · 2026-11-21T22:40:30Z  
 > [GitHub](https://github.com/microsoft/SkillOpt) · [Website](https://aka.ms/skillopt)  
 > `#AI 智能体` `#Automated Optimization` `#提示工程` `#agent-skills` `#self-evolving-agents` 
 > SkillOpt is an open-source text-space optimizer by Microsoft for frozen LLM agents. Borrowing concepts like epochs and learning rates from deep learning, it automatically trains reusable natural-language skill documents (best_skill.md) through trajectory-driven edits and validation gates, significantly boosting agent performance without altering model weights.
@@ -2635,7 +2656,7 @@
 ## proxifly/free-proxy-list
 
 > [!info]
-> ⭐ 7,083 · N/A · 2026-11-20T20:46:52Z  
+> ⭐ 7,084 · N/A · 2026-11-21T18:01:42Z  
 > [GitHub](https://github.com/proxifly/free-proxy-list) · [Website](https://proxifly.dev)  
 > `#Automation Tools` `#Proxy Pool` `#网页爬虫` `#free-proxy` `#https-proxy` `#javascript` `#nodejs` `#proxies` `#proxy-api` `#proxy-list` `#scraping` `#socks5` 
 > Proxifly is a high-performance free proxy pool that automatically scrapes and validates global HTTP, HTTPS, SOCKS4, and SOCKS5 proxies every 5 minutes. It offers multi-format downloads (JSON, TXT, CSV), an NPM module, and filtering by country/protocol, ideal for web scraping, data extraction, and privacy protection.
@@ -2655,7 +2676,7 @@
 ## rokartur/BetterCmdTab
 
 > [!info]
-> ⭐ 880 · Swift · 2026-11-19T14:02:40Z  
+> ⭐ 883 · Swift · 2026-11-21T14:05:03Z  
 > [GitHub](https://github.com/rokartur/BetterCmdTab) · [Website](https://bettercmdtab.app)  
 > `#Desktop Application` `#SwiftUI` `#Window Management` `#alttab-alternative` `#app-launcher` `#app-switcher` `#appkit` `#cmd-tab` `#fuzzy-search` `#macos` `#pin-apps` `#swift` `#window-manager` `#window-switcher` 
 > BetterCmdTab enhances the macOS ⌘+Tab experience with three layouts (list, grid, live preview), fuzzy search, window tiling, and tab switching. Built natively with SwiftUI featuring Liquid Glass aesthetics, it offers zero telemetry and is free forever, significantly boosting window management efficiency for Mac users.
@@ -2665,7 +2686,7 @@
 ## microsoft/VibeVoice
 
 > [!info]
-> ⭐ 57,368 · Python · 2026-11-20T23:53:37Z  
+> ⭐ 57,464 · Python · 2026-11-21T22:25:42Z  
 > [GitHub](https://github.com/microsoft/VibeVoice) · [Website](https://microsoft.github.io/VibeVoice/)  
 > `#AI Large Model` `#Speech Recognition` `#Text-to-Speech` 
 > Microsoft's open-source frontier voice AI model family, featuring long-form multi-speaker TTS and unified ASR. TTS synthesizes 90-minute 4-speaker conversations, while ASR transcribes 60-minute audio in a single pass for 50+ languages, outputting structured text with speakers, timestamps, and content, supporting vLLM acceleration and custom context.
@@ -2685,7 +2706,7 @@
 ## hasaneyldrm/exercises-dataset
 
 > [!info]
-> ⭐ 23,933 · HTML · 2026-11-20T23:30:55Z  
+> ⭐ 23,944 · HTML · 2026-11-21T23:15:31Z  
 > [GitHub](https://github.com/hasaneyldrm/exercises-dataset)  
 > `#Fitness App` `#Multilingual Dataset` `#Structured Data` `#dataset` `#exercise-database` `#exercises` `#fitness` `#fitness-app` `#gym` `#json` `#logpress` `#react-native` `#workout` 
 > A structured multilingual dataset of 1,324 fitness exercises with categories, target muscles, equipment, step-by-step instructions in 6 languages, and media IDs. Includes a developer setup wizard for rapid backend, database, and API scaffolding. Ideal for fitness app development, AI recommendations, and health research.
@@ -2695,7 +2716,7 @@
 ## vorssaint/vorssaint-utils
 
 > [!info]
-> ⭐ 35,494 · Swift · 2026-11-20T23:35:08Z  
+> ⭐ 35,647 · Swift · 2026-11-21T23:08:04Z  
 > [GitHub](https://github.com/vorssaint/vorssaint-utils) · [Website](https://vorssaint.com)  
 > `#System Enhancement` `#macOS Utilities` `#桌面应用` `#alt-tab` `#app-uninstaller` `#appkit` `#finder` `#free` `#keep-awake` `#mac-os` `#menu-bar` `#menubar` `#open-source` `#swift` `#swift-ui` `#system-monitor` `#uninstaller` `#volume-mixer` `#window-switcher` 
 > Vorssaint is a free, open-source macOS menu bar toolkit designed to replace a stack of paid utilities. It integrates over a dozen features including per-app volume mixing, system monitoring, window switching, clipboard history, and app uninstallation. Running entirely locally with no accounts or subscriptions, it consolidates multiple tools into a single, efficient menu bar icon.
@@ -2705,7 +2726,7 @@
 ## XxHuberrr/Mineradio-paused
 
 > [!info]
-> ⭐ 11,450 · JavaScript · 2026-11-20T15:00:41Z  
+> ⭐ 11,455 · JavaScript · 2026-11-21T19:18:17Z  
 > [GitHub](https://github.com/XxHuberrr/Mineradio-paused) · [Website](https://mineradio.cn/)  
 > `#Desktop Application` `#Electron` `#Music Player` 
 > Mineradio is an Electron-based Windows desktop immersive music player featuring cinematic visual effects, particle animations, and lyrics stage. It integrates NetEase/QQ Music APIs, 3D playlist browsing, and custom cover support. The project is currently archived.
@@ -2715,7 +2736,7 @@
 ## caezium/burrow
 
 > [!info]
-> ⭐ 1,819 · Swift · 2026-11-20T18:53:26Z  
+> ⭐ 1,820 · Swift · 2026-11-21T09:55:41Z  
 > [GitHub](https://github.com/caezium/burrow) · [Website](https://burrow.computer)  
 > `#AI 智能体` `#System Optimizer` `#桌面应用` `#cleaner` `#disk-usage` `#macos` `#mcp` `#menubar` `#mole` `#open-source` `#swift` `#swiftui` `#system-monitor` `#windows` `#winui3` 
 > Burrow is a free, open-source native macOS system management tool that combines junk cleanup, app uninstallation, disk analysis, duplicate finding, and live status monitoring. It features a built-in MCP server for AI agents like Claude Code and Cursor to safely monitor and maintain your Mac, with all actions consent-gated, audited, and reversible.
@@ -2725,7 +2746,7 @@
 ## msitarzewski/agency-agents
 
 > [!info]
-> ⭐ 169,561 · Shell · 2026-11-20T23:54:01Z  
+> ⭐ 169,663 · Shell · 2026-11-21T23:03:11Z  
 > [GitHub](https://github.com/msitarzewski/agency-agents)  
 > `#AI Agents` `#Automation Tools` `#Cross-Platform` `#提示工程` 
 > A comprehensive collection of specialized AI agents (e.g., frontend wizards, community ninjas) featuring distinct personalities, workflows, and deliverables. It supports one-click installation into various AI coding tools like Claude Code and Cursor, providing developers with a 24/7 virtual expert team.
@@ -2735,7 +2756,7 @@
 ## noah-nuebling/mac-mouse-fix
 
 > [!info]
-> ⭐ 11,267 · Objective-C · 2026-11-20T18:00:39Z  
+> ⭐ 11,269 · Objective-C · 2026-11-21T19:22:53Z  
 > [GitHub](https://github.com/noah-nuebling/mac-mouse-fix) · [Website](https://macmousefix.com/)  
 > `#Mouse Gesture Customization` `#System Enhancement` `#macOS Utility` `#3rd-party-mouse` `#invert-scrolling` `#mac-mouse` `#mouse` `#mouse-events` `#mousewheel` `#remap` `#remapping` `#scroll` `#scrolling` `#smooth-scrolling` `#symbolic-hotkeys` `#tools` `#utility` 
 > Mac Mouse Fix is a macOS utility that enhances any mouse with advanced gestures and customizable buttons, delivering a user experience surpassing Apple Trackpads. It enables smooth scrolling, app switching, and intuitive controls, making budget mice as efficient as premium trackpads or Logitech MX Master.
@@ -2775,7 +2796,7 @@
 ## zhaoxuya520/reverse-skill
 
 > [!info]
-> ⭐ 44,988 · PowerShell · 2026-11-20T23:20:04Z  
+> ⭐ 45,038 · PowerShell · 2026-11-21T22:36:32Z  
 > [GitHub](https://github.com/zhaoxuya520/reverse-skill)  
 > `#AI 智能体` `#Reverse Engineering` `#Security Research` 
 > An AI-powered skill router for reverse engineering, authorized penetration testing, and security research. It provides intelligent task routing, on-demand toolchain bootstrapping, and a self-evolving knowledge base across Windows/Linux/macOS/Kali, compatible with Claude Code, Kiro, Cursor, Cline and other AI coding clients.
@@ -2785,7 +2806,7 @@
 ## Willxup/cpa-usage-keeper
 
 > [!info]
-> ⭐ 1,325 · Go · 2026-11-20T11:37:59Z  
+> ⭐ 1,323 · Go · 2026-11-21T19:40:13Z  
 > [GitHub](https://github.com/Willxup/cpa-usage-keeper)  
 > `#Operations Automation` `#SQLite` `#数据可视化` `#analysis` `#antigravity` `#claude` `#cliproxyapi` `#codex` `#cpa` `#dashboard` `#gemini` `#openai-compatible` `#token-analysis` `#token-usage` 
 > CPA Usage Keeper is a standalone usage persistence and dashboard service for CLIProxyAPI. It consumes Redis usage events into SQLite, exposes aggregation APIs, and provides a built-in web dashboard for request volume, token usage, cost, cache hit rate, success rate, and multi-dimensional filtering by time, model, API key, and provider.
@@ -2795,7 +2816,7 @@
 ## deskflow/deskflow
 
 > [!info]
-> ⭐ 31,515 · C++ · 2026-11-20T19:44:00Z  
+> ⭐ 31,553 · C++ · 2026-11-21T23:02:45Z  
 > [GitHub](https://github.com/deskflow/deskflow) · [Website](https://deskflow.org)  
 > `#Cross-Platform` `#Keyboard Mouse Sharing` `#桌面应用` `#keyboard` `#keyboard-emulation` `#mouse` `#mouse-emulation` `#network` 
 > Deskflow is a free and open-source keyboard and mouse sharing app that lets you seamlessly control nearby computers using one keyboard, mouse, or trackpad — like a software KVM without video switching. TLS encryption is enabled by default, with Wayland support and clipboard sharing. Cross-platform across Windows, macOS, and Linux, ideal for multi-machine workflows.
@@ -2825,7 +2846,7 @@
 ## jdx/mise
 
 > [!info]
-> ⭐ 36,352 · Rust · 2026-11-20T23:42:25Z  
+> ⭐ 36,374 · Rust · 2026-11-21T22:39:38Z  
 > [GitHub](https://github.com/jdx/mise) · [Website](https://mise.jdx.dev)  
 > `#Dev Tools` `#Rust CLI` `#Version Manager` 
 > mise is a Rust-based comprehensive development environment manager that unifies tool version management, environment variable configuration, and task execution. It uses mise.toml to centrally manage versions of hundreds of dev tools like Node.js, Python, and Terraform, supports directory-scoped env vars and custom tasks, ensuring consistent setups across local, CI, and team environments.
@@ -2835,7 +2856,7 @@
 ## hmjz100/LinkSwift
 
 > [!info]
-> ⭐ 40,692 · JavaScript · 2026-11-20T23:36:27Z  
+> ⭐ 40,837 · JavaScript · 2026-11-21T23:01:38Z  
 > [GitHub](https://github.com/hmjz100/LinkSwift) · [Website](https://github.com/hmjz100/LinkSwift/raw/main/%EF%BC%88%E6%94%B9%EF%BC%89%E7%BD%91%E7%9B%98%E7%9B%B4%E9%93%BE%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B.user.js)  
 > `#Browser Script` `#Cloud Drive Utility` `#Cross-Platform` `#123pan` `#aliyun-drive` `#aliyunpan` `#aria2` `#baidu` `#baidu-netdisk` `#baidunetdisk` `#baidupan` `#baiduyun` `#guangya-netdisk` `#motrix` `#quark-netdisk` `#tampermonkey` `#tampermonkey-script` `#tampermonkey-userscript` `#tianyi-netdisk` `#uc-netdisk` `#userscript` `#xunlei-netdisk` `#yidong-netdisk` 
 > LinkSwift is a JavaScript-based tool for extracting direct download links from major Chinese cloud drives, including Baidu Pan, Aliyun Drive, China Mobile Cloud, Tianyi Cloud, Xunlei, Quark, UC, and 123Pan. It enables users to bypass official client restrictions and obtain real file download URLs directly in the browser, significantly improving cross-platform download efficiency.
@@ -2845,7 +2866,7 @@
 ## qiayue/Twitter-Trend-Radar
 
 > [!info]
-> ⭐ 238 · HTML · 2026-11-19T19:38:29Z  
+> ⭐ 239 · HTML · 2026-11-21T08:51:22Z  
 > [GitHub](https://github.com/qiayue/Twitter-Trend-Radar) · [Website](https://seo.web.cafe/)  
 > `#AI 智能体` `#Automation Tool` `#网页爬虫` 
 > Twitter Trend Radar scans X/Twitter in real time for tweets carrying links and traction, then reverse-looks up each domain's registration age and recent traffic to surface emerging products before Google Trends catches up. It uses launch-signal phrase pools, greylisting of major sites, WHOIS age checks, and 3-month traffic bar charts. A zero-dependency local proxy keeps API keys on-device with no build step required.
@@ -2894,7 +2915,7 @@
 ## iAmCorey/kooky
 
 > [!info]
-> ⭐ 657 · Swift · 2026-11-19T20:08:46Z  
+> ⭐ 658 · Swift · 2026-11-21T14:58:20Z  
 > [GitHub](https://github.com/iAmCorey/kooky)  
 > `#AI 智能体` `#Developer Tool` `#Terminal Emulator` `#macOS Desktop App` `#agent` `#ai-agents` `#ai-coding` `#claude` `#claude-code` `#coding-agent` `#developer-tools` `#libghostty` `#llm` `#macos` `#swift` `#swiftui` `#terminal` `#terminal-emulator` 
 > kooky is a minimal modern terminal emulator built for AI coding on macOS, powered by libghostty with GPU rendering. Key features include sidebar workspaces, horizontal/vertical split panes, one-click launch of Claude Code, Gemini CLI, Codex, and other AI agents, Git Worktree isolation, right-click-to-ask-agent on selections, fuzzy Quick Open panel, and a multi-line prompt composer. Sessions auto-resume across restarts, tabs are draggable across panes and windows, and all state stays local with no accounts or telemetry.
@@ -2904,7 +2925,7 @@
 ## huilang-me/CF-Server-Monitor
 
 > [!info]
-> ⭐ 3,323 · JavaScript · 2026-11-20T15:28:14Z  
+> ⭐ 3,509 · JavaScript · 2026-11-21T23:13:26Z  
 > [GitHub](https://github.com/huilang-me/CF-Server-Monitor) · [Website](https://demo.huilang.me/)  
 > `#Cloudflare Workers` `#Multi-server Probe` `#Operations Automation` `#Real-time Monitoring` 
 > CF-Server-Monitor is a multi-server monitoring probe system built on Cloudflare Workers and D1, offering real-time tracking of CPU, memory, disk, and network metrics with historical charts, global map visualization, offline alerts, and WebSocket-based live updates. Compatible with Linux, Alpine, OpenWrt, and Windows, it integrates JWT authentication and Turnflare Turnstile verification, enabling one-click deployment via GitHub Actions for efficient operations automation and multi-node monitoring.
@@ -2914,7 +2935,7 @@
 ## hugohe3/ppt-master
 
 > [!info]
-> ⭐ 78,864 · Python · 2026-11-20T23:09:05Z  
+> ⭐ 79,074 · Python · 2026-11-21T23:17:09Z  
 > [GitHub](https://github.com/hugohe3/ppt-master) · [Website](https://hugohe3.github.io/ppt-master-examples/)  
 > `#AI 智能体` `#Automation Tool` `#Document Conversion` `#Presentation Generation` `#ai-agent` `#aippt` `#office` `#powerpoint` `#powerpoint-generation` `#ppt` `#pptx` `#presentation` `#slide` `#slides` 
 > PPT Master is an open-source AI tool that converts any document into a natively editable PPTX file, preserving native shapes, animations, and speaker notes with optional audio narration. It supports custom .pptx templates instead of static slide images, enabling full post-generation editing. Ideal for education, presentations, and technical sharing where editable, reusable slide decks are essential.
@@ -2924,7 +2945,7 @@
 ## OpenBMB/VoxCPM
 
 > [!info]
-> ⭐ 42,788 · Python · 2026-11-20T23:47:04Z  
+> ⭐ 42,856 · Python · 2026-11-21T22:40:50Z  
 > [GitHub](https://github.com/OpenBMB/VoxCPM) · [Website](https://voxcpm.com)  
 > `#AI Large Model` `#Diffusion Autoregressive` `#Multilingual Voice Cloning` `#Text-to-Speech` `#audio` `#deeplearning` `#minicpm` `#multilingual` `#python` `#pytorch` `#speech` `#speech-synthesis` `#text-to-speech` `#tts` `#tts-model` `#voice-cloning` `#voice-design` `#voxcpm` 
 > VoxCPM2 by OpenBMB is a tokenizer-free text-to-speech system that directly generates continuous speech representations via an end-to-end diffusion autoregressive architecture, bypassing discrete tokenization. The 2B-parameter model is trained on over 2 million hours of multilingual speech data, supporting 30 languages, natural-language-driven creative voice design, controllable voice cloning, and 48kHz studio-quality audio output. With RTF as low as ~0.3 on RTX 4090, it is ideal for multilingual TTS, personalized voice customization, and high-fidelity voice cloning applications.
@@ -2944,7 +2965,7 @@
 ## ReJeCtAll/ExpertTeam-Codex
 
 > [!info]
-> ⭐ 114 · Shell · 2026-11-20T07:26:54Z  
+> ⭐ 115 · Shell · 2026-11-21T13:59:01Z  
 > [GitHub](https://github.com/ReJeCtAll/ExpertTeam-Codex)  
 > `#AI 智能体` `#Expert Team System` `#提示工程` 
 > A ready-to-install expert team configuration for Codex CLI / Codex App desktop, upgrading a single AI assistant into a routable, collaborative multi-expert team system via Skill invocation. Includes software engineering, design prototyping, and product strategy teams with a unified router, covering PRD, architecture, coding, QA, prototyping, competitive analysis, and roadmap workflows.
@@ -2954,7 +2975,7 @@
 ## chenhg5/cc-connect
 
 > [!info]
-> ⭐ 16,446 · Go · 2026-11-20T23:11:00Z  
+> ⭐ 16,450 · Go · 2026-11-21T18:11:09Z  
 > [GitHub](https://github.com/chenhg5/cc-connect)  
 > `#AI 智能体` `#Cross-Platform Bridge` `#Messaging Integration` `#Remote Collaboration` 
 > CC-Connect bridges local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms including Feishu, DingTalk, Slack, Telegram, Discord, LINE, and WeChat Work. It enables users to chat with their local AI dev assistant from anywhere without requiring a public IP for most platforms. The core value lies in cross-platform message bridging and zero-public-IP deployment, significantly enhancing the accessibility and flexibility of AI coding assistants.
@@ -2974,7 +2995,7 @@
 ## Gloridust/WechatOnCloud
 
 > [!info]
-> ⭐ 4,007 · TypeScript · 2026-11-20T17:08:40Z  
+> ⭐ 4,008 · TypeScript · 2026-11-21T15:08:27Z  
 > [GitHub](https://github.com/Gloridust/WechatOnCloud)  
 > `#Docker Containerization` `#Instant Messaging` `#Multi-device Sync` 
 > WechatOnCloud (WOC) is a self-hosted solution that runs the official WeChat desktop client in Docker containers, enabling multiple browser-based devices to share a single WeChat session. It leverages Xvfb virtual display and KasmVNC streaming, with a custom panel for instance lifecycle management, RBAC permissions, file transfer, and collaborative soft-locking. Supporting amd64/arm64 and PWA, it's ideal for unified cross-device WeChat access in homes or teams.
@@ -2984,7 +3005,7 @@
 ## TableProApp/TablePro
 
 > [!info]
-> ⭐ 6,512 · Swift · 2026-11-20T22:13:23Z  
+> ⭐ 6,515 · Swift · 2026-11-21T09:28:36Z  
 > [GitHub](https://github.com/TableProApp/TablePro) · [Website](https://tablepro.app)  
 > `#AI Integration` `#Database Tools` `#Native App` `#Open Source Alternative` `#clickhouse` `#database` `#database-client` `#database-gui` `#duckdb` `#gtk4` `#ios` `#linux` `#macos` `#mariadb` `#mongodb` `#mssql` `#mysql` `#postgresql` `#redis` `#rust` `#sql` `#sql-editor` `#sqlite` `#swift` 
 > TablePro is a free, open-source native database client for developers, built without Electron or JVM. It supports major SQL and NoSQL databases with native drivers, cold starts under 1 second, and ~80MB RAM usage. Features include an AI-powered SQL editor, data grid, SSH tunnels, iCloud sync, and plugin extensibility. It serves as an open-source alternative to TablePlus with integrated AI chat, MCP server, and cross-platform support.
@@ -3004,7 +3025,7 @@
 ## joeseesun/qiaomu-anything-to-notebooklm
 
 > [!info]
-> ⭐ 6,536 · Python · 2026-11-20T17:35:45Z  
+> ⭐ 6,536 · Python · 2026-11-21T14:35:29Z  
 > [GitHub](https://github.com/joeseesun/qiaomu-anything-to-notebooklm)  
 > `#AI 智能体` `#Content Processing` `#Multimodal Generation` `#Paywall Bypass` `#automation` `#claude` `#mcp` `#notebooklm` `#skill` 
 > qiaomu-anything-to-notebooklm is a Claude Code Skill that processes 15+ content sources—including WeChat articles, web pages, YouTube, PDF, and Markdown—and uploads them to Google NotebookLM to generate outputs like podcasts, PPTs, mind maps, and quizzes. Its standout feature is a 6-layer paywall bypass system that automatically extracts content from 300+ premium news sites, enabling AI-powered multimodal content transformation.
@@ -3024,7 +3045,7 @@
 ## open-gsd/gsd-core
 
 > [!info]
-> ⭐ 11,733 · JavaScript · 2026-11-20T23:41:26Z  
+> ⭐ 11,756 · JavaScript · 2026-11-21T18:38:33Z  
 > [GitHub](https://github.com/open-gsd/gsd-core) · [Website](https://opengsd.net)  
 > `#AI Agents` `#Context Engineering` `#Spec-Driven Development` `#claude-code` `#context-engineering` `#meta-prompting` `#spec-driven-development` 
 > GSD Core is a lightweight meta-prompting and context engineering system for AI coding tools like Claude Code and Gemini CLI, solving context rot—the quality degradation from filling context windows. Its six-step workflow (init, discuss, plan, execute, verify, ship) enables spec-driven development with parallel subagent execution, atomic commits, and milestone management, helping engineers ship high-quality code efficiently.
@@ -3034,7 +3055,7 @@
 ## AprilNEA/OpenLogi
 
 > [!info]
-> ⭐ 25,969 · Rust · 2026-11-20T23:16:49Z  
+> ⭐ 26,004 · Rust · 2026-11-21T22:01:05Z  
 > [GitHub](https://github.com/AprilNEA/OpenLogi) · [Website](https://openlogi.org)  
 > `#Cross-Platform` `#Peripheral Control` `#Rust` `#桌面应用` `#dpi` `#gpui` `#hid` `#hidpp` `#local-first` `#logitech` `#logitech-mouse` `#logitech-options` `#mouse-remapping` `#mx-master` `#privacy` `#rust` `#smartshift` 
 > OpenLogi is a native, local-first alternative to Logitech Options+, written in Rust — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry. Supports macOS with GUI and CLI, plain TOML config, privacy-focused and offline-first.
@@ -3044,7 +3065,7 @@
 ## mindfold-ai/Trellis
 
 > [!info]
-> ⭐ 15,161 · TypeScript · 2026-11-20T16:08:02Z  
+> ⭐ 15,162 · TypeScript · 2026-11-21T22:08:20Z  
 > [GitHub](https://github.com/mindfold-ai/Trellis) · [Website](https://docs.trytrellis.app)  
 > `#AI 智能体` `#Developer Productivity` `#Multi-platform Integration` `#agentic-coding` `#ai-workflow` `#claudecode` `#codex` `#harness` 
 > Trellis is a team-scale AI coding harness that ensures reliable AI-assisted development across 14 platforms like Claude Code and Cursor. It enables auto-injected specs, task-centric workflows, and persistent project memory to standardize context, reduce repetition, and scale best practices across teams.
@@ -3054,7 +3075,7 @@
 ## herdrdev/herdr
 
 > [!info]
-> ⭐ 52,066 · Rust · 2026-11-20T23:41:51Z  
+> ⭐ 52,204 · Rust · 2026-11-21T22:54:34Z  
 > [GitHub](https://github.com/herdrdev/herdr) · [Website](https://herdr.dev)  
 > `#Agent Runtime` `#Automation Tool` `#Cross-Platform` `#agent` `#agent-orchestration` `#ai` `#ai-agents` `#claude-code` `#cli` `#codex` `#coding-agents` `#developer-tools` `#devtools` `#multiplexer` `#rust` `#terminal` `#terminal-multiplexer` `#terminal-ui` `#tmux` `#tui` `#workspace-manager` 
 > Herdr is a Rust-based terminal runtime for AI agents, supporting multi-tasking, session persistence, and reattachment across devices. It offers native terminal views and a Socket API for agent collaboration, extensible via plugins, designed to build efficient automation environments for developers.
@@ -3064,7 +3085,7 @@
 ## starship/starship
 
 > [!info]
-> ⭐ 60,820 · Rust · 2026-11-20T19:09:34Z  
+> ⭐ 60,832 · Rust · 2026-11-21T22:56:41Z  
 > [GitHub](https://github.com/starship/starship) · [Website](https://starship.rs)  
 > `#Command-Line Tool` `#Cross-Platform` `#Rust` `#Shell Prompt` `#bash` `#fish` `#fish-prompt` `#fish-theme` `#oh-my-zsh` `#powershell` `#rust` `#shell-prompt` `#starship` `#zsh` `#zsh-prompt` `#zsh-theme` 
 > Starship is a minimal, blazing-fast, and infinitely customizable cross-shell prompt written in Rust. It intelligently displays contextual information like Git status, language versions, and environment variables across any shell (Bash, Zsh, Fish, PowerShell, etc.), enhancing terminal productivity and aesthetics.
@@ -3074,7 +3095,7 @@
 ## op7418/guizang-social-card-skill
 
 > [!info]
-> ⭐ 8,203 · HTML · 2026-11-20T18:22:02Z  
+> ⭐ 8,214 · HTML · 2026-11-21T21:36:30Z  
 > [GitHub](https://github.com/op7418/guizang-social-card-skill) · [Website](https://github.com/op7418/guizang-social-card-skill)  
 > `#AI 智能体` `#Automation Tool` `#提示工程` `#数据可视化` `#agent-skill` `#ai-agent` `#anthropic` `#claude-code` `#claude-skill` `#codex` `#editorial-design` `#html-template` `#image-generation` `#playwright` `#rednote` `#social-cards` `#swiss-design` `#wechat` `#xiaohongshu` 
 > Guizang Social Card Skill is an AI agent skill for Claude Code/Codex that generates Xiaohongshu carousels and WeChat cover pairs. It features Editorial and Swiss visual systems with 28 layouts and 10 themes, converting single-file HTML to PNG without build tools. Includes image sourcing, map components, and validation scripts for streamlined social content creation.
@@ -3084,7 +3105,7 @@
 ## helloianneo/ian-xiaohei-illustrations
 
 > [!info]
-> ⭐ 13,305 · N/A · 2026-11-20T23:13:48Z  
+> ⭐ 13,316 · N/A · 2026-11-21T14:15:28Z  
 > [GitHub](https://github.com/helloianneo/ian-xiaohei-illustrations) · [Website](https://www.ianneo.xyz)  
 > `#AI 智能体` `#Content Illustration` `#Visual Language Design` `#提示工程` `#ai-agent` `#chinese` `#codex-skill` `#handdrawn` `#illustration` `#image-generation` `#xiaohei` 
 > Ian Xiaohei Illustrations is a Codex Skill that generates 16:9 white-background, hand-drawn illustrations for Chinese articles. It transforms core cognitive elements—judgments, processes, metaphors—into memorable, quirky visuals featuring 'Xiaohei', a minimalist black character actively engaged in the scene. Ideal for knowledge creators seeking distinctive, non-PPT-style visuals with high conceptual clarity and minimalist aesthetics.
@@ -3094,7 +3115,7 @@
 ## tw93/Kami
 
 > [!info]
-> ⭐ 12,588 · HTML · 2026-11-20T23:15:34Z  
+> ⭐ 12,599 · HTML · 2026-11-21T20:04:57Z  
 > [GitHub](https://github.com/tw93/Kami) · [Website](https://kami.tw93.fun)  
 > `#AI 智能体` `#Automation Tool` `#Cross-platform` `#提示工程` `#agent-skills` `#ai-agents` `#claude-code` `#codex` `#document-design` `#pdf` `#pptx` `#typesetting` 
 > Kami is a document design system for AI agents: one constraint language, nine templates, producing shippable PDFs and landing pages. Supports English, Chinese, Japanese, and Korean. Integrates via Claude Code plugin, generic agent skills, or Claude Desktop—ensuring consistent, production-ready output.
@@ -3123,7 +3144,7 @@
 ## anomalyco/opentui
 
 > [!info]
-> ⭐ 13,872 · TypeScript · 2026-11-20T23:27:31Z  
+> ⭐ 13,880 · TypeScript · 2026-11-21T20:14:16Z  
 > [GitHub](https://github.com/anomalyco/opentui) · [Website](https://opentui.com/)  
 > `#TUI Framework` `#Terminal Application` `#TypeScript` `#Zig` `#opencode` `#opentui` `#tui` 
 > OpenTUI is a high-performance terminal UI (TUI) core library written in Zig, offering TypeScript bindings and a C ABI for cross-language compatibility. It features a component-based architecture with flexible layouts, enabling complex terminal applications. Used in production by OpenCode and terminal.shop, it supports integrations with React, SolidJS, and more.
@@ -3133,7 +3154,7 @@
 ## Open-Less/openless
 
 > [!info]
-> ⭐ 4,142 · Rust · 2026-11-20T14:41:00Z  
+> ⭐ 4,148 · Rust · 2026-11-21T12:54:20Z  
 > [GitHub](https://github.com/Open-Less/openless) · [Website](https://openless.top)  
 > `#AI 智能体` `#Cross-Platform` `#Voice Input` `#提示工程` `#ai-prompt` `#asr` `#dictation` `#linux` `#llm` `#macos` `#open-source` `#prompt-engineering` `#rust` `#speech-to-text` `#tauri` `#typeless` `#typeless-alternative` `#voice-input` `#windows` `#wispr-flow-alternative` 
 > OpenLess is an open-source, cross-platform voice input app for macOS and Windows. Press a hotkey, speak naturally, and get AI-polished text inserted at your cursor or copied to clipboard. Its standout feature is AI-prompt mode, which transforms rambling speech into structured, context-rich prompts ready for use in ChatGPT, Claude, and other AI tools.
@@ -3143,7 +3164,7 @@
 ## esengine/DeepSeek-Reasonix
 
 > [!info]
-> ⭐ 36,094 · Go · 2026-11-20T21:37:23Z  
+> ⭐ 36,086 · Go · 2026-11-21T21:37:03Z  
 > [GitHub](https://github.com/esengine/DeepSeek-Reasonix) · [Website](http://reasonix.io/)  
 > `#AI 智能体` `#Prefix Cache Optimization` `#Terminal Tool` `#agent` `#agent-framework` `#ai-agent` `#ai-coding` `#cli` `#coding-agent` `#deepseek` `#developer-tools` `#dsh` `#dsh-plugin` `#ink` `#llm` `#prompt-caching` `#r1` `#terminal` `#tool-use` `#tui` `#typescript` 
 > Reasonix is a DeepSeek-native AI coding agent for the terminal, engineered for prefix-cache stability to minimize token costs during long sessions. It achieves up to 99.82% cache hit rate, drastically reducing inference expenses while enabling persistent, efficient development workflows.
@@ -3153,7 +3174,7 @@
 ## Alishahryar1/free-claude-code
 
 > [!info]
-> ⭐ 72,238 · Python · 2026-11-20T23:52:33Z  
+> ⭐ 72,476 · Python · 2026-11-21T23:06:25Z  
 > [GitHub](https://github.com/Alishahryar1/free-claude-code)  
 > `#AI 智能体` `#Multi-Model Routing` `#Proxy Gateway` 
 > Free Claude Code is a lightweight proxy enabling free or low-cost access to Claude Code via self-hosted Anthropic-compatible backends. It supports CLI, VSCode, and Discord integrations with multi-provider routing, streaming, tool use, voice transcription, and a local admin UI for configuration.
@@ -3163,7 +3184,7 @@
 ## l0ng-ai/papr
 
 > [!info]
-> ⭐ 596 · Rust · 2026-11-19T16:02:31Z  
+> ⭐ 597 · Rust · 2026-11-21T14:46:31Z  
 > [GitHub](https://github.com/l0ng-ai/papr)  
 > `#AI 智能体` `#RSS Reader` `#桌面应用` `#agent-skills` `#agentic` `#ai-agents` `#claude-code` `#cli` `#desktop-app` `#feed-reader` `#llm` `#react` `#rss` `#rss-reader` `#rust` `#tauri` 
 > Papr is a fast, native desktop RSS reader featuring feed organization, smart views, full-text fetching, AI-powered summaries and Q&A, audio playback, FreshRSS sync, and local-first data storage via SQLite—no cloud or account required.
@@ -3183,7 +3204,7 @@
 ## mattpocock/skills
 
 > [!info]
-> ⭐ 328,926 · Shell · 2026-11-20T23:59:19Z  
+> ⭐ 329,743 · Shell · 2026-11-21T23:15:22Z  
 > [GitHub](https://github.com/mattpocock/skills) · [Website](https://aihero.dev/skills)  
 > `#AI 智能体` `#Engineering Productivity` `#提示工程` 
 > This repo offers lightweight, composable AI agent skills for real engineering, sourced from the author's .claude directory. Designed to fix common AI coding pitfalls like misalignment and verbosity, skills such as /grill-me prompt detailed questioning to improve clarity. Compatible with any model, they empower developers with control and precision in software development.
@@ -3193,7 +3214,7 @@
 ## nexu-io/openmotion
 
 > [!info]
-> ⭐ 13,938 · TypeScript · 2026-11-20T23:52:12Z  
+> ⭐ 14,686 · TypeScript · 2026-11-21T23:16:56Z  
 > [GitHub](https://github.com/nexu-io/openmotion) · [Website](https://open-design.ai/motion/)  
 > `#AI Video Generation` `#Automated Video Production` `#Full-stack AI` `#Multimodal Synthesis` `#agent-skills` `#ai` `#ai-agents` `#animation` `#claude-code` `#codex` `#deepseek-harness` `#dsh` `#dsh-plugin` `#ffmpeg` `#generative-ai` `#html` `#javascript` `#local-first` `#mcp` `#motion-graphics` `#openmotion` `#typescript` `#video-editing` `#video-generation` 
 > OpenMotion is an open-source full-stack AI video generation platform that reverse-engineers any reference video via HTML code, reconstructs scenes using your brand assets and self-hosted AI agents/API keys, and automates editing and rendering with seven built-in multimodal models (image/video/music/voice) for content creators and marketing teams.
@@ -3203,7 +3224,7 @@
 ## Fokkyp/SoftwareCopyright-Skill
 
 > [!info]
-> ⭐ 6,425 · Python · 2026-11-20T13:57:13Z  
+> ⭐ 6,430 · Python · 2026-11-21T17:37:21Z  
 > [GitHub](https://github.com/Fokkyp/SoftwareCopyright-Skill)  
 > `#Automation Tool` `#Document Generation` `#Open Source Skill` `#Software Copyright` 
 > An open-source Codex Skill that auto-generates complete Chinese software copyright application materials (forms, manuals, code docs) from local project source code. It ensures authenticity, follows the 30-page code rule, outputs standardized .docx/.txt files, and runs locally to eliminate paid agency dependencies.
@@ -3213,7 +3234,7 @@
 ## HKUDS/CLI-Anything
 
 > [!info]
-> ⭐ 61,363 · Python · 2026-11-20T23:55:35Z  
+> ⭐ 62,049 · Python · 2026-11-21T23:12:28Z  
 > [GitHub](https://github.com/HKUDS/CLI-Anything) · [Website](https://clianything.cc/)  
 > `#AI Agents` `#Automation Tool` `#CLI Generation` 
 > CLI-Anything transforms any software into agent-native command-line interfaces, enabling AI agents like Pi and Claude Code to directly control complex applications such as CAD, 3D modeling, and video editing. It features CLI-Hub, a community-driven registry for installing and managing over 2,269 verified skills, with live preview and execution trajectory support.
@@ -3223,7 +3244,7 @@
 ## DetachHead/rebased
 
 > [!info]
-> ⭐ 6,578 · Java · 2026-11-20T23:21:19Z  
+> ⭐ 6,584 · Java · 2026-11-21T21:33:01Z  
 > [GitHub](https://github.com/DetachHead/rebased)  
 > `#Cross-Platform Tool` `#Git Client` `#IntelliJ Platform` 
 > Rebased is an open-source Git client built on the IntelliJ platform, designed as a standalone alternative to JetBrains' discontinued Git tool initiative. It strips down the full IDE to only Git integration with UI enhancements, offering a lightweight, focused version control experience across Linux, Windows, and macOS.
@@ -3233,7 +3254,7 @@
 ## agentscope-ai/QwenPaw
 
 > [!info]
-> ⭐ 38,039 · Python · 2026-11-20T23:54:31Z  
+> ⭐ 38,080 · Python · 2026-11-21T22:57:15Z  
 > [GitHub](https://github.com/agentscope-ai/QwenPaw) · [Website](http://qwenpaw.agentscope.io/)  
 > `#AI 智能体` `#Local Deployment` `#Multi-Agent Collaboration` `#agent` `#agent-harness` `#agentscope` `#ai-agent` `#ai-agents` `#chatbot` `#harness-engineering` `#llm-tools` `#llms` `#loop-engineering` `#mcp` `#personal-ai-assistant` `#self-hosted` `#skills` `#super-agent` `#webui` 
 > QwenPaw is a personal AI assistant that can be deployed locally or in the cloud, ensuring full data control. It features built-in skills like scheduling and document processing, supports multi-agent collaboration and extensible custom skills, and integrates with multiple chat platforms.
@@ -3243,7 +3264,7 @@
 ## webadderallorg/Recordly
 
 > [!info]
-> ⭐ 37,144 · TypeScript · 2026-11-20T23:48:01Z  
+> ⭐ 37,196 · TypeScript · 2026-11-21T22:40:43Z  
 > [GitHub](https://github.com/webadderallorg/Recordly) · [Website](https://recordly.dev)  
 > `#Cross-Platform` `#Demo Tool` `#Screen Recording` `#Video Editing` `#electron` `#free` `#linux` `#macos` `#open-source` `#screen-recorder` `#screen-studio` `#windows` 
 > Recordly is an open-source, cross-platform screen recorder and editor for macOS, Windows, and Linux. It enables polished screen recordings without post-editing by offering auto-zooms, cursor enhancements, dynamic webcam overlays, timeline editing, and a community extension marketplace—ideal for demos, walkthroughs, and product videos.
@@ -3253,7 +3274,7 @@
 ## open-slide/open-slide
 
 > [!info]
-> ⭐ 9,817 · TypeScript · 2026-11-20T20:05:37Z  
+> ⭐ 9,827 · TypeScript · 2026-11-21T21:05:22Z  
 > [GitHub](https://github.com/open-slide/open-slide) · [Website](https://open-slide.dev)  
 > `#AI 智能体` `#Presentation Tool` `#React Framework` `#agent` `#react` `#slides` 
 > open-slide is an agent-native presentation framework where users describe decks in natural language and coding agents generate React slide components. It features a 1920×1080 canvas, in-browser inspector, export to HTML/PDF/PPTX, and static deployment for seamless deck creation from chat.
@@ -3273,7 +3294,7 @@
 ## codewhale-hq/Codewhale
 
 > [!info]
-> ⭐ 41,190 · Rust · 2026-11-20T23:19:12Z  
+> ⭐ 41,194 · Rust · 2026-11-21T22:39:58Z  
 > [GitHub](https://github.com/codewhale-hq/Codewhale) · [Website](https://codewhale.net/)  
 > `#AI 智能体` `#Automation Tool` `#Cross-platform` `#DevTool` `#agent-client-protocol` `#agent-orchestration` `#ai-agent` `#ai-coding` `#cli` `#coding-agent` `#deepseek` `#developer-tools` `#llm` `#local-llm` `#mcp` `#multi-agent` `#ollama` `#open-source` `#openai-compatible` `#rust` `#terminal` `#tui` 
 > Codewhale is an open-source coding agent for the terminal, built in Rust and compatible with any AI model. It reads projects, edits files, runs commands, and verifies its own work, suitable for automated code fixes, test debugging, and local development workflows, with TUI and headless modes.
@@ -3283,7 +3304,7 @@
 ## nexu-io/open-design
 
 > [!info]
-> ⭐ 108,687 · TypeScript · 2026-11-20T23:53:22Z  
+> ⭐ 108,839 · TypeScript · 2026-11-21T23:11:14Z  
 > [GitHub](https://github.com/nexu-io/open-design) · [Website](https://open-design.ai)  
 > `#AI Design Tool` `#Coding Agent Integration` `#Multi-platform Prototyping` `#agent-skills` `#ai-design` `#byok` `#claude-code-for-design` `#claude-design` `#codex-design` `#cursor-design` `#deepseek` `#deepseek-harness` `#design-systems` `#desktop-app` `#desktop-apps` `#dsh` `#dsh-plugin` `#figma-alternative` `#hermes-agent` `#local-first` `#prototyping` `#ui-generator` `#vibe-coding` 
 > Open Design is a local-first, open-source alternative to Anthropic's Claude Design, integrating 13 coding-agent CLIs (e.g., Claude Code, Cursor, Copilot) with 31 composable skills and 72 brand-grade design systems to generate web, desktop, mobile prototypes, slides, images, videos, and HyperFrames, offering sandboxed preview and export to HTML/PDF/PPTX/MP4.
@@ -3293,7 +3314,7 @@
 ## EKKOLearnAI/ekko-studio
 
 > [!info]
-> ⭐ 11,808 · TypeScript · 2026-11-20T17:16:36Z  
+> ⭐ 11,812 · TypeScript · 2026-11-21T18:54:39Z  
 > [GitHub](https://github.com/EKKOLearnAI/ekko-studio) · [Website](https://ekkostudio.xyz)  
 > `#AI 智能体` `#Local-First Workspace` `#Multi-Agent Collaboration` `#agent` `#ai-agent` `#chat-ui` `#coding-agents` `#dashboard` `#ekko-studio` `#hermes` `#hermes-agent` `#hermes-studio` `#hermes-web-ui` `#llm` `#multi-agent` `#multi-model` `#multi-platform` `#self-hosted` `#typescript` `#vue3` `#web-ui` `#workflow-automation` 
 > Ekko Studio is a local-first AI workspace supporting multi-agent collaboration, visual workflow building, and coding tasks. It integrates Hermes, Claude Code, Codex and other mainstream AI agent runtimes, offering desktop app, web console and Docker deployment options for developer and team efficiency.
@@ -3303,7 +3324,7 @@
 ## KKKKhazix/khazix-skills
 
 > [!info]
-> ⭐ 22,429 · Python · 2026-11-20T17:39:33Z  
+> ⭐ 22,442 · Python · 2026-11-21T20:24:15Z  
 > [GitHub](https://github.com/KKKKhazix/khazix-skills)  
 > `#AI 智能体` `#Automation Tool` `#提示工程` `#agent-skills` `#ai-agents` `#claude` `#claude-code` `#codex` `#developer-tools` `#llm` `#skills` `#vibe-coding` 
 > Khazix Skills is an open-source collection of AI skills and prompts designed for integration with agent platforms like Claude Code and Codex. It includes tools for auto-syncing project docs and agent memory (neat-freak), generating in-depth analytical reports via horizontal-vertical analysis (hv-analysis), and mimicking a personal writing style (khazix-writer), enhancing AI consistency and productivity.
@@ -3313,7 +3334,7 @@
 ## hanxi/cups-web
 
 > [!info]
-> ⭐ 1,533 · Go · 2026-11-20T17:20:03Z  
+> ⭐ 1,536 · Go · 2026-11-21T11:00:48Z  
 > [GitHub](https://github.com/hanxi/cups-web) · [Website](https://github.com/hanxi/cups-web)  
 > `#CUPS` `#Multi-user Management` `#Print Service` `#Remote Printing` `#cups` `#cups-docker` `#cups-printserver` `#docker` `#nas` `#printer` 
 > A web-based print management system built on CUPS that enables remote printing via browser for PDFs, images, and Office documents. It features multi-user roles, real-time preview, print job tracking, and automated cleanup, ideal for home and small office use.
@@ -3323,7 +3344,7 @@
 ## craft-ai-agents/craft-agents-oss
 
 > [!info]
-> ⭐ 7,337 · TypeScript · 2026-11-20T21:44:03Z  
+> ⭐ 7,336 · TypeScript · 2026-11-21T05:31:34Z  
 > [GitHub](https://github.com/craft-ai-agents/craft-agents-oss)  
 > `#AI Agents` `#Desktop Application` `#Multi-API Integration` 
 > Craft Agents is an open-source desktop application built on Agent Native principles, enabling natural language integration with any API, MCP server, or local tool (e.g., Slack, Linear, PostgreSQL) without config files. It combines Claude and Pi SDKs, offering multi-session management, real-time skill expansion, and a document-centric workflow—all customizable via prompts for seamless human-agent collaboration.
@@ -3332,7 +3353,7 @@
 ## geekjourneyx/md2wechat-skill
 
 > [!info]
-> ⭐ 3,819 · Go · 2026-11-20T15:42:16Z  
+> ⭐ 3,820 · Go · 2026-11-21T07:09:52Z  
 > [GitHub](https://github.com/geekjourneyx/md2wechat-skill) · [Website](https://md2wechat.cn)  
 > `#AI 智能体` `#Markdown Styling` `#WeChat Automation` `#agent-cli` `#ai-agent` `#ai-writing` `#claude-code` `#claude-skills` `#cli` `#go` `#markdown` `#markdown-converter` `#markdown-formatter` `#markdown-to-html` `#markdown-to-wechat` `#mcp-server` `#md2wechat` `#wechat` `#wechat-article` `#wechat-mp` `#wechat-official-account` `#wechat-public-account` `#weixin` 
 > md2wechat is an AI-native WeChat article creation tool that converts Markdown into beautifully formatted posts and auto-uploads to the draft box. It offers 43 advanced layout modules, 40+ professional themes, AI image generation, and batch publishing via CLI, with native support for agents like Claude Code.
@@ -3342,7 +3363,7 @@
 ## helloianneo/ian-handdrawn-ppt
 
 > [!info]
-> ⭐ 1,529 · N/A · 2026-11-20T17:35:22Z  
+> ⭐ 1,531 · N/A · 2026-11-21T09:05:11Z  
 > [GitHub](https://github.com/helloianneo/ian-handdrawn-ppt) · [Website](https://ianneo.xyz)  
 > `#AI 智能体` `#Content Visualization` `#Hand-drawn Style` `#PPT Image Generation` `#ai-agent` `#chinese` `#codex-skill` `#handdrawn` `#image-generation` `#ppt` 
 > This Codex Skill transforms articles, course notes, or outlines into stylistically consistent Chinese hand-drawn technical illustration images. It generates 21:9 cover images and 16:9 content pages in PNG format, emphasizing narrative planning and visual coherence. Ideal for technical articles, courseware, and knowledge cards, it recommends ChatGPT Image 2.0 for optimal output quality.
@@ -3352,17 +3373,17 @@
 ## alchaincyf/huashu-design
 
 > [!info]
-> ⭐ 29,963 · HTML · 2026-11-20T23:19:51Z  
+> ⭐ 30,234 · HTML · 2026-11-21T23:03:00Z  
 > [GitHub](https://github.com/alchaincyf/huashu-design)  
 > `#AI 智能体` `#HTML Design` `#High-Fidelity Prototyping` `#agent-skills` `#ai-design` `#animation` `#claude-code` `#claude-code-skills` `#claude-skills` `#codex` `#cursor` `#deepseek-harness` `#design` `#dsh-plugin` `#html` `#huashu-skills` `#infographic` `#pptx` `#presentation` `#prototype` `#skills` `#slides` `#ui-design` 
 > Huashu Design is an HTML-native AI design skill for Agent environments like Claude Code. It enables users to generate high-fidelity prototypes, interactive apps, slides, animations, and infographics via natural language prompts. It supports MP4/GIF/PPTX exports, includes 20 design philosophies and a 5-dimensional review system, delivering production-ready designs instantly.
-> <sub>Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent</sub>
+> <sub>Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 92 种带样张的风格库 · 该是图的地方放真图 · HTML-native design skill for Claude Code, Codex, Cursor & any agent</sub>
 
 ---
 ## datawhalechina/easy-vibe
 
 > [!info]
-> ⭐ 20,479 · JavaScript · 2026-11-20T17:00:31Z  
+> ⭐ 20,486 · JavaScript · 2026-11-21T18:44:01Z  
 > [GitHub](https://github.com/datawhalechina/easy-vibe) · [Website](https://datawhalechina.github.io/easy-vibe/)  
 > `#Beginner Friendly` `#Interactive Tutorial` `#Programming Education` `#agent` `#ai` `#coding` `#course` `#deepseek` `#gemini` `#genai` `#gpt` `#llm` `#low-code` `#mcp` `#nextjs` `#no-code` `#openai` `#programming` `#tutorial` `#vibe-coding` `#vibecoding` `#vscode` `#workflow` 
 > Easy-Vibe is a beginner-friendly modern programming course designed to teach coding from scratch with the motto 'if you can talk, you can build apps.' It features a structured learning map and step-by-step visual tutorials to ensure lasting understanding, supported in multiple languages for global accessibility.
@@ -3372,7 +3393,7 @@
 ## usebruno/bruno
 
 > [!info]
-> ⭐ 48,489 · JavaScript · 2026-11-20T23:32:03Z  
+> ⭐ 48,497 · JavaScript · 2026-11-21T21:43:40Z  
 > [GitHub](https://github.com/usebruno/bruno) · [Website](https://www.usebruno.com/)  
 > `#API Testing` `#Offline-First` `#Open Source` `#api-client` `#api-testing` `#automation` `#developer-tools` `#git` `#graphql-client` `#http-client` `#javascript` `#openapi` `#openapi3` `#opensource` `#rest-api` `#testing` `#testing-tools` 
 > Bruno is an open-source IDE for exploring and testing APIs, designed as a lightweight alternative to Postman and Insomnia. It stores collections locally using the Bru markup language, supports Git-based collaboration, and operates entirely offline to ensure data privacy.
@@ -3382,7 +3403,7 @@
 ## op7418/guizang-ppt-skill
 
 > [!info]
-> ⭐ 30,189 · HTML · 2026-11-20T23:19:34Z  
+> ⭐ 30,223 · HTML · 2026-11-21T20:39:01Z  
 > [GitHub](https://github.com/op7418/guizang-ppt-skill)  
 > `#AI 智能体` `#Magazine Style` `#Single-file HTML` `#Web PPT Generator` `#ai-agent` `#claude-code` `#codex` `#html-deck` `#image-generation` `#ppt` `#presentation` `#skill` `#skills` `#swiss-design` `#web-ppt` 
 > This is a Claude Code Skill that converts prompts into single-file, magazine-style HTML presentations with horizontal swiping. It offers 10 layouts, 5 curated themes, WebGL hero backgrounds, and is ideal for offline talks, AI product launches, emphasizing restrained aesthetics and structural clarity.
@@ -3392,7 +3413,7 @@
 ## zarazhangrui/frontend-slides
 
 > [!info]
-> ⭐ 32,701 · JavaScript · 2026-11-20T23:57:24Z  
+> ⭐ 32,732 · JavaScript · 2026-11-21T23:09:34Z  
 > [GitHub](https://github.com/zarazhangrui/frontend-slides)  
 > `#AI 智能体` `#PPT Conversion` `#Web Presentation` `#提示工程` `#ai-slides` `#anthropic` `#claude` `#claude-code` `#claude-skill` `#generative-ui` `#html` `#presentation` `#slides` `#vibe-coding` 
 > Frontend Slides is a Claude Code skill that enables non-designers to create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. It uses visual previews for style selection, supports zero-dependency single-file output, and offers 12 curated design styles (e.g., Dark Botanical, Neon Cyber) to avoid generic AI aesthetics while delivering production-ready, accessible, and responsive code.
@@ -3402,7 +3423,7 @@
 ## QiuChenly/CoreInject
 
 > [!info]
-> ⭐ 3,416 · HTML · 2026-11-20T15:04:40Z  
+> ⭐ 3,417 · HTML · 2026-11-21T16:14:11Z  
 > [GitHub](https://github.com/QiuChenly/CoreInject)  
 > `#Cracking Tools` `#IPA Injection` `#Reverse Engineering` 
 > QiuChenly CoreInject is an integrated reverse engineering and IPA injection tool, focusing on one-click cracking and automated script distribution. Its core is the QiuChenly AppStore, which unifies cracked libraries, scripts, and community sharing into a cross-platform desktop app for macOS, offering pre-cracked package uploads and admin backends to build a decentralized free software ecosystem.
@@ -3412,7 +3433,7 @@
 ## multica-ai/andrej-karpathy-skills
 
 > [!info]
-> ⭐ 234,750 · N/A · 2026-11-20T23:56:23Z  
+> ⭐ 234,915 · N/A · 2026-11-21T23:14:25Z  
 > [GitHub](https://github.com/multica-ai/andrej-karpathy-skills)  
 > `#AI 智能体` `#Code Quality` `#提示工程` 
 > This project distills four key principles—Think Before Coding, Simplicity First, Surgical Changes, and Goal-Driven Execution—into a single CLAUDE.md file to enhance Claude Code's behavior, addressing common LLM coding pitfalls like overengineering, hidden assumptions, and unnecessary modifications, based on Andrej Karpathy's insights.
@@ -3432,7 +3453,7 @@
 ## obsidianmd/obsidian-skills
 
 > [!info]
-> ⭐ 53,317 · Shell · 2026-11-20T23:53:10Z  
+> ⭐ 53,382 · Shell · 2026-11-21T23:14:25Z  
 > [GitHub](https://github.com/obsidianmd/obsidian-skills)  
 > `#AI 智能体` `#Cross-Platform` `#Knowledge Management` `#agents` `#agentskills` `#bases` `#chatgpt` `#claude` `#claude-code` `#claude-skills` `#cli` `#codex` `#defuddle` `#grok-bot` `#hermes` `#jsoncanvas` `#knap` `#markdown` `#md` `#obsidian` `#openclaw` `#opencode` `#skills` 
 > Provides Obsidian note-taking system capabilities for AI agents like Claude Code, Codex, and OpenCode. Supports creating and editing Obsidian Flavored Markdown, Bases (databases), and JSON Canvas (visual boards), plus CLI-based vault interaction. Follows the Agent Skills specification for seamless AI-agent integration with knowledge bases.
@@ -3442,7 +3463,7 @@
 ## Jakubantalik/Libraries.dev
 
 > [!info]
-> ⭐ 4,943 · TypeScript · 2026-11-20T20:41:52Z  
+> ⭐ 4,969 · TypeScript · 2026-11-21T21:41:21Z  
 > [GitHub](https://github.com/Jakubantalik/Libraries.dev) · [Website](https://libraries.dev)  
 > `#AI 智能体` `#Cross-Platform UI` `#React Effects Library` `#beam` `#design` `#effect` `#glow` `#motion` `#product` 
 > High-quality React UI effect libraries tailored for AI agents, featuring animated border beams, liquid morph effects, and dotted orb loaders. Supports cross-platform React Native and SwiftUI ports. Built with npm workspaces for multi-package management, including hot-reload development and automated CI deployment.
@@ -3452,7 +3473,7 @@
 ## max-sixty/worktrunk
 
 > [!info]
-> ⭐ 12,674 · Rust · 2026-11-20T23:32:00Z  
+> ⭐ 12,685 · Rust · 2026-11-21T22:29:27Z  
 > [GitHub](https://github.com/max-sixty/worktrunk) · [Website](https://worktrunk.dev)  
 > `#AI 智能体` `#Automation Tool` `#Git Worktree` `#agents` `#claude-code` `#codex` `#developer-tools` `#git` `#worktrees` 
 > Worktrunk is a CLI tool for managing Git worktrees, optimized for parallel AI agent workflows. It simplifies worktree operations to be as easy as branches, with automation hooks and scalable multi-agent support for enhanced developer productivity.
@@ -3462,7 +3483,7 @@
 ## op7418/logo-generator-skill
 
 > [!info]
-> ⭐ 2,396 · HTML · 2026-11-20T14:47:30Z  
+> ⭐ 2,400 · HTML · 2026-11-21T18:34:03Z  
 > [GitHub](https://github.com/op7418/logo-generator-skill)  
 > `#AI 智能体` `#Brand Identity` `#SVG Design` 
 > Professional SVG logo generator creating 6+ design variants with 12 curated background styles for high-end showcases. Leverages Gemini 3.1 Flash Image Preview to produce studio-quality presentation images, offering editable SVG and ready-to-use PNG formats for startups, developers, and design teams.
@@ -3482,7 +3503,7 @@
 ## stablyai/orca
 
 > [!info]
-> ⭐ 131,029 · TypeScript · 2026-11-20T23:59:01Z  
+> ⭐ 131,941 · TypeScript · 2026-11-21T23:17:30Z  
 > [GitHub](https://github.com/stablyai/orca) · [Website](https://orca.dev)  
 > `#AI 智能体` `#IDE Tool` `#Multi-Agent Collaboration` `#agent-ide` `#ai-agents` `#automation` `#bot` `#claude-code` `#codex` `#ghostty` `#grok-bot` `#hermes-agent` `#mobile-app` `#muse` `#openclaw` `#opencode` `#orchestration` `#pi` `#runtime` `#swarm` `#terminal` `#worktrees` `#yc-backed` 
 > Orca is a next-gen IDE for building with coding agents, enabling side-by-side execution of multiple CLI agents like Claude Code and OpenCode on macOS, Windows, and Linux. Each agent operates in its own worktree, centrally tracked and managed for maximum developer productivity.
@@ -3492,7 +3513,7 @@
 ## alchaincyf/darwin-skill
 
 > [!info]
-> ⭐ 7,007 · HTML · 2026-11-20T22:18:25Z  
+> ⭐ 7,021 · HTML · 2026-11-21T19:36:47Z  
 > [GitHub](https://github.com/alchaincyf/darwin-skill)  
 > `#AI 智能体` `#Automation Tool` `#Skill Optimization` `#提示工程` `#agent-skills` `#ai-agents` `#autoresearch` `#claude-code` `#claude-code-skills` `#claude-skills` `#codex` `#evaluation` `#huashu-skills` `#llm` `#openclaw` `#prompt-optimization` `#self-improving` `#skills` 
 > Darwin.skill is an autonomous skill optimization system inspired by autoresearch, featuring a closed-loop cycle of evaluate-improve-test-keep/revert to continuously enhance agent skills in tools like Claude Code. It employs dual evaluation (structural quality + actual performance) and a ratchet mechanism to ensure only measurable improvements are retained, using an 8-dimensional weighted scoring system with human-in-the-loop validation.
@@ -3502,7 +3523,7 @@
 ## JimLiu/baoyu-skills
 
 > [!info]
-> ⭐ 27,756 · TypeScript · 2026-11-20T23:34:17Z  
+> ⭐ 27,777 · TypeScript · 2026-11-21T22:20:21Z  
 > [GitHub](https://github.com/JimLiu/baoyu-skills)  
 > `#AI 智能体` `#Content Generation` `#提示工程` `#agent-skills` `#claude-skills` `#codex-skills` `#openclaw-skills` 
 > Baoyu Skills enhances daily work efficiency in Claude Code with content generation tools, AI utilities, and publishing helpers. Features style templates (cute/fresh/minimal), color palettes, and batch processing for streamlined content creation.
@@ -3521,7 +3542,7 @@
 ## johansan/notebook-navigator
 
 > [!info]
-> ⭐ 2,860 · TypeScript · 2026-11-20T11:37:55Z  
+> ⭐ 2,862 · TypeScript · 2026-11-21T15:50:59Z  
 > [GitHub](https://github.com/johansan/notebook-navigator) · [Website](https://notebooknavigator.com)  
 > `#Dual-Pane Interface` `#Knowledge Management` `#Obsidian Plugin` 
 > Notebook Navigator is an Obsidian plugin that replaces the default file explorer with a clean two-pane interface, offering folder tree navigation, tag browsing, file previews, keyboard shortcuts, drag-and-drop, pinned notes, and customizable display options for efficient note management.
@@ -3531,7 +3552,7 @@
 ## tw93/Waza
 
 > [!info]
-> ⭐ 7,623 · Python · 2026-11-20T18:55:11Z  
+> ⭐ 7,628 · Python · 2026-11-21T07:57:29Z  
 > [GitHub](https://github.com/tw93/Waza)  
 > `#AI 智能体` `#Claude Skills` `#Engineering Automation` `#提示工程` `#agent-skills` `#ai-agents` `#claude` `#claude-code` `#codex` `#cursor` `#design` `#engineer` `#skills` `#superpowers` 
 > Waza is a collection of engineering skills for Claude AI, transforming proven developer habits—like requirement analysis, UI design, debugging, and code review—into executable slash commands. Each skill includes documentation, scripts, and real-world failure examples to guide Claude in producing higher-quality, more reliable outputs.
@@ -3541,7 +3562,7 @@
 ## shanraisshan/claude-code-best-practice
 
 > [!info]
-> ⭐ 69,268 · HTML · 2026-11-20T23:51:50Z  
+> ⭐ 69,293 · HTML · 2026-11-21T22:20:58Z  
 > [GitHub](https://github.com/shanraisshan/claude-code-best-practice) · [Website](https://linkedin.com/in/shanraisshan)  
 > `#AI Agents` `#Automation Tools` `#提示工程` `#agentic-ai` `#agentic-coding` `#agentic-engineering` `#agentic-workflow` `#ai` `#ai-agents` `#anthropic` `#best-practices` `#boris` `#claude` `#claude-ai` `#claude-code` `#claude-code-agents` `#claude-code-best-practices` `#claude-code-commands` `#claude-code-skills` `#context-engineering` `#pakistan` `#pakistani-developer` `#vibe-coding` 
 > This repository systematically documents best practices for Claude Code, covering sub-agents, commands, skills, workflows, and hooks. It guides developers from basic coding to agentic engineering through structured templates and real-world examples, enabling efficient automation and complex task orchestration.
@@ -3551,7 +3572,7 @@
 ## code-yeongyu/oh-my-openagent
 
 > [!info]
-> ⭐ 71,031 · TypeScript · 2026-11-20T23:34:21Z  
+> ⭐ 71,046 · TypeScript · 2026-11-21T23:04:28Z  
 > [GitHub](https://github.com/code-yeongyu/oh-my-openagent) · [Website](https://omo.dev)  
 > `#AI 智能体` `#Multi-Model Orchestration` `#Open Source Tool` `#ai` `#ai-agents` `#anthropic` `#chatgpt` `#claude` `#claude-skills` `#codex` `#cursor` `#gemini` `#ide` `#openai` `#opencode` `#orchestration` `#tui` `#typescript` 
 > Oh My OpenAgent is an open-source agent framework enabling multi-model orchestration for code generation and automation. It integrates leading LLMs like Claude, GPT, Kimi, GLM, Gemini, and Minimax to build a decentralized ecosystem that rejects vendor lock-in. Features include real-time public development via Discord and support for diverse AI providers.
@@ -3561,7 +3582,7 @@
 ## getpaseo/paseo
 
 > [!info]
-> ⭐ 24,539 · TypeScript · 2026-11-20T23:59:13Z  
+> ⭐ 24,614 · TypeScript · 2026-11-21T22:39:45Z  
 > [GitHub](https://github.com/getpaseo/paseo) · [Website](https://paseo.sh)  
 > `#AI Agents` `#Automation Tool` `#Cross-Platform` `#提示工程` `#ade` `#agents` `#android` `#claude-code` `#codex` `#copilot` `#developer-tools` `#hermes` `#ios` `#linux` `#mobile` `#opencode` `#orchestration` `#pi` `#windows` 
 > Paseo is a cross-platform orchestration tool for coding agents, enabling remote management of Claude Code, Codex, and OpenCode via phone, desktop, or CLI. Key features include self-hosted local execution, unified multi-provider interface, voice control, device synchronization, and privacy-first design with no telemetry. It allows seamless task delegation and hands-off automation across environments.
@@ -3601,7 +3622,7 @@
 ## NousResearch/hermes-agent
 
 > [!info]
-> ⭐ 264,986 · Python · 2026-11-20T23:56:48Z  
+> ⭐ 265,195 · Python · 2026-11-21T23:15:01Z  
 > [GitHub](https://github.com/NousResearch/hermes-agent) · [Website](https://hermes-agent.nousresearch.com)  
 > `#AI 智能体` `#Automation Tool` `#提示工程` `#ai` `#ai-agent` `#ai-agents` `#anthropic` `#chatgpt` `#claude` `#claude-code` `#codex` `#hermes` `#hermes-agent` `#llm` `#nous-research` `#openai` 
 > Hermes Agent is a self-improving AI agent by Nous Research featuring an integrated learning loop: autonomously creates and refines skills from experience, manages memory with periodic nudges, enables cross-session search via FTS5 and LLM summarization, and models user behavior. Supports multi-platform access (Telegram/Slack/Discord), arbitrary model backends, serverless deployment, and research use cases like trajectory generation.
@@ -3611,7 +3632,7 @@
 ## addyosmani/agent-skills
 
 > [!info]
-> ⭐ 119,394 · JavaScript · 2026-11-20T23:54:56Z  
+> ⭐ 119,575 · JavaScript · 2026-11-21T23:03:20Z  
 > [GitHub](https://github.com/addyosmani/agent-skills) · [Website](https://skills.addy.ie)  
 > `#AI Agents` `#Software Development Workflow` `#提示工程` `#agent-skills` `#antigravity` `#claude-code` `#codex` `#cursor` `#skills` 
 > Agent Skills provides production-grade engineering workflows for AI coding agents, covering the entire software development lifecycle from idea to deployment. With 7 core commands (e.g., /spec, /build, /test) and 19 specialized skills, it enforces senior engineer best practices like spec-first development, incremental builds, and test-driven verification.
@@ -3631,7 +3652,7 @@
 ## 0xSero/litter
 
 > [!info]
-> ⭐ 2,545 · Rust · 2026-11-20T09:55:09Z  
+> ⭐ 2,545 · Rust · 2026-11-21T20:47:33Z  
 > [GitHub](https://github.com/0xSero/litter)  
 > `#AI 智能体` `#Cross-Platform` `#Mobile Development` 
 > Litter is a native iOS and Android client for OpenAI Codex, enabling users to connect to local or remote servers and run agentic coding workflows on mobile. It shares a single Rust core via UniFFI, keeping platform code (Swift/Kotlin) thin for high performance and code reuse.
@@ -3640,7 +3661,7 @@
 ## op7418/Youtube-clipper-skill
 
 > [!info]
-> ⭐ 2,369 · Python · 2026-11-20T20:15:10Z  
+> ⭐ 2,373 · Python · 2026-11-21T20:24:38Z  
 > [GitHub](https://github.com/op7418/Youtube-clipper-skill)  
 > `#AI 智能体` `#Automation Tool` `#Video Processing` `#网页爬虫` 
 > AI-powered YouTube video clipper for Claude Code that downloads videos, generates semantic chapters (2-5 min), clips segments with frame accuracy, translates subtitles to bilingual format, and burns them into videos. Ideal for content creators to produce social media clips efficiently.
@@ -3649,7 +3670,7 @@
 ## op7418/NanoBanana-PPT-Skills
 
 > [!info]
-> ⭐ 3,370 · Python · 2026-11-20T19:11:13Z  
+> ⭐ 3,372 · Python · 2026-11-21T21:46:47Z  
 > [GitHub](https://github.com/op7418/NanoBanana-PPT-Skills)  
 > `#AI 智能体` `#PPT Automation` `#Video Transitions` 
 > NanoBanana PPT Skills is an AI-powered automation tool that generates high-quality PPT images and videos by intelligently analyzing documents. It leverages Google Gemini for image generation, Kling AI for smooth transition animations, interactive playback controls, and FFmpeg video synthesis, ideal for tech demos and business presentations.
@@ -3659,7 +3680,7 @@
 ## op7418/Humanizer-zh
 
 > [!info]
-> ⭐ 23,430 · Python · 2026-11-20T23:57:32Z  
+> ⭐ 23,497 · Python · 2026-11-21T16:55:26Z  
 > [GitHub](https://github.com/op7418/Humanizer-zh)  
 > `#AI 智能体` `#De-AIization` `#Text Rewriting` `#提示工程` 
 > Humanizer-zh is a Claude Code skill plugin designed to detect and eliminate traces of AI-generated text. Based on Wikipedia's 'Signs of AI Writing' guidelines, it identifies 24 patterns across content, language, style, and communication. It rewrites AI-like passages using natural expressions while preserving core meaning, enhancing authenticity in marketing copy, academic abstracts, and other content types.
@@ -3669,7 +3690,7 @@
 ## alchaincyf/nuwa-skill
 
 > [!info]
-> ⭐ 38,700 · Python · 2026-11-20T21:56:21Z  
+> ⭐ 38,757 · Python · 2026-11-21T22:45:56Z  
 > [GitHub](https://github.com/alchaincyf/nuwa-skill)  
 > `#AI 智能体` `#Cognitive Distillation` `#Expert Personas` `#提示工程` `#agent-skills` `#ai-agents` `#claude-code` `#claude-code-skills` `#claude-skills` `#codex` `#cursor` `#decision-making` `#deepseek-harness` `#dsh-plugin` `#gemini-cli` `#hermes-agent` `#huashu-skills` `#mental-models` `#nuwa-skill` `#openclaw` `#opencode` `#persona` `#prompt-engineering` `#skills` 
 > Nuwa.skill is an AI agent skill library that distills the thinking patterns of top-tier individuals (e.g., Jobs, Musk, Munger) into actionable skills. It extracts cognitive frameworks, decision heuristics, and communication DNA to enable users to invoke these 'virtual experts' via Claude Code for cross-domain strategic analysis and problem-solving.
@@ -3679,7 +3700,7 @@
 ## spacering-net/codeg
 
 > [!info]
-> ⭐ 4,548 · Rust · 2026-11-20T23:18:41Z  
+> ⭐ 4,561 · Rust · 2026-11-21T22:33:27Z  
 > [GitHub](https://github.com/spacering-net/codeg) · [Website](https://docs.codeg.app)  
 > `#Collaborative Coding` `#Cross-Platform` `#Multi-Agent` `#acp` `#ade` `#agent` `#claude-code` `#code-generation` `#codex` `#deepseek-harness` `#grok-build` `#gui` `#multi-agent` `#opencode` `#pi` `#terminal` `#vibe-coding` `#worktrees` 
 > Codeg is a collaborative multi-agent AI coding workspace unifying 15+ AI agents like Claude Code, Codex, and Grok. Supports desktop, self-hosted, and Docker deployments across all platforms. Key features include session migration between agents, collaborative task delegation via @mentions, and a unified conversation interface.
@@ -3689,7 +3710,7 @@
 ## 0Chencc/clawgod
 
 > [!info]
-> ⭐ 2,332 · JavaScript · 2026-11-20T23:45:44Z  
+> ⭐ 2,335 · JavaScript · 2026-11-21T19:03:47Z  
 > [GitHub](https://github.com/0Chencc/clawgod) · [Website](http://clawgod.0chen.cc)  
 > `#AI 智能体` `#Automation Tool` `#提示工程` `#ai` `#assistant` `#claude-ai` `#claude-code` `#claw` `#clawcode` `#limit` `#linux` `#macos` `#patch` `#skill` `#vibe-coded` `#vibe-coding` `#windows` 
 > ClawGod is a runtime patch for Claude Code that unlocks restricted features like hidden commands, multi-agent collaboration, and computer use without Pro subscription. It auto-reapplies patches after updates, uses green branding to indicate patched status, and supports cross-platform installation with one-line scripts.
@@ -3699,7 +3720,7 @@
 ## alchaincyf/steve-jobs-skill
 
 > [!info]
-> ⭐ 982 · N/A · 2026-11-18T05:12:02Z  
+> ⭐ 983 · N/A · 2026-11-21T10:00:16Z  
 > [GitHub](https://github.com/alchaincyf/steve-jobs-skill)  
 > `#AI 智能体` `#Cognitive Framework` `#Product Strategy` `#agent-skills` `#claude-code` `#claude-code-skills` `#claude-skills` `#codex` `#cursor` `#decision-making` `#gemini-cli` `#hermes-agent` `#huashu-skills` `#mental-models` `#nuwa-skill` `#openclaw` `#opencode` `#persona` `#product-design` `#prompt-engineering` `#skills` `#steve-jobs` 
 > Steve Jobs.skill is a cognitive operating system distilled from Steve Jobs' firsthand materials, featuring 6 mental models, 8 decision heuristics, and a unique expression DNA. It functions as an executable thinking framework—not just quoting—to analyze product directions and competitive landscapes through Jobs' lenses like focus, end-to-end control, and the 'death filter'.
@@ -3709,7 +3730,7 @@
 ## dominikmartn/nothing-design-skill
 
 > [!info]
-> ⭐ 2,896 · N/A · 2026-11-20T14:55:21Z  
+> ⭐ 2,898 · N/A · 2026-11-21T10:06:08Z  
 > [GitHub](https://github.com/dominikmartn/nothing-design-skill)  
 > `#AI 智能体` `#Design System` `#UI Generation` `#提示工程` 
 > A Claude Code skill for generating UI in the Nothing design language. Features monochrome, typographic, industrial aesthetics with Swiss typography, OLED blacks, segmented progress bars, and dot-matrix motifs. Outputs to HTML/CSS, SwiftUI, or React/Tailwind across light/dark mode token systems.
@@ -3719,8 +3740,8 @@
 ## VoltAgent/awesome-design-md
 
 > [!info]
-> ⭐ 128,435 · N/A · 2026-11-20T23:09:02Z  
-> [GitHub](https://github.com/VoltAgent/awesome-design-md) · [Website](https://getdesign.md/)  
+> ⭐ 128,524 · N/A · 2026-11-21T23:16:38Z  
+> [GitHub](https://github.com/VoltAgent/awesome-design-md) · [Website](https://getdesign.md/design-md-pro)  
 > `#AI 智能体` `#Design System` `#UI Automation` `#awesome-list` `#design-md` `#design-system` `#design-tokens` `#figma` `#landing-page` `#vibe-coding` `#vibe-design` `#vibecoding` 
 > Awesome DESIGN.md is a curated collection of design system files from popular websites, each following Google Stitch's plain-text format. It includes visual themes, color palettes, typography rules, component styles, and responsive behavior, enabling AI coding agents to generate pixel-perfect UIs directly from markdown without Figma or JSON dependencies.
 > <sub>A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.</sub>
@@ -3789,7 +3810,7 @@
 ## wavetermdev/waveterm
 
 > [!info]
-> ⭐ 22,727 · Go · 2026-11-20T21:59:44Z  
+> ⭐ 22,728 · Go · 2026-11-21T22:46:12Z  
 > [GitHub](https://github.com/wavetermdev/waveterm) · [Website](https://www.waveterm.dev)  
 > `#AI 智能体` `#Cross-Platform` `#Terminal Automation` `#command-line` `#developer-tools` `#linux` `#macos` `#productivity` `#terminal` `#terminal-emulators` `#windows` 
 > Wave Terminal is an open-source, AI-integrated terminal for macOS, Linux, and Windows. It supports any AI model via BYOK (Bring Your Own Key) for OpenAI, Claude, Gemini, or local models like Ollama/LM Studio. Key features include durable SSH sessions with auto-reconnect, built-in remote file editor, rich file previews (markdown, images, PDFs), context-aware Wave AI assistant that analyzes terminal output and performs file operations, and a powerful `wsh` CLI system for workspace management and cross-session data sync.
@@ -3799,7 +3820,7 @@
 ## openai/codex-plugin-cc
 
 > [!info]
-> ⭐ 35,313 · JavaScript · 2026-11-20T23:13:51Z  
+> ⭐ 35,333 · JavaScript · 2026-11-21T22:55:10Z  
 > [GitHub](https://github.com/openai/codex-plugin-cc)  
 > `#AI 智能体` `#Code Review` `#提示工程` 
 > This plugin integrates OpenAI Codex into Claude Code for automated code reviews and task delegation. It offers normal and adversarial review modes, supports multi-file changes, and enables background execution with status tracking via slash commands, enhancing developer productivity and code quality.
@@ -3809,7 +3830,7 @@
 ## Z4nzu/hackingtool
 
 > [!info]
-> ⭐ 82,067 · Python · 2026-11-20T23:09:07Z  
+> ⭐ 82,091 · Python · 2026-11-21T22:31:01Z  
 > [GitHub](https://github.com/Z4nzu/hackingtool)  
 > `#Automation Tool` `#Penetration Testing` `#网络安全` `#ai-all-in-one-hackingtool` `#ai-hacking` `#ai-security-tool` `#ai-security-tools` `#allinonehackingtool` `#besthackingtool` `#ctf-tools` `#ddos-attack-tool` `#hacker` `#hacking` `#linux` `#password-attack` `#steganography` `#web-attack` `#wireless-attack` `#xss-attacks` `#xss-detection` 
 > HackingTool is an all-in-one cybersecurity toolkit for security researchers and pentesters. It integrates 185+ tools across 20 categories including anonymity, exploitation, web, and mobile security. Features include smart search, tag filtering, one-click installation/updates, OS-aware menus, and Docker support, optimized for Linux/Kali/Parrot/macOS with a modern CLI interface.
@@ -3828,7 +3849,7 @@
 ## marswaveai/ColaMD
 
 > [!info]
-> ⭐ 1,306 · TypeScript · 2026-11-19T23:36:19Z  
+> ⭐ 1,309 · TypeScript · 2026-11-21T06:34:21Z  
 > [GitHub](https://github.com/marswaveai/ColaMD) · [Website](http://colamd.com)  
 > `#AI 智能体` `#Markdown Editor` `#Real-Time Sync` `#electron` `#linux` `#macos` `#markdown` `#markdown-editor` `#notes` `#open-source` `#windows` `#writing` `#wysiwyg` 
 > ColaMD is an Agent-Native Markdown editor designed for real-time collaboration between humans and AI agents. It instantly reflects AI-generated changes to .md files via file system monitoring, featuring WYSIWYG editing, cross-platform support, and theme customization—eliminating manual refresh cycles during agent-assisted writing.
@@ -3838,7 +3859,7 @@
 ## chenglou/pretext
 
 > [!info]
-> ⭐ 51,088 · TypeScript · 2026-11-20T23:14:15Z  
+> ⭐ 51,087 · TypeScript · 2026-11-21T22:59:03Z  
 > [GitHub](https://github.com/chenglou/pretext) · [Website](https://chenglou.me/pretext/)  
 > `#High-Performance Layout` `#JavaScript/TypeScript` `#Text Processing` `#canvas` `#javascript` `#line-breaking` `#occlusion` `#text-layout` `#text-measurement` `#typescript` `#typography` `#virtualization` 
 > Pretext is a pure JavaScript/TypeScript library for accurate multiline text measurement and layout without touching the DOM. It uses Canvas-based font pre-measurement to avoid expensive browser reflows, supports all languages including emojis and mixed-bidi, and enables high-performance virtualization, dynamic layouts, and development-time overflow checks.
@@ -3848,7 +3869,7 @@
 ## tw93/Kaku
 
 > [!info]
-> ⭐ 6,228 · Rust · 2026-11-20T21:32:56Z  
+> ⭐ 6,230 · Rust · 2026-11-21T11:35:43Z  
 > [GitHub](https://github.com/tw93/Kaku) · [Website](https://kaku.fun)  
 > `#AI 智能体` `#Automation Tool` `#Terminal Emulator` `#ai-coding` `#macos` `#rust` `#serial` `#terminal` `#terminal-app` `#terminal-emulator` `#vibe-coding` 
 > Kaku is a high-performance terminal emulator built for AI coding, forked from WezTerm with deep customizations. It offers zero-config setup, theme-aware UI, integrated shell tools, and a built-in AI assistant for command recovery and coding support.
@@ -3868,7 +3889,7 @@
 ## JCodesMore/ai-website-cloner-template
 
 > [!info]
-> ⭐ 39,560 · TypeScript · 2026-11-20T23:21:32Z  
+> ⭐ 39,595 · TypeScript · 2026-11-21T22:53:18Z  
 > [GitHub](https://github.com/JCodesMore/ai-website-cloner-template) · [Website](https://dsc.gg/jcodesmore)  
 > `#AI 智能体` `#Automation Tool` `#Frontend Framework` `#网页爬虫` `#ai` `#ai-agents` `#ai-tools` `#automation` `#boilerplate` `#claude` `#claude-code` `#clone` `#developer-tools` `#nextjs` `#react` `#reverse-engineering` `#shadcn-ui` `#skills` `#tailwindcss` `#template` `#typescript` `#web-scraping` `#website-clone` 
 > An AI-powered website cloning template that reverse-engineers any site using Claude Code and Chrome MCP. It extracts design tokens, generates component specs, and rebuilds pages pixel-perfect via parallel builder agents in isolated git worktrees. Built with Next.js 16, shadcn/ui, and Tailwind CSS v4.
@@ -3878,7 +3899,7 @@
 ## joewongjc/type4me
 
 > [!info]
-> ⭐ 1,561 · Swift · 2026-11-20T13:33:31Z  
+> ⭐ 1,562 · Swift · 2026-11-21T11:30:41Z  
 > [GitHub](https://github.com/joewongjc/type4me)  
 > `#AI 智能体` `#Local Deployment` `#Speech Recognition` 
 > Type4Me is a macOS voice input tool featuring dual local/cloud ASR engines, LLM-powered text optimization, and full local storage. Powered by SherpaOnnx for offline on-device recognition without API keys, it integrates cloud services like Volcengine for real-time streaming and advanced prompt processing. Includes customizable hotkeys, vocabulary management, clipboard context support, and CSV export, balancing privacy with extensibility.
@@ -3956,7 +3977,7 @@
 ## better-auth/better-icons
 
 > [!info]
-> ⭐ 1,491 · TypeScript · 2026-11-20T17:13:31Z  
+> ⭐ 1,492 · TypeScript · 2026-11-21T07:36:35Z  
 > [GitHub](https://github.com/better-auth/better-icons)  
 > `#AI 智能体` `#Icon Retrieval` `#MCP Server` 
 > Better Icons is a skill and MCP server for searching and retrieving over 200,000 icons from 150+ collections (e.g., Lucide, Heroicons). It integrates with AI coding agents like Cursor and Claude Code via MCP, or functions as a CLI tool. Features include auto-learning usage patterns, batch retrieval, multi-framework exports (React/Vue/Svelte), and direct SVG output to save tokens in AI chats.
@@ -3966,7 +3987,7 @@
 ## vercel-labs/agent-browser
 
 > [!info]
-> ⭐ 53,079 · Rust · 2026-11-20T23:48:33Z  
+> ⭐ 53,227 · Rust · 2026-11-21T23:17:23Z  
 > [GitHub](https://github.com/vercel-labs/agent-browser) · [Website](https://agent-browser.dev)  
 > `#AI 智能体` `#Browser Automation` `#Rust` 
 > agent-browser is a high-performance headless browser automation CLI tool designed for AI agents, built with native Rust. It offers an intuitive command-line interface to interact with web pages via element references or traditional selectors, enabling actions like clicking, filling forms, and taking screenshots without requiring Playwright or Node.js, significantly enhancing AI agent web interaction capabilities.
@@ -3976,7 +3997,7 @@
 ## coollabsio/jean
 
 > [!info]
-> ⭐ 1,431 · TypeScript · 2026-11-20T17:34:28Z  
+> ⭐ 1,429 · TypeScript · 2026-11-21T18:15:07Z  
 > [GitHub](https://github.com/coollabsio/jean) · [Website](https://jean.build)  
 > `#AI 智能体` `#Developer Tools` `#桌面应用` `#agent` `#ai` `#claude-code` `#git` `#parallel` `#worktree` 
 > Jean is a desktop AI assistant built with Tauri v2, designed for managing multiple projects, git worktrees, and integrating Claude CLI, Codex CLI, and OpenCode. It offers session management, AI-powered development workflows (with thinking modes and MCP support), GitHub integration, terminal access, and remote web access—all running locally without vendor lock-in.
@@ -3995,7 +4016,7 @@
 ## anomalyco/opencode
 
 > [!info]
-> ⭐ 228,251 · TypeScript · 2026-11-20T23:51:38Z  
+> ⭐ 228,421 · TypeScript · 2026-11-21T23:13:59Z  
 > [GitHub](https://github.com/anomalyco/opencode) · [Website](https://opencode.ai)  
 > `#AI Coding Agent` `#Development Automation` `#Terminal Tool` 
 > OpenCode is an open-source AI coding agent that functions as both a terminal tool and desktop application. It enables code generation, editing, and automation via CLI, supports multiple package managers (npm, brew, scoop), and offers multilingual interfaces. Key features include interactive development, project comprehension, and intelligent refactoring to enhance developer productivity.
@@ -4035,7 +4056,7 @@
 ## dontbesilent2025/dbskill
 
 > [!info]
-> ⭐ 11,518 · Python · 2026-11-20T21:31:02Z  
+> ⭐ 11,523 · Python · 2026-11-21T17:11:52Z  
 > [GitHub](https://github.com/dontbesilent2025/dbskill)  
 > `#AI 智能体` `#Business Diagnosis` `#知识图谱` 
 > dbskill is a commercial diagnostic toolkit for Claude Code, extracting 4,176 knowledge atoms from 12,307 tweets to provide core skills like business model diagnosis, benchmarking, content optimization, and execution improvement. It features intelligent skill chaining (e.g., diagnosing issues auto-recommends solutions) and fully open knowledge resources usable independently for AI enhancement, RAG systems, or research.
@@ -4045,7 +4066,7 @@
 ## Shpigford/chops
 
 > [!info]
-> ⭐ 2,118 · Swift · 2026-11-19T21:24:37Z  
+> ⭐ 2,118 · Swift · 2026-11-21T11:49:10Z  
 > [GitHub](https://github.com/Shpigford/chops) · [Website](https://chops.md)  
 > `#AI 智能体` `#Skill Management` `#SwiftUI` `#agents` `#ai` `#macos` `#skills` `#swiftui` 
 > Chops is a native macOS app that centralizes management of AI coding agent skills across tools like Claude Code, Cursor, and Windsurf. It features real-time file watching, full-text search, collections, and remote skill server integration, built with SwiftUI and SwiftData for seamless editing.
@@ -4055,7 +4076,7 @@
 ## MemTensor/MemOS
 
 > [!info]
-> ⭐ 12,467 · TypeScript · 2026-11-20T22:42:37Z  
+> ⭐ 12,474 · TypeScript · 2026-11-21T22:46:44Z  
 > [GitHub](https://github.com/MemTensor/MemOS) · [Website](https://memos.openmem.net)  
 > `#AI 智能体` `#Memory System` `#Skill Evolution` `#agent` `#agentic-ai` `#ai` `#ai-agents` `#chatgpt` `#claude` `#deepseek-harness` `#dsh-plugin` `#hermes` `#llm` `#long-term-memory` `#mcp` `#memory` `#memory-management` `#openclaw` `#rag` `#self-evolving` `#skills` `#token-savings` 
 > MemOS 2.0 (Stardust) is an AI memory OS designed for LLM and agent systems, enabling persistent skill memory across tasks with reuse and evolution. It combines FTS5 and vector search for hybrid retrieval, reducing token usage by 35.24% while achieving top-tier performance on benchmarks like LongMemEval (+40.43%) and PrefEval-10 (+2568%). Supports cloud and local deployment modes, integrates with multi-agent frameworks like OpenClaw, and enables skill sharing and collaboration.
@@ -4065,7 +4086,7 @@
 ## ParadevAI/Paradev
 
 > [!info]
-> ⭐ 16,432 · TypeScript · 2026-11-20T22:41:37Z  
+> ⭐ 16,452 · TypeScript · 2026-11-21T22:48:55Z  
 > [GitHub](https://github.com/ParadevAI/Paradev) · [Website](https://paradev.com)  
 > `#AI Coding Assistant` `#Agentic IDE` `#Multi-Agent Orchestration` `#ade` `#agent` `#agent-orchestration` `#ai-agents` `#ai-coding` `#claude-code` `#cli` `#codex` `#coding-agents` `#conductor` `#cursor-agent` `#developer-tools` `#devtools` `#ide` `#macos` `#opencode` `#orchestration` `#parallel-agents` `#terminal` `#worktrees` 
 > Paradev is an agentic IDE that orchestrates 100+ coding agents (Claude Code, Codex, etc.) in parallel. It integrates terminals, diff review, and live browser previews into one workspace. With Git Worktree isolation, UI design mode, PR feedback loops, and team collaboration features, Paradev delivers a complete AI-assisted development workflow.
@@ -4075,7 +4096,7 @@
 ## lxf746/any-auto-register
 
 > [!info]
-> ⭐ 3,451 · Python · 2026-11-20T20:47:39Z  
+> ⭐ 3,454 · Python · 2026-11-21T22:07:25Z  
 > [GitHub](https://github.com/lxf746/any-auto-register) · [Website](https://github.com/lxf746/any2api)  
 > `#AI 智能体` `#Automation Tool` `#网页爬虫` `#account-management` `#account-registration` `#ai` `#ai-tools` `#auto-register` `#automation` `#captcha-solver` `#chatgpt` `#cursor` `#electron` `#fastapi` `#grok` `#kiro` `#multi-platform` `#trae` `#windsurf` 
 > Any Auto Register is a multi-platform account auto-registration and management system supporting major AI platforms like Trae.ai, Tavily, and Cursor. Built with FastAPI + React, it features plugin-based extensibility, integrated mailbox services (MoeMail/Laoudo/DuckMail), captcha solving (YesCaptcha/2Captcha/Camoufox), proxy pool management, and real-time log streaming via SSE to a web UI.
@@ -4125,7 +4146,7 @@
 ## fengshao1227/ccg-workflow
 
 > [!info]
-> ⭐ 5,983 · TypeScript · 2026-11-20T08:19:51Z  
+> ⭐ 5,984 · TypeScript · 2026-11-21T17:40:51Z  
 > [GitHub](https://github.com/fengshao1227/ccg-workflow) · [Website](https://ccg.fengshao1227.com)  
 > `#AI 智能体` `#Development Automation` `#Multi-Model Collaboration` `#agent-teams` `#ai` `#ccg` `#claude-code` `#cli` `#codex` `#gemini` `#llm` `#no-de` `#nodejs` `#opsxspec` `#prompt` `#workflow` 
 > CCG is a multi-model collaboration system where Claude orchestrates Codex (backend) and Gemini (frontend), offering 28 slash commands for full-stack development. Features zero-config routing, secure patch review, and OPSX-driven spec development for AI agent teamwork.
@@ -4145,7 +4166,7 @@
 ## 2025Emma/vibe-coding-cn
 
 > [!info]
-> ⭐ 23,193 · Python · 2026-11-20T17:34:40Z  
+> ⭐ 23,206 · Python · 2026-11-21T18:17:02Z  
 > [GitHub](https://github.com/2025Emma/vibe-coding-cn)  
 > `#AI 智能体` `#Developer Tools` `#提示工程` 
 > The Vibe Coding Guide is an open-source project enabling rapid idea-to-prototype development through AI pair programming, featuring multilingual support, prompt engineering frameworks, and automated workflows for efficient software creation.
@@ -4154,7 +4175,7 @@
 ## Emanuele-web04/remodex
 
 > [!info]
-> ⭐ 3,350 · Swift · 2026-11-20T15:52:10Z  
+> ⭐ 3,349 · Swift · 2026-11-21T09:23:43Z  
 > [GitHub](https://github.com/Emanuele-web04/remodex) · [Website](https://remodex.site)  
 > `#AI 智能体` `#End-to-End Encryption` `#iOS Desktop Collaboration` 
 > Remodex is a local-first open-source bridge with an iOS app that enables remote control of OpenAI Codex from your iPhone. It features end-to-end encrypted pairing, real-time streaming, Git actions, subagents, planning mode, and secure access controls—all running on-device without relying on public endpoints.
@@ -4164,7 +4185,7 @@
 ## jackwener/OpenCLI
 
 > [!info]
-> ⭐ 31,200 · JavaScript · 2026-11-20T23:24:37Z  
+> ⭐ 31,215 · JavaScript · 2026-11-21T22:40:14Z  
 > [GitHub](https://github.com/jackwener/OpenCLI) · [Website](https://opencli.info/)  
 > `#AI 智能体` `#Browser Automation` `#CLI Tool` `#网页爬虫` `#ai-agent` `#ai-agents` `#ai-tools` `#browser-automation` `#browser-use` `#cli` `#playwright` 
 > OpenCLI is a universal CLI hub and AI-native runtime that transforms websites, Electron apps, and local tools into deterministic command-line interfaces. It features browser automation, 70+ built-in site adapters (e.g., Bilibili, Zhihu), anti-detection measures, and seamless AI agent integration with zero LLM token consumption.
@@ -4174,7 +4195,7 @@
 ## garrytan/gstack
 
 > [!info]
-> ⭐ 142,221 · TypeScript · 2026-11-20T23:18:03Z  
+> ⭐ 142,279 · TypeScript · 2026-11-21T22:40:14Z  
 > [GitHub](https://github.com/garrytan/gstack)  
 > `#AI 智能体` `#Development Automation` `#提示工程` 
 > gstack is Garry Tan's AI-powered engineering framework built on Claude Code, featuring 10 role-based tools (CEO, Eng Manager, QA Lead, etc.) that automate product planning, code review, testing, and deployment via slash commands, enabling solo developers to achieve team-scale output.
@@ -4193,7 +4214,7 @@
 ## YishenTu/claudian
 
 > [!info]
-> ⭐ 16,040 · TypeScript · 2026-11-20T23:32:45Z  
+> ⭐ 16,046 · TypeScript · 2026-11-21T20:06:31Z  
 > [GitHub](https://github.com/YishenTu/claudian)  
 > `#AI 智能体` `#Automation Tool` `#Obsidian Plugin` `#claude-code` `#codex` `#deepseek-harness` `#grok` `#ide` `#obsidian` `#obsidian-plugin` `#opencode` `#pi` `#productivity` 
 > Claudian is an Obsidian plugin that embeds Claude Code as an AI collaborator, enabling full agentic capabilities within your vault: file read/write, search, bash commands, and multi-step workflows. It supports context-awareness, vision via drag-and-drop, inline editing, custom instructions, slash commands, MCP integration, and advanced model control for enhanced knowledge management and automation.
@@ -4223,7 +4244,7 @@
 ## ComposioHQ/awesome-claude-skills
 
 > [!info]
-> ⭐ 79,952 · Python · 2026-11-20T23:38:52Z  
+> ⭐ 80,010 · Python · 2026-11-21T23:11:39Z  
 > [GitHub](https://github.com/ComposioHQ/awesome-claude-skills)  
 > `#AI 智能体` `#Workflow Automation` `#提示工程` `#agent-skills` `#ai-agents` `#antigravity` `#automation` `#claude` `#claude-code` `#codex` `#composio` `#cursor` `#developer-tools` `#gemini-cli` `#mcp` `#openai-codex` `#rube` `#saas` `#skill` `#workflow-automation` 
 > Awesome Claude Skills is a curated collection of practical workflows for enhancing Claude AI across platforms. It covers document processing, development tools, data analysis, business automation, and more. With the Composio plugin, Claude can connect to 500+ apps to perform real-world actions like sending emails or creating issues, extending beyond text generation.
@@ -4233,7 +4254,7 @@
 ## obra/superpowers
 
 > [!info]
-> ⭐ 322,819 · Shell · 2026-11-20T23:55:49Z  
+> ⭐ 323,694 · Shell · 2026-11-21T23:12:33Z  
 > [GitHub](https://github.com/obra/superpowers)  
 > `#AI 智能体` `#Automation Tool` `#Software Development Methodology` `#提示工程` `#ai` `#brainstorming` `#coding` `#obra` `#sdlc` `#skills` `#subagent-driven-development` `#superpowers` 
 > Superpowers is an agentic software development framework built on composable 'skills' that guide coding agents through a complete workflow—from idea refinement and design validation to TDD-driven implementation via subagent-driven development. It automates planning, branching, testing, and execution across platforms like Claude Code, Cursor, and Codex, enforcing best practices like YAGNI, DRY, and red/green testing.
@@ -4253,7 +4274,7 @@
 ## jackwener/boss-cli
 
 > [!info]
-> ⭐ 1,063 · Python · 2026-11-20T20:42:46Z  
+> ⭐ 1,064 · Python · 2026-11-21T12:08:51Z  
 > [GitHub](https://github.com/jackwener/boss-cli)  
 > `#API Reverse Engineering` `#CLI Tool` `#Job Automation` `#网页爬虫` 
 > boss-cli is a CLI tool for BOSS Zhipin that enables job searching, recommendations, application management, and recruiter chat via reverse-engineered APIs. It supports browser cookie extraction, advanced filtering, structured output, and cross-platform usage for automated job hunting.
@@ -4283,7 +4304,7 @@
 ## remorses/playwriter
 
 > [!info]
-> ⭐ 4,112 · TypeScript · 2026-11-20T21:49:44Z  
+> ⭐ 4,118 · TypeScript · 2026-11-21T18:50:09Z  
 > [GitHub](https://github.com/remorses/playwriter) · [Website](https://playwriter.dev)  
 > `#AI 智能体` `#Browser Automation` `#MCP Integration` `#mcp` `#playwright` 
 > Playwriter is a Chrome extension enabling AI agents to control your browser via CLI or MCP. It connects directly to your running Chrome instance, preserving logins, extensions, and cookies—avoiding the security risks and detection issues of spawning new browsers. Key features include full Playwright API access, isolated sessions, network interception, page debugging, and live code editing for automation, testing, and agent-driven workflows.
@@ -4313,7 +4334,7 @@
 ## zubair-trabzada/geo-seo-claude
 
 > [!info]
-> ⭐ 11,792 · Python · 2026-11-20T21:31:08Z  
+> ⭐ 11,806 · Python · 2026-11-21T19:48:11Z  
 > [GitHub](https://github.com/zubair-trabzada/geo-seo-claude) · [Website](https://www.skool.com/aiworkshop)  
 > `#AI 智能体` `#Automation Tool` `#SEO Optimization` `#Web Crawling` 
 > A GEO-first SEO skill for Claude Code that delivers comprehensive AI search optimization, including citability scoring, AI crawler analysis, brand authority assessment, schema markup generation, and platform-specific tuning, with professional PDF reporting capabilities to capture high-converting AI-driven traffic.
@@ -4323,7 +4344,7 @@
 ## op7418/CodePilot
 
 > [!info]
-> ⭐ 6,522 · TypeScript · 2026-11-20T17:25:46Z  
+> ⭐ 6,520 · TypeScript · 2026-11-21T18:35:30Z  
 > [GitHub](https://github.com/op7418/CodePilot) · [Website](https://www.codepilot.sh/)  
 > `#AI 智能体` `#Desktop Application` `#Electron` `#ai` `#anthropic` `#claude` `#claude-code` `#desktop-app` `#electron` `#gui` `#nextjs` 
 > CodePilot is a desktop GUI client for Claude Code built with Electron and Next.js, offering multi-provider support, MCP extensions, custom skills, cross-platform bridging, and an AI assistant workspace that understands your projects through persistent memory and onboarding flows.
@@ -4343,7 +4364,7 @@
 ## sjjian/openhare
 
 > [!info]
-> ⭐ 822 · Dart · 2026-11-14T11:27:39Z  
+> ⭐ 823 · Dart · 2026-11-21T05:13:04Z  
 > [GitHub](https://github.com/sjjian/openhare) · [Website](https://sjjian.github.io/openhare/)  
 > `#AI 智能体` `#Desktop Application` `#Flutter` `#ai` `#desktop` `#mssql` `#mysql` `#nl2sql` `#oracle` `#pg` `#query` `#sql` `#sql-client` `#sql-server` `#sqlagent` `#sqlite` 
 > Openhare is an AI-powered, cross-platform desktop SQL client built with Flutter, supporting multiple databases including MySQL, PostgreSQL, SQL Server, SQLite, and Oracle. Its standout feature is integrated AI assistance for generating, optimizing, and interpreting SQL queries, enhancing productivity for developers and DBAs.
@@ -4363,7 +4384,7 @@
 ## coreyhaines31/marketingskills
 
 > [!info]
-> ⭐ 61,724 · JavaScript · 2026-11-20T23:49:20Z  
+> ⭐ 61,874 · JavaScript · 2026-11-21T23:13:49Z  
 > [GitHub](https://github.com/coreyhaines31/marketingskills) · [Website](https://marketing-skills.com)  
 > `#AI Agents` `#Marketing Automation` `#提示工程` `#agent-skills` `#ai-agents` `#ai-seo` `#claude` `#claude-code` `#claude-code-plugin` `#claude-skills` `#codex` `#content-marketing` `#conversion-rate-optimization` `#copywriting` `#cursor` `#email-marketing` `#generative-engine-optimization` `#growth-marketing` `#marketing` `#marketing-automation` `#saas-marketing` `#seo` `#skill-md` 
 > A collection of AI agent skills for marketing tasks including CRO, copywriting, SEO, analytics, and growth engineering. Built on the Agent Skills spec for use with Claude Code, OpenAI Codex, and other agents. Provides standardized workflows for technical marketers and founders to automate conversion optimization, content creation, and growth strategies.
@@ -4383,7 +4404,7 @@
 ## Rito-w/skills-manager
 
 > [!info]
-> ⭐ 199 · Vue · 2026-11-15T20:33:39Z  
+> ⭐ 198 · Vue · 2026-11-21T08:59:47Z  
 > [GitHub](https://github.com/Rito-w/skills-manager) · [Website](https://rito-w.github.io/skills-manager/)  
 > `#AI 智能体` `#Skills Management` `#Symbolic Links` `#antigravity` `#claude` `#codex` `#kiro` `#market` `#openclaw` `#openclaw-skills` `#qoder` `#skills` `#trae` `#vscode` 
 > Skills Manager is a cross-platform AI IDE skills management tool that aggregates search across major marketplaces (Claude Plugins, SkillsLLM, etc.), downloads skills to a unified local repository, and enables one-click installation into 10+ supported AI IDEs via secure symlinks. It features version control, bulk deployment, and custom IDE support for enhanced AI programming assistant capabilities.
@@ -4393,7 +4414,7 @@
 ## xingkongliang/skills-manager
 
 > [!info]
-> ⭐ 7,660 · Rust · 2026-11-20T20:23:42Z  
+> ⭐ 7,677 · Rust · 2026-11-21T22:28:14Z  
 > [GitHub](https://github.com/xingkongliang/skills-manager) · [Website](https://skillsmanager.dev)  
 > `#AI 智能体` `#Cross-Platform Desktop App` `#Skill Management` 
 > Skills Manager is a lightweight desktop app that centralizes the management, sync, and organization of AI agent skills across 15+ coding tools like Cursor, Claude Code, and GitHub Copilot. It supports importing skills from Git repos, local folders, or the marketplace into a unified repository, enables one-click sync via symlinks/copies, and offers scenario grouping, update tracking, and in-app skill documentation preview.
@@ -4403,9 +4424,9 @@
 ## hehehai/VoxtMini
 
 > [!info]
-> ⭐ 915 · Go · 2026-11-20T10:57:50Z  
-> [GitHub](https://github.com/hehehai/VoxtMini) · [Website](https://actnow.dev)  
-> `#Local LLM` `#Productivity Tool` `#Voice Input` `#apple-silicon` `#asr` `#dictation` `#go` `#local-llm` `#macos` `#mlx` `#privacy` `#qwen3-asr` `#speech-to-text` `#translation` `#voice-input` 
+> ⭐ 916 · Go · 2026-11-21T11:09:37Z  
+> [GitHub](https://github.com/hehehai/VoxtMini) · [Website](https://actnow.dev/voxtmini)  
+> `#Local LLM` `#Productivity Tool` `#Voice Input` `#apple-silicon` `#asr` `#dictation` `#go` `#local-llm` `#macos` `#mlx` `#privacy` `#qwen3-asr` `#speech-to-text` `#translation` `#voice-input` `#voice-typing` `#whisper` 
 > VoxtMini is a macOS voice input tool powered by local AI models, enabling real-time transcription, translation, and text rewriting via keyboard shortcuts in any application. Built in Go using Apple's MLX framework, it defaults to Qwen3-ASR and Whisper for fully offline processing, ensuring complete data privacy while also supporting optional remote API integrations for enhanced language capabilities.
 > <sub>Voice input for macOS on local models: transcribe, translate and rewrite in any app. The successor of Voxt.</sub>
 
@@ -4413,7 +4434,7 @@
 ## alibaba/page-agent
 
 > [!info]
-> ⭐ 29,726 · TypeScript · 2026-11-20T19:21:09Z  
+> ⭐ 29,733 · TypeScript · 2026-11-21T17:38:06Z  
 > [GitHub](https://github.com/alibaba/page-agent) · [Website](https://alibaba.github.io/page-agent/)  
 > `#AI 智能体` `#Natural Language Control` `#Web Automation` `#agent` `#ai` `#ai-agents` `#browser-automation` `#javascript` `#mcp` `#typescript` `#web` 
 > Page Agent is a JavaScript-based in-page GUI agent that controls web interfaces via natural language. It runs directly in the browser without requiring extensions, Python, or headless browsers. Features text-driven DOM manipulation, customizable LLMs, human-in-the-loop UI, and optional Chrome extension for multi-tab workflows. Ideal for SaaS AI copilots, form automation, and accessibility tools.
@@ -4423,7 +4444,7 @@
 ## joeseesun/qiaomu-mondo-poster-design
 
 > [!info]
-> ⭐ 1,400 · Python · 2026-11-20T14:20:58Z  
+> ⭐ 1,403 · Python · 2026-11-21T16:30:21Z  
 > [GitHub](https://github.com/joeseesun/qiaomu-mondo-poster-design)  
 > `#AI 智能体` `#Design Generation` `#Social Media Design` `#提示工程` 
 > Qiaomu Mondo Poster Design is an AI-powered tool that generates professional posters, book covers, and album art from a single sentence. It leverages styles from 20 legendary designers, supports multiple social media formats (WeChat, Xiaohongshu), and includes AI prompt optimization and style comparison features, enabling anyone to create master-level designs without design skills.
@@ -4433,7 +4454,7 @@
 ## clockworklabs/SpacetimeDB
 
 > [!info]
-> ⭐ 25,570 · Rust · 2026-11-20T23:27:11Z  
+> ⭐ 25,570 · Rust · 2026-11-21T17:30:37Z  
 > [GitHub](https://github.com/clockworklabs/SpacetimeDB) · [Website](https://spacetimedb.com)  
 > `#Distributed Database` `#Real-Time Sync` `#Rust` `#database` `#dataoriented` `#game-development` `#mmorpg-server` `#relational` `#relational-database` `#web-development` `#web-framework` 
 > SpacetimeDB is a distributed database system built in Rust, designed for real-time applications with edge computing and blockchain integration. It enables millisecond-scale data synchronization via a decentralized architecture, ideal for gaming, IoT, and decentralized apps, offering high availability and strong consistency.
@@ -4443,7 +4464,7 @@
 ## Sitoi/ClashBar
 
 > [!info]
-> ⭐ 1,646 · Swift · 2026-11-20T13:51:03Z  
+> ⭐ 1,647 · Swift · 2026-11-21T21:04:37Z  
 > [GitHub](https://github.com/Sitoi/ClashBar) · [Website](https://clashbar.sitoi.workers.dev)  
 > `#Menu Bar App` `#Proxy Tool` `#SwiftUI` `#clash` `#clash-meta` `#clashbar` `#macos` `#mihomo` `#network` `#proxy` `#swiftui` 
 > ClashBar is a native macOS menu bar proxy client built with SwiftUI + AppKit, powered by mihomo Core. It emphasizes lightweight design (37.5MB), offering configuration management, node switching, traffic policy control, real-time connection monitoring, and system proxy integration. With bilingual support (zh/en), it enhances usability and stability for proxy tools on macOS.
@@ -4453,7 +4474,7 @@
 ## pbakaus/impeccable
 
 > [!info]
-> ⭐ 114,042 · Rust · 2026-11-20T23:55:51Z  
+> ⭐ 114,516 · Rust · 2026-11-21T23:17:15Z  
 > [GitHub](https://github.com/pbakaus/impeccable) · [Website](https://impeccable.style)  
 > `#AI 智能体` `#Frontend Design` `#提示工程` `#agent-skills` `#ai` `#anti-slop` `#design` `#slop` 
 > Impeccable is a prompt engineering framework that enhances AI-driven frontend design by building on Anthropic's frontend-design skill. It offers 17 precise steering commands and 7 domain-specific reference files covering typography, color, motion, and UX writing, plus curated anti-patterns to avoid generic designs. Integrated with AI coding tools like Cursor, it ensures professional, consistent UI output.
@@ -4463,7 +4484,7 @@
 ## 666ghj/MiroFish
 
 > [!info]
-> ⭐ 86,050 · Python · 2026-11-20T23:58:17Z  
+> ⭐ 86,165 · Python · 2026-11-21T23:14:55Z  
 > [GitHub](https://github.com/666ghj/MiroFish) · [Website](https://mirofish.ai)  
 > `#Multi-Agent System` `#Prediction Engine` `#Swarm Intelligence` `#agent-memory` `#financial-forecasting` `#future-prediction` `#knowledge-graph` `#llms` `#multi-agent-simulation` `#public-opinion-analysis` `#python3` `#social-prediction` `#swarm-intelligence` 
 > MiroFish is a swarm intelligence prediction engine powered by multi-agent technology. It builds high-fidelity digital simulations from seed data (e.g., news, novels) and uses autonomous agents to simulate societal evolution. Users input natural language queries to receive detailed forecasts and interact with the simulated world, enabling applications in舆情预测, creative writing, and strategic planning.
@@ -4502,7 +4523,7 @@
 ## slowmist/openclaw-security-practice-guide
 
 > [!info]
-> ⭐ 2,840 · Shell · 2026-11-18T14:00:09Z  
+> ⭐ 2,839 · Shell · 2026-11-21T04:46:20Z  
 > [GitHub](https://github.com/slowmist/openclaw-security-practice-guide)  
 > `#AI 智能体` `#Security Hardening` `#Zero-Trust Architecture` 
 > This guide is tailored for high-privilege autonomous AI agents like OpenClaw, shifting from traditional static defense to 'Agentic Zero-Trust Architecture'. It implements a battle-tested 3-Tier Defense Matrix—pre-action blacklists, in-action permission controls, and post-action nightly audits—to mitigate LLM-specific threats like prompt injection and supply chain poisoning. Designed for seamless integration with strong reasoning models to minimize manual security setup.
@@ -4512,7 +4533,7 @@
 ## runesleo/claude-code-workflow
 
 > [!info]
-> ⭐ 713 · Python · 2026-11-19T09:06:51Z  
+> ⭐ 711 · Python · 2026-11-21T11:31:50Z  
 > [GitHub](https://github.com/runesleo/claude-code-workflow) · [Website](https://leolabs.me)  
 > `#AI 智能体` `#Automation Workflow` `#Developer Tools` `#提示工程` `#agent-workflow` `#ai-agents` `#claude-code` `#codex` `#cursor` `#developer-tools` `#llm` `#shell` 
 > A battle-tested Claude Code workflow template featuring memory management, context engineering, and task routing from 3 months of daily usage. Implements a three-layer architecture: always-loaded rules, on-demand docs, and hot working memory. Enables persistent, self-improving development with multi-model routing, auto-save, verification gates, and cross-session task tracking for production-ready workflows.
@@ -4542,7 +4563,7 @@
 ## lmn1919/dompdf.js
 
 > [!info]
-> ⭐ 1,830 · TypeScript · 2026-11-20T08:35:31Z  
+> ⭐ 1,831 · TypeScript · 2026-11-21T10:21:59Z  
 > [GitHub](https://github.com/lmn1919/dompdf.js) · [Website](https://dompdfjs.lisky.com.cn)  
 > `#Frontend PDF Generation` `#HTML to PDF` `#Vector PDF` `#frontend` `#html-to-pdf` `#html2pdf` `#pdf` `#pdf-generation` `#vector-pdf` 
 > dompdf.js is a frontend library that converts HTML into multi-thousand-page vector PDFs with a single line of code. Built on html2canvas and jspdf, it generates editable, non-image PDFs directly in the browser, offering high quality, small file size, and no server-side rendering. Ideal for web content export and printing.
@@ -4562,7 +4583,7 @@
 ## openclaw/openclaw
 
 > [!info]
-> ⭐ 394,929 · TypeScript · 2026-11-20T23:46:15Z  
+> ⭐ 394,988 · TypeScript · 2026-11-21T23:07:04Z  
 > [GitHub](https://github.com/openclaw/openclaw) · [Website](https://openclaw.ai)  
 > `#AI 智能体` `#Cross-Platform` `#Messaging Integration` `#Personal Assistant` `#ai` `#assistant` `#crustacean` `#molty` `#openclaw` `#own-your-data` `#personal` 
 > OpenClaw is a personal AI assistant that runs on your own devices across any OS and platform. It integrates with messaging apps like WhatsApp, Telegram, and Slack, supports voice interaction, live canvas rendering, and prioritizes local deployment for privacy, speed, and always-on personal assistance.
@@ -4572,7 +4593,7 @@
 ## thedotmack/claude-mem
 
 > [!info]
-> ⭐ 118,635 · TypeScript · 2026-11-20T23:53:24Z  
+> ⭐ 118,837 · TypeScript · 2026-11-21T23:09:07Z  
 > [GitHub](https://github.com/thedotmack/claude-mem) · [Website](https://claude-mem.ai)  
 > `#AI 智能体` `#Developer Tools` `#Session Memory` `#提示工程` `#ai` `#ai-agents` `#ai-memory` `#anthropic` `#artificial-intelligence` `#chromadb` `#claude` `#claude-agent-sdk` `#claude-agents` `#claude-code` `#claude-code-plugin` `#claude-skills` `#embeddings` `#long-term-memory` `#mem0` `#memory-engine` `#openmemory` `#rag` `#sqlite` `#supermemory` 
 > Claude-Mem is a persistent memory compression system for Claude Code that automatically captures, compresses, and injects relevant context from coding sessions using AI, enhancing Claude's working memory and session continuity.
@@ -4582,7 +4603,7 @@
 ## steipete/CodexBar
 
 > [!info]
-> ⭐ 23,246 · Swift · 2026-11-20T23:54:03Z  
+> ⭐ 23,260 · Swift · 2026-11-21T21:35:51Z  
 > [GitHub](https://github.com/steipete/CodexBar) · [Website](https://codex.bar)  
 > `#AI 智能体` `#Menu Bar Tool` `#Token Monitoring` `#ai` `#claude-code` `#codex` `#swift` 
 > CodexBar is a tiny macOS 14+ menu bar app that displays token/credit usage (session + weekly) for OpenAI Codex, Claude Code, Cursor, Gemini, and other AI providers without requiring login. It supports per-provider toggles, merge icons mode, local cost scanning, and real-time reset countdowns via a compact two-bar meter icon.
@@ -4592,7 +4613,7 @@
 ## pmh1314520/WebRPA
 
 > [!info]
-> ⭐ 1,916 · Python · 2026-11-18T13:33:24Z  
+> ⭐ 1,918 · Python · 2026-11-21T08:30:31Z  
 > [GitHub](https://github.com/pmh1314520/WebRPA) · [Website](https://rpa.pmhs.top)  
 > `#Automation Tool` `#No-Code Development` `#Visual Workflow` `#网页爬虫` `#ddddocr` `#easyocr` `#express-js` `#face-recognition` `#fastapi` `#ffmpeg` `#node-js` `#opencv` `#pandoc` `#playwright` `#pyautogui` `#python3` `#react` `#socket-io` `#typescript` `#uvicorn` `#vite` 
 > Web RPA is a powerful visual automation tool enabling zero-code workflow creation via drag-and-drop. It supports web scraping, form filling, and testing with 273 built-in modules across browser automation, data processing, database operations, media handling, PDF conversion, and document transformation. Built on FastAPI + React, it offers smart search, Mermaid flowcharts, variable autocompletion, and full non-commercial free usage.
@@ -4602,7 +4623,7 @@
 ## waooAI/waoowaoo
 
 > [!info]
-> ⭐ 14,955 · TypeScript · 2026-11-20T18:15:40Z  
+> ⭐ 14,962 · TypeScript · 2026-11-21T16:06:30Z  
 > [GitHub](https://github.com/waooAI/waoowaoo)  
 > `#AI Film Production` `#AI 智能体` `#Automated Video Generation` `#ai-agent` `#ai-agents` `#automation` `#film-production` `#generative-ai` `#short-drama` `#storyboard` `#video-generation` 
 > waoowaoo is the industry-first professional AI Agent platform for controllable film and video production. It automates script analysis, character & scene generation, storyboard creation, voice synthesis, and full video assembly from novel text, powered by Next.js and Docker with Hollywood-standard workflows.
@@ -4612,7 +4633,7 @@
 ## LifeArchiveProject/WeChatDataAnalysis
 
 > [!info]
-> ⭐ 4,336 · Python · 2026-11-20T17:07:13Z  
+> ⭐ 4,350 · Python · 2026-11-21T16:49:50Z  
 > [GitHub](https://github.com/LifeArchiveProject/WeChatDataAnalysis) · [Website](wuuud.com)  
 > `#Annual Summary` `#Data Decryption` `#WeChat Analysis` 
 > WeChat 4.x data decryption and analysis tool with chat history, Moments decryption, annual summary generation, real-time updates, search, export, and contact management features, featuring a WeChat-like interface.
@@ -4622,7 +4643,7 @@
 ## op7418/Document-illustrator-skill
 
 > [!info]
-> ⭐ 614 · Python · 2026-11-17T14:20:19Z  
+> ⭐ 615 · Python · 2026-11-21T16:11:06Z  
 > [GitHub](https://github.com/op7418/Document-illustrator-skill)  
 > `#AI 智能体` `#Document Processing` `#Illustration Generation` 
 > Document Illustrator is an AI-powered tool that intelligently analyzes document content to generate professional illustrations. It supports three visual styles (gradient glass, ticket, vector illustration) and two aspect ratios (16:9/3:4), capable of creating cover images and thematic illustrations for social media platforms like Xiaohongshu and Twitter.
@@ -4632,7 +4653,7 @@
 ## HKUDS/nanobot
 
 > [!info]
-> ⭐ 50,236 · Python · 2026-11-20T23:33:14Z  
+> ⭐ 50,252 · Python · 2026-11-21T22:50:35Z  
 > [GitHub](https://github.com/HKUDS/nanobot) · [Website](https://nanobot.wiki)  
 > `#AI 智能体` `#Lightweight Architecture` `#Personal Assistant` `#agent-framework` `#ai-agent` `#ai-agents` `#chatbot` `#chatops` `#discord-bot` `#llm-agents` `#llms` `#local-llm` `#mcp` `#model-context-protocol` `#multi-agent` `#openai-compatible` `#openclaw` `#personal-ai-assistant` `#python` `#self-hosted` `#telegram-bot-ai-assistant` `#webui` `#workflow-automation` 
 > nanobot is an ultra-lightweight personal AI assistant inspired by OpenClaw, delivering core agent functionality in just ~4,000 lines of code—99% smaller than Clawdbot. It supports multi-platform messaging (Slack, Discord, Feishu, etc.), MCP protocol, multimodal file handling, and robust session management, offering high reliability and modular extensibility for personal automation and intelligent interaction.
@@ -4642,7 +4663,7 @@
 ## NevaMind-AI/memU
 
 > [!info]
-> ⭐ 14,631 · Python · 2026-11-20T22:15:34Z  
+> ⭐ 14,633 · Python · 2026-11-21T22:43:17Z  
 > [GitHub](https://github.com/NevaMind-AI/memU) · [Website](https://memu.pro)  
 > `#24/7 Proactive Agent` `#AI 智能体` `#Memory Framework` `#agent-memory` `#claude-skills` `#harness` `#loop-engineering` `#mcp` `#memory` `#openclaw` `#openclaw-skills` `#sandbox` `#skills` 
 > memU is a memory framework for 24/7 proactive AI agents, modeling memory as a file system with hierarchical categories, cross-references, and persistent storage. It reduces LLM token costs by caching insights and enables continuous understanding of user intent, making always-on agents practical for production systems like openclaw and moltbot.
@@ -4652,7 +4673,7 @@
 ## linshenkx/prompt-optimizer
 
 > [!info]
-> ⭐ 42,049 · TypeScript · 2026-11-20T23:40:27Z  
+> ⭐ 42,137 · TypeScript · 2026-11-21T22:59:51Z  
 > [GitHub](https://github.com/linshenkx/prompt-optimizer) · [Website](https://prompt.always200.com)  
 > `#AI 智能体` `#Automation Tool` `#提示工程` `#ai-prompts` `#ai-tools` `#llm` `#prompt` `#prompt-engineering` `#prompt-optimization` `#prompt-optimizer` `#prompt-testing` `#prompt-toolkit` `#prompt-tuning` 
 > Prompt Optimizer is an AI prompt optimization tool designed to enhance prompt quality through intelligent refinement, multi-round iteration, and dual-mode optimization. It supports real-time comparison, integration with major AI models (OpenAI, Gemini, DeepSeek), advanced features like text-to-image generation, MCP protocol compatibility, and secure client-side processing for reliable and efficient prompt engineering.
@@ -4672,7 +4693,7 @@
 ## farion1231/cc-switch
 
 > [!info]
-> ⭐ 156,027 · Rust · 2026-11-20T21:48:29Z  
+> ⭐ 156,197 · Rust · 2026-11-21T22:09:40Z  
 > [GitHub](https://github.com/farion1231/cc-switch) · [Website](https://ccswitch.io)  
 > `#AI 智能体` `#Multi-Model Integration` `#桌面应用` `#ai-tools` `#claude-code` `#codex` `#deepseek-harness` `#desktop-app` `#grok` `#grokbuild` `#hermes` `#kimi-code` `#mcp` `#open-source` `#opencode` `#pi` `#provider-management` `#rust` `#skills` `#skills-management` `#tauri` `#wsl-support` 
 > A cross-platform desktop all-in-one assistant tool for managing Claude Code, Codex, and Gemini CLI, enabling unified configuration and integration of multiple AI coding assistants for streamlined development workflows.
@@ -4682,7 +4703,7 @@
 ## affaan-m/ECC
 
 > [!info]
-> ⭐ 307,846 · JavaScript · 2026-11-20T23:58:09Z  
+> ⭐ 308,353 · JavaScript · 2026-11-21T23:17:27Z  
 > [GitHub](https://github.com/affaan-m/ECC) · [Website](https://ecc.tools)  
 > `#AI Model` `#AI 智能体` `#Automation Tool` `#Cross-Platform` `#ai-agents` `#anthropic` `#claude` `#claude-code` `#developer-tools` `#llm` `#mcp` `#productivity` 
 > ECC is a high-performance operator system for AI agents, built for Claude Code, Cursor, Codex, and more. It offers skills, instincts, memory optimization, security scanning, and research-first development, with a cross-harness architecture validated through 10+ months of real-world production use.
@@ -4692,7 +4713,7 @@
 ## HisMax/RedInk
 
 > [!info]
-> ⭐ 5,731 · Python · 2026-11-20T20:11:17Z  
+> ⭐ 5,734 · Python · 2026-11-21T21:53:24Z  
 > [GitHub](https://github.com/HisMax/RedInk) · [Website](https://redink.top)  
 > `#AI 智能体` `#Automation Tool` `#Xiaohongshu Content` `#提示工程` `#ai` `#aigc` `#content-generator` `#docker` `#flask` `#gemini` `#nano-banana-pro` `#python` `#social-media` `#text-to-image` `#vue` `#xiaohongshu` 
 > RedInk is a one-stop Xiaohongshu image-and-text generator powered by 🍌Nano Banana Pro🍌, enabling instant creation of complete posts from a single sentence. It features AI-driven outline generation, cover page design, and batch content creation. Built with Python Flask backend and Vue 3 frontend, it supports Docker deployment and integrates Gemini 3 for text and image generation with a user-friendly web interface.
@@ -4702,7 +4723,7 @@
 ## lukilabs/beautiful-mermaid
 
 > [!info]
-> ⭐ 11,288 · TypeScript · 2026-11-20T17:56:36Z  
+> ⭐ 11,289 · TypeScript · 2026-11-21T22:39:12Z  
 > [GitHub](https://github.com/lukilabs/beautiful-mermaid)  
 > `#AI 智能体` `#Diagram Rendering` `#Terminal Tool` 
 > beautiful-mermaid is a high-performance Mermaid diagram renderer supporting dual SVG/ASCII output, 15 built-in themes, zero DOM dependencies, and synchronous rendering. Optimized for AI-assisted programming with seamless terminal and UI integration.
@@ -4711,7 +4732,7 @@
 ## bmad-code-org/BMAD-METHOD
 
 > [!info]
-> ⭐ 55,581 · Python · 2026-11-20T23:55:44Z  
+> ⭐ 55,605 · Python · 2026-11-21T21:39:48Z  
 > [GitHub](https://github.com/bmad-code-org/BMAD-METHOD)  
 > `#AI Agents` `#AI Large Models` `#Agile Development` `#Development Framework` `#agile` `#ai` `#context-engineering` `#sdlc` `#spec-driven-development` 
 > BMad Method is an AI-driven agile development framework offering structured workflows and 12+ domain expert agents (e.g., PM, Architect, Developer), with scale-adaptive intelligence for projects from bug fixes to enterprise systems. Key features include AI-guided help, multi-agent collaboration (Party Mode), full lifecycle support, and official modules like BMad Builder and Test Architect for specialized domains.
@@ -4721,7 +4742,7 @@
 ## lbjlaq/Antigravity-Manager
 
 > [!info]
-> ⭐ 33,482 · Rust · 2026-11-20T23:37:48Z  
+> ⭐ 33,557 · Rust · 2026-11-21T22:17:47Z  
 > [GitHub](https://github.com/lbjlaq/Antigravity-Manager) · [Website](https://lbjlaq.github.io/Antigravity-Manager/)  
 > `#AI 智能体` `#Account Management` `#Protocol Proxy` `#account-manager` `#antigravity` 
 > Antigravity-Manager is a professional AI account management and protocol proxy system built with Tauri v2 + Rust + React. It enables seamless multi-account switching, OAuth 2.0 authorization, intelligent quota monitoring, protocol conversion (OpenAI/Anthropic/Gemini), model routing, and silent background task fallback, serving as a high-performance local AI proxy gateway.
@@ -4761,7 +4782,7 @@
 ## antvis/Infographic
 
 > [!info]
-> ⭐ 7,120 · TypeScript · 2026-11-20T15:58:21Z  
+> ⭐ 7,131 · TypeScript · 2026-11-21T18:47:06Z  
 > [GitHub](https://github.com/antvis/Infographic) · [Website](https://infographic.antv.vision)  
 > `#AI 智能体` `#Declarative Engine` `#SVG Rendering` `#数据可视化` `#ai` `#antv` `#infographic` `#llm` `#visualization` 
 > AntV Infographic is AntV's next-generation declarative infographic visualization engine, offering ~200 built-in templates and components. It supports AI-friendly syntax for rapid generation of high-quality SVG infographics, featuring a theme system, built-in editor, and data storytelling capabilities for visualization and content creation.
@@ -4791,7 +4812,7 @@
 ## DayuanJiang/next-ai-draw-io
 
 > [!info]
-> ⭐ 37,093 · TypeScript · 2026-11-20T21:23:57Z  
+> ⭐ 37,105 · TypeScript · 2026-11-21T22:40:28Z  
 > [GitHub](https://github.com/DayuanJiang/next-ai-draw-io) · [Website](https://next-ai-drawio.jiang.jp/)  
 > `#AI Large Model` `#AI 智能体` `#Web Application` `#数据可视化` `#ai` `#architecture-diagram` `#claude-code` `#deepseek-harness` `#diagram-generator` `#diagrams` `#draw-io` `#drawio` `#dsh-plugin` `#electron` `#flowchart` `#gemini-cli-extension` `#llm` `#mcp` `#mcp-server` `#nextjs` 
 > Next AI Draw.io is a Next.js-based web app that integrates AI capabilities with draw.io diagrams, enabling users to create, modify, and enhance diagrams via natural language commands and AI-assisted visualization, featuring multi-cloud icon support and real-time diagram generation.
@@ -4811,7 +4832,7 @@
 ## lingfengQAQ/webnovel-writer
 
 > [!info]
-> ⭐ 8,035 · Python · 2026-11-20T23:29:14Z  
+> ⭐ 8,045 · Python · 2026-11-21T14:39:44Z  
 > [GitHub](https://github.com/lingfengQAQ/webnovel-writer) · [Website](https://lingfengqaq.github.io/webnovel-writer/)  
 > `#AI 智能体` `#Long-form Writing` `#Narrative Consistency` `#Reader Engagement` `#ai-writing` `#chinese-novel` `#deepseek-harness` `#dsh-plugin` `#webnovel` `#writing-assistant` 
 > A long-form webnovel writing assistant built on Claude Code, utilizing dual-agent architecture and six-dimensional review mechanisms to address AI writing issues like forgetting and hallucination, supporting serialized creation up to 2 million words with RAG retrieval, creative constraint systems, and reader engagement mechanics.
@@ -4821,7 +4842,7 @@
 ## Tosencen/XMSLEEP
 
 > [!info]
-> ⭐ 1,429 · Kotlin · 2026-11-20T17:12:30Z  
+> ⭐ 1,430 · Kotlin · 2026-11-21T15:30:52Z  
 > [GitHub](https://github.com/Tosencen/XMSLEEP) · [Website](https://tosencen.github.io/XMSLEEP/)  
 > `#Kotlin` `#White Noise Player` `#移动端应用` `#cozy` `#healing` `#white-noise` 
 > XMSLEEP is an Android app focused on white noise playback, offering natural sounds like rain, fire, thunder, and bird chirps. It supports volume control, countdown timer, preset playlists, favorites, and seamless looping. Built with Jetpack Compose and Material Design 3, it features dark mode, dynamic theming, Coil image loading, and Bluetooth headset support for immersive relaxation, focus, and sleep aid.
@@ -4831,7 +4852,7 @@
 ## cjpais/Handy
 
 > [!info]
-> ⭐ 39,438 · Rust · 2026-11-20T23:18:10Z  
+> ⭐ 39,543 · Rust · 2026-11-21T23:03:01Z  
 > [GitHub](https://github.com/cjpais/Handy) · [Website](https://handy.computer)  
 > `#Offline AI` `#Privacy Tool` `#Speech Recognition` `#桌面应用` `#accessibility` `#cross-platform` `#speech-to-text` `#tauri-v2` 
 > Handy is a free, open-source, offline speech-to-text desktop app powered by Whisper and Parakeet models. It offers local transcription with VAD, global hotkeys, and cross-platform support, prioritizing privacy and extensibility.
@@ -4841,7 +4862,7 @@
 ## nextlevelbuilder/ui-ux-pro-max-skill
 
 > [!info]
-> ⭐ 152,153 · Python · 2026-11-20T23:53:39Z  
+> ⭐ 152,498 · Python · 2026-11-21T23:16:00Z  
 > [GitHub](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · [Website](https://www.uupm.cc/)  
 > `#AI 智能体` `#Cross-Platform UI/UX` `#Design System` `#ai-skills` `#antigravity` `#claude` `#claude-code` `#codex` `#command-line` `#copilot` `#cursor-ai` `#html5` `#kiro` `#landing-page` `#mobile-ui` `#qoder` `#react` `#tailwindcss` `#trae` `#ui-design` `#uikit` `#windsurf-ai` 
 > UI UX Pro Max is an AI skill delivering intelligent design solutions for professional UI/UX across multiple platforms. Its flagship Design System Generator uses AI reasoning to instantly analyze project requirements and generate tailored, framework-agnostic design systems, supporting 67 UI styles and 100 reasoning rules for efficient cross-platform design.
@@ -4851,7 +4872,7 @@
 ## BloopAI/vibe-kanban
 
 > [!info]
-> ⭐ 28,757 · Rust · 2026-11-20T23:03:57Z  
+> ⭐ 28,775 · Rust · 2026-11-21T22:43:14Z  
 > [GitHub](https://github.com/BloopAI/vibe-kanban) · [Website](https://www.vibekanban.com/)  
 > `#AI Agents` `#Developer Productivity` `#Task Orchestration` `#agent` `#ai-agents` `#kanban` `#management` `#task-manager` 
 > Vibe Kanban is a task orchestration and management tool designed for AI coding agents like Claude Code and Codex. It enables parallel/sequential agent execution, real-time task tracking, remote SSH project access, and centralized MCP configuration, boosting developer productivity by 10x.
@@ -4891,7 +4912,7 @@
 ## fishjar/kiss-translator
 
 > [!info]
-> ⭐ 13,453 · JavaScript · 2026-11-20T20:48:17Z  
+> ⭐ 13,474 · JavaScript · 2026-11-21T19:29:23Z  
 > [GitHub](https://github.com/fishjar/kiss-translator) · [Website](https://kiss-translator.rayjar.com/)  
 > `#AI Large Model` `#Text Selection Translation` `#Web Translation` `#浏览器插件` `#extension` `#translate` `#translation` `#translator` `#userscript` `#userscripts` 
 > KISS Translator is a minimalist, open-source bilingual translation tool available as both a browser extension and a Tampermonkey script. It supports 10+ translation services including Google, OpenAI, and DeepL, covering web page translation, text selection, input field translation, and YouTube subtitle translation. Features include custom rules, term dictionaries, cross-device sync via KISS-Worker, and AI context memory for enhanced translation quality.
@@ -4921,7 +4942,7 @@
 ## RanFeng/clipsketch-ai
 
 > [!info]
-> ⭐ 1,882 · TypeScript · 2026-11-20T07:44:14Z  
+> ⭐ 1,884 · TypeScript · 2026-11-21T17:21:28Z  
 > [GitHub](https://github.com/RanFeng/clipsketch-ai) · [Website](https://clipsketch-ai.vercel.app)  
 > `#AI 智能体` `#Content Creation` `#Multimodal LLM` `#Video Processing` 
 > ClipSketch AI is an AI-powered content creation tool for video creators, enabling frame-level tagging of Bilibili and Xiaohongshu videos, transforming key moments into hand-drawn storyboards via Google Gemini's multimodal models, and auto-generating social media captions, character fusion, cover images, and batch-enhanced visuals.
@@ -4931,7 +4952,7 @@
 ## oraios/serena
 
 > [!info]
-> ⭐ 31,556 · Python · 2026-11-20T20:51:11Z  
+> ⭐ 31,584 · Python · 2026-11-21T23:06:40Z  
 > [GitHub](https://github.com/oraios/serena) · [Website](https://oraios.github.io/serena)  
 > `#AI 智能体` `#Code Editing` `#MCP Server` `#agent` `#ai` `#ai-coding` `#claude` `#claude-code` `#codex` `#ide` `#jetbrains` `#language-server` `#mcp-server` `#programming` `#vibe-coding` 
 > Serena is a powerful coding agent toolkit that transforms an LLM into a fully-featured agent capable of directly operating on your codebase. It provides IDE-like semantic code retrieval and editing tools at the symbol level, greatly improving token efficiency and code quality. Serena integrates with LLMs via MCP, OpenAPI, or custom agent frameworks, enabling precise code navigation and modification without full-file reads or string replacements.
@@ -4951,7 +4972,7 @@
 ## wordflowlab/novel-writer
 
 > [!info]
-> ⭐ 959 · Shell · 2026-11-17T03:44:06Z  
+> ⭐ 960 · Shell · 2026-11-21T01:49:22Z  
 > [GitHub](https://github.com/wordflowlab/novel-writer)  
 > `#AI 智能体` `#Novel Writing` `#Slash Commands` `#Specification-Driven Development` `#engineering` `#novels` `#sdd` `#spec` `#spec-driven` 
 > Novel Writer is an AI-driven Chinese novel writing tool based on Specification-Driven Development (SDD), enabling systematic creation through slash commands in 13 AI assistants like Claude, Cursor, and Gemini. It offers a 7-step methodology, plot tracking, character consistency checks, and Chinese-optimized features, with cross-platform support and extensible plugin architecture.
@@ -4961,7 +4982,7 @@
 ## siddharthvaddem/openscreen
 
 > [!info]
-> ⭐ 40,029 · TypeScript · 2026-11-20T19:00:11Z  
+> ⭐ 40,031 · TypeScript · 2026-11-21T21:16:33Z  
 > [GitHub](https://github.com/siddharthvaddem/openscreen)  
 > `#Screen Recording` `#Video Editing` `#桌面应用` `#electron` `#open-source` `#pixijs` `#screen-capture` `#screen-recorder` 
 > OpenScreen is a free, open-source screen recording tool offering watermark-free, subscription-free recordings with customizable zooms, backgrounds, annotations, and export options. Ideal for product demos and tutorials, it serves as a lightweight alternative to Screen Studio.
@@ -4971,7 +4992,7 @@
 ## 666OS/ClashMac
 
 > [!info]
-> ⭐ 6,339 · N/A · 2026-11-20T01:35:51Z  
+> ⭐ 6,338 · N/A · 2026-11-21T13:25:30Z  
 > [GitHub](https://github.com/666OS/ClashMac) · [Website](https://clashmac.app)  
 > `#Network Visualization` `#Proxy Tool` `#SwiftUI` `#clash` `#clash-meta` `#macos` `#mihomo` `#network` `#proxy` `#swiftui` 
 > ClashMac is a native macOS proxy client built with SwiftUI, offering route map visualization, connection topology, and real-time traffic statistics. It supports system proxy and TUN modes, features menu bar integration, privacy mode, instant node switching, and auto-reconnection for an intuitive proxy management experience.
@@ -5001,7 +5022,7 @@
 ## millylee/anyrouter-check-in
 
 > [!info]
-> ⭐ 1,445 · Python · 2026-11-20T20:47:36Z  
+> ⭐ 1,446 · Python · 2026-11-21T19:29:59Z  
 > [GitHub](https://github.com/millylee/anyrouter-check-in) · [Website](https://anyrouter.top/register?aff=gSsN)  
 > `#Automation Tool` `#Check-In System` `#Multi-Account Management` `#网页爬虫` `#agentrouter` `#anyrouter` `#check-in` `#claude-code` `#claudecode` `#codex` `#newapi` `#oneapi` 
 > A multi-account auto check-in tool for AnyRouter and AgentRouter platforms, compatible with NewAPI/OneAPI architectures. Uses GitHub Actions for scheduled automation, supports parallel account processing, WAF bypass, and notification alerts with flexible configuration.
@@ -5011,7 +5032,7 @@
 ## tw93/Mole
 
 > [!info]
-> ⭐ 75,720 · Shell · 2026-11-20T23:26:37Z  
+> ⭐ 75,789 · Shell · 2026-11-21T22:43:00Z  
 > [GitHub](https://github.com/tw93/Mole) · [Website](https://mole.fit)  
 > `#Disk Cleanup` `#System Optimization` `#macOS Utility` `#analyzer` `#appcleaner` `#clean` `#cleaner` `#cleanmymac` `#command-line` `#daisydisk` `#deepseek-harness` `#dsh-plugin` `#dsh-skill` `#gemini-cli-extension` `#istat` `#macos` `#macos-app` `#optimize` `#pearcleaner` `#sensei` `#shell` `#uninstall` `#windows` 
 > Mole is a comprehensive macOS optimization tool combining features of CleanMyMac, AppCleaner, DaisyDisk, and iStat Menus. It enables deep cleaning of caches/logs, smart app uninstallation with leftover removal, visual disk analysis, real-time system monitoring, and system service optimization. Installed via Homebrew or script, it offers interactive menus and CLI commands with dry-run previews, whitelist management, and detailed debug logging for safe and efficient system maintenance.
@@ -5021,7 +5042,7 @@
 ## anthropics/skills
 
 > [!info]
-> ⭐ 198,062 · Python · 2026-11-20T23:47:08Z  
+> ⭐ 198,459 · Python · 2026-11-21T23:15:21Z  
 > [GitHub](https://github.com/anthropics/skills)  
 > `#AI 智能体` `#Document Processing` `#Skill System` `#agent-skills` 
 > Anthropic's public repository for Agent Skills provides Claude with dynamic, modular capabilities across document processing, development tools, and enterprise workflows, enabling specialized task automation through customizable, production-grade skill modules.
@@ -5041,7 +5062,7 @@
 ## github/spec-kit
 
 > [!info]
-> ⭐ 150,824 · Python · 2026-11-20T23:53:32Z  
+> ⭐ 150,938 · Python · 2026-11-21T23:00:50Z  
 > [GitHub](https://github.com/github/spec-kit) · [Website](https://github.github.com/spec-kit/)  
 > `#AI Agents` `#Development Efficiency` `#Spec-Driven Development` `#ai` `#copilot` `#development` `#engineering` `#prd` `#spec` `#spec-driven` 
 > Spec Kit is an open-source toolkit for Spec-Driven Development, transforming specifications into executable code to accelerate high-quality software creation. It offers CLI tools, AI agent integration, and project governance via `/speckit.constitution` and `/speckit.specify` commands, enabling rapid project initialization and reducing ad-hoc coding.
@@ -5061,7 +5082,7 @@
 ## VoltAgent/awesome-claude-code-subagents
 
 > [!info]
-> ⭐ 26,702 · Shell · 2026-11-20T23:21:58Z  
+> ⭐ 26,718 · Shell · 2026-11-21T22:55:50Z  
 > [GitHub](https://github.com/VoltAgent/awesome-claude-code-subagents) · [Website](https://getdesign.md/)  
 > `#AI 智能体` `#Claude Code Plugin` `#Development Automation` `#ai-agent-framework` `#ai-agent-tools` `#ai-agents` `#awesome` `#awesome-list` `#claude` `#claude-ai` `#claude-code-subagents` `#claude-subagents` `#subagents` 
 > This repository is the definitive collection of 127+ specialized Claude Code subagents for development tasks, covering API design, full-stack development, DevOps, and testing. It offers one-click plugin installation, interactive scripts, and standalone installers for instant developer productivity.
@@ -5071,7 +5092,7 @@
 ## UfoMiao/zcf
 
 > [!info]
-> ⭐ 6,068 · TypeScript · 2026-11-20T12:06:32Z  
+> ⭐ 6,066 · TypeScript · 2026-11-21T13:20:44Z  
 > [GitHub](https://github.com/UfoMiao/zcf) · [Website](http://zcf.ufomiao.com/)  
 > `#AI Coding Assistant` `#AI 智能体` `#Zero-Config Tool` `#agent` `#ai` `#ai-agent` `#bmad-method` `#ccr` `#claude` `#claude-4` `#claude-ai` `#claude-code` `#cli` `#gpt` `#gpt-5` `#llm` `#llm-code` `#nodejs` `#openai` `#prompt` `#typescript` `#workflow` `#zcf` 
 > ZCF (Zero-Config Code Flow) is a zero-configuration tool for Claude Code & Codex, enabling one-click setup with bilingual support, intelligent agent system, and personalized AI assistants. It supports multiple API providers (e.g., 302.AI, GLM, PackyCode), includes workflows and MCP integration, and is actively maintained for seamless AI coding experience.
@@ -5090,7 +5111,7 @@
 ## google-gemini/gemini-cli
 
 > [!info]
-> ⭐ 108,960 · TypeScript · 2026-11-20T23:14:53Z  
+> ⭐ 108,975 · TypeScript · 2026-11-21T22:55:52Z  
 > [GitHub](https://github.com/google-gemini/gemini-cli) · [Website](https://geminicli.com)  
 > `#AI 智能体` `#Model Context Protocol` `#Terminal Tool` `#ai` `#ai-agents` `#cli` `#gemini` `#gemini-api` `#mcp-client` `#mcp-server` 
 > Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal, offering lightweight access to Gemini 3 models with built-in tools like Google Search, file operations, and shell commands, plus extensibility via MCP (Model Context Protocol), designed for developers who live in the command line.
@@ -5100,7 +5121,7 @@
 ## xunbu/docutranslate
 
 > [!info]
-> ⭐ 1,378 · Python · 2026-11-20T03:14:29Z  
+> ⭐ 1,379 · Python · 2026-11-21T16:12:38Z  
 > [GitHub](https://github.com/xunbu/docutranslate)  
 > `#AI Large Model` `#Document Translation` `#Local Deployment` `#Multi-Format Support` `#file-transla` `#llm` `#pdf-converter` `#pdf-translator` `#translate` 
 > DocuTranslate is a lightweight local document translation tool powered by Large Language Models. It supports multiple formats including PDF, Word, Excel, JSON, EPUB, and SRT. Features include automatic glossary generation, PDF table/formula/code recognition, JSON path-based translation, format preservation, multi-AI platform support, async concurrency, LAN multi-user access, and an integrated Web UI. Ideal for translating novels, academic papers, and subtitles with portable installers under 40MB.
@@ -5110,7 +5131,7 @@
 ## dataease/SQLBot
 
 > [!info]
-> ⭐ 7,185 · JavaScript · 2026-11-20T20:53:00Z  
+> ⭐ 7,188 · JavaScript · 2026-11-21T16:44:42Z  
 > [GitHub](https://github.com/dataease/SQLBot) · [Website](https://sqlbot.org/)  
 > `#AI 智能体` `#RAG 检索增强` `#Text-to-SQL` `#chatbi` `#deepseek` `#llm` `#nl2sql` `#rag` `#sqlbot` `#text-to-sql` `#text2sql` 
 > SQLBot is an intelligent data querying system powered by LLMs and RAG, enabling conversational analytics (ChatBI) with natural language-to-SQL conversion and visualization. It offers plug-and-play deployment, secure workspace isolation, fine-grained permissions, and seamless integration into platforms like DataEase and Dify, continuously improving accuracy through user interactions.
@@ -5130,7 +5151,7 @@
 ## zensical/zensical
 
 > [!info]
-> ⭐ 6,229 · Rust · 2026-11-20T19:29:08Z  
+> ⭐ 6,239 · Rust · 2026-11-21T23:11:00Z  
 > [GitHub](https://github.com/zensical/zensical) · [Website](https://zensical.org/docs/)  
 > `#Documentation Tool` `#Markdown` `#Static Site Generator` `#documentation` `#static-site-generator` 
 > Zensical is a modern static site generator crafted by the creators of Material for MkDocs, enabling rapid creation of professional, searchable, multilingual (60+ languages), and responsive documentation sites from Markdown – ideal for open-source and commercial projects.
@@ -5140,7 +5161,7 @@
 ## 666ghj/BettaFish
 
 > [!info]
-> ⭐ 42,750 · Python · 2026-11-20T23:14:20Z  
+> ⭐ 42,756 · Python · 2026-11-21T22:46:25Z  
 > [GitHub](https://github.com/666ghj/BettaFish) · [Website](https://deepwiki.com/666ghj/BettaFish)  
 > `#AI-Driven` `#Multi-Agent` `#Public Opinion Analysis` `#agent-framework` `#data-analysis` `#deep-research` `#deep-search` `#llms` `#multi-agent-system` `#nlp` `#public-opinion-analysis` `#python3` `#sentiment-analysis` 
 > BettaFish is a zero-to-one implemented multi-Agent public opinion analysis system that breaks information cocoons and predicts trends through AI-driven social media monitoring, hybrid analysis engines, and agent collaboration. It supports private-public data fusion, offers lightweight Python architecture, and enables rapid customization for vertical domains like finance.
@@ -5160,7 +5181,7 @@
 ## mayswind/ezbookkeeping
 
 > [!info]
-> ⭐ 6,103 · Go · 2026-11-20T17:10:14Z  
+> ⭐ 6,108 · Go · 2026-11-21T14:15:23Z  
 > [GitHub](https://github.com/mayswind/ezbookkeeping) · [Website](https://ezbookkeeping.mayswind.net)  
 > `#AI 智能体` `#Personal Finance` `#Self-Hosted` `#accounting` `#app` `#bookkeeping` `#docker` `#expense-manager` `#expense-tracker` `#expenses` `#finance` `#finance-management` `#finances` `#financial` `#golang` `#homelab` `#mobile` `#money` `#money-manager` `#personal-finance` `#self-hosted` `#typescript` `#vue` 
 > ezBookkeeping is a lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features. It supports Docker deployment, multi-language/currency, AI receipt recognition, data import/export (CSV/OFX/QFX), chart analytics, location tagging, and 2FA, optimized for low-resource devices like Raspberry Pi and NAS.
@@ -5180,7 +5201,7 @@
 ## iflow-ai/iflow-cli
 
 > [!info]
-> ⭐ 5,073 · Shell · 2026-11-19T14:54:01Z  
+> ⭐ 5,072 · Shell · 2026-11-21T09:22:15Z  
 > [GitHub](https://github.com/iflow-ai/iflow-cli) · [Website](https://cli.iflow.cn/?)  
 > `#AI 智能体` `#Multimodal Interaction` `#Terminal Automation` 
 > iFlow CLI is an AI-powered terminal assistant that analyzes codebases, executes coding tasks, and automates workflows via natural language. It integrates free multimodal models (e.g., Kimi K2, Qwen3 Coder), supports SubAgents and MCP tools from its Open Market, and offers advanced features like plan mode, context compression, and plugin support for enhanced developer productivity.
@@ -5209,7 +5230,7 @@
 ## glink25/Cent
 
 > [!info]
-> ⭐ 1,271 · TypeScript · 2026-11-20T20:13:58Z  
+> ⭐ 1,273 · TypeScript · 2026-11-21T19:14:02Z  
 > [GitHub](https://github.com/glink25/Cent) · [Website](https://cent.linkai.work/)  
 > `#AI Assistant` `#Accounting Software` `#GitHub Database` `#PWA Application` `#accounting` `#pwa` 
 > Cent is a completely free, open-source collaborative accounting web app that uses GitHub repositories for data synchronization and version control, enabling real-time cross-platform collaboration without servers. It supports advanced features like voice记账, AI analysis, multi-currency management, map visualization, and recurring transactions. Built as a pure frontend PWA with data stored in user-owned private repositories for full privacy and security.
@@ -5229,7 +5250,7 @@
 ## slopus/happy
 
 > [!info]
-> ⭐ 24,731 · Swift · 2026-11-20T23:35:40Z  
+> ⭐ 24,750 · Swift · 2026-11-21T22:44:09Z  
 > [GitHub](https://github.com/slopus/happy) · [Website](https://happy.engineering/)  
 > `#AI 智能体` `#Cross-Platform` `#End-to-End Encryption` `#Remote Control` `#agent-orchestration` `#ai-agents` `#claude-code` `#claude-desktop` `#codex` `#codex-cli` `#coding-agents` `#grok` `#hacktoberfest` 
 > Happy Coder is a mobile and web client for Claude Code and Codex, featuring end-to-end encryption, real-time voice, and full-featured remote control. It enables users to monitor AI coding progress from any device, switch sessions instantly, and ensures code privacy with zero telemetry.
@@ -5249,7 +5270,7 @@
 ## Zie619/n8n-workflows
 
 > [!info]
-> ⭐ 57,285 · Python · 2026-11-20T23:27:09Z  
+> ⭐ 57,294 · Python · 2026-11-21T23:01:26Z  
 > [GitHub](https://github.com/Zie619/n8n-workflows)  
 > `#AI Security Scanning` `#Automation Tools` `#n8n Workflows` 
 > This repository aggregates 4,343+ n8n automation workflows with 365+ integrations, covering web scraping, AI agents, and data synchronization. Its standout feature is the integration of AI-BOM, the first tool to scan n8n workflows for AI security risks—detecting hardcoded keys, unauthenticated agents, and dangerous tool combinations—while generating compliance-ready reports aligned with EU AI Act deadlines.
@@ -5259,7 +5280,7 @@
 ## Tencent/WeKnora
 
 > [!info]
-> ⭐ 37,907 · Go · 2026-11-20T23:55:35Z  
+> ⭐ 37,955 · Go · 2026-11-21T22:13:38Z  
 > [GitHub](https://github.com/Tencent/WeKnora) · [Website](https://weknora.weixin.qq.com)  
 > `#AI 智能体` `#Document Understanding` `#RAG 检索增强` `#agent` `#agentic` `#ai` `#chatbot` `#dsh-plugin` `#embeddings` `#evaluation` `#generative-ai` `#golang` `#knowledge-base` `#llm` `#multi-tenant` `#ollama` `#openai` `#question-answering` `#rag` `#reranking` `#semantic-search` `#vector-search` `#wiki` 
 > WeKnora is an LLM-powered framework for deep document understanding and semantic retrieval using the RAG paradigm. It features modular architecture with multimodal preprocessing, vector indexing, intelligent retrieval, and custom agents. Supports knowledge base management, API authentication, K8s deployment, and advanced features like thinking mode and data analysis.
@@ -5269,7 +5290,7 @@
 ## CapSoftware/Cap
 
 > [!info]
-> ⭐ 25,346 · Rust · 2026-11-20T23:27:08Z  
+> ⭐ 25,387 · Rust · 2026-11-21T22:51:18Z  
 > [GitHub](https://github.com/CapSoftware/Cap) · [Website](https://cap.so)  
 > `#Open Source` `#Screen Recording` `#Video Messaging` `#桌面应用` `#app` `#cap` `#coss` `#loom` `#mac` `#nextjs` `#nextjs15` `#open-source` `#oss` `#react` `#record` `#rust` `#screen-capture` `#screen-recorder` `#screenshot` `#solidjs` `#tauri` `#tauri-app` `#typescript` `#vite` 
 > Cap is an open-source alternative to Loom, offering beautiful, shareable screen recordings. It enables quick video recording, editing, and sharing via a desktop app (Tauri/Rust) and web interface (Next.js/React), with MySQL backend, Docker deployment, and self-hosting support.
@@ -5279,7 +5300,7 @@
 ## MagicMirrorOrg/MagicMirror
 
 > [!info]
-> ⭐ 24,232 · JavaScript · 2026-11-20T23:13:57Z  
+> ⭐ 24,238 · JavaScript · 2026-11-21T18:03:38Z  
 > [GitHub](https://github.com/MagicMirrorOrg/MagicMirror) · [Website](https://magicmirror.builders)  
 > `#Electron` `#Smart Home` `#Smart Mirror` `#domotics` `#javascript` `#magicmirror` `#mirror` `#raspberry-pi` `#smarthome` 
 > MagicMirror² is an open source modular smart mirror platform that transforms hallways or bathroom mirrors into personal assistants. Built with Electron, it requires no web server or browser, supports numerous installable modules for displaying real-time info like weather, calendar, and news in smart home environments.
@@ -5309,7 +5330,7 @@
 ## ChromeDevTools/chrome-devtools-mcp
 
 > [!info]
-> ⭐ 58,533 · TypeScript · 2026-11-20T23:44:04Z  
+> ⭐ 58,687 · TypeScript · 2026-11-21T23:10:19Z  
 > [GitHub](https://github.com/ChromeDevTools/chrome-devtools-mcp) · [Website](https://developer.chrome.com/docs/devtools/agents)  
 > `#AI 智能体` `#Browser Automation` `#Performance Analysis` `#browser` `#chrome` `#chrome-devtools` `#debugging` `#devtools` `#mcp` `#mcp-server` `#puppeteer` 
 > Chrome DevTools MCP is an MCP server enabling AI coding agents (e.g., Gemini, Claude, Cursor) to control and inspect a live Chrome browser via the Chrome DevTools Protocol. It provides advanced debugging, performance tracing, network analysis, and screenshot capabilities using Puppeteer for reliable automation, ideal for web automation and intelligent debugging.
@@ -5329,7 +5350,7 @@
 ## shareAI-lab/Kode-CLI
 
 > [!info]
-> ⭐ 5,238 · TypeScript · 2026-11-19T16:51:38Z  
+> ⭐ 5,237 · TypeScript · 2026-11-21T08:49:15Z  
 > [GitHub](https://github.com/shareAI-lab/Kode-CLI)  
 > `#AGENTS.md` `#AI 智能体` `#Automated Coding` `#CLI Tool` 
 > Kode CLI is a terminal-based AI coding assistant designed for post-human workflows. It understands codebases, edits files, runs commands, and manages full development workflows. It natively supports the AGENTS.md standard, is compatible with 20+ AI models, and enables autonomous task orchestration via subagents.
@@ -5378,7 +5399,7 @@
 ## tbphp/gpt-load
 
 > [!info]
-> ⭐ 7,241 · Go · 2026-11-20T15:53:23Z  
+> ⭐ 7,245 · Go · 2026-11-21T22:28:55Z  
 > [GitHub](https://github.com/tbphp/gpt-load) · [Website](https://gpt-load.com)  
 > `#AI Proxy` `#API Gateway` `#Key Management` `#Load Balancing` `#ai-gateway` `#anthropic` `#api-gateway` `#claude` `#claude-code` `#codex` `#gemini` `#gin` `#go` `#golang` `#llm` `#llm-gateway` `#load-balancer` `#openai` `#self-hosted` 
 > GPT-Load is a high-performance, enterprise-grade transparent proxy service for AI APIs, designed for developers and enterprises integrating multiple AI services. Built with Go, it features intelligent key rotation, load balancing, automatic failure recovery, hot-reload configuration, and comprehensive monitoring. Supports OpenAI, Google Gemini, and Anthropic Claude APIs with a Vue 3 management interface.
@@ -5388,7 +5409,7 @@
 ## iOfficeAI/AionUi
 
 > [!info]
-> ⭐ 34,412 · TypeScript · 2026-11-20T23:26:46Z  
+> ⭐ 34,427 · TypeScript · 2026-11-21T21:41:06Z  
 > [GitHub](https://github.com/iOfficeAI/AionUi) · [Website](https://www.aionui.com)  
 > `#AI Agents` `#Automation Tool` `#Cross-Platform` `#acp` `#agent-team` `#ai` `#ai-agent` `#chat` `#chatbot` `#claude-code` `#clawdbot` `#codex` `#cowork` `#gemini` `#gemini-cli` `#hermes` `#llm` `#nano-banana` `#office` `#openclaw` `#opencode` `#skills` `#webui` 
 > AionUi is a free, open-source AI coworking app that enables 24/7 automation with built-in multi-agent support (e.g., Claude Code, OpenClaw, Qwen Code). It offers zero-setup local execution, cross-platform compatibility, remote access via WebUI/Telegram, and scheduled task automation for coding, file operations, and workflow management.
@@ -5408,7 +5429,7 @@
 ## musistudio/claude-code-router
 
 > [!info]
-> ⭐ 38,274 · TypeScript · 2026-11-20T22:48:45Z  
+> ⭐ 38,294 · TypeScript · 2026-11-21T22:08:04Z  
 > [GitHub](https://github.com/musistudio/claude-code-router) · [Website](https://ccrdesk.top/)  
 > `#AI 智能体` `#Coding Infrastructure` `#Model Routing` 
 > Claude Code Router builds on Claude Code to enable intelligent coding infrastructure with multi-model routing, dynamic switching, and request/response transformation. It supports providers like OpenRouter, DeepSeek, and Ollama, offering CLI management and GitHub Actions integration for flexible AI tool orchestration in complex development workflows.
@@ -5428,7 +5449,7 @@
 ## xpzouying/xiaohongshu-mcp
 
 > [!info]
-> ⭐ 17,235 · Go · 2026-11-20T21:34:15Z  
+> ⭐ 17,246 · Go · 2026-11-21T21:56:36Z  
 > [GitHub](https://github.com/xpzouying/xiaohongshu-mcp) · [Website](https://www.haha.ai/xiaohongshu-mcp)  
 > `#Content Publishing` `#Data Collection` `#Social Media Automation` `#Xiaohongshu` `#mcp` `#mcp-server` `#xiaohongshu-mcp` 
 > Xiaohongshu MCP is an automation tool designed for xiaohongshu.com, supporting login verification, publishing text/image and video content, searching posts, fetching recommended feeds, retrieving post details with interactions, commenting, and user profile data extraction. It prioritizes local file paths for media uploads to ensure stability, and offers full HTTP API and MCP tool integration for content operations and data collection.
@@ -5438,7 +5459,7 @@
 ## aoguai/LiYing
 
 > [!info]
-> ⭐ 4,193 · Python · 2026-11-20T21:23:07Z  
+> ⭐ 4,193 · Python · 2026-11-21T15:01:12Z  
 > [GitHub](https://github.com/aoguai/LiYing)  
 > `#Automation Tool` `#ID Photo Processing` `#Image Processing` `#background-replacement` `#image-compression` `#image-cropping` `#photo-layout` `#photo-processing` `#portrait-recognition` 
 > LiYing is an automated photo processing program tailored for photo studios, enabling intelligent human and face detection, automatic angle correction, background replacement, multi-size cropping, and layout. It runs entirely offline with all image processing performed locally, ideal for batch processing standard single-person ID photos.
@@ -5448,7 +5469,7 @@
 ## chaitin/MonkeyCode
 
 > [!info]
-> ⭐ 5,332 · TypeScript · 2026-11-20T15:58:34Z  
+> ⭐ 5,338 · TypeScript · 2026-11-21T15:58:39Z  
 > [GitHub](https://github.com/chaitin/MonkeyCode) · [Website](https://work.baizhi.cloud/)  
 > `#AI Programming Assistant` `#Enterprise Development` `#R&D Management` `#ai` `#ai-agent` `#ai-coding` `#ai-coding-assistant` `#aicoding` `#claude` `#codex` `#coding` `#cursor` `#opencode` `#vibe-coding` 
 > MonkeyCode is an enterprise-grade AI programming assistant designed for R&D collaboration and management. It supports private deployment, local LLM integration, and offline usage, offering IDE-based coding, intelligent completions, security scanning, Git platform bots, and a management panel for auditing, compliance, and centralized model usage control.
@@ -5488,7 +5509,7 @@
 ## wzdnzd/aggregator
 
 > [!info]
-> ⭐ 7,577 · Python · 2026-11-20T23:11:34Z  
+> ⭐ 7,577 · Python · 2026-11-21T17:50:06Z  
 > [GitHub](https://github.com/wzdnzd/aggregator) · [Website](https://github.com/wzdnzd/aggregator)  
 > `#Automation Tool` `#Data Aggregation` `#Proxy Pool` `#Web Crawler` `#proxypool` 
 > Aggregator is a powerful free proxy pool builder that crawls proxy resources from multiple platforms like Telegram and GitHub, automatically validates quality, and converts them into formats such as Clash and V2Ray. It supports flexible storage backends like GitHub Gist and is ideal for personal and enterprise proxy subscription management.
@@ -5498,7 +5519,7 @@
 ## winfunc/opcode
 
 > [!info]
-> ⭐ 22,453 · TypeScript · 2026-11-20T15:30:22Z  
+> ⭐ 22,455 · TypeScript · 2026-11-21T22:39:27Z  
 > [GitHub](https://github.com/winfunc/opcode) · [Website](https://opcode.sh)  
 > `#AI 智能体` `#Development Tool` `#桌面应用` `#anthropic` `#anthropic-claude` `#claude` `#claude-4` `#claude-4-opus` `#claude-4-sonnet` `#claude-ai` `#claude-code` `#claude-code-sdk` `#cursor` `#ide` `#llm` `#llm-code` `#rust` `#tauri` 
 > opcode is a powerful desktop GUI app built with Tauri 2 for Claude Code, enabling custom agent creation, interactive session management, MCP server integration, usage analytics, and secure background agent execution to enhance AI-assisted development productivity.
@@ -5508,7 +5529,7 @@
 ## microsoft/OmniParser
 
 > [!info]
-> ⭐ 25,629 · Jupyter Notebook · 2026-11-20T17:22:02Z  
+> ⭐ 25,633 · Jupyter Notebook · 2026-11-21T19:51:22Z  
 > [GitHub](https://github.com/microsoft/OmniParser)  
 > `#AI 智能体` `#Automation Tool` `#UI Parsing` `#Vision LLM` 
 > OmniParser is a screen parsing tool designed for pure vision-based GUI agents, transforming UI screenshots into structured elements to enhance the accuracy of vision models like GPT-4V in grounding actions. It supports icon detection, interactivity prediction, and integrates with OmniTool for Windows 11 VM control, compatible with OpenAI, DeepSeek, Qwen, and Anthropic models for automation and training data generation.
@@ -5518,17 +5539,17 @@
 ## sansan0/TrendRadar
 
 > [!info]
-> ⭐ 63,757 · Python · 2026-11-20T18:27:58Z  
+> ⭐ 63,779 · Python · 2026-11-21T20:44:23Z  
 > [GitHub](https://github.com/sansan0/TrendRadar) · [Website](https://trendradar.sandev.cc)  
-> `#AI 智能体` `#Multi-Platform Aggregation` `#Public Opinion Monitoring` `#Smart Notifications` `#ai` `#bark` `#data-analysis` `#docker` `#hot-news` `#llm` `#mail` `#mcp` `#mcp-server` `#news` `#ntfy` `#python` `#rss` `#trending-topics` `#wechat` `#wework` 
+> `#AI 智能体` `#Multi-Platform Aggregation` `#Public Opinion Monitoring` `#Smart Notifications` `#ai` `#bark` `#data-analysis` `#docker` `#hot-news` `#llm` `#mail` `#mcp` `#mcp-server` `#mcp-servers` `#news` `#ntfy` `#python` `#rss` `#trending-topics` `#web-search` `#wechat` `#wework` 
 > TrendRadar is an AI-powered public opinion and trend monitoring tool that aggregates multi-platform hot topics, RSS feeds, and offers smart keyword filtering. It delivers AI-translated analysis briefs via 8+ notification channels (WeChat, Feishu, DingTalk, etc.), supports Docker deployment and MCP architecture for AI-driven sentiment analysis and trend forecasting, with a 30-second setup.
-> <sub>⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。</sub>
+> <sub>⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, web search, MCP & smart alerts.🎯 告别信息过载，你的 AI     舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅 + 定时联网搜索，支持关键词与 AI 智能筛选。AI 翻译 + AI 分析简报直推手机，支持接入 MCP     架构，赋能 AI 自然语言对话分析、实时检索、情感洞察与趋势预测。支持 Docker，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/Bark/Slack     等渠道智能推送。</sub>
 
 ---
 ## rdev/liquid-glass-react
 
 > [!info]
-> ⭐ 6,756 · TypeScript · 2026-11-20T18:52:44Z  
+> ⭐ 6,760 · TypeScript · 2026-11-21T21:30:56Z  
 > [GitHub](https://github.com/rdev/liquid-glass-react)  
 > `#Apple Liquid Glass` `#React` `#UI Component Library` 
 > Liquid Glass React is a React component library that replicates Apple's Liquid Glass effect, delivering authentic frosted glass visuals with displacement, refraction, and elastic interactions. It supports multiple refraction modes, mouse tracking, chromatic aberration, and customizable blur/saturation, ideal for modern UI elements like cards and buttons.
@@ -5548,7 +5569,7 @@
 ## justlovemaki/AIClient2API
 
 > [!info]
-> ⭐ 8,994 · JavaScript · 2026-11-20T23:36:47Z  
+> ⭐ 8,994 · JavaScript · 2026-11-21T10:32:48Z  
 > [GitHub](https://github.com/justlovemaki/AIClient2API) · [Website](https://aiproxy.justlikemaki.vip)  
 > `#AI 智能体` `#API Proxy` `#LLM Integration` `#OpenAI Compatible` `#aicoding` `#antigravity` `#claude` `#codex` `#free` `#grok` `#kiro` `#openai` 
 > AIClient2API is a powerful proxy that unifies client-only LLM APIs (Gemini CLI, Antigravity, Codex, Grok, Kiro) into a local OpenAI-compatible interface. It supports thousands of daily Gemini requests and offers free access to Kiro's built-in Claude model, streamlining AI development.
@@ -5558,7 +5579,7 @@
 ## dreamhunter2333/cloudflare_temp_email
 
 > [!info]
-> ⭐ 12,142 · TypeScript · 2026-11-20T20:47:52Z  
+> ⭐ 12,147 · TypeScript · 2026-11-21T18:38:17Z  
 > [GitHub](https://github.com/dreamhunter2333/cloudflare_temp_email) · [Website](https://mail.awsl.uk)  
 > `#Cloudflare Workers` `#Email Service` `#Temporary Email` `#cloudflare-email` `#cloudflare-pages` `#cloudflare-workers` `#email` `#free` 
 > A fully-featured free temporary email service built on Cloudflare Workers, supporting email sending/receiving, attachments, IMAP/SMTP protocols, and Telegram bot notifications. Uses Rust WASM for high-performance email parsing, offers a modern responsive UI with multi-language support, and enables password protection for email addresses—all at zero cost with no server required.
@@ -5587,7 +5608,7 @@
 ## OpenCut-app/OpenCut
 
 > [!info]
-> ⭐ 99,037 · TypeScript · 2026-11-20T23:12:56Z  
+> ⭐ 99,104 · TypeScript · 2026-11-21T23:03:07Z  
 > [GitHub](https://github.com/OpenCut-app/OpenCut) · [Website](https://opencut.app)  
 > `#Cross-Platform` `#Open Source` `#Video Editing` `#editor` `#oss` `#videoeditor` 
 > OpenCut is a free, open-source video editor for web, desktop, and mobile, offering timeline-based editing, multi-track support, and real-time preview. It emphasizes privacy by processing videos locally, avoids watermarks, and targets users seeking CapCut-like simplicity without paywalled features.
@@ -5617,7 +5638,7 @@
 ## algerkong/AlgerMusicPlayer
 
 > [!info]
-> ⭐ 17,753 · TypeScript · 2026-11-20T19:53:46Z  
+> ⭐ 17,791 · TypeScript · 2026-11-21T22:49:25Z  
 > [GitHub](https://github.com/algerkong/AlgerMusicPlayer)  
 > `#Cross-Platform Desktop App` `#Electron` `#Music Player` `#alger` `#music` `#music-player` 
 > AlgerMusicPlayer is a powerful third-party cross-platform music player supporting NetEase Cloud login, local services, desktop lyrics, music downloads, and remote control. Built with Electron and Vue, it offers immersive lyrics, EQ equalizer, multi-language UI, dark/light themes, and high-fidelity audio, running on Desktop, Web, and Mobile platforms with personalized features.
@@ -5627,7 +5648,7 @@
 ## jaypyles/Scraperr
 
 > [!info]
-> ⭐ 4,911 · TypeScript · 2026-11-20T09:17:36Z  
+> ⭐ 4,910 · TypeScript · 2026-11-21T11:08:20Z  
 > [GitHub](https://github.com/jaypyles/Scraperr) · [Website](https://scraperr-docs.pages.dev/)  
 > `#Automation Tool` `#Self-Hosted` `#数据可视化` `#网页爬虫` `#docker` `#helm` `#kubernetes` `#opensource` `#playwright` `#python` `#scraping` `#self-hosted` `#web-scraper` `#web-scrapers` `#web-scraping` `#webscraper` `#webscraping` 
 > Scraperr is a powerful self-hosted web scraping tool enabling code-free configuration, XPath-based extraction, queue management, media downloads, and structured data export, ideal for automated data collection and analysis.
@@ -5647,7 +5668,7 @@
 ## mindsdb/mindshub
 
 > [!info]
-> ⭐ 39,867 · Makefile · 2026-11-19T23:51:50Z  
+> ⭐ 39,868 · Makefile · 2026-11-21T14:18:47Z  
 > [GitHub](https://github.com/mindsdb/mindshub) · [Website](https://mindshub.ai)  
 > `#AI 智能体` `#Automation Tool` `#Model Router` `#agents` `#ai` `#anton` `#artificial-inteligence` `#claude` `#claude-cowork` `#codex` `#cowork` `#deepseek` `#glm` `#hermes` `#hermes-agent` `#kimi` `#mcp` `#mindsdb` 
 > MindsHub is a unified workspace enabling open-source AI models to perform real work. It connects diverse data sources, routes tasks across frontier and open models via a model router, and runs open-source agents. Users transform agent outputs into publishable web apps or documents, automating workflows from analysis to app creation, with support for local, VPC, or hosted deployment.
@@ -5657,7 +5678,7 @@
 ## TryGhost/Ghost
 
 > [!info]
-> ⭐ 55,871 · TypeScript · 2026-11-20T23:30:16Z  
+> ⭐ 55,875 · TypeScript · 2026-11-21T20:39:23Z  
 > [GitHub](https://github.com/TryGhost/Ghost) · [Website](https://ghost.org)  
 > `#Content Management System` `#Headless CMS` `#Node.js` `#blogging` `#cms` `#ghost` `#javascript` `#journalism` `#nodejs` `#publishing` `#web-application` 
 > Ghost is a modern, open-source Node.js CMS designed for professional publishing, memberships, subscriptions, and newsletters. It offers a clean editor, SEO tools, and headless architecture for flexible front-end integration. With features like automated workflows and Ghost(Pro) managed hosting, it's ideal for creators and publishers seeking a developer-friendly, scalable platform.
@@ -5667,7 +5688,7 @@
 ## Afilmory/afilmory
 
 > [!info]
-> ⭐ 2,680 · TypeScript · 2026-11-20T00:42:41Z  
+> ⭐ 2,681 · TypeScript · 2026-11-21T12:51:21Z  
 > [GitHub](https://github.com/Afilmory/afilmory) · [Website](https://afilmory.art)  
 > `#Photo Gallery` `#Photography Tool` `#WebGL Rendering` `#exif` `#hono` `#live-photo` `#photo-gallery` `#photography` `#react` `#s3` `#self-hosted` `#typescript` `#vite` 
 > Afilmory is a modern, high-performance photo gallery platform for photographers, featuring S3/GitHub sync, EXIF metadata, interactive maps, and WebGL rendering. Built with React + TypeScript, it offers responsive masonry layouts, multi-storage support, and HDR/Live Photo compatibility for professional photo curation.
@@ -5687,7 +5708,7 @@
 ## punkpeye/awesome-mcp-servers
 
 > [!info]
-> ⭐ 98,326 · N/A · 2026-11-20T23:43:28Z  
+> ⭐ 98,361 · N/A · 2026-11-21T21:29:06Z  
 > [GitHub](https://github.com/punkpeye/awesome-mcp-servers) · [Website](https://glama.ai/mcp/servers)  
 > `#AI Gateway` `#AI 智能体` `#MCP Protocol` `#ai` `#mcp` 
 > Awesome MCP Servers is a curated collection of Model Context Protocol (MCP) servers enabling secure AI interactions with local and remote resources. It includes production-ready and experimental servers for file access, databases, APIs, and more, with multilingual documentation, community support, and integrated testing tools via glama.ai.
@@ -5717,7 +5738,7 @@
 ## 1chooo/vcard
 
 > [!info]
-> ⭐ 315 · TypeScript · 2026-10-30T19:18:02Z  
+> ⭐ 314 · TypeScript · 2026-11-21T15:38:39Z  
 > [GitHub](https://github.com/1chooo/vcard) · [Website](https://v0.1chooo.com)  
 > `#Next.js` `#Portfolio` `#Responsive Design` `#1chooo` `#blog` `#chun-ho` `#chun-ho-lin` `#chunho` `#chunholin` `#hugo` `#hugolin` `#personal-website` `#portfolio` 
 > A modern personal portfolio website built with Next.js, Tailwind CSS, and TypeScript (strict mode). Features Markdown/MDX content publishing, RSS feed, sitemap, comment system, reading time, and view counter. Includes scroll-based animations via Motion for smooth UX, with near-perfect Lighthouse scores in performance, accessibility, and SEO. Ideal for developers to showcase projects and skills.
@@ -5726,7 +5747,7 @@
 ## hangwin/mcp-chrome
 
 > [!info]
-> ⭐ 12,554 · TypeScript · 2026-11-20T20:39:30Z  
+> ⭐ 12,555 · TypeScript · 2026-11-21T12:38:35Z  
 > [GitHub](https://github.com/hangwin/mcp-chrome)  
 > `#AI 智能体` `#Browser Automation` `#Semantic Search` 
 > Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes browser functionality to AI assistants like Claude, enabling complex automation, content analysis, and semantic search. It leverages your existing Chrome browser with preserved login states and settings, supports 20+ tools, offers local streamable HTTP communication, and features SIMD-accelerated vector database for intelligent tab content discovery.
@@ -5736,7 +5757,7 @@
 ## RVC-Boss/GPT-SoVITS
 
 > [!info]
-> ⭐ 64,142 · Python · 2026-11-20T23:25:41Z  
+> ⭐ 64,168 · Python · 2026-11-21T21:58:55Z  
 > [GitHub](https://github.com/RVC-Boss/GPT-SoVITS)  
 > `#AI 大模型` `#AI 智能体` `#Few-Shot Learning` `#Text-to-Speech` `#text-to-speech` `#tts` `#vits` `#voice-clone` `#voice-cloneai` `#voice-cloning` 
 > GPT-SoVITS is a powerful few-shot voice cloning and text-to-speech WebUI that enables zero-shot and few-shot TTS training with just 1 minute of audio data. It supports cross-lingual synthesis in Chinese, English, Japanese, Korean, and more, featuring integrated tools for voice separation, ASR, and dataset preparation.
@@ -5756,7 +5777,7 @@
 ## google-ai-edge/gallery
 
 > [!info]
-> ⭐ 25,391 · Kotlin · 2026-11-20T22:46:25Z  
+> ⭐ 25,398 · Kotlin · 2026-11-21T21:19:41Z  
 > [GitHub](https://github.com/google-ai-edge/gallery)  
 > `#AI 智能体` `#Edge LLM` `#Offline AI` `#On-Device AI` 
 > Google AI Edge Gallery is an experimental app showcasing on-device ML/GenAI use cases, enabling users to run generative AI models locally on Android and iOS. It supports offline chat, image Q&A, audio transcription, prompt engineering, and includes a mini game and device control via fine-tuned models, all without requiring an internet connection.
@@ -5766,7 +5787,7 @@
 ## google-gemini/gemini-fullstack-langgraph-quickstart
 
 > [!info]
-> ⭐ 18,372 · Jupyter Notebook · 2026-11-20T09:57:12Z  
+> ⭐ 18,371 · Jupyter Notebook · 2026-11-21T23:04:29Z  
 > [GitHub](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart) · [Website](https://ai.google.dev/gemini-api/docs/google-search)  
 > `#AI 智能体` `#Fullstack Application` `#LangGraph` `#gemini` `#gemini-api` 
 > This project demonstrates a fullstack application using React frontend and a LangGraph-powered backend agent to perform comprehensive web research via dynamic query generation, Google Search integration, reflective reasoning, and iterative refinement using Google's Gemini models, ultimately producing cited answers from gathered sources.
@@ -5806,7 +5827,7 @@
 ## hpcaitech/Open-Sora
 
 > [!info]
-> ⭐ 29,943 · Python · 2026-11-20T12:03:55Z  
+> ⭐ 29,944 · Python · 2026-11-21T22:02:26Z  
 > [GitHub](https://github.com/hpcaitech/Open-Sora) · [Website](https://hpcaitech.github.io/Open-Sora/)  
 > `#AI Large Model` `#Open Source` `#Video Generation` 
 > Open-Sora is an open-source initiative for efficient high-quality video generation, democratizing access to advanced video creation. Its 11B model matches top-tier performance on VBench and human preference tests at just $200K training cost, with full checkpoint and code transparency. Featuring scalable architectures like 3D-VAE and rectified flow, it enables accessible, high-fidelity video production across model sizes from 1B to 11B.
@@ -5836,7 +5857,7 @@
 ## chatanywhere/GPT_API_free
 
 > [!info]
-> ⭐ 46,432 · N/A · 2026-11-20T23:21:38Z  
+> ⭐ 46,483 · N/A · 2026-11-21T22:21:58Z  
 > [GitHub](https://github.com/chatanywhere/GPT_API_free) · [Website](https://api.chatanywhere.tech)  
 > `#AI Large Model` `#API Service` `#Free API` `#api` `#chatgpt` `#claude` `#deepseek` `#gemini` `#gpt` `#grok` `#llm-agents` 
 > ChatAnywhere offers free ChatGPT and DeepSeek API key forwarding services, supporting top-tier models like gpt-5, gpt-4o, deepseek-r1/v3, claude, gemini, and grok. It uses the official OpenAI-compatible protocol, supports streaming responses, and enables direct access from China without proxies. Free tier allows 200 requests/day per IP+Key combination for personal non-commercial use.
@@ -5896,7 +5917,7 @@
 ## ruanyf/weekly
 
 > [!info]
-> ⭐ 108,439 · N/A · 2026-11-20T22:34:53Z  
+> ⭐ 108,497 · N/A · 2026-11-21T21:29:30Z  
 > [GitHub](https://github.com/ruanyf/weekly)  
 > `#AI` `#Industry Insights` `#Technology News` 
 > The Tech Enthusiast Weekly is a curated publication by Ruan YiFeng, releasing every Friday with in-depth coverage of emerging technologies, AI advancements, startup insights, and industry trends, targeting tech professionals and enthusiasts seeking actionable intelligence.
@@ -5916,7 +5937,7 @@
 ## 24mlight/A_Share_investment_Agent
 
 > [!info]
-> ⭐ 2,492 · Python · 2026-11-19T02:51:02Z  
+> ⭐ 2,490 · Python · 2026-11-21T01:08:11Z  
 > [GitHub](https://github.com/24mlight/A_Share_investment_Agent)  
 > `#AI 大模型` `#AI 智能体` `#Investment Decision` `#Multi-Agent System` 
 > An AI investment system leveraging multi-agent collaboration and LLM-enhanced decision-making, featuring bull/bear researchers, debate room mechanisms, and macro analysis. It integrates intelligent news search with caching optimization for automated investment recommendations, supporting Gemini/OpenAI-compatible models for AI-finance research applications.
@@ -5925,7 +5946,7 @@
 ## TapXWorld/ChinaTextbook
 
 > [!info]
-> ⭐ 84,834 · N/A · 2026-11-20T21:22:41Z  
+> ⭐ 84,862 · N/A · 2026-11-21T21:14:34Z  
 > [GitHub](https://github.com/TapXWorld/ChinaTextbook)  
 > `#Compulsory Education` `#Education Resources` `#Educational Equity` `#PDF Textbooks` 
 > This project provides open access to Chinese K-12 and university PDF textbooks, promoting educational equity and accessibility. It focuses on elementary and middle school math materials, offering People's Education Press editions to support overseas Chinese families and foster interest-driven learning beyond exam-oriented education.
@@ -5935,7 +5956,7 @@
 ## ayangweb/BongoCat
 
 > [!info]
-> ⭐ 24,706 · Rust · 2026-11-20T22:20:27Z  
+> ⭐ 24,721 · Rust · 2026-11-21T18:06:06Z  
 > [GitHub](https://github.com/ayangweb/BongoCat) · [Website](https://github.com/ayangweb/Awesome-BongoCat)  
 > `#Cross-Platform App` `#Desktop Pet` `#Tauri 框架` `#bongo-cat` `#bongocat` `#cross-platform` `#desktop-app` `#desktop-pet` `#linux` `#macos` `#pet` `#pet-project` `#rust` `#tauri` `#tauri-app` `#windows` 
 > BongoCat is a cross-platform interactive desktop pet built with Tauri, supporting Windows, macOS, and Linux. It features a playful cat character that responds to user interactions like clicks and drags with animated effects, adding entertainment to your desktop experience.
@@ -5945,7 +5966,7 @@
 ## voideditor/void
 
 > [!info]
-> ⭐ 28,705 · TypeScript · 2026-11-20T23:12:59Z  
+> ⭐ 28,704 · TypeScript · 2026-11-21T23:02:20Z  
 > [GitHub](https://github.com/voideditor/void) · [Website](https://voideditor.com)  
 > `#AI IDE` `#AI 智能体` `#VSCode` `#chatgpt` `#claude` `#copilot` `#cursor` `#developer-tools` `#editor` `#llm` `#open-source` `#openai` `#visual-studio-code` `#vscode` `#vscode-extension` 
 > Void is an open-source alternative to Cursor, enabling AI agents to work on your codebase with checkpointing, change visualization, and local model hosting. It communicates directly with AI providers without storing your data, built as a VSCode fork with a focus on innovation over feature parity.
@@ -5973,7 +5994,7 @@
 ## X1a0He/Adobe-Downloader
 
 > [!info]
-> ⭐ 3,683 · Swift · 2026-11-20T16:25:19Z  
+> ⭐ 3,684 · Swift · 2026-11-21T00:45:30Z  
 > [GitHub](https://github.com/X1a0He/Adobe-Downloader)  
 > `#Automated Installation` `#Creative Software Deployment` `#macOS Desktop App` 
 > Adobe Downloader is a macOS-native tool for downloading and installing Adobe applications. It supports parallel downloads, version/language selection, and automated installation via a built-in Helper mechanism that eliminates password prompts. All downloads are from official Adobe sources, with full cleanup utilities for residual files, ideal for enterprise or personal use.
@@ -5983,7 +6004,7 @@
 ## ripienaar/free-for-dev
 
 > [!info]
-> ⭐ 143,280 · HTML · 2026-11-20T22:53:26Z  
+> ⭐ 143,341 · HTML · 2026-11-21T22:52:00Z  
 > [GitHub](https://github.com/ripienaar/free-for-dev) · [Website](https://free-for.dev/)  
 > `#DevOps Tools` `#Free Cloud Services` `#Infrastructure as a Service` `#awesome-list` `#free-for-developers` 
 > free-for.dev is a curated list of free-tier SaaS, PaaS, and IaaS services tailored for developers and infrastructure teams. It focuses on tools useful for DevOps, sysadmins, and cloud engineers, excluding self-hosted software and limited-time trials. Maintained by a community of 1600+ contributors, it covers 30+ categories including cloud management, CI/CD, monitoring, security, and more, enabling informed decisions about free developer offerings.
@@ -5993,7 +6014,7 @@
 ## harry0703/MoneyPrinterTurbo
 
 > [!info]
-> ⭐ 144,837 · Python · 2026-11-20T23:56:01Z  
+> ⭐ 144,985 · Python · 2026-11-21T23:11:44Z  
 > [GitHub](https://github.com/harry0703/MoneyPrinterTurbo)  
 > `#AI LLM` `#AI 智能体` `#Automation Tool` `#Short Video Generation` `#ai-video-generator` `#content-creation` `#ffmpeg` `#instagram-reels` `#llm` `#python` `#short-video` `#subtitles` `#text-to-speech` `#tiktok` `#video-automation` `#video-workflow` `#workflow-automation` `#youtube-shorts` 
 > MoneyPrinterTurbo is an AI-powered short video generation tool that leverages large language models to automatically create high-definition videos with one click. Users input a topic or keyword to generate scripts, visuals, voiceovers, subtitles, and background music. It supports multiple AI models, batch processing, and both vertical and horizontal formats, ideal for content creators seeking efficient video production.
@@ -6003,7 +6024,7 @@
 ## fmhy/edit
 
 > [!info]
-> ⭐ 12,878 · JavaScript · 2026-11-20T21:23:09Z  
+> ⭐ 12,896 · JavaScript · 2026-11-21T21:37:40Z  
 > [GitHub](https://github.com/fmhy/edit) · [Website](https://fmhy.net/)  
 > `#Free Resources` `#Knowledge Base` `#Resource Aggregation` `#fmhy` `#freemediaheckyeah` 
 > FMHY is the largest internet platform curating free resources like software, tools, and learning materials, offering structured indexes and community recommendations. It maintains content via a Wiki, supports Markdown/JSON API backups, emphasizes decentralized storage, and operates without hosting files, ensuring open and free access.
@@ -6013,7 +6034,7 @@
 ## maotoumao/MusicFreeDesktop
 
 > [!info]
-> ⭐ 9,189 · TypeScript · 2026-11-20T22:26:07Z  
+> ⭐ 9,197 · TypeScript · 2026-11-21T15:21:00Z  
 > [GitHub](https://github.com/maotoumao/MusicFreeDesktop) · [Website](https://musicfree.catcat.work)  
 > `#Music Player` `#Plugin Architecture` `#Theme Customization` `#electron` `#free` `#music` `#music-player` `#react` `#typescript` 
 > MusicFree Desktop is a plugin-based, ad-free, open-source music player supporting Windows, macOS, and Linux. Key features include: plugin-driven access to any audio source (search, playback, playlist import), highly customizable themes via CSS variables and iframe backgrounds, and local data storage for privacy. Users can extend sources and personalize UI freely.
@@ -6023,7 +6044,7 @@
 ## maotoumao/MusicFree
 
 > [!info]
-> ⭐ 28,733 · TypeScript · 2026-11-20T22:47:25Z  
+> ⭐ 28,759 · TypeScript · 2026-11-21T21:41:35Z  
 > [GitHub](https://github.com/maotoumao/MusicFree) · [Website](https://musicfree.catcat.work)  
 > `#Ad-Free` `#Music Player` `#Plugin Architecture` `#free` `#music-player` `#musicfree` `#plugin` `#react` `#react-native` `#typescript` 
 > MusicFree is an open-source, ad-free, plugin-based music player for Android and Harmony OS. It features local data storage, customizable themes, and lyric linking. Its plugin architecture enables integration with third-party audio sources for search, playback, and playlist import. Built on AGPL 3.0, it prioritizes privacy and ethical use without VIP or cracked content.
@@ -6033,7 +6054,7 @@
 ## QL-Win/QuickLook
 
 > [!info]
-> ⭐ 25,844 · C# · 2026-11-20T20:57:41Z  
+> ⭐ 25,854 · C# · 2026-11-21T22:47:58Z  
 > [GitHub](https://github.com/QL-Win/QuickLook) · [Website](https://quicklookapp.vercel.app/)  
 > `#Cross-Platform Tool` `#File Preview` `#Windows Enhancement` `#quicklook` 
 > QuickLook brings macOS 'Quick Look' functionality to Windows, enabling instant file previews by pressing the spacebar. It supports diverse file types including images, documents, and videos with minimal resource usage and extensibility via plugins, significantly enhancing file browsing efficiency.
@@ -6053,7 +6074,7 @@
 ## modelcontextprotocol/servers
 
 > [!info]
-> ⭐ 92,133 · TypeScript · 2026-11-20T20:53:41Z  
+> ⭐ 92,144 · TypeScript · 2026-11-21T22:16:01Z  
 > [GitHub](https://github.com/modelcontextprotocol/servers) · [Website](https://modelcontextprotocol.io)  
 > `#AI 智能体` `#MCP SDK` `#Reference Implementation` 
 > This repository offers reference implementations of Model Context Protocol (MCP) servers, including file system access, web fetching, Git operations, and memory management. Built with multi-language SDKs (Python, TypeScript, etc.), it serves as an educational resource for developers to build secure LLM-integrated tools using MCP.
@@ -6072,7 +6093,7 @@
 ## x1xhlol/system-prompts-and-models-of-ai-tools
 
 > [!info]
-> ⭐ 144,793 · N/A · 2026-11-20T23:43:18Z  
+> ⭐ 144,805 · N/A · 2026-11-21T21:09:01Z  
 > [GitHub](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)  
 > `#AI Coding Agents` `#Development Tool Architecture` `#System Prompt Engineering` `#ai` `#bolt` `#cluely` `#copilot` `#cursor` `#cursorai` `#devin` `#github-copilot` `#lovable` `#open-source` `#perplexity` `#replit` `#system-prompts` `#trae` `#trae-ai` `#trae-ide` `#v0` `#vscode` `#windsurf` `#windsurf-ai` 
 > This repository contains over 30,000 lines of insights into system prompts, internal tools, and AI models of major AI coding agents (e.g., Claude Code, Cursor, Devin AI), offering deep technical analysis of their architecture, functionality, and design principles for developers seeking to understand and leverage AI-powered development tools.
@@ -6082,7 +6103,7 @@
 ## remotion-dev/remotion
 
 > [!info]
-> ⭐ 74,579 · TypeScript · 2026-11-20T23:52:39Z  
+> ⭐ 74,756 · TypeScript · 2026-11-21T23:17:11Z  
 > [GitHub](https://github.com/remotion-dev/remotion) · [Website](https://remotion.dev)  
 > `#Programmatic Content` `#React Framework` `#Video Generation` `#javascript` `#react` `#video` 
 > Remotion is a React-based framework for programmatically creating videos using web technologies like CSS, Canvas, SVG, and WebGL. It enables dynamic video generation through programming logic, reusable components, and real-time preview, ideal for personalized content, data-driven animations, and automated video production.
@@ -6092,7 +6113,7 @@
 ## ahmedkhaleel2004/gitdiagram
 
 > [!info]
-> ⭐ 19,036 · TypeScript · 2026-11-20T20:46:51Z  
+> ⭐ 19,068 · TypeScript · 2026-11-21T23:08:14Z  
 > [GitHub](https://github.com/ahmedkhaleel2004/gitdiagram) · [Website](https://gitdiagram.com)  
 > `#AI 智能体` `#Architecture Analysis` `#Code Visualization` `#GitHub Tool` `#ai` `#architecture-diagram` `#code` `#code-visualization` `#codebase-visualization` `#developer-tools` `#diagram-generator` `#gemini-cli-extension` `#github` `#llm` `#mermaid` `#nextjs` `#repository-visualization` `#software-architecture` `#system-design` `#video` 
 > GitDiagram is a free, fast tool that converts any GitHub repository into interactive architecture diagrams in seconds. It leverages OpenAI GPT-5.2 for intelligent analysis, supports clickable navigation to source files, exports Mermaid/PNG formats, and offers private repo support with self-hosting capabilities for deep codebase understanding.
@@ -6102,7 +6123,7 @@
 ## PrefectHQ/fastmcp
 
 > [!info]
-> ⭐ 28,695 · Python · 2026-11-20T23:13:01Z  
+> ⭐ 28,705 · Python · 2026-11-21T22:06:26Z  
 > [GitHub](https://github.com/PrefectHQ/fastmcp) · [Website](https://gofastmcp.com)  
 > `#AI 智能体` `#MCP Protocol` `#Python Framework` `#agents` `#fastmcp` `#llms` `#mcp` `#mcp-clients` `#mcp-servers` `#mcp-tools` `#model-context-protocol` `#python` 
 > FastMCP is a fast, Pythonic framework for building MCP servers and clients. It enables declarative tool definition, automatic schema generation, protocol negotiation, and authentication, streamlining development from prototype to production. Integrated into the official MCP Python SDK, it powers 70% of MCP servers globally.
@@ -6112,7 +6133,7 @@
 ## microsoft/markitdown
 
 > [!info]
-> ⭐ 197,254 · Python · 2026-11-20T23:34:04Z  
+> ⭐ 197,508 · Python · 2026-11-21T23:17:19Z  
 > [GitHub](https://github.com/microsoft/markitdown)  
 > `#AI Text Processing` `#Document Conversion` `#Markdown Generation` `#autogen` `#autogen-extension` `#langchain` `#markdown` `#microsoft-office` `#openai` `#pdf` 
 > MarkItDown is a lightweight Python utility that converts various file types (PDF, Office docs, images, audio, HTML, etc.) into structured Markdown for use with LLMs and text analysis pipelines. It supports OCR, speech-to-text, ZIP extraction, and YouTube URL conversion, preserving document structure like headings and tables for optimal LLM compatibility.
@@ -6132,7 +6153,7 @@
 ## richards199999/Thinking-Claude
 
 > [!info]
-> ⭐ 17,010 · TypeScript · 2026-11-19T10:44:21Z  
+> ⭐ 17,012 · TypeScript · 2026-11-21T22:33:44Z  
 > [GitHub](https://github.com/richards199999/Thinking-Claude)  
 > `#AI 智能体` `#Chain of Thought` `#提示工程` `#浏览器插件` 
 > Thinking Claude is a Chrome extension that enhances Claude 3.5 Sonnet by injecting a comprehensive thinking protocol. It displays Claude's internal monologue as collapsible, readable sections with copy functionality, making AI reasoning transparent and user-friendly through structured thought processes.
@@ -6142,7 +6163,7 @@
 ## ihmily/StreamCap
 
 > [!info]
-> ⭐ 4,453 · Python · 2026-11-20T23:11:29Z  
+> ⭐ 4,454 · Python · 2026-11-21T15:06:05Z  
 > [GitHub](https://github.com/ihmily/StreamCap)  
 > `#Automation Tool` `#FFmpeg` `#Live Recording` `#bilibili` `#cross-platform` `#douyin` `#douyu` `#ffmpeg` `#huya` `#live-streaming` `#recording` `#stream-capture` `#tiktok` `#twitch` `#video-recording` `#youtube` 
 > StreamCap is a multi-platform live stream recording tool powered by FFmpeg and StreamGet, supporting 40+ global platforms (e.g., Douyin, Bilibili, Twitch, TikTok). It features real-time monitoring, scheduled recording, batch processing, and automatic transcoding, with full support for Windows, macOS, Linux, and web deployment for content archiving and live data analysis.
@@ -6152,7 +6173,7 @@
 ## hiroi-sora/Umi-OCR
 
 > [!info]
-> ⭐ 48,833 · Python · 2026-11-20T21:50:05Z  
+> ⭐ 48,855 · Python · 2026-11-21T22:14:20Z  
 > [GitHub](https://github.com/hiroi-sora/Umi-OCR)  
 > `#Batch Processing` `#OCR` `#Offline Processing` `#ocr` `#ocr-python` `#paddleocr` `#qml` `#qt` `#screenshot` `#umi-ocr` 
 > Umi-OCR is a free, open-source, offline OCR software supporting screenshot recognition, batch image processing, PDF scanning, and QR code detection. It features intelligent layout parsing, watermark/header/footer removal, and multi-language recognition libraries, running efficiently without internet on Windows and Linux.
@@ -6162,7 +6183,7 @@
 ## droidrun/mobilerun
 
 > [!info]
-> ⭐ 10,082 · Python · 2026-11-20T21:52:50Z  
+> ⭐ 10,087 · Python · 2026-11-21T13:07:32Z  
 > [GitHub](https://github.com/droidrun/mobilerun) · [Website](https://mobilerun.ai/framework)  
 > `#AI 智能体` `#Mobile Automation` `#Natural Language Control` `#ai-agents` `#android` `#android-automation` `#hacktoberfest` `#mobile-automation` 
 > Mobilerun is a powerful framework for controlling Android and iOS devices via natural language commands using LLM agents. It supports multi-step task planning, screenshot analysis, and works with multiple LLM providers like OpenAI, Anthropic, and Gemini, enabling complex mobile automation through visual understanding.
@@ -6172,7 +6193,7 @@
 ## snailyp/gemini-balance
 
 > [!info]
-> ⭐ 5,771 · Python · 2026-11-20T19:00:18Z  
+> ⭐ 5,771 · Python · 2026-11-21T16:52:19Z  
 > [GitHub](https://github.com/snailyp/gemini-balance) · [Website](https://gb-docs.snaily.top)  
 > `#AI 智能体` `#API Proxy` `#FastAPI` `#gemini` `#gemini-api` `#googlesearch` `#imagen-3` `#load-balancer` `#openai-api` 
 > Gemini Balance is a FastAPI-based proxy and load balancer for Google's Gemini API, enabling multi-key polling, OpenAI API compatibility, image-text chat, web search, and real-time key status monitoring with dynamic configuration and detailed logging.
@@ -6182,7 +6203,7 @@
 ## RooCodeInc/Roo-Code
 
 > [!info]
-> ⭐ 24,237 · TypeScript · 2026-11-20T16:39:38Z  
+> ⭐ 24,236 · TypeScript · 2026-11-21T04:46:04Z  
 > [GitHub](https://github.com/RooCodeInc/Roo-Code) · [Website](https://roocode.com)  
 > `#AI 智能体` `#Developer Productivity` `#VS Code 插件` 
 > Roo Code is a VS Code extension that embeds an AI-powered development team directly into your editor. It enables natural language code generation, multi-mode workflows (coding, architecture, debugging, Q&A), automation, and documentation, dramatically boosting developer productivity.
@@ -6192,7 +6213,7 @@
 ## JefferyHcool/BiliNote
 
 > [!info]
-> ⭐ 7,793 · Python · 2026-11-20T14:44:08Z  
+> ⭐ 7,802 · Python · 2026-11-21T15:22:13Z  
 > [GitHub](https://github.com/JefferyHcool/BiliNote) · [Website](https://www.bilinote.app/)  
 > `#AI 智能体` `#FastAPI` `#Note Generation` `#Video Processing` 
 > BiliNote is an open-source AI video note generator that automatically extracts content from Bilibili, YouTube, Douyin, and other platforms to create structured Markdown notes using GPT, DeepSeek, or Qwen models. It supports screenshots, jump links, multiple versions, and local deployment with optional CUDA acceleration.
@@ -6202,7 +6223,7 @@
 ## the-open-agent/openagent
 
 > [!info]
-> ⭐ 5,751 · Go · 2026-11-20T22:28:22Z  
+> ⭐ 5,755 · Go · 2026-11-21T14:33:49Z  
 > [GitHub](https://github.com/the-open-agent/openagent) · [Website](https://openagentai.org)  
 > `#AI Agents` `#Enterprise AI Platform` `#LLM Management` `#agent` `#agentic` `#agentic-ai` `#agi` `#chatbot` `#chatgpt` `#gpt` `#harness` `#hermes-agent` `#knowledge-base` `#langchain` `#llm` `#mcp` `#model-context-protocol` `#multi-agent` `#openagent` `#openai` `#openclaw` `#rag` 
 > OpenAgent is an open-source enterprise-grade AI knowledge base and agent management platform supporting MCP/A2A protocols. It integrates major LLMs like ChatGPT, Claude, and Llama, offering admin UI, user management, and SSO for secure, scalable AI application deployment.
@@ -6232,7 +6253,7 @@
 ## d2l-ai/d2l-zh
 
 > [!info]
-> ⭐ 82,621 · Python · 2026-11-20T21:59:42Z  
+> ⭐ 82,636 · Python · 2026-11-21T16:59:58Z  
 > [GitHub](https://github.com/d2l-ai/d2l-zh) · [Website](http://zh.d2l.ai)  
 > `#AI Education` `#Interactive Learning` `#深度学习` `#book` `#chinese` `#computer-vision` `#deep-learning` `#machine-learning` `#natural-language-processing` `#notebook` `#python` 
 > Dive into Deep Learning is an open-source textbook designed for Chinese readers, offering executable code and interactive learning. It integrates mathematical theory, algorithmic implementation, and engineering practice, adopted by over 500 universities worldwide. The book emphasizes hands-on learning to cultivate AI application scientists with both theoretical depth and practical skills.
@@ -6242,7 +6263,7 @@
 ## n8n-io/n8n
 
 > [!info]
-> ⭐ 211,550 · TypeScript · 2026-11-20T23:44:26Z  
+> ⭐ 211,646 · TypeScript · 2026-11-21T23:02:09Z  
 > [GitHub](https://github.com/n8n-io/n8n) · [Website](https://n8n.io)  
 > `#AI Agents` `#Self-Hosted` `#Visual Programming` `#Workflow Automation` `#ai` `#apis` `#automation` `#cli` `#data-flow` `#development` `#integration-framework` `#integrations` `#ipaas` `#low-code` `#low-code-platform` `#mcp` `#mcp-client` `#mcp-server` `#n8n` `#no-code` `#self-hosted` `#typescript` `#workflow` `#workflow-automation` 
 > n8n is a secure workflow automation platform combining visual building with custom code (JavaScript/Python), offering 400+ integrations, native AI capabilities via LangChain, and flexible deployment options—self-hosted or cloud—under a fair-code license for full data control and extensibility.
@@ -6252,7 +6273,7 @@
 ## cline/cline
 
 > [!info]
-> ⭐ 71,793 · TypeScript · 2026-11-20T21:25:52Z  
+> ⭐ 71,808 · TypeScript · 2026-11-21T22:38:04Z  
 > [GitHub](https://github.com/cline/cline) · [Website](https://cline.bot)  
 > `#AI 智能体` `#Autonomous Coding` `#IDE Extension` `#MCP Protocol` 
 > Cline is an autonomous coding agent integrated directly into your IDE, powered by Claude Sonnet's agentic capabilities. It can create/edit files, execute terminal commands, use browsers, and more—with your permission at every step. Designed for complex software development tasks through AST analysis, regex searches, and context-aware workflows, it extends functionality via the Model Context Protocol (MCP) while maintaining human oversight for safety.
@@ -6271,7 +6292,7 @@
 ## p0deje/Maccy
 
 > [!info]
-> ⭐ 22,402 · Swift · 2026-11-20T19:37:58Z  
+> ⭐ 22,410 · Swift · 2026-11-21T15:53:05Z  
 > [GitHub](https://github.com/p0deje/Maccy) · [Website](https://maccy.app)  
 > `#Clipboard Manager` `#Productivity Tool` `#macOS Utility` `#clipboard-manager` `#maccy` `#macos` 
 > Maccy is a lightweight clipboard manager for macOS that preserves copy history with fast search and retrieval. It emphasizes keyboard-first interaction, native UI, privacy, and open-source design. Features include smart filtering, hotkey-based actions, and customizable ignore rules for enhanced productivity.
@@ -6291,7 +6312,7 @@
 ## Loyalsoldier/clash-rules
 
 > [!info]
-> ⭐ 29,395 · N/A · 2026-11-20T23:58:15Z  
+> ⭐ 29,410 · N/A · 2026-11-21T23:08:01Z  
 > [GitHub](https://github.com/Loyalsoldier/clash-rules)  
 > `#Clash Premium` `#Network Proxy` `#Rule Sets` `#adblock` `#adguard` `#anticensorship` `#chinalist` `#clash` `#dnsmasq` `#easylist` `#geosite` `#gfw` `#gfwlist` `#proxy` `#routing` `#shadowsocks` `#ss` `#ssr` `#surge` `#v2ray` 
 > This project provides rule sets (RULE-SET) specifically designed for Clash Premium kernel, including direct, proxy, and ad-blocking domain lists. Compatible with ClashX Pro, Clash for Windows, and other GUI clients. Data sources include v2ray-rules-dat and domain-list-community, with daily automatic updates and support for China IP address recognition, ideal for network traffic control and bypassing restrictions.
@@ -6321,7 +6342,7 @@
 ## sjzar/chatlog
 
 > [!info]
-> ⭐ 9,173 · N/A · 2026-11-20T07:56:20Z  
+> ⭐ 9,173 · N/A · 2026-11-21T08:00:00Z  
 > [GitHub](https://github.com/sjzar/chatlog)  
 > `#Chat Log Tool` `#Compliance Risk` `#Data Management` `#chat` `#chatlog` `#database` `#key` `#redteam` `#wechat` 
 > Chatlog was a chat log tool designed to help users easily manage and utilize their own chat data. Due to compliance risks identified in an official letter from WeChat, the project was voluntarily removed on October 20, 2025. Only this notice remains; no code, binaries, or support are available. Users are advised to delete any local copies to avoid legal issues.
@@ -6331,7 +6352,7 @@
 ## SparkAudio/Spark-TTS
 
 > [!info]
-> ⭐ 10,983 · Python · 2026-11-20T09:08:47Z  
+> ⭐ 10,982 · Python · 2026-11-21T13:48:40Z  
 > [GitHub](https://github.com/SparkAudio/Spark-TTS)  
 > `#AI Large Language Model` `#Text-to-Speech` `#Zero-Shot Learning` 
 > Spark-TTS is an efficient LLM-based text-to-speech model using Qwen2.5 for high-quality, bilingual (Chinese/English) speech synthesis. It supports zero-shot voice cloning and controllable generation (e.g., gender, pitch) with a single-stream decoupled architecture that directly reconstructs audio from LLM-predicted tokens, eliminating the need for separate acoustic models and enabling cross-lingual applications.
@@ -6371,7 +6392,7 @@
 ## binary-husky/gpt_academic
 
 > [!info]
-> ⭐ 71,703 · Python · 2026-11-20T21:56:00Z  
+> ⭐ 71,707 · Python · 2026-11-21T17:15:46Z  
 > [GitHub](https://github.com/binary-husky/gpt_academic) · [Website](https://github.com/binary-husky/gpt_academic/wiki/online)  
 > `#AI Large Model` `#Academic Writing` `#Multi-Model Support` `#Research Tool` `#academic` `#chatglm-6b` `#chatgpt` `#gpt-4` `#large-language-models` 
 > GPT Academic is a practical interface for GPT/GLM and other LLMs, optimized for academic tasks like paper reading, editing, and writing. It features modular plugins, custom shortcuts, code analysis, PDF/LaTeX translation, and supports multiple models including Qwen, DeepSeek, and local deployments like ChatGLM3.
@@ -6381,7 +6402,7 @@
 ## subframe7536/maple-font
 
 > [!info]
-> ⭐ 29,828 · Python · 2026-11-20T23:12:35Z  
+> ⭐ 29,835 · Python · 2026-11-21T22:48:30Z  
 > [GitHub](https://github.com/subframe7536/maple-font) · [Website](https://font.subf.dev)  
 > `#Developer Tool` `#Font Design` `#Monospace Font` `#coding-font` `#font` `#ligatures` `#monospace` `#monospace-font` `#opentype` `#programming-font` `#programming-ligatures` `#typeface` `#typography` `#variable-font` 
 > Maple Mono is an open-source monospace font designed to enhance coding flow, featuring rounded corners, ligatures, and Nerd-Font icons for IDEs and terminals. It offers variable font weights, smart ligatures, perfect 2:1 Chinese-English alignment, and extensive customization, supporting Simplified Chinese, Traditional Chinese, and Japanese for multilingual development environments.
@@ -6391,7 +6412,7 @@
 ## daodao97/chatmcp
 
 > [!info]
-> ⭐ 2,227 · Dart · 2026-11-18T04:27:43Z  
+> ⭐ 2,226 · Dart · 2026-11-21T15:48:59Z  
 > [GitHub](https://github.com/daodao97/chatmcp) · [Website](https://daodao97.github.io/chatmcp/)  
 > `#AI 智能体` `#Cross-Platform App` `#MCP Protocol` `#ai` `#chat` `#client` `#mcp` `#mcp-client` 
 > ChatMCP is a cross-platform AI chat client implementing the Model Context Protocol (MCP), supporting MacOS, Windows, Linux, iOS, Android, and Web. It offers local storage, data sync, LaTeX rendering, Mermaid diagram generation, HTML preview, and multi-LLM provider integration for intelligent conversations and tool workflows.
@@ -6411,7 +6432,7 @@
 ## SylarLong/iztro
 
 > [!info]
-> ⭐ 4,418 · TypeScript · 2026-11-20T11:54:48Z  
+> ⭐ 4,421 · TypeScript · 2026-11-21T09:23:42Z  
 > [GitHub](https://github.com/SylarLong/iztro) · [Website](https://iztro.com)  
 > `#Astrology Analysis` `#JavaScript` `#Zi Wei Dou Shu` `#astrolabe` `#astrology` `#chinese-astrology` `#horoscope` `#iztro` `#natal-chart` `#typescript` `#ziwei` `#ziweidoushu` 
 > iztro is a lightweight JavaScript library for generating Zi Wei Dou Shu astrolabes, supporting multi-language input/output, star charts, zodiac signs, four pillars, luck cycles, and four transformations. It offers chainable APIs, plugin extensibility, and is ideal for astrology apps, cultural tools, and research.
@@ -6431,7 +6452,7 @@
 ## pot-app/pot-desktop
 
 > [!info]
-> ⭐ 19,323 · JavaScript · 2026-11-20T07:55:58Z  
+> ⭐ 19,323 · JavaScript · 2026-11-21T17:56:39Z  
 > [GitHub](https://github.com/pot-app/pot-desktop) · [Website](https://pot-app.com)  
 > `#Multi-API Translation` `#OCR Recognition` `#Text Translation` `#linux` `#macos` `#ocr` `#pot` `#pot-app` `#recognize` `#tauri` `#translate` `#translation` `#tts` `#windows` 
 > Pot is a cross-platform software for text translation and OCR, supporting Windows/macOS/Linux and Wayland. It integrates 20+ translation APIs including OpenAI, Google, and DeepL, offering parallel translation, speech synthesis, vocabulary export, plugin system, and external call functionality with a clean interface.
@@ -6441,7 +6462,7 @@
 ## STranslate/STranslate
 
 > [!info]
-> ⭐ 8,676 · C# · 2026-11-20T23:42:41Z  
+> ⭐ 8,681 · C# · 2026-11-21T13:22:10Z  
 > [GitHub](https://github.com/STranslate/STranslate) · [Website](https://stranslate.zggsong.com)  
 > `#OCR Recognition` `#Translation Tool` `#WPF Application` `#ocr` `#plugin` `#stranslate` `#translate` `#wpf` 
 > STranslate is a ready-to-use translation and OCR tool built with WPF, offering real-time multilingual translation and screen text recognition. It features a lightweight, cross-platform design with an intuitive interface, ideal for quick text processing in work and study environments.
@@ -6461,7 +6482,7 @@
 ## browser-use/browser-use
 
 > [!info]
-> ⭐ 121,616 · Python · 2026-11-20T23:06:09Z  
+> ⭐ 121,681 · Python · 2026-11-21T23:05:50Z  
 > [GitHub](https://github.com/browser-use/browser-use) · [Website](https://browser-use.com)  
 > `#AI 智能体` `#Browser Control` `#Web Automation` `#ai-agents` `#ai-tools` `#browser-agent` `#browser-automation` `#browser-use` `#cdp` `#cloud-browser` `#computer-use` `#headless-browser` `#llm` `#mcp` `#playwright` `#python` `#remote-browser` `#stealth-browser` `#web-automation` `#web-scraping` 
 > Browser-Use is an AI agent framework that enables LLM-driven automation of web tasks. It supports major LLMs (Gemini, Claude, etc.) and offers stealth cloud browsers for secure, scalable automation. Ideal for web scraping, testing, and data collection with seamless integration.
@@ -6471,7 +6492,7 @@
 ## labring/FastGPT
 
 > [!info]
-> ⭐ 30,078 · TypeScript · 2026-11-20T19:38:26Z  
+> ⭐ 30,082 · TypeScript · 2026-11-21T21:55:17Z  
 > [GitHub](https://github.com/labring/FastGPT) · [Website](https://fastgpt.io)  
 > `#AI 大模型` `#AI 智能体` `#Knowledge Base` `#Visual Workflow` `#agent` `#claude` `#deepseek` `#llm` `#mcp` `#nextjs` `#openai` `#qwen` `#rag` `#workflow` 
 > FastGPT is a knowledge-based AI agent platform built on LLMs, offering out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration. It enables rapid development and deployment of complex question-answering systems without extensive setup.
@@ -6481,7 +6502,7 @@
 ## pollinations/pollinations
 
 > [!info]
-> ⭐ 5,319 · TypeScript · 2026-11-20T07:27:46Z  
+> ⭐ 5,322 · TypeScript · 2026-11-21T16:54:57Z  
 > [GitHub](https://github.com/pollinations/pollinations) · [Website](https://pollinations.ai)  
 > `#AI Large Models` `#API Service` `#生成式 AI` `#colaboratory` `#colaboratory-notebook` `#diffusion` `#gan` `#generative` `#gsoc` `#hacktoberfest-accepted` `#hacktoberfest2025` `#javascript` `#machinelearning` `#nodejs` `#python` `#typescript` 
 > Pollinations.ai is an open-source generative AI platform offering free APIs for text-to-image, audio, video, and text generation using models like Stable Diffusion and Llama. It enables developers to integrate AI capabilities via simple API calls, supporting creative projects, app development, and automated content creation with an active community and growing ecosystem.
@@ -6491,7 +6512,7 @@
 ## beilunyang/moepush
 
 > [!info]
-> ⭐ 1,369 · TypeScript · 2026-11-18T02:31:53Z  
+> ⭐ 1,368 · TypeScript · 2026-11-21T04:46:36Z  
 > [GitHub](https://github.com/beilunyang/moepush) · [Website](https://moepush.app)  
 > `#Cloudflare` `#Message Push` `#Multi-Platform Integration` `#Next.js` 
 > MoePush is an open-source message push service built with Next.js and Cloudflare, supporting 8+ channels including DingTalk, WeCom, and Telegram. It offers a clean API, shadcn/ui-based UI, GitHub OAuth, D1 database via Drizzle ORM, and Docker deployment for easy multi-platform notification integration.
@@ -6501,7 +6522,7 @@
 ## ThinkInAIXYZ/deepchat
 
 > [!info]
-> ⭐ 6,407 · TypeScript · 2026-11-20T17:51:55Z  
+> ⭐ 6,407 · TypeScript · 2026-11-21T17:15:32Z  
 > [GitHub](https://github.com/ThinkInAIXYZ/deepchat) · [Website](https://deepchat.thinkinai.xyz/)  
 > `#AI 智能体` `#Desktop Application` `#MCP Tool Calling` `#Multi-Model Support` `#agent` `#agent-skills` `#ai` `#ai-assistant` `#ai-sdk` `#chatgpt` `#claude` `#cross-platform` `#deepseek` `#electron` `#gemini` `#harness-design` `#hermes-agent` `#llm-client` `#mcp` `#mcp-client` `#openai-client` `#openclaw` 
 > DeepChat is a powerful open-source AI agent platform that unifies models, tools, and agents, offering multi-LLM chat, MCP tool calling, and ACP agent integration for seamless desktop AI assistance.
@@ -6511,7 +6532,7 @@
 ## xxlllq/system_architect
 
 > [!info]
-> ⭐ 8,892 · HTML · 2026-11-20T01:11:41Z  
+> ⭐ 8,894 · HTML · 2026-11-21T08:47:57Z  
 > [GitHub](https://github.com/xxlllq/system_architect) · [Website](https://fchxxn.com/exam)  
 > `#Certification Training` `#Exam Preparation` `#System Architecture` `#examination` `#ruankao` 
 > This repository provides comprehensive study materials for the 2026 System Architect Designer exam (a senior-level soft certification). It includes past papers, mock tests, video courses, and essay templates. Free and paid resources are updated regularly, with multi-platform practice tools (web, WeChat mini-program, mobile app) and optimized tutorials to help candidates pass efficiently.
@@ -6521,7 +6542,7 @@
 ## miantiao-me/hacker-podcast
 
 > [!info]
-> ⭐ 2,606 · TypeScript · 2026-11-19T13:18:51Z  
+> ⭐ 2,607 · TypeScript · 2026-11-21T17:26:20Z  
 > [GitHub](https://github.com/miantiao-me/hacker-podcast) · [Website](https://hacker-podcast.agi.li)  
 > `#AI Large Model` `#AI 智能体` `#Podcast Automation` `#网页爬虫` `#ai` `#ai-agent` `#ai-workflow` `#cloudflare` `#cloudflare-workers` `#cloudflare-workflows` `#hacker-news` `#nextjs` 
 > Agili's Hacker Podcast is an AI-powered Chinese podcast project that automatically fetches daily top articles from Hacker News, generates Chinese summaries via AI, and converts them into audio content. Built with Cloudflare Workers, OpenAI API, and TTS, it supports multi-platform RSS and web access for automated tech news aggregation.
@@ -6531,7 +6552,7 @@
 ## massgravel/Microsoft-Activation-Scripts
 
 > [!info]
-> ⭐ 200,318 · Batchfile · 2026-11-20T23:40:40Z  
+> ⭐ 200,418 · Batchfile · 2026-11-21T23:00:31Z  
 > [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts) · [Website](https://massgrave.dev)  
 > `#Automation Tool` `#System Activation` `#Windows Office` `#activator` `#hwid` `#kms` `#kms38` `#massgrave` `#massgravel` `#microsoft` `#microsoft365` `#office` `#office365` `#ohook` `#powershell` `#tsforge` `#windows` `#windows-10` `#windows-11` 
 > MAS is an open-source activator for Windows and Office using HWID, Ohook, TSforge, and Online KMS methods, with advanced troubleshooting. It enables one-click activation via PowerShell or CMD scripts, supporting Windows 8.1/10/11 and Office, featuring automation and cross-platform compatibility.
@@ -6541,7 +6562,7 @@
 ## Anxcye/anx-reader
 
 > [!info]
-> ⭐ 9,272 · Dart · 2026-11-20T15:42:54Z  
+> ⭐ 9,277 · Dart · 2026-11-21T14:49:51Z  
 > [GitHub](https://github.com/Anxcye/anx-reader) · [Website](https://anx.anxcye.com)  
 > `#AI 智能体` `#Cross-platform` `#E-book Reader` `#dart` `#ebook-reader` `#flutter` 
 > Anx Reader is an AI-powered e-book reader designed for book lovers, supporting multiple formats like EPUB, MOBI, AZW3, FB2, TXT, and PDF. It features AI summaries, translation, mind mapping, cross-platform sync, customizable typography, TTS, and reading analytics to enhance focus and reading pleasure.
@@ -6551,7 +6572,7 @@
 ## infiniflow/ragflow
 
 > [!info]
-> ⭐ 94,486 · Go · 2026-11-20T22:27:32Z  
+> ⭐ 94,512 · Go · 2026-11-21T22:25:02Z  
 > [GitHub](https://github.com/infiniflow/ragflow) · [Website](https://ragflow.io)  
 > `#AI 智能体` `#Knowledge Base` `#RAG 检索增强` `#agent-harness` `#agent-native-database` `#agentic-ai` `#agentic-retrieval` `#agentic-search` `#ai` `#ai-agents` `#context-engine` `#context-engineering` `#context-management` `#harness-engineering` `#knowledge-compilation` `#rag` `#retrieval-augmented-generation` `#retrieval-harness` `#search-harness` 
 > RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that seamlessly integrates advanced RAG with Agent capabilities to build superior context layers for LLMs. It delivers a streamlined, scalable workflow ideal for enterprises, supporting multilingual document processing, intelligent Q&A, knowledge base construction, and agent-driven task automation.
@@ -6571,7 +6592,7 @@
 ## onlook-dev/onlook
 
 > [!info]
-> ⭐ 27,596 · TypeScript · 2026-11-20T23:22:44Z  
+> ⭐ 27,699 · TypeScript · 2026-11-21T21:46:53Z  
 > [GitHub](https://github.com/onlook-dev/onlook) · [Website](https://onlook.com)  
 > `#AI 智能体` `#Frontend Tool` `#React Development` `#Visual Editor` `#ai` `#astryx` `#claude-code` `#codex` `#cursor` `#design` `#design-system` `#design-to-code` `#design-tool` `#figma` `#frontend` `#ide` `#react` `#styled-components` `#typescript` `#ui` `#vibe-coding` `#vibecoding` `#visual-engineering` 
 > Onlook is an open-source, AI-first visual code editor for designers, enabling real-time React app editing in the browser. Built with Next.js and TailwindCSS, it offers a Figma-like interface for visual development, component management, and instant deployment, serving as an alternative to tools like Bolt.new.
@@ -6581,7 +6602,7 @@
 ## zanjie1999/meDisplay
 
 > [!info]
-> ⭐ 410 · Python · 2026-10-29T11:33:00Z  
+> ⭐ 411 · Python · 2026-11-21T03:06:44Z  
 > [GitHub](https://github.com/zanjie1999/meDisplay) · [Website](https://www.bilibili.com/video/BV1Qf25YQEj4/)  
 > `#Cross-Platform` `#Real-Time Transcoding` `#Screen Mirroring` `#Secondary Display` `#display` `#ffmpeg` `#http-server` `#linux` `#macos` `#streaming` `#windows` 
 > meDisplay is a cross-platform screen mirroring tool that turns any browser-equipped device (e.g., Android tablet) into a secondary display for Mac, mimicking Apple's Sidecar. Built with real-time ffmpeg transcoding, it supports mjpg, vp8, h264, and hevc encoding with ultra-low latency (as low as 100ms in mjpg mode). Also supports Windows/Linux X11 mirroring, auto-rotation, fullscreen toggle, and ADB-based Android wired connection for seamless multi-screen workflows.
@@ -6591,7 +6612,7 @@
 ## Mintplex-Labs/anything-llm
 
 > [!info]
-> ⭐ 68,472 · JavaScript · 2026-11-20T23:17:32Z  
+> ⭐ 68,488 · JavaScript · 2026-11-21T22:36:14Z  
 > [GitHub](https://github.com/Mintplex-Labs/anything-llm) · [Website](https://anythingllm.com)  
 > `#AI Agents` `#Desktop Application` `#No-Code Tools` `#RAG 检索增强` `#agent-computer` `#agent-harness` `#agent-orchestration` `#agentic-ai` `#agentic-workflow` `#ai-agents` `#computer-use` `#hermes-agent` `#llm` `#local-ai` `#localai` `#multimodal` `#rag` `#self-hosted-ai` `#vector-database` 
 > AnythingLLM is a full-stack desktop and Docker-based AI application featuring built-in RAG, AI agents, no-code agent builder, and MCP compatibility. It supports customizable LLMs and vector databases, multi-user management, and seamless document interaction for intelligent chat and automation.
@@ -6601,7 +6622,7 @@
 ## rag-web-ui/rag-web-ui
 
 > [!info]
-> ⭐ 3,303 · TypeScript · 2026-11-16T15:55:26Z  
+> ⭐ 3,304 · TypeScript · 2026-11-21T02:29:30Z  
 > [GitHub](https://github.com/rag-web-ui/rag-web-ui)  
 > `#AI 智能体` `#Knowledge Base` `#RAG 检索增强` `#ai` `#deepseek` `#langchain` `#ollama` `#rag` 
 > RAG Web UI is an intelligent dialogue system powered by Retrieval-Augmented Generation (RAG) technology, enabling precise knowledge-based Q&A through document retrieval and LLM integration. It supports multi-format document ingestion, asynchronous processing, vectorization, and flexible LLM deployment (OpenAI, DeepSeek, Ollama), with a scalable backend architecture and OpenAPI for external access.
@@ -6611,7 +6632,7 @@
 ## fmz200/wool_scripts
 
 > [!info]
-> ⭐ 6,019 · Vim Snippet · 2026-11-20T17:59:36Z  
+> ⭐ 6,022 · Vim Snippet · 2026-11-21T17:05:19Z  
 > [GitHub](https://github.com/fmz200/wool_scripts)  
 > `#Ad Blocking Rules` `#Network Proxy` `#Response Body Parsing` 
 > This repository offers configuration files and ad-blocking rules for Loon, Surge, Quantumult X, and other proxy tools, including ad removal for apps like Douyin and Weibo, with MITM-based response parsing to enhance browsing experience.
@@ -6651,7 +6672,7 @@
 ## stark81/VutronMusic
 
 > [!info]
-> ⭐ 1,655 · Vue · 2026-11-20T21:23:08Z  
+> ⭐ 1,657 · Vue · 2026-11-21T08:48:24Z  
 > [GitHub](https://github.com/stark81/VutronMusic)  
 > `#Cross-Platform` `#Electron` `#Music Player` 
 > VutronMusic is a high-end third-party NetEase Cloud Music player supporting local music, streaming services (Navidrome, Jellyfin), offline playlists, and karaoke-style lyrics. Features include desktop lyrics, system tray display, pitch/speed control, custom themes, and advanced audio effects. Built with Vue3, TypeScript, Fastify, and Electron for cross-platform support.
@@ -6661,7 +6682,7 @@
 ## jeffvli/feishin
 
 > [!info]
-> ⭐ 10,455 · TypeScript · 2026-11-20T17:35:39Z  
+> ⭐ 10,465 · TypeScript · 2026-11-21T21:35:21Z  
 > [GitHub](https://github.com/jeffvli/feishin) · [Website](https://feishin.vercel.app)  
 > `#Desktop Application` `#Music Player` `#Self-Hosted` `#jellyfin` `#music-player` `#navidrome` `#self-hosted` `#subsonic` `#subsonic-client` 
 > Feishin is a modern self-hosted music player featuring MPV and web player backends, a sleek UI, smart playlist editing, synchronized lyrics, and playback scrobbling to your server, ideal for managing personal music libraries and streaming.
@@ -6681,7 +6702,7 @@
 ## beilunyang/moemail
 
 > [!info]
-> ⭐ 2,831 · TypeScript · 2026-11-20T01:10:54Z  
+> ⭐ 2,832 · TypeScript · 2026-11-21T16:25:52Z  
 > [GitHub](https://github.com/beilunyang/moemail) · [Website](https://moemail.app)  
 > `#Cloudflare` `#Privacy Protection` `#Temporary Email` `#cloudflare` `#cloudflare-workers` `#email` `#temp-email` 
 > MoeMail is a cute temporary email service built with Next.js and Cloudflare, offering privacy protection, real-time email receipt, flexible validity periods, theme switching, PWA support, and self-hosting capabilities. It supports email sending, webhook notifications, OpenAPI access, and a user-friendly interface for personal or team use.
@@ -6691,7 +6712,7 @@
 ## whotto/Video_note_generator
 
 > [!info]
-> ⭐ 1,850 · Python · 2026-11-17T12:40:34Z  
+> ⭐ 1,851 · Python · 2026-11-21T08:45:58Z  
 > [GitHub](https://github.com/whotto/Video_note_generator)  
 > `#AI Large Model` `#Content Automation` `#Social Media Tool` 
 > Video Note Generator automatically converts videos into high-quality Xiaohongshu notes with speech-to-text, AI content optimization, title generation, image fetching, and hashtag creation. V2.0 features a modern FastAPI web interface, batch processing, 30-minute video support, smart retry mechanisms, and history tracking for efficient content production.
@@ -6701,7 +6722,7 @@
 ## kingparks/cursor-vip
 
 > [!info]
-> ⭐ 4,740 · Go · 2026-11-20T13:27:18Z  
+> ⭐ 4,741 · Go · 2026-11-21T15:55:06Z  
 > [GitHub](https://github.com/kingparks/cursor-vip) · [Website](https://cursor.jeter.eu.org)  
 > `#AI 智能体` `#Automation Tool` `#IDE Extension` `#提示工程` `#cursor` `#cursor-pro` 
 > cursor-vip is a tool that unlocks Cursor IDE's paid VIP features via shared access, supporting multi-language configuration and proxy modes. It offers stable Claude model access, easy deployment via scripts or binaries, and enables developers to use advanced AI coding features despite regional payment restrictions, though with lower stability than the official version.
@@ -6720,7 +6741,7 @@
 ## acmesh-official/acme.sh
 
 > [!info]
-> ⭐ 47,969 · Shell · 2026-11-20T15:03:12Z  
+> ⭐ 47,971 · Shell · 2026-11-21T15:27:44Z  
 > [GitHub](https://github.com/acmesh-official/acme.sh) · [Website](https://acme.sh)  
 > `#Certificate Management` `#DevOps Automation` `#Shell Script` `#acme` `#acme-challenge` `#acme-protocol` `#acme-v2` `#ash` `#bash` `#buypass` `#certbot` `#lets-encrypt` `#posix` `#posix-sh` `#shell` `#ssl` `#ssl-certificate` `#ssl-certificates` `#tls` `#tls-certificate` `#zerossl` 
 > acme.sh is a pure Unix shell script ACME client for automating SSL/TLS certificate issuance and renewal. It supports ECDSA, wildcard, and SAN certificates, runs on major OS platforms and containers, and is easy to deploy—masterable in just 3 minutes for efficient DevOps automation.
@@ -6740,7 +6761,7 @@
 ## nilbuild/developer-roadmap
 
 > [!info]
-> ⭐ 372,455 · TypeScript · 2026-11-20T23:45:02Z  
+> ⭐ 372,509 · TypeScript · 2026-11-21T23:05:41Z  
 > [GitHub](https://github.com/nilbuild/developer-roadmap) · [Website](https://roadmap.sh)  
 > `#Career Roadmap` `#Developer Education` `#Skill Development` `#angular-roadmap` `#backend-roadmap` `#blockchain-roadmap` `#computer-science` `#dba-roadmap` `#developer-roadmap` `#devops-roadmap` `#frontend-roadmap` `#go-roadmap` `#java-roadmap` `#javascript-roadmap` `#nodejs-roadmap` `#python-roadmap` `#qa-roadmap` `#react-roadmap` `#roadmap` `#software-architect-roadmap` `#vue-roadmap` 
 > This repository offers interactive developer roadmaps across dozens of tech domains like frontend, backend, DevOps, AI, and data science, along with best practices and interview questions to guide career growth and skill development.
@@ -6750,7 +6771,7 @@
 ## microsoft/playwright-python
 
 > [!info]
-> ⭐ 15,120 · Python · 2026-11-20T14:13:43Z  
+> ⭐ 15,121 · Python · 2026-11-21T21:53:19Z  
 > [GitHub](https://github.com/microsoft/playwright-python) · [Website](https://playwright.dev/python/)  
 > `#Browser Automation` `#E2E Testing` `#Python Library` `#chromium` `#firefox` `#playwright` `#webkit` 
 > Playwright-Python is Microsoft's cross-browser automation library supporting Chromium, Firefox, and WebKit. It offers sync/async APIs with features like headless mode, auto-waiting, and network interception, ideal for E2E testing, web scraping, and automation across platforms with high reliability and performance.
@@ -6760,7 +6781,7 @@
 ## microsoft/playwright
 
 > [!info]
-> ⭐ 100,682 · TypeScript · 2026-11-20T23:22:27Z  
+> ⭐ 100,743 · TypeScript · 2026-11-21T23:14:45Z  
 > [GitHub](https://github.com/microsoft/playwright) · [Website](https://playwright.dev)  
 > `#Cross-Browser Testing` `#End-to-End Testing` `#Web Automation` `#automation` `#chrome` `#chromium` `#e2e-testing` `#electron` `#end-to-end-testing` `#firefox` `#javascript` `#playwright` `#test` `#test-automation` `#testing` `#testing-tools` `#web` `#webkit` 
 > Playwright is a modern framework for web testing and automation that provides a single API to test Chromium, Firefox, and WebKit browsers. It features built-in auto-waiting, cross-browser support, no artificial timeouts, and native tracing/video capture, making end-to-end tests more reliable and efficient.
@@ -6780,7 +6801,7 @@
 ## Genymobile/scrcpy
 
 > [!info]
-> ⭐ 155,285 · C · 2026-11-20T23:52:55Z  
+> ⭐ 155,350 · C · 2026-11-21T22:31:21Z  
 > [GitHub](https://github.com/Genymobile/scrcpy)  
 > `#Device Control` `#Mobile Development` `#Screen Mirroring` `#android` `#c` `#ffmpeg` `#genyteam-system` `#libav` `#mirroring` `#recording` `#screen` `#sdl2` 
 > scrcpy is a lightweight, high-performance Android device mirroring and control tool that supports USB/TCP connections without requiring root access or additional apps. It delivers 30~120fps video at 1920×1080+ quality with 35~70ms latency and sub-second startup. Features include audio forwarding, recording, virtual display, HID keyboard/mouse simulation, gamepad support, and more, available on Linux, Windows, and macOS.
@@ -6790,7 +6811,7 @@
 ## didi/xiaoju-survey
 
 > [!info]
-> ⭐ 3,803 · TypeScript · 2026-11-20T14:04:40Z  
+> ⭐ 3,805 · TypeScript · 2026-11-21T13:02:29Z  
 > [GitHub](https://github.com/didi/xiaoju-survey) · [Website](https://xiaojusurvey.didi.cn)  
 > `#AI 智能体` `#Enterprise Survey` `#Vue3` `#数据可视化` `#ai` `#dynamic-form-builder` `#enterprises` `#form` `#form-builder` `#java` `#llm` `#nodejs` `#question` `#quiz` `#react-native` `#survey` `#vue3` 
 > XIAOJUSURVEY is an enterprise-grade form builder and analytics platform enabling creation of questionnaires, exams, polls, and quizzes with online data analysis. Built on Vue3 + NestJS, it offers 40+ question types, 100+ templates, AI-powered survey generation, logic rules, cross-analysis, and brand customization for market research, customer feedback, and educational assessments.
@@ -6800,7 +6821,7 @@
 ## AntonOsika/gpt-engineer
 
 > [!info]
-> ⭐ 54,948 · Python · 2026-11-20T21:18:46Z  
+> ⭐ 54,946 · Python · 2026-11-21T21:18:19Z  
 > [GitHub](https://github.com/AntonOsika/gpt-engineer)  
 > `#AI 智能体` `#CLI Tool` `#Code Generation` `#ai` `#autonomous-agent` `#code-generation` `#codebase-generation` `#codegen` `#coding-assistant` `#gpt-4` `#gpt-engineer` `#openai` `#python` 
 > gpt-engineer is a CLI platform for experimenting with AI-driven code generation. It allows users to specify software in natural language, watch an AI write and execute code, and iteratively improve it. Supports OpenAI, local models, and Azure, with features for project creation, code improvement, and benchmarking custom agents.
@@ -6810,7 +6831,7 @@
 ## timlrx/tailwind-nextjs-starter-blog
 
 > [!info]
-> ⭐ 10,553 · TypeScript · 2026-11-20T21:20:47Z  
+> ⭐ 10,554 · TypeScript · 2026-11-21T13:14:11Z  
 > [GitHub](https://github.com/timlrx/tailwind-nextjs-starter-blog) · [Website](https://tailwind-nextjs-starter-blog.vercel.app/)  
 > `#Blog Template` `#Next.js` `#Tailwind CSS` `#Technical Writing` `#blogging` `#demo-blog` `#mdx` `#nextjs` `#publishing` `#reactjs` `#tailwind-css` 
 > A feature-rich Next.js and Tailwind CSS blogging starter template based on the App Router and React Server Components, using Contentlayer for markdown content management. Fully configured out-of-the-box, highly customizable, and ideal for replacing Jekyll and Hugo personal blogs with modern technical writing capabilities.
@@ -6820,7 +6841,7 @@
 ## caol64/wenyan
 
 > [!info]
-> ⭐ 1,097 · Swift · 2026-11-20T04:42:17Z  
+> ⭐ 1,097 · Swift · 2026-11-21T13:22:52Z  
 > [GitHub](https://github.com/caol64/wenyan) · [Website](https://wenyan.yuzhi.tech)  
 > `#Content Creation` `#Markdown Formatting` `#Multi-Platform Publishing` `#swiftui` `#wechat` `#wenyan` 
 > Wenyan is a Markdown formatting and publishing tool designed for content creators, enabling one-click conversion of Markdown articles into platform-specific rich text formats for WeChat Official Accounts, Zhihu, Toutiao, and more. It features built-in Typora themes, custom styling, automatic image uploads, MathJax support, and seamless cross-platform publishing.
@@ -6840,7 +6861,7 @@
 ## WangRongsheng/awesome-LLM-resources
 
 > [!info]
-> ⭐ 9,098 · N/A · 2026-11-19T23:14:57Z  
+> ⭐ 9,099 · N/A · 2026-11-21T09:00:02Z  
 > [GitHub](https://github.com/WangRongsheng/awesome-LLM-resources)  
 > `#AI Large Language Models` `#AI 智能体` `#Multimodal` `#Resource Compilation` `#awesome-list` `#book` `#course` `#large-language-models` `#llama` `#llm` `#mistral` `#openai` `#qwen` `#rag` `#retrieval-augmented-generation` `#webui` 
 > This repository is the most comprehensive collection of LLM resources globally, covering multimodal generation, agents, code assistance, AI review, data processing, model training and inference, and more. It serves as an authoritative one-stop guide for researchers and developers, continuously updated.
@@ -6850,7 +6871,7 @@
 ## JingMatrix/Vector
 
 > [!info]
-> ⭐ 13,240 · Kotlin · 2026-11-20T19:47:32Z  
+> ⭐ 13,255 · Kotlin · 2026-11-21T22:34:15Z  
 > [GitHub](https://github.com/JingMatrix/Vector) · [Website](https://modules.lsposed.org/)  
 > `#ART Hooking Framework` `#Android Reverse Engineering` `#Zygisk Module` `#android` `#arthook` `#lsposed` `#xposed` `#zygisk` 
 > Vector Framework is a high-performance ART hooking framework for modern Android, built on LSPlant and designed as a Zygisk module. It maintains API compatibility with legacy Xposed while supporting Android 8.1 through 17 Beta. The framework enables non-destructive in-memory modifications to system and app behavior without altering APKs, ensuring reversibility and broad ROM compatibility.
@@ -6860,7 +6881,7 @@
 ## mihomo-party-org/clash-party
 
 > [!info]
-> ⭐ 27,281 · TypeScript · 2026-11-20T20:49:00Z  
+> ⭐ 27,289 · TypeScript · 2026-11-21T17:14:26Z  
 > [GitHub](https://github.com/mihomo-party-org/clash-party) · [Website](https://clashparty.org)  
 > `#Electron` `#GUI` `#Network Proxy` `#clash` `#clash-meta` `#electron` `#mihomo` 
 > Clash Party is an Electron-based GUI for Mihomo (Clash Meta) that offers an out-of-the-box proxy management tool. It features Smart Core AI-driven node selection, multi-theme UI, WebDAV config backup, Sub-Store integration, and dual-core support, streamlining complex proxy configurations for end users.
@@ -6870,7 +6891,7 @@
 ## docling-project/docling
 
 > [!info]
-> ⭐ 70,826 · Python · 2026-11-20T22:58:44Z  
+> ⭐ 70,853 · Python · 2026-11-21T22:45:27Z  
 > [GitHub](https://github.com/docling-project/docling) · [Website](https://docling-project.github.io/docling)  
 > `#AI Integration` `#Document Processing` `#Multi-Format Parsing` `#ai` `#convert` `#document-parser` `#document-parsing` `#documents` `#docx` `#html` `#markdown` `#pdf` `#pdf-converter` `#pdf-to-json` `#pdf-to-text` `#pptx` `#tables` `#xlsx` 
 > Docling is a powerful document processing tool that parses diverse formats (PDF, DOCX, PPTX, etc.) with advanced PDF layout analysis, table recognition, OCR, and ASR capabilities. It outputs unified DoclingDocument format, supports exports to Markdown, HTML, JSON, and integrates seamlessly with LangChain, LlamaIndex, and other AI frameworks for gen AI applications.
@@ -6890,7 +6911,7 @@
 ## getmaxun/maxun
 
 > [!info]
-> ⭐ 18,533 · TypeScript · 2026-11-20T21:08:19Z  
+> ⭐ 18,540 · TypeScript · 2026-11-21T19:22:56Z  
 > [GitHub](https://github.com/getmaxun/maxun) · [Website](https://www.maxun.dev)  
 > `#AI 智能体` `#Automation Tool` `#No-Code Platform` `#网页爬虫` `#agents` `#api` `#automation` `#browser-automation` `#crawler` `#crawling` `#data-extraction` `#no-code` `#nocode` `#playwright` `#robotic-process-automation` `#rpa` `#scraper` `#self-hosted` `#web-scraper` `#web-scraping` `#web-search` `#webscraping` 
 > Maxun is an open-source no-code platform for real-time web scraping, crawling, search, and AI-powered data extraction. It transforms any website into a structured API in minutes, offering recorder mode, LLM-driven extraction, full-page scraping, and scalable crawling—ideal for building automated data pipelines without coding.
@@ -6900,7 +6921,7 @@
 ## opendatalab/MinerU
 
 > [!info]
-> ⭐ 84,063 · Python · 2026-11-20T23:01:09Z  
+> ⭐ 84,101 · Python · 2026-11-21T20:52:27Z  
 > [GitHub](https://github.com/opendatalab/MinerU) · [Website](https://opendatalab.github.io/MinerU/)  
 > `#AI 智能体` `#Document Parsing` `#LLM Preprocessing` `#ai4science` `#document-analysis` `#docx` `#extract-data` `#layout-analysis` `#ocr` `#parser` `#pdf` `#pdf-converter` `#pdf-extractor-llm` `#pdf-extractor-pretrain` `#pdf-extractor-rag` `#pdf-parser` `#pptx` `#python` `#xlsx` 
 > MinerU is a high-performance document parsing tool that transforms complex documents like PDFs into LLM-ready structured outputs (Markdown/JSON), significantly enhancing document processing efficiency and data accessibility for agentic workflows.
@@ -6950,7 +6971,7 @@
 ## ltaoo/wx_channels_download
 
 > [!info]
-> ⭐ 10,688 · Go · 2026-11-20T18:17:08Z  
+> ⭐ 10,703 · Go · 2026-11-21T22:31:53Z  
 > [GitHub](https://github.com/ltaoo/wx_channels_download) · [Website](https://ltaoo.github.io/wx_channels_download/)  
 > `#Desktop Application` `#Video Downloader` `#浏览器插件` 
 > WeChat Channels Video Downloader is a lightweight cross-platform tool for Windows and macOS that enables one-click downloading of videos from WeChat Channels. It automatically installs certificates, starts a proxy service, and injects download buttons into the WeChat PC client interface. Users can select video quality (e.g., xWT111, xWT98) and download files with metadata displayed post-download, offering a simple and efficient experience.
@@ -6970,7 +6991,7 @@
 ## cs-lazy-tools/ChatGPT-On-CS
 
 > [!info]
-> ⭐ 4,630 · TypeScript · 2026-11-20T13:43:03Z  
+> ⭐ 4,631 · TypeScript · 2026-11-21T17:18:20Z  
 > [GitHub](https://github.com/cs-lazy-tools/ChatGPT-On-CS) · [Website](https://jinxiaoai.com/)  
 > `#AI Customer Service` `#E-commerce SaaS` `#Multi-platform Integration` `#ai` `#autohotkey` `#automation` `#bilibili` `#bot` `#chatgpt` `#chatgpt4` `#customer` `#dify` `#douyin` `#fastai` `#llm` `#pinduoduo` `#qianniu` `#wechat` `#wechat-bot` `#weibo` `#xiaohongshu` `#zhihu` 
 > JinXiao Data Cloud AI Customer Service is a professional e-commerce SaaS solution powered by large language models, supporting integration with 10+ mainstream platforms including WeChat, Pinduoduo, Qianniu, Douyin, Xiaohongshu, with capabilities for text/voice/image processing, custom knowledge base configuration, plugin ecosystem, and multi-dimensional data analytics including intent recognition.
@@ -6990,7 +7011,7 @@
 ## MetaCubeX/mihomo
 
 > [!info]
-> ⭐ 35,950 · Python · 2026-11-20T23:44:37Z  
+> ⭐ 35,975 · Python · 2026-11-21T19:36:13Z  
 > [GitHub](https://github.com/MetaCubeX/mihomo) · [Website](https://wiki.metacubex.one)  
 > `#API Data Parsing` `#Game Data Integration` `#Pydantic Models` `#honkai-star-rail` `#mihomo` `#python` `#star-rail-api` 
 > mihomo is a Python Pydantic model library designed for Honkai: Star Rail, offering strongly-typed data structures and autocompletion support for parsed data from the Mihomo API. It supports both V1 and V2 data formats, includes utility functions for character deduplication and data merging, and provides JSON/Pickle persistence options, greatly enhancing game data integration workflows.
@@ -7000,7 +7021,7 @@
 ## libnyanpasu/clash-nyanpasu
 
 > [!info]
-> ⭐ 13,340 · Rust · 2026-11-20T15:40:32Z  
+> ⭐ 13,343 · Rust · 2026-11-21T21:16:05Z  
 > [GitHub](https://github.com/libnyanpasu/clash-nyanpasu) · [Website](https://nyanpasu.org)  
 > `#GUI Client` `#Network Proxy` `#Tauri 框架` `#clash` `#clash-meta` `#clash-nyanpasu` `#clash-rs` `#material-expressive` `#material-you` `#meow-rs` `#mihomo` `#react` `#rust` `#tauri-app` 
 > Clash Nyanpasu is a Tauri-based GUI client for Clash network proxy, supporting Clash Premium, Mihomo, and Clash Rust cores. It offers profile and provider management with Google Material You UI design, dark/light themes, and cross-platform support.
@@ -7010,7 +7031,7 @@
 ## clash-verge-rev/clash-verge-rev
 
 > [!info]
-> ⭐ 159,610 · TypeScript · 2026-11-20T23:29:50Z  
+> ⭐ 159,786 · TypeScript · 2026-11-21T23:02:51Z  
 > [GitHub](https://github.com/clash-verge-rev/clash-verge-rev) · [Website](https://www.clashverge.dev)  
 > `#Cross-Platform Desktop App` `#Proxy Tool` `#Tauri 框架` `#clash` `#clash-meta` `#clash-verge` `#linux` `#mac` `#mihomo` `#tauri-app` `#windows` 
 > Clash Verge Rev is a modern GUI client for Clash.Meta (mihomo) built with Tauri 2 and Rust, offering cross-platform support (Windows, macOS, Linux), intuitive UI, config management, TUN mode, WebDav sync, and customizable themes for advanced proxy control.
@@ -7030,7 +7051,7 @@
 ## ChinaGodMan/UserScripts
 
 > [!info]
-> ⭐ 2,148 · JavaScript · 2026-11-20T22:23:39Z  
+> ⭐ 2,148 · JavaScript · 2026-11-21T18:32:47Z  
 > [GitHub](https://github.com/ChinaGodMan/UserScripts) · [Website](https://greasyfork.org/scripts?by=1169082)  
 > `#Tampermonkey Script` `#Web Automation` `#浏览器插件` `#chatgpt` `#chinese-translation` `#csdn` `#github` `#google` `#greasyfork` `#greasyfork-org` `#greasyfork-script` `#greasymonkey` `#hightlight` `#missav-downloader` `#popup-window` `#scrollbar` `#tampermonkey` `#translation` `#userjs` `#userscripts` `#violentmonkey` `#webpage` 
 > This repository hosts a collection of Tampermonkey user scripts, mostly modified from online sources, designed to enhance web functionality, optimize interfaces, and provide utility tools. Hosted on GreasyFork with multi-language support, these scripts boast high installation counts and positive user ratings, ideal for improving browsing efficiency and user experience.
@@ -7040,7 +7061,7 @@
 ## hiddify/hiddify-app
 
 > [!info]
-> ⭐ 34,224 · Dart · 2026-11-20T22:28:18Z  
+> ⭐ 34,288 · Dart · 2026-11-21T23:11:45Z  
 > [GitHub](https://github.com/hiddify/hiddify-app) · [Website](https://hiddify.com)  
 > `#Cross-platform Client` `#Proxy Tool` `#Sing-box` `#clash` `#clashmeta` `#ech` `#hysteria` `#hysteria2` `#proxy` `#reality` `#shadowsocks` `#shadowtls` `#sing-box` `#singbox` `#ssh` `#tuic` `#v2ray` `#vless` `#vmess` `#wireguard` `#xray` 
 > Hiddify is a multi-platform proxy client built on Sing-box, supporting Vless, Vmess, Reality, TUIC, Hysteria, WireGuard, SSH, and more. It features automatic node selection, TUN mode, remote configuration sync, and an intuitive UI. Open-source, ad-free, and secure, it's available on Android, iOS, Windows, macOS, and Linux.
@@ -7050,7 +7071,7 @@
 ## chen08209/FlClash
 
 > [!info]
-> ⭐ 64,420 · Dart · 2026-11-20T23:04:33Z  
+> ⭐ 64,612 · Dart · 2026-11-21T23:15:42Z  
 > [GitHub](https://github.com/chen08209/FlClash) · [Website](https://chen08209.github.io/FlClash)  
 > `#Cross-Platform Client` `#Flutter` `#Network Proxy` `#clash` `#clash-meta` `#flutter` `#hysteria` `#multi-platform` `#proxy` `#v2ray` `#vless` `#vpn` 
 > FlClash is a multi-platform proxy client based on ClashMeta, supporting Android, Windows, macOS, and Linux. It features Material You design, dark mode, WebDAV sync, subscription management, and an ad-free, open-source interface for seamless cross-device proxy control.
@@ -7060,7 +7081,7 @@
 ## unclecode/crawl4ai
 
 > [!info]
-> ⭐ 87,602 · Python · 2026-11-20T23:54:50Z  
+> ⭐ 87,637 · Python · 2026-11-21T22:38:50Z  
 > [GitHub](https://github.com/unclecode/crawl4ai) · [Website](https://crawl4ai.com/?ref=github-about)  
 > `#AI Large Model` `#Automation Tool` `#RAG 检索增强` `#Web Crawler` `#ai` `#ai-agents` `#crawl4ai-cloud` `#crawler` `#data-extraction` `#llm` `#markdown` `#mcp` `#open-source` `#playwright` `#python` `#rag` `#scraper` `#web-crawler` `#web-crawling` `#web-scraping` 
 > Crawl4AI is an open-source, LLM-friendly web crawler and scraper that converts web pages into clean, LLM-ready Markdown for RAG, agents, and data pipelines. It features high throughput, Docker support, crash recovery, prefetch mode for 5-10x faster URL discovery, and is battle-tested by a 50k+ star community. Ideal for scalable, cost-effective web extraction.
@@ -7080,7 +7101,7 @@
 ## open-webui/open-webui
 
 > [!info]
-> ⭐ 159,170 · Svelte · 2026-11-20T23:41:01Z  
+> ⭐ 159,222 · Svelte · 2026-11-21T22:59:48Z  
 > [GitHub](https://github.com/open-webui/open-webui) · [Website](https://openwebui.com)  
 > `#AI 智能体` `#Self-Hosted Platform` `#Web Application` `#ai` `#llm` `#llm-ui` `#llm-webui` `#llms` `#mcp` `#ollama` `#ollama-webui` `#open-webui` `#openai` `#openapi` `#rag` `#self-hosted` `#ui` `#webui` 
 > Open WebUI is a feature-rich, self-hosted AI platform supporting Ollama and OpenAI APIs, with built-in RAG inference engine, plugin extensibility, granular user permissions, responsive PWA design, voice/video calls, model builder, and native Python function calling for offline AI deployment and application development.
@@ -7100,7 +7121,7 @@
 ## langgenius/dify
 
 > [!info]
-> ⭐ 161,580 · Python · 2026-11-20T23:44:41Z  
+> ⭐ 161,626 · Python · 2026-11-21T23:09:17Z  
 > [GitHub](https://github.com/langgenius/dify) · [Website](https://dify.ai)  
 > `#AI 智能体` `#Enterprise Application` `#Workflow Orchestration` `#agent` `#agentic-ai` `#agentic-framework` `#agentic-workflow` `#ai` `#automation` `#claude` `#deepseek` `#genai` `#gpt` `#llm` `#low-code` `#mcp` `#nextjs` `#no-code` `#openai` `#python` `#skills` `#workflow` 
 > Dify is a production-ready platform for agentic workflow development, enabling visual orchestration, multi-model integration, and automated process building for enterprise AI application development.
@@ -7110,7 +7131,7 @@
 ## Huanshere/VideoLingo
 
 > [!info]
-> ⭐ 19,338 · Python · 2026-11-20T18:50:29Z  
+> ⭐ 19,346 · Python · 2026-11-21T19:18:27Z  
 > [GitHub](https://github.com/Huanshere/VideoLingo) · [Website](https://docs.videolingo.io)  
 > `#AI 智能体` `#Automation Tool` `#Video Processing` `#网页爬虫` `#ai-translation` `#dubbing` `#localization` `#video-translation` `#voice-cloning` 
 > VideoLingo is an all-in-one AI-powered video translation and dubbing tool that automates YouTube video processing, WhisperX-based word-level subtitle recognition, AI-driven segmentation, custom terminology, Netflix-standard single-line translations via a 3-step Translate-Reflect-Adapt pipeline, and multi-platform dubbing using GPT-SoVITS, Azure, or OpenAI TTS, enabling one-click global video localization.
@@ -7130,7 +7151,7 @@
 ## pure-admin/vue-pure-admin
 
 > [!info]
-> ⭐ 20,774 · Vue · 2026-11-20T08:07:40Z  
+> ⭐ 20,773 · Vue · 2026-11-21T16:58:55Z  
 > [GitHub](https://github.com/pure-admin/vue-pure-admin) · [Website](https://pure-admin.github.io/vue-pure-admin)  
 > `#Admin Dashboard` `#Modern Frontend Architecture` `#Vue3 Stack` `#admin` `#element-plus` `#esm` `#pinia` `#tailwindcss` `#typescript` `#vite` `#vue3` 
 > vue-pure-admin is a modern admin template built with ESM standard, using Vue3+Vite+Element-Plus+TypeScript stack. It supports mobile adaptation, offers complete frontend architecture and component library, includes i18n thin version with optimized bundle size under 350KB, and provides comprehensive documentation, video tutorials, Docker support, and Gitpod integration.
@@ -7140,7 +7161,7 @@
 ## doocs/md
 
 > [!info]
-> ⭐ 13,551 · TypeScript · 2026-11-20T13:44:25Z  
+> ⭐ 13,554 · TypeScript · 2026-11-21T17:04:10Z  
 > [GitHub](https://github.com/doocs/md) · [Website](https://md.doocs.org)  
 > `#AI Assistant` `#Markdown Tool` `#WeChat Editor` `#ai-bot` `#doocs` `#editor` `#llm` `#markdown` `#markdown-editor` `#tailwindcss` `#vite` `#vue` `#vue3` `#wechat` `#weixin` 
 > Doocs MD is a minimalist Markdown editor tailored for WeChat, supporting full Markdown syntax, math formulas, Mermaid charts, PlantUML, Ruby annotations, multi-image hosting, and AI assistants. It enables instant rendering of Markdown into visually appealing WeChat articles with customizable themes and local draft management.
@@ -7160,7 +7181,7 @@
 ## hiddendevj/Crawler_Illegal_Cases_In_China
 
 > [!info]
-> ⭐ 4,758 · HTML · 2026-11-20T01:55:36Z  
+> ⭐ 4,760 · HTML · 2026-11-21T19:43:00Z  
 > [GitHub](https://github.com/hiddendevj/Crawler_Illegal_Cases_In_China) · [Website](http://novagrid.ai)  
 > `#Data Compliance` `#Legal Risk` `#Web Crawling Security` `#china` `#crawler` `#law` 
 > This project compiles Chinese web crawler violation cases involving illegal data collection, commercial infringement, and unauthorized access. It analyzes relevant laws including the Criminal Law and Cybersecurity Law to guide practitioners in avoiding legal risks related to data compliance and personal information protection.
@@ -7180,7 +7201,7 @@
 ## joye61/pic-smaller
 
 > [!info]
-> ⭐ 2,894 · TypeScript · 2026-11-19T23:15:06Z  
+> ⭐ 2,895 · TypeScript · 2026-11-21T18:02:53Z  
 > [GitHub](https://github.com/joye61/pic-smaller) · [Website](https://picsmaller.com)  
 > `#Image Processing` `#Online Tool` `#WebAssembly` `#compress-images` `#offscreencanvas` `#safe-compression` `#webassembly` 
 > Pic Smaller is an intelligent online image compression tool supporting JPEG, PNG, WEBP, AVIF, SVG, and GIF formats. Built with pure frontend technologies like WebAssembly and Web Worker, it ensures complete privacy by processing images locally. Offers advanced features such as format conversion, color optimization, and side-by-side compression comparison, with a responsive UI for desktop and mobile.
@@ -7190,7 +7211,7 @@
 ## drawdb-io/drawdb
 
 > [!info]
-> ⭐ 40,355 · JavaScript · 2026-11-20T17:24:57Z  
+> ⭐ 40,358 · JavaScript · 2026-11-21T23:00:56Z  
 > [GitHub](https://github.com/drawdb-io/drawdb) · [Website](https://drawdb.app)  
 > `#Database Design` `#Online Tool` `#SQL Generation` `#database` `#database-design` `#database-diagram` `#database-schema` `#dbml` `#diagram-editor` `#editor` `#er-diagram` `#erd` `#erdiagram` `#indexeddb` `#mariadb` `#mcp` `#oracle-database` `#oracle-db` `#postgresql` `#schema-design` `#sql` `#sql-server` `#sqlite` 
 > DrawDB is a free, simple, and intuitive online database schema editor and SQL generator. It enables users to visually design database structures, generate SQL scripts, and export diagrams directly in the browser—no account required. Ideal for rapid prototyping, documentation, and team collaboration.
@@ -7210,7 +7231,7 @@
 ## lihaoyun6/QuickRecorder
 
 > [!info]
-> ⭐ 8,806 · Swift · 2026-11-20T20:42:46Z  
+> ⭐ 8,807 · Swift · 2026-11-21T10:19:46Z  
 > [GitHub](https://github.com/lihaoyun6/QuickRecorder) · [Website](https://lihaoyun6.github.io/quickrecorder/)  
 > `#Audio Video Processing` `#Screen Recording` `#macOS Utility` 
 > QuickRecorder is a lightweight, high-performance screen recorder for macOS built on ScreenCapture Kit. It supports recording screens, windows, apps, and mobile devices with features like driver-free audio loopback, mouse highlighting, and screen magnifier. It fully supports macOS 14's Presenter Overlay for real-time camera overlay and HEVC with Alpha output (with alpha channel), ideal for professional video editing and conferencing.
@@ -7229,7 +7250,7 @@
 ## modelscope/FunClip
 
 > [!info]
-> ⭐ 6,605 · Python · 2026-11-20T20:02:29Z  
+> ⭐ 6,616 · Python · 2026-11-21T20:45:34Z  
 > [GitHub](https://github.com/modelscope/FunClip) · [Website](https://huggingface.co/spaces/FunAudioLLM/FunClip)  
 > `#AI 智能体` `#Speech Recognition` `#Video Clipping` `#ai-tools` `#ai-video-editing` `#asr` `#auto-subtitles` `#chinese` `#content-creation` `#funasr` `#funclip` `#gradio` `#llm` `#paraformer` `#speech-recognition` `#speech-to-text` `#subtitles-generator` `#transcription` `#video-editing` `#video-processing` `#video-subtitles` `#video-transcription` `#whisper-alternative` 
 > FunClip is an open-source, accurate, and user-friendly video speech recognition and clipping tool. It leverages Alibaba's FunASR Paraformer models for ASR, supports Chinese and English, enables hotword customization, speaker separation, multi-segment clipping, and integrates LLM-based AI clipping via Qwen/GPT series models with customizable prompts for intelligent video editing.
@@ -7239,7 +7260,7 @@
 ## 1c7/chinese-independent-developer
 
 > [!info]
-> ⭐ 62,230 · N/A · 2026-11-20T19:09:58Z  
+> ⭐ 62,246 · N/A · 2026-11-21T13:47:14Z  
 > [GitHub](https://github.com/1c7/chinese-independent-developer)  
 > `#AI Applications` `#Indie Dev` `#Utility Products` `#china` `#indie` `#indie-developer` 
 > This repo aggregates innovative projects by Chinese indie developers launched in February 2026, including AI voice assistants, investment calculators, typing trainers, music generation tools, resume optimizers, and browser extensions. All projects are web or app-based, emphasizing practicality and user experience, such as intelligent text-to-speech, stock/fund investment analysis, AI-powered songwriting, and productivity tools, showcasing active innovation in AI applications and niche utility apps.
@@ -7249,7 +7270,7 @@
 ## firecrawl/firecrawl
 
 > [!info]
-> ⭐ 205,246 · TypeScript · 2026-11-20T23:58:50Z  
+> ⭐ 206,145 · TypeScript · 2026-11-21T23:16:26Z  
 > [GitHub](https://github.com/firecrawl/firecrawl) · [Website](https://firecrawl.dev)  
 > `#AI 智能体` `#API Service` `#Data Extraction` `#网页爬虫` `#ai` `#ai-agents` `#ai-crawler` `#ai-scraping` `#ai-search` `#crawler` `#data-extraction` `#html-to-markdown` `#llm` `#markdown` `#scraper` `#scraping` `#web-crawler` `#web-data` `#web-data-extraction` `#web-scraper` `#web-scraping` `#web-search` `#webscraping` 
 > Firecrawl is a web data API designed for AI, converting any website into LLM-ready structured data (e.g., Markdown, JSON, screenshots). It supports JavaScript rendering, dynamic content extraction, batch processing, and change tracking, significantly enhancing data acquisition for AI applications.
@@ -7269,7 +7290,7 @@
 ## cluic/wxauto
 
 > [!info]
-> ⭐ 7,470 · Python · 2026-11-20T08:50:31Z  
+> ⭐ 7,472 · Python · 2026-11-21T09:50:59Z  
 > [GitHub](https://github.com/cluic/wxauto) · [Website](https://wxauto.org)  
 > `#Automation Tool` `#Desktop Application` `#UIAutomation` `#WeChat Bot` `#automatic` `#python` `#rpa` `#wechat` `#weixin` 
 > wxauto is a Windows-based automation tool for the WeChat desktop client (non-web version) using UIAutomation technology. It enables basic message sending and receiving, suitable for building simple WeChat bots. The project was discontinued on October 28, 2025, supporting WeChat 3.9.x and Windows 10/11 or Server 2016+. It is intended solely for technical learning and not for production or illegal use.
@@ -7279,7 +7300,7 @@
 ## NanmiCoder/MediaCrawler
 
 > [!info]
-> ⭐ 71,483 · Python · 2026-11-20T23:38:57Z  
+> ⭐ 71,541 · Python · 2026-11-21T22:14:07Z  
 > [GitHub](https://github.com/NanmiCoder/MediaCrawler) · [Website](https://nanmicoder.github.io/MediaCrawler/)  
 > `#Automation Tool` `#Data Collection` `#Multi-Platform` `#Web Crawler` 
 > MediaCrawler is a powerful multi-platform media crawler built with Playwright, supporting data extraction from Xiaohongshu, Douyin, Bilibili, and 7+ platforms. It enables keyword search, comment scraping, login state caching, proxy pools, and comment word cloud generation without requiring complex reverse engineering.
@@ -7299,7 +7320,7 @@
 ## abi/screenshot-to-code
 
 > [!info]
-> ⭐ 81,307 · Python · 2026-11-20T23:00:22Z  
+> ⭐ 81,334 · Python · 2026-11-21T23:03:52Z  
 > [GitHub](https://github.com/abi/screenshot-to-code) · [Website](https://screenshottocode.com)  
 > `#AI 智能体` `#Frontend Automation` `#提示工程` `#网页爬虫` 
 > screenshot-to-code is an AI-powered tool that converts screenshots, mockups, and Figma designs into clean, functional front-end code (HTML/Tailwind/React/Vue). It supports advanced models like Gemini 3 and Claude Opus 4.5, with experimental video-to-code capabilities for rapid prototyping and UI automation.
@@ -7309,7 +7330,7 @@
 ## lss233/kirara-ai
 
 > [!info]
-> ⭐ 19,297 · Python · 2026-11-20T15:45:05Z  
+> ⭐ 19,299 · Python · 2026-11-21T18:54:16Z  
 > [GitHub](https://github.com/lss233/kirara-ai) · [Website](https://kirara-docs.app.lss233.com/)  
 > `#AI 智能体` `#Chatbot` `#Multimodal AI` `#bard` `#bot` `#chatglm-6b` `#chatgpt` `#deepseek` `#discord` `#ernie` `#go-cqhttp` `#grok` `#mirai` `#new-bing` `#ollama` `#openai` `#poe` `#qq` `#qqbot` `#sydney` `#telegram` `#wechat` `#xinghuo` 
 > Kirara AI is a customizable multimodal AI chatbot that supports rapid integration with WeChat, QQ, Telegram, and other major messaging platforms. It integrates with leading LLMs including DeepSeek, Grok, Claude, Ollama, Gemini, and OpenAI. Features include workflow systems, web search, AI image generation, persona tuning, virtual maid mode, voice interaction, and offers both WebUI and Docker deployment options.
@@ -7319,7 +7340,7 @@
 ## aleksey-hoffman/sigma-file-manager
 
 > [!info]
-> ⭐ 6,876 · TypeScript · 2026-11-20T22:47:18Z  
+> ⭐ 6,880 · TypeScript · 2026-11-21T18:50:31Z  
 > [GitHub](https://github.com/aleksey-hoffman/sigma-file-manager)  
 > `#Cross-Platform` `#Desktop Application` `#File Management` `#alternative` `#app` `#file-manager` `#filemanager` `#modern-applications` `#rust` `#tauri` `#tauri-app` `#vue` 
 > Sigma File Manager is a free, open-source, modern file manager for Windows and Linux, offering fast file browsing and operations. Now in v2 beta, it features an intuitive interface and efficient tools for streamlined file management.
@@ -7329,7 +7350,7 @@
 ## JoeanAmier/XHS-Downloader
 
 > [!info]
-> ⭐ 13,349 · JavaScript · 2026-11-20T21:22:57Z  
+> ⭐ 13,357 · JavaScript · 2026-11-21T12:57:11Z  
 > [GitHub](https://github.com/JoeanAmier/XHS-Downloader) · [Website](https://discord.com/invite/ZYtmgKud9Y)  
 > `#Automation Tool` `#File Downloader` `#Xiaohongshu` `#网页爬虫` `#api` `#docker` `#downloader` `#fastapi` `#httpx` `#javascript` `#json` `#linux` `#macos` `#mcp-server` `#pyinstaller` `#python` `#rednote` `#server` `#sqlite` `#tampermonkey` `#textual` `#userscript` `#windows` `#xiaohongshu` 
 > XHS-Downloader is a powerful tool for extracting and downloading content from Xiaohongshu (XHS/RedNote). It supports fetching posts, likes, collections, and albums, downloading media files (images, videos, LivePhotos), with features like resume downloads, file integrity checks, custom naming, clipboard monitoring, and MCP integration, ideal for content creators and data collectors.
@@ -7349,7 +7370,7 @@
 ## linexjlin/GPTs
 
 > [!info]
-> ⭐ 32,016 · N/A · 2026-11-20T02:45:08Z  
+> ⭐ 32,016 · N/A · 2026-11-21T23:03:43Z  
 > [GitHub](https://github.com/linexjlin/GPTs)  
 > `#AI 智能体` `#GPTs Applications` `#提示工程` 
 > This repository compiles leaked prompts from various GPTs, covering development, translation, entertainment, education, image generation, video scripting, gaming, and more, showcasing diverse use cases and technical implementations of OpenAI's GPTs platform.
@@ -7359,7 +7380,7 @@
 ## JoeanAmier/TikTokDownloader
 
 > [!info]
-> ⭐ 17,588 · JavaScript · 2026-11-20T21:22:50Z  
+> ⭐ 17,606 · JavaScript · 2026-11-21T19:52:50Z  
 > [GitHub](https://github.com/JoeanAmier/TikTokDownloader) · [Website](https://discord.com/invite/ZYtmgKud9Y)  
 > `#Batch Download` `#Data Scraping` `#Douyin/TikTok` `#Python` `#api` `#csv` `#docker` `#douyin` `#downloader` `#ffmpeg` `#httpx` `#linux` `#macos` `#pyinstaller` `#python` `#rich` `#server` `#sqlite` `#tiktok` `#windows` `#xlsx` 
 > DouK-Downloader is a free open-source data collection tool built with Python and HTTPX, enabling batch downloads of videos, albums, live streams, collections, and comments from Douyin/TikTok. It features Web UI, API interface, multi-threaded downloads, proxy support, incremental scraping, and resume capability, deployable on private or public servers for content creators and data analysts.
@@ -7369,7 +7390,7 @@
 ## bleedline/aimoneyhunter
 
 > [!info]
-> ⭐ 18,402 · N/A · 2026-11-20T09:27:23Z  
+> ⭐ 18,404 · N/A · 2026-11-21T16:57:29Z  
 > [GitHub](https://github.com/bleedline/aimoneyhunter)  
 > `#AI Side Hustles` `#Automation Tools` `#Content Monetization` 
 > This repository serves as a comprehensive guide to making money with AI side hustles, curating proven methods across content creation, image generation, audio processing, and live streaming. It emphasizes strategic positioning—focusing on niche content and selling tools (shovels) rather than competing in saturated markets—to help users build scalable AI-driven income streams in the current era.
@@ -7389,7 +7410,7 @@
 ## LC044/WeChatMsg
 
 > [!info]
-> ⭐ 42,368 · N/A · 2026-11-20T22:04:27Z  
+> ⭐ 42,369 · N/A · 2026-11-21T16:07:44Z  
 > [GitHub](https://github.com/LC044/WeChatMsg)  
 > `#Personal Data Management` `#WeChat Tool` `#数据可视化` `#chatgpt` `#llms` `#pyqt` `#wechat` 
 > WeChatMsg is a WeChat chat export and analysis tool that supports exporting chats to formats like Excel and HTML with visualization features. It emphasizes personal data ownership, enabling users to manage their digital footprints. The project aims to integrate AI for building personal memory data centers, including smart photo albums and annual report generation.
@@ -7398,7 +7419,7 @@
 ## robotframework/robotframework
 
 > [!info]
-> ⭐ 11,994 · Python · 2026-11-20T19:50:15Z  
+> ⭐ 11,995 · Python · 2026-11-21T17:23:04Z  
 > [GitHub](https://github.com/robotframework/robotframework) · [Website](http://robotframework.org)  
 > `#Automation Testing` `#Python` `#RPA` `#attd` `#automation` `#bdd` `#python` `#robotframework` `#rpa` `#testautomation` `#testing` 
 > Robot Framework is an open-source generic automation framework for acceptance testing, acceptance test-driven development (ATDD), and robotic process automation (RPA). It features simple plain-text syntax, easy extensibility via Python-based libraries, and cross-platform support, backed by a rich ecosystem of tools and resources.
@@ -7408,7 +7429,7 @@
 ## tebelorg/RPA-Python
 
 > [!info]
-> ⭐ 5,502 · Python · 2026-11-20T23:52:38Z  
+> ⭐ 5,501 · Python · 2026-11-21T13:04:14Z  
 > [GitHub](https://github.com/tebelorg/RPA-Python)  
 > `#Automation Tool` `#Desktop Automation` `#Python` `#网页爬虫` `#cross-platform` `#opencv` `#python` `#rpa` `#sikuli` `#tagui` `#tesseract` 
 > RPA for Python is a powerful automation toolkit offering a simple API to automate web, desktop, and OCR workflows across platforms, enabling efficient handling of repetitive tasks with minimal code.
@@ -7418,7 +7439,7 @@
 ## NaiboWang/EasySpider
 
 > [!info]
-> ⭐ 44,802 · JavaScript · 2026-11-20T22:43:55Z  
+> ⭐ 44,802 · JavaScript · 2026-11-21T19:28:57Z  
 > [GitHub](https://github.com/NaiboWang/EasySpider) · [Website](https://www.easyspider.net)  
 > `#Browser Automation` `#Data Collection` `#No-Code Tool` `#Web Crawler` `#batch-processing` `#batch-script` `#code-free` `#crawler` `#data-collection` `#frontend` `#gui` `#html` `#input-parameters` `#layman` `#parameters` `#robotics` `#rpa` `#scraper` `#spider` `#visual` `#visualization` `#visualprogramming` `#web` `#www` 
 > EasySpider is a completely free visual no-code web crawler and browser automation tool that enables users to design and execute data collection tasks through a graphical interface without programming. It automatically detects similar elements on web pages, supports batch data extraction, and can also run via command line for integration into other systems, ideal for e-commerce scraping and automation testing.
@@ -7428,7 +7449,7 @@
 ## lxgw/LxgwWenKai
 
 > [!info]
-> ⭐ 27,136 · Python · 2026-11-20T21:37:45Z  
+> ⭐ 27,151 · Python · 2026-11-21T17:10:37Z  
 > [GitHub](https://github.com/lxgw/LxgwWenKai)  
 > `#Chinese Font` `#Font Design` `#Open Source License` `#cjk` `#font` `#typeface` 
 > LXGW WenKai is an open-source Chinese font derived from Fontworks' Klee One, licensed under OFL 1.1 for free commercial use. It offers multiple variants including screen-optimized, lite, GB-compliant, and traditional character editions for diverse applications.
@@ -7448,7 +7469,7 @@
 ## public-apis/public-apis
 
 > [!info]
-> ⭐ 500,491 · Python · 2026-11-20T23:57:48Z  
+> ⭐ 500,649 · Python · 2026-11-21T22:57:35Z  
 > [GitHub](https://github.com/public-apis/public-apis) · [Website](https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo)  
 > `#API Services` `#Developer Tools` `#RESTful API` `#api` `#apis` `#dataset` `#development` `#free` `#list` `#lists` `#open-source` `#public` `#public-api` `#public-apis` `#resources` `#software` 
 > The public-apis repository is a community-curated collection of free, ready-to-use REST APIs across diverse domains like geolocation, finance, weather, and communication, enabling developers to quickly integrate third-party data services via Postman.
@@ -7458,7 +7479,7 @@
 ## ryanhanwu/How-To-Ask-Questions-The-Smart-Way
 
 > [!info]
-> ⭐ 36,145 · JavaScript · 2026-11-20T16:09:31Z  
+> ⭐ 36,143 · JavaScript · 2026-11-21T15:41:35Z  
 > [GitHub](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)  
 > `#Open Source` `#Questioning Skills` `#Technical Communication` `#rtfm` `#stfw` `#translation` 
 > Authored by renowned hacker Eric S. Raymond, this guide systematically outlines principles for effective technical communication, covering question selection, forum choice, title writing, and code presentation to help developers obtain accurate answers and improve open-source community collaboration.
@@ -7468,7 +7489,7 @@
 ## 1Remote/1Remote
 
 > [!info]
-> ⭐ 6,152 · C# · 2026-11-20T15:10:18Z  
+> ⭐ 6,155 · C# · 2026-11-21T13:06:05Z  
 > [GitHub](https://github.com/1Remote/1Remote) · [Website](https://1remote.github.io/)  
 > `#Desktop Application` `#Multi-Protocol Support` `#Remote Connection Management` `#rdp` `#remote-control` `#remote-desktop` `#sftp` `#ssh` `#vnc` `#windows` `#windows-app` `#wpf-application` 
 > 1Remote is a modern personal remote session manager and launcher supporting RDP, SSH, VNC, Telnet, (S)FTP, RemoteApp, NoMachine and more. It offers multi-screen HiDPI RDP support, customizable runners, mRemoteNG import, portable deployment, and a tabbed, multi-language interface.
@@ -7498,7 +7519,7 @@
 ## langgptai/LangGPT
 
 > [!info]
-> ⭐ 12,719 · Jupyter Notebook · 2026-11-20T14:16:18Z  
+> ⭐ 12,720 · Jupyter Notebook · 2026-11-21T11:08:27Z  
 > [GitHub](https://github.com/langgptai/LangGPT) · [Website](https://github.com/langgptai)  
 > `#AI 智能体` `#Meta-Prompt` `#Structured Design` `#提示工程` `#chatgpt` `#claude` `#deeplearning` `#doubao` `#framework` `#gemini` `#gpt-4` `#gpt3-prompts` `#langgpt` `#meta-prompting` `#prompt` `#prompt-engineering` `#qwen` `#structured-prompts` 
 > LangGPT is a pioneering framework that treats prompt design as a structured, reusable programming language. It enables anyone to create high-quality prompts through role-based templates, modular skills, and systematic workflows, backed by academic research and battle-tested by 10,000+ users worldwide.
@@ -7528,7 +7549,7 @@
 ## eli64s/readme-ai
 
 > [!info]
-> ⭐ 3,013 · Python · 2026-11-19T22:47:48Z  
+> ⭐ 3,014 · Python · 2026-11-21T09:55:19Z  
 > [GitHub](https://github.com/eli64s/readme-ai) · [Website](https://eli64s.github.io/readme-ai/)  
 > `#AI 智能体` `#Automation Tool` `#Developer Tool` `#提示工程` `#agents` `#ai` `#ai-agents` `#ai-documentation` `#anthropic` `#badge-generator` `#cli` `#developer-tools` `#devtools` `#documentation` `#documentation-generator` `#gemini` `#gpt` `#markdown` `#markdown-generator` `#python` `#readme` `#readme-generator` `#readme-md-generator` `#readme-template` 
 > ReadmeAI is an AI-powered tool that automatically generates high-quality README files from code repositories. It supports multiple LLM backends (OpenAI, Ollama, Anthropic, Gemini), offers customizable templates, intelligent file filtering via .readmeaiignore, and works offline. Designed to boost developer productivity and ensure consistent documentation across projects.
@@ -7538,7 +7559,7 @@
 ## reorx/awesome-chatgpt-api
 
 > [!info]
-> ⭐ 6,450 · Python · 2026-11-20T21:20:49Z  
+> ⭐ 6,449 · Python · 2026-11-21T05:51:36Z  
 > [GitHub](https://github.com/reorx/awesome-chatgpt-api)  
 > `#AI 智能体` `#API Integration` `#浏览器插件` `#awesome` `#awesome-list` `#chatgpt` `#chatgpt-api` 
 > Awesome ChatGPT API is a curated collection of apps and tools that support custom API key configuration, enabling free on-demand usage of personal quotas. It includes browser extensions, web/desktop apps, CLI tools, and development resources, supporting diverse AI integrations like translation, search summarization, and code assistance for building a robust ChatGPT ecosystem.
@@ -7578,7 +7599,7 @@
 ## eosphoros-ai/DB-GPT
 
 > [!info]
-> ⭐ 20,320 · Python · 2026-11-20T14:22:24Z  
+> ⭐ 20,321 · Python · 2026-11-21T21:23:17Z  
 > [GitHub](https://github.com/eosphoros-ai/DB-GPT) · [Website](http://docs.dbgpt.cn)  
 > `#AI Agents` `#Data Application Development` `#Low-Code Platform` `#RAG Framework` `#agents` `#bgi` `#database` `#deepseek` `#gpt` `#gpt-4` `#hacktoberfest` `#llm` `#private` `#rag` `#security` `#vicuna` 
 > DB-GPT is an open-source AI-native data application development framework featuring AWEL (Agentic Workflow Expression Language) and multi-agent collaboration. It supports multi-model management, Text2SQL optimization, and RAG-enhanced generation, enabling low-code development of enterprise-grade data applications.
@@ -7598,7 +7619,7 @@
 ## phodal/understand-prompt
 
 > [!info]
-> ⭐ 5,676 · Jupyter Notebook · 2026-11-20T14:50:08Z  
+> ⭐ 5,677 · Jupyter Notebook · 2026-11-21T20:04:56Z  
 > [GitHub](https://github.com/phodal/understand-prompt)  
 > `#AI 图像生成` `#AI 智能体` `#Code Generation` `#提示工程` `#ai` `#aigc` `#chatgpt` `#github-copilot` `#stable-diffusion` 
 > This project explores AI applications in programming, painting, and writing through StableDiffusion image generation, ChatGPT text creation, and GitHub Copilot code assistance. It systematically analyzes how AI models interact with human input via prompt engineering for image description, article structuring, and code generation, proposing the concept of 'prompt programming' as a bridge between natural language and software development.
@@ -7608,9 +7629,9 @@
 ## cypress-io/cypress
 
 > [!info]
-> ⭐ 51,035 · TypeScript · 2026-11-20T22:14:40Z  
+> ⭐ 51,034 · TypeScript · 2026-11-21T21:17:51Z  
 > [GitHub](https://github.com/cypress-io/cypress) · [Website](https://cypress.io)  
-> `#Automation Tool` `#End-to-End Testing` `#Frontend Testing` `#angular-testing-library` `#component-testing` `#cypress` `#cypress-cloud` `#cypress-schematic` `#end-to-end-testing` `#react-testing-library` `#svelte-testing-library` `#test-replay` `#testing-framework` `#testing-library` `#testing-tool` `#vue-testing-library` 
+> `#Automation Tool` `#End-to-End Testing` `#Frontend Testing` `#component-testing` `#cypress` `#end-to-end-testing` `#testing-framework` 
 > Cypress is a modern end-to-end testing framework designed for browser-based applications, offering fast, easy, and reliable testing. It features real-time reloads, time-travel debugging, and automatic waiting to enhance frontend test efficiency and stability, ideal for full-stack automation across modern web apps.
 > <sub>Fast, easy and reliable testing for anything that runs in a browser.</sub>
 
@@ -7658,7 +7679,7 @@
 ## zhayujie/CowAgent
 
 > [!info]
-> ⭐ 48,023 · Python · 2026-11-20T22:16:38Z  
+> ⭐ 48,032 · Python · 2026-11-21T21:57:24Z  
 > [GitHub](https://github.com/zhayujie/CowAgent) · [Website](https://cowagent.ai)  
 > `#AI 智能体` `#Enterprise Digital Employee` `#Multimodal Interaction` `#ai` `#ai-agent` `#ai-agents` `#chatgpt-on-wechat` `#claude` `#claude-code` `#codex` `#cowagent` `#deepseek` `#harness` `#llm` `#mcp` `#multi-agent` `#openai` `#openclaw` `#personal-agent` `#skills` 
 > CowAgent is a super AI assistant based on large language models, featuring autonomous task planning, long-term memory, personal knowledge base, and skill system. It supports multimodal interactions (text/voice/image/file), integrates with OpenAI/Claude/DeepSeek and other mainstream models, connects to WeChat/Lark/DingTalk and other platforms via CLI/Web console, ideal for personal AI assistants and enterprise digital employees.
@@ -7668,7 +7689,7 @@
 ## chatboxai/chatbox
 
 > [!info]
-> ⭐ 42,448 · TypeScript · 2026-11-20T23:29:31Z  
+> ⭐ 42,464 · TypeScript · 2026-11-21T22:48:37Z  
 > [GitHub](https://github.com/chatboxai/chatbox) · [Website](https://chatboxai.app?utm_medium=github)  
 > `#AI 智能体` `#Multi-Model Support` `#桌面应用` `#assistant` `#chatbot` `#chatgpt` `#claude` `#claude-code` `#copilot` `#deepseek` `#gemini` `#gpt` `#gpt-5` `#ollama` `#openai` 
 > Chatbox is a powerful cross-platform desktop AI client supporting ChatGPT, Claude, and other LLMs. It offers multi-device sync, plugin support, prompt engineering, and advanced customization for developers and AI enthusiasts.
@@ -7698,7 +7719,7 @@
 ## langchain-ai/langchain
 
 > [!info]
-> ⭐ 149,987 · Python · 2026-11-20T23:33:56Z  
+> ⭐ 150,011 · Python · 2026-11-21T22:38:42Z  
 > [GitHub](https://github.com/langchain-ai/langchain) · [Website](https://docs.langchain.com/langchain/)  
 > `#AI Agents` `#Development Framework` `#LLM Applications` `#agents` `#ai` `#ai-agents` `#anthropic` `#chatgpt` `#deepagents` `#enterprise` `#framework` `#gemini` `#generative-ai` `#langchain` `#langgraph` `#llm` `#multiagent` `#open-source` `#openai` `#pydantic` `#python` `#rag` `#typescript` 
 > LangChain is a framework for building reliable AI agents and LLM-powered applications. It offers standardized interfaces for models, embeddings, and vector stores, enabling real-time data augmentation, model interoperability, and rapid prototyping for production-ready AI solutions.
@@ -7708,7 +7729,7 @@
 ## chatchat-space/Langchain-Chatchat
 
 > [!info]
-> ⭐ 38,713 · Python · 2026-11-20T18:23:33Z  
+> ⭐ 38,713 · Python · 2026-11-21T23:04:50Z  
 > [GitHub](https://github.com/chatchat-space/Langchain-Chatchat)  
 > `#AI 智能体` `#Local Knowledge Base` `#Open-Source LLM` `#RAG 检索增强` `#chatbot` `#chatchat` `#chatglm` `#chatgpt` `#embedding` `#faiss` `#fastchat` `#gpt` `#knowledge-base` `#langchain` `#langchain-chatglm` `#llama` `#llm` `#milvus` `#ollama` `#qwen` `#rag` `#retrieval-augmented-generation` `#streamlit` `#xinference` 
 > Langchain-Chatchat is an open-source local knowledge base QA system built on the Langchain framework, supporting mainstream open-source LLMs like ChatGLM, Qwen, and Llama. It provides RAG and Agent capabilities with offline deployment, compatibility for various vector databases and embedding models, and offers both FastAPI endpoints and a Streamlit WebUI for document-based Q&A and intelligent assistant applications.
@@ -7728,7 +7749,7 @@
 ## getsurfboard/surfboard
 
 > [!info]
-> ⭐ 8,731 · N/A · 2026-11-20T13:38:31Z  
+> ⭐ 8,735 · N/A · 2026-11-21T15:10:15Z  
 > [GitHub](https://github.com/getsurfboard/surfboard)  
 > `#AI 智能体` `#Automation Tool` `#Data Extraction` `#网页爬虫` 
 > Surfboard is an automation platform designed for AI agents, enabling web scraping, data extraction, and task automation. It offers an intuitive interface and robust scheduling to help users build and deploy AI-driven workflows efficiently, ideal for content aggregation and data collection.
@@ -7738,7 +7759,7 @@
 ## datawhalechina/llm-cookbook
 
 > [!info]
-> ⭐ 24,920 · Jupyter Notebook · 2026-11-20T23:27:25Z  
+> ⭐ 24,921 · Jupyter Notebook · 2026-11-21T11:39:24Z  
 > [GitHub](https://github.com/datawhalechina/llm-cookbook) · [Website](https://datawhalechina.github.io/llm-cookbook/)  
 > `#AI Large Language Model` `#LangChain 框架` `#提示工程` `#cookbook` `#llm` 
 > This project is a developer-focused LLM入门教程 based on Andrew Ng's large language model courses, covering Prompt Engineering, RAG, and fine-tuning. It includes translated, reproduced code examples and optimized Chinese prompts, enabling hands-on learning via Jupyter Notebooks to help developers master LLM application development.
@@ -7748,7 +7769,7 @@
 ## ChatGPTNextWeb/NextChat
 
 > [!info]
-> ⭐ 88,979 · TypeScript · 2026-11-20T21:08:59Z  
+> ⭐ 88,985 · TypeScript · 2026-11-21T21:32:11Z  
 > [GitHub](https://github.com/ChatGPTNextWeb/NextChat) · [Website](https://nextchat.club)  
 > `#AI 智能体` `#Cross-Platform App` `#Multi-Model Support` `#calclaude` `#claude` `#cross-platform` `#desktop` `#fe` `#gemini` `#gemini-pro` `#gemini-server` `#gemini-ultra` `#gpt-4o` `#groq` `#nextjs` `#ollama` `#react` `#tauri` `#tauri-app` `#vercel` `#webui` 
 > NextChat is a lightweight and fast AI assistant supporting Web, iOS, macOS, Android, Linux, and Windows. It integrates multiple AI models including Claude, DeepSeek, GPT-4, and Gemini Pro. Featuring modern UI, MCP support, enterprise-grade private deployment, knowledge base integration, and admin panel with permission controls.
@@ -7758,7 +7779,7 @@
 ## Comfy-Org/ComfyUI
 
 > [!info]
-> ⭐ 147,836 · Python · 2026-11-20T23:57:39Z  
+> ⭐ 147,976 · Python · 2026-11-21T23:07:39Z  
 > [GitHub](https://github.com/Comfy-Org/ComfyUI) · [Website](https://www.comfy.org/)  
 > `#AI Image Generation` `#Diffusion Models` `#Visual Programming` `#ai` `#comfy` `#comfyui` `#python` `#pytorch` `#stable-diffusion` 
 > ComfyUI is a powerful modular GUI for diffusion models featuring a node-based graph interface for building complex Stable Diffusion pipelines without coding. It supports multiple models including SD1.x, SDXL, SD3, Flux, and PixArt, runs on Windows, Linux, and macOS with full GPU support across NVIDIA, AMD, Intel, and Apple Silicon platforms.
@@ -7777,7 +7798,7 @@
 ## run-llama/llama_index
 
 > [!info]
-> ⭐ 52,970 · Python · 2026-11-20T22:28:01Z  
+> ⭐ 52,972 · Python · 2026-11-21T22:07:32Z  
 > [GitHub](https://github.com/run-llama/llama_index) · [Website](https://developers.llamaindex.ai)  
 > `#AI 大模型` `#AI 智能体` `#Document Processing` `#Knowledge Base` `#agents` `#application` `#data` `#fine-tuning` `#framework` `#llamaindex` `#llm` `#multi-agents` `#rag` `#vector-database` 
 > LlamaIndex is a leading document agent and OCR platform designed for building LLM-powered document applications. It enables data ingestion, indexing, querying, and visualization, supporting multimodal inputs and complex reasoning for use cases like knowledge base QA, document analysis, and intelligent retrieval.
@@ -7787,7 +7808,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 190,219 · Python · 2026-11-20T23:47:56Z  
+> ⭐ 190,396 · Python · 2026-11-21T22:53:57Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#Developer Tools` `#Open Source` `#Project Curation` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub is a monthly publication that curates and shares interesting, beginner-friendly open-source projects from GitHub. Released on the 28th of each month, it features engaging projects, open-source books, practical tutorials, and enterprise-level codebases to help newcomers discover the joy of open source and build real-world skills quickly.
@@ -7797,7 +7818,7 @@
 ## wechaty/wechaty
 
 > [!info]
-> ⭐ 23,601 · TypeScript · 2026-11-20T19:51:56Z  
+> ⭐ 23,603 · TypeScript · 2026-11-21T12:27:16Z  
 > [GitHub](https://github.com/wechaty/wechaty) · [Website](https://wechaty.js.org)  
 > `#Chatbot` `#Cross-Platform SDK` `#RPA Automation` `#bot` `#chatbot` `#framework` `#wechat` `#wechaty` `#whatsapp` 
 > Wechaty is a conversational RPA SDK that simplifies chatbot development by offering a universal interface across messaging platforms like WhatsApp and WeChat. It supports multiple languages including TypeScript and Python, enabling developers to write once and deploy anywhere, streamlining bot creation with open-source ease and community support.
@@ -7807,7 +7828,7 @@
 ## LAION-AI/Open-Assistant
 
 > [!info]
-> ⭐ 37,346 · Python · 2026-11-20T23:08:08Z  
+> ⭐ 37,345 · Python · 2026-11-21T20:34:25Z  
 > [GitHub](https://github.com/LAION-AI/Open-Assistant) · [Website](https://open-assistant.io)  
 > `#AI 大模型` `#AI 智能体` `#Open Source` `#ai` `#assistant` `#chatgpt` `#discord-bot` `#language-model` `#machine-learning` `#nextjs` `#python` `#rlhf` 
 > Open Assistant was an open-source chat-based AI assistant project designed to provide accessible, interactive large language model capabilities with third-party system integration. The project is now completed, with its final oasst2 dataset published on HuggingFace, marking a significant contribution to open-source language model training data.
@@ -7817,7 +7838,7 @@
 ## easychen/howto-make-more-money
 
 > [!info]
-> ⭐ 18,751 · PHP · 2026-11-20T12:12:10Z  
+> ⭐ 18,752 · PHP · 2026-11-21T17:52:09Z  
 > [GitHub](https://github.com/easychen/howto-make-more-money) · [Website](https://howto-make-more-money.easychen.vercel.app/)  
 > `#Knowledge Monetization` `#One-Person Business` `#Side Hustle` 
 > This repo offers a practical guide for programmers to earn side income in China, covering monetization strategies like online courses, content creation, and knowledge products. It integrates resources from 'One-Person Business Methodology 2.0' and 'Full-Stack Roadmap', providing downloadable mind maps and eBooks to help tech professionals build passive income streams.
@@ -7837,7 +7858,7 @@
 ## ZhongFuCheng3y/austin
 
 > [!info]
-> ⭐ 6,113 · Java · 2026-11-20T02:28:00Z  
+> ⭐ 6,114 · Java · 2026-11-21T14:06:50Z  
 > [GitHub](https://github.com/ZhongFuCheng3y/austin) · [Website](http://106.75.176.183:3001)  
 > `#Message Push` `#Multi-Channel Distribution` `#Spring Boot` 
 > Austin is an enterprise-grade unified messaging push platform supporting 10+ channels including email, SMS, WeChat, DingTalk, and enterprise WeChat. It features full-lifecycle tracking, channel isolation, and scheduled delivery via cron. Built with SpringBoot, Kafka, Redis, and Xxl-Job, it serves business notifications and marketing campaigns.
@@ -7847,7 +7868,7 @@
 ## dianping/cat
 
 > [!info]
-> ⭐ 18,934 · Java · 2026-11-20T09:07:36Z  
+> ⭐ 18,933 · Java · 2026-11-21T11:41:48Z  
 > [GitHub](https://github.com/dianping/cat)  
 > `#Application Monitoring` `#Real-time System` `#Server-side Component` `#apm` `#distributed` `#java` `#metrics` `#monitoring` `#realtime` `#tracing` 
 > CAT is a real-time application monitoring platform developed by Meituan-Dianping, offering multi-language clients (Java, C/C++, Node.js, Python, Go) and supporting four monitoring models: Transaction, Event, Heartbeat, and Metric. It excels in sub-minute real-time processing, full-data collection, high availability, and scalable distributed deployment, enabling comprehensive performance tracking, fault detection, and system optimization across enterprise infrastructure.
@@ -7867,7 +7888,7 @@
 ## CyC2018/CS-Notes
 
 > [!info]
-> ⭐ 186,556 · JavaScript · 2026-11-20T23:35:47Z  
+> ⭐ 186,558 · JavaScript · 2026-11-21T22:03:06Z  
 > [GitHub](https://github.com/CyC2018/CS-Notes) · [Website](http://cyc2018.xyz)  
 > `#Algorithms & Data Structures` `#Computer Science Fundamentals` `#Technical Interview` `#algorithm` `#computer-science` `#cpp` `#interview` `#java` `#leetcode` `#python` `#system-design` 
 > CS-Notes is a comprehensive study resource for technical interviews, covering core computer science topics including algorithms, operating systems, computer networks, databases, Java fundamentals, and system design. It features structured content with solutions to 'Jianzhi Offer' and Leetcode problems, ideal for systematic review and coding practice.
@@ -7877,7 +7898,7 @@
 ## anuraghazra/github-readme-stats
 
 > [!info]
-> ⭐ 79,838 · JavaScript · 2026-11-20T22:02:08Z  
+> ⭐ 79,836 · JavaScript · 2026-11-21T22:59:45Z  
 > [GitHub](https://github.com/anuraghazra/github-readme-stats) · [Website](https://github-readme-stats.vercel.app)  
 > `#Developer Tools` `#GitHub Integration` `#数据可视化` `#dynamic` `#profile-readme` `#readme-generator` `#readme-stats` `#serverless` 
 > GitHub Readme Stats dynamically generates GitHub statistics for READMEs, displaying repository contributions, language usage, activity metrics, and more. It supports customizable themes, layouts, and options to enhance developer profile visibility.
@@ -7897,7 +7918,7 @@
 ## ant-design/ant-design
 
 > [!info]
-> ⭐ 100,319 · TypeScript · 2026-11-20T22:25:17Z  
+> ⭐ 100,327 · TypeScript · 2026-11-21T22:13:10Z  
 > [GitHub](https://github.com/ant-design/ant-design) · [Website](https://ant.design)  
 > `#Enterprise UI` `#Frontend Framework` `#React Components` `#ant-design` `#antd` `#design-systems` `#react` `#typescript` `#ui-kit` `#ui-library` 
 > Ant Design is an enterprise-class UI design language and React UI library developed by Ant Group, offering a comprehensive set of high-quality, customizable components and design resources. Built with TypeScript, it supports internationalization, theme customization, SSR, and modern tooling for efficient enterprise application development.
@@ -7907,7 +7928,7 @@
 ## coder2gwy/coder2gwy
 
 > [!info]
-> ⭐ 27,727 · N/A · 2026-11-20T23:15:50Z  
+> ⭐ 27,729 · N/A · 2026-11-21T16:13:52Z  
 > [GitHub](https://github.com/coder2gwy/coder2gwy)  
 > `#Career Transition` `#Civil Service Guide` `#Public Sector Employment` 
 > The 'Programmer's Guide to Civil Service Exams' is co-authored by three former tech employees who successfully transitioned into government roles after a year of part-time preparation. It offers practical strategies for programmers considering public sector careers, covering civil service, public institutions, and teaching positions with real-world insights and actionable advice.
@@ -7937,7 +7958,7 @@
 ## serhii-londar/open-source-mac-os-apps
 
 > [!info]
-> ⭐ 51,474 · N/A · 2026-11-20T23:41:03Z  
+> ⭐ 51,491 · N/A · 2026-11-21T21:47:24Z  
 > [GitHub](https://github.com/serhii-londar/open-source-mac-os-apps) · [Website](https://serhii-londar.github.io/open-source-mac-os-apps/)  
 > `#App Recommendations` `#Open Source Software` `#macOS Apps` `#applications` `#apps` `#awesome` `#awesome-list` `#c` `#c-plus-plus` `#hacktoberfest` `#javascript` `#mac` `#macos` `#macos-application` `#macosx` `#objective-c` `#open-source` `#opensource` `#python` `#ruby` `#swift` 
 > This repository curates 689 open source macOS applications across 49 categories, including audio, development, graphics, and productivity. Primarily written in Swift, it features both native and cross-platform apps to help users discover free tools and encourages community contributions.
@@ -7947,7 +7968,7 @@
 ## alin23/Lunar
 
 > [!info]
-> ⭐ 5,737 · Swift · 2026-11-20T12:26:44Z  
+> ⭐ 5,738 · Swift · 2026-11-21T06:13:47Z  
 > [GitHub](https://github.com/alin23/Lunar) · [Website](https://lunar.fyi)  
 > `#Adaptive Brightness` `#DDC/CI Protocol` `#Display Control` `#adaptive-brightness` `#brightness` `#brightness-control` `#contrast` `#ddc` `#ddc-ci` `#display` `#macbook` `#macos` `#monitor` `#swift` `#swiftui` `#volume-control` `#xdr` 
 > Lunar is a macOS app for controlling external monitors via DDC/CI, enabling hardware-level brightness, volume, input switching, and orientation adjustments. Key features include sensor/sync/location-based adaptive brightness, support for 1000–1600 nits XDR/HDR displays, sub-zero dimming, app-specific presets, and BlackOut mode—preserving charging, audio, and input while turning off screens. Fully compatible with both Intel and Apple Silicon Macs.
@@ -7957,7 +7978,7 @@
 ## topjohnwu/Magisk
 
 > [!info]
-> ⭐ 64,153 · Kotlin · 2026-11-20T22:35:16Z  
+> ⭐ 64,183 · Kotlin · 2026-11-21T22:58:45Z  
 > [GitHub](https://github.com/topjohnwu/Magisk)  
 > `#Android Customization` `#MagiskSU` `#System Modules` `#Zygisk` 
 > Magisk is an open-source suite for customizing Android devices above Android 6.0, offering root access via MagiskSU, systemless modification through modules, and Zygisk for runtime code injection, enabling deep customization without altering system partitions.
@@ -7977,7 +7998,7 @@
 ## SimonAKing/scrcpy-gui
 
 > [!info]
-> ⭐ 4,200 · TypeScript · 2026-11-20T11:12:38Z  
+> ⭐ 4,202 · TypeScript · 2026-11-21T18:47:54Z  
 > [GitHub](https://github.com/SimonAKing/scrcpy-gui) · [Website](http://simonaking.com/scrcpy-gui/)  
 > `#Mobile Control` `#Screen Mirroring` `#桌面应用` `#adb` `#android` `#electron` `#gui` `#mirroring` `#recording` `#scrcpy` `#vuejs` 
 > Scrcpy GUI is a simple and beautiful graphical application for controlling Android devices via scrcpy. It supports USB and wireless connections, real-time screen mirroring, keyboard/mouse input, multi-device management, clipboard sharing, and more—without requiring root access. It enhances mobile productivity across Windows, macOS, and Linux.
@@ -7987,7 +8008,7 @@
 ## claudiodangelis/qrcp
 
 > [!info]
-> ⭐ 10,531 · Go · 2026-11-20T19:23:43Z  
+> ⭐ 10,531 · Go · 2026-11-21T02:52:42Z  
 > [GitHub](https://github.com/claudiodangelis/qrcp) · [Website](https://qrcp.sh)  
 > `#Cross-Platform` `#File Transfer` `#Go` `#QR Code` `#cli` `#command-line` `#golang` `#qrcode` `#utility` 
 > qrcp is a tool that enables Wi-Fi file transfer between computers and mobile devices by scanning a QR code, all from the terminal. It generates a QR code containing a URL with a random path; scanning it opens the download link in the mobile browser, supporting single/multiple files, folders, and optional compression. Compatible with Linux, macOS, and Windows.
@@ -7997,7 +8018,7 @@
 ## squidfunk/mkdocs-material
 
 > [!info]
-> ⭐ 27,634 · Python · 2026-11-20T23:13:12Z  
+> ⭐ 27,638 · Python · 2026-11-21T19:10:22Z  
 > [GitHub](https://github.com/squidfunk/mkdocs-material) · [Website](https://squidfunk.github.io/mkdocs-material/)  
 > `#Documentation` `#Markdown` `#Static Site` `#documentation` `#framework` `#material-design` `#mkdocs` `#plugins` `#theme` 
 > Material for MkDocs is a powerful documentation framework built on top of MkDocs, enabling fast creation of professional, searchable, multilingual (60+), and device-agnostic static sites from Markdown. It offers a customizable Material Design theme ideal for open-source and commercial projects.
@@ -8007,7 +8028,7 @@
 ## Snailclimb/JavaGuide
 
 > [!info]
-> ⭐ 159,631 · JavaScript · 2026-11-20T20:52:26Z  
+> ⭐ 159,639 · JavaScript · 2026-11-21T18:35:17Z  
 > [GitHub](https://github.com/Snailclimb/JavaGuide) · [Website](https://javaguide.cn)  
 > `#Backend Development` `#Interview Guide` `#Java Core` `#agent` `#ai` `#context-engineering` `#deepseek` `#interview` `#java` `#mcp` `#mysql` `#redis` `#redisson` `#skills` `#springai` `#system-design` 
 > JavaGuide is the authoritative guide for Java and backend technical interviews, covering core topics including Java fundamentals, collections, concurrency, I/O, JVM, databases, distributed systems, high-concurrency, and system design. It offers systematic interview question analysis, in-depth source code breakdowns, and practical projects (e.g., AI-powered interview assistant), with online reading and PDF download options. It's the top resource for backend developers preparing for top-tier tech interviews.
@@ -8017,7 +8038,7 @@
 ## star7th/showdoc
 
 > [!info]
-> ⭐ 12,881 · PHP · 2026-11-19T19:47:56Z  
+> ⭐ 12,882 · PHP · 2026-11-21T10:03:17Z  
 > [GitHub](https://github.com/star7th/showdoc) · [Website](https://www.showdoc.com.cn)  
 > `#API Documentation` `#Team Collaboration` `#Technical Documentation` `#api` `#document` `#documentation-tool` `#showdoc` 
 > ShowDoc is an online documentation tool designed for IT teams to create and share API documents, data dictionaries, and technical specs. It features Markdown editing, template insertion, version history, permission management, responsive design, and offline export, enhancing team collaboration efficiency.
@@ -8037,7 +8058,7 @@
 ## alibaba/easyexcel
 
 > [!info]
-> ⭐ 33,536 · Java · 2026-11-20T16:18:28Z  
+> ⭐ 33,535 · Java · 2026-11-21T17:41:33Z  
 > [GitHub](https://github.com/alibaba/easyexcel) · [Website](https://easyexcel.opensource.alibaba.com)  
 > `#Data Processing` `#Excel Handling` `#Java Utility` `#excel` `#java` `#jxl` `#oom` `#poi` `#xls` `#xlsx` 
 > EasyExcel is a high-performance Java tool for reading and writing Excel files, developed by Alibaba. It addresses memory overflow issues in traditional frameworks like Apache POI by re-engineering the parsing logic. Capable of processing a 75MB Excel file (460K rows) in just 23 seconds using only 16MB RAM, it supports templates, export, and ultra-fast mode, offering a simple API and comprehensive documentation for enterprise-scale data handling.
@@ -8067,7 +8088,7 @@
 ## getgridea/gridea
 
 > [!info]
-> ⭐ 10,214 · TypeScript · 2026-11-19T20:52:47Z  
+> ⭐ 10,212 · TypeScript · 2026-11-21T13:09:17Z  
 > [GitHub](https://github.com/getgridea/gridea) · [Website](https://open.gridea.dev)  
 > `#Cross-Platform Client` `#Markdown Editor` `#Static Blog` `#blog` `#blog-engine` `#blog-platform` `#cms` `#electron` `#electronjs` `#gridea` `#jamstack` `#macos` `#static-blog` `#static-site` `#static-site-cms` `#static-site-generator` `#typescript` `#vue` `#vue2` `#windows` 
 > Gridea is a cross-platform static blog writing client that supports Markdown editing, multi-language interface, theme customization, and Gitalk/DisqusJS comment systems. It enables local content creation with one-click publishing to platforms like GitHub Pages, featuring OneDrive/iCloud sync for multi-device workflows, ideal for personal knowledge management and content creation.
@@ -8097,7 +8118,7 @@
 ## greatghoul/remote-working
 
 > [!info]
-> ⭐ 11,829 · Ruby · 2026-11-20T02:42:48Z  
+> ⭐ 11,830 · Ruby · 2026-11-21T20:08:57Z  
 > [GitHub](https://github.com/greatghoul/remote-working) · [Website](https://remote-china.com/)  
 > `#Career Development` `#Collaboration Tools` `#Remote Work` `#china` `#freelancer` `#remote-work` `#remote-workers` `#soho` `#telecommunications` `#work-from-home` 
 > This repository curates comprehensive resources on remote work, including articles, Q&A, team cases, videos, podcasts, tools, and reports, primarily targeting Chinese audiences. It offers practical guidance on remote work, job opportunities, collaboration tools, and industry insights to support freelancers and remote professionals.
@@ -8117,7 +8138,7 @@
 ## Data-Centric-AI-Community/fg-data-profiling
 
 > [!info]
-> ⭐ 13,756 · Python · 2026-11-20T10:08:19Z  
+> ⭐ 13,755 · Python · 2026-11-21T10:08:15Z  
 > [GitHub](https://github.com/Data-Centric-AI-Community/fg-data-profiling) · [Website](https://docs.sdk.ydata.ai)  
 > `#Automated Analysis` `#Data Science` `#Pandas` `#big-data-analytics` `#data-analysis` `#data-exploration` `#data-profiling` `#data-quality` `#data-science` `#deep-learning` `#eda` `#exploration` `#exploratory-data-analysis` `#hacktoberfest` `#html-report` `#jupyter` `#jupyter-notebook` `#machine-learning` `#pandas` `#pandas-dataframe` `#pandas-profiling` `#python` `#statistics` 
 > fg-data-profiling is a one-line code tool for data quality profiling and exploratory data analysis (EDA) on Pandas and Spark DataFrames. It generates comprehensive reports including statistics, missing values, correlations, time-series, and text analysis, with export options in HTML and JSON for rapid data insights.
@@ -8127,7 +8148,7 @@
 ## psf/black
 
 > [!info]
-> ⭐ 42,201 · Python · 2026-11-20T21:57:00Z  
+> ⭐ 42,205 · Python · 2026-11-21T21:36:39Z  
 > [GitHub](https://github.com/psf/black) · [Website](https://black.readthedocs.io/en/stable/)  
 > `#Code Formatting` `#Python Tool` `#自动化工具` `#autopep8` `#code` `#codeformatter` `#formatter` `#gofmt` `#hacktoberfest` `#pre-commit-hook` `#python` `#yapf` 
 > Black is the uncompromising Python code formatter that enforces consistent style across projects. It reformats entire files in place using AST analysis, supports Python 3.10+ and Jupyter Notebooks, produces minimal diffs for faster code reviews, and validates syntax safety through built-in AST checks.
@@ -8137,7 +8158,7 @@
 ## qiurunze123/miaosha
 
 > [!info]
-> ⭐ 26,557 · Java · 2026-11-19T21:05:50Z  
+> ⭐ 26,556 · Java · 2026-11-21T00:26:26Z  
 > [GitHub](https://github.com/qiurunze123/miaosha)  
 > `#Flash Sale Architecture` `#High-Concurrency System` `#Spring+Redis+MQ` 
 > This repository focuses on high-concurrency design and implementation of flash sale systems, covering core tech stacks like Spring, Redis, MQ, and ZooKeeper. It provides complete solutions for high availability and performance, including multi-threaded import frameworks, JVM tuning, and distributed workflow engines, ideal for intermediate to advanced engineers.
@@ -8147,7 +8168,7 @@
 ## xiaolai/regular-investing-in-box
 
 > [!info]
-> ⭐ 6,487 · Python · 2026-11-20T10:09:48Z  
+> ⭐ 6,488 · Python · 2026-11-21T09:11:47Z  
 > [GitHub](https://github.com/xiaolai/regular-investing-in-box) · [Website](https://ri.firesbox.com)  
 > `#Dollar-Cost Averaging` `#Investment` `#Wealth Building` 
 > This book systematically explains how ordinary people can break through class barriers through regular investing, emphasizing that dollar-cost averaging is the only feasible and sustainable investment strategy. It combines market insights with human psychology to offer a practical philosophy and actionable guidance for long-term wealth building.
@@ -8177,7 +8198,7 @@
 ## datawhalechina/leedl-tutorial
 
 > [!info]
-> ⭐ 16,879 · Jupyter Notebook · 2026-11-20T12:44:15Z  
+> ⭐ 16,878 · Jupyter Notebook · 2026-11-21T16:59:06Z  
 > [GitHub](https://github.com/datawhalechina/leedl-tutorial)  
 > `#Educational Resource` `#机器学习` `#深度学习` `#bert` `#chatgpt` `#cnn` `#deep-learning` `#diffusion` `#gan` `#leedl-tutorial` `#machine-learning` `#network-compression` `#pruning` `#reinforcement-learning` `#rnn` `#self-attention` `#transfer-learning` `#transformer` `#tutorial` 
 > LeeDL-Tutorial is a comprehensive Chinese guide to deep learning based on Professor Hung-yi Lee's renowned courses. It simplifies complex concepts through engaging examples and detailed derivations, covering core theories and techniques. Expanded from the 2021 Spring course with additional content from 2017 and external resources, it serves as an ideal entry point for beginners in deep learning.
@@ -8237,7 +8258,7 @@
 ## GoogleChromeLabs/squoosh
 
 > [!info]
-> ⭐ 26,209 · TypeScript · 2026-11-20T09:49:24Z  
+> ⭐ 26,216 · TypeScript · 2026-11-21T21:11:01Z  
 > [GitHub](https://github.com/GoogleChromeLabs/squoosh) · [Website](https://squoosh.app)  
 > `#Browser Tool` `#Frontend Application` `#Image Compression` 
 > Squoosh is a browser-based image compression tool that reduces image sizes using best-in-class codecs entirely in the browser. It supports multiple formats, offers real-time preview and size comparison, and ensures privacy by processing images locally without server transmission.
@@ -8247,7 +8268,7 @@
 ## FEMessage/el-data-table
 
 > [!info]
-> ⭐ 479 · Vue · 2026-11-04T00:57:44Z  
+> ⭐ 478 · Vue · 2026-11-21T13:36:49Z  
 > [GitHub](https://github.com/FEMessage/el-data-table) · [Website](https://femessage.github.io/el-data-table/)  
 > `#CRUD Table` `#Element UI` `#Frontend Component` `#crud` `#element-ui` `#restapi` `#table` 
 > el-data-table is a CRUD table component built on element-ui, featuring auto data fetching via axios, pagination, tree structures, custom search, and operation columns. It uses @femessage/el-form-renderer for form rendering and supports configuration-driven RESTful API management.
@@ -8257,7 +8278,7 @@
 ## Solido/awesome-flutter
 
 > [!info]
-> ⭐ 61,981 · Dart · 2026-11-20T21:56:04Z  
+> ⭐ 61,997 · Dart · 2026-11-21T18:04:57Z  
 > [GitHub](https://github.com/Solido/awesome-flutter)  
 > `#Flutter Framework` `#Mobile Development` `#Resource Aggregation` `#android` `#awesome` `#awesome-list` `#collections` `#cross-platform` `#dartlang` `#flutter` `#flutter-apps` `#flutter-examples` `#flutter-plugin` `#flutter-plugins` `#ios` `#material-design` `#mobile` `#mobile-app` `#mobile-development` `#reactive-programming` `#resources` 
 > Solido/awesome-flutter is a curated list of the best Flutter libraries, tools, tutorials, and articles, serving as a comprehensive resource for Flutter developers to build cross-platform applications.
@@ -8267,7 +8288,7 @@
 ## jhao104/proxy_pool
 
 > [!info]
-> ⭐ 23,800 · Python · 2026-11-20T21:26:09Z  
+> ⭐ 23,799 · Python · 2026-11-21T16:46:55Z  
 > [GitHub](https://github.com/jhao104/proxy_pool) · [Website](https://jhao104.github.io/proxy_pool/)  
 > `#Proxy Pool` `#Python` `#网页爬虫` `#crawler` `#http` `#proxy` `#redis` `#spider` 
 > ProxyPool is a Python-based proxy IP pool for web scraping, featuring automated collection, validation, and management of free proxies. It offers a RESTful API for integration with crawlers, supports extensible proxy sources, and enables efficient anti-scraping bypass via rotating IPs. Compatible with Python 2.7–3.11 and deployable via Docker.
@@ -8277,7 +8298,7 @@
 ## florinpop17/app-ideas
 
 > [!info]
-> ⭐ 98,643 · N/A · 2026-11-20T21:16:00Z  
+> ⭐ 98,666 · N/A · 2026-11-21T21:17:52Z  
 > [GitHub](https://github.com/florinpop17/app-ideas) · [Website](https://CodeRabbit.ai/?ref=app-ideas)  
 > `#Application Development` `#Programming Learning` `#Skill Enhancement` `#applications` `#coding` `#codingchallenges` `#css` `#hacktoberfest` `#html` `#ideas` `#javascript` `#practice` 
 > This repository offers a curated collection of application ideas designed to overcome developer's creative blocks. With 30+ projects across three difficulty tiers, each includes clear objectives, user stories, bonus features, and learning resources. Ideal for skill improvement, tech experimentation, and portfolio development.
@@ -8287,7 +8308,7 @@
 ## YMFE/yapi
 
 > [!info]
-> ⭐ 27,691 · JavaScript · 2026-11-18T09:08:04Z  
+> ⭐ 27,690 · JavaScript · 2026-11-21T10:42:22Z  
 > [GitHub](https://github.com/YMFE/yapi) · [Website](http://yapi.smart-xwork.cn/)  
 > `#API Management` `#Automation Tool` `#Interface Testing` `#api` `#api-management` `#api-manager` `#api-test` 
 > YApi is a powerful, user-friendly, and efficient visual API management platform designed for developers, product managers, and QA teams. It enables seamless creation, publishing, and maintenance of APIs with features like Json5/Mockjs-based data modeling, automated testing, mock server with expectations, and support for importing from Postman, HAR, and Swagger. With a rich plugin ecosystem and code generation tools, it enhances API collaboration and productivity in enterprise environments.
@@ -8297,7 +8318,7 @@
 ## 996icu/996.ICU
 
 > [!info]
-> ⭐ 277,245 · N/A · 2026-11-20T21:56:09Z  
+> ⭐ 277,252 · N/A · 2026-11-21T16:26:59Z  
 > [GitHub](https://github.com/996icu/996.ICU) · [Website](https://996.icu)  
 > `#Anti-996 Movement` `#Labor Rights` `#Open Source Initiative` 
 > 996.ICU is a developer-led initiative exposing and resisting the '996' work schedule (9am-9pm, 6 days/week) in China's tech industry. It builds an open-source blacklist of violators, promotes the Anti-996 License, and advocates for worker rights through community-driven transparency and legal tools.
@@ -8307,7 +8328,7 @@
 ## skywind3000/awesome-cheatsheets
 
 > [!info]
-> ⭐ 12,632 · Shell · 2026-11-19T22:57:03Z  
+> ⭐ 12,632 · Shell · 2026-11-21T08:07:22Z  
 > [GitHub](https://github.com/skywind3000/awesome-cheatsheets)  
 > `#Cheatsheets` `#Development Tools` `#Programming Syntax` `#adb` `#awesome` `#bash` `#cheatsheet` `#gdb` `#go` `#linux` `#nano` `#vim` 
 > This project provides a curated collection of Chinese cheatsheets for developers, covering programming languages (Bash, Python, Go, JavaScript), development tools (Git, Gdb, Tmux), and text editors (Vim, Emacs). Each cheatsheet is a single-file reference for quick lookup, eliminating the need to search scattered documentation.
@@ -8347,7 +8368,7 @@
 ## macrozheng/mall
 
 > [!info]
-> ⭐ 85,067 · Java · 2026-11-20T23:43:17Z  
+> ⭐ 85,070 · Java · 2026-11-21T18:12:53Z  
 > [GitHub](https://github.com/macrozheng/mall) · [Website](https://www.macrozheng.com/admin/)  
 > `#E-commerce` `#Full-stack Management` `#Spring Boot` `#docker` `#elasticsearch` `#elk` `#java` `#mongodb` `#mybatis` `#mysql` `#rabbitmq` `#redis` `#spring` `#spring-boot` `#spring-cloud` `#spring-security` `#springboot` `#springcloud` `#swagger-ui` 
 > Mall is a full-featured e-commerce system with front-end portal and back-end management, built on Spring Boot + MyBatis and deployed via Docker. It includes product display, search, cart, checkout, and user management on the frontend, and supports comprehensive backend operations like inventory, orders, promotions, and analytics. Integrated with Elasticsearch, Redis, RabbitMQ, and other modern technologies, it serves as a robust platform for enterprise-level e-commerce development and learning.
@@ -8357,7 +8378,7 @@
 ## algorithm-visualizer/algorithm-visualizer
 
 > [!info]
-> ⭐ 49,552 · JavaScript · 2026-11-20T15:05:33Z  
+> ⭐ 49,552 · JavaScript · 2026-11-21T20:53:18Z  
 > [GitHub](https://github.com/algorithm-visualizer/algorithm-visualizer) · [Website](https://algorithm-visualizer.org/)  
 > `#Algorithm Visualization` `#Educational Tool` `#React` `#algorithm` `#animation` `#data-structure` `#visualization` 
 > Algorithm Visualizer is an interactive online platform that brings algorithms to life through code visualization. It supports multiple programming languages and offers engaging educational content, making algorithm learning intuitive and effective for students and professionals.
@@ -8397,7 +8418,7 @@
 ## tonsky/FiraCode
 
 > [!info]
-> ⭐ 82,217 · Clojure · 2026-11-20T20:49:42Z  
+> ⭐ 82,219 · Clojure · 2026-11-21T22:41:28Z  
 > [GitHub](https://github.com/tonsky/FiraCode)  
 > `#Code Readability` `#Ligatures` `#Programming Font` `#font` `#ligatures` `#programming-ligatures` 
 > Fira Code is a free monospaced font featuring programming ligatures that render multi-character sequences like `->` or `:=` as single glyphs, enhancing code readability. It maintains ASCII compatibility while offering stylistic sets, character variants, and full Unicode support for editors, terminals, and mathematical notation.
@@ -8417,7 +8438,7 @@
 ## EbookFoundation/free-programming-books
 
 > [!info]
-> ⭐ 401,961 · Python · 2026-11-20T23:49:38Z  
+> ⭐ 402,031 · Python · 2026-11-21T22:54:16Z  
 > [GitHub](https://github.com/EbookFoundation/free-programming-books) · [Website](https://ebookfoundation.github.io/free-programming-books/)  
 > `#Creative Commons` `#Open Source Learning` `#Programming Books` `#books` `#education` `#hacktoberfest` `#list` `#resource` 
 > This repository aggregates freely available programming books across multiple languages and domains, featuring dynamic search and static site access. Maintained by the non-profit Free Ebook Foundation, it is one of GitHub's most popular open-source projects.
@@ -8437,7 +8458,7 @@
 ## shadowsocks/shadowsocks-android
 
 > [!info]
-> ⭐ 36,845 · Kotlin · 2026-11-20T20:46:33Z  
+> ⭐ 36,847 · Kotlin · 2026-11-21T15:42:57Z  
 > [GitHub](https://github.com/shadowsocks/shadowsocks-android)  
 > `#Kotlin` `#Privacy Protection` `#Proxy Client` `#android` `#shadowsocks` 
 > Shadowsocks Android is an open-source proxy client built with Kotlin for Android and Chrome OS. It enables secure and fast internet access using the Shadowsocks protocol, supporting multiple server configurations, automatic switching, and traffic monitoring for enhanced privacy and network freedom.
@@ -8457,7 +8478,7 @@
 ## zsh-users/zsh-autosuggestions
 
 > [!info]
-> ⭐ 36,213 · Shell · 2026-11-20T23:42:36Z  
+> ⭐ 36,217 · Shell · 2026-11-21T16:47:13Z  
 > [GitHub](https://github.com/zsh-users/zsh-autosuggestions)  
 > `#Command Line Enhancement` `#Terminal Tools` `#Zsh Plugin` `#autocomplete` `#autosuggest` `#fish` `#shell` `#zsh` `#zsh-autosuggestions` 
 > zsh-autosuggestions delivers Fish-like real-time command suggestions for zsh, leveraging history and completion engines. Features customizable highlighting and multiple suggestion strategies, integrates seamlessly with Oh My Zsh to boost terminal productivity.
@@ -8467,7 +8488,7 @@
 ## spaceship-prompt/spaceship-prompt
 
 > [!info]
-> ⭐ 20,611 · Shell · 2026-11-19T19:52:18Z  
+> ⭐ 20,612 · Shell · 2026-11-21T23:16:24Z  
 > [GitHub](https://github.com/spaceship-prompt/spaceship-prompt) · [Website](https://spaceship-prompt.sh)  
 > `#Shell Customization` `#Terminal Tool` `#Zsh Prompt` `#oh-my-zsh` `#prompt` `#shell` `#shell-prompt` `#shell-theme` `#spaceship` `#terminal` `#zsh` `#zsh-theme` `#zsh-users` 
 > Spaceship Prompt is a minimalistic, powerful, and highly customizable Zsh prompt that displays essential information like Git status, runtime environments (Node.js, Python, etc.), package versions, battery level, and Kubernetes context, with extensive customization options for enhanced terminal productivity.
@@ -8487,7 +8508,7 @@
 ## inferjay/AndroidDevTools
 
 > [!info]
-> ⭐ 8,063 · Python · 2026-11-20T12:16:51Z  
+> ⭐ 8,064 · Python · 2026-11-21T02:38:41Z  
 > [GitHub](https://github.com/inferjay/AndroidDevTools) · [Website](https://www.androiddevtools.cn)  
 > `#Android Development` `#Developer Toolkit` `#Mobile Development` `#adt` `#android-development` `#android-sdk` `#android-studio` `#gradle` `#ndk` `#sdk-manager` 
 > AndroidDevTools is a comprehensive platform for Android developers, offering curated resources including Android SDK, development tools, design guidelines, tutorials, and free assets. It covers the full development lifecycle—from environment setup and code generation to resource optimization and UI design—supporting major tools like Android Studio and Gradle to enhance productivity.
@@ -8567,7 +8588,7 @@
 ## shadowsocksr-backup/shadowsocksr-csharp
 
 > [!info]
-> ⭐ 4,471 · C# · 2026-11-20T05:40:21Z  
+> ⭐ 4,470 · C# · 2026-11-21T12:10:19Z  
 > [GitHub](https://github.com/shadowsocksr-backup/shadowsocksr-csharp)  
 > `#Censorship Circumvention` `#Network Proxy` `#Privacy Protection` 
 > ShadowsocksR for Windows is a cross-platform proxy tool based on the ShadowsocksR protocol, designed to bypass internet censorship. It supports multiple server configurations, system-wide proxy, automatic PAC updates, and UDP forwarding, offering comprehensive privacy protection and network access.
@@ -8576,7 +8597,7 @@
 ## android-hacker/VirtualXposed
 
 > [!info]
-> ⭐ 16,088 · Java · 2026-11-20T22:13:43Z  
+> ⭐ 16,089 · Java · 2026-11-21T07:23:54Z  
 > [GitHub](https://github.com/android-hacker/VirtualXposed) · [Website](https://vxp.app)  
 > `#Android Hacking` `#Root-Free Tool` `#Xposed Framework` `#android` `#aop` `#hook` `#non-root` `#xposed` 
 > VirtualXposed is an Android app built on VirtualApp and epic that enables Xposed module usage without root, bootloader unlock, or system image modification. It supports Android 5.0–10.0 and works with most non-system modules like ad blockers and app enhancements. Users can install apps and modules in a virtual environment and reboot within the app for instant activation, offering a safe and flexible way to customize Android without system-level changes.
@@ -8586,7 +8607,7 @@
 ## aymericdamien/TensorFlow-Examples
 
 > [!info]
-> ⭐ 43,732 · Jupyter Notebook · 2026-11-20T11:34:36Z  
+> ⭐ 43,732 · Jupyter Notebook · 2026-11-21T10:17:35Z  
 > [GitHub](https://github.com/aymericdamien/TensorFlow-Examples)  
 > `#Beginner Tutorial` `#TensorFlow` `#机器学习` `#deep-learning` `#examples` `#machine-learning` `#python` `#tensorflow` `#tutorial` 
 > This repository offers a comprehensive, beginner-friendly tutorial for TensorFlow, featuring clear examples in both notebooks and source code for TF v1 and v2. It covers fundamental operations to advanced models, emphasizing modern API practices such as layers, estimator, and dataset. Ideal for developers seeking hands-on experience with TensorFlow's core functionalities.
@@ -8646,7 +8667,7 @@
 ## buo/homebrew-cask-upgrade
 
 > [!info]
-> ⭐ 2,692 · Ruby · 2026-11-17T15:35:38Z  
+> ⭐ 2,693 · Ruby · 2026-11-21T09:05:15Z  
 > [GitHub](https://github.com/buo/homebrew-cask-upgrade)  
 > `#Automation Tool` `#Homebrew Cask` `#macOS App Management` `#homebrew-cask` 
 > brew-cask-upgrade is a CLI tool to upgrade outdated macOS GUI apps installed via Homebrew Cask. It offers interactive prompts, granular control, auto-update detection, batch upgrades, and features like cleanup and quarantine bypass, enhancing the efficiency of managing Homebrew Cask applications.
@@ -8676,7 +8697,7 @@
 ## jaywcjlove/awesome-mac
 
 > [!info]
-> ⭐ 118,975 · Swift · 2026-11-20T23:49:39Z  
+> ⭐ 119,060 · Swift · 2026-11-21T22:34:42Z  
 > [GitHub](https://github.com/jaywcjlove/awesome-mac) · [Website](https://git.io/macx)  
 > `#Productivity Tools` `#Software Curation` `#macOS Apps` `#app` `#apple` `#application` `#apps` `#awesome` `#awesome-list` `#awesome-mac` `#desktop-app` `#desktop-application` `#desktop-apps` `#list` `#mac` `#mac-osx` `#macos` `#macos-app` `#macos-apps` `#macosx` `#software` `#swift` `#swiftui` 
 > Awesome Mac is a curated collection of premium macOS software across categories like development tools, design apps, and productivity utilities. It features a vast scale, multilingual support (including Chinese and Korean), and is available via Docker and npm. The list categorizes apps by open-source, freeware, and App Store status, encouraging community contributions.
@@ -8696,7 +8717,7 @@
 ## sunnyyoung/WeChatTweak
 
 > [!info]
-> ⭐ 13,839 · Swift · 2026-11-20T03:45:26Z  
+> ⭐ 13,838 · Swift · 2026-11-21T13:01:40Z  
 > [GitHub](https://github.com/sunnyyoung/WeChatTweak) · [Website](https://www.tweaks.app)  
 > `#Multi-Instance` `#WeChat Enhancement` `#macOS Tool` `#alfred` `#alfred-workflow` `#macos` `#no-revoke` `#norevoke` `#raycast-extension` `#revoke` `#tweak` `#wechat` `#wechat-macos` `#wechat-plugin` `#wechat-plugin-macos` `#wechat-raycast` `#wechat-tweak` `#wechathook` `#wechattweak` `#wechattweak-macos` `#weixin` `#weixin-plugin` `#weixin-tweak` 
 > WeChatTweak is a command-line tool for macOS that enables WeChat enhancements including message recall blocking, auto-update prevention, and multi-instance support via binary patching, offering advanced customization for native app workflows.
@@ -8716,7 +8737,7 @@
 ## JohnCoates/Aerial
 
 > [!info]
-> ⭐ 21,294 · Swift · 2026-11-20T12:04:52Z  
+> ⭐ 21,300 · Swift · 2026-11-21T20:54:42Z  
 > [GitHub](https://github.com/JohnCoates/Aerial)  
 > `#Aerial Videos` `#Screensaver` `#桌面应用` 
 > Aerial is a macOS screensaver featuring Apple's Aerial video collection, showcasing aerial views of locations like New York, San Francisco, and Hawaii. It supports multilingual overlays, real-time weather data, and is open-source with community contributions.
@@ -8726,7 +8747,7 @@
 ## easy-mock/easy-mock
 
 > [!info]
-> ⭐ 8,947 · JavaScript · 2026-11-19T20:36:35Z  
+> ⭐ 8,946 · JavaScript · 2026-11-21T05:16:34Z  
 > [GitHub](https://github.com/easy-mock/easy-mock) · [Website](https://easy-mock.com)  
 > `#API Mocking` `#Mock.js` `#Team Collaboration` `#data-generator` `#easy-mock` `#javascript` `#mock` `#swagger` `#vue` 
 > Easy Mock is a persistent service that quickly generates mock data with a visualization interface, supporting team collaboration, Swagger import, Mock.js schema, and customizable responses for frontend-backend development and API testing.
@@ -8736,7 +8757,7 @@
 ## shadowsocks/ShadowsocksX-NG
 
 > [!info]
-> ⭐ 32,862 · Swift · 2026-11-20T07:50:40Z  
+> ⭐ 32,863 · Swift · 2026-11-21T09:06:34Z  
 > [GitHub](https://github.com/shadowsocks/ShadowsocksX-NG)  
 > `#Network Proxy` `#Shadowsocks` `#VPN Tool` `#macOS Client` `#hysteria2` `#macos` `#proxy` `#proxy-client` `#shadowsocks` `#shadowsocksx-ng` `#swift` `#v2ray-plugin` 
 > ShadowsocksX-NG is the next-generation macOS client for Shadowsocks, rebuilt with Swift and integrated with ss-local from shadowsocks-libev. It supports SIP003 plugins, AEAD ciphers, PAC auto-updates, QR code sharing, and manual proxy mode. By running ss-local as a background service via launchd, it improves stability and simplifies dependency management.
@@ -8766,7 +8787,7 @@
 ## soimort/you-get
 
 > [!info]
-> ⭐ 56,847 · Python · 2026-11-20T17:00:13Z  
+> ⭐ 56,852 · Python · 2026-11-21T13:56:42Z  
 > [GitHub](https://github.com/soimort/you-get) · [Website](https://you-get.org/)  
 > `#Python` `#Video Downloader` `#网页爬虫` 
 > You-Get is a lightweight command-line utility to download media (videos, audios, images) from the web when no official download option exists. It supports platforms like YouTube and Youku, enables streaming playback, subtitle extraction, and image scraping, and relies on Python and FFmpeg as core dependencies.
@@ -8786,7 +8807,7 @@
 ## getsentry/sentry
 
 > [!info]
-> ⭐ 45,808 · Python · 2026-11-20T21:51:51Z  
+> ⭐ 45,838 · Python · 2026-11-21T21:53:10Z  
 > [GitHub](https://github.com/getsentry/sentry) · [Website](https://sentry.io)  
 > `#Application Monitoring` `#Error Tracking` `#Performance Analysis` `#apm` `#crash-reporting` `#crash-reports` `#csp-report` `#devops` `#django` `#error-logging` `#error-monitoring` `#fair-source` `#hacktoberfest` `#monitor` `#monitoring` `#python` `#sentry` `#tag-production` 
 > Sentry is a developer-first error tracking and performance monitoring platform that enables real-time issue detection, error tracing, performance insights, and user session replay. It supports 20+ languages via official SDKs, helping teams debug and resolve problems faster.
@@ -8796,7 +8817,7 @@
 ## Binaryify/NeteaseCloudMusicApi
 
 > [!info]
-> ⭐ 30,219 · N/A · 2026-11-20T13:08:01Z  
+> ⭐ 30,222 · N/A · 2026-11-21T17:21:21Z  
 > [GitHub](https://github.com/Binaryify/NeteaseCloudMusicApi) · [Website](https://gitlab.com/Binaryify/neteasecloudmusicapi)  
 > `#API Interface` `#Music Service` `#Node.js` `#api` `#apis` `#cloudmusic` `#javascript` `#neteasecloud` `#nodejs` 
 > Netease Cloud Music Node.js API service offering music playback, playlist retrieval, and user data access. Now deprecated due to copyright policy changes; users advised to ensure compliance.
@@ -8806,7 +8827,7 @@
 ## trazyn/weweChat
 
 > [!info]
-> ⭐ 5,699 · JavaScript · 2026-11-15T08:03:56Z  
+> ⭐ 5,698 · JavaScript · 2026-11-21T21:24:31Z  
 > [GitHub](https://github.com/trazyn/weweChat)  
 > `#Electron` `#WeChat Client` `#桌面应用` `#chat` `#client` `#desktop` `#electron` `#mobx` `#react` `#wechat` 
 > weweChat is an unofficial WeChat desktop client built with React, MobX, and Electron. It supports desktop notifications, message recall blocking, keyboard shortcuts, drag-and-drop file sending, and batch messaging, offering a modern interface with macOS vibrancy effects.
@@ -8826,7 +8847,7 @@
 ## maptalks/maptalks.js
 
 > [!info]
-> ⭐ 4,539 · HTML · 2026-11-19T19:52:34Z  
+> ⭐ 4,540 · HTML · 2026-11-21T08:31:39Z  
 > [GitHub](https://github.com/maptalks/maptalks.js) · [Website](https://maptalks.org)  
 > `#3D Mapping` `#High-Performance Rendering` `#WebGL Map Engine` `#gis` `#javascript` `#map` `#maps` `#maptalks` 
 > maptalks-gl is a WebGL and WebGPU-driven map engine for high-performance 2D/3D mapping. It supports vector tiles, 3DTiles, and GLTF formats, offering advanced 3D analysis and traffic simulation. With backward-compatible APIs, it enables seamless migration from legacy maptalks.
@@ -8856,7 +8877,7 @@
 ## byoungd/up
 
 > [!info]
-> ⭐ 70,757 · JavaScript · 2026-11-20T21:47:37Z  
+> ⭐ 70,789 · JavaScript · 2026-11-21T19:01:58Z  
 > [GitHub](https://github.com/byoungd/up) · [Website](https://byoungd.github.io/up/)  
 > `#AI Agents` `#Lifelong Learning` `#Personal Growth` `#提示工程` `#ai-literacy` `#chinese` `#english-learning` `#lifelong-learning` `#open-education` `#self-directed-learning` `#tutorial` 
 > An open guide integrating English mastery with personal growth, offering systematic training from vocabulary to speaking/writing, and deeply incorporating AI tools like Gemini and ChatGPT for efficient learning loops. It also features real-world entrepreneurship reflections and recovery stories for long-term self-improvement.
@@ -8886,7 +8907,7 @@
 ## 52cik/github-hans
 
 > [!info]
-> ⭐ 1,921 · JavaScript · 2026-11-17T10:33:09Z  
+> ⭐ 1,922 · JavaScript · 2026-11-21T12:08:12Z  
 > [GitHub](https://github.com/52cik/github-hans)  
 > `#Beginner Friendly` `#UI Translation` `#浏览器插件` 
 > GitHub Hans is a Tampermonkey-based plugin that translates GitHub's full interface into Chinese, aiding users with limited English proficiency. It auto-updates translations daily and supports major browsers like Chrome and Opera, with clear installation instructions.
@@ -8906,7 +8927,7 @@
 ## pyecharts/pyecharts
 
 > [!info]
-> ⭐ 15,780 · Python · 2026-11-19T20:53:06Z  
+> ⭐ 15,779 · Python · 2026-11-21T09:22:28Z  
 > [GitHub](https://github.com/pyecharts/pyecharts) · [Website](https://pyecharts.org)  
 > `#ECharts` `#Python Charting Library` `#数据可视化` `#echarts` `#python` 
 > pyecharts is a Python data visualization library built on Apache ECharts, offering fluent API design with 30+ chart types, seamless integration with Jupyter notebooks and web frameworks like Flask/Django, chainable syntax, extensive map support (400+), and flexible configuration, targeting Python 3.7+ in V1/V2 versions.
@@ -8916,7 +8937,7 @@
 ## jumpserver/jumpserver
 
 > [!info]
-> ⭐ 31,993 · Python · 2026-11-20T23:10:35Z  
+> ⭐ 31,998 · Python · 2026-11-21T19:26:05Z  
 > [GitHub](https://github.com/jumpserver/jumpserver) · [Website](https://jumpserver.com)  
 > `#Bastion Host` `#DevOps Automation` `#Privileged Access Management` `#ai` `#bastion-host` `#codex` `#cyberark` `#django` `#jumpserver` `#pam` `#python` `#ssh-server` `#teleport` `#terminal` 
 > JumpServer is an open-source Privileged Access Management (PAM) platform enabling secure, on-demand access to SSH, RDP, Kubernetes, databases, and RemoteApp endpoints via a web browser, featuring comprehensive auditing, RBAC, and multi-protocol support for DevOps and IT teams.
@@ -8936,7 +8957,7 @@
 ## BoostIO/BoostNote-Legacy
 
 > [!info]
-> ⭐ 16,861 · JavaScript · 2026-11-20T18:12:36Z  
+> ⭐ 16,859 · JavaScript · 2026-11-21T19:59:35Z  
 > [GitHub](https://github.com/BoostIO/BoostNote-Legacy)  
 > `#Cross-Platform Desktop` `#Electron` `#Note-Taking App` `#electron` `#linux` `#macos` `#open-source` `#react` `#stylus` `#windows` 
 > BoostNote-Legacy is an open-source note-taking app designed for programmers, supporting Mac, Windows, and Linux. This repository is deprecated; users are advised to migrate to the new BoostNote app, which features real-time collaborative writing and is built with Electron, React + Redux.
@@ -8956,7 +8977,7 @@
 ## python/cpython
 
 > [!info]
-> ⭐ 78,434 · Python · 2026-11-20T22:56:54Z  
+> ⭐ 78,446 · Python · 2026-11-21T22:57:06Z  
 > [GitHub](https://github.com/python/cpython) · [Website](https://www.python.org)  
 > `#CPython` `#Open Source` `#Programming Language` 
 > CPython 3.15.0 alpha 6 is the official reference implementation of the Python programming language, containing source code, build instructions, and developer tools. It supports cross-platform compilation, includes the full standard library, test suite, and performance optimizations like PGO and LTO for production-ready builds.
@@ -8996,7 +9017,7 @@
 ## humiaozuzu/wechat-explorer
 
 > [!info]
-> ⭐ 540 · Python · 2026-09-24T05:25:06Z  
+> ⭐ 539 · Python · 2026-11-21T12:04:36Z  
 > [GitHub](https://github.com/humiaozuzu/wechat-explorer)  
 > `#Chat Analysis` `#Data Export` `#iOS Backup Parsing` 
 > Wechat Explorer is an iOS-focused tool for exporting and analyzing WeChat chat records by parsing iTunes backups. It supports exporting chatroom logs, generating friend label statistics, and creating PDF reports from HTML exports, ideal for personal data archiving and social behavior insights.
@@ -9026,7 +9047,7 @@
 ## PanJiaChen/vue-element-admin
 
 > [!info]
-> ⭐ 90,089 · Vue · 2026-11-20T12:39:46Z  
+> ⭐ 90,092 · Vue · 2026-11-21T14:29:09Z  
 > [GitHub](https://github.com/PanJiaChen/vue-element-admin)  
 > `#Admin Interface` `#Enterprise Application` `#Vue.js` `#admin` `#admin-dashboard` `#admin-template` `#axios` `#dashboard` `#desktop` `#element` `#element-ui` `#i18n` `#management-system` `#mock` `#tinymce` `#vue` `#vue-admin` `#vue-cli` `#vuex` `#webpack` `#webpack4` `#xlsx` 
 > vue-element-admin is a production-ready front-end solution for admin interfaces built on Vue 2.6+ and Element UI 2.7+. It features i18n support, role-based permissions, dashboard widgets, and enterprise-grade templates to accelerate development of complex single-page applications.
@@ -9036,7 +9057,7 @@
 ## TonnyL/Awesome_APIs
 
 > [!info]
-> ⭐ 13,223 · N/A · 2026-11-20T21:22:34Z  
+> ⭐ 13,223 · N/A · 2026-11-21T06:48:38Z  
 > [GitHub](https://github.com/TonnyL/Awesome_APIs)  
 > `#API Collection` `#Developer Tools` `#Third-party APIs` `#android` `#api` `#awesome` `#ios` `#web` `#windows` 
 > Awesome APIs is a curated collection of over 40 categories of developer-friendly APIs, including anime, blogging, books, business, cloud services, and more, enabling rapid integration of diverse functionalities and enhancing development efficiency.
@@ -9076,7 +9097,7 @@
 ## docsifyjs/docsify
 
 > [!info]
-> ⭐ 31,605 · JavaScript · 2026-11-20T23:13:12Z  
+> ⭐ 31,606 · JavaScript · 2026-11-21T15:20:13Z  
 > [GitHub](https://github.com/docsifyjs/docsify) · [Website](https://docsify.js.org)  
 > `#Documentation` `#Markdown` `#Static Site Generator` `#doc` `#docs` `#docsify` `#documentation` `#documentation-tool` `#github-pages` `#markdown` `#vue` 
 > Docsify is a magical documentation site generator that converts Markdown files into static websites without requiring a build process. It features full-text search, multiple themes, plugin support, and emoji rendering, ideal for rapidly building lightweight technical documentation and project wikis.
@@ -9106,7 +9127,7 @@
 ## dbcli/mycli
 
 > [!info]
-> ⭐ 11,997 · Python · 2026-11-20T22:26:52Z  
+> ⭐ 11,998 · Python · 2026-11-21T20:43:14Z  
 > [GitHub](https://github.com/dbcli/mycli) · [Website](http://mycli.net)  
 > `#Database Tools` `#MySQL` `#Terminal Client` `#auto-completion` `#data-science` `#database` `#mycli` `#mysql` `#polars` `#python` `#repl` `#sql` `#syntax-highlighting` 
 > mycli is a terminal client for MySQL featuring auto-completion for SQL keywords, tables, and columns, along with syntax highlighting. Built with prompt_toolkit, it offers fuzzy history search, multi-line queries, favorite query management, execution timing, SSL support, and customizable config via ~/.myclirc, enhancing database interaction efficiency.
@@ -9116,7 +9137,7 @@
 ## fancymax/12306ForMac
 
 > [!info]
-> ⭐ 2,896 · Swift · 2026-11-19T17:04:40Z  
+> ⭐ 2,896 · Swift · 2026-11-21T03:08:40Z  
 > [GitHub](https://github.com/fancymax/12306ForMac)  
 > `#Automation Tool` `#Desktop Application` `#Swift` `#Train Ticket Booking` `#12306` `#osx` `#swift` `#ticket` `#train` 
 > 12306ForMac is an unofficial macOS client for 12306 railway ticket booking, supporting auto-search and purchasing. Built with Swift 3.2 and Xcode 9.0, it uses Carthage for dependency management and integrates Alamofire, PromiseKit, and FMDB. Designed for OS X 10.11+, it offers a native GUI alternative to the official web interface for convenient ticket booking.
@@ -9136,7 +9157,7 @@
 ## hzlzh/Best-App
 
 > [!info]
-> ⭐ 17,580 · N/A · 2026-11-20T08:47:55Z  
+> ⭐ 17,581 · N/A · 2026-11-21T07:02:59Z  
 > [GitHub](https://github.com/hzlzh/Best-App)  
 > `#App Recommendations` `#Cross-Platform` `#Productivity Tools` `#app` `#mac` `#macos` 
 > Best App is a curated collection of excellent apps, hardware, and life-enhancing tips across macOS, iOS, and Android. It features detailed reviews and comparisons of premium and free apps, helping users make informed choices for productivity and lifestyle improvement. The project maintains objectivity, avoids ads, and encourages community contributions via Star or Pull Request.
@@ -9146,7 +9167,7 @@
 ## flarum/framework
 
 > [!info]
-> ⭐ 6,771 · PHP · 2026-11-20T10:20:47Z  
+> ⭐ 6,772 · PHP · 2026-11-21T06:15:34Z  
 > [GitHub](https://github.com/flarum/framework) · [Website](http://flarum.org/)  
 > `#Community Platform` `#Forum Software` `#Frontend Framework` `#PHP` `#community` `#flarum` `#forum` `#hacktoberfest` `#javascript` `#laravel` `#php` 
 > Flarum is a lightweight, modern forum software designed to build great online communities. Built with PHP and powered by the Mithril JavaScript framework, it offers a clean interface, fast deployment, and extensive extensibility through a robust Extension API, ideal for customizable discussion platforms.
@@ -9186,7 +9207,7 @@
 ## yudai/gotty
 
 > [!info]
-> ⭐ 19,557 · Go · 2026-11-19T19:40:56Z  
+> ⭐ 19,558 · Go · 2026-11-21T09:04:57Z  
 > [GitHub](https://github.com/yudai/gotty)  
 > `#Ops Tool` `#Remote Terminal` `#Web Application` `#browser` `#go` `#javascript` `#terminal` `#tty` `#typescript` `#web` `#websocket` 
 > GoTTY is a lightweight CLI tool that transforms command-line tools into web-based applications, enabling remote terminal access via browsers. It supports secure features like TLS encryption, basic authentication, random URL generation, and dynamic resizing for use in operations, debugging, and remote collaboration.
@@ -9196,7 +9217,7 @@
 ## jobbole/awesome-python-cn
 
 > [!info]
-> ⭐ 30,696 · Makefile · 2026-11-20T13:55:56Z  
+> ⭐ 30,700 · Makefile · 2026-11-21T11:32:22Z  
 > [GitHub](https://github.com/jobbole/awesome-python-cn) · [Website](http://jobbole.github.io/awesome-python-cn/)  
 > `#Development Tools` `#Python Ecosystem` `#Resource Aggregation` `#python` 
 > jobbole/awesome-python-cn is the Chinese mirror of Python's comprehensive resource repository, covering tools across Web frameworks, web scraping, databases, data visualization, machine learning, and more. Maintained by open-source communities, it offers a well-organized catalog of high-quality Python ecosystem components for developers.
@@ -9276,7 +9297,7 @@
 ## typcn/bilibili-mac-client
 
 > [!info]
-> ⭐ 3,834 · Objective-C · 2026-11-19T19:31:59Z  
+> ⭐ 3,835 · Objective-C · 2026-11-21T17:10:27Z  
 > [GitHub](https://github.com/typcn/bilibili-mac-client) · [Website](https://typcn.com/legacy/bilimac/)  
 > `#Danmaku Rendering` `#Video Player` `#mpv` `#bilibili` `#macos` `#mpv` `#player` 
 > An unofficial Bilibili desktop client for macOS, built on mpv with hardware decoding and libass-based danmaku rendering. It supports multi-site video parsing, segmented video stitching, danmaku interaction, local playback, and extensive customization via mpv config, offering superior performance and energy efficiency compared to HTML5 players.
@@ -9336,7 +9357,7 @@
 ## amfe/article
 
 > [!info]
-> ⭐ 7,516 · N/A · 2026-11-19T06:05:33Z  
+> ⭐ 7,516 · N/A · 2026-11-21T05:23:16Z  
 > [GitHub](https://github.com/amfe/article)  
 > `#Frontend Development` `#Mobile Adaptation` `#Performance Optimization` 
 > This repository contains technical articles from Alibaba's mobile front-end team in 2015, covering performance optimization, H5 adaptation, dynamic solutions, icon/font handling, and e-commerce-specific challenges, including insights from Double 11 projects and Flexible layout practices.
@@ -9345,7 +9366,7 @@
 ## iview/iview
 
 > [!info]
-> ⭐ 23,741 · Vue · 2026-11-19T20:05:00Z  
+> ⭐ 23,742 · Vue · 2026-11-21T05:24:18Z  
 > [GitHub](https://github.com/iview/iview) · [Website](http://iview.talkingdata.com)  
 > `#Enterprise UI` `#Frontend Framework` `#Vue Component Library` `#components` `#css` `#design-systems` `#frontend` `#iview` `#javascript` `#ui-design` `#ui-kit` `#vue` `#vue-components` 
 > iView is a high-quality UI toolkit built on Vue.js 2.0, offering dozens of beautiful and practical components. It supports Vue 1.x/2.x, SSR, TypeScript, Electron, and provides extensive documentation with demos for enterprise-level applications.
@@ -9385,7 +9406,7 @@
 ## rofl0r/proxychains-ng
 
 > [!info]
-> ⭐ 10,714 · C · 2026-11-20T21:52:02Z  
+> ⭐ 10,714 · C · 2026-11-21T17:14:53Z  
 > [GitHub](https://github.com/rofl0r/proxychains-ng) · [Website](http://sourceforge.net/projects/proxychains-ng/files)  
 > `#LD_PRELOAD` `#Network Proxy` `#Traffic Routing` `#hack` `#hook` `#http` `#preload` `#proxy` `#proxychains` `#socks` 
 > ProxyChains-NG is a modern successor to the original proxychains project, intercepting socket calls in dynamically linked programs via LD_PRELOAD to route traffic through SOCKS4/5 or HTTP proxies. It supports Linux, BSD, macOS, and other platforms, featuring IPv6, DNAT, and multithreading optimizations. Designed for bypassing network restrictions, it requires careful configuration and legal awareness.
@@ -9415,7 +9436,7 @@
 ## reorx/httpstat
 
 > [!info]
-> ⭐ 6,222 · Python · 2026-11-19T20:07:38Z  
+> ⭐ 6,223 · Python · 2026-11-21T20:50:06Z  
 > [GitHub](https://github.com/reorx/httpstat)  
 > `#CLI Tool` `#Network Debugging` `#Python Script` `#cli` `#curl` `#http` `#python` `#visualization` 
 > httpstat is a simple yet powerful command-line tool that visualizes detailed curl request statistics, including DNS lookup, TCP handshake, TLS negotiation, and HTTP request/response timings. Written in single-file Python with zero dependencies, it offers rich customization via environment variables for network debugging and performance analysis.
@@ -9495,7 +9516,7 @@
 ## ruanyf/jstraining
 
 > [!info]
-> ⭐ 20,038 · N/A · 2026-11-19T15:42:09Z  
+> ⭐ 20,039 · N/A · 2026-11-21T06:14:03Z  
 > [GitHub](https://github.com/ruanyf/jstraining)  
 > `#Full-Stack Development` `#JavaScript` `#React Stack` 
 > Comprehensive full-stack JavaScript training material covering frontend React, Node.js backend development, and engineering practices. Designed for learners with basic HTML/CSS/JS knowledge, featuring four lectures for a two-day bootcamp on building complete web applications.
@@ -9525,7 +9546,7 @@
 ## vuejs/vue
 
 > [!info]
-> ⭐ 212,515 · TypeScript · 2026-11-20T22:17:43Z  
+> ⭐ 212,516 · TypeScript · 2026-11-21T22:34:58Z  
 > [GitHub](https://github.com/vuejs/vue) · [Website](http://v2.vuejs.org)  
 > `#Frontend Framework` `#Progressive Framework` `#View Layer` `#framework` `#frontend` `#javascript` `#vue` 
 > Vue 2 reached End of Life on December 31st, 2023 and no longer receives updates. This repository is archived for Vue 2. The actively maintained version is vuejs/core. Vue is a progressive framework for building user interfaces, designed to be incrementally adoptable with a core library focused on the view layer and a rich ecosystem for large-scale applications.
@@ -9535,7 +9556,7 @@
 ## vuejs/awesome-vue
 
 > [!info]
-> ⭐ 73,469 · N/A · 2026-11-20T21:13:23Z  
+> ⭐ 73,467 · N/A · 2026-11-21T21:52:57Z  
 > [GitHub](https://github.com/vuejs/awesome-vue)  
 > `#Development Resources` `#Frontend Framework` `#Vue.js Ecosystem` 
 > A meticulously curated collection of Vue.js resources including official docs, tutorials, UI component libraries, enterprise case studies, and development tools, offering a complete learning path from beginner to production-ready solutions.
@@ -9575,7 +9596,7 @@
 ## odoo/odoo
 
 > [!info]
-> ⭐ 55,992 · Python · 2026-11-20T23:13:15Z  
+> ⭐ 56,006 · Python · 2026-11-21T22:48:35Z  
 > [GitHub](https://github.com/odoo/odoo) · [Website](https://www.odoo.com)  
 > `#Enterprise Applications` `#Open Source ERP` `#Python` `#apps` `#business` `#erp` `#management` `#odoo` `#odoo-apps` `#python` 
 > Odoo is an open-source business application suite featuring integrated modules like CRM, eCommerce, accounting, and inventory management. Built on Python, it offers modular, scalable ERP solutions with seamless integration and extensive customization capabilities for growing businesses.
@@ -9615,7 +9636,7 @@
 ## ElemeFE/element
 
 > [!info]
-> ⭐ 53,970 · Vue · 2026-11-19T23:09:00Z  
+> ⭐ 53,971 · Vue · 2026-11-21T05:24:02Z  
 > [GitHub](https://github.com/ElemeFE/element) · [Website](https://element.eleme.io/)  
 > `#Enterprise UI` `#Frontend Framework` `#Vue.js Component Library` `#components` `#element-ui` `#javascript` `#ui-kit` `#vue` `#vue-components` `#vuejs` 
 > Element is a Vue.js 2.0 UI toolkit for web development, offering a comprehensive set of components and documentation for enterprise-level applications. It features modular architecture, theme customization, full internationalization, and an active community ecosystem.
@@ -9655,7 +9676,7 @@
 ## tabulapdf/tabula
 
 > [!info]
-> ⭐ 7,497 · CSS · 2026-11-20T11:39:23Z  
+> ⭐ 7,498 · CSS · 2026-11-21T02:47:09Z  
 > [GitHub](https://github.com/tabulapdf/tabula) · [Website](http://tabula.technology)  
 > `#Data Extraction` `#PDF Processing` `#网页爬虫` `#csv` `#excel` `#pdf` `#scraping` `#tables` 
 > Tabula is an open-source tool designed to extract structured table data from PDF files into CSV format. It emphasizes local processing for data security and works only with text-based PDFs (not scanned documents). While the main app is no longer actively maintained, the underlying tabula-java library continues to receive updates, making it suitable for data analysts and journalists handling PDF tables.
@@ -9815,7 +9836,7 @@
 ## zhongyi-tong/electronic-wechat
 
 > [!info]
-> ⭐ 13,809 · JavaScript · 2026-11-19T17:04:33Z  
+> ⭐ 13,808 · JavaScript · 2026-11-21T12:05:56Z  
 > [GitHub](https://github.com/zhongyi-tong/electronic-wechat)  
 > `#Cross-platform App` `#Electron` `#WeChat Client` `#electron` `#linux` `#macos` `#web-wechat` `#wechat` 
 > An Electron-based cross-platform WeChat client for macOS and Linux, featuring modern UI, full Web WeChat functionality, message recall blocking, sticker support, and drag-and-drop file sharing. The project is archived and no longer actively maintained.
@@ -9825,7 +9846,7 @@
 ## fatedier/frp
 
 > [!info]
-> ⭐ 110,689 · Go · 2026-11-20T23:32:53Z  
+> ⭐ 110,698 · Go · 2026-11-21T19:03:01Z  
 > [GitHub](https://github.com/fatedier/frp)  
 > `#Go Language` `#NAT Traversal` `#Network Proxy` `#expose` `#firewall` `#frp` `#go` `#http-proxy` `#nat` `#p2p` `#proxy` `#reverse-proxy` `#tunnel` 
 > frp is a high-performance reverse proxy designed to expose local servers behind NAT or firewalls to the internet. It supports TCP, UDP, HTTP, and HTTPS protocols, with P2P connectivity. Key features include multi-protocol forwarding, custom domain access to internal services, SSH tunneling, HTTP file server exposure, HTTPS encryption, private service exposure, Prometheus monitoring, and client authentication, ideal for remote development and IoT access.
@@ -9865,7 +9886,7 @@
 ## reactnativecn/react-native-guide
 
 > [!info]
-> ⭐ 17,807 · N/A · 2026-11-19T00:09:42Z  
+> ⭐ 17,807 · N/A · 2026-11-21T11:11:48Z  
 > [GitHub](https://github.com/reactnativecn/react-native-guide)  
 > `#Cross-Platform` `#Mobile Development` `#React Native` 
 > The React Native Learning Guide is a comprehensive Chinese resource hub compiling tutorials, open-source apps, components, tools, and official documentation for React Native development, covering everything from beginner guides to native module integration for cross-platform mobile app creation.
@@ -9905,7 +9926,7 @@
 ## HelloZeroNet/ZeroNet
 
 > [!info]
-> ⭐ 18,772 · JavaScript · 2026-11-20T05:40:09Z  
+> ⭐ 18,774 · JavaScript · 2026-11-21T23:10:21Z  
 > [GitHub](https://github.com/HelloZeroNet/ZeroNet) · [Website](https://zeronet.io)  
 > `#Censorship-Resistant Web` `#Decentralized Network` `#P2P Technology` `#anonymity` `#anticensorship` `#bitcoin` `#bittorrent` `#decentralized` `#internet-freedom` `#p2p` `#python` `#realtime` `#tor` `#torrent` `#web` 
 > ZeroNet is a decentralized web platform using Bitcoin cryptography and the BitTorrent network for censorship-resistant, peer-to-peer hosting. Sites run on users' devices, support real-time updates, .bit domains, Tor anonymity, and automatic peer discovery without relying on central servers.
@@ -9935,7 +9956,7 @@
 ## unbug/codelf
 
 > [!info]
-> ⭐ 14,120 · JavaScript · 2026-11-20T07:55:18Z  
+> ⭐ 14,121 · JavaScript · 2026-11-21T03:38:10Z  
 > [GitHub](https://github.com/unbug/codelf) · [Website](https://unbug.github.io/codelf/)  
 > `#Code Tool` `#IDE Plugin` `#Variable Naming` `#atom-plugin` `#chrome-extension` `#codelf` `#naming` `#vscode-extension` 
 > CODELF is a smart variable naming tool that helps developers find real-world naming patterns by searching across GitHub and other code repositories. It offers IDE plugins for VS Code, Atom, and Sublime Text, features a daily algorithm practice guide, and includes GitHub repository tagging/organization tools to improve code naming consistency and productivity.
@@ -10105,7 +10126,7 @@
 ## littlecodersh/ItChat
 
 > [!info]
-> ⭐ 26,453 · Python · 2026-11-20T05:24:29Z  
+> ⭐ 26,454 · Python · 2026-11-21T12:27:10Z  
 > [GitHub](https://github.com/littlecodersh/ItChat) · [Website](http://itchat.readthedocs.io)  
 > `#Personal Account Bot` `#Python API` `#WeChat Automation` `#api` `#itchat` `#robot` `#wechat` 
 > itchat is a complete and elegant Python API for WeChat personal accounts, enabling easy development of WeChat bots, command-line WeChat, and automation. It supports message handling, friend management, file downloads, group chat processing, multi-instance operation, hot reload, and command-line QR code display, ideal for building custom WeChat applications quickly.
@@ -10165,7 +10186,7 @@
 ## ohmyzsh/ohmyzsh
 
 > [!info]
-> ⭐ 190,708 · Shell · 2026-11-20T23:56:28Z  
+> ⭐ 190,728 · Shell · 2026-11-21T22:49:02Z  
 > [GitHub](https://github.com/ohmyzsh/ohmyzsh) · [Website](https://ohmyz.sh)  
 > `#Plugin Ecosystem` `#Terminal Tools` `#Zsh Configuration` `#cli` `#cli-app` `#oh-my-zsh` `#oh-my-zsh-plugin` `#oh-my-zsh-theme` `#ohmyzsh` `#plugin-framework` `#plugins` `#productivity` `#shell` `#terminal` `#theme` `#themes` `#zsh` `#zsh-configuration` 
 > Oh My Zsh is a community-driven framework for managing zsh configurations, offering 300+ optional plugins (e.g., Git, Docker, Node.js) and 140+ themes, with auto-update support. It enhances terminal productivity and personalization through extensible plugins and beautiful themes, balancing power and simplicity for developers.
@@ -10175,7 +10196,7 @@
 ## vinta/awesome-python
 
 > [!info]
-> ⭐ 336,064 · Python · 2026-11-20T23:58:27Z  
+> ⭐ 336,266 · Python · 2026-11-21T22:59:39Z  
 > [GitHub](https://github.com/vinta/awesome-python) · [Website](https://awesome-python.com/)  
 > `#Development Tools` `#Open Source Resources` `#Python Ecosystem` `#awesome` `#awesome-list` `#python` `#python-frameworks` `#python-libraries` `#python-tools` 
 > Awesome Python is an opinionated curated list of top-tier Python frameworks, libraries, software, and resources across domains like web development, data science, machine learning, and automation, serving as a definitive reference for developers.
@@ -10195,7 +10216,7 @@
 ## taizilongxu/interview_python
 
 > [!info]
-> ⭐ 17,421 · Shell · 2026-11-20T06:06:57Z  
+> ⭐ 17,422 · Shell · 2026-11-21T21:07:15Z  
 > [GitHub](https://github.com/taizilongxu/interview_python)  
 > `#Algorithms & Data Structures` `#Interview Questions` `#Python Language` 
 > This repository compiles comprehensive Python interview questions covering language features (e.g., metaclasses, decorators, GIL), operating systems (IPC, memory management), databases (transactions, MVCC), networking (TCP/IP, HTTP), and data structures. It includes algorithm implementations like Fibonacci, sorting, and tree traversals, serving as a complete technical reference for Python job interviews.
@@ -10225,7 +10246,7 @@
 ## coolwanglu/pdf2htmlEX
 
 > [!info]
-> ⭐ 10,601 · HTML · 2026-11-20T22:14:30Z  
+> ⭐ 10,600 · HTML · 2026-11-21T17:00:37Z  
 > [GitHub](https://github.com/coolwanglu/pdf2htmlEX) · [Website](http://coolwanglu.github.com/pdf2htmlEX/)  
 > `#Document Conversion` `#PDF Processing` `#Web Publishing` 
 > pdf2htmlEX converts PDF files into HTML while preserving text, fonts, layout, and complex elements like formulas and figures. It supports links, bookmarks, SVG backgrounds, and more. Ideal for publishing academic papers and magazines online, offering compact output (often smaller than PDF) with optional on-demand loading via JavaScript.
@@ -10255,7 +10276,7 @@
 ## Wox-launcher/Wox
 
 > [!info]
-> ⭐ 27,675 · Go · 2026-11-20T23:13:53Z  
+> ⭐ 27,678 · Go · 2026-11-21T08:34:19Z  
 > [GitHub](https://github.com/Wox-launcher/Wox) · [Website](https://woxlauncher.com)  
 > `#AI 智能体` `#Cross-Platform Launcher` `#Productivity Tool` `#alfred` `#app-launcher` `#launcher` `#launchpad` `#launchy` `#productivity` `#productivity-tools` `#raycast` `#spotlight` `#wox` `#wox-launcher` 
 > Wox is a cross-platform launcher offering fast search for apps, files, and folders, plus AI chat with MCP support. It features a plugin system (JavaScript/Python) and themes, runs as a single executable without installation, and supports Windows, macOS, and Linux. Designed as an open-source alternative to Alfred and Raycast, it emphasizes simplicity and extensibility.
@@ -10365,7 +10386,7 @@
 ## django-import-export/django-import-export
 
 > [!info]
-> ⭐ 3,334 · Python · 2026-11-20T15:28:17Z  
+> ⭐ 3,335 · Python · 2026-11-21T07:28:47Z  
 > [GitHub](https://github.com/django-import-export/django-import-export) · [Website](https://django-import-export.readthedocs.org/en/latest/)  
 > `#Admin Integration` `#Data Import/Export` `#Django Extension` `#csv` `#django` `#import-export` `#json` `#python` `#xls` 
 > django-import-export is a robust Django library for importing and exporting data across multiple formats (CSV, Excel, JSON, etc.). It offers seamless Admin UI integration and programmatic access, featuring data preview, bulk import, CRUD control, foreign key/many-to-many relation handling, validation, and custom transformations—ideal for data migration and batch operations in Django applications.
@@ -10435,7 +10456,7 @@
 ## Tencent/weui
 
 > [!info]
-> ⭐ 27,447 · HTML · 2026-11-20T21:09:37Z  
+> ⭐ 27,448 · HTML · 2026-11-21T05:24:15Z  
 > [GitHub](https://github.com/Tencent/weui) · [Website](https://weui.io)  
 > `#Mobile UI` `#UI Component Library` `#WeChat Mini Program` `#mobile-web` `#style` `#wechat` `#weui` 
 > WeUI is an open-source UI library developed by Tencent's WeChat design team, specifically tailored for WeChat web and mini-program development. It offers a comprehensive set of mobile-first components (e.g., buttons, forms, dialogs) to deliver a consistent and standardized user experience across WeChat ecosystems, enabling rapid development of visually appealing mobile web apps.
@@ -10475,7 +10496,7 @@
 ## django-extensions/django-extensions
 
 > [!info]
-> ⭐ 6,806 · Python · 2026-11-19T08:20:47Z  
+> ⭐ 6,807 · Python · 2026-11-21T13:26:56Z  
 > [GitHub](https://github.com/django-extensions/django-extensions) · [Website](https://django-extensions.readthedocs.io)  
 > `#DevOps Automation` `#Development Tools` `#Django Extensions` 
 > Django Extensions is a collection of custom management extensions for Django, offering tools like model graphing, URL inspection, template validation, shell_plus, and runserver_plus to enhance developer productivity and debugging workflows.
@@ -10554,7 +10575,7 @@
 ## ChenYilong/iOSInterviewQuestions
 
 > [!info]
-> ⭐ 9,552 · Swift · 2026-11-20T01:03:15Z  
+> ⭐ 9,553 · Swift · 2026-11-21T00:16:47Z  
 > [GitHub](https://github.com/ChenYilong/iOSInterviewQuestions)  
 > `#Interview Questions` `#Objective-C` `#Swift` `#iOS Development` 
 > This repository compiles 55 essential iOS interview questions with comprehensive answers in both Objective-C and Swift, covering core topics like memory management, multithreading, Runtime mechanisms, KVC/KVO, and Blocks. It includes theoretical and practical sections, serving as a definitive resource for iOS developers preparing for technical interviews and deepening their understanding of system-level concepts.
@@ -10604,7 +10625,7 @@
 ## Python-Markdown/markdown
 
 > [!info]
-> ⭐ 4,259 · Python · 2026-11-19T21:16:03Z  
+> ⭐ 4,258 · Python · 2026-11-21T23:04:54Z  
 > [GitHub](https://github.com/Python-Markdown/markdown) · [Website](https://python-markdown.github.io/)  
 > `#Document Processing` `#HTML Conversion` `#Markdown Parser` `#markdown` `#markdown-parser` `#markdown-to-html` `#python` `#python-markdown` `#python3` 
 > Python-Markdown is a Python implementation of John Gruber's Markdown, nearly fully compliant with the reference implementation. It supports extensible syntax via plugins, offering a clean API to convert Markdown text into HTML, widely used in documentation, static site generation, and content management systems.
@@ -10624,7 +10645,7 @@
 ## darklow/django-suit
 
 > [!info]
-> ⭐ 2,402 · SCSS · 2026-11-19T00:19:04Z  
+> ⭐ 2,403 · SCSS · 2026-11-21T22:39:23Z  
 > [GitHub](https://github.com/darklow/django-suit) · [Website](http://djangosuit.com/)  
 > `#Admin Interface` `#Django Extension` `#UI Enhancement` `#django` `#django-admin` 
 > Django Suit is a modern theme for the Django admin interface, offering a clean and enhanced UI to improve the admin experience. It supports both stable v1 and experimental v2 versions, featuring responsive design and improved usability for Django projects requiring a professional admin panel.
@@ -10634,7 +10655,7 @@
 ## rstacruz/nprogress
 
 > [!info]
-> ⭐ 26,329 · JavaScript · 2026-11-19T21:23:10Z  
+> ⭐ 26,328 · JavaScript · 2026-11-21T03:13:32Z  
 > [GitHub](https://github.com/rstacruz/nprogress) · [Website](http://ricostacruz.com/nprogress)  
 > `#Ajax Loading Indicator` `#Frontend Component` `#Progress Bar` 
 > NProgress is a minimalist progress bar library for Ajax applications, inspired by YouTube and Medium. It offers a simple API to control the bar, integrates with frameworks like Turbolinks and Pjax, and supports customization of minimum value, animation speed, and template.
@@ -10644,7 +10665,7 @@
 ## atom/atom
 
 > [!info]
-> ⭐ 60,688 · JavaScript · 2026-11-20T20:48:02Z  
+> ⭐ 60,688 · JavaScript · 2026-11-21T12:41:13Z  
 > [GitHub](https://github.com/atom/atom) · [Website](https://atom.io)  
 > `#Cross-Platform` `#Electron` `#Text Editor` `#atom` `#editor` `#electron` `#javascript` `#linux` `#macos` `#windows` 
 > Atom is a hackable, modern text editor built on Electron, designed for deep customization while remaining approachable. It combines the best features of traditional editors with a flexible, open-source architecture for developers.
@@ -10734,7 +10755,7 @@
 ## scrapy/scrapy
 
 > [!info]
-> ⭐ 65,514 · Python · 2026-11-20T23:10:59Z  
+> ⭐ 65,527 · Python · 2026-11-21T21:41:00Z  
 > [GitHub](https://github.com/scrapy/scrapy) · [Website](https://scrapy.org)  
 > `#Automation Tool` `#Data Collection` `#Python` `#网页爬虫` `#crawler` `#crawling` `#framework` `#hacktoberfest` `#python` `#scraping` `#web-scraping` `#web-scraping-python` 
 > Scrapy is a high-performance Python web crawling and scraping framework designed for extracting structured data from websites. Built on an asynchronous architecture, it enables high-concurrency data extraction with flexible middleware support, widely used in data collection, price monitoring, and content aggregation.
@@ -10804,7 +10825,7 @@
 ## cmderdev/cmder
 
 > [!info]
-> ⭐ 27,011 · PowerShell · 2026-11-20T15:04:01Z  
+> ⭐ 27,012 · PowerShell · 2026-11-21T14:46:29Z  
 > [GitHub](https://github.com/cmderdev/cmder) · [Website](https://cmder.app)  
 > `#Portable` `#Terminal Emulator` `#Windows Tool` `#c-plus-plus` `#cmder` `#color-scheme` `#command-line` `#conemu` `#mintty` `#portable` `#powershell` `#shell` `#ssh-agent` `#windows` 
 > Cmder is a portable console emulator for Windows, built on ConEmu with major enhancements including Monokai color scheme, clink integration, and customizable prompts. It offers zero external dependencies, ideal for USB drives or cloud storage, and includes tools like wget, curl, and git for seamless command-line productivity.
@@ -10924,7 +10945,7 @@
 ## zh-google-styleguide/zh-google-styleguide
 
 > [!info]
-> ⭐ 10,991 · Makefile · 2026-11-19T22:54:12Z  
+> ⭐ 10,992 · Makefile · 2026-11-21T15:23:10Z  
 > [GitHub](https://github.com/zh-google-styleguide/zh-google-styleguide) · [Website](http://zh-google-styleguide.readthedocs.org/)  
 > `#Code Style` `#Coding Standards` `#Multi-language Guidelines` 
 > This is the authoritative Chinese translation of Google's open-source style guides, covering coding standards for 8 major languages including C++, Python, Java, JavaScript, TypeScript, Shell, and HTML/CSS. It provides comprehensive guidelines to ensure consistency, readability, and maintainability in large-scale software projects.
@@ -10953,7 +10974,7 @@
 ## angular/material
 
 > [!info]
-> ⭐ 16,378 · JavaScript · 2026-11-19T19:16:46Z  
+> ⭐ 16,379 · JavaScript · 2026-11-21T13:09:15Z  
 > [GitHub](https://github.com/angular/material) · [Website](https://material.angularjs.org/)  
 > `#AngularJS` `#Material Design` `#UI Components` `#angularjs` `#angularjs-material` `#javascript` `#lts` `#material-design` 
 > AngularJS Material is the official implementation of Google's Material Design specification for AngularJS (v1.x), offering a lightweight set of reusable, accessible UI components. Support ended in January 2022; users are advised to migrate to Angular Material (v2+).
@@ -11132,7 +11153,7 @@
 ## XX-net/XX-Net
 
 > [!info]
-> ⭐ 33,493 · Python · 2026-11-20T18:25:38Z  
+> ⭐ 33,495 · Python · 2026-11-21T12:36:53Z  
 > [GitHub](https://github.com/XX-net/XX-Net)  
 > `#Network Proxy` `#Privacy Protection` `#Traffic Obfuscation` `#gfw` `#goagent` `#proxy` `#uncensored` `#vpn` 
 > XX-Net is a mature 9-year-old circumvention tool supporting multi-platform simultaneous connections. Its core strength lies in proprietary traffic obfuscation that mimics Chrome browser behavior for stealthy network bypass. The software integrates built-in ChatGPT with one million free tokens per plan, combining privacy protection with AI productivity features.
@@ -11142,7 +11163,7 @@
 ## zhuinfo/Django-ERP
 
 > [!info]
-> ⭐ 1,478 · Python · 2026-11-18T15:53:05Z  
+> ⭐ 1,479 · Python · 2026-11-21T14:30:52Z  
 > [GitHub](https://github.com/zhuinfo/Django-ERP)  
 > `#Django Framework` `#ERP System` `#Enterprise Management` 
 > Django-ERP is an open-source ERP management system built on Django, featuring modules for sales, procurement, inventory, and organizational management. It supports project-based cost allocation, workflow approvals, and bulk import of purchase orders and quotations, ideal for SMEs seeking streamlined internal operations.
@@ -11272,7 +11293,7 @@
 ## django/django
 
 > [!info]
-> ⭐ 91,884 · Python · 2026-11-20T23:38:09Z  
+> ⭐ 91,894 · Python · 2026-11-21T23:10:57Z  
 > [GitHub](https://github.com/django/django) · [Website](https://www.djangoproject.com/)  
 > `#Full-Stack Development` `#Python Framework` `#Web Development` `#apps` `#django` `#framework` `#models` `#orm` `#python` `#templates` `#views` `#web` 
 > Django is a high-level Python web framework designed for developers who value rapid development and clean, pragmatic design. It provides built-in features like ORM, admin interface, authentication, and URL routing, enabling secure and maintainable web application development with minimal boilerplate code.
@@ -11292,7 +11313,7 @@
 ## django-guardian/django-guardian
 
 > [!info]
-> ⭐ 3,920 · Python · 2026-11-19T14:18:27Z  
+> ⭐ 3,921 · Python · 2026-11-21T05:14:13Z  
 > [GitHub](https://github.com/django-guardian/django-guardian) · [Website](https://django-guardian.readthedocs.io/)  
 > `#Access Control` `#Django Extension` `#Object Permissions` 
 > django-guardian is a Django library implementing per-object permissions by extending Django's authorization backend. It enables fine-grained access control at the object level, allowing assignment of permissions to individual model instances—ideal for multi-tenant or collaborative applications requiring complex permission models.
@@ -11472,7 +11493,7 @@
 ## Dogfalo/materialize
 
 > [!info]
-> ⭐ 38,773 · JavaScript · 2026-11-20T10:08:23Z  
+> ⭐ 38,770 · JavaScript · 2026-11-21T23:10:45Z  
 > [GitHub](https://github.com/Dogfalo/materialize) · [Website](https://materializecss.com)  
 > `#Frontend Framework` `#Material Design` `#Responsive Layout` `#css` `#css-framework` `#design` `#framework` `#javascript` `#material` `#material-design` 
 > MaterializeCSS is a modern CSS framework based on Material Design principles, offering a rich set of pre-built components (e.g., navigation, cards, forms) with smooth animations and responsive layouts, compatible with major browsers for rapid development of visually appealing and user-friendly web applications.
@@ -11541,7 +11562,7 @@
 ## apache/echarts
 
 > [!info]
-> ⭐ 67,761 · TypeScript · 2026-11-20T18:49:19Z  
+> ⭐ 67,768 · TypeScript · 2026-11-21T22:47:13Z  
 > [GitHub](https://github.com/apache/echarts) · [Website](https://echarts.apache.org)  
 > `#Interactive Charts` `#JavaScript` `#数据可视化` `#apache` `#canvas` `#charting-library` `#charts` `#data-visualization` `#data-viz` `#echarts` `#svg` `#visualization` 
 > Apache ECharts is a free, powerful charting and visualization library for browsers, built with pure JavaScript and zrender. It offers intuitive, interactive, and highly customizable charts for commercial products, with support for npm, CDN, and comprehensive documentation.
@@ -11581,7 +11602,7 @@
 ## tiimgreen/github-cheat-sheet
 
 > [!info]
-> ⭐ 60,509 · N/A · 2026-11-20T23:53:04Z  
+> ⭐ 60,537 · N/A · 2026-11-21T22:45:42Z  
 > [GitHub](https://github.com/tiimgreen/github-cheat-sheet) · [Website](http://git.io/sheet)  
 > `#Developer Tools` `#Git/GitHub` `#Productivity` `#awesome` `#awesome-list` `#git` `#github` `#list` 
 > This repository provides a comprehensive cheat sheet of advanced Git and GitHub features, including whitespace ignoring, branch comparisons, line highlighting, task lists, emoji support, Gists, Hub CLI, and more—designed to boost developer productivity in collaborative coding and code review workflows.
@@ -11601,7 +11622,7 @@
 ## geekcompany/ResumeSample
 
 > [!info]
-> ⭐ 28,387 · N/A · 2026-11-20T01:47:04Z  
+> ⭐ 28,386 · N/A · 2026-11-21T21:55:33Z  
 > [GitHub](https://github.com/geekcompany/ResumeSample) · [Website](http://cv.ftqq.com/?fr=github)  
 > `#Programmer Resume` `#Resume Template` `#Tech Roles` 
 > This repo offers 9 resume templates for Chinese programmers, covering PHP, iOS, Android, Web Frontend, Java, C/C++, NodeJS, and Architect roles in Markdown format, optimized by AI career advisor 职小兔®. It includes tools like Cold Bear Resume and DeerResume, plus teaching resources on writing effective tech resumes to help developers build professional profiles.
@@ -11611,7 +11632,7 @@
 ## justjavac/free-programming-books-zh_CN
 
 > [!info]
-> ⭐ 119,672 · N/A · 2026-11-20T15:56:59Z  
+> ⭐ 119,679 · N/A · 2026-11-21T22:36:09Z  
 > [GitHub](https://github.com/justjavac/free-programming-books-zh_CN) · [Website](http://weibo.com/justjavac)  
 > `#Computer Science` `#Learning Resources` `#Programming Books` `#android` `#angular` `#books` `#free` `#ios` `#javascript` `#kotlin` `#pdf` `#programming` `#python` `#react` `#react-native` `#swift` `#vue` 
 > This repository provides a curated collection of free Chinese programming books covering computer science fundamentals, web development, algorithms, and major programming languages, serving as a valuable learning resource for developers with community-driven contributions.
@@ -11661,7 +11682,7 @@
 ## fxsjy/jieba
 
 > [!info]
-> ⭐ 35,246 · Python · 2026-11-20T12:31:16Z  
+> ⭐ 35,247 · Python · 2026-11-21T13:14:26Z  
 > [GitHub](https://github.com/fxsjy/jieba)  
 > `#Chinese Segmentation` `#Natural Language Processing` `#Text Analysis` 
 > Jieba is the best Python-based Chinese text segmentation module, supporting four modes: precise, full, search engine, and Paddle deep learning. It features new word discovery, custom dictionaries, and part-of-speech tagging, using efficient algorithms like prefix dictionaries and HMM models for text analysis and search engines.
@@ -11681,7 +11702,7 @@
 ## cyfdecyf/cow
 
 > [!info]
-> ⭐ 8,396 · Go · 2026-11-20T09:09:57Z  
+> ⭐ 8,397 · Go · 2026-11-21T06:26:02Z  
 > [GitHub](https://github.com/cyfdecyf/cow)  
 > `#Automated Bypass` `#Go Language` `#Network Proxy` 
 > COW (Climb Over the Wall) is an intelligent HTTP proxy written in Go, designed to simplify bypassing internet restrictions. It automatically detects blocked websites and routes only those through secondary proxies (e.g., Shadowsocks, SOCKS5), while allowing direct access to uncensored sites for optimal speed. Features include multi-proxy support, load balancing, PAC generation, and adaptive learning of site accessibility patterns.
@@ -11691,7 +11712,7 @@
 ## PhilJay/MPAndroidChart
 
 > [!info]
-> ⭐ 38,185 · Kotlin · 2026-11-20T16:05:37Z  
+> ⭐ 38,186 · Kotlin · 2026-11-21T05:34:59Z  
 > [GitHub](https://github.com/PhilJay/MPAndroidChart) · [Website](https://philjay.cc/mpandroidchart)  
 > `#Android Development` `#Chart Library` `#数据可视化` `#android` `#chart` `#graph` `#java` `#mpandroidchart` 
 > MPAndroidChart is a powerful and easy-to-use Android chart library supporting line, bar, pie, radar, bubble, and candlestick charts with scaling, panning, and animations for data visualization.
@@ -11940,7 +11961,7 @@
 ## GitbookIO/gitbook
 
 > [!info]
-> ⭐ 29,100 · TypeScript · 2026-11-20T16:15:17Z  
+> ⭐ 29,103 · TypeScript · 2026-11-21T18:07:30Z  
 > [GitHub](https://github.com/GitbookIO/gitbook) · [Website](https://www.gitbook.com)  
 > `#Documentation Tool` `#Next.js` `#Technical Documentation` `#documentation` `#git` `#gitbook` `#markdown` 
 > GitBook is an open-source frontend engine for rendering GitBook documentation sites, built on Next.js. It enables local development and custom publishing of technical knowledge, supporting team collaboration and open-source contributions for documentation workflows.
@@ -11950,7 +11971,7 @@
 ## Trinea/android-open-project
 
 > [!info]
-> ⭐ 31,815 · N/A · 2026-11-20T12:16:27Z  
+> ⭐ 31,818 · N/A · 2026-11-21T07:03:43Z  
 > [GitHub](https://github.com/Trinea/android-open-project) · [Website](https://p.codekk.com/)  
 > `#Android Development` `#Development Tools` `#Open Source Projects` `#android` `#open-source-project` 
 > This repository is a comprehensive categorized collection of 250+ high-quality Android open-source projects, covering UI components, toolkits, and outstanding apps. It includes a powerful Development Tools app for reverse engineering, layout inspection, color sampling, and debugging. The companion website offers project discovery and updates.
@@ -12000,7 +12021,7 @@
 ## foundation/yeti
 
 > [!info]
-> ⭐ 29,820 · JavaScript · 2026-11-20T14:43:54Z  
+> ⭐ 29,821 · JavaScript · 2026-11-21T18:43:36Z  
 > [GitHub](https://github.com/foundation/yeti) · [Website](https://foundationcss.com)  
 > `#CSS Framework` `#Frontend Development` `#Zero-Build Toolchain` `#css` `#foundation` `#html` `#website` 
 > Yeti is Foundation's next-gen CSS-first layout and styling framework with zero build requirements, leveraging native CSS features like Container Queries, Cascade Layers, and Nesting. It offers intent-based named layouts, a single token scale system, accessible-by-default components, and a machine-readable manifest with MCP server support, targeting Baseline 2025 browsers.
@@ -12160,7 +12181,7 @@
 ## Semantic-Org/Semantic-UI
 
 > [!info]
-> ⭐ 50,992 · JavaScript · 2026-11-20T22:02:26Z  
+> ⭐ 50,994 · JavaScript · 2026-11-21T05:24:04Z  
 > [GitHub](https://github.com/Semantic-Org/Semantic-UI) · [Website](http://www.semantic-ui.com)  
 > `#Frontend Framework` `#Responsive Design` `#UI Component Library` `#button` `#css-framework` `#dropdown` `#flexbox` `#popup` `#semantic` `#sidebar` `#tooltip` `#ui` `#ui-components` 
 > Semantic UI is a modern UI component framework based on natural language principles, offering 50+ components, 3000+ CSS variables, and a three-level variable inheritance system. It supports responsive design with EM values and Flexbox, integrates seamlessly with React, Angular, and other frameworks, enabling rapid development of beautiful and maintainable web interfaces.
@@ -12290,7 +12311,7 @@
 ## mui/material-ui
 
 > [!info]
-> ⭐ 99,375 · JavaScript · 2026-11-20T22:32:18Z  
+> ⭐ 99,380 · JavaScript · 2026-11-21T21:17:14Z  
 > [GitHub](https://github.com/mui/material-ui) · [Website](https://mui.com/material-ui/)  
 > `#Frontend Framework` `#React Component Library` `#UI Design System` `#design-system` `#material-design` `#material-ui` `#react` `#react-components` 
 > Material UI is a comprehensive React component library implementing Google's Material Design. It offers battle-tested, accessible, and responsive UI components with a customizable theme system. Trusted by global product teams, it extends functionality via MUI X for advanced use cases.
@@ -12300,7 +12321,7 @@
 ## mdbootstrap/mdb-ui-kit
 
 > [!info]
-> ⭐ 24,237 · SCSS · 2026-11-20T22:32:23Z  
+> ⭐ 24,236 · SCSS · 2026-11-21T22:28:58Z  
 > [GitHub](https://github.com/mdbootstrap/mdb-ui-kit) · [Website](https://mdbootstrap.com/docs/standard/)  
 > `#Bootstrap` `#Frontend Framework` `#UI Components` `#bootstrap` `#bootstrap-material` `#bootstrap-template` `#bootstrap-theme` `#bootstrap-themes` `#bootstrap-ui-kit` `#bootstrap5` `#css` `#framework` `#html` `#javascript` `#material` `#material-design` `#uikit` 
 > MDBootstrap offers a free UI kit with 700+ Bootstrap 5 components based on Material Design, built in plain JavaScript. It supports npm, CDN, and Webpack integration, enabling rapid development of modern web interfaces trusted by 3M+ developers and enterprises like NASA and Nike.
